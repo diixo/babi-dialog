@@ -550,7 +550,7 @@ def build(out, counts):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products')
+    parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products-v2')
     parser.add_argument('--train', type=int, default=2000)
     parser.add_argument('--valid', type=int, default=300)
     parser.add_argument('--test', type=int, default=300)
