@@ -193,3 +193,181 @@ User: I wanted coffee. Actually, I changed my mind. I'll have tea.
 После этого можно проверить, способна ли GPT-2 правильно извлекать роли из нескольких предложений, объединять их и формировать **один связный ответ без повторных уточнений уже известных фактов**.
 
 Это будет естественным развитием нашего bAbI-подхода и не потребует перехода на JSON или полноценную машину состояний.
+
+
+## Semantic Dialogue Learning Chains (build_v4)
+
+The dataset uses a bAbI-style question-answer format to teach a language model how to extract semantic information, track dialogue context, resolve uncertainty, update facts, and generate context-aware responses.
+
+Each question-answer pair includes supporting line references. Semantic information is represented through structured textual questions rather than JSON.
+
+### 1. Semantic Role Extraction
+
+`actor → action → intention → object`
+
+Extract the semantic components of a user's utterance, including who is involved, what action is described, what the user intends, and which objects are associated with the action.
+
+### 2. Missing Information and Clarification
+
+`action → object → missing → next action → question`
+
+Determine whether the information required to continue the dialogue is known. If relevant information is missing, generate an appropriate clarification question.
+
+### 3. Uncertainty Resolution
+
+`question → user answer → certainty → clarify / advance`
+
+Interpret a user's answer in the context of the preceding question. Distinguish known, unknown, and ambiguous information, and determine whether clarification is still necessary.
+
+### 4. Contextual State Updating
+
+`previous object → user answer → operation → updated object`
+
+Update previously established information when the user provides new values, confirms a choice, corrects an earlier statement, or changes a preference.
+
+### 5. Dialogue Response Generation
+
+`semantic context → next action → assistant response`
+
+Generate a relevant assistant response based on extracted semantic roles, known information, missing arguments, and the current dialogue context.
+
+### 6. Object Accumulation and Tracking
+
+`action → object → add → current objects`
+
+Associate multiple objects with a single action and accumulate them across successive user utterances.
+
+### 7. Object Removal
+
+`action → current objects → remove → updated objects`
+
+Remove a specific object from an action without affecting other objects associated with the same action.
+
+### 8. Object Replacement
+
+`action → previous object → replace → new object → updated objects`
+
+Replace previously selected objects when the user changes their mind while preserving unrelated information.
+
+### 9. Object Preservation
+
+`action → current objects → keep → current objects`
+
+Preserve previously established objects when new utterances do not modify them or explicitly confirm that they remain relevant.
+
+### 10. Action Cancellation and Completion
+
+`action → current objects → clear / complete → updated state`
+
+Distinguish between cancelling an action and completing the collection of information associated with that action.
+
+- `clear`: Remove all objects associated with the specified action.
+- `complete`: Mark the selection as finished without removing its objects.
+
+### 11. Multiple Action Tracking
+
+`actor → actions → objects → operations → updated action objects`
+
+Track multiple independent actions and their associated objects within the same dialogue.
+
+Updates to one action must not unintentionally modify objects belonging to another action.
+
+### 12. Cross-Action Object Independence
+
+`shared object → action A + action B → cancel action A → preserve action B`
+
+Allow the same object to participate in several independent actions.
+
+Cancelling or modifying one action does not automatically cancel or modify other actions involving that object.
+
+### 13. Contextual Answer Interpretation
+
+`previous question → user answer → resolved argument → updated state`
+
+Interpret short responses such as "Yes", "No", "Maybe", or "Actually" using the preceding dialogue context.
+
+The same answer may carry different meanings depending on the question it addresses.
+
+### 14. Dialogue History and Memory
+
+`dialogue history → extracted facts → current semantic state → next action`
+
+Accumulate semantic information throughout a conversation and use the current state to avoid asking questions that have already been answered.
+
+### 15. Loop Prevention and Clarification Recovery
+
+`missing → clarify → repeated uncertainty → stop_clarify → assistant response`
+
+Recognize repeated unsuccessful clarification attempts and prevent persistent questioning loops.
+
+The assistant should stop unnecessary clarification when the user declines to answer or repeated questioning becomes unproductive.
+
+### 16. Emotion Recognition and Dialogue Adaptation
+
+`user utterance → emotion → current emotion → next action → assistant response`
+
+Identify one of seven emotion categories:
+
+`neutral / joy / surprise / sadness / anger / disgust / fear`
+
+When the emotion is unknown, ask for clarification. When it is known, generate a contextually appropriate follow-up question or response.
+
+### 17. Contextual Emotion Tracking
+
+`action → dialogue context → emotion → context-aware question`
+
+Connect the user's emotional state with previously discussed activities, such as work, programming, gaming, walking, or relaxing.
+
+Use emotional context to guide the conversation without unnecessarily repeating questions about the user's mood.
+
+### 18. Advice Generation
+
+`user state → missing information → clarification → collected facts → advice`
+
+Gather relevant information before generating advice.
+
+Supported scenarios include:
+
+- Weather, time of day, and season → clothing advice.
+- Tiredness and rest duration → rest suggestions.
+- Sleepiness and sleep history → sleep-related suggestions.
+
+Advice is generated from the collected information rather than from an isolated user utterance.
+
+### 19. Semantic State Continuation
+
+`actor → action → intention → object → missing → question → user answer → operation → updated objects → next action → assistant response`
+
+Combine semantic role extraction, clarification, contextual answer interpretation, object tracking, state updates, and response generation into a continuous dialogue-learning process.
+
+### 20. Implicit Semantic Behavior Learning
+
+`structured semantic examples → learned relationships → dialogue behavior`
+
+The training objective is to encourage the model to learn relationships between semantic roles, missing information, dialogue history, user responses, and appropriate assistant behavior.
+
+Explicit semantic questions provide supervision during training. Whether these relationships transfer to natural dialogue without explicit semantic annotations must be evaluated separately.
+
+---
+
+## Core Learning Objective
+
+Teach a language model to maintain coherent semantic relationships throughout a conversation:
+
+**Understand → Extract → Clarify → Resolve → Accumulate → Update → Preserve → Respond**
+
+The model should learn to:
+
+- Recognize user intentions and actions.
+- Associate multiple objects with their corresponding actions.
+- Identify missing or uncertain information.
+- Ask relevant clarification questions.
+- Resolve short and ambiguous answers using dialogue context.
+- Accumulate, remove, replace, and preserve objects.
+- Track several independent actions simultaneously.
+- Respect refusals and user-initiated changes.
+- Avoid repeated questions and persistent dialogue loops.
+- Adapt responses to emotions, activities, and contextual information.
+- Generate natural responses consistent with the current semantic state.
+
+The ultimate goal is **stable, context-aware dialogue behavior without requiring an explicit finite-state machine during inference**.

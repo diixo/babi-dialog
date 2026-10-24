@@ -133,7 +133,9 @@ TASKS = [
     'decline',
     'loop',
     'advice',
-    'emotion'
+    'emotion',
+    'object_tracking',
+    'multi_action'
     ]
 
 
@@ -260,6 +262,10 @@ def render(rng, task, action):
         return rng.choice([render_weather, render_tired, render_sleepy])(rng)
     if task == 'emotion':
         return render_emotion(rng, action)
+    if task == 'object_tracking':
+        return render_object_tracking(rng)
+    if task == 'multi_action':
+        return render_multi_action(rng)
     verb, _, ask, _ = action
     turns = make_dialogue(rng, task, action)
     rows = []
@@ -642,6 +648,156 @@ def render_emotion(rng, action):
     return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
 
 
+
+# Object tracking exercises use explicit semantic operations, not a general
+# dialogue-state machine. Each action has its own independent object collection.
+TRACKING_OBJECTS = {
+    'buy': ['apples', 'pears', 'milk', 'bread', 'a book', 'a phone', 'a jacket'],
+    'cook': ['pasta', 'rice', 'soup', 'vegetables', 'bread'],
+    'read': ['a book', 'a magazine', 'a novel', 'a comic'],
+    'play_video_games': ['a racing game', 'a puzzle game', 'a strategy game', 'a role-playing game'],
+    'pack': ['a jacket', 'a book', 'a phone', 'a charger'],
+    'watch': ['a movie', 'a documentary', 'a comedy', 'a series']
+    }
+TRACKING_VERBS = {
+    'buy': 'buy',
+    'cook': 'cook',
+    'read': 'read',
+    'play_video_games': 'play',
+    'pack': 'pack',
+    'watch': 'watch'
+    }
+
+
+def tracking_story(rng, multiple):
+    actions = rng.sample(list(TRACKING_OBJECTS), 3) if multiple else [rng.choice(list(TRACKING_OBJECTS))]
+    if multiple and rng.randrange(3) == 0:
+        actions = ['buy', 'read', rng.choice(['cook', 'pack', 'watch'])]
+    objects = {action: [] for action in actions}
+    sources = {action: [] for action in actions}
+    rows = []
+
+    def fact(line):
+        rows.append(line)
+        return len(rows)
+
+    def question(label, answer, refs):
+        refs = sorted(set(refs))
+        assert refs and all(1 <= r <= len(rows) for r in refs)
+        return fact(f'{label}\t{answer}\t{" ".join(map(str, refs))}')
+
+    def state_answer(action):
+        return ', '.join(objects[action]) if objects[action] else 'none'
+
+    def turn(action, utterance, operation, changed, new_objects=None, old_objects=None):
+        new_objects = new_objects or []
+        old_objects = old_objects or []
+        user = fact('User: ' + utterance)
+        support = [user] + sources[action][-1:]
+        question('actor?', 'user', [user])
+        question('action?', action, support)
+        question('intention?', action, support)
+        question('objects?', ', '.join(changed) if changed else 'none', [user])
+        question('operation?', operation, support)
+        if operation == 'add':
+            for obj in new_objects:
+                if obj not in objects[action]:
+                    objects[action].append(obj)
+        elif operation == 'remove':
+            objects[action] = [obj for obj in objects[action] if obj not in old_objects]
+        elif operation == 'replace':
+            index = objects[action].index(old_objects[0])
+            objects[action][index] = new_objects[0]
+        elif operation == 'clear':
+            objects[action] = []
+        # keep and complete preserve the collection unchanged.
+        sources[action].append(user)
+        current = question(f'current objects for {action}?', state_answer(action), sources[action])
+        if operation == 'complete':
+            next_action = 'advance'
+            response = 'All right, that is everything for now.'
+        elif operation == 'clear':
+            next_action = 'advance'
+            response = 'Okay, I have cleared those plans.'
+        elif objects[action]:
+            next_action = 'advance'
+            response = 'Got it. For ' + action.replace('_', ' ') + ', I have: ' + state_answer(action) + '.'
+        else:
+            next_action = 'clarify'
+            response = 'What would you like to ' + TRACKING_VERBS[action] + '?'
+        decision = question('next action?', next_action, [current, user])
+        question('assistant response?', response, [current, decision])
+        return response
+
+    def emit(action, utterance, operation, changed, new_objects=None, old_objects=None):
+        response = turn(action, utterance, operation, changed, new_objects, old_objects)
+        fact('Assistant: ' + response)
+
+    # The first user message is always a concrete, grounded addition.
+    for index, action in enumerate(actions):
+        value = rng.choice(TRACKING_OBJECTS[action])
+        if multiple and action in ('buy', 'read') and 'buy' in actions and 'read' in actions:
+            value = 'a book'
+        utterance = rng.choice([
+            f'I want to {TRACKING_VERBS[action]} {value}.',
+            f"I'd like to {TRACKING_VERBS[action]} {value}."
+            ])
+        emit(action, utterance, 'add', [value], [value])
+
+    # Adding two objects in one sentence and then removing one is the core test.
+    action = rng.choice(actions)
+    additions = rng.sample([value for value in TRACKING_OBJECTS[action] if value not in objects[action]], 2)
+    add_text = (f'I also want to {TRACKING_VERBS[action]} {additions[0]} and {additions[1]}.'
+                if multiple else f'Also {additions[0]} and {additions[1]}.')
+    emit(action, add_text, 'add', additions, additions)
+    to_remove = rng.choice(additions)
+    remove_text = (f'Actually, remove {to_remove} from my {action.replace("_", " ")} plans.'
+                   if multiple else f'Actually, forget {to_remove}.')
+    emit(action, remove_text, 'remove', [to_remove], old_objects=[to_remove])
+
+    # Replacements are not removals of the entire set.
+    replace_actions = [a for a in actions if objects[a]]
+    if multiple and 'buy' in actions and 'read' in actions:
+        replace_actions = [a for a in replace_actions if a != 'buy']
+    action = rng.choice(replace_actions)
+    original = rng.choice(objects[action])
+    replacement = rng.choice([value for value in TRACKING_OBJECTS[action] if value not in objects[action]])
+    emit(action, f'Change {original} to {replacement}.', 'replace', [original, replacement], [replacement], [original])
+
+    action = rng.choice(actions)
+    if rng.choice([True, False]):
+        kept = rng.choice(objects[action])
+        keep_text = (f'I still want to {TRACKING_VERBS[action]} {kept}.'
+                     if multiple else f'I still want {kept}.')
+        emit(action, keep_text, 'keep', [kept])
+    else:
+        emit(action, 'That is everything for now.', 'complete', [])
+
+    if multiple:
+        if 'buy' in actions and 'read' in actions:
+            emit('buy', 'Actually, I no longer want to buy the book.', 'remove', ['a book'], old_objects=['a book'])
+        action = rng.choice(actions)
+        emit(action, f'I have cancelled all my {action.replace("_", " ")} plans.', 'clear', [])
+        # Query all independent actions after the change, not only the last one.
+        for action in actions:
+            question(f'final objects for {action}?', state_answer(action), sources[action])
+        overview = '; '.join(f'{action}: {state_answer(action)}' for action in actions)
+        question('assistant response?', 'Current plans: ' + overview + '.', [sources[a][-1] for a in actions])
+    else:
+        action = actions[0]
+        question(f'final objects for {action}?', state_answer(action), sources[action])
+
+    return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+
+
+def render_object_tracking(rng):
+    return tracking_story(rng, False)
+
+
+def render_multi_action(rng):
+    return tracking_story(rng, True)
+
+
 def build(out, counts):
     out.mkdir(parents=True, exist_ok=True)
     for split, n in counts.items():
@@ -674,7 +830,7 @@ def build(out, counts):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products-v3')
+    parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products-v4')
     parser.add_argument('--train', type=int, default=2000)
     parser.add_argument('--valid', type=int, default=300)
     parser.add_argument('--test', type=int, default=300)
