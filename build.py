@@ -9,6 +9,8 @@ import argparse
 import random
 from pathlib import Path
 
+SEED = 42
+
 ACTIONS = [
     ('drink','something to drink','drink','What would you like to drink?', ['tea', 'coffee', 'water', 'juice', 'milk']),
     ('eat','something to eat','eat','What would you like to eat?', ['pizza', 'soup', 'salad', 'pasta']),
@@ -150,17 +152,17 @@ TASKS = [
     'loop'
     ]
 
-def build(out, seed, counts):
+def build(out, counts):
     out.mkdir(parents=True, exist_ok=True)
     for split, n in counts.items():
-        rng = random.Random(seed + {
+        rng = random.Random(SEED + {
             'train': 0,
             'valid': 10_000,
             'test': 20_000
             }[split])
         data=[]
         for i in range(n):
-            task=TASKS[i%len(TASKS)]
+            task=TASKS[i % len(TASKS)]
             action=ACTIONS[(i//len(TASKS) + rng.randrange(len(ACTIONS)))%len(ACTIONS)]
             data.append(example(rng, task, action))
         rng.shuffle(data)
@@ -178,12 +180,13 @@ def build(out, seed, counts):
 if __name__=='__main__':
     p=argparse.ArgumentParser()
     p.add_argument('--out', type=Path, default=Path(__file__).resolve().parent/'products')
-    p.add_argument('--seed', type=int, default=42)
+
     p.add_argument('--train', type=int, default=900)
     p.add_argument('--valid', type=int, default=180)
     p.add_argument('--test', type=int, default=180)
     a = p.parse_args()
-    build(a.out, a.seed,
+
+    build(a.out,
         {
         'train': a.train,
         'valid': a.valid,
