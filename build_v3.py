@@ -4,7 +4,7 @@
 For each user utterance: actor/action/intention/object extraction questions first,
 then context-dependent dialogue questions. Supporting indices refer to prior lines.
 
-Version 3.
+Version 3: extended by adding emotion task with 7 emotion categories.
 """
 import argparse
 import random
@@ -132,7 +132,8 @@ TASKS = [
     'revision',
     'decline',
     'loop',
-    'advice'
+    'advice',
+    'emotion'
     ]
 
 
@@ -257,6 +258,8 @@ def make_dialogue(rng, task, action):
 def render(rng, task, action):
     if task == 'advice':
         return rng.choice([render_weather, render_tired, render_sleepy])(rng)
+    if task == 'emotion':
+        return render_emotion(rng, action)
     verb, _, ask, _ = action
     turns = make_dialogue(rng, task, action)
     rows = []
@@ -518,6 +521,127 @@ def render_tired(rng):
 def render_sleepy(rng):
     return render_wellbeing(rng, 'sleepy')
 
+EMOTIONS = {
+    'neutral': {
+        'answers': ['Neutral.', 'I feel okay.', 'Nothing special.', 'Just normal.'],
+        'questions': ['Anything on your mind today?', 'What would you like to talk about?', 'How has your day been?']
+        },
+    'joy': {
+        'answers': ['Happy.', 'I feel great.', 'Really cheerful.', 'Pretty happy today.'],
+        'questions': ["What's making you happy today?", 'Did something good happen?', 'What has been the best part of your day?']
+        },
+    'surprise': {
+        'answers': ['Surprised.', 'Something caught me off guard.', "I'm amazed.", 'Really surprised.'],
+        'questions': ['What surprised you?', 'Was it a pleasant surprise?', 'What happened that you did not expect?']
+        },
+    'sadness': {
+        'answers': ['Sad.', 'I feel down.', 'A bit sad.', 'Feeling gloomy.'],
+        'questions': ['Would you like to talk about it?', 'Has something been bothering you?', 'Would some company help right now?']
+        },
+    'anger': {
+        'answers': ['Angry.', 'I feel frustrated.', 'Really annoyed.', 'I am upset.'],
+        'questions': ['Would you like to tell me what upset you?', 'Has something frustrating happened?', 'Would you rather vent or take your mind off it?']
+        },
+    'disgust': {
+        'answers': ['Disgusted.', 'That was gross.', 'I feel disgusted.', 'Something really put me off.'],
+        'questions': ['Did something unpleasant happen?', 'Was there something that put you off?', 'Would you rather change the subject?']
+        },
+    'fear': {
+        'answers': ['Afraid.', 'I feel scared.', 'A little frightened.', "I'm worried and scared."],
+        'questions': ['Is something worrying you?', 'Would you like to tell me what happened?', 'Would you prefer to talk it through or switch topics?']
+        }
+    }
+EMOTION_PROMPTS = [
+    'How are you feeling today: neutral, happy, surprised, sad, angry, disgusted, or afraid?',
+    'Would you say you feel neutral, joyful, surprised, sad, angry, disgusted, or afraid?',
+    'Which fits your mood best: neutral, happy, surprised, sad, angry, disgusted, or scared?'
+    ]
+EMOTION_FOLLOW_UP = [
+    'No pressure to label it. Does it feel more positive, negative, or neutral?',
+    'That is okay. Would you rather describe what is on your mind?',
+    'You do not have to choose a label right now.'
+    ]
+EMOTION_CONTEXTS = {
+    'work': ["I have been working all day.", 'Work has been on my mind.'],
+    'program': ["I've been programming today.", 'I have been coding for a while.'],
+    'play_video_games': ["I've been playing video games.", 'I spent some time gaming.'],
+    'walk_seaside': ["I just came back from a walk by the sea.", 'I was walking along the coast.'],
+    'relax': ["I am trying to relax.", 'I want to take it easy for a while.']
+    }
+EMOTION_CONTEXT_QUESTIONS = {
+    'work': ['Has work affected your mood today?', 'Did something happen at work?'],
+    'program': ['Did something happen while you were coding?', 'Has your project affected your mood?'],
+    'play_video_games': ['Was it something that happened in the game?', 'Did gaming put you in that mood?'],
+    'walk_seaside': ['Did the walk affect how you feel?', 'Did something happen on your walk?'],
+    'relax': ['Has it been hard to unwind?', 'Is something on your mind while you rest?']
+    }
+
+
+def render_emotion(rng, action):
+    rows = []
+
+    def fact(line):
+        rows.append(line)
+        return len(rows)
+
+    def question(label, answer, refs):
+        refs = sorted(set(refs))
+        assert refs and all(1 <= r <= len(rows) for r in refs)
+        return fact(f'{label}\t{answer}\t{" ".join(map(str, refs))}')
+
+    context = rng.choice([None, None, 'work', 'program', 'play_video_games', 'walk_seaside', 'relax'])
+    opening = rng.choice(['I just want to chat.', 'I feel like talking.', 'Can we talk for a bit?']) if context is None else rng.choice(EMOTION_CONTEXTS[context])
+    intro = fact('User: ' + opening)
+    question('actor?', 'user', [intro])
+    question('action?', 'chat' if context is None else context, [intro])
+    question('intention?', 'chat', [intro])
+    question('emotion?', 'unknown', [intro])
+    question('current emotion?', 'unknown', [intro])
+    question('next action?', 'clarify', [intro])
+    opening_question = rng.choice(EMOTION_PROMPTS)
+    question('assistant response?', opening_question, [intro])
+    assistant = fact('Assistant: ' + opening_question)
+
+    # Unknown mood: ask differently, then stop after repeated uncertainty.
+    if rng.randrange(4) == 0:
+        for attempt in range(rng.choice([1, 2, 3])):
+            user = fact('User: ' + rng.choice(UNKNOWN))
+            question('actor?', 'user', [user])
+            question('emotion?', 'unknown', [user])
+            question('current emotion?', 'unknown', [intro, user])
+            if attempt == 2:
+                question('next action?', 'stop_clarify', [assistant, user])
+                question('assistant response?', EMOTION_FOLLOW_UP[2], [assistant, user])
+                return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+            question('next action?', 'clarify', [assistant, user])
+            followup = EMOTION_FOLLOW_UP[attempt]
+            question('assistant response?', followup, [assistant, user])
+            assistant = fact('Assistant: ' + followup)
+
+    emotion = rng.choice(list(EMOTIONS))
+    user = fact('User: ' + rng.choice(EMOTIONS[emotion]['answers']))
+    question('actor?', 'user', [user])
+    question('emotion?', emotion, [user])
+    question('current emotion?', emotion, [user])
+    question('is emotion known?', 'yes', [user])
+    question('next action?', 'advance', [assistant, user])
+    next_question = rng.choice(EMOTIONS[emotion]['questions'])
+    question('assistant response?', next_question, [user])
+    assistant = fact('Assistant: ' + next_question)
+
+    # Respect user-initiated topic changes or a refusal to discuss feelings.
+    if rng.randrange(5) == 0:
+        user = fact('User: ' + rng.choice(["I'd rather not talk about my mood.", "Let's talk about something else.", "I don't want to explain."]))
+        question('actor?', 'user', [user])
+        question('current emotion?', emotion, [user, assistant])
+        question('next action?', 'stop_clarify', [assistant, user])
+        question('assistant response?', 'Of course. We can talk about something else.', [assistant, user])
+    elif context is not None:
+        question('context action?', context, [intro])
+        question('assistant response?', rng.choice(EMOTION_CONTEXT_QUESTIONS[context]), [intro, user])
+    return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+
+
 def build(out, counts):
     out.mkdir(parents=True, exist_ok=True)
     for split, n in counts.items():
@@ -550,7 +674,7 @@ def build(out, counts):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products')
+    parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products-v3')
     parser.add_argument('--train', type=int, default=2000)
     parser.add_argument('--valid', type=int, default=300)
     parser.add_argument('--test', type=int, default=300)
