@@ -38,3 +38,148 @@ actor → action → intention → object → missing → question → answer �
 
 Именно это позволит экспериментально проверить твою основную гипотезу: **может ли модель усвоить связь между действием, недостающей информацией и соответствующим вопросом, чтобы не зацикливаться в долгих разговорах.**
 
+
+### Пример
+
+#### 1. Несколько предложений в одной реплике:
+
+```text
+1 User: I am tired. I've been programming all day. I want to relax.
+
+2 sentence?	I am tired.	1
+3 actor?	user	2
+4 state?	tired	2
+5 emotion?	unknown	2
+
+6 sentence?	I've been programming all day.	1
+7 actor?	user	6
+8 action?	program	6
+9 duration?	all day	6
+10 location?	unknown	6
+
+11 sentence?	I want to relax.	1
+12 actor?	user	11
+13 action?	relax	11
+14 intention?	relax	11
+15 object?	unknown	11
+
+16 current state?	tired	2 4
+17 current action?	program	6 8
+18 current intention?	relax	11 14
+19 next action?	clarify	16 18
+20 assistant response?	You've been programming all day. When did you last take a break?	4 8 9 18
+```
+
+Здесь сохраняется твой принцип: **каждое извлечение имеет ссылку на соответствующее предложение**, а вопросы об общем состоянии опираются на несколько фактов.
+
+При этом `tired` — физическое состояние, а не обязательно эмоция `sadness`. Это важно для наших семи категорий настроения.
+
+
+#### 2. А если несколько предложений содержат разные действия?
+
+```text
+1 User: I went to the office this morning. I finished programming. Now I want to play video games.
+
+2 sentence?	I went to the office this morning.	1
+3 actor?	user	2
+4 action?	go	2
+5 location?	office	2
+6 time_of_day?	morning	2
+7 tense?	past	2
+
+8 sentence?	I finished programming.	1
+9 actor?	user	8
+10 action?	program	8
+11 aspect?	completed	8
+
+12 sentence?	Now I want to play video games.	1
+13 actor?	user	12
+14 action?	play_video_games	12
+15 intention?	play_video_games	12
+16 time?	now	12
+
+17 current intention?	play_video_games	12 15
+18 next action?	advance	15 17
+19 assistant response?	Sounds like you've finished your work. What game are you thinking of playing?	8 11 12 15
+```
+
+В этом примере модель не должна спрашивать, что пользователь делал утром. Его текущее намерение — играть в видеоигры.
+
+Но эта связь не должна быть жёстким правилом «последнее предложение всегда важнее». Иногда последнее предложение просто уточняет первое.
+
+
+#### 3. Если одно предложение содержит несколько действий
+
+```text
+1 User: I want to buy a laptop and a phone.
+2 sentence?	I want to buy a laptop and a phone.	1
+3 actor?	user	2
+4 action?	buy	2
+5 intention?	buy	2
+6 object_1?	a laptop	2
+7 object_2?	a phone	2
+8 object count?	2	6 7
+9 next action?	advance	4 6 7
+10 assistant response?	Are you planning to buy both at the same store?	4 6 7
+```
+
+Это простейшая форма поддержки множественных объектов.
+
+Позднее можно перейти к структуре `event_1`, `event_2`, если в одном предложении встречается несколько независимых действий.
+
+
+#### 4. Как реализовать в генераторе
+
+Я бы добавил **новую задачу** `multi_sentence`, не меняя существующие 11 задач.
+
+Алгоритм генерации:
+```text
+Generate utterance
+Создать реплику из 2–4 связанных предложений
+
+Extract roles per sentence
+Каждое предложение получает свои QA-строки
+
+Aggregate semantic context
+Определить текущее состояние и намерение
+
+Generate dialogue decision
+clarify / advance / stop_clarify
+
+Generate assistant response
+Вопрос или продолжение, учитывающее всю реплику
+```
+
+Важно, что при программной генерации не обязательно сначала создавать текст, а потом разбирать его настоящим SRL-парсером. Мы можем строить предложение из заранее известных смысловых компонентов и сразу знать правильные роли. Это даст точную разметку для синтетического датасета.
+
+
+#### 5. Я бы предусмотрел два варианта обучения
+Вариант	Что делает модель
+```text
+Sentence-level	Извлекает роли из каждого предложения
+Utterance-level	Объединяет извлечённые факты и выбирает ответ для всей реплики
+```
+
+**Не стоит делать отдельный ответ ассистента на каждое предложение.** Пользователь отправил одно сообщение, значит ассистент должен сформировать одну ответную реплику с учётом всех предложений.
+
+И ещё я бы добавил специальный случай, который особенно важен для предотвращения зацикливания:
+```
+User: I wanted coffee. Actually, I changed my mind. I'll have tea.
+```
+
+
+Здесь три предложения, но текущее выбранное значение — tea. Модель должна понимать исправления внутри одного сообщения, не требуя дополнительного подтверждения.
+
+##### Моя рекомендация
+Для первого эксперимента я бы добавил `multi_sentence` с 2–3 предложениями, используя уже существующие действия и роли.
+
+Сначала простые комбинации:
+- Состояние + действие: *I'm tired. I've been working all day.*
+- Действие + намерение: *I finished work. I want to relax.*
+- Намерение + уточнение: *I want tea. Make it strong.*
+- Намерение + исправление: *I want coffee. Actually, tea.*
+- Настроение + действие: *I'm happy today. I finally fixed my code.*
+
+После этого можно проверить, способна ли GPT-2 правильно извлекать роли из нескольких предложений, объединять их и формировать **один связный ответ без повторных уточнений уже известных фактов**.
+
+Это будет естественным развитием нашего bAbI-подхода и не потребует перехода на JSON или полноценную машину состояний.
