@@ -3,6 +3,16 @@
 
 For each user utterance: actor/action/intention/object extraction questions first,
 then context-dependent dialogue questions. Supporting indices refer to prior lines.
+
+Version 1: more realistic user behavior, including ambiguous Yes/No answers and declined responses. 
+The assistant's next action is determined by the current state of knowledge, not by the task type. 
+The assistant's next question is always the same as the last question asked, 
+unless the assistant is advancing to a new topic. 
+The assistant's response is always consistent with the next action and next question, 
+but may be a different phrasing than the scripted dialogue. 
+The assistant's response is always the last question asked, unless the assistant is advancing 
+to a new topic. The assistant's response is always consistent with the next action and next question, 
+but may be a different phrasing than the scripted dialogue.
 """
 import argparse
 import random
@@ -23,11 +33,34 @@ ACTIONS = [
 ]
 UNKNOWN = ["I don't know.", 'Not sure.', "I haven't decided.", 'No idea.', "I can't decide.", 'Maybe.', 'Hard to say.']
 DECLINED = ["I'd rather not decide now.", "I don't want to answer.", "Let's leave it for later."]
-CONFIRM = ['Yes.', 'Yeah.', 'Sure.', 'That sounds good.']
-REJECT = ['No.', 'Not really.', "I don't think so."]
+CONFIRM = ['Yes.', 'Yeah.', 'Sure.', 'That sounds good.', 'Yep', 'Absolutely.', 'Of course.']
+REJECT = ['No.', 'Not really.', "I don't think so.", "Nope"]
 REVISIONS = ['Actually, {value}.', 'I changed my mind. {value}.', 'On second thought, {value}.']
 PROMPTS = ['I want {thing}.', "I'd like {thing}.", "I'm thinking of {thing}."]
-TASKS = ['roles', 'resolve', 'questions', 'history', 'yes_context', 'ambiguous_yes', 'revision', 'decline', 'loop']
+ADVANCE = {
+    'drink': ['Do you prefer it hot or cold?', 'That sounds refreshing.'],
+    'eat': ['Would you like to make it yourself?', 'That sounds delicious.'],
+    'read': ['What kind of {object} do you enjoy?', 'Sounds like a good choice for some quiet reading.'],
+    'watch': ['Are you planning to watch it tonight?', 'That sounds like a good way to unwind.'],
+    'listen': ['Do you usually listen to it while relaxing?', 'That sounds like a nice choice.'],
+    'buy': ['Have you decided where to get it?', 'Sounds like you have something specific in mind.'],
+    'cook': ['Are you making it for yourself?', 'That sounds tasty.'],
+    'play': ['Will you play with friends?', 'That sounds fun.'],
+    'visit': ['Have you been there before?', 'That sounds like a lovely place to visit.'],
+    'learn': ['Are you just getting started?', 'That sounds like a useful thing to learn.'],
+}
+
+TASKS = [
+    'roles',
+    'resolution',
+    'questions',
+    'history',
+    'yes_context',
+    'ambiguous_yes',
+    'revision',
+    'decline',
+    'loop'
+    ]
 
 
 def intro_text(rng, action, value=None):
@@ -65,13 +98,16 @@ def make_dialogue(rng, task, action):
     if task in ('roles', 'questions'):
         return turns
     turns.append(('Assistant', ask, None))
-    if task == 'resolve':
+    if task == 'resolution':
         known = rng.choice([True, False])
         turns.append(('User', (value.capitalize() + '.') if known else rng.choice(UNKNOWN), value if known else None))
     elif task == 'history':
         for i in range(rng.randint(1, 4)):
             turns.append(('User', rng.choice(UNKNOWN), None))
-            turns.append(('Assistant', rng.choice([ask, 'Could you choose one option?', 'Do you have a preference yet?']), None))
+            turns.append((
+                'Assistant',
+                rng.choice([ask, 'Could you choose one option?', 'Do you have a preference yet?']),
+                None))
         if rng.choice([True, False]):
             turns.append(('User', value.capitalize() + '.', value))
         else:
@@ -116,7 +152,7 @@ def render(rng, task, action):
         assert refs and all(1 <= i < len(rows) + 1 for i in refs)
         return fact(f'{label}\t{answer}\t{" ".join(map(str, refs))}')
 
-    for role, utterance, observed in turns:
+    for turn_index, (role, utterance, observed) in enumerate(turns):
         utterance_line = fact(f'{role}: {utterance}')
         if role == 'Assistant':
             last_assistant_line = utterance_line
@@ -153,7 +189,7 @@ def render(rng, task, action):
         question('current object?', effective_object, support)
         question('is object known?', 'yes' if effective_object != 'unknown' else 'no', support)
         if state == 'declined' or (task == 'loop' and uncertain_streak >= 2):
-            next_action = 'stop_clarifying'
+            next_action = 'stop_clarify'
             next_question = 'none'
         elif effective_object == 'unknown':
             next_action = 'clarify'
@@ -161,16 +197,33 @@ def render(rng, task, action):
         else:
             next_action = 'advance'
             next_question = 'none'
-        decision_support = support + (uncertainty_sources if next_action == 'stop_clarifying' else [])
-        question('next action?', next_action, decision_support)
-        question('ask about object?', next_question, decision_support)
+        decision_support = support + (uncertainty_sources if next_action == 'stop_clarify' else [])
+        next_action_line = question('next action?', next_action, decision_support)
+        next_question_line = question('ask about object?', next_question, decision_support)
+        if next_action == 'clarify':
+            response = ask
+        elif next_action == 'stop_clarify':
+            response = ("That's okay. We can talk about something else."
+                        if state == 'declined' else
+                        "No rush. We can decide later.")
+        else:
+            response = rng.choice(ADVANCE[verb]).format(object=effective_object)
+        # When a scripted assistant turn follows, the QA target must match it.
+        if turn_index + 1 < len(turns) and turns[turn_index + 1][0] == 'Assistant':
+            response = turns[turn_index + 1][1]
+        question('assistant response?', response,
+                 [next_action_line, next_question_line] + decision_support)
     return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
 
 
-def build(out, counts, seed=SEED):
+def build(out, counts):
     out.mkdir(parents=True, exist_ok=True)
     for split, n in counts.items():
-        rng = random.Random(seed + {'train': 0, 'valid': 10000, 'test': 20000}[split])
+        rng = random.Random(SEED + {
+            'train': 0,
+            'valid': 10000,
+            'test': 20000
+            }[split])
         stories = []
         for i in range(n):
             task = TASKS[i % len(TASKS)]
@@ -191,12 +244,18 @@ def build(out, counts, seed=SEED):
         path.write_text(''.join(stories), encoding='utf-8')
         print(f'{path}: {n} stories')
 
+
 if __name__ == '__main__':
+
     parser = argparse.ArgumentParser()
     parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products')
     parser.add_argument('--train', type=int, default=1000)
     parser.add_argument('--valid', type=int, default=200)
     parser.add_argument('--test', type=int, default=200)
-    parser.add_argument('--seed', type=int, default=SEED)
+
     args = parser.parse_args()
-    build(args.out, {'train': args.train, 'valid': args.valid, 'test': args.test}, args.seed)
+    build(args.out, {
+        'train': args.train,
+        'valid': args.valid,
+        'test': args.test
+        })
