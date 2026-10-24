@@ -132,7 +132,7 @@ TASKS = [
     'revision',
     'decline',
     'loop',
-    'weather'
+    'advice'
     ]
 
 
@@ -255,8 +255,8 @@ def make_dialogue(rng, task, action):
 
 
 def render(rng, task, action):
-    if task == 'weather':
-        return render_weather(rng)
+    if task == 'advice':
+        return rng.choice([render_weather, render_tired, render_sleepy])(rng)
     verb, _, ask, _ = action
     turns = make_dialogue(rng, task, action)
     rows = []
@@ -425,6 +425,99 @@ def render_weather(rng):
     return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
 
 
+
+REST_HOURS = [2, 3, 4, 5, 6, 8, 10, 12]
+USUAL_REST_HOURS = [1, 2, 3, 4]
+SLEEP_HOURS = [4, 5, 6, 7, 8, 9]
+AWAKE_HOURS = [8, 12, 16, 20, 24, 30]
+WELLBEING_QUESTIONS = {
+    'tired': {
+        'since': ['How many hours has it been since you last rested?', 'Has it been a few hours or most of the day since your last break?', 'About how long have you gone without a proper rest?'],
+        'last': ['How many hours did you rest last time?', 'Was your last rest closer to one hour or several?', 'Roughly how many hours did your last break last?'],
+        'usual': ['How many hours do you usually rest?', 'Do you usually take a short rest or a few hours?', 'About how many hours of rest is normal for you?']
+    },
+    'sleepy': {
+        'since': ['How many hours have you been awake?', 'Have you been awake for just a few hours or much longer?', 'Roughly how long has it been since you last slept?'],
+        'last': ['How many hours did you sleep last time?', 'Was your last sleep short or close to a full night?', 'Roughly how many hours of sleep did you get last time?'],
+        'usual': ['How many hours do you usually sleep?', 'Is your usual sleep closer to six or eight hours?', 'About how much sleep do you normally get?']
+    }
+}
+
+
+def wellbeing_advice(kind, values):
+    if kind == 'sleepy':
+        if values['since'] >= 20:
+            return 'You have been awake a long time. Try to get some sleep soon, and avoid driving while sleepy.'
+        if values['last'] < values['usual']:
+            return 'You slept less than usual. A chance to rest and an earlier bedtime might help.'
+        return 'If you are sleepy, consider taking a break and making time for sleep.'
+    if values['since'] >= 8:
+        return 'It sounds like you have gone a while without a break. Consider resting and having some water.'
+    if values['last'] < values['usual']:
+        return 'Your last rest was shorter than usual. A quiet break may help you recharge.'
+    return 'You sound tired. A comfortable break and a little downtime may help.'
+
+
+def render_wellbeing(rng, kind):
+    values = {
+        'since': rng.choice(AWAKE_HOURS if kind == 'sleepy' else REST_HOURS),
+        'last': rng.choice(SLEEP_HOURS if kind == 'sleepy' else USUAL_REST_HOURS),
+        'usual': rng.choice(SLEEP_HOURS if kind == 'sleepy' else USUAL_REST_HOURS)
+    }
+    rows = []
+    refs = {}
+    label = 'sleep' if kind == 'sleepy' else 'rest'
+
+    def fact(line):
+        rows.append(line)
+        return len(rows)
+
+    def question(name, answer, supports):
+        supports = sorted(set(supports))
+        assert supports and all(1 <= r <= len(rows) for r in supports)
+        return fact(f'{name}\t{answer}\t{" ".join(map(str, supports))}')
+
+    opening = rng.choice(["I'm tired.", 'I feel exhausted.', 'I need some rest.'] if kind == 'tired' else ["I'm sleepy.", 'I really want to sleep.', 'I can barely keep my eyes open.'])
+    intro = fact('User: ' + opening)
+    question('actor?', 'user', [intro])
+    question('action?', label, [intro])
+    question('intention?', label, [intro])
+    question('object?', 'unknown', [intro])
+    keys = ['since', 'last', 'usual']
+    rng.shuffle(keys)
+    for key in keys:
+        question(f'current {key}_{label}_hours?', 'unknown', [intro])
+        question('next action?', 'clarify', [intro])
+        initial_question = WELLBEING_QUESTIONS[kind][key][0]
+        question('assistant response?', initial_question, [intro])
+        assistant = fact('Assistant: ' + initial_question)
+        for attempt in range(rng.randrange(3)):
+            user = fact('User: ' + rng.choice(UNKNOWN))
+            question(f'{key}_{label}_hours?', 'unknown', [assistant, user])
+            question('next action?', 'clarify', [assistant, user])
+            follow_up = WELLBEING_QUESTIONS[kind][key][attempt + 1]
+            question('assistant response?', follow_up, [assistant, user])
+            assistant = fact('Assistant: ' + follow_up)
+        answer = values[key]
+        user = fact(f'User: {answer} hours.')
+        refs[key] = user
+        question(f'{key}_{label}_hours?', str(answer), [assistant, user])
+        question(f'current {key}_{label}_hours?', str(answer), [user])
+        question(f'is {key}_{label}_hours known?', 'yes', [user])
+    for key in keys:
+        question(f'current {key}_{label}_hours?', str(values[key]), [refs[key]])
+    question('next action?', 'advance', list(refs.values()))
+    question('assistant response?', wellbeing_advice(kind, values), list(refs.values()))
+    return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+
+
+def render_tired(rng):
+    return render_wellbeing(rng, 'tired')
+
+
+def render_sleepy(rng):
+    return render_wellbeing(rng, 'sleepy')
+
 def build(out, counts):
     out.mkdir(parents=True, exist_ok=True)
     for split, n in counts.items():
@@ -458,9 +551,9 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products')
-    parser.add_argument('--train', type=int, default=1000)
-    parser.add_argument('--valid', type=int, default=200)
-    parser.add_argument('--test', type=int, default=200)
+    parser.add_argument('--train', type=int, default=2000)
+    parser.add_argument('--valid', type=int, default=300)
+    parser.add_argument('--test', type=int, default=300)
 
     args = parser.parse_args()
     build(args.out, {
