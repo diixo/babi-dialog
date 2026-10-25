@@ -496,9 +496,17 @@ def render_weather(rng):
                    'statement': statements[key], 'answer': 'It is {value}.'}
              for key, value in values.items()}
     return render_fact_collection(
-        rng, 'I am thinking of going outside.',
-        {'actor': 'user', 'action': 'go_outside', 'intention': 'go_outside', 'location': 'outside'},
-        slots, lambda known: clothing_advice(known['weather'], known['season'], known['time_of_day']))
+        rng,
+        'I am thinking of going outside.',
+        {
+            'actor': 'user',
+            'action': 'go_outside',
+            'intention': 'go_outside',
+            'location': 'outside'
+        },
+        slots,
+        lambda known: clothing_advice(known['weather'], known['season'], known['time_of_day'])
+        )
 
 
 
@@ -922,7 +930,11 @@ def validate_story(story):
 
 
 def build(out, counts):
-    offsets = {'train': 0, 'valid': 10000, 'test': 20000}
+    offsets = {
+        'train': 0,
+        'valid': 10000,
+        'test': 20000
+        }
     if any(split not in offsets or not isinstance(n, int) or n < 0
            for split, n in counts.items()):
         raise ValueError('Use non-negative integer counts for train, valid and test')
@@ -955,7 +967,11 @@ def build(out, counts):
                     'expand the templates or reduce the requested count')
         rng.shuffle(stories)
         datasets[split] = stories
-        stats[split] = {'stories': len(stories), 'qa': qa_count, 'tasks': task_counts}
+        stats[split] = {
+            'stories': len(stories),
+            'qa': qa_count,
+            'tasks': task_counts
+            }
     # Validate every split before replacing any existing dataset files.
     out.mkdir(parents=True, exist_ok=True)
     for split in offsets:
@@ -976,6 +992,10 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     try:
-        build(args.out, {'train': args.train, 'valid': args.valid, 'test': args.test})
+        build(args.out, {
+            'train': args.train,
+            'valid': args.valid,
+            'test': args.test
+            })
     except ValueError as error:
         parser.error(str(error))
