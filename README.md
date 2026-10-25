@@ -1,5 +1,81 @@
 # babi-dialog
 
+## Генерация данных: версия 4
+
+Актуальный генератор — `build_v4.py`: 50 действий и 13 типов задач.
+`build.py`, `build_v2.py` и `build_v3.py` сохраняют предыдущие версии.
+
+```shell
+python build_v4.py
+```
+
+По умолчанию файлы записываются в `products-v4/`:
+
+| Выборка | Уникальных диалогов | На каждый тип задачи |
+| --- | ---: | ---: |
+| train | 13 000 | 1 000 |
+| valid | 1 300 | 100 |
+| test | 1 300 | 100 |
+
+Размеры задаются в **историях**, каждая из которых содержит несколько QA-пар.
+Для сравнения с большим обучающим набором:
+
+```shell
+python build_v4.py --train 26000 --out products-v4-26k
+```
+
+При неизменных параметрах генерация воспроизводима. `valid` и `test` создаются
+первыми: изменение только `--train` сохраняет эти две выборки без изменений.
+Диалоги распределяются по задачам поровну; при некратном 13 размере разница
+составляет не более одной истории.
+
+В `roles` и `questions` есть начальные реплики как с известным, так и с неизвестным
+объектом. Используются 12 формулировок намерения, варианты времени и явное
+упоминание действия. Известное значение всегда присутствует в тексте пользователя.
+
+Повторы исключаются внутри выборок и между ними по тексту диалога: QA-разметка,
+регистр, пробелы и завершающий ответ ассистента не создают новый входной пример.
+Общие шаблоны, префиксы диалогов и отдельные QA-пары при этом могут встречаться
+в разных выборках. Для проверки обобщения на новые формулировки нужен отдельный тест.
+
+Ассистент уточняет **каждый необходимый для текущего сценария факт до ответа
+или явного отказа**. Ответ «не знаю» оставляет факт неизвестным: ассистент продолжает
+уточнять его, при необходимости переформулируя вопрос. Число попыток само по себе
+не вызывает `stop_clarify`. Начальная реплика без конкретного объекта не считается
+ответом на уточняющий вопрос.
+
+`loop? = yes` отмечает повторное уточнение после двух неопределённых ответов,
+сохраняя `next action? = clarify`. Задача `loop` включает 2–5 таких ответов, после
+которых пользователь сообщает значение или явно отказывается. Решение о следующем
+действии зависит от фактов диалога, а не от скрытого имени задачи.
+
+В сценариях одежды, отдыха и сна собираются все три необходимых факта:
+погода/время суток/сезон либо время с последнего отдыха или сна/его последняя
+продолжительность/обычная продолжительность. Часть значений может присутствовать
+уже в первой реплике; известные факты повторно не запрашиваются. В разметке:
+
+- `missing?` перечисляет все неизвестные факты, включая те, от которых отказались;
+- `declined?` отмечает факты с явным отказом;
+- `next fact?` выбирает неизвестный факт, от которого пользователь не отказался;
+- `ask about fact?` задаёт соответствующий вопрос.
+
+Отказ прекращает уточнение конкретного факта, после чего ассистент спрашивает
+о других недостающих фактах. Когда все факты известны, выдаётся `advance` и совет.
+Если оставшиеся неизвестные факты явно отклонены пользователем, выдаётся
+`stop_clarify` с объяснением неполноты данных. Отказ не превращается в известное
+значение. В задачах об объекте или эмоции единственный недостающий факт также
+уточняется до ответа или отказа.
+
+Перед записью всех выборок проверяются нумерация, опорные ссылки, согласованность
+решений и ответов ассистента. Если разнообразия недостаточно для запрошенного
+размера, генерация завершается с ошибкой до перезаписи файлов.
+
+Регрессионные проверки:
+
+```shell
+python -B -m unittest discover -s tests -v
+```
+
 
 ## 1. Что умеет генератор
 
@@ -23,7 +99,9 @@
 
 * **Обычные истории** — пользователь даёт неопределённые ответы, а модель должна определить, появилась ли необходимая информация.
 
-* **Истории с зацикливанием** — в контексте уже присутствуют многократные повторения вопроса, но обучаемый ответ должен быть `stop_clarify`.
+* **Истории с зацикливанием** — в контексте присутствуют многократные уточнения.
+  В версии 4 они отмечаются `loop? = yes`; ассистент продолжает уточнение до
+  конкретного ответа или явного отказа. Повторное «не знаю» не является отказом.
 
 Так мы можем проверить, способна ли модель распознавать проблему в уже накопленной истории.
 
@@ -296,11 +374,14 @@ Accumulate semantic information throughout a conversation and use the current st
 
 ### 15. Loop Prevention and Clarification Recovery
 
-`missing → clarify → repeated uncertainty → stop_clarify → assistant response`
+`missing → clarify → repeated uncertainty → rephrase → answer / explicit refusal`
 
-Recognize repeated unsuccessful clarification attempts and prevent persistent questioning loops.
+Recognize repeated unsuccessful clarification attempts and rephrase questions while
+keeping the unresolved fact pending. The `loop?` annotation does not stop clarification.
 
-The assistant should stop unnecessary clarification when the user declines to answer or repeated questioning becomes unproductive.
+Continue until the user supplies a value or explicitly declines that fact. A refusal
+waives only that fact; collect other required facts before ending clarification.
+Never ask again for facts that are already known or explicitly declined.
 
 ### 16. Emotion Recognition and Dialogue Adaptation
 
@@ -366,7 +447,7 @@ The model should learn to:
 - Accumulate, remove, replace, and preserve objects.
 - Track several independent actions simultaneously.
 - Respect refusals and user-initiated changes.
-- Avoid repeated questions and persistent dialogue loops.
+- Track repeated uncertainty and clarify each missing fact until an answer or explicit refusal.
 - Adapt responses to emotions, activities, and contextual information.
 - Generate natural responses consistent with the current semantic state.
 

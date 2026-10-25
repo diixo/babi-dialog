@@ -4,13 +4,19 @@
 For each user utterance: actor/action/intention/object extraction questions first,
 then context-dependent dialogue questions. Supporting indices refer to prior lines.
 
-Version 3: extended by adding emotion task with 7 emotion categories.
+Version 4: independent object collections, consistent clarification decisions,
+and balanced, reproducible datasets with distinct dialogue inputs across splits.
 """
 import argparse
 import random
 from pathlib import Path
 
 SEED = 42
+LOOP_MIN_REPETITIONS = 2
+MAX_GENERATION_ATTEMPTS = 1000
+DEFAULT_COUNTS = {'train': 13000, 'valid': 1300, 'test': 1300}
+STOP_DECLINED = "That's okay. We can talk about something else."
+CLARIFICATION_PREFIXES = ['', 'Take your time. ', 'You can give a short answer. ']
 ACTIONS = [
     ('drink', 'something to drink', 'What would you like to drink?', ['tea', 'coffee', 'water', 'juice', 'milk']),
     ('eat', 'something to eat', 'What would you like to eat?', ['pizza', 'soup', 'salad', 'pasta']),
@@ -68,7 +74,68 @@ DECLINED = ["I'd rather not decide now.", "I don't want to answer.", "Let's leav
 CONFIRM = ['Yes.', 'Yeah.', 'Sure.', 'That sounds good.', 'Yep', 'Absolutely.', 'Of course.']
 REJECT = ['No.', 'Not really.', "I don't think so.", "Nope"]
 REVISIONS = ['Actually, {value}.', 'I changed my mind. {value}.', 'On second thought, {value}.']
-PROMPTS = ['I want {thing}.', "I'd like {thing}.", "I'm thinking of {thing}."]
+INTRO_FRAMES = [
+    'I want to {activity}.', "I'd like to {activity}.",
+    'I would like to {activity}.', 'I plan to {activity}.',
+    "I'm planning to {activity}.", 'I intend to {activity}.',
+    "I'm hoping to {activity}.", 'My plan is to {activity}.',
+    "I've decided to {activity}.", 'I would really like to {activity}.',
+    'I feel ready to {activity}.', 'I would prefer to {activity}.',
+]
+INTRO_TIMES = ['', ' today', ' tomorrow', ' this weekend', ' soon', ' when I have time']
+# Explicit activity phrases keep the action grounded even when the object is unknown.
+ACTIVITY_PHRASES = {
+    'drink': ('drink something', 'drink {value}'),
+    'eat': ('eat something', 'eat {value}'),
+    'read': ('read something', 'read {value}'),
+    'watch': ('watch something', 'watch {value}'),
+    'listen': ('listen to something', 'listen to {value}'),
+    'buy': ('buy something', 'buy {value}'),
+    'cook': ('cook something', 'cook {value}'),
+    'play': ('play something', 'play {value}'),
+    'visit': ('visit somewhere', 'visit {value}'),
+    'learn': ('learn something', 'learn {value}'),
+    'have_breakfast': ('have something for breakfast', 'have {value} for breakfast'),
+    'bake': ('bake something', 'bake {value}'),
+    'order_food': ('order some food', 'order {value}'),
+    'draw': ('draw something', 'draw {value}'),
+    'photograph': ('photograph something', 'photograph {value}'),
+    'write': ('write something', 'write {value}'),
+    'practice': ('practice something', 'practice {value}'),
+    'garden': ('grow something', 'grow {value}'),
+    'walk': ('go for a walk somewhere', 'walk {value}'),
+    'walk_seaside': ('take a walk by the sea', 'take a seaside walk {value}'),
+    'cycle': ('cycle somewhere', 'cycle {value}'),
+    'run': ('run somewhere', 'run {value}'),
+    'swim': ('swim somewhere', 'swim {value}'),
+    'visit_pool': ('visit a swimming pool', 'visit {value}'),
+    'workout': ('work out at the gym', 'do {value} at the gym'),
+    'visit_gym': ('go to a gym', 'go to {value}'),
+    'go_cinema': ('see something at the cinema', 'see {value} at the cinema'),
+    'shop': ('go shopping for something', 'shop for {value}'),
+    'visit_store': ('visit a store', 'visit {value}'),
+    'visit_mall': ('visit a shopping mall', 'visit {value}'),
+    'choose_gift': ('choose a gift', 'choose {value} as a gift'),
+    'plan': ('plan something', 'plan {value}'),
+    'travel': ('travel somewhere', 'travel {value}'),
+    'pack': ('pack something', 'pack {value}'),
+    'clean': ('clean something', 'clean {value}'),
+    'repair': ('repair something', 'repair {value}'),
+    'work_on': ('work on something', 'work on {value}'),
+    'code': ('code something', 'code {value}'),
+    'debug': ('debug something', 'debug {value}'),
+    'train_model': ('train a model', 'train {value}'),
+    'prepare_dataset': ('prepare a dataset', 'prepare {value}'),
+    'play_video_games': ('play a video game', 'play {value}'),
+    'play_board_games': ('play a board game', 'play {value}'),
+    'meet': ('meet someone', 'meet {value}'),
+    'discuss': ('talk about something', 'talk about {value}'),
+    'relax': ('do something to relax', 'relax {value}'),
+    'work': ('do some work', 'do some work on {value}'),
+    'program': ('program something', 'program {value}'),
+    'work_office': ('work on something at the office', 'work on {value} at the office'),
+    'program_office': ('program something at the office', 'program {value} at the office'),
+}
 ADVANCE = {
     'drink': ['Do you prefer it hot or cold?', 'That sounds refreshing.'],
     'eat': ['Would you like to make it yourself?', 'That sounds delicious.'],
@@ -140,82 +207,19 @@ TASKS = [
 
 
 def intro_text(rng, action, value=None):
-    verb, thing, _, _ = action
-    if value is None:
-        if verb == 'work_office':
-            return rng.choice(['I have some work to do at the office.', "I'd like to work at the office."])
-        if verb == 'program_office':
-            return rng.choice(['I want to do some programming at the office.', "I'd like to code at the office."])
-        return rng.choice(PROMPTS).format(thing=thing)
-    KNOWN_INTROS = {
-        'have_breakfast': ['I want {value} for breakfast.', "I'd like {value} for breakfast."],
-        'bake': ['I want to bake {value}.', "I'd like to bake {value}."],
-        'order_food': ['I want to order {value}.', "I'd like to order {value}."],
-        'draw': ['I want to draw {value}.', "I'd like to draw {value}."],
-        'photograph': ['I want to photograph {value}.', "I'd like to photograph {value}."],
-        'write': ['I want to write {value}.', "I'd like to write {value}."],
-        'practice': ['I want to practice {value}.', "I'd like to practice {value}."],
-        'garden': ['I want to grow {value}.', "I'd like to grow {value}."],
-        'walk': ['I want to walk {value}.', "I'd like to walk {value}."],
-        'walk_seaside': ['I want to walk {value}.', "I'd like to walk {value}."],
-        'cycle': ['I want to cycle {value}.', "I'd like to cycle {value}."],
-        'run': ['I want to run {value}.', "I'd like to run {value}."],
-        'swim': ['I want to swim {value}.', "I'd like to swim {value}."],
-        'visit_pool': ['I want to visit {value}.', "I'd like to visit {value}."],
-        'workout': ['I want to do {value} at the gym.', "I'd like to do {value} at the gym."],
-        'visit_gym': ['I want to go to {value}.', "I'd like to go to {value}."],
-        'go_cinema': ['I want to see {value} at the cinema.', "I'd like to see {value} at the cinema."],
-        'shop': ["I'm shopping for {value}.", "I'd like to shop for {value}."],
-        'visit_store': ['I want to visit {value}.', "I'd like to visit {value}."],
-        'visit_mall': ['I want to go to {value}.', "I'd like to go to {value}."],
-        'choose_gift': ['I want to choose {value} as a gift.', "I'd like to choose {value} as a gift."],
-        'plan': ['I want to plan {value}.', "I'd like to plan {value}."],
-        'travel': ['I want to travel {value}.', "I'd like to travel {value}."],
-        'pack': ['I want to pack {value}.', "I'd like to pack {value}."],
-        'clean': ['I want to clean {value}.', "I'd like to clean {value}."],
-        'repair': ['I want to repair {value}.', "I'd like to repair {value}."],
-        'work_on': ['I want to work on {value}.', "I'd like to work on {value}."],
-        'code': ['I want to code {value}.', "I'd like to code {value}."],
-        'debug': ['I want to debug {value}.', "I'd like to debug {value}."],
-        'train_model': ['I want to train {value}.', "I'd like to train {value}."],
-        'prepare_dataset': ['I want to prepare {value}.', "I'd like to prepare {value}."],
-        'play_video_games': ['I want to play {value}.', "I'd like to play {value}."],
-        'play_board_games': ['I want to play {value}.', "I'd like to play {value}."],
-        'meet': ['I want to meet {value}.', "I'd like to meet {value}."],
-        'discuss': ['I want to talk about {value}.', "I'd like to talk about {value}."],
-        'relax': ['I want to relax {value}.', "I'd like to relax {value}."],
-        'work': ['I want to work on {value}.', "I'd like to work on {value}."],
-        'program': ['I want to program {value}.', "I'd like to program {value}."],
-        'work_office': ['I want to work on {value} at the office.', "I'd like to work on {value} at the office."],
-        'program_office': ['I want to program {value} at the office.', "I'd like to program {value} at the office."],
-    }
-    if verb in KNOWN_INTROS:
-        return rng.choice(KNOWN_INTROS[verb]).format(value=value)
-    if verb == 'visit':
-        return rng.choice([f'I want to visit {value}.', f"I'd like to visit {value}."])
-    if verb == 'listen':
-        return rng.choice([f'I want to listen to {value}.', f"I'd like to listen to {value}."])
-    if verb == 'play':
-        return rng.choice([f'I want to play {value}.', f"I'd like to play {value}."])
-    if verb == 'learn':
-        return rng.choice([f'I want to learn {value}.', f"I'd like to learn {value}."])
-    if verb == 'cook':
-        return rng.choice([f'I want to cook {value}.', f"I'd like to cook {value}."])
-    if verb == 'buy':
-        return rng.choice([f'I want to buy {value}.', f"I'd like to buy {value}."])
-    if verb == 'eat':
-        return rng.choice([f'I want to eat {value}.', f"I'd like to eat {value}."])
-    if verb == 'watch':
-        return rng.choice([f'I want to watch {value}.', f"I'd like to watch {value}."])
-    if verb == 'read':
-        return rng.choice([f'I want to read {value}.', f"I'd like to read {value}."])
-    return rng.choice([f'I want to drink {value}.', f"I'd like to drink {value}."])
+    unknown, known = ACTIVITY_PHRASES[action[0]]
+    activity = unknown if value is None else known.format(value=value)
+    return rng.choice(INTRO_FRAMES).format(activity=activity + rng.choice(INTRO_TIMES))
+
+
+def clarification_question(rng, question, attempt):
+    return (rng.choice(CLARIFICATION_PREFIXES) if attempt else '') + question
 
 
 def make_dialogue(rng, task, action):
     verb, thing, ask, values = action
     value = rng.choice(values)
-    initial_known = task == 'questions' and rng.choice([True, False])
+    initial_known = task in ('roles', 'questions') and rng.choice([True, False])
     intro = intro_text(rng, action, value if initial_known else None)
     # Each User turn stores information explicitly supplied by that turn.
     turns = [('User', intro, value if initial_known else None)]
@@ -225,17 +229,20 @@ def make_dialogue(rng, task, action):
     if task == 'resolution':
         known = rng.choice([True, False])
         turns.append(('User', (value.capitalize() + '.') if known else rng.choice(UNKNOWN), value if known else None))
-    elif task == 'history':
-        for i in range(rng.randint(1, 4)):
+    elif task in ('history', 'loop'):
+        attempts = rng.randint(1, 4) if task == 'history' else rng.randint(2, 5)
+        for i in range(attempts):
             turns.append(('User', rng.choice(UNKNOWN), None))
-            turns.append((
-                'Assistant',
-                rng.choice([ask, 'Could you choose one option?', 'Do you have a preference yet?']),
-                None))
-        if rng.choice([True, False]):
-            turns.append(('User', value.capitalize() + '.', value))
-        else:
-            turns.append(('User', rng.choice(UNKNOWN), None))
+            if i + 1 < attempts:
+                turns.append(('Assistant', clarification_question(rng, ask, i + 1), None))
+        # A finite training history may end at a clarification target. Complete
+        # loop stories continue until the user supplies a value or declines.
+        if task == 'loop' or rng.choice([True, False]):
+            turns.append(('Assistant', clarification_question(rng, ask, attempts), None))
+            if rng.randrange(4) == 0:
+                turns.append(('User', rng.choice(DECLINED), 'declined'))
+            else:
+                turns.append(('User', value.capitalize() + '.', value))
     elif task == 'yes_context':
         turns[-1] = ('Assistant', f'Would you like {value}?', None)
         accepted = rng.choice([True, False])
@@ -249,11 +256,6 @@ def make_dialogue(rng, task, action):
         turns.append(('User', rng.choice(REVISIONS).format(value=other.capitalize()), other))
     elif task == 'decline':
         turns.append(('User', rng.choice(DECLINED), 'declined'))
-    elif task == 'loop':
-        for i in range(rng.randint(2, 5)):
-            turns.append(('User', rng.choice(UNKNOWN), None))
-            if i < 2:  # visibly repetitive assistant history for diagnosis
-                turns.append(('Assistant', ask, None))
     return turns
 
 
@@ -292,20 +294,23 @@ def render(rng, task, action):
         if observed == 'declined':
             state = 'declined'
             state_source = utterance_line
-            uncertain_streak += 1
-            uncertainty_sources.append(utterance_line)
         elif observed is not None:
             state = observed
             state_source = utterance_line
             uncertain_streak = 0
             uncertainty_sources.clear()
-        else:
+        elif last_assistant_line is not None and state is None:
+            # The opening request is not a failed clarification answer.
             uncertain_streak += 1
+            uncertainty_sources.extend([last_assistant_line, utterance_line])
 
         # All extraction questions about this one utterance FIRST.
         question('actor?', 'user', [utterance_line])
-        question('action?', verb, [utterance_line] if last_assistant_line is None else [last_assistant_line, utterance_line])
-        question('intention?', verb, [utterance_line] if last_assistant_line is None else [last_assistant_line, utterance_line])
+        context_support = [1, utterance_line]
+        if last_assistant_line is not None:
+            context_support.append(last_assistant_line)
+        question('action?', verb, context_support)
+        question('intention?', verb, context_support)
         # An ambiguous Yes/No answer does not itself state a chosen object; resolved
         # value is reported by the separate contextual question below.
         literal_object = observed if (observed is not None and observed != 'declined' and utterance.strip() not in CONFIRM) else 'unknown'
@@ -322,7 +327,13 @@ def render(rng, task, action):
             support.append(last_assistant_line)
         question('current object?', effective_object, support)
         question('is object known?', 'yes' if effective_object != 'unknown' else 'no', support)
-        if state == 'declined' or (task == 'loop' and uncertain_streak >= 2):
+        question('missing?', 'object' if effective_object == 'unknown' else 'none', support)
+        question('declined?', 'object' if state == 'declined' else 'none', support)
+        repeated = state is None and uncertain_streak >= LOOP_MIN_REPETITIONS
+        question('loop?', 'yes' if repeated else 'no', support + uncertainty_sources)
+        # The same visible history must lead to the same decision in every task.
+        # Repeated uncertainty does not waive a required fact.
+        if state == 'declined':
             next_action = 'stop_clarify'
             next_question = 'none'
         elif effective_object == 'unknown':
@@ -331,20 +342,22 @@ def render(rng, task, action):
         else:
             next_action = 'advance'
             next_question = 'none'
-        decision_support = support + (uncertainty_sources if next_action == 'stop_clarify' else [])
-        next_action_line = question('next action?', next_action, decision_support)
-        next_question_line = question('ask about object?', next_question, decision_support)
         if next_action == 'clarify':
-            response = ask
+            response = clarification_question(rng, ask, uncertain_streak)
         elif next_action == 'stop_clarify':
-            response = ("That's okay. We can talk about something else."
-                        if state == 'declined' else
-                        "No rush. We can decide later.")
+            response = STOP_DECLINED
         else:
             response = rng.choice(ADVANCE[verb]).format(object=effective_object)
-        # When a scripted assistant turn follows, the QA target must match it.
+        # A script may rephrase a question, but cannot override a stop decision.
         if turn_index + 1 < len(turns) and turns[turn_index + 1][0] == 'Assistant':
-            response = turns[turn_index + 1][1]
+            if next_action != 'stop_clarify':
+                response = turns[turn_index + 1][1]
+            turns[turn_index + 1] = ('Assistant', response, None)
+        if next_action == 'clarify':
+            next_question = response
+        decision_support = context_support + support + uncertainty_sources
+        next_action_line = question('next action?', next_action, decision_support)
+        next_question_line = question('ask about object?', next_question, decision_support)
         question('assistant response?', response,
                  [next_action_line, next_question_line] + decision_support)
     return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
@@ -359,6 +372,100 @@ WEATHER_QUESTIONS = {
     'time_of_day': ['What time of day is it?', 'Is it morning, afternoon, evening, or night?', 'Would you say it is daytime or nighttime?'],
     'season': ['What season is it?', 'Is it spring, summer, autumn, or winter?', 'Which season are you in right now?']
 }
+
+
+def render_fact_collection(rng, opening, roles, slots, advice):
+    """Ask every required slot until answered or explicitly declined.
+
+    Unknown answers keep the current slot active. A refusal waives only that
+    slot, leaving its value unknown, and questioning continues for other slots.
+    """
+    rows = []
+    keys = list(slots)
+    rng.shuffle(keys)
+    initial = rng.sample(keys, rng.randrange(len(keys) + 1))
+    known = {key: slots[key]['value'] for key in initial}
+    declined = set()
+    attempts = dict.fromkeys(keys, 0)
+    uncertainty_sources = {key: [] for key in keys}
+
+    def fact(text):
+        rows.append(text)
+        return len(rows)
+
+    def question(label, answer, refs):
+        refs = sorted(set(refs))
+        assert refs and all(1 <= ref <= len(rows) for ref in refs)
+        return fact(f'{label}\t{answer}\t{" ".join(map(str, refs))}')
+
+    details = [slots[key]['statement'].format(value=known[key]) for key in initial]
+    intro = fact('User: ' + ' '.join([opening] + details))
+    sources = dict.fromkeys(keys, intro)
+    for role, value in roles.items():
+        question(role + '?', value, [intro])
+
+    def snapshot(user, refused_now=False):
+        state_refs = []
+        for key in keys:
+            current = question(f'current {key}?', str(known.get(key, 'unknown')), [sources[key]])
+            state_refs.append(current)
+            question(f'is {key} known?', 'yes' if key in known else 'no', [current])
+        missing = [key for key in keys if key not in known]
+        pending = [key for key in missing if key not in declined]
+        missing_line = question('missing?', ', '.join(missing) or 'none', state_refs)
+        declined_line = question('declined?', ', '.join(key for key in keys if key in declined) or 'none',
+                                 [intro] + [sources[key] for key in declined])
+        support = [user, missing_line, declined_line]
+        key = pending[0] if pending else None
+        question('next fact?', key or 'none', support)
+        repeated = key is not None and attempts[key] >= LOOP_MIN_REPETITIONS
+        question('loop?', 'yes' if repeated else 'no',
+                 support + (uncertainty_sources[key] if key else []))
+        if key is not None:
+            variants = slots[key]['questions']
+            ask = variants[min(attempts[key], len(variants) - 1)]
+            response = clarification_question(rng, ask, attempts[key])
+            if refused_now:
+                response = 'Okay, we can leave that aside. ' + response
+            next_action = 'clarify'
+        elif missing:
+            next_action = 'stop_clarify'
+            response = ('Okay, we can leave those questions aside. '
+                        'I do not have all the details needed for a specific suggestion.')
+        else:
+            next_action = 'advance'
+            response = advice(known)
+        decision = question('next action?', next_action, support)
+        ask_line = question('ask about fact?', response if key is not None else 'none', [decision] + support)
+        question('assistant response?', response, [decision, ask_line] + state_refs + support)
+        return key, response
+
+    key, response = snapshot(intro)
+    while key is not None:
+        current_key = key
+        uncertain = rng.randrange(5)
+        for attempt in range(uncertain + 1):
+            assistant = fact('Assistant: ' + response)
+            refused = False
+            if attempt < uncertain:
+                user = fact('User: ' + rng.choice(UNKNOWN))
+                answer = 'unknown'
+                attempts[current_key] += 1
+                uncertainty_sources[current_key].extend([assistant, user])
+            elif rng.randrange(5) == 0:
+                user = fact('User: ' + rng.choice(DECLINED))
+                answer = 'declined'
+                declined.add(current_key)
+                refused = True
+            else:
+                value = slots[current_key]['value']
+                user = fact('User: ' + slots[current_key]['answer'].format(value=value))
+                answer = str(value)
+                known[current_key] = value
+            sources[current_key] = user
+            question(f'{current_key}?', answer, [assistant, user])
+            key, response = snapshot(user, refused)
+    return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
 
 
 def clothing_advice(weather, season, time_of_day):
@@ -378,60 +485,20 @@ def clothing_advice(weather, season, time_of_day):
 
 
 def render_weather(rng):
-    # Weather, time of day, and season are separate semantic slots.
-    # Each missing answer is followed by a relevant question; once known,
-    # the model receives a contextual clothing suggestion.
     values = {
         'weather': rng.choice(WEATHER),
         'time_of_day': rng.choice(TIMES_OF_DAY),
         'season': rng.choice(SEASONS)
     }
-    known = {}
-    refs = {}
-    rows = []
-
-    def fact(line):
-        rows.append(line)
-        return len(rows)
-
-    def question(label, answer, supports):
-        supports = sorted(set(supports))
-        assert supports and all(1 <= r <= len(rows) for r in supports)
-        return fact(f'{label}\t{answer}\t{" ".join(map(str, supports))}')
-
-    intro = fact('User: I am thinking of going outside.')
-    question('actor?', 'user', [intro])
-    question('action?', 'go_outside', [intro])
-    question('intention?', 'go_outside', [intro])
-    question('location?', 'outside', [intro])
-    keys = ['weather', 'time_of_day', 'season']
-    rng.shuffle(keys)
-    for key in keys:
-        question(f'current {key}?', 'unknown', [intro])
-        question('next action?', 'clarify', [intro])
-        question('assistant response?', WEATHER_QUESTIONS[key][0], [intro])
-        assistant_line = fact('Assistant: ' + WEATHER_QUESTIONS[key][0])
-        uncertain = rng.randrange(3)
-        for attempt in range(uncertain):
-            user_line = fact('User: ' + rng.choice(UNKNOWN))
-            question(f'{key}?', 'unknown', [assistant_line, user_line])
-            question('next action?', 'clarify', [assistant_line, user_line])
-            follow_up = WEATHER_QUESTIONS[key][attempt + 1]
-            question('assistant response?', follow_up, [assistant_line, user_line])
-            assistant_line = fact('Assistant: ' + follow_up)
-        answer = values[key]
-        user_line = fact('User: It is ' + answer + '.' if key != 'season' else 'User: It is ' + answer + '.')
-        refs[key] = user_line
-        known[key] = answer
-        question(f'{key}?', answer, [assistant_line, user_line])
-        question(f'current {key}?', answer, [user_line])
-        question(f'is {key} known?', 'yes', [user_line])
-    question('current weather?', known['weather'], [refs['weather']])
-    question('current time_of_day?', known['time_of_day'], [refs['time_of_day']])
-    question('current season?', known['season'], [refs['season']])
-    question('next action?', 'advance', list(refs.values()))
-    question('assistant response?', clothing_advice(known['weather'], known['season'], known['time_of_day']), list(refs.values()))
-    return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+    statements = {'weather': 'The weather is {value}.',
+                  'time_of_day': 'It is {value}.', 'season': 'The season is {value}.'}
+    slots = {key: {'value': value, 'questions': WEATHER_QUESTIONS[key],
+                   'statement': statements[key], 'answer': 'It is {value}.'}
+             for key, value in values.items()}
+    return render_fact_collection(
+        rng, 'I am thinking of going outside.',
+        {'actor': 'user', 'action': 'go_outside', 'intention': 'go_outside', 'location': 'outside'},
+        slots, lambda known: clothing_advice(known['weather'], known['season'], known['time_of_day']))
 
 
 
@@ -473,51 +540,23 @@ def render_wellbeing(rng, kind):
         'last': rng.choice(SLEEP_HOURS if kind == 'sleepy' else USUAL_REST_HOURS),
         'usual': rng.choice(SLEEP_HOURS if kind == 'sleepy' else USUAL_REST_HOURS)
     }
-    rows = []
-    refs = {}
     label = 'sleep' if kind == 'sleepy' else 'rest'
-
-    def fact(line):
-        rows.append(line)
-        return len(rows)
-
-    def question(name, answer, supports):
-        supports = sorted(set(supports))
-        assert supports and all(1 <= r <= len(rows) for r in supports)
-        return fact(f'{name}\t{answer}\t{" ".join(map(str, supports))}')
-
     opening = rng.choice(["I'm tired.", 'I feel exhausted.', 'I need some rest.'] if kind == 'tired' else ["I'm sleepy.", 'I really want to sleep.', 'I can barely keep my eyes open.'])
-    intro = fact('User: ' + opening)
-    question('actor?', 'user', [intro])
-    question('action?', label, [intro])
-    question('intention?', label, [intro])
-    question('object?', 'unknown', [intro])
-    keys = ['since', 'last', 'usual']
-    rng.shuffle(keys)
-    for key in keys:
-        question(f'current {key}_{label}_hours?', 'unknown', [intro])
-        question('next action?', 'clarify', [intro])
-        initial_question = WELLBEING_QUESTIONS[kind][key][0]
-        question('assistant response?', initial_question, [intro])
-        assistant = fact('Assistant: ' + initial_question)
-        for attempt in range(rng.randrange(3)):
-            user = fact('User: ' + rng.choice(UNKNOWN))
-            question(f'{key}_{label}_hours?', 'unknown', [assistant, user])
-            question('next action?', 'clarify', [assistant, user])
-            follow_up = WELLBEING_QUESTIONS[kind][key][attempt + 1]
-            question('assistant response?', follow_up, [assistant, user])
-            assistant = fact('Assistant: ' + follow_up)
-        answer = values[key]
-        user = fact(f'User: {answer} hours.')
-        refs[key] = user
-        question(f'{key}_{label}_hours?', str(answer), [assistant, user])
-        question(f'current {key}_{label}_hours?', str(answer), [user])
-        question(f'is {key}_{label}_hours known?', 'yes', [user])
-    for key in keys:
-        question(f'current {key}_{label}_hours?', str(values[key]), [refs[key]])
-    question('next action?', 'advance', list(refs.values()))
-    question('assistant response?', wellbeing_advice(kind, values), list(refs.values()))
-    return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+    statements = {
+        'since': ('I have been awake for {value} hours.' if kind == 'sleepy'
+                  else 'It has been {value} hours since my last rest.'),
+        'last': ('I slept for {value} hours last time.' if kind == 'sleepy'
+                 else 'I rested for {value} hours last time.'),
+        'usual': ('I usually sleep for {value} hours.' if kind == 'sleepy'
+                  else 'I usually rest for {value} hours.'),
+    }
+    slots = {f'{key}_{label}_hours': {
+        'value': value, 'questions': WELLBEING_QUESTIONS[kind][key],
+        'statement': statements[key], 'answer': '{value} hours.'}
+        for key, value in values.items()}
+    return render_fact_collection(
+        rng, opening, {'actor': 'user', 'action': label, 'intention': label}, slots,
+        lambda known: wellbeing_advice(kind, {key: known[f'{key}_{label}_hours'] for key in values}))
 
 
 def render_tired(rng):
@@ -564,8 +603,8 @@ EMOTION_PROMPTS = [
     ]
 EMOTION_FOLLOW_UP = [
     'No pressure to label it. Does it feel more positive, negative, or neutral?',
-    'That is okay. Would you rather describe what is on your mind?',
-    'You do not have to choose a label right now.'
+    'Take your time. How would you describe your mood?',
+    'How are you feeling at the moment?'
     ]
 EMOTION_CONTEXTS = {
     'work': ["I have been working all day.", 'Work has been on my mind.'],
@@ -603,33 +642,46 @@ def render_emotion(rng, action):
     question('intention?', 'chat', [intro])
     question('emotion?', 'unknown', [intro])
     question('current emotion?', 'unknown', [intro])
+    question('missing?', 'emotion', [intro])
+    question('declined?', 'none', [intro])
     question('next action?', 'clarify', [intro])
     opening_question = rng.choice(EMOTION_PROMPTS)
     question('assistant response?', opening_question, [intro])
     assistant = fact('Assistant: ' + opening_question)
 
-    # Unknown mood: ask differently, then stop after repeated uncertainty.
+    # Unknown mood remains pending until an answer or an explicit refusal.
     if rng.randrange(4) == 0:
-        for attempt in range(rng.choice([1, 2, 3])):
+        for attempt in range(rng.randint(1, 5)):
             user = fact('User: ' + rng.choice(UNKNOWN))
             question('actor?', 'user', [user])
             question('emotion?', 'unknown', [user])
             question('current emotion?', 'unknown', [intro, user])
-            if attempt == 2:
-                question('next action?', 'stop_clarify', [assistant, user])
-                question('assistant response?', EMOTION_FOLLOW_UP[2], [assistant, user])
-                return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+            question('missing?', 'emotion', [intro, user])
+            question('declined?', 'none', [user])
             question('next action?', 'clarify', [assistant, user])
-            followup = EMOTION_FOLLOW_UP[attempt]
+            followup = rng.choice(EMOTION_FOLLOW_UP)
             question('assistant response?', followup, [assistant, user])
             assistant = fact('Assistant: ' + followup)
 
+    if rng.randrange(5) == 0:
+        user = fact('User: ' + rng.choice(DECLINED))
+        question('actor?', 'user', [user])
+        question('current emotion?', 'unknown', [intro, user])
+        question('missing?', 'emotion', [intro, user])
+        question('declined?', 'emotion', [assistant, user])
+        question('next action?', 'stop_clarify', [assistant, user])
+        question('assistant response?', 'Of course. We can talk about something else.', [assistant, user])
+        return '\n'.join(f'{i} {line}' for i, line in enumerate(rows, 1)) + '\n\n'
+
     emotion = rng.choice(list(EMOTIONS))
     user = fact('User: ' + rng.choice(EMOTIONS[emotion]['answers']))
+    emotion_source = user
     question('actor?', 'user', [user])
     question('emotion?', emotion, [user])
     question('current emotion?', emotion, [user])
     question('is emotion known?', 'yes', [user])
+    question('missing?', 'none', [user])
+    question('declined?', 'none', [user])
     question('next action?', 'advance', [assistant, user])
     next_question = rng.choice(EMOTIONS[emotion]['questions'])
     question('assistant response?', next_question, [user])
@@ -639,7 +691,7 @@ def render_emotion(rng, action):
     if rng.randrange(5) == 0:
         user = fact('User: ' + rng.choice(["I'd rather not talk about my mood.", "Let's talk about something else.", "I don't want to explain."]))
         question('actor?', 'user', [user])
-        question('current emotion?', emotion, [user, assistant])
+        question('current emotion?', emotion, [emotion_source, user])
         question('next action?', 'stop_clarify', [assistant, user])
         question('assistant response?', 'Of course. We can talk about something else.', [assistant, user])
     elif context is not None:
@@ -798,46 +850,132 @@ def render_multi_action(rng):
     return tracking_story(rng, True)
 
 
+def dialogue_key(story):
+    """Deduplicate dialogue inputs even when QA targets or final replies differ."""
+    turns = [row.partition(' ')[2] for row in story.strip().splitlines()
+             if row.partition(' ')[2].startswith(('User: ', 'Assistant: '))]
+    while turns and turns[-1].startswith('Assistant: '):
+        turns.pop()
+    return '\n'.join(' '.join(turn.split()).casefold() for turn in turns)
+
+
+def validate_story(story):
+    """Check references and the agreement between decisions and assistant turns."""
+    rows = story.strip().splitlines()
+    if not rows or not rows[0].startswith('1 User: '):
+        raise ValueError('A story must start with a user utterance numbered 1')
+    next_action = None
+    next_question = None
+    response = None
+    missing = None
+    declined = set()
+    qa_count = 0
+    for j, row in enumerate(rows, 1):
+        if not row.startswith(f'{j} '):
+            raise ValueError(f'Invalid line numbering: {row}')
+        body = row.partition(' ')[2]
+        if '\t' not in body:
+            if body.startswith('User: '):
+                next_action = next_question = response = None
+                missing = None
+                declined = set()
+            elif body.startswith('Assistant: '):
+                if response is None or body != 'Assistant: ' + response:
+                    raise ValueError(f'Assistant turn disagrees with its QA target: {row}')
+            else:
+                raise ValueError(f'Unexpected dialogue line: {row}')
+            continue
+        parts = body.split('\t')
+        if len(parts) != 3 or not parts[1] or not parts[2].split():
+            raise ValueError(f'Invalid QA line: {row}')
+        label, answer, refs = parts
+        if not all(k.isdigit() and 1 <= int(k) < j for k in refs.split()):
+            raise ValueError(f'Invalid supporting references: {row}')
+        qa_count += 1
+        if label == 'missing?':
+            missing = set() if answer == 'none' else set(answer.split(', '))
+        elif label == 'declined?':
+            declined = set() if answer == 'none' else set(answer.split(', '))
+        elif label == 'next action?':
+            if answer not in ('clarify', 'advance', 'stop_clarify'):
+                raise ValueError(f'Unknown next action: {row}')
+            next_action = answer
+            next_question = None
+            if missing is not None:
+                if answer == 'advance' and missing:
+                    raise ValueError(f'Cannot advance with unresolved facts: {row}')
+                if answer == 'stop_clarify' and missing - declined:
+                    raise ValueError(f'Cannot stop while facts are pending without refusal: {row}')
+        elif label in ('ask about object?', 'ask about fact?'):
+            next_question = answer
+            if next_action == 'clarify' and answer == 'none':
+                raise ValueError(f'Clarification requires a question: {row}')
+            if next_action in ('advance', 'stop_clarify') and answer != 'none':
+                raise ValueError(f'Unexpected object clarification: {row}')
+        elif label == 'assistant response?':
+            response = answer
+            if next_action == 'stop_clarify' and '?' in answer:
+                raise ValueError(f'Clarification continues after stop_clarify: {row}')
+            if next_action == 'clarify' and next_question is not None and answer != next_question:
+                raise ValueError(f'Assistant response disagrees with clarification question: {row}')
+    return qa_count
+
+
 def build(out, counts):
-    out.mkdir(parents=True, exist_ok=True)
-    for split, n in counts.items():
-        rng = random.Random(SEED + {
-            'train': 0,
-            'valid': 10000,
-            'test': 20000
-            }[split])
+    offsets = {'train': 0, 'valid': 10000, 'test': 20000}
+    if any(split not in offsets or not isinstance(n, int) or n < 0
+           for split, n in counts.items()):
+        raise ValueError('Use non-negative integer counts for train, valid and test')
+    seen = set()
+    datasets = {}
+    stats = {}
+    # Reserve evaluation inputs first: changing only --train keeps valid/test fixed.
+    for split in ('valid', 'test', 'train'):
+        if split not in counts:
+            continue
+        rng = random.Random(SEED + offsets[split])
         stories = []
-        for i in range(n):
+        task_counts = dict.fromkeys(TASKS, 0)
+        qa_count = 0
+        for i in range(counts[split]):
             task = TASKS[i % len(TASKS)]
-            action = ACTIONS[(i // len(TASKS) + rng.randrange(len(ACTIONS))) % len(ACTIONS)]
-            stories.append(render(rng, task, action))
+            for attempt in range(MAX_GENERATION_ATTEMPTS):
+                action = rng.choice(ACTIONS)
+                story = render(rng, task, action)
+                key = dialogue_key(story)
+                if key not in seen:
+                    qa_count += validate_story(story)
+                    seen.add(key)
+                    stories.append(story)
+                    task_counts[task] += 1
+                    break
+            else:
+                raise ValueError(
+                    f'Cannot generate enough distinct {task} dialogues for {split}; '
+                    'expand the templates or reduce the requested count')
         rng.shuffle(stories)
-        for story in stories:
-            rows = story.strip().splitlines()
-            assert rows[0].startswith('1 User:')
-            for j, row in enumerate(rows, 1):
-                assert row.startswith(f'{j} '), row
-                body = row[len(str(j)) + 1:]
-                if '\t' in body:
-                    parts = body.split('\t')
-                    assert len(parts) == 3 and parts[1]
-                    assert all(1 <= int(k) < j for k in parts[2].split())
-        path = out / f'{split}.txt'
-        path.write_text(''.join(stories), encoding='utf-8')
-        print(f'{path}: {n} stories')
+        datasets[split] = stories
+        stats[split] = {'stories': len(stories), 'qa': qa_count, 'tasks': task_counts}
+    # Validate every split before replacing any existing dataset files.
+    out.mkdir(parents=True, exist_ok=True)
+    for split in offsets:
+        if split in datasets:
+            path = out / f'{split}.txt'
+            path.write_text(''.join(datasets[split]), encoding='utf-8')
+            print(f'{path}: {stats[split]["stories"]} unique dialogues, {stats[split]["qa"]} QA pairs')
+    return stats
 
 
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--out', type=Path, default=Path(__file__).resolve().parent / 'products-v4')
-    parser.add_argument('--train', type=int, default=2000)
-    parser.add_argument('--valid', type=int, default=300)
-    parser.add_argument('--test', type=int, default=300)
+    parser.add_argument('--train', type=int, default=DEFAULT_COUNTS['train'])
+    parser.add_argument('--valid', type=int, default=DEFAULT_COUNTS['valid'])
+    parser.add_argument('--test', type=int, default=DEFAULT_COUNTS['test'])
 
     args = parser.parse_args()
-    build(args.out, {
-        'train': args.train,
-        'valid': args.valid,
-        'test': args.test
-        })
+    try:
+        build(args.out, {'train': args.train, 'valid': args.valid, 'test': args.test})
+    except ValueError as error:
+        parser.error(str(error))
