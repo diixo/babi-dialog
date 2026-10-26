@@ -162,7 +162,7 @@
 
 - [Урок 66. Can, could, be able to](#unit-66)
 
-- [Урок 67. Can(’t) be doing, can(’t) have done](#unit-67)
+- [Урок 67. Can('t) be doing, can('t) have done](#unit-67)
 
 - [Урок 68. Must, have to, be to](#unit-68)
 
@@ -172,7 +172,7 @@
 
 - [Урок 71. May (might) be doing, may (might) have done](#unit-71)
 
-- [Урок 72. Need, needn’t, needn’t have done](#unit-72)
+- [Урок 72. Need, needn't, needn't have done](#unit-72)
 
 - [Урок 73. Should do, should have done](#unit-73)
 
@@ -230,7 +230,7 @@ I want to give him a book as a present.
 
 - если перед существительным в единственном числе стоит описательное опре деление:
 
-I’m reading an interesting book.
+I'm reading an interesting book.
 
 - в следующих случаях:
 
@@ -239,7 +239,7 @@ I’m reading an interesting book.
 | I have an apple. | I have apples. |
 | I see a boy. | I see boys. |
 | I am a student. | We are students. |
-| It’s a pen. | They / these are pens. |
+| It's a pen. | They / these are pens. |
 | This is a cat and that is a dog. | These are cats and those are dogs. |
 | There is a cup on the table. | There are cups on the table. |
 
@@ -247,7 +247,7 @@ I’m reading an interesting book.
 
 |  |  |
 | --- | --- |
-| Give me your pen, please. | I want to see this book. It’s Kate’s bag. |
+| Give me your pen, please. | I want to see this book. It's Kate's bag. |
 | Both students were late. | There is no water in the bottle. |
 
 2. Определенный артикль the употребляется со всеми существительными, как в единственном, так и во множественном числе —
@@ -260,7 +260,7 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 
 |  |  |
 | --- | --- |
-| I’ve found the pen I lost yesterday. I can’t answer the questions he asked me. (Те вопросы, которые он задает.) | (Ту самую ручку, которую потерял.) |
+| I've found the pen I lost yesterday. I can't answer the questions he asked me. (Те вопросы, которые он задает.) | (Ту самую ручку, которую потерял.) |
 
 - если понятно, что речь идет о конкретном предмете или понятии:
 
@@ -279,7 +279,7 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 
 Вставьте a / an или the.
 
-1. I’m looking for ....... job. I didn’t like ....... job I had.
+1. I'm looking for ....... job. I didn't like ....... job I had.
 2. Kate is wearing ....... new dress today. ....... dress is nice.
 3. He has ....... nice house. There is ....... beautiful garden in front of ....... house.
 4. This is ....... interesting book. ....... book is ....... love story.
@@ -288,16 +288,16 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 7. He is ....... engineer. He says ....... profession is interesting.
 8. There is ....... hotel not far from our house. ....... hotel is very comfortable.
 9. ....... car is very expensive.
-10. I’m doing ....... exercise. ....... exercise isn’t difficult.
+10. I'm doing ....... exercise. ....... exercise isn't difficult.
 11. They are building ....... international airport here.
 12. Without any warning ....... computer went down.
 13. ....... child is reading ....... magazine. ....... magazine has ....... bright cover.
-14. Bill is ....... very good specialist. I’m sure he can answer ....... question.
+14. Bill is ....... very good specialist. I'm sure he can answer ....... question.
 15. They say ....... library that is being built here will be very large.
 
 **Полное решение**
 
-1. I’m looking for a job. I didn’t like the job I had.
+1. I'm looking for a job. I didn't like the job I had.
 2. Kate is wearing a new dress today. The dress is nice.
 3. He has a nice house. There is a beautiful garden in front of the house.
 4. This is an interesting book. The book is a love story.
@@ -306,11 +306,11 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 7. He is an engineer. He says the profession is interesting.
 8. There is a hotel not far from our house. The hotel is very comfortable.
 9. The car is very expensive.
-10. I’m doing an exercise. The exercise isn’t difficult.
+10. I'm doing an exercise. The exercise isn't difficult.
 11. They are building an international airport here.
 12. Without any warning the computer went down.
 13. The child is reading a magazine. The magazine has a bright cover.
-14. Bill is a very good specialist. I’m sure he can answer the question.
+14. Bill is a very good specialist. I'm sure he can answer the question.
 15. They say the library that is being built here will be very large.
 
 <a id="exercise-1-2"></a>
@@ -334,27 +334,27 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 5. We are looking for ....... children. Have you seen them?
 6. Why do you like ....... small flats?
 7. Put ....... cups on the table.
-8. Let’s give them ....... cups and ....... saucers for their wedding.
+8. Let's give them ....... cups and ....... saucers for their wedding.
 9. They sell ....... bicycles here.
 10. They are ....... very strange people.
 
 **Часть 2**
 
 1. Do you know where ....... my watch is?
-2. ....... Kate’s husband is ....... doctor. They are all ....… doctors in ….... their family.
+2. ....... Kate's husband is ....... doctor. They are all ....… doctors in ….... their family.
 3. These are ….... very good examples. Study ....… examples.
 4. ….... papers you need are on the table.
 5. He has ....... long name and I can never remember it.
 6. There is ....... mistake in ....... sentence. Correct ....... mistake.
 7. Can you tell me where ....... station is.
-8. Who is ....... driver of this car? You can’t park ....... cars here.
+8. Who is ....... driver of this car? You can't park ....... cars here.
 9. ....... keys to ....... exercises you are doing now are on the next page.
 10. Do you remember ....... name of ....... street where we bought this washing machine?
 11. He says he needs ....... new glasses. But ....... glasses they sell here are very expensive.
-12. Remember to take ....... jacket to the cleaner’s.
+12. Remember to take ....... jacket to the cleaner's.
 13. They say ....... party was a success.
-14. Let’s take ....... photograph of Nick and July. They are ....... nice couple.
-15. I’m going to ....... airport. ....... plane leaves in two hours.
+14. Let's take ....... photograph of Nick and July. They are ....... nice couple.
+15. I'm going to ....... airport. ....... plane leaves in two hours.
 16. I liked ....... presents I received on my birthday.
 
 **Полное решение**
@@ -368,27 +368,27 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 5. We are looking for the children. Have you seen them?
 6. Why do you like small flats?
 7. Put the cups on the table.
-8. Let’s give them cups and saucers for their wedding.
+8. Let's give them cups and saucers for their wedding.
 9. They sell bicycles here.
 10. They are very strange people.
 
 **Часть 2**
 
 1. Do you know where my watch is?
-2. Kate’s husband is a doctor. They are all doctors in their family.
+2. Kate's husband is a doctor. They are all doctors in their family.
 3. These are very good examples. Study the examples.
 4. The papers you need are on the table.
 5. He has a long name and I can never remember it.
 6. There is a mistake in the sentence. Correct the mistake.
 7. Can you tell me where the station is?
-8. Who is the driver of this car? You can’t park cars here.
+8. Who is the driver of this car? You can't park cars here.
 9. The keys to the exercises you are doing now are on the next page.
 10. Do you remember the name of the street where we bought this washing machine?
 11. He says he needs new glasses. But the glasses they sell here are very expensive.
-12. Remember to take the jacket to the cleaner’s.
+12. Remember to take the jacket to the cleaner's.
 13. They say the party was a success.
-14. Let’s take a photograph of Nick and July. They are a nice couple.
-15. I’m going to the airport. The plane leaves in two hours.
+14. Let's take a photograph of Nick and July. They are a nice couple.
+15. I'm going to the airport. The plane leaves in two hours.
 16. I liked the presents I received on my birthday.
 
 <a id="unit-2"></a>
@@ -412,7 +412,7 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 | --- | --- | --- | --- | --- |
 | the garden | the country | the corner | the theatre | the west |
 
-Go to the bathroom. I can see the moon. It’s at the beginning of the page.
+Go to the bathroom. I can see the moon. It's at the beginning of the page.
 
 They are going to the north next autumn. He likes to go to the theatre.
 
@@ -422,11 +422,11 @@ They are going to the north next autumn. He likes to go to the theatre.
 | --- | --- |
 | There is a garden in front of the house. | She likes having tea in the garden. |
 | There is a door at the end of the hall. | Please, open the door. |
-| There is a theatre in this town. | Let’s go to the theatre. |
+| There is a theatre in this town. | Let's go to the theatre. |
 
 2. Если перед существительными стоят уточняющие определения типа right, left, upper, lower, central, necessary, coming, present, previous, following, only, very, main, usual, same и другие, то, как правило, употребляется определенный артикль.
 
-It’s the right way to do this work.
+It's the right way to do this work.
 
 The main thing is to be calm.
 
@@ -444,7 +444,7 @@ We can discuss it at the next meeting. That was the last page.
 
 We met last week.
 
-We’ll go there next year.
+We'll go there next year.
 
 Bring your brother next time.
 
@@ -464,22 +464,22 @@ Bring your brother next time.
 2. What did you discuss at ....... last meeting?
 3. She is such ....... nice woman!
 4. All ....... students must learn ....... following rules and observe them.
-5. I looked through ....... books on ....... upper shelf but didn’t find ....... necessary one.
+5. I looked through ....... books on ....... upper shelf but didn't find ....... necessary one.
 6. Go straight ahead and then turn to ....... left.
-7. I didn’t get ....... main idea of ....... story.
-8. It’s ....... same question you asked me ....... last time.
-9. We’ll speak about it ....... next time.
+7. I didn't get ....... main idea of ....... story.
+8. It's ....... same question you asked me ....... last time.
+9. We'll speak about it ....... next time.
 10. They are such ....... clever students.
 
 **Часть 2**
 
-1. I didn’t understand ....... last word.
-2. You are ....... very man I’d like to speak to.
+1. I didn't understand ....... last word.
+2. You are ....... very man I'd like to speak to.
 3. What is there on ....... floor?
 4. Look out of ....... window!
-5. I see ....... post office. Let’s go and buy some stamps.
-6. I’m going to ....... post office. I must buy ....... stamps.
-7. It’s ....... interesting beginning for the article.
+5. I see ....... post office. Let's go and buy some stamps.
+6. I'm going to ....... post office. I must buy ....... stamps.
+7. It's ....... interesting beginning for the article.
 8. ....... end of ....... story is interesting.
 9. He will join ....... army this year.
 10. ....... sun rises in ....... east and sets in ....... west.
@@ -489,12 +489,12 @@ Bring your brother next time.
 1. What do you call it in English? — ....... ceiling.
 2. There is ....... fly on ....... ceiling.
 3. Look at ....... sky. ....... moon is full today.
-4. ....... kitchen in my flat is too small. I’m looking for ....... flat with ....... larger kitchen.
-5. It’s ....... lie and I want to know ....... truth.
+4. ....... kitchen in my flat is too small. I'm looking for ....... flat with ....... larger kitchen.
+5. It's ....... lie and I want to know ....... truth.
 6. The Browns usually go to ....... south in summer.
 7. He grows ....... different flowers in ....... garden.
 8. He likes going to ....... country for the weekend.
-9. I’d like to go to ....... east and to ....... west. I’d like to see ....... world.
+9. I'd like to go to ....... east and to ....... west. I'd like to see ....... world.
 10. ....... children are waiting for you on ....... ground floor.
 
 **Часть 4**
@@ -507,9 +507,9 @@ Bring your brother next time.
 6. He will show me ....... centre of ....... city ....... next week.
 7. He looked out of ....... window and saw ....... same man there again.
 8. There is ....... comfortable armchair in ....... corner of ....... room.
-9. Let’s put ....... table in ....... middle of ....... kitchen.
+9. Let's put ....... table in ....... middle of ....... kitchen.
 10. My desk is at ....... wall to ....... left of....... window.
-11. Look for your papers on ....... lower shelf and ....... next time don’t forget where you put ....... your things.
+11. Look for your papers on ....... lower shelf and ....... next time don't forget where you put ....... your things.
 
 **Полное решение**
 
@@ -519,22 +519,22 @@ Bring your brother next time.
 2. What did you discuss at the last meeting?
 3. She is such a nice woman!
 4. All students must learn the following rules and observe them.
-5. I looked through the books on the upper shelf but didn’t find the necessary one.
+5. I looked through the books on the upper shelf but didn't find the necessary one.
 6. Go straight ahead and then turn to the left.
-7. I didn’t get the main idea of the story.
-8. It’s the same question you asked me last time.
-9. We’ll speak about it next time.
+7. I didn't get the main idea of the story.
+8. It's the same question you asked me last time.
+9. We'll speak about it next time.
 10. They are such clever students.
 
 **Часть 2**
 
-1. I didn’t understand the last word.
-2. You are the very man I’d like to speak to.
+1. I didn't understand the last word.
+2. You are the very man I'd like to speak to.
 3. What is there on the floor?
 4. Look out of the window!
-5. I see a post office. Let’s go and buy some stamps.
-6. I’m going to the post office. I must buy stamps.
-7. It’s an interesting beginning for the article.
+5. I see a post office. Let's go and buy some stamps.
+6. I'm going to the post office. I must buy stamps.
+7. It's an interesting beginning for the article.
 8. The end of the story is interesting.
 9. He will join the army this year.
 10. The sun rises in the east and sets in the west.
@@ -544,12 +544,12 @@ Bring your brother next time.
 1. What do you call it in English? — A ceiling.
 2. There is a fly on the ceiling.
 3. Look at the sky. The moon is full today.
-4. The kitchen in my flat is too small. I’m looking for a flat with a larger kitchen.
-5. It’s a lie and I want to know the truth.
+4. The kitchen in my flat is too small. I'm looking for a flat with a larger kitchen.
+5. It's a lie and I want to know the truth.
 6. The Browns usually go to the south in summer.
 7. He grows different flowers in the garden.
 8. He likes going to the country for the weekend.
-9. I’d like to go to the east and to the west. I’d like to see the world.
+9. I'd like to go to the east and to the west. I'd like to see the world.
 10. The children are waiting for you on the ground floor.
 
 **Часть 4**
@@ -562,9 +562,9 @@ Bring your brother next time.
 6. He will show me the centre of the city next week.
 7. He looked out of the window and saw the same man there again.
 8. There is a comfortable armchair in the corner of the room.
-9. Let’s put the table in the middle of the kitchen.
+9. Let's put the table in the middle of the kitchen.
 10. My desk is at the wall to the left of the window.
-11. Look for your papers on the lower shelf and next time don’t forget where you put your things.
+11. Look for your papers on the lower shelf and next time don't forget where you put your things.
 
 <a id="unit-3"></a>
 
@@ -586,9 +586,9 @@ Bring your brother next time.
 
 I wish you happiness. This is interesting work. I like rainy weather.
 
-Указанные существительные могут употребляться с определенным артиклем, если есть ограничивающее определение или ограничение ситуацией. The weather is fine today. The work I’m doing is very interesting. I don’t have the time for it.
+Указанные существительные могут употребляться с определенным артиклем, если есть ограничивающее определение или ограничение ситуацией. The weather is fine today. The work I'm doing is very interesting. I don't have the time for it.
 
-Некоторые из указанных существительных могут изменять значение, и тогда они становятся исчисляемыми. It’s a wonderful work of art. (произведение) He told us about an awful experience in his life. (случай из жизни)
+Некоторые из указанных существительных могут изменять значение, и тогда они становятся исчисляемыми. It's a wonderful work of art. (произведение) He told us about an awful experience in his life. (случай из жизни)
 
 Слово life употребляется с a, если ему предшествует описательное определение. I know he had a difficult life.
 
@@ -602,11 +602,11 @@ Give me some water, please. You must eat more fish.
 
 Наличие описательного определения не влияет на употребление артиклей. The dress is made of very good silk. I like hot coffee.
 
-Определенный артикль употребляется, если речь идет об ограниченном количестве вещества. The water in the river is cold. The meat I’ve bought is fresh.
+Определенный артикль употребляется, если речь идет об ограниченном количестве вещества. The water in the river is cold. The meat I've bought is fresh.
 
-Иногда эти существительные также изменяют свое значение и становятся исчисляемыми. I want a salad and a coffee, please. (порция салата и чашка кофе) Let’s make a fire. (костер) He threw a stone into the water. (камень)
+Иногда эти существительные также изменяют свое значение и становятся исчисляемыми. I want a salad and a coffee, please. (порция салата и чашка кофе) Let's make a fire. (костер) He threw a stone into the water. (камень)
 
-3. Существительные, названия наук, виды искусства, предметы, изучаемые в учебных заведениях, НЕ употребляются с неопределенным артиклем. He studies law at University. Susan is fond of French poetry. I never enjoyed studying history. I’m reading a book about the history of Scotland.
+3. Существительные, названия наук, виды искусства, предметы, изучаемые в учебных заведениях, НЕ употребляются с неопределенным артиклем. He studies law at University. Susan is fond of French poetry. I never enjoyed studying history. I'm reading a book about the history of Scotland.
 
 <a id="exercise-3-1"></a>
 
@@ -620,16 +620,16 @@ Give me some water, please. You must eat more fish.
 
 **Часть 1**
 
-1. ....... weather is fine today. Let’s go for a walk. I enjoy walking in ....... good weather.
+1. ....... weather is fine today. Let's go for a walk. I enjoy walking in ....... good weather.
 2. I can say I feel ....... great respect for this man.
-3. Doesn’t he understand that he is talking ....... nonsense?
+3. Doesn't he understand that he is talking ....... nonsense?
 4. This is ....... very interesting news. I would say ....... news is shocking.
 5. First of all you must think about ....... health.
 6. ....... advice he gave me was useful indeed. He is ....... clever man and always gives ....... good advice.
-7. What he needs now is ....... luck and I’m sure he will achieve ....... success.
-8. You’ve made ....... great progress this year and got ....... deep knowledge of the subject.
+7. What he needs now is ....... luck and I'm sure he will achieve ....... success.
+8. You've made ....... great progress this year and got ....... deep knowledge of the subject.
 9. It was ....... fun to watch ....... children playing.
-10. ....... work must be done in time. It’s ....... urgent work.
+10. ....... work must be done in time. It's ....... urgent work.
 
 **Часть 2**
 
@@ -638,20 +638,20 @@ Give me some water, please. You must eat more fish.
 3. ....... information he has may be interesting to us.
 4. He is interested in ....... life of ....... great people.
 5. I think he had ....... interesting life.
-6. Be careful not to break it. It’s made of ....... glass.
-7. ....... doctors say he mustn’t eat ....... meat. They say ....... meat can do him harm.
+6. Be careful not to break it. It's made of ....... glass.
+7. ....... doctors say he mustn't eat ....... meat. They say ....... meat can do him harm.
 8. The child ate ....... soup very quickly. He always has ....... soup for dinner.
-9. ....... fish doesn’t smell good. Don’t eat it.
+9. ....... fish doesn't smell good. Don't eat it.
 10. He likes ....... strong tea with ....... sugar and ....... lemon.
 
 **Часть 3**
 
-1. Waiter! I’d like ....... juice and ....... ice-cream, please.
-2. Don’t give her ....... ice-cream. She has a cold.
-3. I don’t want anything but ....... plain water.
+1. Waiter! I'd like ....... juice and ....... ice-cream, please.
+2. Don't give her ....... ice-cream. She has a cold.
+3. I don't want anything but ....... plain water.
 4. Can I have ....... bread and ....... butter? — ....... butter is in ....... fridge and here is ....... bread.
 5. There is ....... fire over there. Some house is on ....... fire.
-6. I don’t think ....... English grammar is very difficult.
+6. I don't think ....... English grammar is very difficult.
 7. ....... life is impossible without ....... water and ....... air.
 8. ....... tourists made ....... fire and cooked ....... food.
 9. ....... paper is rough. I need ....... better paper.
@@ -661,7 +661,7 @@ Give me some water, please. You must eat more fish.
 
 1. She says there is nothing better than ....... cold tea on ....... hot day.
 2. He is interested in ....... ancient history and knows much about ....... life of people at that time.
-3. Mike says he doesn’t like ....... modern music but he always enjoys ....... classical music.
+3. Mike says he doesn't like ....... modern music but he always enjoys ....... classical music.
 4. Is it easy to drive in ....... thick fog?
 5. Which is cheaper, ....... fuel or ....... gas?
 6. Do you prefer clothes made of ....... silk or ....... cotton?
@@ -674,16 +674,16 @@ Give me some water, please. You must eat more fish.
 
 **Часть 1**
 
-1. The weather is fine today. Let’s go for a walk. I enjoy walking in good weather.
+1. The weather is fine today. Let's go for a walk. I enjoy walking in good weather.
 2. I can say I feel great respect for this man.
-3. Doesn’t he understand that he is talking nonsense?
+3. Doesn't he understand that he is talking nonsense?
 4. This is very interesting news. I would say the news is shocking.
 5. First of all you must think about health.
 6. The advice he gave me was useful indeed. He is a clever man and always gives good advice.
-7. What he needs now is luck and I’m sure he will achieve success.
-8. You’ve made great progress this year and got deep knowledge of the subject.
+7. What he needs now is luck and I'm sure he will achieve success.
+8. You've made great progress this year and got deep knowledge of the subject.
 9. It was fun to watch the children playing.
-10. The work must be done in time. It’s urgent work.
+10. The work must be done in time. It's urgent work.
 
 **Часть 2**
 
@@ -692,20 +692,20 @@ Give me some water, please. You must eat more fish.
 3. The information he has may be interesting to us.
 4. He is interested in the life of great people.
 5. I think he had an interesting life.
-6. Be careful not to break it. It’s made of glass.
-7. The doctors say he mustn’t eat meat. They say meat can do him harm.
+6. Be careful not to break it. It's made of glass.
+7. The doctors say he mustn't eat meat. They say meat can do him harm.
 8. The child ate the soup very quickly. He always has soup for dinner.
-9. The fish doesn’t smell good. Don’t eat it.
+9. The fish doesn't smell good. Don't eat it.
 10. He likes strong tea with sugar and lemon.
 
 **Часть 3**
 
-1. Waiter! I’d like a juice and an ice-cream, please.
-2. Don’t give her ice-cream. She has a cold.
-3. I don’t want anything but plain water.
+1. Waiter! I'd like a juice and an ice-cream, please.
+2. Don't give her ice-cream. She has a cold.
+3. I don't want anything but plain water.
 4. Can I have bread and butter? — The butter is in the fridge and here is the bread.
 5. There is a fire over there. Some house is on fire.
-6. I don’t think English grammar is very difficult.
+6. I don't think English grammar is very difficult.
 7. Life is impossible without water and air.
 8. The tourists made a fire and cooked food.
 9. The paper is rough. I need better paper.
@@ -715,7 +715,7 @@ Give me some water, please. You must eat more fish.
 
 1. She says there is nothing better than cold tea on a hot day.
 2. He is interested in ancient history and knows much about the life of people at that time.
-3. Mike says he doesn’t like modern music but he always enjoys classical music.
+3. Mike says he doesn't like modern music but he always enjoys classical music.
 4. Is it easy to drive in thick fog?
 5. Which is cheaper, fuel or gas?
 6. Do you prefer clothes made of silk or cotton?
@@ -782,7 +782,7 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 2. ....... euro is ....... single European currency.
 3. The ambulance came and took ....... injured to hospital.
 4. ....... Swiss speak four foreign languages.
-5. ....... violet is my wife’s favourite flower. I always give her ....... violets.
+5. ....... violet is my wife's favourite flower. I always give her ....... violets.
 6. ....... telephone was invented by Bell. Nowadays almost all people have ....... telephones.
 7. ....... airplane is the most popular means of transport because ....... airplanes fly very quickly.
 8. I want to buy ....... new computer. ....... computer I have is very slow.
@@ -799,7 +799,7 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 2. The euro is a single European currency.
 3. The ambulance came and took the injured to hospital.
 4. The Swiss speak four foreign languages.
-5. The violet is my wife’s favourite flower. I always give her violets.
+5. The violet is my wife's favourite flower. I always give her violets.
 6. The telephone was invented by Bell. Nowadays almost all people have telephones.
 7. The airplane is the most popular means of transport because airplanes fly very quickly.
 8. I want to buy a new computer. The computer I have is very slow.
@@ -890,13 +890,13 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 
 1. Употребление артиклей с именами собственными
 
-Имена собственные обычно употребляются без артиклей. I don’t know Charles Smith. Little Bobby is very funny. Артикли также не употребляются перед существительными mother, father, aunt, uncle, nurse, professor, captain, doctor и другими, если за ними следует имя собственное. Do you know Doctor Brown? Aunt Mary is coming to stay with us for some time. the writer Dickens the painter Turner Определенный артикль употребляется перед именами собственными, обозначающими семью — The Browns are our great friends. — Брауны — наши хорошие друзья. и при наличии лимитирующего определения. The Jack I told you about is waiting for you.
+Имена собственные обычно употребляются без артиклей. I don't know Charles Smith. Little Bobby is very funny. Артикли также не употребляются перед существительными mother, father, aunt, uncle, nurse, professor, captain, doctor и другими, если за ними следует имя собственное. Do you know Doctor Brown? Aunt Mary is coming to stay with us for some time. the writer Dickens the painter Turner Определенный артикль употребляется перед именами собственными, обозначающими семью — The Browns are our great friends. — Брауны — наши хорошие друзья. и при наличии лимитирующего определения. The Jack I told you about is waiting for you.
 
 2. Употребление артиклей с географическими названиями
 
 Без артикля употребляются названия:
 
-- континентов Let’s go to South America in June.
+- континентов Let's go to South America in June.
 
 - стран He is going to Germany. Italy is a beautiful country.
 
@@ -1022,12 +1022,12 @@ Urals
 
 Вставьте артикли, где это необходимо.
 
-1. ....... Detective Cooper says he saw you there yesterday. — Tell ....... detective I’ve never been there.
-2. Have you ever climbed ....... Elbrus? — I’ve climbed ....... Andes.
+1. ....... Detective Cooper says he saw you there yesterday. — Tell ....... detective I've never been there.
+2. Have you ever climbed ....... Elbrus? — I've climbed ....... Andes.
 3. ....... United Kingdom consists of ....... England, ....... Scotland, ....... Wales, and ....... Northern Ireland.
 4. ....... British Prime Minister left for ....... Middle East early this morning.
 5. If I had enough money I would go to ....... Canaries.
-6. I’ve heard much about ....... General Miles. ....... general is a well-known person.
+6. I've heard much about ....... General Miles. ....... general is a well-known person.
 7. When are ....... Greens moving to their new flat?
 8. This story is written by ....... famous English writer W. S. Maugham.
 9. ....... Strait of Gibraltar separates ....... Europe from ....... Africa.
@@ -1037,12 +1037,12 @@ Urals
 
 **Полное решение**
 
-1. Detective Cooper says he saw you there yesterday. — Tell the detective I’ve never been there.
-2. Have you ever climbed Elbrus? — I’ve climbed the Andes.
+1. Detective Cooper says he saw you there yesterday. — Tell the detective I've never been there.
+2. Have you ever climbed Elbrus? — I've climbed the Andes.
 3. The United Kingdom consists of England, Scotland, Wales, and Northern Ireland.
 4. The British Prime Minister left for the Middle East early this morning.
 5. If I had enough money I would go to the Canaries.
-6. I’ve heard much about General Miles. The general is a well-known person.
+6. I've heard much about General Miles. The general is a well-known person.
 7. When are the Greens moving to their new flat?
 8. This story is written by the famous English writer W. S. Maugham.
 9. The Strait of Gibraltar separates Europe from Africa.
@@ -1074,7 +1074,7 @@ Oxford University, Moscow University (но: the University of Moscow), London Ai
 
 - названия зданий, если в названии здания присутствует имя собственное
 
-Buckingham Palace, Westminster Abbey, St. Paul’s Cathedral
+Buckingham Palace, Westminster Abbey, St. Paul's Cathedral
 
 the White House, the Royal Palace (“white” and “royal” are not proper names).
 
@@ -1120,11 +1120,11 @@ The Titanic
 4. He walked slowly down ....... Madison Avenue past ....... Old Murray Hotel.
 5. You can find him at ....... Grand Opera House almost every night.
 6. He went to ....... Eton and ....... Oxford and is very proud of it.
-7. The conversation was in ....... German. As I didn’t know ....... German language I remained silent.
+7. The conversation was in ....... German. As I didn't know ....... German language I remained silent.
 8. Every morning she read ....... Daily Morning and ....... Daily Express from cover to cover.
 9. They are taking a voyage on board ....... Victoria.
 10. ....... Wellington is a hotel on ....... Broadway.
-11. ....... Regent’s Park is now the home of ....... London Zoo.
+11. ....... Regent's Park is now the home of ....... London Zoo.
 12. ....... Victoria and Albert is a museum where you can find things from almost every place and period.
 
 **Полное решение**
@@ -1135,11 +1135,11 @@ The Titanic
 4. He walked slowly down Madison Avenue past the Old Murray Hotel.
 5. You can find him at the Grand Opera House almost every night.
 6. He went to Eton and Oxford and is very proud of it.
-7. The conversation was in German. As I didn’t know the German language I remained silent.
+7. The conversation was in German. As I didn't know the German language I remained silent.
 8. Every morning she read the Daily Morning and the Daily Express from cover to cover.
 9. They are taking a voyage on board the Victoria.
 10. The Wellington is a hotel on Broadway.
-11. Regent’s Park is now the home of London Zoo.
+11. Regent's Park is now the home of London Zoo.
 12. The Victoria and Albert is a museum where you can find things from almost every place and period.
 
 <a id="exercise-6-2"></a>
@@ -1153,26 +1153,26 @@ The Titanic
 Выберите правильный вариант.
 
 1. *Savoy* / *The Savoy* is a luxury hotel in London.
-2. He is coming on *Wednesday* / *the Wednesday* and we’ll meet him at *Lincoln International Airport* / *the Lincoln International Airport*.
+2. He is coming on *Wednesday* / *the Wednesday* and we'll meet him at *Lincoln International Airport* / *the Lincoln International Airport*.
 3. I know a house in *Talbot Square* / *the Talbot Square* you can rent.
 4. *Capitol* / *the Capitol* is the largest and tallest among other buildings.
-5. I’ve already been to *Tate Gallery* / *the Tate Gallery* twice.
-6. *St. James’s Park* / *The St. James’s Park* overlooks *St. James’s* / *the St. James’s* Palace.
+5. I've already been to *Tate Gallery* / *the Tate Gallery* twice.
+6. *St. James's Park* / *The St. James's Park* overlooks *St. James's* / *the St. James's* Palace.
 7. *Science Museum* / *The Science Museum* is always crowded and very noisy.
-8. *Mansion House* / *The Mansion House* is the residence of the City’s Lord Mayor.
+8. *Mansion House* / *The Mansion House* is the residence of the City's Lord Mayor.
 9. *Today* / *The Today* is a popular newspaper.
 10. *Statue of Liberty* / *The Statue of Liberty* was a gift of France to the USA.
 
 **Полное решение**
 
 1. The Savoy is a luxury hotel in London.
-2. He is coming on Wednesday and we’ll meet him at Lincoln International Airport.
+2. He is coming on Wednesday and we'll meet him at Lincoln International Airport.
 3. I know a house in Talbot Square you can rent.
 4. The Capitol is the largest and tallest among other buildings.
-5. I’ve already been to the Tate Gallery twice.
-6. St. James’s Park overlooks St. James’s Palace.
+5. I've already been to the Tate Gallery twice.
+6. St. James's Park overlooks St. James's Palace.
 7. The Science Museum is always crowded and very noisy.
-8. The Mansion House is the residence of the City’s Lord Mayor.
+8. The Mansion House is the residence of the City's Lord Mayor.
 9. The Today is a popular newspaper.
 10. The Statue of Liberty was a gift of France to the USA.
 
@@ -1270,12 +1270,12 @@ Houses of Parliament
 Заполните пропуски артиклями.
 
 1. Can you explain ....... idea of the article?
-2. I’m afraid it will be ....... waste of time.
+2. I'm afraid it will be ....... waste of time.
 3. Please get ....... scarf of wool for him.
 4. She is ....... daughter of ....... sportsman.
 5. The children had found ....... box of matches and were playing with it.
 6. ....... roof of the house is very old.
-7. You’ll have to pay ....... fine of fifty pounds.
+7. You'll have to pay ....... fine of fifty pounds.
 8. You must speak to ....... owner of the company first.
 9. I saw him speaking with ....... group of students yesterday.
 10. The article deals with the latest discoveries in ....... field of medicine.
@@ -1283,12 +1283,12 @@ Houses of Parliament
 **Полное решение**
 
 1. Can you explain the idea of the article?
-2. I’m afraid it will be a waste of time.
+2. I'm afraid it will be a waste of time.
 3. Please get a scarf of wool for him.
 4. She is the daughter of a sportsman.
 5. The children had found a box of matches and were playing with it.
 6. The roof of the house is very old.
-7. You’ll have to pay a fine of fifty pounds.
+7. You'll have to pay a fine of fifty pounds.
 8. You must speak to the owner of the company first.
 9. I saw him speaking with a group of students yesterday.
 10. The article deals with the latest discoveries in the field of medicine.
@@ -1307,7 +1307,7 @@ Houses of Parliament
 
 1. He felt for the key in ....... pockets of the jacket, but found nothing.
 2. The doctor says that ....... state of his health is poor.
-3. Let’s climb to ....... top of the hill.
+3. Let's climb to ....... top of the hill.
 4. I need ....... pound of sugar and ....... box of chocolates.
 5. The country has ....... area of 96,000 sq. km.
 6. ....... price of fuel has grown recently.
@@ -1320,7 +1320,7 @@ Houses of Parliament
 
 1. He felt for the key in the pockets of the jacket, but found nothing.
 2. The doctor says that the state of his health is poor.
-3. Let’s climb to the top of the hill.
+3. Let's climb to the top of the hill.
 4. I need a pound of sugar and a box of chocolates.
 5. The country has an area of 96,000 sq. Km.
 6. The price of fuel has grown recently.
@@ -1357,17 +1357,17 @@ front, house
 sense, duty  
 result, exam
 
-1. Is her father a teacher? — No, he isn’t. He is ............................................................
+1. Is her father a teacher? — No, he isn't. He is ............................................................
 2. Did you walk long? — Yes, we did. By the evening we had covered ...........................
-3. Are you thirsty? — I’m. I could do with ....................................................................
-4. Is he well-educated? — I’m sure of that. He is ..........................................................
-5. I advise you to read the novel. It’s certainly ..............................................................
+3. Are you thirsty? — I'm. I could do with ....................................................................
+4. Is he well-educated? — I'm sure of that. He is ..........................................................
+5. I advise you to read the novel. It's certainly ..............................................................
 6. Does she have children? — Yes, she does. She has ..................................................
 7. Change your clothes at once. .......................................................................is dirty.
 8. Does she work? Yes, she does. She was offered .................................. not long ago.
 9. The child is very responsible and has .......................................................................
 10. He is busy preparing a talk on .................................................................................
-11. Turn over the page and you’ll find the word at ...........................................................
+11. Turn over the page and you'll find the word at ...........................................................
 12. What did she wear at the party? — ..........................................................................
 13. ................................................................... sitting over there seems familiar to me.
 14. I must buy some paint. I want to paint .....................................................................
@@ -1375,17 +1375,17 @@ result, exam
 
 **Полное решение**
 
-1. Is her father a teacher? — No, he isn’t. He is a scientist. She is the daughter of a scientist.
+1. Is her father a teacher? — No, he isn't. He is a scientist. She is the daughter of a scientist.
 2. Did you walk long? — Yes, we did. By the evening we had covered a distance of twenty miles.
 3. Are you thirsty? — Yes, I am. I could do with a glass of juice.
-4. Is he well-educated? — I’m sure of that. He is a man of culture.
-5. I advise you to read the novel. It’s certainly a book of interest.
+4. Is he well-educated? — I'm sure of that. He is a man of culture.
+5. I advise you to read the novel. It's certainly a book of interest.
 6. Does she have children? — Yes, she does. She has a girl of thirteen.
 7. Change your clothes at once. The collar of the shirt is dirty.
 8. Does she work? Yes, she does. She was offered the position of a manager not long ago.
 9. The child is very responsible and has a sense of duty.
 10. He is busy preparing a talk on the development of science.
-11. Turn over the page and you’ll find the word at the bottom of the page.
+11. Turn over the page and you'll find the word at the bottom of the page.
 12. What did she wear at the party? — A dress of silk.
 13. The face of the man sitting over there seems familiar to me.
 14. I must buy some paint. I want to paint the front of the house.
@@ -1403,13 +1403,13 @@ result, exam
 
 | без артикля | a / an | the |
 | --- | --- | --- |
-| • в безличных предложениях<br>It was summer.<br>• со словами late / early<br>It was late / early autumn.<br>• с предлогом in<br>I’m going to skate a lot<br>in winter. | • при наличии описательного определения<br>It was a cold winter.<br>It was a terrible<br>summer. | • после предлогов<br>through, during, for<br>Where are you going<br>for the summer? |
+| • в безличных предложениях<br>It was summer.<br>• со словами late / early<br>It was late / early autumn.<br>• с предлогом in<br>I'm going to skate a lot<br>in winter. | • при наличии описательного определения<br>It was a cold winter.<br>It was a terrible<br>summer. | • после предлогов<br>through, during, for<br>Where are you going<br>for the summer? |
 
 2. Употребление артиклей с существительными, обозначающими части суток (day, morning, afternoon, evening, night, dawn)
 
 | без артикля | a / an | the |
 | --- | --- | --- |
-| • в безличных предложениях<br>It was evening when he finally<br>phoned.<br>• с прилагательными early, late<br>It was late afternoon. It was early<br>morning.<br>• с определениями yesterday, tomorrow<br>I met him yesterday afternoon.<br>• после предлогов at, by, about, past,<br>before, after, towards, till, until<br>We’ll start before dawn. | • При наличии<br>описательного<br>определения<br>It was a cold<br>morning.<br>I met him on<br>a hot summer<br>day. | • После предлогов in,<br>through, during<br>He was here in the<br>morning.<br>She worked during<br>the day. |
+| • в безличных предложениях<br>It was evening when he finally<br>phoned.<br>• с прилагательными early, late<br>It was late afternoon. It was early<br>morning.<br>• с определениями yesterday, tomorrow<br>I met him yesterday afternoon.<br>• после предлогов at, by, about, past,<br>before, after, towards, till, until<br>We'll start before dawn. | • При наличии<br>описательного<br>определения<br>It was a cold<br>morning.<br>I met him on<br>a hot summer<br>day. | • После предлогов in,<br>through, during<br>He was here in the<br>morning.<br>She worked during<br>the day. |
 
 At night / at dawn — We decided to leave at dawn.
 
@@ -1417,13 +1417,13 @@ At night / at dawn — We decided to leave at dawn.
 
 | без артикля | a / an | the |
 | --- | --- | --- |
-| Let’s have lunch.<br>She cooks dinner every day.<br>Who makes breakfast in your<br>family?<br>Let’s meet after lunch. | • при наличии описательного определения<br>I always have a light<br>supper.<br>It was a very tasty<br>dinner. | • при наличии лимитирующего определения<br>The dinner she made<br>was tasty. |
+| Let's have lunch.<br>She cooks dinner every day.<br>Who makes breakfast in your<br>family?<br>Let's meet after lunch. | • при наличии описательного определения<br>I always have a light<br>supper.<br>It was a very tasty<br>dinner. | • при наличии лимитирующего определения<br>The dinner she made<br>was tasty. |
 
 4. Употребление артиклей с существительными — названиями веществ
 
 | без артикля | a / an | the |
 | --- | --- | --- |
-| Life is impossible without water.<br>Don’t swim in cold water.<br>I like strong tea. | • если эти существительные изменяют свое значение и становятся исчисляемыми<br>I want a coffee and<br>an ice-cream. | • если речь идет об ограниченном количестве<br>вещества<br>Drink the milk.<br>The water is cold. |
+| Life is impossible without water.<br>Don't swim in cold water.<br>I like strong tea. | • если эти существительные изменяют свое значение и становятся исчисляемыми<br>I want a coffee and<br>an ice-cream. | • если речь идет об ограниченном количестве<br>вещества<br>Drink the milk.<br>The water is cold. |
 
 <a id="exercise-8-1"></a>
 
@@ -1443,7 +1443,7 @@ At night / at dawn — We decided to leave at dawn.
 5. What do you usually have (*for*, *breakfast*)? .............................................................
 6. Do you usually have (*light, or*, *heavy*, *breakfast*)? ..................................................
 7. Do you always (*make*, *dinner*) yourself? .................................................................
-8. Do you think it’s bad to have (*late*, *supper*)? ...........................................................
+8. Do you think it's bad to have (*late*, *supper*)? ...........................................................
 9. Did you get up early (*in*, *morning*)? .......................................................................
 10. Did you go to bed late (*last*, *night*)? .......................................................................
 11. Do you often ask your friends (*to*, *dinner*)? .............................................................
@@ -1462,7 +1462,7 @@ At night / at dawn — We decided to leave at dawn.
 5. What do you usually have for breakfast?
 6. Do you usually have a light or a heavy breakfast?
 7. Do you always make dinner yourself?
-8. Do you think it’s bad to have a late supper?
+8. Do you think it's bad to have a late supper?
 9. Did you get up early in the morning?
 10. Did you go to bed late last night?
 11. Do you often ask your friends to supper?
@@ -1487,12 +1487,12 @@ At night / at dawn — We decided to leave at dawn.
 3. Nature is wonderful (*in spring* / *in the spring*).
 4. It was (*late afternoon* / *the late afternoon*).
 5. It was (*cold evening* / *a cold evening*).
-6. It’s necessary to have (*heavy* / *a heavy*) breakfast.
+6. It's necessary to have (*heavy* / *a heavy*) breakfast.
 7. (*Dinner* / *The dinner*) she made was wonderful.
 8. He appeared (*before midday* / *before the midday*).
 9. He spent (*evening* / *the evening*) with his parents.
 10. She phoned several times (*during morning* / *during the morning*)?
-11. (*Lunch* / *The lunch*) was awful. I didn’t expect it to be so bad.
+11. (*Lunch* / *The lunch*) was awful. I didn't expect it to be so bad.
 12. They danced all through (*night* / *the night*).
 13. I remember it was (*rainy summer* / *a rainy summer*).
 14. (*Late summer* / *The late summer*) is usually rainy here.
@@ -1504,12 +1504,12 @@ At night / at dawn — We decided to leave at dawn.
 3. Nature is wonderful in spring.
 4. It was late afternoon.
 5. It was a cold evening.
-6. It’s necessary to have a heavy breakfast.
+6. It's necessary to have a heavy breakfast.
 7. The dinner she made was wonderful.
 8. He appeared before midday.
 9. He spent the evening with his parents.
 10. She phoned several times during the morning.
-11. The lunch was awful. I didn’t expect it to be so bad.
+11. The lunch was awful. I didn't expect it to be so bad.
 12. They danced all through the night.
 13. I remember it was a rainy summer.
 14. Late summer is usually rainy here.
@@ -1525,9 +1525,9 @@ At night / at dawn — We decided to leave at dawn.
 Вставьте артикли, где это необходимо.
 
 1. It was ....... sunny morning and the family decided to have ....... breakfast in the garden.
-2. I’m not hungry. I’ll have ....... light lunch.
+2. I'm not hungry. I'll have ....... light lunch.
 3. It was ....... cold November evening. The ground was covered with snow.
-4. Let’s meet on ....... Tuesday afternoon. I can invite you to ....... dinner.
+4. Let's meet on ....... Tuesday afternoon. I can invite you to ....... dinner.
 5. How did you spend ....... day?
 6. He worked from ....... early morning every day and had a rest in ....... evening.
 7. She worked hard during ....... winter.
@@ -1542,9 +1542,9 @@ At night / at dawn — We decided to leave at dawn.
 **Полное решение**
 
 1. It was a sunny morning and the family decided to have breakfast in the garden.
-2. I’m not hungry. I’ll have a light lunch.
+2. I'm not hungry. I'll have a light lunch.
 3. It was a cold November evening. The ground was covered with snow.
-4. Let’s meet on Tuesday afternoon. I can invite you to dinner.
+4. Let's meet on Tuesday afternoon. I can invite you to dinner.
 5. How did you spend the day?
 6. He worked from early morning every day and had a rest in the evening.
 7. She worked hard during the winter.
@@ -1580,7 +1580,7 @@ The tourists went to the church. (на экскурсию в церковь)
 
 The hospital is being redecorated. (здание больницы)
 
-It’s a small town not far from Moscow. (городок)
+It's a small town not far from Moscow. (городок)
 
 The work is very difficult. (определенная работа)
 
@@ -1624,35 +1624,35 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 1. The Browns never stay in ........... during the summer. They always go to the country.
 2. He stole 50 thousand pounds and was taken to .......................................................
-3. I don’t feel like going out. I’d better stay at ..............................................................
-4. He usually comes at about seven o’clock after ........................................................
+3. I don't feel like going out. I'd better stay at ..............................................................
+4. He usually comes at about seven o'clock after ........................................................
 5. The sick man was taken to .....................................................................................
 6. He was a sailor and spent most of his life at .............................................................
 7. He believed in God and went to ............................................. church every Sunday.
-8. When I finish ................................................ I’ll go to ..........................................
+8. When I finish ................................................ I'll go to ..........................................
 9. He never goes to .................................................. before eleven and gets up at six.
 10. They say that a very dangerous criminal escaped from ............................ yesterday.
 11. He was a sick boy and often missed .......................................................................
-12. I’m quite well and don’t want to stay in ................................................... any more.
+12. I'm quite well and don't want to stay in ................................................... any more.
 13. He spent the day from 9 a. m. to 6 p. m. at ..............................................................
-14. It’s time to get up. Are you going to spend the whole day in ...................................?
+14. It's time to get up. Are you going to spend the whole day in ...................................?
 
 **Полное решение**
 
 1. The Browns never stay in town during the summer. They always go to the country.
 2. He stole 50 thousand pounds and was taken to prison.
-3. I don’t feel like going out. I’d better stay at home.
-4. He usually comes at about seven o’clock after work.
+3. I don't feel like going out. I'd better stay at home.
+4. He usually comes at about seven o'clock after work.
 5. The sick man was taken to hospital.
 6. He was a sailor and spent most of his life at sea.
 7. He believed in God and went to church every Sunday.
-8. When I finish school I’ll go to college.
+8. When I finish school I'll go to college.
 9. He never goes to bed before eleven and gets up at six.
 10. They say that a very dangerous criminal escaped from prison yesterday.
 11. He was a sick boy and often missed school.
-12. I’m quite well and don’t want to stay in hospital any more.
+12. I'm quite well and don't want to stay in hospital any more.
 13. He spent the day from 9 a.m. to 6 p.m. at work.
-14. It’s time to get up. Are you going to spend the whole day in bed?
+14. It's time to get up. Are you going to spend the whole day in bed?
 
 <a id="exercise-9-2"></a>
 
@@ -1668,15 +1668,15 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 2. He had to leave ....... school at the age of fourteen.
 3. Why are these things on ....... bed?
 4. Mary and Harold are having lunch in ....... town today.
-5. Jane’s parents went to ....... school to speak to the teacher.
-6. I’m going to ....... hospital to visit John.
+5. Jane's parents went to ....... school to speak to the teacher.
+6. I'm going to ....... hospital to visit John.
 7. ....... bed was empty and there was nobody in the room.
 8. I know he went to ....... law school some years ago.
 9. Did you study chemistry in ....... high school?
 10. ....... sea is calm today.
 11. Each town has ....... church.
 12. Did the police take him to ....... prison?
-13. Don’t worry. His lawyer will go to ....... prison to speak to him.
+13. Don't worry. His lawyer will go to ....... prison to speak to him.
 
 **Полное решение**
 
@@ -1684,15 +1684,15 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 2. He had to leave school at the age of fourteen.
 3. Why are these things on the bed?
 4. Mary and Harold are having lunch in town today.
-5. Jane’s parents went to the school to speak to the teacher.
-6. I’m going to the hospital to visit John.
+5. Jane's parents went to the school to speak to the teacher.
+6. I'm going to the hospital to visit John.
 7. The bed was empty and there was nobody in the room.
 8. I know he went to a law school some years ago.
 9. Did you study chemistry in high school?
 10. The sea is calm today.
 11. Each town has a church.
 12. Did the police take him to prison?
-13. Don’t worry. His lawyer will go to the prison to speak to him.
+13. Don't worry. His lawyer will go to the prison to speak to him.
 
 <a id="exercise-9-3"></a>
 
@@ -1708,14 +1708,14 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 1. He lives in ....... town not far from London. ....... town is beautiful.
 2. He always got up early and went jogging before going to ....... work.
-3. Don’t worry, I’ll do ....... work properly.
+3. Don't worry, I'll do ....... work properly.
 4. Did you go to ....... college?
 5. He is a doctor and often spends his days off at ....... hospital.
 6. A lot of children hate ....... school.
-7. It’s ....... old church. It’s the oldest church in ….... town.
+7. It's ....... old church. It's the oldest church in ….... town.
 8. This year he is going to ....... secondary school.
-9. It’s ....... very expensive bed. Let’s look for something cheaper.
-10. They say it’s ....... good hospital.
+9. It's ....... very expensive bed. Let's look for something cheaper.
+10. They say it's ....... good hospital.
 11. He said he would go to ....... town on business and return in the afternoon.
 12. There is no place like ....... home.
 
@@ -1723,14 +1723,14 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 1. He lives in a town not far from London. The town is beautiful.
 2. He always got up early and went jogging before going to work.
-3. Don’t worry, I’ll do the work properly.
+3. Don't worry, I'll do the work properly.
 4. Did you go to college?
 5. He is a doctor and often spends his days off at the hospital.
 6. A lot of children hate school.
-7. It’s an old church. It’s the oldest church in the town.
+7. It's an old church. It's the oldest church in the town.
 8. This year he is going to a secondary school.
-9. It’s a very expensive bed. Let’s look for something cheaper.
-10. They say it’s a good hospital.
+9. It's a very expensive bed. Let's look for something cheaper.
+10. They say it's a good hospital.
 11. He said he would go to town on business and return in the afternoon.
 12. There is no place like home.
 
@@ -1752,21 +1752,21 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 **Часть 1**
 
-1. Slow down! You can’t drive at ....... speed of 50 miles here.
+1. Slow down! You can't drive at ....... speed of 50 miles here.
 2. ....... life is full of surprises.
 3. ....... Philippines are situated in ....... south-eastern Asia.
-4. I don’t know much about ....... ancient literature and ....... art.
+4. I don't know much about ....... ancient literature and ....... art.
 5. He told us a lot about ....... France and ....... French.
 6. Who will make ....... speech at ....... coming meeting?
 7. ....... Professor Norman gives us lectures in ....... Chemistry.
 8. I want ....... advice and he is ....... only person who will help me.
-9. Do you think it’s ....... right thing to say?
+9. Do you think it's ....... right thing to say?
 10. ....... day was hot.
 
 **Часть 2**
 
 1. She worked at ....... hospital and looked after ....... sick.
-2. It’s ....... good music. I like such ....... music.
+2. It's ....... good music. I like such ....... music.
 3. ....... dog is ....... friend of ....... man.
 4. ....... aunt Ann appeared by ....... afternoon.
 5. They expected ....... cold winter.
@@ -1787,7 +1787,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 7. Enter ....... house by ....... back door.
 8. ....... little Billy often wakes up at ....... night.
 9. ....... climate of ....... Crimea is mild.
-10. ....... plastic can’t resist ....... fire.
+10. ....... plastic can't resist ....... fire.
 
 **Часть 4**
 
@@ -1796,7 +1796,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 3. ....... Wests have bought ....... villa on ....... Hawaii.
 4. Could you ask for ....... coke and ....... sandwich?
 5. ....... Netherlands border on ....... Germany and ....... Belgium.
-6. He studies ....... science and I’m interested in ....... history.
+6. He studies ....... science and I'm interested in ....... history.
 7. Have you been to ....... Pushkin Museum and ....... Bolshoi Theatre yet?
 8. ....... Friday evening is ....... best evening for me.
 9. They had to spend ....... night at ....... airport.
@@ -1804,7 +1804,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 **Часть 5**
 
-1. I don’t want ....... brandy. I want ....... plain water.
+1. I don't want ....... brandy. I want ....... plain water.
 2. I get ....... Daily Express and ....... Financial Times.
 3. ....... Kilimanjaro is ....... mountain, ....... top of which is always covered with ....... snow.
 4. ....... title of ....... book seems interesting.
@@ -1819,21 +1819,21 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 **Часть 1**
 
-1. Slow down! You can’t drive at a speed of 50 miles here.
+1. Slow down! You can't drive at a speed of 50 miles here.
 2. Life is full of surprises.
 3. The Philippines are situated in south-eastern Asia.
-4. I don’t know much about ancient literature and art.
+4. I don't know much about ancient literature and art.
 5. He told us a lot about France and the French.
 6. Who will make a speech at the coming meeting?
 7. Professor Norman gives us lectures in Chemistry.
 8. I want advice and he is the only person who will help me.
-9. Do you think it’s the right thing to say?
+9. Do you think it's the right thing to say?
 10. The day was hot.
 
 **Часть 2**
 
 1. She worked at the hospital and looked after the sick.
-2. It’s good music. I like such music.
+2. It's good music. I like such music.
 3. The dog is a friend of man.
 4. Aunt Ann appeared by the afternoon.
 5. They expected a cold winter.
@@ -1854,7 +1854,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 7. Enter the house by the back door.
 8. Little Billy often wakes up at night.
 9. The climate of the Crimea is mild.
-10. Plastic can’t resist fire.
+10. Plastic can't resist fire.
 
 **Часть 4**
 
@@ -1863,7 +1863,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 3. The Wests have bought a villa on Hawaii.
 4. Could you ask for a coke and a sandwich?
 5. The Netherlands border on Germany and Belgium.
-6. He studies science and I’m interested in history.
+6. He studies science and I'm interested in history.
 7. Have you been to the Pushkin Museum and the Bolshoi Theatre yet?
 8. Friday evening is the best evening for me.
 9. They had to spend the night at the airport.
@@ -1871,7 +1871,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 **Часть 5**
 
-1. I don’t want brandy. I want plain water.
+1. I don't want brandy. I want plain water.
 2. I get the Daily Express and the Financial Times.
 3. Kilimanjaro is a mountain, the top of which is always covered with snow.
 4. The title of the book seems interesting.
@@ -1896,19 +1896,19 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 **Часть 1**
 
-I remember it very well. I was poor then and often didn’t have ....... money for ....... bread. I had ....... friend. He was ....... poor writer too. Once we needed ....... three dollars. We had to have ....... money by ....... evening. I didn’t know where to go and where to get ....... three dollars. For ....... hour I was walking along ....... streets of ....... Washington. At last I came to ....... big hotel. I went into ....... hall of ....... hotel and sat down on ....... sofa to have ....... rest. Suddenly ...... beautiful small dog ran into ....... hall. It was ....... nice dog and I began to play with it. I was playing with ....... dog when ....... man came into ....... hall. I knew ....... man at once. It was ....... General Miles. He saw ....... dog and liked it at once. “Do you want to sell it?” ....... general asked me. “....... three dollars,” I answered. “....... price of three dollars is too little for such ....... dog. Do you want more?” he said. I didn’t, so he took ....... dog and went to ....... elevator. Ten minutes later ....... old man came into ....... hall. He was looking for something. “Are you looking for ....... dog, sir?” I asked. “Yes,” said ....... old man. I promised ....... old man to find ....... dog for three dollars and went to ....... General Miles’s room. ....... general had to return ....... dog and of course I returned him ....... money. But ....... old man paid me ....... three dollars I had earned. (After W. S. Maugham).
+I remember it very well. I was poor then and often didn't have ....... money for ....... bread. I had ....... friend. He was ....... poor writer too. Once we needed ....... three dollars. We had to have ....... money by ....... evening. I didn't know where to go and where to get ....... three dollars. For ....... hour I was walking along ....... streets of ....... Washington. At last I came to ....... big hotel. I went into ....... hall of ....... hotel and sat down on ....... sofa to have ....... rest. Suddenly ...... beautiful small dog ran into ....... hall. It was ....... nice dog and I began to play with it. I was playing with ....... dog when ....... man came into ....... hall. I knew ....... man at once. It was ....... General Miles. He saw ....... dog and liked it at once. “Do you want to sell it?” ....... general asked me. “....... three dollars,” I answered. “....... price of three dollars is too little for such ....... dog. Do you want more?” he said. I didn't, so he took ....... dog and went to ....... elevator. Ten minutes later ....... old man came into ....... hall. He was looking for something. “Are you looking for ....... dog, sir?” I asked. “Yes,” said ....... old man. I promised ....... old man to find ....... dog for three dollars and went to ....... General Miles's room. ....... general had to return ....... dog and of course I returned him ....... money. But ....... old man paid me ....... three dollars I had earned. (After W. S. Maugham).
 
 **Часть 2**
 
-....... London is ....... capital of ....... Great Britain, situated on ....... both sides of ....... Thames. This is one of ....... greatest cities in ....... world. ....... People going to ....... London expect to see ....... large city, but ....... real size of ....... London impresses everybody. ....... London’s territory is twice as great as ....... territory of ....... New York, though ....... London’s population is smaller. ....... territory of ....... city is so large because ....... English like living in ....... terraced houses with ....... small gardens. ....... London was first mentioned by ....... Romans. They called it ....... Londinium.
+....... London is ....... capital of ....... Great Britain, situated on ....... both sides of ....... Thames. This is one of ....... greatest cities in ....... world. ....... People going to ....... London expect to see ....... large city, but ....... real size of ....... London impresses everybody. ....... London's territory is twice as great as ....... territory of ....... New York, though ....... London's population is smaller. ....... territory of ....... city is so large because ....... English like living in ....... terraced houses with ....... small gardens. ....... London was first mentioned by ....... Romans. They called it ....... Londinium.
 
 **Часть 3**
 
-I’ve lived in ....... Barfield for ....... long time. I have ....... job in ....... London so I travel to London by ....... train almost every day and know ....... faces of almost half ....... passengers. But , of course, I don’t know ....... names of all these passengers. One day I stayed at ....... office till late in ....... evening and got to ....... Waterloo Station in ....... time for ....... nine o’clock train. I took ....... seat next to ....... man of about forty ........ face of ....... man was familiar to me. ....... weather was terrible and when ....... train came to ....... station it was raining heavily. I offered ....... man ....... lift in my car. He agreed. But on ....... way to ....... Barfield he suddenly asked to stop ....... car at ....... very lonely place. When I stopped ....... car something heavy hit me on my head. When I came to I was in ....... field. I had ....... terrible headache, no car, no money. I walked to ....... police station. I told ....... sergeant on duty about what had happened to me. Then I saw ....... photo on ....... wall. I recognized ....... man in ....... photo at once. It was ....... man who had robbed me. Then I realized why ....... face of ....... man was familiar to me. ....... police were looking for him and there were ....... pictures of ....... robber everywhere in ....... Barfield.
+I've lived in ....... Barfield for ....... long time. I have ....... job in ....... London so I travel to London by ....... train almost every day and know ....... faces of almost half ....... passengers. But , of course, I don't know ....... names of all these passengers. One day I stayed at ....... office till late in ....... evening and got to ....... Waterloo Station in ....... time for ....... nine o'clock train. I took ....... seat next to ....... man of about forty ........ face of ....... man was familiar to me. ....... weather was terrible and when ....... train came to ....... station it was raining heavily. I offered ....... man ....... lift in my car. He agreed. But on ....... way to ....... Barfield he suddenly asked to stop ....... car at ....... very lonely place. When I stopped ....... car something heavy hit me on my head. When I came to I was in ....... field. I had ....... terrible headache, no car, no money. I walked to ....... police station. I told ....... sergeant on duty about what had happened to me. Then I saw ....... photo on ....... wall. I recognized ....... man in ....... photo at once. It was ....... man who had robbed me. Then I realized why ....... face of ....... man was familiar to me. ....... police were looking for him and there were ....... pictures of ....... robber everywhere in ....... Barfield.
 
 **Часть 4**
 
-....... Fleet Street is famous as ....... home of ....... nation’s ....... newspapers, but in fact only two of them — ....... Daily Express and ....... Daily Telegraph are still in ....... Fleet Street. However, ....... people still say “....... Fleet Street” to mean “....... press”. ....... British are ....... nation of ....... newspaper readers. Many of them have ....... daily papers delivered to their homes in time for ....... breakfast. ....... British newspapers can be divided into two groups: quality and popular. ....... quality newspapers cover ....... home and ....... foreign news thoughtfully while ....... popular newspapers like ....... shocking popular stories as well as some news.
+....... Fleet Street is famous as ....... home of ....... nation's ....... newspapers, but in fact only two of them — ....... Daily Express and ....... Daily Telegraph are still in ....... Fleet Street. However, ....... people still say “....... Fleet Street” to mean “....... press”. ....... British are ....... nation of ....... newspaper readers. Many of them have ....... daily papers delivered to their homes in time for ....... breakfast. ....... British newspapers can be divided into two groups: quality and popular. ....... quality newspapers cover ....... home and ....... foreign news thoughtfully while ....... popular newspapers like ....... shocking popular stories as well as some news.
 
 **Часть 5**
 
@@ -1920,25 +1920,25 @@ The West End is ....... name given to ....... area of ....... central London nor
 
 **Часть 7**
 
-Opposite ....... Houses of ....... Parliament stands ....... Westminster Abbey. From ....... Norman times ....... British monarchs have been crowned there and since ....... 13th century they have been buried there. Piccadilly Circus is ....... centre of ....... nightlife in ....... West End. It is usually ....... top of everybody’s list of ....... things to see London.
+Opposite ....... Houses of ....... Parliament stands ....... Westminster Abbey. From ....... Norman times ....... British monarchs have been crowned there and since ....... 13th century they have been buried there. Piccadilly Circus is ....... centre of ....... nightlife in ....... West End. It is usually ....... top of everybody's list of ....... things to see London.
 
 **Полное решение**
 
 **Часть 1**
 
-I remember it very well. I was poor then and often didn’t have money for bread. I had a friend. He was a poor writer too. Once we needed three dollars. We had to have the money by the evening. I didn’t know where to go and where to get three dollars. For an hour I was walking along the streets of Washington. At last I came to a big hotel. I went into the hall of the hotel and sat down on the sofa to have a rest. Suddenly a beautiful small dog ran into the hall. It was a nice dog and I began to play with it. I was playing with the dog when a man came into the hall. I knew the man at once. It was General Miles. He saw the dog and liked it at once. “Do you want to sell it?” the general asked me. “Three dollars,” I answered. “A price of three dollars is too little for such a dog. Do you want more?” he said. I didn’t, so he took the dog and went to the elevator. Ten minutes later an old man came into the hall. He was looking for something. “Are you looking for a dog, sir?” I asked. “Yes,” said the old man. I promised the old man to find the dog for three dollars and went to General Miles’s room. The general had to return the dog and of course I returned him the money. But the old man paid me the three dollars I had earned. (After W. S. Maugham).
+I remember it very well. I was poor then and often didn't have money for bread. I had a friend. He was a poor writer too. Once we needed three dollars. We had to have the money by the evening. I didn't know where to go and where to get three dollars. For an hour I was walking along the streets of Washington. At last I came to a big hotel. I went into the hall of the hotel and sat down on the sofa to have a rest. Suddenly a beautiful small dog ran into the hall. It was a nice dog and I began to play with it. I was playing with the dog when a man came into the hall. I knew the man at once. It was General Miles. He saw the dog and liked it at once. “Do you want to sell it?” the general asked me. “Three dollars,” I answered. “A price of three dollars is too little for such a dog. Do you want more?” he said. I didn't, so he took the dog and went to the elevator. Ten minutes later an old man came into the hall. He was looking for something. “Are you looking for a dog, sir?” I asked. “Yes,” said the old man. I promised the old man to find the dog for three dollars and went to General Miles's room. The general had to return the dog and of course I returned him the money. But the old man paid me the three dollars I had earned. (After W. S. Maugham).
 
 **Часть 2**
 
-London is the capital of Great Britain, situated on both sides of the Thames. This is one of the greatest cities in the world. People going to London expect to see a large city, but the real size of London impresses everybody. London’s territory is twice as great as the territory of New York, though London’s population is smaller. The territory of the city is so large because the English like living in terraced houses with small gardens. London was first mentioned by the Romans. They called it Londinium.
+London is the capital of Great Britain, situated on both sides of the Thames. This is one of the greatest cities in the world. People going to London expect to see a large city, but the real size of London impresses everybody. London's territory is twice as great as the territory of New York, though London's population is smaller. The territory of the city is so large because the English like living in terraced houses with small gardens. London was first mentioned by the Romans. They called it Londinium.
 
 **Часть 3**
 
-I’ve lived in Barfield for a long time. I have a job in London so I travel to London by train almost every day and know the faces of almost half the passengers. But, of course, I don’t know the names of all these passengers. One day I stayed at the office till late in the evening and got to Waterloo Station in time for the nine o’clock train. I took a seat next to a man of about forty. The face of the man was familiar to me. The weather was terrible and when the train came to the station it was raining heavily. I offered the man a lift in my car. He agreed. But on the way to Barfield he suddenly asked to stop the car at a very lonely place. When I stopped the car something heavy hit me on my head. When I came to I was in a field. I had a terrible headache, no car, no money. I walked to the police station. I told the sergeant on duty about what had happened to me. Then I saw a photo on the wall. I recognized the man in the photo at once. It was the man who had robbed me. Then I realized why the face of the man was familiar to me. The police were looking for him and there were pictures of the robber everywhere in Barfield.
+I've lived in Barfield for a long time. I have a job in London so I travel to London by train almost every day and know the faces of almost half the passengers. But, of course, I don't know the names of all these passengers. One day I stayed at the office till late in the evening and got to Waterloo Station in time for the nine o'clock train. I took a seat next to a man of about forty. The face of the man was familiar to me. The weather was terrible and when the train came to the station it was raining heavily. I offered the man a lift in my car. He agreed. But on the way to Barfield he suddenly asked to stop the car at a very lonely place. When I stopped the car something heavy hit me on my head. When I came to I was in a field. I had a terrible headache, no car, no money. I walked to the police station. I told the sergeant on duty about what had happened to me. Then I saw a photo on the wall. I recognized the man in the photo at once. It was the man who had robbed me. Then I realized why the face of the man was familiar to me. The police were looking for him and there were pictures of the robber everywhere in Barfield.
 
 **Часть 4**
 
-Fleet Street is famous as the home of the nation’s newspapers, but in fact only two of them — the Daily Express and the Daily Telegraph are still in Fleet Street. However, people still say “Fleet Street” to mean “the press”. The British are the nation of newspaper readers. Many of them have daily papers delivered to their homes in time for breakfast. British newspapers can be divided into two groups: quality and popular. Quality newspapers cover home and foreign news thoughtfully while popular newspapers like shocking popular stories as well as some news.
+Fleet Street is famous as the home of the nation's newspapers, but in fact only two of them — the Daily Express and the Daily Telegraph are still in Fleet Street. However, people still say “Fleet Street” to mean “the press”. The British are the nation of newspaper readers. Many of them have daily papers delivered to their homes in time for breakfast. British newspapers can be divided into two groups: quality and popular. Quality newspapers cover home and foreign news thoughtfully while popular newspapers like shocking popular stories as well as some news.
 
 **Часть 5**
 
@@ -1950,7 +1950,7 @@ The West End is the name given to the area of central London north from the Mall
 
 **Часть 7**
 
-Opposite the Houses of Parliament stands Westminster Abbey. From Norman times British monarchs have been crowned there and since the 13th century they have been buried there. Piccadilly Circus is the centre of nightlife in the West End. It is usually the top of everybody’s list of things to see in London.
+Opposite the Houses of Parliament stands Westminster Abbey. From Norman times British monarchs have been crowned there and since the 13th century they have been buried there. Piccadilly Circus is the centre of nightlife in the West End. It is usually the top of everybody's list of things to see in London.
 
 ## Существительные
 
@@ -2082,7 +2082,7 @@ this question these questions.
 
 1. This aircraft is new. ................................................................................................
 2. I saw a cat playing with a mouse. ............................................................................
-3. I’ve never won a prize. ...........................................................................................
+3. I've never won a prize. ...........................................................................................
 4. Do you know this lady? ..........................................................................................
 5. This is a tall tree. ...................................................................................................
 6. I need a box. .........................................................................................................
@@ -2090,7 +2090,7 @@ this question these questions.
 8. She has a grandchild. ............................................................................................
 9. This man is a thief. ................................................................................................
 10. I like this player. ....................................................................................................
-11. I don’t have an ashtray. ..........................................................................................
+11. I don't have an ashtray. ..........................................................................................
 12. Have you ever talked to a Frenchman? ...................................................................
 13. There is a swimming pool in our town. ....................................................................
 14. He likes his teacher. ..............................................................................................
@@ -2099,7 +2099,7 @@ this question these questions.
 
 1. These aircraft are new.
 2. I saw cats playing with mice.
-3. I’ve never won prizes.
+3. I've never won prizes.
 4. Do you know these ladies?
 5. These are tall trees.
 6. I need boxes.
@@ -2107,7 +2107,7 @@ this question these questions.
 8. She has grandchildren.
 9. These men are thieves.
 10. I like these players.
-11. I don’t have ashtrays.
+11. I don't have ashtrays.
 12. Have you ever talked to Frenchmen?
 13. There are swimming pools in our town.
 14. He likes his teachers.
@@ -2130,7 +2130,7 @@ this question these questions.
 6. This farmer breeds *geese* / *gooses*.
 7. I want to see *deer* / *deers* in the zoo.
 8. He wants to buy some new *shelfs* / *shelves*.
-9. You can’t park *lorries* / *lorrys* here.
+9. You can't park *lorries* / *lorrys* here.
 10. I like *plays* / *plaies* by this author.
 11. Some *Irishmans* / *Irishmen* live here.
 12. He injured his *feet* / *foots*.
@@ -2148,7 +2148,7 @@ this question these questions.
 6. This farmer breeds geese.
 7. I want to see deer in the zoo.
 8. He wants to buy some new shelves.
-9. You can’t park lorries here.
+9. You can't park lorries here.
 10. I like plays by this author.
 11. Some Irishmen live here.
 12. He injured his feet.
@@ -2176,7 +2176,7 @@ He believes that freedom is everything. You need strength to open this box. He l
 
 - названия наук и искусств
 
-I’m fond of history. He writes about poetry. Mathematics is too difficult for me. She studied painting.
+I'm fond of history. He writes about poetry. Mathematics is too difficult for me. She studied painting.
 
 2. В отличие от русского языка, следующие существительные всегда неисчисляемые и имеют только форму единственного числа.
 
@@ -2194,7 +2194,7 @@ I’m fond of history. He writes about poetry. Mathematics is too difficult for 
 | This is very important information. | Это очень важные сведения. |
 | Her hair is beautiful. | У нее прекрасные волосы. |
 | No news is good news. | Это хорошие новости. |
-| I’ve always wanted to have long hair. | Я всегда хотела иметь длинные волосы. |
+| I've always wanted to have long hair. | Я всегда хотела иметь длинные волосы. |
 | Their furniture is very old. | Их мебель очень старая. |
 
 3. Некоторые существительные могут изменять значение, и тогда они становятся исчисляемыми.
@@ -2204,7 +2204,7 @@ I’m fond of history. He writes about poetry. Mathematics is too difficult for 
 | Two coffees and a tea, please. | Два кофе и чай, пожалуйста. |
 | Are these your papers? | Это твои бумаги. |
 | I have two English Grammars. | У меня два учебника по грамматике. |
-| That’s an interesting history. | Это интересная история. |
+| That's an interesting history. | Это интересная история. |
 
 <a id="exercise-12-1"></a>
 
@@ -2233,7 +2233,7 @@ These children is / are happy. These children are happy.
 14. This is *an interesting* / *interesting* work.
 15. *This* / *These* clothes *is* / *are* old.
 16. He thinks money *brings* / *bring* happiness.
-17. It’s *a fine* / *fine* weather we are having today.
+17. It's *a fine* / *fine* weather we are having today.
 18. The police *has* / *have* arrived.
 19. This is *a new* / *new* furniture.
 20. I have *a bad* / *bad* tooth.
@@ -2256,7 +2256,7 @@ These children is / are happy. These children are happy.
 14. This is interesting work.
 15. These clothes are old.
 16. He thinks money brings happiness.
-17. It’s fine weather we are having today.
+17. It's fine weather we are having today.
 18. The police have arrived.
 19. This is new furniture.
 20. I have a bad tooth.
@@ -2306,15 +2306,15 @@ These children is / are happy. These children are happy.
 **Часть 1**
 
 1. The police are looking for him.
-2. What’s the matter with his feet?
+2. What's the matter with his feet?
 3. This is bad advice.
 4. His wages are rather high.
 5. This information is dated.
-6. This cat doesn’t catch mice.
-7. Her hair isn’t very long.
+6. This cat doesn't catch mice.
+7. Her hair isn't very long.
 8. The goods are spoilt.
 9. This is good news.
-10. Where is the money? — It’s in the wallet.
+10. Where is the money? — It's in the wallet.
 11. These people are Germans.
 12. Why are your clothes on the floor? Put them in the wardrobe.
 
@@ -2325,7 +2325,7 @@ These children is / are happy. These children are happy.
 3. These children are still little.
 4. This is terrible furniture.
 5. He had two sons-in-law.
-6. I don’t like rainy weather.
+6. I don't like rainy weather.
 7. Where are the scissors?
 8. This is heavy luggage.
 9. These are dirty clothes.
@@ -2362,13 +2362,13 @@ These children is / are happy. These children are happy.
 | --- | --- |
 | Do you have many friends? | У тебя много друзей? |
 | I had few friends when I was little. | Когда я был маленьким, у меня было мало друзей. |
-| I’ve visited a few countries this year. | В этом году я посетил несколько стран. |
+| I've visited a few countries this year. | В этом году я посетил несколько стран. |
 
 В отличие от few, слово a few имеет положительное значение.
 
 |  |  |
 | --- | --- |
-| I have few questions. I won’t take much | У меня мало вопросов. (почти нет) |
+| I have few questions. I won't take much | У меня мало вопросов. (почти нет) |
 
 of your time.
 
@@ -2418,7 +2418,7 @@ much, many, a lot
 1. Why do you need so ....... paper?
 2. He says he has ....... problems.
 3. Did you spend ....... money on it?
-4. I haven’t seen them for ....... years.
+4. I haven't seen them for ....... years.
 5. We had ....... fun at the party.
 6. Why have so ....... people come?
 7. Do you really need so ....... luggage?
@@ -2426,10 +2426,10 @@ much, many, a lot
 9. She always adds ....... salt to every dish she makes.
 10. He buys very ....... papers every day.
 11. Why have you bought so ....... clothes?
-12. Don’t give the dog too ....... meat.
+12. Don't give the dog too ....... meat.
 13. You should eat ....... fruit.
 14. Does he really have so ....... work?
-15. He doesn’t have ....... knowledge of the subject.
+15. He doesn't have ....... knowledge of the subject.
 
 **Часть 2**
 
@@ -2439,8 +2439,8 @@ few / a few или little / a little
 2. There are ....... people who know about it but not many.
 3. Women always think they have ....... clothes.
 4. You need ....... luck to win.
-5. I’ll be ready in ....... minutes.
-6. I have invited ....... people. I don’t want a crowd of people here.
+5. I'll be ready in ....... minutes.
+6. I have invited ....... people. I don't want a crowd of people here.
 7. The teacher gave Tom a bad mark because he has ....... knowledge of the subject.
 8. I have ....... knowledge of the subject and can prove my point of view.
 9. Somehow he has very ....... English books.
@@ -2448,7 +2448,7 @@ few / a few или little / a little
 11. Why are there so ....... flowers in your garden?
 12. The child has made ....... progress and speaks English better.
 13. The child left ....... soup in his plate, he had eaten almost the whole of it.
-14. Give the cat ....... fish every day. It’s necessary for him.
+14. Give the cat ....... fish every day. It's necessary for him.
 15. ....... people want to see you. May they come in?
 
 **Полное решение**
@@ -2458,7 +2458,7 @@ few / a few или little / a little
 1. Why do you need so much paper?
 2. He says he has a lot of problems.
 3. Did you spend much money on it?
-4. I haven’t seen them for many years.
+4. I haven't seen them for many years.
 5. We had a lot of fun at the party.
 6. Why have so many people come?
 7. Do you really need so much luggage?
@@ -2466,10 +2466,10 @@ few / a few или little / a little
 9. She always adds a lot of salt to every dish she makes.
 10. He buys very many papers every day.
 11. Why have you bought so many clothes?
-12. Don’t give the dog too much meat.
+12. Don't give the dog too much meat.
 13. You should eat a lot of fruit.
 14. Does he really have so much work?
-15. He doesn’t have much knowledge of the subject.
+15. He doesn't have much knowledge of the subject.
 
 **Часть 2**
 
@@ -2477,8 +2477,8 @@ few / a few или little / a little
 2. There are a few people who know about it but not many.
 3. Women always think they have few clothes.
 4. You need a little luck to win.
-5. I’ll be ready in a few minutes.
-6. I have invited few people. I don’t want a crowd of people here.
+5. I'll be ready in a few minutes.
+6. I have invited few people. I don't want a crowd of people here.
 7. The teacher gave Tom a bad mark because he has little knowledge of the subject.
 8. I have a little knowledge of the subject and can prove my point of view.
 9. Somehow he has very few English books.
@@ -2486,7 +2486,7 @@ few / a few или little / a little
 11. Why are there so few flowers in your garden?
 12. The child has made a little progress and speaks English better.
 13. The child left little soup in his plate, he had eaten almost the whole of it.
-14. Give the cat a little fish every day. It’s necessary for him.
+14. Give the cat a little fish every day. It's necessary for him.
 15. A few people want to see you. May they come in?
 
 <a id="exercise-13-2"></a>
@@ -2516,7 +2516,7 @@ few / a few или little / a little
 
 1. He gave me a lot of good advice.
 2. There is little petrol in the tank.
-3. I’ll help you if I have a few minutes.
+3. I'll help you if I have a few minutes.
 4. I have very much news.
 5. Bill has few good clothes and Ted has many.
 6. I have a little money. I can lend you some.
@@ -2537,41 +2537,41 @@ few / a few или little / a little
 
 Существительные в английском языке имеют два падежа: общий падеж (the Common Case) и притяжательный падеж (the Possessive Case).
 
-1. Притяжательный падеж образуют, в основном одушевленные существительные при помощи ’s или только апострофа (’).
+1. Притяжательный падеж образуют, в основном одушевленные существительные при помощи 's или только апострофа (').
 
-a) ’s добавляется
+a) 's добавляется
 
 - ко всем существительным в единственном числе:
 
-this boy’s bag; Alice’s umbrella
+this boy's bag; Alice's umbrella
 
 - к существительным во множественном числе, которые образуют его не по общим правилам:
 
-these children’s toys; these women’s children
+these children's toys; these women's children
 
 - с существительными, обозначающими «время», «расстояние»:
 
-today, Wednesday, morning, a mile и т. д. today’s newspaper; a mile’s distance
+today, Wednesday, morning, a mile и т. д. today's newspaper; a mile's distance
 
-b) (’) добавляется
+b) (') добавляется
 
 - к существительным во множественном числе, которые образуют его по общим правилам:
 
-these boys’ bags; the Browns’ garden
+these boys' bags; the Browns' garden
 
 - именам собственным, оканчивающимся на –s:
 
-Charles’ wife / Charles’s wife; Dickens’ novel / Dickens’s novel
+Charles' wife / Charles's wife; Dickens' novel / Dickens's novel
 
-c) Если указывается два владельца одного предмета, то ’s прибавляется к имени последнего.
+c) Если указывается два владельца одного предмета, то 's прибавляется к имени последнего.
 
 |  |  |
 | --- | --- |
-| Steve and Ann’s car | Steve’s and Ann’s cars |
+| Steve and Ann's car | Steve's and Ann's cars |
 
-d) В составных существительных ’s прибавляется к последнему элементу.
+d) В составных существительных 's прибавляется к последнему элементу.
 
-my mother-in-law’s book
+my mother-in-law's book
 
 2. Конструкция с предлогом of употребляется
 
@@ -2585,7 +2585,7 @@ The car of the man you saw yesterday.
 
 3. С существительными, обозначающими организацию или группу людей, а также с географическими названиями возможны обе конструкции.
 
-the company’s director / the director of the company Moscow’s government / the government of Moscow
+the company's director / the director of the company Moscow's government / the government of Moscow
 
 <a id="exercise-14-1"></a>
 
@@ -2600,14 +2600,14 @@ the company’s director / the director of the company Moscow’s government / t
 
 **Часть 1**
 
-1. I don’t know (*parents*, *girl playing with my child*).
+1. I don't know (*parents*, *girl playing with my child*).
 2. Put it in (*back*, *car*).
 3. The teacher expects (*these children*, *parents*) to come to the school.
-4. You’ll find the sentence in (*middle*, *page*).
+4. You'll find the sentence in (*middle*, *page*).
 5. (*effect*, *James*, *speech*) was great.
 6. This is (*my*, *cousin*) house.
 7. They sell only (*women*, *clothes*) here.
-8. I didn’t get (*idea*, *article*).
+8. I didn't get (*idea*, *article*).
 9. (*this woman*, *story*) impressed everybody.
 10. These are (*the Wests*, *friends*).
 
@@ -2618,13 +2618,13 @@ the company’s director / the director of the company Moscow’s government / t
 3. (*these doctors*, *practice*) is large.
 4. These are the pictures I took during (*last year*, *holiday*).
 5. (*yesterday*, *visitor*) has come again.
-6. You don’t know (*rules*, *game*).
+6. You don't know (*rules*, *game*).
 7. I know little about (*this country*, *economy*).
 8. (*these passengers*, *seats*) are very comfortable.
-9. I can’t meet (*these people*, *demands*).
+9. I can't meet (*these people*, *demands*).
 10. (*my sister-in-law*, *books*) are popular with readers.
 11. These are (*John and Sharon*, *children*).
-12. I didn’t like (*these newspapermen*, *questions*).
+12. I didn't like (*these newspapermen*, *questions*).
 13. These are (*my*, *children*) toys.
 14. The teacher praised (*Martin and Carol*, *papers*)
 
@@ -2632,33 +2632,33 @@ the company’s director / the director of the company Moscow’s government / t
 
 **Часть 1**
 
-1. I don’t know the parents of the girl playing with my child.
+1. I don't know the parents of the girl playing with my child.
 2. Put it in the back of the car.
-3. The teacher expects these children’s parents to come to the school.
-4. You’ll find the sentence in the middle of the page.
-5. The effect of James’s speech was great.
-6. This is my cousin’s house.
-7. They sell only women’s clothes here.
-8. I didn’t get the idea of the article.
-9. This woman’s story impressed everybody.
-10. These are the Wests’ friends.
+3. The teacher expects these children's parents to come to the school.
+4. You'll find the sentence in the middle of the page.
+5. The effect of James's speech was great.
+6. This is my cousin's house.
+7. They sell only women's clothes here.
+8. I didn't get the idea of the article.
+9. This woman's story impressed everybody.
+10. These are the Wests' friends.
 
 **Часть 2**
 
 1. The centre of Moscow is always busy.
-2. The team’s results are great.
-3. These doctors’ practice is large.
-4. These are the pictures I took during last year’s holiday.
-5. Yesterday’s visitor has come again.
-6. You don’t know the rules of the game.
-7. I know little about this country’s economy.
-8. These passengers’ seats are very comfortable.
-9. I can’t meet these people’s demands.
-10. My sister-in-law’s books are popular with readers.
-11. These are John and Sharon’s children.
-12. I didn’t like these newspapermen’s questions.
-13. These are my children’s toys.
-14. The teacher praised Martin’s and Carol’s papers.
+2. The team's results are great.
+3. These doctors' practice is large.
+4. These are the pictures I took during last year's holiday.
+5. Yesterday's visitor has come again.
+6. You don't know the rules of the game.
+7. I know little about this country's economy.
+8. These passengers' seats are very comfortable.
+9. I can't meet these people's demands.
+10. My sister-in-law's books are popular with readers.
+11. These are John and Sharon's children.
+12. I didn't like these newspapermen's questions.
+13. These are my children's toys.
+14. The teacher praised Martin's and Carol's papers.
 
 <a id="exercise-14-2"></a>
 
@@ -2702,31 +2702,31 @@ the company’s director / the director of the company Moscow’s government / t
 
 **Часть 1**
 
-1. These professors’ lectures are interesting.
-2. These policemen’s wages are rather high.
+1. These professors' lectures are interesting.
+2. These policemen's wages are rather high.
 3. Let me see the engine of the car.
-4. I didn’t like the end of the story.
-5. I like these children’s pictures.
-6. The shop’s manager (the manager of the shop) wants to see you.
-7. I didn’t like the expression of her face.
+4. I didn't like the end of the story.
+5. I like these children's pictures.
+6. The shop's manager (the manager of the shop) wants to see you.
+7. I didn't like the expression of her face.
 8. The visitors of the hotel gathered on the ground floor.
 9. This is the umbrella of the woman sitting at that table.
-10. I liked Carol’s and Sue’s answers.
+10. I liked Carol's and Sue's answers.
 
 **Часть 2**
 
 1. Do you know the cause of the accident?
-2. This girl’s new dress is beautiful.
-3. Yesterday’s newspaper is on the table.
-4. Do you know these people’s addresses?
-5. The Smiths’ garden is the most beautiful in the town.
+2. This girl's new dress is beautiful.
+3. Yesterday's newspaper is on the table.
+4. Do you know these people's addresses?
+5. The Smiths' garden is the most beautiful in the town.
 6. The leaves of this tree are yellow.
 7. I missed the beginning of the performance.
-8. Don’t miss tomorrow’s lesson.
-9. Where are these students’ papers?
-10. He spoke about last year’s failure.
-11. A mile’s distance is not a very long distance.
-12. Ted and Bill’s room is cosy.
+8. Don't miss tomorrow's lesson.
+9. Where are these students' papers?
+10. He spoke about last year's failure.
+11. A mile's distance is not a very long distance.
+12. Ted and Bill's room is cosy.
 
 <a id="unit-15"></a>
 
@@ -2744,7 +2744,7 @@ the company’s director / the director of the company Moscow’s government / t
 
 Поставьте следующие словосочетания в форму  
 множественного числа притяжательного падежа.  
-this boy, bag these boys’ bags
+this boy, bag these boys' bags
 
 **Часть 1**
 
@@ -2776,29 +2776,29 @@ this boy, bag these boys’ bags
 
 **Часть 1**
 
-1. these engineers’ work
-2. my sisters’ clothes
-3. these women’s secrets
-4. these countries’ economies
-5. my friends’ advice
-6. his teachers’ questions
-7. these men’s wives
-8. my children’s toothbrushes
-9. these cities’ mayors or the mayors of these cities
-10. the wool of these sheep or these sheep’s wool
+1. these engineers' work
+2. my sisters' clothes
+3. these women's secrets
+4. these countries' economies
+5. my friends' advice
+6. his teachers' questions
+7. these men's wives
+8. my children's toothbrushes
+9. these cities' mayors or the mayors of these cities
+10. the wool of these sheep or these sheep's wool
 
 **Часть 2**
 
-1. these scientists’ progress
-2. her pupils’ knowledge
-3. these birds’ nests or the nests of these birds
+1. these scientists' progress
+2. her pupils' knowledge
+3. these birds' nests or the nests of these birds
 4. the tops of the mountains
-5. these sportsmen’s coaches
-6. these presidents’ aircraft
-7. these farmers’ geese
+5. these sportsmen's coaches
+6. these presidents' aircraft
+7. these farmers' geese
 8. the pages of the books
 9. the smell of cigars
-10. the Lees’ cottage
+10. the Lees' cottage
 
 <a id="exercise-15-2"></a>
 
@@ -2823,31 +2823,31 @@ president, country
 team, play  
 I liked the place where we stayed. I liked the room of the hotel.
 
-1. I didn’t get the letter in time because of ...................................................................
+1. I didn't get the letter in time because of ...................................................................
 2. ......................................................... will take part in a summit meeting next week.
 3. We knew about ......................................... beforehand and met them at the airport.
-4. They lost again and I didn’t like ............................................................................ .
+4. They lost again and I didn't like ............................................................................ .
 5. ............................................................. helped the company to increase the sales.
 6. I heard ..................................................... and understood he was practising again.
-7. I’m satisfied with ..................................... . They passed all the exams successfully.
+7. I'm satisfied with ..................................... . They passed all the exams successfully.
 8. I wanted to buy a new sofa but ......................................... in the shop was too high.
 9. I was hungry but ............................................... was awful so I decided not to eat it.
-10. I must buy some clothes for Teddy. Let’s find ....................................................... .
-11. I’ve read the novel but I don’t remember ............................................................... .
+10. I must buy some clothes for Teddy. Let's find ....................................................... .
+11. I've read the novel but I don't remember ............................................................... .
 
 **Полное решение**
 
-1. I didn’t get the letter in time because of the postman’s mistake.
-2. The country’s president will take part in a summit meeting next week.
-3. We knew about the guests’ arrival beforehand and met them at the airport.
-4. They lost again and I didn’t like the team’s play.
+1. I didn't get the letter in time because of the postman's mistake.
+2. The country's president will take part in a summit meeting next week.
+3. We knew about the guests' arrival beforehand and met them at the airport.
+4. They lost again and I didn't like the team's play.
 5. The advertisement of the soap helped the company to increase the sales.
 6. I heard the sound of the piano and understood he was practising again.
-7. I’m satisfied with the students’ progress. They passed all the exams successfully.
+7. I'm satisfied with the students' progress. They passed all the exams successfully.
 8. I wanted to buy a new sofa but the price of the furniture in the shop was too high.
 9. I was hungry but the smell of the dish was awful so I decided not to eat it.
-10. I must buy some clothes for Teddy. Let’s find children’s wear.
-11. I’ve read the novel but I don’t remember the author’s name.
+10. I must buy some clothes for Teddy. Let's find children's wear.
+11. I've read the novel but I don't remember the author's name.
 
 <a id="exercise-15-3"></a>
 
@@ -2967,67 +2967,67 @@ How much coffee have you drunk? Very little.
 **Часть 1**
 
 1. My mother-in-law has a lot of sisters.
-2. My mother-in-law’s sisters live in another town.
+2. My mother-in-law's sisters live in another town.
 3. The police have a lot of proofs.
 4. Take these skis.
 5. The face of this watch is unusual.
 6. The roofs of these houses are flat.
-7. These are my friends’ photos.
+7. These are my friends' photos.
 8. Have you got a map of the world?
 9. He has two bad teeth.
 10. I enjoy walking in good weather.
 
 **Часть 2**
 
-1. This is those Englishmen’s luggage.
+1. This is those Englishmen's luggage.
 2. I have a lot of news.
-3. I’ll get in touch with you in a few days.
-4. Why are your brother’s clothes wet? Let him dry them.
+3. I'll get in touch with you in a few days.
+4. Why are your brother's clothes wet? Let him dry them.
 5. All these watches are expensive.
-6. I didn’t like these policemen’s questions.
+6. I didn't like these policemen's questions.
 7. Physics is a very difficult subject.
 8. This is easy work.
-9. I don’t like these passers-by’s faces.
-10. Do you know the results of yesterday’s matches?
+9. I don't like these passers-by's faces.
+10. Do you know the results of yesterday's matches?
 
 **Часть 3**
 
-1. He gave me much (a lot of) advice but I don’t want to take it.
+1. He gave me much (a lot of) advice but I don't want to take it.
 2. The covers of these books are nice.
 3. How much free time does he have? — Very little.
 4. How many German books do you have? — Very few.
-5. I don’t eat many sweets.
-6. I don’t understand the meaning of this word.
-7. I don’t need much information about this firm.
-8. I like these girls’ jeans.
-9. Her children’s hair is long and beautiful.
-10. It was doctor Brown’s mistake.
+5. I don't eat many sweets.
+6. I don't understand the meaning of this word.
+7. I don't need much information about this firm.
+8. I like these girls' jeans.
+9. Her children's hair is long and beautiful.
+10. It was doctor Brown's mistake.
 11. You need a little patience.
-12. There are very many flowers in the Smiths’ garden.
-13. John and Alice’s children are very nice.
+12. There are very many flowers in the Smiths' garden.
+13. John and Alice's children are very nice.
 14. The result of the experiment was satisfactory.
-15. I didn’t get the idea of this article.
+15. I didn't get the idea of this article.
 
 **Часть 4**
 
-1. I like these children’s questions.
-2. I don’t know these women’s names.
-3. These are men’s gloves.
+1. I like these children's questions.
+2. I don't know these women's names.
+3. These are men's gloves.
 4. The team had little luck last year.
 5. They know few English words.
 6. There is little light here. Take a seat at the window.
-7. You needn’t take many clothes.
+7. You needn't take many clothes.
 8. He says he has few warm clothes.
 9. Take the money and give it to Ted.
-10. My feet are cold. Let’s go home.
+10. My feet are cold. Let's go home.
 11. Bad news makes people unhappy.
-12. He doesn’t eat much fruit.
+12. He doesn't eat much fruit.
 13. Knowledge is a strong weapon.
 14. The child has never seen sheep before.
 15. Mathematics is an exact science.
-16. Have you seen today’s newspaper?
-17. Nick’s and Susan’s watches are fast.
-18. These sportsmen’s coach says they are fit.
+16. Have you seen today's newspaper?
+17. Nick's and Susan's watches are fast.
+18. These sportsmen's coach says they are fit.
 19. My sons-in-law are very clever.
 20. How many sentences have you translated? — Very few.
 
@@ -3045,7 +3045,7 @@ How much coffee have you drunk? Very little.
 
 | именительный падеж | объектный падеж |
 | --- | --- |
-| I I am ready.<br>you You must do it.<br>he He lives here.<br>she She is busy.<br>it It is my bag.<br>we We are friends.<br>you You know the truth.<br>they They can help you. | Let me see the book. me<br>I saw you yesterday. you<br>Ask him to do it. him<br>Tell her to come. her<br>Put it on the floor. it<br>Explain it to us. us<br>I’ll meet you at the airport. you<br>Can you help them? them |
+| I I am ready.<br>you You must do it.<br>he He lives here.<br>she She is busy.<br>it It is my bag.<br>we We are friends.<br>you You know the truth.<br>they They can help you. | Let me see the book. me<br>I saw you yesterday. you<br>Ask him to do it. him<br>Tell her to come. her<br>Put it on the floor. it<br>Explain it to us. us<br>I'll meet you at the airport. you<br>Can you help them? them |
 
 2. Притяжательные местоимения Эти местоимения определяют существительное и отвечают на вопросы чей, чье, чья, чьи. Притяжательные местоимения имеют две формы:
 
@@ -3053,7 +3053,7 @@ How much coffee have you drunk? Very little.
 в функции определения | притяжательное местоимение
 в функции существительного |
 | --- | --- | --- |
-| I<br>you<br>he<br>she<br>it<br>we<br>you<br>they | my This is my bag.<br>your They are your friends.<br>his It is his car.<br>her Her name is Jane.<br>its Its (the dog’s) tail is long.<br>our We like our teacher.<br>your Can I have your book?<br>their Answer their question. | It’s your bag. Where is mine? mine<br>She is my friend, not yours. yours<br>I know her address, tell me his. his<br>His name is Tom and what is hers? hers<br>It’s not the dogs bowl. I want its. its<br>It’s their children and that is ours. ours<br>We like our teacher. Do you like yours<br>yours?<br>Theirs is a new house. theirs |
+| I<br>you<br>he<br>she<br>it<br>we<br>you<br>they | my This is my bag.<br>your They are your friends.<br>his It is his car.<br>her Her name is Jane.<br>its Its (the dog's) tail is long.<br>our We like our teacher.<br>your Can I have your book?<br>their Answer their question. | It's your bag. Where is mine? mine<br>She is my friend, not yours. yours<br>I know her address, tell me his. his<br>His name is Tom and what is hers? hers<br>It's not the dogs bowl. I want its. its<br>It's their children and that is ours. ours<br>We like our teacher. Do you like yours<br>yours?<br>Theirs is a new house. theirs |
 
 Обратите внимание на строгое соответствие употребления притяжательного и личного местоимения:
 
@@ -3082,27 +3082,27 @@ How much coffee have you drunk? Very little.
 Pete lives here. I saw Pete yesterday. He lives here. I saw him yesterday.
 
 1. *Alice* is my girlfriend. I love *Alice*. ...........................................................................
-2. *Jane and I* saw Mark but *Mark* didn’t see *Jane and me*. ..........................................
+2. *Jane and I* saw Mark but *Mark* didn't see *Jane and me*. ..........................................
 3. I told *Steve and Carol* to come. ..............................................................................
 4. *My parents* liked the cat and bought *the cat*. ...........................................................
 5. Why are *the books* on the table? Put *the books* on the shelf. ....................................
-6. It’s a nice bird. Listen how lovely *the bird* is singing. ................................................
+6. It's a nice bird. Listen how lovely *the bird* is singing. ................................................
 7. *Your friend and you* are late again. .........................................................................
 8. *My sister and I* are great friends. .............................................................................
-9. I haven’t seen *Pete and Alex* today. ........................................................................
+9. I haven't seen *Pete and Alex* today. ........................................................................
 10. *Steve and Mark* have invited *my friend and me* to the cinema. ................................
 
 **Полное решение**
 
 1. She is my girlfriend. I love her.
-2. We saw Mark but he didn’t see us.
+2. We saw Mark but he didn't see us.
 3. I told them to come.
 4. They liked the cat and bought it.
 5. Why are they on the table? Put them on the shelf.
 6. Listen how lovely it is singing.
 7. You are late again.
 8. We are great friends.
-9. I haven’t seen them today.
+9. I haven't seen them today.
 10. They have invited us to the cinema.
 
 <a id="exercise-16-2"></a>
@@ -3116,21 +3116,21 @@ Pete lives here. I saw Pete yesterday. He lives here. I saw him yesterday.
 Измените выделенные части предложений по образцу.  
 This is not my pen. I want my pen. I want mine.
 
-1. This is my girlfriend and that’s *his girlfriend*. ...........................................................
+1. This is my girlfriend and that's *his girlfriend*. ...........................................................
 2. Their street is not as busy as *our street*. ..................................................................
 3. These are my children and those are *her children*. ..................................................
 4. My flat is smaller than *their flat. ...................................................................................*
-5. It’s not your umbrella. It’s *my umbrella*. .................................................................
-6. My telephone doesn’t work. Can I use *your telephone? ..............................................*
+5. It's not your umbrella. It's *my umbrella*. .................................................................
+6. My telephone doesn't work. Can I use *your telephone? ..............................................*
 
 **Полное решение**
 
-1. This is my girlfriend and that’s his.
+1. This is my girlfriend and that's his.
 2. Their street is not as busy as ours.
 3. These are my children and those are hers.
 4. My flat is smaller than theirs.
-5. It’s not your umbrella. It’s mine.
-6. My telephone doesn’t work. Can I use yours?
+5. It's not your umbrella. It's mine.
+6. My telephone doesn't work. Can I use yours?
 
 <a id="exercise-16-3"></a>
 
@@ -3146,13 +3146,13 @@ This is not my pen. I want my pen. I want mine.
 2. We want him to stay with .......... in summer.
 3. Mr. Smart is rich. .......... car is very expensive.
 4. Are .......... ready? — No, .......... am not.
-5. Put down .......... telephone number and I’ll put down .......... .
+5. Put down .......... telephone number and I'll put down .......... .
 6. I met .......... parents yesterday and now he wants to meet .......... .
 7. Have .......... read this book? Is .......... interesting?
-8. Do ........ recognize the man? — Yes, I recognize ......... . But he doesn’t seem to recognize ......... .
+8. Do ........ recognize the man? — Yes, I recognize ......... . But he doesn't seem to recognize ......... .
 9. He put on .......... coat and left.
 10. They asked me to help .......... fix .......... car.
-11. We know it’s .......... problem. But can .......... help .......... solve .......... ?
+11. We know it's .......... problem. But can .......... help .......... solve .......... ?
 12. Don went to see .......... grandparents and Angela went to see .......... .
 
 **Полное решение**
@@ -3161,13 +3161,13 @@ This is not my pen. I want my pen. I want mine.
 2. We want him to stay with us in summer.
 3. Mr. Smart is rich. His car is very expensive.
 4. Are you ready? — No, I am not.
-5. Put down my telephone number and I’ll put down yours.
+5. Put down my telephone number and I'll put down yours.
 6. I met his parents yesterday and now he wants to meet mine.
 7. Have you read this book? Is it interesting?
-8. Do you recognize the man? — Yes, I recognize him. But he doesn’t seem to recognize us.
+8. Do you recognize the man? — Yes, I recognize him. But he doesn't seem to recognize us.
 9. He put on his coat and left.
 10. They asked me to help them fix their car.
-11. We know it’s our problem. But can you help us solve it?
+11. We know it's our problem. But can you help us solve it?
 12. Don went to see his grandparents and Angela went to see hers.
 
 <a id="exercise-16-4"></a>
@@ -3201,8 +3201,8 @@ This is not my pen. I want my pen. I want mine.
 6. They are good people. I like them.
 7. Look at the cat. Its tail is so beautiful!
 8. Their children are students and ours are pupils.
-9. I’ve answered your questions. Why don’t you want to answer mine?
-10. Give this book to them. It’s theirs.
+9. I've answered your questions. Why don't you want to answer mine?
+10. Give this book to them. It's theirs.
 
 <a id="unit-17"></a>
 
@@ -3223,18 +3223,18 @@ Myself yourself himself herself itself
 |  |  |
 | --- | --- |
 | I hurt myself. | Я ушибся. |
-| You mustn’t blame yourself. | Ты не должен себя винить. |
+| You mustn't blame yourself. | Ты не должен себя винить. |
 | He burnt himself. | Он обжегся. |
 | She likes to talk about herself. | Она любит говорить о себе. |
-| We’ll take care of ourselves. | Мы сами о себе позаботимся. |
-| Why don’t you read it yourselves? | Почему бы вам самим это не прочитать? |
-| Can’t they find the way themselves? | Разве они сами не могут найти дорогу? |
+| We'll take care of ourselves. | Мы сами о себе позаботимся. |
+| Why don't you read it yourselves? | Почему бы вам самим это не прочитать? |
+| Can't they find the way themselves? | Разве они сами не могут найти дорогу? |
 
 Возвратное местоимение от неопределенного местоимения one — oneself.
 
 |  |  |
 | --- | --- |
-| It’s good when one can do everything oneself. | Хорошо, когда человек сам все может сделать. |
+| It's good when one can do everything oneself. | Хорошо, когда человек сам все может сделать. |
 
 2. Возвратные местоимения обычно не употребляются с глаголами:
 
@@ -3255,12 +3255,12 @@ He washed, shaved, dressed, and sat down to breakfast.
 
 |  |  |
 | --- | --- |
-| I don’t feel well. | Я чувствую себя нехорошо. |
-| I can’t concentrate. | Я не могу сосредоточиться. |
+| I don't feel well. | Я чувствую себя нехорошо. |
+| I can't concentrate. | Я не могу сосредоточиться. |
 | They decided to relax a little. | Они решили немного расслабиться. |
 | The child always behaves well. | Ребенок всегда хорошо себя ведет. |
 | Behave yourself! | Веди себя хорошо! |
-| I can’t afford a new car. | Я не могу позволить себе новую машину. |
+| I can't afford a new car. | Я не могу позволить себе новую машину. |
 | Hurry up! | Поторопись! |
 
 3. Возвратные местоимения могут употребляться в эмфатических конструкциях.
@@ -3290,29 +3290,29 @@ to find
 to dry  
 to blame  
 to behave  
-It’s only your fault. Blame yourself.
+It's only your fault. Blame yourself.
 
-1. He knows German rather well so it’s not difficult for him to .................... in German.
+1. He knows German rather well so it's not difficult for him to .................... in German.
 2. Why is the girl crying? — She fell down and .......................................................... .
 3. Did you have a nice time at the party? Did you ..................................................... ?
 4. My finger is still bleeding. I .............................................. when I was cutting bread.
 5. Why are you going to .................................... as Mrs. Stone? This is not your name.
-6. It’s rather cold. Let them .................................. well when they get out of the water.
-7. We followed the direction and finally ........................................... near Pete’s house.
-8. It’s dangerous to play with matches. One can ....................................................... .
-9. Children, please .......................................................... Don’t make so much noise.
+6. It's rather cold. Let them .................................. well when they get out of the water.
+7. We followed the direction and finally ........................................... near Pete's house.
+8. It's dangerous to play with matches. One can ....................................................... .
+9. Children, please .......................................................... Don't make so much noise.
 
 **Полное решение**
 
-1. He knows German rather well so it’s not difficult for him to express himself in German.
+1. He knows German rather well so it's not difficult for him to express himself in German.
 2. Why is the girl crying? — She fell down and hurt herself.
 3. Did you have a nice time at the party? Did you enjoy yourself?
 4. My finger is still bleeding. I cut myself when I was cutting bread.
 5. Why are you going to introduce yourself as Mrs. Stone? This is not your name.
-6. It’s rather cold. Let them dry themselves well when they get out of the water.
-7. We followed the direction and finally found ourselves near Pete’s house.
-8. It’s dangerous to play with matches. One can burn oneself.
-9. Children, please behave yourselves. Don’t make so much noise.
+6. It's rather cold. Let them dry themselves well when they get out of the water.
+7. We followed the direction and finally found ourselves near Pete's house.
+8. It's dangerous to play with matches. One can burn oneself.
+9. Children, please behave yourselves. Don't make so much noise.
 
 <a id="exercise-17-2"></a>
 
@@ -3325,7 +3325,7 @@ It’s only your fault. Blame yourself.
 Заполните пропуски соответствующими местоимениями.
 
 1. He made ......................... a cup of tea.
-2. I’ve done two tests ........... , but I can’t do the last one. I hope you’ll help ................. .
+2. I've done two tests ........... , but I can't do the last one. I hope you'll help ................. .
 3. I dressed ................................. very quickly and left the house.
 4. They say they can carry the luggage ..................................................................... .
 5. We met ................ only yesterday. She felt ................... fine. Can she have fallen ill?
@@ -3333,14 +3333,14 @@ It’s only your fault. Blame yourself.
 7. I tried to concentrate ........................ and find the mistake ................................... .
 8. Are you going to take your children to the sea-side with ......................................... .
 9. In fact her name is Alexandra but she calls .......................................................... Al.
-10. They didn’t go to Ann’s party. She didn’t invite ...................................................... .
+10. They didn't go to Ann's party. She didn't invite ...................................................... .
 11. The woman is kindness ........................................................................................ .
-12. He’ll finish the work .......................... if he feels .......................................... better.
+12. He'll finish the work .......................... if he feels .......................................... better.
 
 **Полное решение**
 
 1. He made himself a cup of tea.
-2. I’ve done two tests myself, but I can’t do the last one. I hope you’ll help me.
+2. I've done two tests myself, but I can't do the last one. I hope you'll help me.
 3. I dressed very quickly and left the house.
 4. They say they can carry the luggage themselves.
 5. We met only yesterday. She felt fine. Can she have fallen ill?
@@ -3348,9 +3348,9 @@ It’s only your fault. Blame yourself.
 7. I tried to concentrate and find the mistake myself.
 8. Are you going to take your children to the sea-side with you?
 9. In fact her name is Alexandra but she calls herself Al.
-10. They didn’t go to Ann’s party. She didn’t invite them.
+10. They didn't go to Ann's party. She didn't invite them.
 11. The woman is kindness itself.
-12. He’ll finish the work himself if he feels better.
+12. He'll finish the work himself if he feels better.
 
 <a id="exercise-17-3"></a>
 
@@ -3382,7 +3382,7 @@ It’s only your fault. Blame yourself.
 **Полное решение**
 
 1. Steve himself told me about it.
-2. Concentrate and you’ll remember everything yourself.
+2. Concentrate and you'll remember everything yourself.
 3. Let me introduce myself.
 4. Did you enjoy yourself (yourselves) yesterday?
 5. Why does the child behave so badly?
@@ -3390,12 +3390,12 @@ It’s only your fault. Blame yourself.
 7. I earn my living myself.
 8. They bought the books for themselves.
 9. We translated the article ourselves.
-10. I’ll speak to the manager myself.
+10. I'll speak to the manager myself.
 11. They saw this information in the newspaper themselves.
 12. The president himself expressed his gratitude to them.
-13. She herself didn’t like the man.
+13. She herself didn't like the man.
 14. Try to relax and not to think about anything.
-15. It’s good when one feels young long.
+15. It's good when one feels young long.
 16. One must be responsible for oneself.
 
 <a id="unit-18"></a>
@@ -3432,7 +3432,7 @@ It’s only your fault. Blame yourself.
 
 |  |  |
 | --- | --- |
-| Some children don’t like bathing. | Некоторые дети не любят купаться. |
+| Some children don't like bathing. | Некоторые дети не любят купаться. |
 
 2. Местоимение any употребляется:
 
@@ -3447,7 +3447,7 @@ It’s only your fault. Blame yourself.
 
 |  |  |
 | --- | --- |
-| I don’t have any butter. | У меня нет (нисколько) масла. |
+| I don't have any butter. | У меня нет (нисколько) масла. |
 | He never gets any letters. | Он никогда не получает (никаких) писем. |
 
 - в утвердительных предложениях в значении кто угодно, любой
@@ -3465,7 +3465,7 @@ It’s only your fault. Blame yourself.
 | No clever man will say it. | Никакой умный человек этого не скажет. |
 | Do any of you know this rule? | Кто-нибудь из вас знает это правило? |
 
-4. Местоимения some, any, no могут употребляться как существительные. There were some nice apples in the shop, so I bought some. You can have some tea. — But I don’t want any. How much money have you got? — None. В этих случаях часто употребляется конструкция some of, any of, none of: I know some of these people. I know some of them. I don’t know any of these people. I don’t know any of them. None of my friends liked the film. None of them liked it.
+4. Местоимения some, any, no могут употребляться как существительные. There were some nice apples in the shop, so I bought some. You can have some tea. — But I don't want any. How much money have you got? — None. В этих случаях часто употребляется конструкция some of, any of, none of: I know some of these people. I know some of them. I don't know any of these people. I don't know any of them. None of my friends liked the film. None of them liked it.
 
 <a id="exercise-18-1"></a>
 
@@ -3482,26 +3482,26 @@ It’s only your fault. Blame yourself.
 1. Are there …....... new houses in your street? — Yes, …....... of them are beautiful.
 2. Do …....... of you speak Italian? — Unfortunately, …....... of us do.
 3. …....... child knows it.
-4. Have you read …....... good books lately? — Yes, I’ve read …....... .
+4. Have you read …....... good books lately? — Yes, I've read …....... .
 5. There are …....... new students in our group this year. I know everybody.
-6. There isn’t …....... fish for the cat today. I have …....... fish.
+6. There isn't …....... fish for the cat today. I have …....... fish.
 7. He asked me if I knew …....... of those people. I told him I knew …....... of them. They were all strangers to me.
 8. …....... of us can tell you how to get there. We all know the way well.
-9. Could you say …....... words about it? — Not now. I have …....... time. I’m sorry.
+9. Could you say …....... words about it? — Not now. I have …....... time. I'm sorry.
 10. How could you do such a dishonest thing! …....... decent person will do it.
 
 **Часть 2**
 
 1. Did you have …....... snow last winter? — Yes, there was …....... .
-2. Are there …....... sentences you can’t translate?
-3. …....... people always tell the truth. It’s their principle.
+2. Are there …....... sentences you can't translate?
+3. …....... people always tell the truth. It's their principle.
 4. Were there …....... of your teachers at the meeting? — Yes, there were …....... .
 5. Choose …....... book you like.
-6. In …....... of these books there are …....... pictures. They won’t be interesting for the boy.
+6. In …....... of these books there are …....... pictures. They won't be interesting for the boy.
 7. …....... of his friends could help him. He was alone.
 8. Can you give me …....... information about the man?
-9. I’ve never seen …....... of them in my life.
-10. He asked me …....... questions but I couldn’t answer …....... of them.
+9. I've never seen …....... of them in my life.
+10. He asked me …....... questions but I couldn't answer …....... of them.
 
 **Полное решение**
 
@@ -3510,26 +3510,26 @@ It’s only your fault. Blame yourself.
 1. Are there any new houses in your street? — Yes, some of them are beautiful.
 2. Do any of you speak Italian? — Unfortunately, none of us do.
 3. Any child knows it.
-4. Have you read any good books lately? — Yes, I’ve read some.
+4. Have you read any good books lately? — Yes, I've read some.
 5. There are no new students in our group this year. I know everybody.
-6. There isn’t any fish for the cat today. I have no fish.
+6. There isn't any fish for the cat today. I have no fish.
 7. He asked me if I knew any of those people. I told him I knew none of them. They were all strangers to me.
 8. Any of us can tell you how to get there. We all know the way well.
-9. Could you say some words about it? — Not now. I have no time. I’m sorry.
+9. Could you say some words about it? — Not now. I have no time. I'm sorry.
 10. How could you do such a dishonest thing! No decent person will do it.
 
 **Часть 2**
 
 1. Did you have any snow last winter? — Yes, there was some.
-2. Are there any sentences you can’t translate?
-3. Some people always tell the truth. It’s their principle.
+2. Are there any sentences you can't translate?
+3. Some people always tell the truth. It's their principle.
 4. Were there any of your teachers at the meeting? — Yes, there were some.
 5. Choose any book you like.
-6. In some of these books there are no pictures. They won’t be interesting for the boy.
+6. In some of these books there are no pictures. They won't be interesting for the boy.
 7. None of his friends could help him. He was alone.
 8. Can you give me some information about the man?
-9. I’ve never seen any of them in my life.
-10. He asked me some questions but I couldn’t answer any of them.
+9. I've never seen any of them in my life.
+10. He asked me some questions but I couldn't answer any of them.
 
 <a id="exercise-18-2"></a>
 
@@ -3577,15 +3577,15 @@ It’s only your fault. Blame yourself.
 **Часть 1**
 
 1. Some people always have their rest at the seaside.
-2. Can I have some paper? — Unfortunately, I don’t have any paper.
+2. Can I have some paper? — Unfortunately, I don't have any paper.
 3. Some of his books are interesting.
-4. I can’t give you any advice.
+4. I can't give you any advice.
 5. The mother said the girl could choose any toy.
 6. None of them could come.
-7. I don’t want any juice. I want some water.
+7. I don't want any juice. I want some water.
 8. Can any of you drive?
 9. Come any time you like.
-10. I’m sure any boy would like to learn to play football.
+10. I'm sure any boy would like to learn to play football.
 11. There are no chairs here. Bring some chairs please.
 12. He has no proof.
 13. In some classrooms there is no blackboard.
@@ -3594,14 +3594,14 @@ It’s only your fault. Blame yourself.
 
 1. Do any of you know his telephone number?
 2. Do you think any of them will be able to help us?
-3. I don’t see any reasons for such behaviour.
+3. I don't see any reasons for such behaviour.
 4. He used to have friends but now he has no friends.
 5. You can stay at any hotel in this district.
 6. There are no films better than this one.
 7. Have you ever met any famous people?
 8. Some buildings in this town are very old.
 9. Are there any letters for me?
-10. There is no information for you. (There isn’t any information for you)
+10. There is no information for you. (There isn't any information for you)
 11. You can use any of these dictionaries.
 12. Would you like some ice-cream?
 
@@ -3622,7 +3622,7 @@ It’s only your fault. Blame yourself.
 |  |  |
 | --- | --- |
 | Somebody is waiting for you in the next room. | Кто-то ждет тебя в соседней комнате. |
-| I don’t know anyone here. | Я никого здесь не знаю. |
+| I don't know anyone here. | Я никого здесь не знаю. |
 | He told me nothing about it. | Он ничего мне об этом не сказал. |
 | Are you going anywhere this summer? | Ты куда-нибудь поедешь летом? |
 
@@ -3640,13 +3640,13 @@ It’s only your fault. Blame yourself.
 |  |  |
 | --- | --- |
 | I know everybody here. | Я здесь всех знаю. |
-| The man doesn’t seem to know everything. | Кажется, этот человек не все знает. |
-| I’ve looked for the book everywhere but I can’t find it. | Я искал книгу везде, но не могу ее найти. |
+| The man doesn't seem to know everything. | Кажется, этот человек не все знает. |
+| I've looked for the book everywhere but I can't find it. | Я искал книгу везде, но не могу ее найти. |
 | Have you told everyone to come? | Ты всем сказал прийти? |
 
 3. Местоимения, образованные с помощью one и body, употребляются только в отношении людей и сочетаются с глаголом в единственном числе, но при этом они часто сочетаются с личными и притяжательными местоимениями they, them, their.
 
-If anybody calls me tell them I’m out and put down their name and address. Everybody has come, haven’t they? — Yes, they have.
+If anybody calls me tell them I'm out and put down their name and address. Everybody has come, haven't they? — Yes, they have.
 
 <a id="exercise-19-1"></a>
 
@@ -3661,71 +3661,71 @@ If anybody calls me tell them I’m out and put down their name and address. Eve
 
 **Часть 1**
 
-1. You needn’t worry. ............ knows that we expect them to come at 5.
+1. You needn't worry. ............ knows that we expect them to come at 5.
 2. Do you know ............ who can help us?
 3. ............ came to visit Paul in hospital and he was upset.
 4. ............ can tell you how to get there. The place is known to ............ .
-5. I don’t want to see ............ today.
-6. ............ told me about it but now I don’t remember who it was.
-7. If I were you I would ask ….... to explain everything to me. Why don’t you ask Jack for example?
+5. I don't want to see ............ today.
+6. ............ told me about it but now I don't remember who it was.
+7. If I were you I would ask ….... to explain everything to me. Why don't you ask Jack for example?
 8. As ............ had told him when to come, he was late.
 
 **Часть 2**
 
-1. We’ve coped with the work. ............ is ready.
+1. We've coped with the work. ............ is ready.
 2. Do you know ............ about the matter?
-3. I can’t understand ............ . Please, explain what is going on here.
-4. I didn’t understand ............ in this text. Some sentences were difficult.
-5. There was ............ on the table but I don’t remember now what it was.
+3. I can't understand ............ . Please, explain what is going on here.
+4. I didn't understand ............ in this text. Some sentences were difficult.
+5. There was ............ on the table but I don't remember now what it was.
 6. There was............ on the table. It was empty.
-7. Give me ............ to eat, please. I’m hungry. I can eat ............ .
+7. Give me ............ to eat, please. I'm hungry. I can eat ............ .
 8. We worked hard but ............ seemed to satisfy him.
 
 **Часть 3**
 
 1. Why are your clothes ............ ? Put them into the wardrobe.
-2. I looked for the book ............ but couldn’t find it.
+2. I looked for the book ............ but couldn't find it.
 3. Where did you go yesterday? — ............ . I stayed at home the whole day.
-4. Have you seen this man ........... before? — I saw him ........... but I don’t remember where it was.
-5. I don’t feel like going ............ . I’m tired.
-6. Quarrelling will take us ............ . We’ll only fall apart.
+4. Have you seen this man ........... before? — I saw him ........... but I don't remember where it was.
+5. I don't feel like going ............ . I'm tired.
+6. Quarrelling will take us ............ . We'll only fall apart.
 7. He lives ............ in the centre of the city.
-8. I can’t find my keys. — Where can they be? — ............ . I can’t say where I put them yesterday.
+8. I can't find my keys. — Where can they be? — ............ . I can't say where I put them yesterday.
 
 **Полное решение**
 
 **Часть 1**
 
-1. You needn’t worry. Everybody knows that we expect them to come at 5.
+1. You needn't worry. Everybody knows that we expect them to come at 5.
 2. Do you know anybody who can help us?
 3. Nobody came to visit Paul in hospital and he was upset.
 4. Anybody can tell you how to get there. The place is known to everybody.
-5. I don’t want to see anybody today.
-6. Somebody told me about it but now I don’t remember who it was.
-7. If I were you I would ask somebody to explain everything to me. Why don’t you ask Jack for example?
+5. I don't want to see anybody today.
+6. Somebody told me about it but now I don't remember who it was.
+7. If I were you I would ask somebody to explain everything to me. Why don't you ask Jack for example?
 8. As nobody had told him when to come, he was late.
 
 **Часть 2**
 
-1. We’ve coped with the work. Everything is ready.
+1. We've coped with the work. Everything is ready.
 2. Do you know anything about the matter?
-3. I can’t understand anything. Please, explain what is going on here.
-4. I didn’t understand everything in this text. Some sentences were difficult.
-5. There was something on the table but I don’t remember now what it was.
+3. I can't understand anything. Please, explain what is going on here.
+4. I didn't understand everything in this text. Some sentences were difficult.
+5. There was something on the table but I don't remember now what it was.
 6. There was nothing on the table. It was empty.
-7. Give me something to eat, please. I’m hungry. I can eat anything.
+7. Give me something to eat, please. I'm hungry. I can eat anything.
 8. We worked hard but nothing seemed to satisfy him.
 
 **Часть 3**
 
 1. Why are your clothes everywhere? Put them into the wardrobe.
-2. I looked for the book everywhere but couldn’t find it.
+2. I looked for the book everywhere but couldn't find it.
 3. Where did you go yesterday? — Nowhere. I stayed at home the whole day.
-4. Have you seen this man anywhere before? — I saw him somewhere but I don’t remember where it was.
-5. I don’t feel like going anywhere. I’m tired.
-6. Quarrelling will take us nowhere. We’ll only fall apart.
+4. Have you seen this man anywhere before? — I saw him somewhere but I don't remember where it was.
+5. I don't feel like going anywhere. I'm tired.
+6. Quarrelling will take us nowhere. We'll only fall apart.
 7. He lives somewhere in the centre of the city.
-8. I can’t find my keys. — Where can they be? — Anywhere. I can’t say where I put them yesterday.
+8. I can't find my keys. — Where can they be? — Anywhere. I can't say where I put them yesterday.
 
 <a id="exercise-19-2"></a>
 
@@ -3756,15 +3756,15 @@ If anybody calls me tell them I’m out and put down their name and address. Eve
 **Полное решение**
 
 1. Is there anybody in the office? — Yes, somebody is waiting for you.
-2. There was something so strange in his words that I didn’t understand anything.
+2. There was something so strange in his words that I didn't understand anything.
 3. To know everything is to know nothing.
-4. I couldn’t find him anywhere and was getting worried.
+4. I couldn't find him anywhere and was getting worried.
 5. He says he has been everywhere and knows everything.
-6. Everybody agrees with you. We’ll do anything you tell us to do.
+6. Everybody agrees with you. We'll do anything you tell us to do.
 7. Nobody has heard anything about it.
-8. Does anybody know where he lives? — He lives somewhere here but I don’t know exactly where he lives.
-9. You can ask anybody. They will tell you I’m right.
-10. He wanted to tell her something special but couldn’t think of anything.
+8. Does anybody know where he lives? — He lives somewhere here but I don't know exactly where he lives.
+9. You can ask anybody. They will tell you I'm right.
+10. He wanted to tell her something special but couldn't think of anything.
 11. They may be anywhere. Unfortunately nobody knows where they are.
 12. Who told you that you can do anything you like?
 13. Nothing seemed important to him.
@@ -3815,7 +3815,7 @@ about this country?
 
 |  |  |
 | --- | --- |
-| Some people like such films, other people don’t. | Некоторые люди любят такие фильмы, другие люди не любят. |
+| Some people like such films, other people don't. | Некоторые люди любят такие фильмы, другие люди не любят. |
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -3823,7 +3823,7 @@ about this country?
 
 |  |  |
 | --- | --- |
-| His other friends couldn’t come. | Остальные его друзья не смогли прийти. |
+| His other friends couldn't come. | Остальные его друзья не смогли прийти. |
 | We can meet some other time. | Мы можем встретиться в другой раз. |
 | How many other people do you want to invite? | Сколько еще людей ты хочешь пригласить? |
 
@@ -3853,7 +3853,7 @@ others
 
 |  |  |
 | --- | --- |
-| Some people like such films, others don’t. | Некоторые люди любят такие фильмы, другие — нет. |
+| Some people like such films, others don't. | Некоторые люди любят такие фильмы, другие — нет. |
 | You have five bags. How many others do you need? | Сколько еще тебе нужно? |
 
 the others
@@ -3882,9 +3882,9 @@ each other, one another
 Заполните пропуски местоимениями  
 other, another, the other, others, the others, each other, one another.
 
-1. This bag is Mike’s and .............................................................................. is mine.
-2. I’d like to see ............................................................................ film with this actor.
-3. Some children like drawing, ............................................................ children don’t.
+1. This bag is Mike's and .............................................................................. is mine.
+2. I'd like to see ............................................................................ film with this actor.
+3. Some children like drawing, ............................................................ children don't.
 4. Only five students are present today. Where are ................................................... ?
 5. Can I have ............................................................................................ cup of tea?
 6. My ........................................................................................ pupils are very good.
@@ -3896,20 +3896,20 @@ other, another, the other, others, the others, each other, one another.
 12. They looked at .................................................................................. and laughed.
 13. Steve and I often play jokes on ............................................................................. .
 14. The secretary has answered only three letters. When will she answer .................... ?
-15. He knows a lot about his country but he doesn’t know much about .......... countries.
+15. He knows a lot about his country but he doesn't know much about .......... countries.
 16. Some people always come in time, ................................................... are often late.
 17. He already keeps three dogs. How many ............................... does he want to buy?
 18. What is it in your .......................................................................................... hand?
-19. Let’s wait for .................................................................................. for some time.
-20. Why haven’t you corrected .................................................................... mistakes?
+19. Let's wait for .................................................................................. for some time.
+20. Why haven't you corrected .................................................................... mistakes?
 21. The Swifts are going to spend .............................................. two years in Australia.
 22. Do you often phone ............................................................................................ ?
 
 **Полное решение**
 
-1. This bag is Mike’s and the other is mine.
-2. I’d like to see another film with this actor.
-3. Some children like drawing, other children don’t.
+1. This bag is Mike's and the other is mine.
+2. I'd like to see another film with this actor.
+3. Some children like drawing, other children don't.
 4. Only five students are present today. Where are the others?
 5. Can I have another cup of tea?
 6. My other pupils are very good.
@@ -3921,12 +3921,12 @@ other, another, the other, others, the others, each other, one another.
 12. They looked at each other and laughed.
 13. Steve and I often play jokes on each other.
 14. The secretary has answered only three letters. When will she answer the others?
-15. He knows a lot about his country but he doesn’t know much about other countries.
+15. He knows a lot about his country but he doesn't know much about other countries.
 16. Some people always come in time, others are often late.
 17. He already keeps three dogs. How many others does he want to buy?
 18. What is it in your other hand?
-19. Let’s wait for the others for some time.
-20. Why haven’t you corrected the other mistakes?
+19. Let's wait for the others for some time.
+20. Why haven't you corrected the other mistakes?
 21. The Swifts are going to spend another two years in Australia.
 22. Do you often phone each other?
 
@@ -3958,21 +3958,21 @@ other, another, the other, others, the others, each other, one another.
 
 **Полное решение**
 
-1. I’ve read only three of these books but I’ll certainly read the others.
+1. I've read only three of these books but I'll certainly read the others.
 2. Please, bring another two chairs.
 3. Tom and Robert are angry with each other.
-4. I don’t have any other (another) explanation.
+4. I don't have any other (another) explanation.
 5. She reads only love stories. Any other books seem boring to her.
-6. You’ve done only two exercises. How about the others?
+6. You've done only two exercises. How about the others?
 7. How many other questions is he going to ask?
 8. He has published three articles this year. How many others does he want to publish?
 9. The room was full of boxes, old clothes, and other unnecessary things.
 10. My other relatives live in another city.
-11. Some people like to give presents, others don’t.
+11. Some people like to give presents, others don't.
 12. Where is the other shoe?
 13. The other guests will soon come.
 14. Can I have another apple?
-15. I don’t see any other mistakes here.
+15. I don't see any other mistakes here.
 
 <a id="unit-21"></a>
 
@@ -4033,7 +4033,7 @@ other, another, the other, others, the others, each other, one another.
 | --- | --- |
 | He is either tired or ill. | Он или устал, или болен. |
 | I want neither tea nor coffee. | Я не хочу ни чая, ни кофе. |
-| I’m both tired and angry. | Я и устал, и сердит. |
+| I'm both tired and angry. | Я и устал, и сердит. |
 
 - Обратите внимание, что если союзы either ... or, neither ... nor связывают подлежащие, то глагол-сказуемое согласуется с последним подлежащим. Если подлежащие связаны союзом both ... and, то глагол-сказуемое стоит во мно жест венном числе.
 
@@ -4053,14 +4053,14 @@ other, another, the other, others, the others, each other, one another.
 
 Отреагируйте на предложенные ситуации при помощи  
 either, neither, both.  
-Will you have tea or coffee? (It’s all the same to you.) Either.
+Will you have tea or coffee? (It's all the same to you.) Either.
 
-1. Will you buy the green dress or the red one? (You don’t like them.) ..........................
+1. Will you buy the green dress or the red one? (You don't like them.) ..........................
 2. Will you take this or that book? (You need the two of them.) ....................................
 3. Will you ask Carol or Margaret to come? (The two of them.) ....................................
-4. Shall I or Steve help you? (It’s all the same to you.) .................................................
-5. Is Alice or Stella your girlfriend? (You don’t date these girls.) ...................................
-6. Shall we meet at four or at six? (It’s all the same to you.) .........................................
+4. Shall I or Steve help you? (It's all the same to you.) .................................................
+5. Is Alice or Stella your girlfriend? (You don't date these girls.) ...................................
+6. Shall we meet at four or at six? (It's all the same to you.) .........................................
 
 **Полное решение**
 
@@ -4080,13 +4080,13 @@ Will you have tea or coffee? (It’s all the same to you.) Either.
 **Задание**
 
 Переделайте предложения при помощи either (of); neither (of); both (of).  
-This girl isn’t seven and that girl isn’t seven. Neither girl is seven. Neither of them is seven.
+This girl isn't seven and that girl isn't seven. Neither girl is seven. Neither of them is seven.
 
 1. This man is a driver and that man is a driver. ...........................................................
-2. This student isn’t good and that student isn’t good. .................................................
+2. This student isn't good and that student isn't good. .................................................
 3. This glass is empty and that glass is empty. ............................................................
 4. You can rent this flat or that one. ............................................................................
-5. I don’t know this woman and I don’t know that woman. ...........................................
+5. I don't know this woman and I don't know that woman. ...........................................
 6. You can use this PC or that PC. ...............................................................................
 
 **Полное решение**
@@ -4095,7 +4095,7 @@ This girl isn’t seven and that girl isn’t seven. Neither girl is seven. Neit
 2. Neither student is good. Neither of them is good.
 3. Both glasses are empty. Both of them are empty.
 4. You can rent either flat. You can rent either of them.
-5. I don’t know either woman. I don’t know either of them.
+5. I don't know either woman. I don't know either of them.
 6. You can use either PC. You can use either of them.
 
 <a id="exercise-21-3"></a>
@@ -4109,16 +4109,16 @@ This girl isn’t seven and that girl isn’t seven. Neither girl is seven. Neit
 Переделайте предложения при помощи either ... or, neither ... nor, both ... and.  
 Steve lives in London and Max lives in London. Both Steve and Max live in London.
 
-1. Fred can’t drive and George can’t drive. ..................................................................
+1. Fred can't drive and George can't drive. ..................................................................
 2. Ellen was born in June, or perhaps in July. .............................................................
 3. He studies law and his friend studies law. ................................................................
-4. I didn’t forgive Steve and I didn’t forgive Pete. .........................................................
+4. I didn't forgive Steve and I didn't forgive Pete. .........................................................
 5. His niece lives in Italy, or perhaps his nephew does. .............................................. .
 6. I asked Ted and Fred. One of them will give you a lift. ..............................................
-7. The pill doesn’t help and the mixture doesn’t help. ..................................................
+7. The pill doesn't help and the mixture doesn't help. ..................................................
 8. My son is a clever child and my daughter is a clever child. .......................................
 9. I know his address and I know his telephone number. .............................................
-10. I don’t like detective stories and my friend doesn’t like them. ...................................
+10. I don't like detective stories and my friend doesn't like them. ...................................
 
 **Полное решение**
 
@@ -4174,8 +4174,8 @@ Steve lives in London and Max lives in London. Both Steve and Max live in London
 11. Both of them are interested in history.
 12. Both James and Sam collect stamps.
 13. I can find neither your keys nor mine.
-14. She didn’t buy the dress because it was either expensive or too small for her.
-15. I’ll see him neither today nor tomorrow.
+14. She didn't buy the dress because it was either expensive or too small for her.
+15. I'll see him neither today nor tomorrow.
 
 <a id="unit-22"></a>
 
@@ -4204,10 +4204,10 @@ Her is the red car. Hers is the red car. .......................................
 7. Can they really do it theirselves? ................................................................
 8. Go to the bathroom and wash the hands and the face. ................................
 9. We can cope with the task ourself. .............................................................
-10. I don’t have no plans for the weekend. ........................................................
+10. I don't have no plans for the weekend. ........................................................
 11. Not anybody can help him in this situation. ................................................
-12. We keep in touch with one of my cousins but I haven’t heard about another one lately. ...........................................................................
-13. We’ve known one another for a long time. ..................................................
+12. We keep in touch with one of my cousins but I haven't heard about another one lately. ...........................................................................
+13. We've known one another for a long time. ..................................................
 14. Would you like juice or water? — Neither. ..................................................
 15. Neither of my fellow students failed the exam. ............................................
 16. Children, behave yourself! .........................................................................
@@ -4217,7 +4217,7 @@ Her is the red car. Hers is the red car. .......................................
 20. Our is a lonely street. ................................................................................
 21. If everybody is here tell him to take his seats. .............................................
 22. Have you told the others what to do? ..........................................................
-23. I haven’t got no news yet. ..........................................................................
+23. I haven't got no news yet. ..........................................................................
 24. Neither his children nor he want to stay there. ............................................
 25. Why have you come alone? How about others? ..........................................
 26. It was difficult for her to concentrate herself on the text. ..............................
@@ -4226,7 +4226,7 @@ Her is the red car. Hers is the red car. .......................................
 29. No of them remembered about my birthday. ..............................................
 30. Would you like the blue or the green blouse? — Any of them. ......................
 31. He is arriving or on Friday or on Saturday. ..................................................
-32. It’s them business. Don’t interfere. .............................................................
+32. It's them business. Don't interfere. .............................................................
 33. The question is so easy. Somebody can answer it. ......................................
 34. Could you give me some more time, please? ..............................................
 35. Steve, are you going to take this book with yourself? ...................................
@@ -4237,8 +4237,8 @@ Her is the red car. Hers is the red car. .......................................
 40. No of his teachers are satisfied with his work. .............................................
 41. He likes to speak about hisself. ..................................................................
 42. They looked at each another but said nothing. ............................................
-43. I don’t feel myself well enough to leave the house. ......................................
-44. You’d better try to relax. ............................................................................
+43. I don't feel myself well enough to leave the house. ......................................
+44. You'd better try to relax. ............................................................................
 
 **Полное решение**
 
@@ -4251,10 +4251,10 @@ Her is the red car. Hers is the red car. .......................................
 7. Can they really do it themselves?
 8. Go to the bathroom and wash your hands and face.
 9. We can cope with the task ourselves.
-10. I don’t have any plans for the weekend.
+10. I don't have any plans for the weekend.
 11. Nobody can help him in this situation.
-12. We keep in touch with one of my cousins but I haven’t heard about the other one lately.
-13. We’ve known one another for a long time.
+12. We keep in touch with one of my cousins but I haven't heard about the other one lately.
+13. We've known one another for a long time.
 14. Would you like juice or water? — Neither.
 15. None of my fellow students failed the exam.
 16. Children, behave yourselves!
@@ -4264,7 +4264,7 @@ Her is the red car. Hers is the red car. .......................................
 20. Ours is a lonely street.
 21. If everybody is here tell them to take their seats.
 22. Have you told the others what to do?
-23. I haven’t got any news yet.
+23. I haven't got any news yet.
 24. Neither his children nor he wants to stay there.
 25. Why have you come alone? How about the others?
 26. It was difficult for her to concentrate on the text.
@@ -4273,7 +4273,7 @@ Her is the red car. Hers is the red car. .......................................
 29. None of them remembered about my birthday.
 30. Would you like the blue or the green blouse? — Either.
 31. He is arriving either on Friday or on Saturday.
-32. It’s their business. Don’t interfere.
+32. It's their business. Don't interfere.
 33. The question is so easy. Anybody can answer it.
 34. Could you give me some more time, please?
 35. Steve, are you going to take this book with you?
@@ -4284,8 +4284,8 @@ Her is the red car. Hers is the red car. .......................................
 40. None of his teachers are (is) satisfied with his work.
 41. He likes to speak about himself.
 42. They looked at each other but said nothing.
-43. I don’t feel well enough to leave the house.
-44. You’d better try to relax.
+43. I don't feel well enough to leave the house.
+44. You'd better try to relax.
 
 <a id="exercise-22-2"></a>
 
@@ -4347,7 +4347,7 @@ Her is the red car. Hers is the red car. .......................................
 
 1. I had no money, so I had to borrow some.
 2. He felt bad and wanted to stay at home.
-3. I’m afraid anything can happen.
+3. I'm afraid anything can happen.
 4. Neither his parents nor he smokes.
 5. Scientists from Germany, Russia, and many other countries attended the conference.
 6. There is nothing strange about it.
@@ -4356,7 +4356,7 @@ Her is the red car. Hers is the red car. .......................................
 9. Would you like to eat something?
 10. Did they paint the house themselves?
 11. They are both on holiday and neither of them will come before Sunday.
-12. Let’s play another game.
+12. Let's play another game.
 13. His computer is very good. Mine is not that good.
 14. I asked two people how to get there but neither of them knew the way.
 15. She got upset over something unimportant.
@@ -4366,23 +4366,23 @@ Her is the red car. Hers is the red car. .......................................
 19. Any bus will take you there.
 20. Other pictures by this painter are not interesting.
 21. There was nobody in the house.
-22. Their house is very big. Ours isn’t that big.
+22. Their house is very big. Ours isn't that big.
 23. Go anywhere you like.
 24. Some men shave every day, other men (others) think it is unnecessary.
-25. Everybody is present, aren’t they?
+25. Everybody is present, aren't they?
 26. You can invite anybody.
 27. He speaks both Spanish and French well.
 28. I wanted to see three films on Saturday but saw none.
-29. I couldn’t make a sandwich. I had no bread.
+29. I couldn't make a sandwich. I had no bread.
 30. What did you do yesterday? — Nothing special.
 31. How long have you known each other?
-32. If anybody phones, tell them I’ll come in half an hour.
+32. If anybody phones, tell them I'll come in half an hour.
 33. Where is the other glove?
-34. I’ll take the suit to the dry cleaner’s myself.
+34. I'll take the suit to the dry cleaner's myself.
 35. Did you meet anybody last week? — Nobody.
 36. Both my friend and I have been learning English for two years but neither of us can speak well yet.
 37. I need another three days to collect all the information.
-38. We’ll pay for ourselves.
+38. We'll pay for ourselves.
 39. Neither he nor I am busy. We both can help you.
 40. Where are the others? Shall we wait for them?
 41. How many other dictionaries do you need?
@@ -4401,12 +4401,12 @@ Her is the red car. Hers is the red car. .......................................
 
 #### Правила и примеры
 
-1. Прилагательное употребляется в качестве определения к существительному и отвечает на вопрос «какой?». It’s a nice day today. Наречие отвечает на вопрос «как?» и употребляется:
+1. Прилагательное употребляется в качестве определения к существительному и отвечает на вопрос «какой?». It's a nice day today. Наречие отвечает на вопрос «как?» и употребляется:
 
 |  |  |
 | --- | --- |
 | • после глагола | She always drives carefully. |
-| • перед прилагательным | I’m awfully sorry. |
+| • перед прилагательным | I'm awfully sorry. |
 | • перед причастием | The excursion was badly organized. |
 | • перед другим наречием | He learns poems incredibly quickly. |
 
@@ -4423,7 +4423,7 @@ Her is the red car. Hers is the red car. .......................................
 | Mary is a friendly person. | Мэри — дружелюбный человек. |
 | Mary behaves in a friendly manner. | Мэри ведет себя дружелюбно. |
 
-good — прилагательное; well — наречие She is a good student. — She studies well. В значении «хорошо себя чувствующий, здоровый» well выступает в роли прилагательного. How are you? — I’m very well.
+good — прилагательное; well — наречие She is a good student. — She studies well. В значении «хорошо себя чувствующий, здоровый» well выступает в роли прилагательного. How are you? — I'm very well.
 
 3. В отличие от русского языка, после следующих глаголов употребляются прилагательные. (Они являются частью составного именного сказуемого.)
 
@@ -4442,7 +4442,7 @@ good — прилагательное; well — наречие She is a good stu
 | taste | The cake tasted wonderful. | На вкус пирожное было великолепно. |
 | sound | The name sounds beautiful. | Имя красиво звучит. |
 | seem | The situation seems serious. | Положение, кажется, серьезно. |
-| get | It’s getting cold. | Становится холодно. |
+| get | It's getting cold. | Становится холодно. |
 
 4. Некоторые слова выступают в роли и прилагательного, и наречия, не изменяя форму.
 
@@ -4477,15 +4477,15 @@ Tom learns languages very quickly. Tom is a ... quick ... learner.
 3. She is wearing good clothes. She is a ........................................................ woman.
 4. This perfume has a bitter smell. The perfume smells ............................................. .
 5. Nick is a hard-working student. Nick works .......................................................... .
-6. It’s easy to understand. You’ll understand it .......................................................... .
+6. It's easy to understand. You'll understand it .......................................................... .
 7. The planning of the flat is very bad. This is a .................................................. .. flat.
 8. She is pale. She looks .......................................................................................... .
 9. His offer was unexpected. He offered his help ....................................................... .
 10. Our teacher explains everything clearly. Her explanations are ................................ .
-11. The children behave quietly today. The children’s behaviour is ...................... today.
+11. The children behave quietly today. The children's behaviour is ...................... today.
 12. My brother is a late-riser. He gets up ..................................................................... .
-13. I’m not very well today. I don’t feel ........................................................................ .
-14. It’s a perfect plan. The plan sounds ...................................................................... .
+13. I'm not very well today. I don't feel ........................................................................ .
+14. It's a perfect plan. The plan sounds ...................................................................... .
 15. My Dad is a bad cook. My Dad cooks ................................................................... .
 
 **Полное решение**
@@ -4495,15 +4495,15 @@ Tom learns languages very quickly. Tom is a ... quick ... learner.
 3. She is wearing good clothes. She is a well-dressed woman.
 4. This perfume has a bitter smell. The perfume smells bitter.
 5. Nick is a hard-working student. Nick works hard.
-6. It’s easy to understand. You’ll understand it easily.
+6. It's easy to understand. You'll understand it easily.
 7. The planning of the flat is very bad. This is a badly-planned flat.
 8. She is pale. She looks pale.
 9. His offer was unexpected. He offered his help unexpectedly.
 10. Our teacher explains everything clearly. Her explanations are clear.
-11. The children behave quietly today. The children’s behaviour is quiet today.
+11. The children behave quietly today. The children's behaviour is quiet today.
 12. My brother is a late-riser. He gets up late.
-13. I’m not very well today. I don’t feel well.
-14. It’s a perfect plan. The plan sounds perfect.
+13. I'm not very well today. I don't feel well.
+14. It's a perfect plan. The plan sounds perfect.
 15. My Dad is a bad cook. My Dad cooks badly.
 
 <a id="exercise-23-2"></a>
@@ -4517,27 +4517,27 @@ Tom learns languages very quickly. Tom is a ... quick ... learner.
 Зачеркните неправильный вариант.
 
 1. He must be a *bad* / *badly* student. He *hard* / *hardly* studies at all.
-2. It’s a *beautiful* / *beautifully* arranged bunch of flowers. It’s *real* / *really* good / well.
-3. I’m impressed how *fluent* / *fluently* she speaks English. Her language is *accurate* / *accurately*, too.
-4. I’m not sure she is a *good* / *well* teacher. She is very *impatient* / *impatiently* with children.
+2. It's a *beautiful* / *beautifully* arranged bunch of flowers. It's *real* / *really* good / well.
+3. I'm impressed how *fluent* / *fluently* she speaks English. Her language is *accurate* / *accurately*, too.
+4. I'm not sure she is a *good* / *well* teacher. She is very *impatient* / *impatiently* with children.
 5. She is a *wonderful* / *wonderfully* cook. All her dishes smell and taste *nice* / *nicely*.
-6. I’m *absolute* / *absolutely* sure that it’s a *real* / *really* pearl.
-7. The task is *surprising* / *surprisingly* easy. I’m sure we’ll do it very *quick* / *quickly*.
-8. Sue looks *different* / *differently* after her illness. She doesn’t feel *good* / *well* enough yet.
-9. Your essay is quite *good* / *well*. You’ve been working *hard* / *hardly* lately.
+6. I'm *absolute* / *absolutely* sure that it's a *real* / *really* pearl.
+7. The task is *surprising* / *surprisingly* easy. I'm sure we'll do it very *quick* / *quickly*.
+8. Sue looks *different* / *differently* after her illness. She doesn't feel *good* / *well* enough yet.
+9. Your essay is quite *good* / *well*. You've been working *hard* / *hardly* lately.
 10. He is a *slow* / *slowly* thinker but he does everything very *attentive* / *attentively*.
 
 **Полное решение**
 
 1. He must be a bad student. He hardly studies at all.
-2. It’s a beautifully arranged bunch of flowers. It’s really good.
-3. I’m impressed how fluently she speaks English. Her language is accurate, too.
-4. I’m not sure she is a good teacher. She is very impatient with children.
+2. It's a beautifully arranged bunch of flowers. It's really good.
+3. I'm impressed how fluently she speaks English. Her language is accurate, too.
+4. I'm not sure she is a good teacher. She is very impatient with children.
 5. She is a wonderful cook. All her dishes smell and taste nice.
-6. I’m absolutely sure that it’s a real pearl.
-7. The task is surprisingly easy. I’m sure we’ll do it very quickly.
-8. Sue looks different after her illness. She doesn’t feel well enough yet.
-9. Your essay is quite good. You’ve been working hard lately.
+6. I'm absolutely sure that it's a real pearl.
+7. The task is surprisingly easy. I'm sure we'll do it very quickly.
+8. Sue looks different after her illness. She doesn't feel well enough yet.
+9. Your essay is quite good. You've been working hard lately.
 10. He is a slow thinker but he does everything very attentively.
 
 <a id="exercise-23-3"></a>
@@ -4565,18 +4565,18 @@ Tom learns languages very quickly. Tom is a ... quick ... learner.
 
 **Полное решение**
 
-1. He is a really famous architect. It’s strange that you don’t know his name.
-2. These flowers smell sweet and heavy. (These flowers have a sweet and heavy smell.) It’s impossible to sleep in the room.
+1. He is a really famous architect. It's strange that you don't know his name.
+2. These flowers smell sweet and heavy. (These flowers have a sweet and heavy smell.) It's impossible to sleep in the room.
 3. She is so tired that she can hardly move. In my opinion, she feels very bad. She looks pale.
 4. The trip was well organized and we had a good time.
-5. It’s pleasant to deal with friendly people.
+5. It's pleasant to deal with friendly people.
 6. She is an unusually good assistant. She works hard and fast.
-7. This magazine comes out daily. (This is a daily magazine.) It’s always beautifully illustrated.
-8. She looked at me happily and said, “It’s real luck!”
+7. This magazine comes out daily. (This is a daily magazine.) It's always beautifully illustrated.
+8. She looked at me happily and said, “It's real luck!”
 9. His words “We should act fast but carefully” sounded unexpected.
 10. One can hardly say that her English is good. She knows it badly.
 11. She often chats with her friends in a lively manner. It seems to me she is always in a good mood.
-12. Your son works carelessly, that’s why he makes a lot of mistakes.
+12. Your son works carelessly, that's why he makes a lot of mistakes.
 
 <a id="unit-24"></a>
 
@@ -4613,7 +4613,7 @@ Tom learns languages very quickly. Tom is a ... quick ... learner.
 | --- | --- | --- | --- |
 | 1) | прилагательное в сравнительной степени | + | than |
 
-This picture is more beautiful than that one. I’m stronger than him. I’m stronger than he is.
+This picture is more beautiful than that one. I'm stronger than him. I'm stronger than he is.
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -4640,7 +4640,7 @@ This picture is as beautiful as that one.
 
 The more beautiful the picture, the more pleasant it is to look at it. Чем красивее картина, тем приятнее на нее смотреть. В отличие от русского языка, в первой части данной конструкции никогда не употребляется будущее время.
 
-Чем лучше будет твое сочинение, тем выше оценку ты получишь. The better essay you write, the higher mark you’ll get.
+Чем лучше будет твое сочинение, тем выше оценку ты получишь. The better essay you write, the higher mark you'll get.
 
 <a id="exercise-24-1"></a>
 
@@ -4758,13 +4758,13 @@ Sam is 30. Mark is 32. Sam is younger than Mark.
 **Задание**
 
 Закончите предложения при помощи конструкции с союзом than.  
-He isn’t very intelligent. You are more intelligent than him (... than he is).
+He isn't very intelligent. You are more intelligent than him (... than he is).
 
-1. She doesn’t know very much. You ......................................................................................... .
-2. He isn’t very old. They .......................................................................................................... .
-3. I’m not a very good singer. She ............................................................................................. .
-4. We haven’t got so much spare time. He ................................................................................. .
-5. They don’t read very interesting books. I ............................................................................... .
+1. She doesn't know very much. You ......................................................................................... .
+2. He isn't very old. They .......................................................................................................... .
+3. I'm not a very good singer. She ............................................................................................. .
+4. We haven't got so much spare time. He ................................................................................. .
+5. They don't read very interesting books. I ............................................................................... .
 
 **Полное решение**
 
@@ -4844,31 +4844,31 @@ Which ballet do you think is better?(beautiful) I believe this ballet is as beau
 **Задание**
 
 Измените предложения.  
-This exercise is easier than that. This exercise isn’t as difficult as that.
+This exercise is easier than that. This exercise isn't as difficult as that.
 
 1. The book is more interesting than I expected. ..........................................................................
 2. He is cleverer than he can seem. .............................................................................................
 3. Mary and Charles have fewer children than Rachel and Steve. ...................................................
-4. His answer at the exam was worse than his friend’s. .................................................................
+4. His answer at the exam was worse than his friend's. .................................................................
 5. This test is longer than that. ....................................................................................................
 6. My brother is older than he looks. ............................................................................................
-7. Kate’s room is smaller than her sister’s. ...................................................................................
+7. Kate's room is smaller than her sister's. ...................................................................................
 8. This information is more useful than that. ................................................................................
 9. She spends less time on cooking than her mother. ...................................................................
 10. The Mercedes is more expensive than the Ford. .......................................................................
 
 **Полное решение**
 
-1. This book isn’t as boring as I expected.
-2. He isn’t as stupid as he can seem.
-3. Mary and Charles don’t have as many children as Rachel and Steve.
-4. His answer at the exam wasn’t as good as his friend’s.
-5. This test isn’t as short as that.
-6. My brother isn’t as young as he looks.
-7. Kate’s room isn’t as large as her sister’s.
-8. This information isn’t as useless as that.
-9. She doesn’t spend as much time on cooking as her mother.
-10. The Mercedes isn’t as cheap as the Ford.
+1. This book isn't as boring as I expected.
+2. He isn't as stupid as he can seem.
+3. Mary and Charles don't have as many children as Rachel and Steve.
+4. His answer at the exam wasn't as good as his friend's.
+5. This test isn't as short as that.
+6. My brother isn't as young as he looks.
+7. Kate's room isn't as large as her sister's.
+8. This information isn't as useless as that.
+9. She doesn't spend as much time on cooking as her mother.
+10. The Mercedes isn't as cheap as the Ford.
 
 <a id="exercise-24-7"></a>
 
@@ -5022,11 +5022,11 @@ but the monkey is the cleverest.
 
 **Часть 1**
 
-1. She always buys only the most expensive clothes. — But they are also the best, aren’t they?
-2. Which way to the beach is shorter: through the forest or through the field? The way through the field takes longer (more time), and besides it’s much hotter in the field than in the forest.
+1. She always buys only the most expensive clothes. — But they are also the best, aren't they?
+2. Which way to the beach is shorter: through the forest or through the field? The way through the field takes longer (more time), and besides it's much hotter in the field than in the forest.
 3. The less time I have, the more nervous I get.
 4. This is one of the funniest episodes in the film.
-5. Today’s homework isn’t as difficult as yesterday’s.
+5. Today's homework isn't as difficult as yesterday's.
 6. This actor is much more talented than his partner.
 7. What discovery do you think is the most important and famous in the world?
 8. My younger son makes fewer mistakes in dictations than the others. His teacher says he is one of the most hard-working and cleverest pupils in the class.
@@ -5035,16 +5035,16 @@ but the monkey is the cleverest.
 
 **Часть 2**
 
-1. Is this exercise as large as that? — No, it’s shorter, but much more difficult.
+1. Is this exercise as large as that? — No, it's shorter, but much more difficult.
 2. This is one of the oldest and smallest towns in Europe. Streets there are much narrower than in modern cities.
-3. There is less information in this newspaper than in that one. It’s not as interesting as that one.
+3. There is less information in this newspaper than in that one. It's not as interesting as that one.
 4. Is it the worst news or is there any still worse?
 5. The longer the report (is), the less interesting it is to listen to it
 6. This summer is much hotter than the previous one. — It is, and there are fewer rains than last year.
 7. Is Jack as old as Paul? — Yes, he is, but he is taller and seems much stronger than Paul.
 8. Which is better: to teach or to study?
-9. Are you busier now than in the morning? — No, I don’t have as many things to do as in the morning.
-10. This is one of the most beautiful songs of this singer. It’s my favourite one.
+9. Are you busier now than in the morning? — No, I don't have as many things to do as in the morning.
+10. This is one of the most beautiful songs of this singer. It's my favourite one.
 
 <a id="unit-25"></a>
 
@@ -5085,10 +5085,10 @@ the next (следующий по порядку) next (следующий по 
 |  |  |
 | --- | --- |
 | Is there any later train to London? | Есть ли более поздний поезд в Лондон? |
-| I don’t like his latest book. | Мне не нравится его последняя (=недавно опубликованная) книга. |
+| I don't like his latest book. | Мне не нравится его последняя (=недавно опубликованная) книга. |
 | When does the last train start? | Когда отходит последний поезд? |
 | These are Ben and Steve. The former is a businessman and the latter is a dentist. | Это Бен и Стив. Первый — бизнесмен, а второй — дантист. |
-| I sent the information to Brian but the latter didn’t answer. | Я послала сведения Брайену, но тот не ответил. |
+| I sent the information to Brian but the latter didn't answer. | Я послала сведения Брайену, но тот не ответил. |
 | Why were you absent last week? | Почему тебя не было на прошлой неделе? |
 
 4. old older the oldest (о возрасте вообще) elder the eldest (только как определения со словами son, daughter, sister, brother, cousin)
@@ -5106,8 +5106,8 @@ the next (следующий по порядку) next (следующий по 
 
 |  |  |
 | --- | --- |
-| I’d like to sit nearer to the door. | Мне бы хотелось сидеть поближе к двери. |
-| He’ll come a little later. | Он придет немного позже. |
+| I'd like to sit nearer to the door. | Мне бы хотелось сидеть поближе к двери. |
+| He'll come a little later. | Он придет немного позже. |
 | She lives farthest of all from the centre. | Она живет дальше всех от центра. |
 
 <a id="exercise-25-1"></a>
@@ -5130,21 +5130,21 @@ the next (следующий по порядку) next (следующий по 
 3. The new library is much ........... (*near*) to my house than the old one.
 4. This building is one of ........... (*old*) in the street.
 5. Could you tell me the way to ........... (*near*) bus stop, please? — You should walk ........... (*far*) along the street and take ........... (*near*) turn to the right.
-6. You can consult Dr. Sleet or Dr. Nuttle. — I’m afraid I don’t know the former, so I’d rather speak to ........... (*late*). I’ll phone him ........... (*near*) week.
+6. You can consult Dr. Sleet or Dr. Nuttle. — I'm afraid I don't know the former, so I'd rather speak to ........... (*late*). I'll phone him ........... (*near*) week.
 7. Pete was ........... (*near*) to answer.
 8. This must be ........... (*old*) actress of this theatre.
-9. Have you heard ........... (*late*) news? — No, what’s the matter?
+9. Have you heard ........... (*late*) news? — No, what's the matter?
 10. Is your father much ........... (*old*) than your mother?
 
 **Часть 2**
 
 1. Is that ........... (*late*) bus to Greenford? — No, there is one more in half an hour.
 2. What is her ........... (*old*) sister like?
-3. Her house seems to be ........... (*far*) from the station! I’m too tired to walk ........... (*far*)!
+3. Her house seems to be ........... (*far*) from the station! I'm too tired to walk ........... (*far*)!
 4. Of all the children in the family Dick is ........... (*old*).
-5. Is it only six o’clock? I thought it was much ........... (*late*).
+5. Is it only six o'clock? I thought it was much ........... (*late*).
 6. Nobody agreed with George and our ........... (*far*) discussion was quite heated.
-7. I said to the woman, “Excuse me, can you help me?” But ........... (*late*) didn’t even react.
+7. I said to the woman, “Excuse me, can you help me?” But ........... (*late*) didn't even react.
 8. Is this ........... (*late*) edition of the book? — Yes, it is. It was published ........... (*late*) month.
 9. How much is your cousin ........... (*old*) than you? — Actually, we are the same age.
 10. I missed my station and had to go as far as ........... (*near*) station to change trains.
@@ -5158,21 +5158,21 @@ the next (следующий по порядку) next (следующий по 
 3. The new library is much nearer to my house than the old one.
 4. This building is one of the oldest in the street.
 5. Could you tell me the way to the nearest bus stop, please? — You should walk farther along the street and take the next turn to the right.
-6. You can consult Dr. Sleet or Dr. Nuttle. — I’m afraid I don’t know the former, so I’d rather speak to the latter. I’ll phone him next week.
+6. You can consult Dr. Sleet or Dr. Nuttle. — I'm afraid I don't know the former, so I'd rather speak to the latter. I'll phone him next week.
 7. Pete was the next to answer.
 8. This must be the oldest actress of this theatre.
-9. Have you heard the latest news? — No, what’s the matter?
+9. Have you heard the latest news? — No, what's the matter?
 10. Is your father much older than your mother?
 
 **Часть 2**
 
 1. Is that the last bus to Greenford? — No, there is one more in half an hour.
 2. What is her elder sister like?
-3. Her house seems to be the farthest from the station! I’m too tired to walk farther!
+3. Her house seems to be the farthest from the station! I'm too tired to walk farther!
 4. Of all the children in the family Dick is the eldest.
-5. Is it only six o’clock? I thought it was much later.
+5. Is it only six o'clock? I thought it was much later.
 6. Nobody agreed with George and our further discussion was quite heated.
-7. I said to the woman, “Excuse me, can you help me?” But the latter didn’t even react.
+7. I said to the woman, “Excuse me, can you help me?” But the latter didn't even react.
 8. Is this the latest edition of the book? — Yes, it is. It was published last month.
 9. How much is your cousin older than you? — Actually, we are the same age.
 10. I missed my station and had to go as far as the next station to change trains.
@@ -5222,10 +5222,10 @@ the next (следующий по порядку) next (следующий по 
 3. Could you call a bit later, please? He is busy now.
 4. The nearest cinema is a ten-minute walk from here.
 5. My wife has an elder brother. He is much older than her (than she is).
-6. His latest article is on the same topic again, isn’t it?
+6. His latest article is on the same topic again, isn't it?
 7. Is the secretary in the next room? — Yes, she is.
 8. I like both Kevin and Phillip. The former is very polite and the latter is very handsome.
-9. I don’t know which theatre in Moscow is the oldest. And you?
+9. I don't know which theatre in Moscow is the oldest. And you?
 10. He wants to enter another university to get further education.
 
 **Часть 2**
@@ -5233,8 +5233,8 @@ the next (следующий по порядку) next (следующий по 
 1. The later you come, the worse.
 2. William is the eldest of the three brothers.
 3. Is there any other hospital nearer to the house than this one? — No, the others are much farther (further).
-4. My friend isn’t older than me (than I am).
-5. This writer’s latest play is quite popular with readers.
+4. My friend isn't older than me (than I am).
+5. This writer's latest play is quite popular with readers.
 6. Was it the last time you saw him?
 7. The teacher asked the student the question several times but the latter was silent.
 8. The next time you come bring your sister.
@@ -5276,9 +5276,9 @@ Sarah speaks English much more fluently than her friend.
 
 My parents get up as early as me.
 
-Nick doesn’t speak as rudely as Mark.
+Nick doesn't speak as rudely as Mark.
 
-The faster you do it, the sooner you’ll go for a walk.
+The faster you do it, the sooner you'll go for a walk.
 
 Обратите внимание на варианты перевода предложений типа:
 
@@ -5297,28 +5297,28 @@ He studies least of all. Он занимается меньше всех. He stu
 He can run much (quick) than me. He can run much more quickly than me.
 
 1. ....................................................................... (*far*) he went, the more tired he got.
-2. Speak ....................... (*slow*), please. We can’t understand English well enough yet.
+2. Speak ....................... (*slow*), please. We can't understand English well enough yet.
 3. I was surprised that Henry ran .............................................................. (*fast*) of all.
-4. You don’t know the poem as ................................................ (*good*) as you should.
+4. You don't know the poem as ................................................ (*good*) as you should.
 5. Mrs. Nickson behaves ............................... (*impatient*) and .................................... (*nervous*) than her husband.
 6. He usually answers as ....................................... (*bad*) at the exam as at the lesson.
-7. .................................. (*early*) you leave, ................................. (*soon*) you’ll arrive.
+7. .................................. (*early*) you leave, ................................. (*soon*) you'll arrive.
 8. Luis speaks much .............................................................. (*polite*) than his friend.
 9. She treats the child ........................................................ (*gentle*) of all his relatives.
-10. I believe you aren’t doing enough. You must work ....................................... (*hard*).
+10. I believe you aren't doing enough. You must work ....................................... (*hard*).
 
 **Полное решение**
 
 1. The farther he went, the more tired he got.
-2. Speak more slowly, please. We can’t understand English well enough yet.
+2. Speak more slowly, please. We can't understand English well enough yet.
 3. I was surprised that Henry ran fastest of all.
-4. You don’t know the poem as well as you should.
+4. You don't know the poem as well as you should.
 5. Mrs. Nickson behaves more impatiently and more nervously than her husband.
 6. He usually answers as badly at the exam as at the lesson.
-7. The earlier you leave, the sooner you’ll arrive.
+7. The earlier you leave, the sooner you'll arrive.
 8. Luis speaks much more politely than his friend.
 9. She treats the child most gently of all his relatives.
-10. I believe you aren’t doing enough. You must work harder.
+10. I believe you aren't doing enough. You must work harder.
 
 <a id="exercise-26-2"></a>
 
@@ -5338,7 +5338,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 6. This is a *more safer* / *more safely* / *saflier* / *safer* kind of sport than that.
 7. He learns languages as *quickly* / *quick* / *more quickly* and *easier* / *easy* / *easily* as his sister.
 8. You must do your *better* / *best* / *the best* / *good* to help them.
-9. It’s *more pleasantly* / *most pleasantly* / *more pleasant* to spend summer in the country than in town.
+9. It's *more pleasantly* / *most pleasantly* / *more pleasant* to spend summer in the country than in town.
 10. Is this really *most widely* / *widest* / *the most widely* / *the most wide* -used method?
 
 **Полное решение**
@@ -5351,7 +5351,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 6. This is a safer kind of sport than that.
 7. He learns languages as quickly and easily as his sister.
 8. You must do your best to help them.
-9. It’s more pleasant to spend summer in the country than in town.
+9. It's more pleasant to spend summer in the country than in town.
 10. Is this really the most widely-used method?
 
 <a id="exercise-26-3"></a>
@@ -5380,11 +5380,11 @@ He can run much (quick) than me. He can run much more quickly than me.
 1. Those who shout most loudly (of all) are often not the cleverest.
 2. She laughs somewhat strangely. — She does, but her brother laughs even more strangely.
 3. He writes French as badly as he speaks it.
-4. The earlier you get up, the more easily you’ll work.
+4. The earlier you get up, the more easily you'll work.
 5. I expect it least of all.
-6. She doesn’t treat people as patiently as I’d like her to.
-7. My room is much more beautifully decorated for the holiday than my parents’ room.
-8. You can’t draw as well as Walt. He draws best of all. (He draws better than anyone else.)
+6. She doesn't treat people as patiently as I'd like her to.
+7. My room is much more beautifully decorated for the holiday than my parents' room.
+8. You can't draw as well as Walt. He draws best of all. (He draws better than anyone else.)
 9. He usually listens to the teacher more attentively than the others.
 10. The harder he works, the worse he sleeps.
 
@@ -5413,7 +5413,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 3. Pat is taller than I. ...................................................................................................................
 4. Mike is not as quick than Paul. ................................................................................................
 5. He is older than you three years. ..............................................................................................
-6. I tried hardly but couldn’t do anything. .....................................................................................
+6. I tried hardly but couldn't do anything. .....................................................................................
 7. He spoke politer than usual. ....................................................................................................
 8. Their house is modern as ours. ................................................................................................
 9. Let me know if you need farther help. ......................................................................................
@@ -5422,8 +5422,8 @@ He can run much (quick) than me. He can run much more quickly than me.
 **Часть 2**
 
 1. He knows the lesson more better than you. ..............................................................................
-2. It’s nicely of you! ....................................................................................................................
-3. I’m awful sorry! ......................................................................................................................
+2. It's nicely of you! ....................................................................................................................
+3. I'm awful sorry! ......................................................................................................................
 4. He smiled at me friendly. ........................................................................................................
 5. The operation was more painful I expected. .............................................................................
 6. She sings the best of all. .........................................................................................................
@@ -5432,7 +5432,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 9. Is it a really sapphire? .............................................................................................................
 10. She looked nervous out of the window. ....................................................................................
 11. Is it really such a good-paid job? .............................................................................................
-12. It’s much farer than that! .........................................................................................................
+12. It's much farer than that! .........................................................................................................
 13. The dish smells nicely. What is it? ...........................................................................................
 14. I still feel badly. .......................................................................................................................
 15. He speaks well English. ..........................................................................................................
@@ -5446,7 +5446,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 3. Pat is taller than I am.
 4. Mike is not as quick as Paul.
 5. He is three years older than you.
-6. I tried hard but couldn’t do anything.
+6. I tried hard but couldn't do anything.
 7. He spoke more politely than usual.
 8. Their house is as modern as ours.
 9. Let me know if you need further help.
@@ -5455,8 +5455,8 @@ He can run much (quick) than me. He can run much more quickly than me.
 **Часть 2**
 
 1. He knows the lesson better than you.
-2. It’s nice of you!
-3. I’m awfully sorry!
+2. It's nice of you!
+3. I'm awfully sorry!
 4. He smiled at me in a friendly way.
 5. The operation was more painful than I expected.
 6. She sings best of all.
@@ -5465,7 +5465,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 9. Is it a real sapphire?
 10. She looked nervously out of the window.
 11. Is it really such a well-paid job?
-12. It’s much farther than that.
+12. It's much farther than that.
 13. The dish smells nice. What is it?
 14. I still feel bad.
 15. He speaks English well.
@@ -5483,7 +5483,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 
 1. This chair is ......................................... comfortable ............................................. the others.
 2. Peter is .......................... smartest of all my students.
-3. This rule isn’t .............................................. difficult ................................................ that one.
+3. This rule isn't .............................................. difficult ................................................ that one.
 4. ........................ ...................... cheerful the child is, .................................. better his mood is.
 5. She speaks English ................. .................. fluently ............................................. her friends.
 
@@ -5491,7 +5491,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 
 1. This chair is more comfortable than the others.
 2. Peter is the smartest of all my students.
-3. This rule isn’t as difficult as that one.
+3. This rule isn't as difficult as that one.
 4. The more cheerful the child is, the better his mood is.
 5. She speaks English much more fluently than her friends.
 
@@ -5508,39 +5508,39 @@ He can run much (quick) than me. He can run much more quickly than me.
 The black dress is far (expensive / expensively) the blue one.  
 The black dress is far more expensive than the blue one.
 
-1. Why didn’t he greet me (*warm* / *warmly*) the others? ..............................................................
+1. Why didn't he greet me (*warm* / *warmly*) the others? ..............................................................
 2. He is (*frequent* / *frequently*) visitor here. ..................................................................................
 3. Is he really so (*incredible* / *incredibly*) famous? — Oh yes, he is (*popular* / *popularly*) singers nowadays. .............................................................................................................................
-4. That won’t suit her. She prefers to wear much (*bright* / *brightly*) coloured clothes. .................... ..............................................................................................................................................
+4. That won't suit her. She prefers to wear much (*bright* / *brightly*) coloured clothes. .................... ..............................................................................................................................................
 5. Which is (*dangerous* / *dangerously*): tennis or horse-riding? ....................................................
 6. He laughs (*good* / *well*) who laughs (*late* / *lately*). ....................................................................
 7. This girl has a (*good* / *well*) pronunciation. She reads (*fluent* / *fluently*) and (*clear* / *clearly*) ...... the other children in her class. .................................................................................................
-8. It’s raining even (*heavy* / *heavily*) yesterday, but the wind isn’t (*strong* / *strongly*) it was. ...........
+8. It's raining even (*heavy* / *heavily*) yesterday, but the wind isn't (*strong* / *strongly*) it was. ...........
 9. Which is (*difficult*) task in the textbook? ..................................................................................
 10. (*hard* / *hardly*) he works, (*successful* / *successfully*) he becomes. ............................................
 11. This is the subject he knows (*bad* / *badly*). It is (*interesting* / *interestingly*) for him. ................... ..............................................................................................................................................
 12. What can be (*pleasant* / *pleasantly*) to spend a rainy day in a comfortable armchair in front of a TV set? ................................................................................................................................
 13. Very often when learners of English are asked to imitate native speakers they start to speak (*indistinct* / *indistinctly*) possible. ...........................................................................................
 14. Jack is (*slow* / *slowly*) person I know. (*Long*) I listen to him, (*impatient* / *impatiently*) I get. .......................................................................................................................... .
-15. All parents hope their children will live (*happy* / *happily*) they do. They want their children’s life to be (*difficult*) theirs. .............................................................................................................
+15. All parents hope their children will live (*happy* / *happily*) they do. They want their children's life to be (*difficult*) theirs. .............................................................................................................
 
 **Полное решение**
 
-1. Why didn’t he greet me as warmly as the others?
+1. Why didn't he greet me as warmly as the others?
 2. He is the most frequent visitor here.
 3. Is he really so incredibly famous? — Oh yes, he is one of the most popular singers nowadays.
-4. That won’t suit her. She prefers to wear much more brightly coloured clothes.
+4. That won't suit her. She prefers to wear much more brightly coloured clothes.
 5. Which is more dangerous: tennis or horse-riding?
 6. He laughs best who laughs last.
 7. This girl has a good pronunciation. She reads more fluently and clearly than the other children in her class.
-8. It’s raining even more heavily than yesterday, but the wind isn’t as strong as it was.
+8. It's raining even more heavily than yesterday, but the wind isn't as strong as it was.
 9. Which is the most complicated task in the textbook?
 10. The harder he works, the more successful he becomes.
 11. This is the subject he knows worst. It is the least interesting for him.
 12. What can be more pleasant than to spend a rainy day in a comfortable armchair in front of a TV set?
 13. Very often when learners of English are asked to imitate native speakers they start to speak as indistinctly as possible.
 14. Jack is the slowest person I know. The longer I listen to him, the more impatient I get.
-15. All parents hope their children will live more happily than they do. They want their children’s life to be less difficult than theirs.
+15. All parents hope their children will live more happily than they do. They want their children's life to be less difficult than theirs.
 
 <a id="exercise-27-4"></a>
 
@@ -5592,8 +5592,8 @@ The black dress is far more expensive than the blue one.
 3. This is a really difficult exercise. The others are much easier than this one.
 4. The shorter the poem (is), the easier it is to learn it.
 5. Which is more useful: to walk or to jog?
-6. I feel better now but it’s still hard for me to work for a long time.
-7. You must speak to people more politely, otherwise they’ll think that you are badly brought up.
+6. I feel better now but it's still hard for me to work for a long time.
+7. You must speak to people more politely, otherwise they'll think that you are badly brought up.
 8. This is one of the stuffiest rooms in the office. I get awfully tired here.
 9. Your task is to make as few mistakes as possible, but to finish as quickly as possible.
 10. I can hardly catch up with you. Do you always walk so fast?
@@ -5602,19 +5602,19 @@ The black dress is far more expensive than the blue one.
 
 1. I wonder if there is anyone luckier than you are?
 2. Children like singing but often do it badly.
-3. Though this flat is smaller than mine, it’s more comfortable and besides it’s surprisingly cheap.
+3. Though this flat is smaller than mine, it's more comfortable and besides it's surprisingly cheap.
 4. What do you think further events will be?
 5. The nearer the office to the house, the less time the way takes.
 6. My elder brother has two children. His son is two years older than his daughter.
 7. Everybody admires her. Whatever she does, she does it wonderfully / perfectly, best of all (better than anyone else).
 8. Both Ann and Kate are beautiful girls. The latter is married.
-9. Is he a late-riser? — No, he gets up early, earlier than the rest of the family. He believes it’s more practical and convenient.
+9. Is he a late-riser? — No, he gets up early, earlier than the rest of the family. He believes it's more practical and convenient.
 10. The less advice she gives you, the better. Her advice is as useless as her help.
-11. Let’s discuss the next question. — Let’s do it later. I have a terrible headache.
+11. Let's discuss the next question. — Let's do it later. I have a terrible headache.
 12. This is the most serious problem. We must discuss it as thoroughly as possible.
-13. The fruit salad tastes wonderful / delicious, but it seems to me that it’s better to put fewer apples there.
-14. If you practise daily, you’ll speak more quickly and more correctly.
-15. Even if you are in a bad mood, you should treat clients in a friendlier way, you mustn’t be so rude.
+13. The fruit salad tastes wonderful / delicious, but it seems to me that it's better to put fewer apples there.
+14. If you practise daily, you'll speak more quickly and more correctly.
+15. Even if you are in a bad mood, you should treat clients in a friendlier way, you mustn't be so rude.
 
 ## Порядок слов и have / have got
 
@@ -5632,7 +5632,7 @@ The black dress is far more expensive than the blue one.
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| I | don’t speak | French | very well. |
+| I | don't speak | French | very well. |
 | She | lost | her passport | last week. |
 | He | met | Sue | at the concert. |
 
@@ -5661,7 +5661,7 @@ The black dress is far more expensive than the blue one.
 
 3. Always, never, often, sometimes, usually, also, probably, hardly, definitely, etc. стоят перед смысловым глаголом, но после глагола to be.
 
-He probably knows about it. They sometimes have lunch together. She often makes this cake. You must also speak to your father. We don’t usually have lectures on Saturday. I am never late.
+He probably knows about it. They sometimes have lunch together. She often makes this cake. You must also speak to your father. We don't usually have lectures on Saturday. I am never late.
 
 4. Существительное в предложении может иметь несколько определений. Они употребляются в следующей последовательности:
 
@@ -5728,7 +5728,7 @@ on Saturday, invited, to a party, he, a lot of people He invited a lot of people
 3. the Turners, last night, saw, at the cinema, we .........................................................
 4. raised, several times, the question, the chairman, at the meeting .............................
 5. the news, she, every morning, listens to, on the radio ..............................................
-6. in his room, Tom, at seven o’clock, morning exercises, does ...................................
+6. in his room, Tom, at seven o'clock, morning exercises, does ...................................
 7. both ... and, at work, her Dad, a lot, smokes, at home .............................................
 
 **Полное решение**
@@ -5738,7 +5738,7 @@ on Saturday, invited, to a party, he, a lot of people He invited a lot of people
 3. We saw the Turners at the cinema last night.
 4. The chairman raised the question at the meeting several times.
 5. She listens to the news on the radio every morning.
-6. Tom does morning exercises in his room at seven o’clock.
+6. Tom does morning exercises in his room at seven o'clock.
 7. Her Dad smokes a lot both at home and at work.
 
 <a id="exercise-28-3"></a>
@@ -5752,7 +5752,7 @@ on Saturday, invited, to a party, he, a lot of people He invited a lot of people
 Расположите обстоятельства в правильном порядке.  
 He played last night very well at the concert. He played very well at the concert last night.
 
-1. We discussed the problem at Nick’s place in detail in the evening. ...........................
+1. We discussed the problem at Nick's place in detail in the evening. ...........................
 2. She went home after that unexpectedly. .................................................................
 3. He explained it to her at lunch during their meeting carefully. ...................................
 4. Peter prefers to work alone in the morning in his study. ............................................
@@ -5760,12 +5760,12 @@ He played last night very well at the concert. He played very well at the concer
 6. My mother-in-law works all summer hard in the garden. ..........................................
 7. He wrote something on a piece of paper quickly after their conversation. .................
 8. The children always play behind the house before supper noisily. ............................
-9. They came together to the party at about 9 o’clock. ................................................
+9. They came together to the party at about 9 o'clock. ................................................
 10. She left for London at night / secretly. ....................................................................
 
 **Полное решение**
 
-1. We discussed the problem in detail at Nick’s place in the evening.
+1. We discussed the problem in detail at Nick's place in the evening.
 2. She went home unexpectedly after that.
 3. He explained it to her carefully during their meeting at lunch.
 4. Peter prefers to work alone in his study in the morning.
@@ -5773,7 +5773,7 @@ He played last night very well at the concert. He played very well at the concer
 6. My mother-in-law works hard in the garden all summer.
 7. He wrote something quickly on a piece of paper after their conversation.
 8. The children always play noisily behind the house before supper.
-9. They came to the party together at about nine o’clock.
+9. They came to the party together at about nine o'clock.
 10. She left for London secretly at night.
 
 <a id="exercise-28-4"></a>
@@ -5792,13 +5792,13 @@ He is so impolite! ………… He is always so impolite!
 1. He can do anything in time. ................................................................. (never)
 2. Mike is the cleverest student. ............................................................... (definitely)
 3. They take a walk before going to bed. .................................................. (always)
-4. She doesn’t behave so impatiently. ...................................................... (usually)
+4. She doesn't behave so impatiently. ...................................................... (usually)
 5. He talks nonsense. .............................................................................. (sometimes)
 6. They are great friends. ......................................................................... (also)
 7. You must say it again. .......................................................................... (never)
 8. We have got much spare time. ............................................................. (seldom)
-9. We don’t see each other nowadays. ...................................................... (often)
-10. I’m wrong. .......................................................................................... (probably)
+9. We don't see each other nowadays. ...................................................... (often)
+10. I'm wrong. .......................................................................................... (probably)
 11. She gets good marks. .......................................................................... (usually)
 12. My friend can play the piano. ............................................................... (also)
 13. She does extraordinary things. ............................................................. (sometimes)
@@ -5810,13 +5810,13 @@ He is so impolite! ………… He is always so impolite!
 1. He can never do anything in time.
 2. Mike is definitely the cleverest student.
 3. They always take a walk before going to bed.
-4. She doesn’t usually behave so impatiently.
+4. She doesn't usually behave so impatiently.
 5. He sometimes talks nonsense.
 6. They are also great friends.
 7. You must never say it again.
 8. We have seldom got much spare time.
-9. We don’t often see each other nowadays.
-10. I’m probably wrong.
+9. We don't often see each other nowadays.
+10. I'm probably wrong.
 11. She usually gets good marks.
 12. My friend can also play the piano.
 13. She sometimes does extraordinary things.
@@ -5880,7 +5880,7 @@ red, large, bath, thick, Chinese a large thick red Chinese bath towel
 
 Найдите возможные ошибки в порядке слов.  
 He is often alone at home. — RIGHT  
-It’s a tasty birthday enormous cake. — It’s a tasty enormous birthday cake.
+It's a tasty birthday enormous cake. — It's a tasty enormous birthday cake.
 
 **Часть 1**
 
@@ -5907,7 +5907,7 @@ It’s a tasty birthday enormous cake. — It’s a tasty enormous birthday cake
 8. They spend in the country almost every weekend. ..........................................
 9. She smiled happily in her sleep. ........................................................................
 10. He learns thoroughly English words every day. ................................................
-11. I’d like to buy new leather elegant Italian shoes. ...............................................
+11. I'd like to buy new leather elegant Italian shoes. ...............................................
 12. He also very well plays chess. ...........................................................................
 13. They speak loudly at meetings all the time. ......................................................
 14. The boss had to go unexpectedly somewhere after lunch. ..............................
@@ -5940,7 +5940,7 @@ It’s a tasty birthday enormous cake. — It’s a tasty enormous birthday cake
 8. They spend almost every weekend in the country.
 9. She smiled happily in her sleep.
 10. He learns English words thoroughly every day.
-11. I’d like to buy elegant new Italian leather shoes.
+11. I'd like to buy elegant new Italian leather shoes.
 12. He also plays chess very well.
 13. They speak loudly at meetings all the time.
 14. The boss had to go somewhere unexpectedly after lunch.
@@ -5983,7 +5983,7 @@ It’s a tasty birthday enormous cake. — It’s a tasty enormous birthday cake
 7. He usually returns home early.
 8. Would you like to go to the cinema with me on Sunday?
 9. I like your new red woolen sweater.
-10. Exercises are sometimes very difficult, aren’t they?
+10. Exercises are sometimes very difficult, aren't they?
 11. They spend weekends in the country in summer.
 12. She seldom buys perfume.
 13. Our train arrives in St. Petersburg early in the morning.
@@ -6000,19 +6000,19 @@ It’s a tasty birthday enormous cake. — It’s a tasty enormous birthday cake
 
 1. Глагол have и выражение have got по смыслу равнозначны. Глагол have строит вопрос и отрицание при помощи вспомогательного глагола do, а в выражении have got вопрос и отрицание строит глагол have.
 
-He has a car. Does he have a car? — Yes, he does. / No, he doesn’t. They have got a car. Have they got a car? — Yes, they have. / No, they haven’t.
+He has a car. Does he have a car? — Yes, he does. / No, he doesn't. They have got a car. Have they got a car? — Yes, they have. / No, they haven't.
 
-They have a house of their own. They don’t have a house of their own. She has got a house of her own. She hasn’t got a house of her own.
+They have a house of their own. They don't have a house of their own. She has got a house of her own. She hasn't got a house of her own.
 
 2. Выражение have got употребляется только в настоящем времени. Глагол have может быть употреблен в настоящем, прошедшем и будущем времени.
 
-We’ve got a three-room flat.
+We've got a three-room flat.
 
 He has classes three times a week.
 
 Did he have an English class yesterday?
 
-We won’t have any classes on Friday because our teacher is ill.
+We won't have any classes on Friday because our teacher is ill.
 
 3. В следующих выражениях употребляется только глагол have:
 
@@ -6036,7 +6036,7 @@ We won’t have any classes on Friday because our teacher is ill.
 
 - have a chat
 
-I don’t usually have coffee in the evening.
+I don't usually have coffee in the evening.
 
 Where does he usually have lunch?
 
@@ -6053,13 +6053,13 @@ Hello, Ann. Did you have a good flight?
 Сделайте предложения вопросительными и отрицательными.  
 The Browns have a nice garden.  
 Do the Browns have a nice garden?  
-The Browns don’t have a nice garden.  
-He’s got three children.  
+The Browns don't have a nice garden.  
+He's got three children.  
 Has he got three children?  
-He hasn’t got three children.
+He hasn't got three children.
 
 1. Tom has a large country-house. .............................................................................
-2. They usually have lunch at one o’clock. ..................................................................
+2. They usually have lunch at one o'clock. ..................................................................
 3. Mary has got two brothers. .....................................................................................
 4. I have a shower every morning. ..............................................................................
 5. Helen and John have got a three-room flat. .............................................................
@@ -6071,16 +6071,16 @@ He hasn’t got three children.
 
 **Полное решение**
 
-1. Does Tom have a large country-house? Tom doesn’t have a large country-house.
-2. Do they usually have lunch at one o’clock? They don’t usually have lunch at one o’clock.
-3. Has Mary got two brothers? Mary hasn’t got two brothers.
-4. Do you have a shower every morning? I don’t have a shower every morning.
-5. Have Helen and John got a three-room flat? Helen and John haven’t got a three-room flat.
-6. Has little Ben got a bicycle? Little Ben hasn’t got a bicycle.
-7. Does Kate always have tea for breakfast? Kate doesn’t always have tea for breakfast.
-8. Does your Mum usually have a holiday in summer? My Mum doesn’t usually have a holiday in summer.
-9. Has the child got coloured pencils? The child hasn’t got coloured pencils.
-10. Does George have a family of his own? George doesn’t have a family of his own.
+1. Does Tom have a large country-house? Tom doesn't have a large country-house.
+2. Do they usually have lunch at one o'clock? They don't usually have lunch at one o'clock.
+3. Has Mary got two brothers? Mary hasn't got two brothers.
+4. Do you have a shower every morning? I don't have a shower every morning.
+5. Have Helen and John got a three-room flat? Helen and John haven't got a three-room flat.
+6. Has little Ben got a bicycle? Little Ben hasn't got a bicycle.
+7. Does Kate always have tea for breakfast? Kate doesn't always have tea for breakfast.
+8. Does your Mum usually have a holiday in summer? My Mum doesn't usually have a holiday in summer.
+9. Has the child got coloured pencils? The child hasn't got coloured pencils.
+10. Does George have a family of his own? George doesn't have a family of his own.
 
 <a id="exercise-29-2"></a>
 
@@ -6094,37 +6094,37 @@ He hasn’t got three children.
 В некоторых предложениях возможны варианты.
 
 1. ............... she ............... any grandparents? — Yes, both her Granny and Grandad are still alive.
-2. Did you go to Mary’s birthday party? — Oh, yes, we ............... a grand time.
+2. Did you go to Mary's birthday party? — Oh, yes, we ............... a grand time.
 3. As far as I know, he lives with his relatives. He ............... a flat of his own.
 4. What ............... you usually ............... for breakfast?
-5. If you work hard, I’m sure you ............... ............... any problems at the exam.
+5. If you work hard, I'm sure you ............... ............... any problems at the exam.
 6. May I ............... a look at this book, please?
-7. I ............... ............... enough time to do the shopping yesterday, so I’ll have to do it tonight.
-8. I’m sorry, I ............... ............... any present for you. — Never mind.
-9. I couldn’t answer the telephone as I was ............... a shower.
+7. I ............... ............... enough time to do the shopping yesterday, so I'll have to do it tonight.
+8. I'm sorry, I ............... ............... any present for you. — Never mind.
+9. I couldn't answer the telephone as I was ............... a shower.
 10. Could you lend me a fiver, please? — Oh, sorry, I ............... ............... any money on me.
 11. I think I .............................. a holiday in August this year.
 12. ............... their daughter ............... dark or fair hair? — Actually, she is red.
-13. I .............................. dinner yesterday, I didn’t feel quite well.
-14. She ............... so many clothes she doesn’t know where to put them all.
+13. I .............................. dinner yesterday, I didn't feel quite well.
+14. She ............... so many clothes she doesn't know where to put them all.
 15. ............... you ............... a good rest? — Yes, I really enjoyed it.
 
 **Полное решение**
 
 1. Does she have any grandparents? — Yes, both her Granny and Grandad are still alive.
-2. Did you go to Mary’s birthday party? — Oh, yes, we had a grand time.
-3. As far as I know, he lives with his relatives. He doesn’t have a flat of his own.
+2. Did you go to Mary's birthday party? — Oh, yes, we had a grand time.
+3. As far as I know, he lives with his relatives. He doesn't have a flat of his own.
 4. What do you usually have for breakfast?
-5. If you work hard, I’m sure you won’t have any problems at the exam.
+5. If you work hard, I'm sure you won't have any problems at the exam.
 6. May I have a look at this book, please?
-7. I didn’t have enough time to do the shopping yesterday, so I’ll have to do it tonight.
-8. I’m sorry, I haven’t got any present for you. — Never mind.
-9. I couldn’t answer the telephone as I was having a shower.
-10. Could you lend me a fiver, please? — Oh, sorry, I don’t have any money on me.
+7. I didn't have enough time to do the shopping yesterday, so I'll have to do it tonight.
+8. I'm sorry, I haven't got any present for you. — Never mind.
+9. I couldn't answer the telephone as I was having a shower.
+10. Could you lend me a fiver, please? — Oh, sorry, I don't have any money on me.
 11. I think I will have a holiday in August this year.
 12. Does their daughter have dark or fair hair? — Actually, she is red-haired.
-13. I didn’t have dinner yesterday, I didn’t feel quite well.
-14. She has so many clothes she doesn’t know where to put them all.
+13. I didn't have dinner yesterday, I didn't feel quite well.
+14. She has so many clothes she doesn't know where to put them all.
 15. Did you have a good rest? — Yes, I really enjoyed it.
 
 <a id="exercise-29-3"></a>
@@ -6167,28 +6167,28 @@ He hasn’t got three children.
 
 **Часть 1**
 
-1. I didn’t have any drink at lunch as I have a terrible headache.
+1. I didn't have any drink at lunch as I have a terrible headache.
 2. Have you got a camera? Let me take a picture of you.
-3. I won’t have my birthday party as I’m leaving.
+3. I won't have my birthday party as I'm leaving.
 4. Has Tom got a large family? (Does Tom have a large family?) — Yes, he has (has got) a brother and two sisters.
-5. I can’t get Kate on the phone. — I had a chat with her only yesterday.
-6. Mr. Brown is very busy, he doesn’t have (hasn’t got) time to speak to you now.
+5. I can't get Kate on the phone. — I had a chat with her only yesterday.
+6. Mr. Brown is very busy, he doesn't have (hasn't got) time to speak to you now.
 7. Did you have a good walk yesterday? — Oh yes, the weather was beautiful.
 8. Do you have many classes on Wednesday? — Three or four lectures usually.
-9. She had no plants at home and I didn’t like it.
-10. There is no fresh bread in this shop. Let’s go to another one.
+9. She had no plants at home and I didn't like it.
+10. There is no fresh bread in this shop. Let's go to another one.
 
 **Часть 2**
 
-1. Have you got (Do you have) a room of your own in your new flat? — Oh, yes I have, and it’s quite large.
+1. Have you got (Do you have) a room of your own in your new flat? — Oh, yes I have, and it's quite large.
 2. Where can I find Mr. Pitt? — He is out. He is having a business lunch with a client.
-3. If we have a party on Saturday, the guests won’t leave early. They won’t have to get up early on Sunday.
+3. If we have a party on Saturday, the guests won't leave early. They won't have to get up early on Sunday.
 4. Do you have (Have you got) a brother or a sister? — I have an elder brother.
-5. I didn’t have time even for a cup of coffee this morning. That’s why I’m so sleepy.
+5. I didn't have time even for a cup of coffee this morning. That's why I'm so sleepy.
 6. Did you have a good flight? — Yes, thanks.
-7. I don’t have the slightest idea what you are talking about.
-8. What’s the matter? You’re so excited! — I’m having my first date tonight.
-9. Haven’t you ever had a toothache?
+7. I don't have the slightest idea what you are talking about.
+8. What's the matter? You're so excited! — I'm having my first date tonight.
+9. Haven't you ever had a toothache?
 10. Mark was just having his last cigarette before going to bed when suddenly there was a knock at the door.
 
 ## Вопросительные предложения и другие конструкции
@@ -6219,14 +6219,14 @@ He hasn’t got three children.
 
 |  |  |
 | --- | --- |
-| Pete is reading. | Is Pete reading? — Yes, he is. / No, he isn’t. |
-| They are at home. | Are they at home? — Yes, they are. / No, they aren’t. |
-| I am right. | Am I right? — Yes, you are. / No, you aren’t. |
-| Mary lives in Leeds. | Does Mary live in Leeds? — Yes, she does. / No, she doesn’t. |
-| They learn English. | Do they learn English? — Yes, they do. / No, they don’t. |
-| I’d like to visit him. | Would you like to visit him? — Yes, I would. / No, I wouldn’t. |
-| He has a car. | Does he have a car? — Yes, he does. / No, he doesn’t. |
-| They have got a car. | Have they got a car? — Yes, they have. / No, they haven’t. |
+| Pete is reading. | Is Pete reading? — Yes, he is. / No, he isn't. |
+| They are at home. | Are they at home? — Yes, they are. / No, they aren't. |
+| I am right. | Am I right? — Yes, you are. / No, you aren't. |
+| Mary lives in Leeds. | Does Mary live in Leeds? — Yes, she does. / No, she doesn't. |
+| They learn English. | Do they learn English? — Yes, they do. / No, they don't. |
+| I'd like to visit him. | Would you like to visit him? — Yes, I would. / No, I wouldn't. |
+| He has a car. | Does he have a car? — Yes, he does. / No, he doesn't. |
+| They have got a car. | Have they got a car? — Yes, they have. / No, they haven't. |
 
 2. Общий вопрос с отрицанием
 
@@ -6234,7 +6234,7 @@ He hasn’t got three children.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ВГ | + | not | + | подлежащее | + | сказуемое | + | ...? |
 
-Употребляется для выражения удивления, недоумения. — Разве (Неужели) вы этого не знаете? — Don’t you know it? — Да, не знаю. — No, I don’t. / — Нет, знаю. — Yes, I do.
+Употребляется для выражения удивления, недоумения. — Разве (Неужели) вы этого не знаете? — Don't you know it? — Да, не знаю. — No, I don't. / — Нет, знаю. — Yes, I do.
 
 В английском языке обе части ответа должны быть либо утвердительными, либо отрицательными в зависимости от смысла ответа.
 
@@ -6246,7 +6246,7 @@ He hasn’t got three children.
 
 - Задается к любому члену предложения при помощи союза or.
 
-Is he a doctor or a teacher? — He is a doctor. Do they live in London or in Liverpool? — They live in London. Does Kate or Jack learn Spanish? — Jack does. Would you like tea or coffee? — Tea, please. Has she got black or blue shoes? — She’s got blue shoes.
+Is he a doctor or a teacher? — He is a doctor. Do they live in London or in Liverpool? — They live in London. Does Kate or Jack learn Spanish? — Jack does. Would you like tea or coffee? — Tea, please. Has she got black or blue shoes? — She's got blue shoes.
 
 При ответе на альтернативный вопрос нельзя использовать слова Yes и No.
 
@@ -6262,15 +6262,15 @@ Is he a doctor or a teacher? — He is a doctor. Do they live in London or in Li
 Nick likes strawberries.. Does Nick like strawberries?
 
 1. John and Jill are married. ....................................................................................?
-2. I’d like to go for a walk. ........................................................................................?
+2. I'd like to go for a walk. ........................................................................................?
 3. Victor is sometimes late for classes. .....................................................................?
 4. Alice knows the language very well. .....................................................................?
 5. The brothers watch TV every evening. ..................................................................?
 6. Rachel has very many friends in Paris. ..................................................................?
 7. Her elder brother is a second-year student. ...........................................................?
 8. Jane would like to spend a holiday abroad. ...........................................................?
-9. Paul’s friends agree with him. ...............................................................................?
-10. Irene’s husband has got an expensive car. ............................................................?
+9. Paul's friends agree with him. ...............................................................................?
+10. Irene's husband has got an expensive car. ............................................................?
 
 **Полное решение**
 
@@ -6282,8 +6282,8 @@ Nick likes strawberries.. Does Nick like strawberries?
 6. Does Rachel have very many friends in Paris?
 7. Is her elder brother a second-year student?
 8. Would Jane like to spend a holiday abroad?
-9. Do Paul’s friends agree with him?
-10. Has Irene’s husband got an expensive car?
+9. Do Paul's friends agree with him?
+10. Has Irene's husband got an expensive car?
 
 <a id="exercise-30-2"></a>
 
@@ -6300,7 +6300,7 @@ Nick likes strawberries.. Does Nick like strawberries?
 2. ......... you have any relatives in the Crimea? ........................................................?
 3. ......... your teacher a young woman? ...................................................................?
 4. ......... you like to join me? ...................................................................................?
-5. ......... Charles’ parents English? .........................................................................?
+5. ......... Charles' parents English? .........................................................................?
 6. ......... Robert got a camera? ...............................................................................?
 7. ......... you tired after classes? ..............................................................................?
 8. ......... Mary often go to the theatre? .....................................................................?
@@ -6313,7 +6313,7 @@ Nick likes strawberries.. Does Nick like strawberries?
 2. Do you have any relatives in the Crimea?
 3. Is your teacher a young woman?
 4. Would you like to join me?
-5. Are Charles’ parents English?
+5. Are Charles' parents English?
 6. Has Robert got a camera?
 7. Are you tired after classes?
 8. Does Mary often go to the theatre?
@@ -6364,7 +6364,7 @@ Do you know this story? Yes, I do.
 **Задание**
 
 Ответьте отрицательно.  
-Does he know any foreign languages? No, he doesn’t.
+Does he know any foreign languages? No, he doesn't.
 
 1. Are you a first-year student? ..................................................................................
 2. Does she have any lessons on Saturday? ................................................................
@@ -6379,16 +6379,16 @@ Does he know any foreign languages? No, he doesn’t.
 
 **Полное решение**
 
-1. No, I’m not.
-2. No, she doesn’t.
-3. No, he isn’t.
-4. No, I wouldn’t.
-5. No, they don’t.
-6. No, I haven’t.
-7. No, it isn’t.
-8. No, she doesn’t.
-9. No, you aren’t.
-10. No, they wouldn’t.
+1. No, I'm not.
+2. No, she doesn't.
+3. No, he isn't.
+4. No, I wouldn't.
+5. No, they don't.
+6. No, I haven't.
+7. No, it isn't.
+8. No, she doesn't.
+9. No, you aren't.
+10. No, they wouldn't.
 
 <a id="exercise-30-5"></a>
 
@@ -6400,31 +6400,31 @@ Does he know any foreign languages? No, he doesn’t.
 
 Выразите удивление при помощи общего вопроса с отрицанием.  
 Для построения вопроса используйте слова и выражения в скобках.  
-I don’t want any more meat. — (to like) Don’t you like it?
+I don't want any more meat. — (to like) Don't you like it?
 
 1. John is so late! — (*here, yet*) ................................................................................?
-2. My Dad can’t help me with the homework. — (*to know English*) ...........................?
+2. My Dad can't help me with the homework. — (*to know English*) ...........................?
 3. June phones her mother almost every day. — (*to live together*) .............................?
 4. Mark would like to have a brother. — (*to have an elder brother*) ............................?
-5. I’d like to enter this University. — (*a student, now*) ...............................................?
+5. I'd like to enter this University. — (*a student, now*) ...............................................?
 6. Mary says she needs new black shoes. — Why? (*to have got*) ...............................?
-7. I can’t play this game. — (*to know the rules*) ........................................................?
+7. I can't play this game. — (*to know the rules*) ........................................................?
 8. Whose magazines are these? — (*yours*) ...............................................................?
 9. Tommy is going to play football. — (*to have a headache*) .....................................?
 10. I often have to go out to have dinner. — (*your wife, cook well*) ..............................?
 
 **Полное решение**
 
-1. Isn’t he here yet?
-2. Doesn’t he know English?
-3. Don’t they live together?
-4. Doesn’t he have an elder brother?
-5. Aren’t you a student now?
-6. Hasn’t she got any?
-7. Don’t you know the rules?
-8. Aren’t they yours?
-9. Doesn’t he have a headache?
-10. Doesn’t your wife cook well?
+1. Isn't he here yet?
+2. Doesn't he know English?
+3. Don't they live together?
+4. Doesn't he have an elder brother?
+5. Aren't you a student now?
+6. Hasn't she got any?
+7. Don't you know the rules?
+8. Aren't they yours?
+9. Doesn't he have a headache?
+10. Doesn't your wife cook well?
 
 <a id="exercise-30-6"></a>
 
@@ -6436,29 +6436,29 @@ I don’t want any more meat. — (to like) Don’t you like it?
 
 Переведите ответы на следующие вопросы.
 
-1. Isn’t it your house? — Нет, не мой. ........................................................................
-2. Mummy, don’t you have enough money to buy this doll? — Да, нет. .......................
-3. Aren’t your parents doctors? — Ну да, врачи. .........................................................
-4. Aren’t your friends coming to the party? — Да, не придут. ......................................
-5. Doesn’t Nick have breakfast at home? — Нет, дома. ...............................................
-6. Isn’t that woman your teacher? — Нет. ...................................................................
-7. Don’t you give French lessons? — Конечно, даю. ..................................................
-8. Haven’t you got a cousin? — Есть. .........................................................................
-9. Aren’t you glad to come here? — Нет, рада. ...........................................................
-10. Doesn’t he like to go to the cinema? — Да, не любит. .............................................
+1. Isn't it your house? — Нет, не мой. ........................................................................
+2. Mummy, don't you have enough money to buy this doll? — Да, нет. .......................
+3. Aren't your parents doctors? — Ну да, врачи. .........................................................
+4. Aren't your friends coming to the party? — Да, не придут. ......................................
+5. Doesn't Nick have breakfast at home? — Нет, дома. ...............................................
+6. Isn't that woman your teacher? — Нет. ...................................................................
+7. Don't you give French lessons? — Конечно, даю. ..................................................
+8. Haven't you got a cousin? — Есть. .........................................................................
+9. Aren't you glad to come here? — Нет, рада. ...........................................................
+10. Doesn't he like to go to the cinema? — Да, не любит. .............................................
 
 **Полное решение**
 
-1. No, it isn’t.
-2. No, I don’t.
+1. No, it isn't.
+2. No, I don't.
 3. But they are.
-4. No, they aren’t.
+4. No, they aren't.
 5. Yes, he does. (But he does.)
-6. No, she isn’t.
+6. No, she isn't.
 7. But I do. (Of course, I do.)
 8. Yes, I have.
 9. But I am.
-10. No, he doesn’t.
+10. No, he doesn't.
 
 <a id="exercise-30-7"></a>
 
@@ -6483,16 +6483,16 @@ I don’t want any more meat. — (to like) Don’t you like it?
 
 **Полное решение**
 
-1. Don’t you know the rule? — No, I don’t.
-2. Have you got this book? — No, I haven’t.
-3. Don’t you like this music? — But I do.
-4. Isn’t David your friend? — Of course, he is.
+1. Don't you know the rule? — No, I don't.
+2. Have you got this book? — No, I haven't.
+3. Don't you like this music? — But I do.
+4. Isn't David your friend? — Of course, he is.
 5. Do you agree with me? — Yes, I do.
-6. Don’t you have spare time at all? — But I do.
-7. Aren’t you the manager? — No, I am not.
+6. Don't you have spare time at all? — But I do.
+7. Aren't you the manager? — No, I am not.
 8. Do you remember this song? — Yes, I do.
-9. Doesn’t he play the guitar? — No, he doesn’t.
-10. Isn’t he at home? — Yes, he is. (But he is.)
+9. Doesn't he play the guitar? — No, he doesn't.
+10. Isn't he at home? — Yes, he is. (But he is.)
 
 <a id="exercise-30-8"></a>
 
@@ -6510,7 +6510,7 @@ They like to go to the cinema, not to concerts. Do they like to go to the cinema
 3. My Dad reads newspapers in the evening, not in the morning. ...............................?
 4. Jane likes orange juice, not apple. ........................................................................?
 5. The box is light, not heavy. ..................................................................................?
-6. I’ve got two children, not my friend. ......................................................................?
+6. I've got two children, not my friend. ......................................................................?
 7. We are sometimes late for classes, not often. ........................................................?
 8. John makes few mistakes in his tests, not many. ..................................................?
 9. Helen is their cousin, not their niece. ....................................................................?
@@ -6584,38 +6584,38 @@ They like to go to the cinema, not to concerts. Do they like to go to the cinema
 
 1. Do you work late? — No, I finish at six.
 2. Do you have plans for the future? — Yes, I want to be a doctor.
-3. Doesn’t he live here? — No, he doesn’t.
+3. Doesn't he live here? — No, he doesn't.
 4. Are they happy together? — I think they are.
-5. Would you like to come at five or at six? — I’d like to come after six.
-6. Hasn’t he got a car? — Yes, he has. He is a good driver.
+5. Would you like to come at five or at six? — I'd like to come after six.
+6. Hasn't he got a car? — Yes, he has. He is a good driver.
 7. Do you go to the country in summer? — Yes, we do.
-8. Is your brother married? — Not yet. (No, he isn’t.)
+8. Is your brother married? — Not yet. (No, he isn't.)
 9. Do they get up early or late? — Quite early, at seven.
 10. Do you play chess? — Yes, I do.
 
 **Часть 2**
 
 1. Am I late? — Yes, you are a little.
-2. Would you like to meet my friend? — Don’t I know her?
+2. Would you like to meet my friend? — Don't I know her?
 3. Does your Dad go to work by car or by underground? — By underground.
 4. Does your sister speak Spanish? — No, she learns German.
-5. Doesn’t your mother help you? — But she does.
+5. Doesn't your mother help you? — But she does.
 6. Are you ill? — Yes, I feel unwell (bad).
 7. Does he or do his parents want to move to another city (town)? — His parents do.
-8. Is he present at the lesson? — No, he isn’t. He is ill.
-9. Do her relatives have a country-house? — As far as I know, they don’t.
-10. Isn’t he your boss? — Yes, he is.
+8. Is he present at the lesson? — No, he isn't. He is ill.
+9. Do her relatives have a country-house? — As far as I know, they don't.
+10. Isn't he your boss? — Yes, he is.
 
 **Часть 3**
 
-1. Is it your or your sister’s dress?
+1. Is it your or your sister's dress?
 2. Have you got (Do you have) any questions? — No, thanks, everything is clear.
 3. Are you hungry? — Yes, I am.
 4. Does he study languages or history?
-5. Am I wrong? — I’m afraid you are.
+5. Am I wrong? — I'm afraid you are.
 6. Do you have tea or coffee for breakfast? — I prefer tea.
 7. Are you and Nick friends? — Yes, we are great friends.
-8. Doesn’t he have any relatives at all? — As far as I know, he doesn’t.
+8. Doesn't he have any relatives at all? — As far as I know, he doesn't.
 9. Is your brother interested in history?
 10. Do you or does your mother make breakfast? — Usually my Mum does.
 
@@ -6645,53 +6645,53 @@ They like to go to the cinema, not to concerts. Do they like to go to the cinema
 
 |  |  |
 | --- | --- |
-| You like ice-cream, don’t you? | Ты ведь любишь мороженое? |
-| Ann is a teacher, isn’t she? | Анна — учитель, не так ли? |
-| He has a lot of books, doesn’t he? | У него много книг, не правда ли? |
-| We can go for a walk now, can’t we? | Теперь мы можем погулять, да? |
-| I was right, wasn’t I? | Я была права, правда? |
+| You like ice-cream, don't you? | Ты ведь любишь мороженое? |
+| Ann is a teacher, isn't she? | Анна — учитель, не так ли? |
+| He has a lot of books, doesn't he? | У него много книг, не правда ли? |
+| We can go for a walk now, can't we? | Теперь мы можем погулять, да? |
+| I was right, wasn't I? | Я была права, правда? |
 
-They didn’t know about it, did they?
+They didn't know about it, did they?
 
-We aren’t late, are we?
+We aren't late, are we?
 
-I’m not badly ill, am I?
+I'm not badly ill, am I?
 
-Nick hasn’t got a car, has he?
+Nick hasn't got a car, has he?
 
-You can’t play the guitar, can you?
+You can't play the guitar, can you?
 
 2. Разделительный вопрос требует краткого ответа.
 
-Brian is a doctor, isn’t he?
+Brian is a doctor, isn't he?
 
 |  |  |
 | --- | --- |
 | — Yes, he is. | Да. / Да, врач. / Нет, врач. |
-| — No, he isn’t. | Нет. / Нет, не врач. / Да, не врач. |
+| — No, he isn't. | Нет. / Нет, не врач. / Да, не врач. |
 
-You don’t know him, do you?
+You don't know him, do you?
 
 |  |  |
 | --- | --- |
 | — Yes, I do. | Знаю. / Да, знаю. / Нет, знаю. / Ну как же, знаю. |
-| — No, I don’t. | Не знаю. / Нет, не знаю. / Да, не знаю. |
+| — No, I don't. | Не знаю. / Нет, не знаю. / Да, не знаю. |
 
 Некоторые разделительные вопросы образуются особым способом:
 
-- I am late, aren’t I?
+- I am late, aren't I?
 
-- Everybody is here, aren’t they?
+- Everybody is here, aren't they?
 
-- Let’s have dinner now, shall we?
+- Let's have dinner now, shall we?
 
 - Be careful, will you?
 
-Don’t be late, will you?
+Don't be late, will you?
 
 Close the window, will you?
 
-Don’t close the window, will you?
+Don't close the window, will you?
 
 <a id="exercise-31-1"></a>
 
@@ -6702,28 +6702,28 @@ Don’t close the window, will you?
 **Задание**
 
 Добавьте вопросительный хвостик.  
-All children like sweets, don’t they?
+All children like sweets, don't they?
 
-1. You weren’t present yesterday, .................?
+1. You weren't present yesterday, .................?
 2. Victor can speak Spanish, ........................?
 3. She is your niece, ....................................?
-4. You don’t agree with me, ..........................?
+4. You don't agree with me, ..........................?
 5. I am not mistaken, ...................................?
-6. Let’s discuss the problem together, ..........?
-7. They’ve got a lot of work to do, ................?
+6. Let's discuss the problem together, ..........?
+7. They've got a lot of work to do, ................?
 8. Everybody is O.K., ..................................?
-9. Mary didn’t keep her promise, ..................?
-10. Don’t be angry, .......................................?
-11. We aren’t alone, ......................................?
+9. Mary didn't keep her promise, ..................?
+10. Don't be angry, .......................................?
+11. We aren't alone, ......................................?
 12. George and Kate never quarrel, ................?
-13. They understand that it’s important, .........?
-14. I’m clever, ...............................................?
-15. Robert can’t speak Spanish, .....................?
+13. They understand that it's important, .........?
+14. I'm clever, ...............................................?
+15. Robert can't speak Spanish, .....................?
 16. Speak louder, ..........................................?
-17. This girl doesn’t have many friends, .........?
+17. This girl doesn't have many friends, .........?
 18. Everybody thinks so, ...............................?
 19. We have some more time, .......................?
-20. Tim wasn’t in town at the weekend, ..........?
+20. Tim wasn't in town at the weekend, ..........?
 21. You are my best friend, ............................?
 22. I always come in time, .............................?
 23. She has a good job, .................................?
@@ -6731,29 +6731,29 @@ All children like sweets, don’t they?
 
 **Полное решение**
 
-1. You weren’t present yesterday, were you?
-2. Victor can speak Spanish, can’t he?
-3. She is your niece, isn’t she?
-4. You don’t agree with me, do you?
+1. You weren't present yesterday, were you?
+2. Victor can speak Spanish, can't he?
+3. She is your niece, isn't she?
+4. You don't agree with me, do you?
 5. I am not mistaken, am I?
-6. Let’s discuss the problem together, shall we?
-7. They’ve got a lot of work to do, haven’t they?
-8. Everybody is O.K., aren’t they?
-9. Mary didn’t keep her promise, did she?
-10. Don’t be angry, will you?
-11. We aren’t alone, are we?
+6. Let's discuss the problem together, shall we?
+7. They've got a lot of work to do, haven't they?
+8. Everybody is O.K., aren't they?
+9. Mary didn't keep her promise, did she?
+10. Don't be angry, will you?
+11. We aren't alone, are we?
 12. George and Kate never quarrel, do they?
-13. They understand that it’s important, don’t they?
-14. I’m clever, aren’t I?
-15. Robert can’t speak Spanish, can he?
+13. They understand that it's important, don't they?
+14. I'm clever, aren't I?
+15. Robert can't speak Spanish, can he?
 16. Speak louder, will you?
-17. This girl doesn’t have many friends, does she?
-18. Everybody thinks so, don’t they?
-19. We have some more time, don’t we?
-20. Tim wasn’t in town at the weekend, was he?
-21. You are my best friend, aren’t you?
-22. I always come in time, don’t I?
-23. She has a good job, doesn’t she?
+17. This girl doesn't have many friends, does she?
+18. Everybody thinks so, don't they?
+19. We have some more time, don't we?
+20. Tim wasn't in town at the weekend, was he?
+21. You are my best friend, aren't you?
+22. I always come in time, don't I?
+23. She has a good job, doesn't she?
 24. Be quick, will you?
 
 <a id="exercise-31-2"></a>
@@ -6765,22 +6765,22 @@ All children like sweets, don’t they?
 **Задание**
 
 Выразите согласие, отвечая на вопросы.  
-You didn’t promise her anything, did you? No, I didn’t.  
-She is very beautiful, isn’t she? Yes, she is.
+You didn't promise her anything, did you? No, I didn't.  
+She is very beautiful, isn't she? Yes, she is.
 
-1. You aren’t in love, are you? ....................................................................................
-2. They have your address, don’t they? ......................................................................
-3. This man is Tom’s uncle, isn’t he? ..........................................................................
-4. Everybody knows about the meeting, don’t they? ...................................................
+1. You aren't in love, are you? ....................................................................................
+2. They have your address, don't they? ......................................................................
+3. This man is Tom's uncle, isn't he? ..........................................................................
+4. Everybody knows about the meeting, don't they? ...................................................
 5. She never lies, does she? .......................................................................................
 
 **Полное решение**
 
-1. No, I’m not.
+1. No, I'm not.
 2. Yes, they do.
 3. Yes, he is.
 4. Yes, they do.
-5. No, she doesn’t.
+5. No, she doesn't.
 
 <a id="exercise-31-3"></a>
 
@@ -6791,20 +6791,20 @@ She is very beautiful, isn’t she? Yes, she is.
 **Задание**
 
 Выразите несогласие, отвечая на вопросы.  
-He knows the truth, doesn’t he? No, he doesn’t.  
-We aren’t in a hurry, are we? Yes, we are. (But we are.)
+He knows the truth, doesn't he? No, he doesn't.  
+We aren't in a hurry, are we? Yes, we are. (But we are.)
 
-1. She has a cold, doesn’t she? ..................................................................................
-2. They can’t help us, can they? .................................................................................
-3. David is very friendly, isn’t he? ...............................................................................
-4. We haven’t got the key, have we? ...........................................................................
-5. I’m not older than you, am I? ..................................................................................
+1. She has a cold, doesn't she? ..................................................................................
+2. They can't help us, can they? .................................................................................
+3. David is very friendly, isn't he? ...............................................................................
+4. We haven't got the key, have we? ...........................................................................
+5. I'm not older than you, am I? ..................................................................................
 
 **Полное решение**
 
-1. No, she doesn’t.
+1. No, she doesn't.
 2. But they can.
-3. No, he isn’t.
+3. No, he isn't.
 4. Yes, we have.
 5. But you are.
 
@@ -6831,16 +6831,16 @@ We aren’t in a hurry, are we? Yes, we are. (But we are.)
 
 **Полное решение**
 
-1. You can’t promise me anything, can you? — No, I can’t.
-2. The weather is nice today, isn’t it? — Yes, it is.
-3. Don’t be so impatient, will you?
-4. They’ve got a large TV set, haven’t they? — Yes, they have.
-5. We had a good time yesterday, didn’t we?
-6. Everybody is pleased, aren’t they? — I think they are.
-7. He is absent today, isn’t he? — No, he isn’t. He is present.
-8. I’m right, aren’t I? — I think you aren’t.
-9. Let’s ask him for advice, shall we?
-10. She doesn’t cook very well, does she? — Why? But she does.
+1. You can't promise me anything, can you? — No, I can't.
+2. The weather is nice today, isn't it? — Yes, it is.
+3. Don't be so impatient, will you?
+4. They've got a large TV set, haven't they? — Yes, they have.
+5. We had a good time yesterday, didn't we?
+6. Everybody is pleased, aren't they? — I think they are.
+7. He is absent today, isn't he? — No, he isn't. He is present.
+8. I'm right, aren't I? — I think you aren't.
+9. Let's ask him for advice, shall we?
+10. She doesn't cook very well, does she? — Why? But she does.
 
 <a id="unit-32"></a>
 
@@ -6891,7 +6891,7 @@ We aren’t in a hurry, are we? Yes, we are. (But we are.)
 | How much money do you need? | Сколько денег тебе нужно? |
 | Whose bag is this? | Чья это сумка? |
 | Which dress did you like? | Какое (которое) платье тебе понравилось? |
-| What is he? — He is a doctor. | Who is he? — He is my cousin. / It’s Sam. |
+| What is he? — He is a doctor. | Who is he? — He is my cousin. / It's Sam. |
 | What is she like? — She is kind and friendly. | What does she look like? — She is rather tall with long dark hair and wide brown eyes. |
 
 Обратите внимание на особую конструкцию вопроса:
@@ -6921,7 +6921,7 @@ when, Kate, usually get up When does Kate usually get up?
 6. what, you, to have got in this parcel ..................................................................... ?
 7. who, the teacher, to want to answer the question ................................................. ?
 8. how many, you, in the family ............................................................................... ?
-9. where, the chemist’s ........................................................................................... ?
+9. where, the chemist's ........................................................................................... ?
 10. what, this word, to mean ..................................................................................... ?
 11. how often, your children, to go for a walk in this park ............................................ ?
 12. why, he, to get so many bad marks ..................................................................... ?
@@ -6932,14 +6932,14 @@ when, Kate, usually get up When does Kate usually get up?
 **Полное решение**
 
 1. How do you make this cake?
-2. Why aren’t the children in bed yet?
+2. Why aren't the children in bed yet?
 3. Where does Mr. Brown work?
 4. How long does this film last?
 5. When does the manager have time for a short rest?
 6. What have you got in this parcel?
 7. Who does the teacher want to answer this question?
 8. How many are you in the family?
-9. Where is the chemist’s?
+9. Where is the chemist's?
 10. What does this word mean?
 11. How often do your children go for a walk in this park?
 12. Why does he get so many bad marks?
@@ -6964,14 +6964,14 @@ Little Tommy is afraid of dogs. What is little Tommy afraid of?
 4. Vera is waiting for her friend. ..................................................................................
 5. Nick likes to listen to loud music. ...........................................................................
 6. Mr. and Mrs. Foster often go out with their friends. ..................................................
-7. Anna’s daughter dreams of travelling. ....................................................................
+7. Anna's daughter dreams of travelling. ....................................................................
 8. Robert is interested in history. ................................................................................
 9. She never smiles at strangers. ................................................................................
-10. I’m looking for my textbook. ..................................................................................
+10. I'm looking for my textbook. ..................................................................................
 11. This book is about wild animals. .............................................................................
 12. Rachel writes letters to her friends. .........................................................................
 13. This novel is written by a famous writer. ..................................................................
-14. I’m looking forward to my birthday. ........................................................................
+14. I'm looking forward to my birthday. ........................................................................
 15. I always thank people for help. ...............................................................................
 
 **Полное решение**
@@ -6982,7 +6982,7 @@ Little Tommy is afraid of dogs. What is little Tommy afraid of?
 4. Who is Vera waiting for?
 5. What does Nick like to listen to?
 6. Who do Mr. and Mrs. Foster often go out with?
-7. What does Anna’s daughter dream of?
+7. What does Anna's daughter dream of?
 8. What is Robert interested in?
 9. Who does she never smile at?
 10. What are you looking for?
@@ -7012,7 +7012,7 @@ I often take a walk in the park. Where do you often take a walk?
 5. William wants to take his family *to the country* this summer. ...................................
 6. Mary always does her work *very well*. ....................................................................
 7. I need *a little* sugar to make this cake. ....................................................................
-8. This is *my friend’s* book. .......................................................................................
+8. This is *my friend's* book. .......................................................................................
 9. The boys often play *chess* in the evening. ...............................................................
 10. Mrs. Brown usually has lunch *at one*. ......................................................................
 
@@ -7020,14 +7020,14 @@ I often take a walk in the park. Where do you often take a walk?
 
 1. Robert learns French *at the University*. ..................................................................
 2. My sister has *three* children. ...................................................................................
-3. I’d like *my friends* to come to my birthday party. .....................................................
+3. I'd like *my friends* to come to my birthday party. .....................................................
 4. It usually takes me *an hour* to clean the flat. ...........................................................
 5. I like *this white* bag most of all. ..............................................................................
 6. He is absent from the lesson *because he is ill*. .........................................................
 7. On Sunday I go out with *my best friend*. .................................................................
-8. These are *my pupils’* exercise-books. ....................................................................
+8. These are *my pupils'* exercise-books. ....................................................................
 9. Nick reads *about a hundred* pages a day. ...............................................................
-10. I’ve got some *strawberry* jam. ................................................................................
+10. I've got some *strawberry* jam. ................................................................................
 
 **Полное решение**
 
@@ -7072,7 +7072,7 @@ I often take a walk in the park. Where do you often take a walk?
 Mr. Jones  
 — ................................................................................................?  
 His secretary  
-— This is Mr. Smith. He’d like to work for our company and he is waiting  
+— This is Mr. Smith. He'd like to work for our company and he is waiting  
 to speak to you.  
 Mr. Jones  
 — ................................................................................................?  
@@ -7097,7 +7097,7 @@ mixer. He is very energetic and joyful. He is well-read too.
 Jane  
 — And .........................................................................................?  
 Chris  
-— I wouldn’t say John is handsome. But he is quite nice: not very tall,  
+— I wouldn't say John is handsome. But he is quite nice: not very tall,  
 but well-built with light hair and grey eyes.  
 Jane  
 — Well, I hope your sister will be happy with John. Give them my regards.  
@@ -7110,7 +7110,7 @@ Chris
 
 **Mr. Jones:** Who is that man (gentleman)?
 
-**His secretary:** This is Mr. Smith. He’d like to work for our company and he is waiting to speak to you.
+**His secretary:** This is Mr. Smith. He'd like to work for our company and he is waiting to speak to you.
 
 **Mr. Jones:** What is he?
 
@@ -7132,7 +7132,7 @@ Chris
 
 **Jane:** And what does he look like?
 
-**Chris:** I wouldn’t say John is handsome. But he is quite nice: not very tall, but well-built with light hair and grey eyes.
+**Chris:** I wouldn't say John is handsome. But he is quite nice: not very tall, but well-built with light hair and grey eyes.
 
 **Jane:** Well, I hope your sister will be happy with John. Give them my regards.
 
@@ -7158,7 +7158,7 @@ from your house to the city centre?
 6. by bus, your house, the nearest underground station? .............................................
 7. by train, France, England? .....................................................................................
 8. by bicycle, your house, the park? ...........................................................................
-9. by underground, your house, your friend’s place? ...................................................
+9. by underground, your house, your friend's place? ...................................................
 10. by car, your place, the airport? ...............................................................................
 
 **Полное решение**
@@ -7171,7 +7171,7 @@ from your house to the city centre?
 6. How long does it take to get by bus from your house to the nearest underground station?
 7. How long does it take to get by train from France to England?
 8. How long does it take to get by bicycle from your house to the park?
-9. How long does it take to get by underground from your house to your friend’s place?
+9. How long does it take to get by underground from your house to your friend's place?
 10. How long does it take to get by car from your place to the airport?
 
 <a id="exercise-32-6"></a>
@@ -7272,7 +7272,7 @@ your mother, to make dinner — about half an hour
 5. Who is this letter from?
 6. What are you tired of?
 7. How much work have you got today?
-8. What does Frank’s Mum look like?
+8. What does Frank's Mum look like?
 9. How do you want to help him?
 10. Why is she late?
 
@@ -7283,7 +7283,7 @@ your mother, to make dinner — about half an hour
 3. Where is your new student from?
 4. What is your cousin like?
 5. Who is that woman? — This is Mrs. Arnold. She is your new teacher.
-6. When is your sister’s birthday?
+6. When is your sister's birthday?
 7. How long does it take to get from here to the theatre?
 8. Which of your sisters is Tom in love with?
 9. Where do they usually go in summer?
@@ -7297,7 +7297,7 @@ your mother, to make dinner — about half an hour
 4. Where do his parents live?
 5. Who does he want to see?
 6. What is this building famous for?
-7. What does your sister’s husband look like?
+7. What does your sister's husband look like?
 8. How many brothers and sisters does she have?
 9. Who do you always wait here for at this time?
 10. What does this word mean?
@@ -7352,13 +7352,13 @@ Who is always late? — These students are.
 
 |  |  |
 | --- | --- |
-| This word means “good” in Spanish. | Nick’s sister phones Sam every day. |
+| This word means “good” in Spanish. | Nick's sister phones Sam every day. |
 | What means “good” in Spanish? — | Who phones Sam every day? — |
-| This word does. | Nick’s sister does. |
+| This word does. | Nick's sister does. |
 | (вопрос к подлежащему) | (вопрос к подлежащему) |
 | Which word means “good” in | Whose sister phones Sam every |
-| Spanish? — This word does. (вопрос к определению подлежащего) | day? — Nick’s sister does. (вопрос к определению подлежащего) |
-| What does this word mean in | Who does Nick’s sister phone every |
+| Spanish? — This word does. (вопрос к определению подлежащего) | day? — Nick's sister does. (вопрос к определению подлежащего) |
+| What does this word mean in | Who does Nick's sister phone every |
 | Spanish? — It means “good”. | day? — She phones Sam. |
 | (вопрос к дополнению) | (вопрос к дополнению) |
 
@@ -7418,9 +7418,9 @@ Mark has a room of his own. Who has a room of his own?
 
 1. *Jack* knows the answer to this question. .................................................................
 2. *My* Mum makes delicious cakes. ............................................................................
-3. We’d like to buy *a new house*. ...............................................................................
+3. We'd like to buy *a new house*. ...............................................................................
 4. *The key* is in her bag. .............................................................................................
-5. Nick’s cousin has got an *interesting* job. .................................................................
+5. Nick's cousin has got an *interesting* job. .................................................................
 6. *His* friends are fond of sports. .................................................................................
 7. *All of you* are responsible for it. ..............................................................................
 8. I have *a letter* for you. ............................................................................................
@@ -7437,7 +7437,7 @@ Mark has a room of his own. Who has a room of his own?
 2. Whose Mum makes delicious cakes?
 3. What would you like to buy?
 4. What is in her bag?
-5. What kind of job has Nick’s cousin got?
+5. What kind of job has Nick's cousin got?
 6. Whose friends are fond of sports?
 7. Which of us is responsible for it?
 8. What do you have for me?
@@ -7474,7 +7474,7 @@ Mark has a room of his own. Who has a room of his own?
 1. Who does your friend like?
 2. Who likes your friend?
 3. Which of these writers is well-known? — I think, both are.
-4. Whose brother is married to Ann? — Maggy’s brother is.
+4. Whose brother is married to Ann? — Maggy's brother is.
 5. What do you want (need)?
 6. What happened to you yesterday?
 7. Which student has an excellent mark? — Walter does.
@@ -7494,7 +7494,7 @@ Mark has a room of his own. Who has a room of his own?
 
 Where is the bus stop? → Could you tell me where the bus stop is?
 
-2. Для преобразования специальных вопросов можно использовать начала: **Do you know …?**, **I don’t know …**, **I know …**, **I can’t remember …**, **Could you tell me …?**, **I wonder …** и другие. После вопросительного слова употребляется прямой порядок слов.
+2. Для преобразования специальных вопросов можно использовать начала: **Do you know …?**, **I don't know …**, **I know …**, **I can't remember …**, **Could you tell me …?**, **I wonder …** и другие. После вопросительного слова употребляется прямой порядок слов.
 
 | Прямой вопрос | Часть косвенного вопроса / утверждения |
 | --- | --- |
@@ -7502,7 +7502,7 @@ Where is the bus stop? → Could you tell me where the bus stop is?
 | What does he need? | what he needs |
 | When do they have dinner? | when they have dinner |
 
-3. Общие вопросы преобразуются в косвенные при помощи **if** или **whether**. Возможные начала: **Do you know …?**, **I don’t know …**, **I wonder …**, **Could you tell me …?**, **Tell me …**, **I can’t remember …** и другие.
+3. Общие вопросы преобразуются в косвенные при помощи **if** или **whether**. Возможные начала: **Do you know …?**, **I don't know …**, **I wonder …**, **Could you tell me …?**, **Tell me …**, **I can't remember …** и другие.
 
 | Прямой вопрос | Часть косвенного вопроса / утверждения |
 | --- | --- |
@@ -7510,7 +7510,7 @@ Where is the bus stop? → Could you tell me where the bus stop is?
 | Are they at home? | if / whether they are at home |
 | Has Nick got a car? | if / whether Nick has got a car |
 
-Знак вопроса зависит от вводной конструкции: **Do you know …?**, но **I don’t know ….**
+Знак вопроса зависит от вводной конструкции: **Do you know …?**, но **I don't know ….**
 
 <a id="exercise-34-1"></a>
 
@@ -7547,21 +7547,21 @@ Is Jack at school? Do you know if (whether) Jack is at school?
 
 Преобразуйте следующие вопросы в косвенные вопросы  
 или утверждения.  
-What kind of sweets does she like? I don’t know ... I don’t know what kind of sweets she likes.
+What kind of sweets does she like? I don't know ... I don't know what kind of sweets she likes.
 
-1. Why are they late? I don’t know ..............................................................................
+1. Why are they late? I don't know ..............................................................................
 2. How long does it take to get there? Do you know ...................................................?
-3. When does the train arrive? I don’t remember ..........................................................
+3. When does the train arrive? I don't remember ..........................................................
 4. Where is Emm? Do you know ..............................................................................?
-5. What does it mean? I don’t know ..........................................................................?
+5. What does it mean? I don't know ..........................................................................?
 
 **Полное решение**
 
-1. I don’t know why they are late.
+1. I don't know why they are late.
 2. Do you know how long it takes to get there?
-3. I don’t remember when the train arrives.
+3. I don't remember when the train arrives.
 4. Do you know where Emm is?
-5. I don’t know what it means.
+5. I don't know what it means.
 
 <a id="exercise-34-3"></a>
 
@@ -7573,28 +7573,28 @@ What kind of sweets does she like? I don’t know ... I don’t know what kind o
 
 Закончите предложения, раскрыв скобки.  
 How old is his brother? I wonder... I wonder how old his brother is.  
-Is he polite? I don’t know ... I don’t know if (whether) he is polite.
+Is he polite? I don't know ... I don't know if (whether) he is polite.
 
-1. Are they well-read? I don’t know .............................................................................
-2. Where does George’s mother work? I know .............................................................
-3. Why doesn’t he do his work properly? I wonder .......................................................
-4. Has Kate got Nick’s address? Do you know ...........................................................?
-5. How many children do the Turners have? I don’t know .............................................
+1. Are they well-read? I don't know .............................................................................
+2. Where does George's mother work? I know .............................................................
+3. Why doesn't he do his work properly? I wonder .......................................................
+4. Has Kate got Nick's address? Do you know ...........................................................?
+5. How many children do the Turners have? I don't know .............................................
 6. When does the lesson begin? Can you tell me ........................................................?
-7. Which of them is older? I don’t remember ...............................................................
+7. Which of them is older? I don't remember ...............................................................
 8. Is he a professional sportsman? Do you know ........................................................?
 9. Do they have any problems with their car? I wonder .................................................
 10. Who does he want to marry? I know ........................................................................
 
 **Полное решение**
 
-1. I don’t know if they are well-read.
-2. I know where George’s mother works.
-3. I wonder why he doesn’t do his work properly.
-4. Do you know if Kate has got Nick’s address?
-5. I don’t know how many children the Turners have.
+1. I don't know if they are well-read.
+2. I know where George's mother works.
+3. I wonder why he doesn't do his work properly.
+4. Do you know if Kate has got Nick's address?
+5. I don't know how many children the Turners have.
 6. Can you tell me when the lesson begins?
-7. I don’t remember which of them is older.
+7. I don't remember which of them is older.
 8. Do you know if he is a professional sportsman?
 9. I wonder if they have any problems with their car.
 10. I know who he wants to marry.
@@ -7627,11 +7627,11 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 3. Do you know why they quarrel so often?
 4. I wonder if he remembers about my birthday.
 5. Tell me what I must do.
-6. I don’t know when they begin work.
+6. I don't know when they begin work.
 7. Do you know if he has this book?
 8. I wonder how much such a house costs.
-9. I don’t remember how long it takes to get to Berlin.
-10. I don’t know if she is really a good doctor.
+9. I don't remember how long it takes to get to Berlin.
+10. I don't know if she is really a good doctor.
 
 <a id="unit-35"></a>
 
@@ -7652,7 +7652,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 
 | Исходный вопрос | Вопрос «Как ты думаешь…?» | Перевод |
 | --- | --- | --- |
-| Is it Nick’s brother? | Do you think it is Nick’s brother? | Как ты думаешь, это брат Ника? |
+| Is it Nick's brother? | Do you think it is Nick's brother? | Как ты думаешь, это брат Ника? |
 | Do they smoke? | Do you think they smoke? | Как ты думаешь, они курят? |
 
 3. Если вторая часть представляет собой специальный вопрос, используется схема:
@@ -7730,7 +7730,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 2. How long do you think it takes him to do the home-task?
 3. Why do you think the children are so excited?
 4. Whose book do you think it is?
-5. How much time do you think we’ve got?
+5. How much time do you think we've got?
 6. Who do you think she would like to ask for help?
 7. When do you think her husband returns from work?
 8. How many rooms do you think they have in their house?
@@ -7776,7 +7776,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 9. Where do you think these people are from?
 10. Why do you think she is upset?
 11. Do you think she plays the piano well?
-12. Do you think I’m right?
+12. Do you think I'm right?
 13. What do you think he is?
 14. Whose idea do you think it is?
 15. Where do you think they would like to go for their vacation?
@@ -7801,7 +7801,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 1. .......................... does it take you to water all these flowers?
 2. .......................... music do you prefer? — I like classical music.
 3. .......................... does your new teacher look like?
-4. .......................... dictionary is it? — I think it’s Tom’s.
+4. .......................... dictionary is it? — I think it's Tom's.
 5. .......................... is Jack? — He is an architect.
 6. .......................... colour are your new shoes?
 7. .......................... are your parents? — They are travelling abroad.
@@ -7809,7 +7809,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 9. .......................... is on duty today? — Mary is.
 10. ......................... do you agree with?
 11. ......................... mistakes did you make in the dictation? — Just two.
-12. ......................... is your birthday? — It’s on the eleventh of July.
+12. ......................... is your birthday? — It's on the eleventh of July.
 13. ......................... is your Granny? — Not bad, thanks.
 14. ......................... are you so late?
 15. ......................... is that new clerk like? — He is very friendly.
@@ -7819,7 +7819,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 1. How long does it take you to water all these flowers?
 2. What kind of music do you prefer? — I like classical music.
 3. What does your new teacher look like?
-4. Whose dictionary is it? — I think it’s Tom’s.
+4. Whose dictionary is it? — I think it's Tom's.
 5. What is Jack? — He is an architect.
 6. What colour are your new shoes?
 7. Where are your parents? — They are travelling abroad.
@@ -7827,7 +7827,7 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 9. Who is on duty today? — Mary is.
 10. Who do you agree with?
 11. How many mistakes did you make in the dictation? — Just two.
-12. When is your birthday? — It’s on the eleventh of July.
+12. When is your birthday? — It's on the eleventh of July.
 13. How is your Granny? — Not bad, thanks.
 14. Why are you so late?
 15. What is that new clerk like? — He is very friendly.
@@ -7844,28 +7844,28 @@ Is he polite? I don’t know ... I don’t know if (whether) he is polite.
 He is on holiday now. (John)  
 Where is John?
 
-1. ....................................................................................... ? I’m good at swimming.
+1. ....................................................................................... ? I'm good at swimming.
 2. ..................................................................... ? But I do. I remember you very well.
-3. ........................................................... ? No, they aren’t at home. (*Kate and Mary*)
+3. ........................................................... ? No, they aren't at home. (*Kate and Mary*)
 4. ...................... ? She is not very tall, with long dark hair and large dark eyes. (*Sarah*)
-5. .............................................................................. ? That’s Jane, Nick’s girlfriend.
+5. .............................................................................. ? That's Jane, Nick's girlfriend.
 6. ..................................................................... ? Yes, they want to go to the seaside.
-7. ........................................................ ? He is about four. (*Robert and Brenda’s son*)
-8. ......................................................... ? No, she doesn’t know anything about it yet.
-9. .................................................................................. ? It’s ten minutes past three.
-10. ........................................................................... ? Yes, I think it’s time to go now..
+7. ........................................................ ? He is about four. (*Robert and Brenda's son*)
+8. ......................................................... ? No, she doesn't know anything about it yet.
+9. .................................................................................. ? It's ten minutes past three.
+10. ........................................................................... ? Yes, I think it's time to go now..
 
 **Полное решение**
 
 1. What are you good at?
-2. Don’t you remember me?
+2. Don't you remember me?
 3. Are Kate and Mary at home?
 4. What does Sarah look like?
 5. Who is that girl?
 6. Do they want to go to the seaside?
-7. How old is Robert and Brenda’s son?
+7. How old is Robert and Brenda's son?
 8. Does she know about it?
-9. What’s the time?
+9. What's the time?
 10. Is it time to go?
 
 <a id="exercise-36-3"></a>
@@ -7880,15 +7880,15 @@ Where is John?
 The author of this book is Agatha Christie. Who do you think the author of this book is?
 
 1. It takes *a lot of* time. ..............................................................................................
-2. The next plane to New York is *at three* *o’clock sharp*. ..............................................
-3. She is worried *because the children aren’t at home yet*. ..........................................
+2. The next plane to New York is *at three* *o'clock sharp*. ..............................................
+3. She is worried *because the children aren't at home yet*. ..........................................
 4. 4*. This* book is his. ....................................................................................................
 5. 5*. His voice* shows that something is wrong. ...............................................................
 6. It can take him *a few days* to find everything out. ....................................................
 7. They are *on an excursion*. .....................................................................................
 8. 8*. Brian* is wrong. ......................................................................................................
 9. She is an **artist**. .....................................................................................................
-10. These are *the manager’s* papers. ...........................................................................
+10. These are *the manager's* papers. ...........................................................................
 
 **Полное решение**
 
@@ -7913,31 +7913,31 @@ The author of this book is Agatha Christie. Who do you think the author of this 
 
 Исправьте ошибки.
 
-1. I’m older than you, am I not? ..................................................................................
+1. I'm older than you, am I not? ..................................................................................
 2. Do you or your brother help your mother to do the shopping? ..................................
 3. Are you agree with me? .........................................................................................
-4. Doesn’t he play the piano? — Yes, he doesn’t. ........................................................
+4. Doesn't he play the piano? — Yes, he doesn't. ........................................................
 5. What does mean this expression? ..........................................................................
 6. How long it takes to get to Australia? ......................................................................
-7. Let’s wash the car together, will we? .......................................................................
+7. Let's wash the car together, will we? .......................................................................
 8. Do she still have a cold? .........................................................................................
 9. Who does take you to school? ................................................................................
 10. How do you think will she like my present? .............................................................
 11. Tell me where does your new friend live? ................................................................
-12. They never get bad marks, don’t they? ...................................................................
+12. They never get bad marks, don't they? ...................................................................
 13. Does he have got much money? ............................................................................
 14. How does his wife look like? ...................................................................................
-15. Buy some bread, won’t you? ..................................................................................
+15. Buy some bread, won't you? ..................................................................................
 
 **Полное решение**
 
-1. I’m older than you, aren’t I?
+1. I'm older than you, aren't I?
 2. Do you or does your brother help your mother to do the shopping?
 3. Do you agree with me?
-4. Yes, he does. / No, he doesn’t.
+4. Yes, he does. / No, he doesn't.
 5. What does this expression mean?
 6. How long does it take to get to Australia?
-7. Let’s wash the car together, shall we?
+7. Let's wash the car together, shall we?
 8. Does she still have a cold?
 9. Who takes you to school?
 10. Do you think she will like my present?
@@ -7956,21 +7956,21 @@ The author of this book is Agatha Christie. Who do you think the author of this 
 **Задание**
 
 Закончите микродиалоги, используя слова и выражения в скобках.  
-I can’t remember (William’s brother). — He is ten. I can’t remember how old William’s brother is.
+I can't remember (William's brother). — He is ten. I can't remember how old William's brother is.
 
-1. *Philip:* Could you tell me ............................................................ ? (*Green Street*) *A passer-by*: It’s the first turn to the right.
+1. *Philip:* Could you tell me ............................................................ ? (*Green Street*) *A passer-by*: It's the first turn to the right.
 2. *Alex*: I wonder .................................................... ? (*David*, *a foreign language*) *Richard*: He does! He learnt English at school and now he is studying German.
 3. *Pam*: Do you know ................................................................ ? (*Chris*, *classes*) *Pete*: As far as I know, he has three lectures today.
-4. *Sue*: I don’t know .............................................................................. ? (*help*) *Mark*: I think Ron can. He always finds a way out.
-5. *Nell*: I can’t remember .............................................................? (*Sam’s sister*) *Lenny*: She is three years younger than Sam.
+4. *Sue*: I don't know .............................................................................. ? (*help*) *Mark*: I think Ron can. He always finds a way out.
+5. *Nell*: I can't remember .............................................................? (*Sam's sister*) *Lenny*: She is three years younger than Sam.
 
 **Полное решение**
 
-1. Philip: Could you tell me where Green Street is? — A passer-by: It’s the first turn to the right.
+1. Philip: Could you tell me where Green Street is? — A passer-by: It's the first turn to the right.
 2. Alex: I wonder if David knows a foreign language. — Richard: He does! He learnt English at school and now he is studying German.
 3. Pam: Do you know how many classes Chris has today? — Pete: As far as I know, he has three lectures today.
-4. Sue: I don’t know who can help us. — Mark: I think Ron can. He always finds a way out.
-5. Nell: I can’t remember whether Sam’s sister is younger or older than him. — Lenny: She is three years younger than Sam.
+4. Sue: I don't know who can help us. — Mark: I think Ron can. He always finds a way out.
+5. Nell: I can't remember whether Sam's sister is younger or older than him. — Lenny: She is three years younger than Sam.
 
 <a id="exercise-36-6"></a>
 
@@ -8019,12 +8019,12 @@ I can’t remember (William’s brother). — He is ten. I can’t remember how 
 
 1. Where do you think he can be?
 2. Is the weather sunny or rainy today?
-3. Don’t say it again, will you?
+3. Don't say it again, will you?
 4. How many families live on this floor? — As far as I know, three do.
 5. Do you know how much this picture costs?
 6. What is your new assistant like? — He is very responsible and attentive.
-7. Don’t you know his name? — No, I see him for the first time.
-8. Let’s visit him, shall we?
+7. Don't you know his name? — No, I see him for the first time.
+8. Let's visit him, shall we?
 9. I wonder if he is doing well in his studies.
 10. Whose money is it? Why is it here?
 
@@ -8034,12 +8034,12 @@ I can’t remember (William’s brother). — He is ten. I can’t remember how 
 2. Which of the teachers has the most interesting lesson? — Mrs. Slater does.
 3. Ask them what he is.
 4. What does the baby want? — He is thirsty.
-5. They haven’t got any children yet, have they? — No, they haven’t.
-6. Do you think the underground station is far from here? — No, it’s quite near.
+5. They haven't got any children yet, have they? — No, they haven't.
+6. Do you think the underground station is far from here? — No, it's quite near.
 7. Who would you like to dance with?
-8. What colour is your baby’s hair?
+8. What colour is your baby's hair?
 9. I wonder which of them is right.
-10. Now I’m too thin, aren’t I?
+10. Now I'm too thin, aren't I?
 11. What makes you laugh so much every time you see him?
 12. What do you prefer to eat meat with?
 13. What does your new English teacher look like?
@@ -8086,22 +8086,22 @@ There is a book and two pens on the table. There are two pens and a book on the 
 |  |  |
 | --- | --- |
 | There is no butter in the fridge. | В холодильнике нет масла. |
-| There isn’t any butter in the fridge. | В холодильнике нет масла. |
+| There isn't any butter in the fridge. | В холодильнике нет масла. |
 | There are no hotels in this town. | В этом городе нет гостиниц. |
-| There aren’t any books on the table. | В этом городе нет гостиниц. |
+| There aren't any books on the table. | В этом городе нет гостиниц. |
 
 4. Вопросительная форма конструкции there is / there are
 
 |  |  |
 | --- | --- |
 | Is there any milk in the fridge? | В холодильнике есть молоко? |
-| — Yes, there is. (No, there isn’t.) | — Да, есть. (Нет.) |
+| — Yes, there is. (No, there isn't.) | — Да, есть. (Нет.) |
 | Are there any books on the shelf? | На полке есть книги? |
-| — Yes, there are. (No, there aren’t.) | — Да, есть. (Нет.) |
+| — Yes, there are. (No, there aren't.) | — Да, есть. (Нет.) |
 
 Конструкция there is / there are употребляется в разных временных формах:
 
-There was a letter on the table. There were no students in the hall. There will be a parking place here next year. I’m sure there won’t be any questions after the lecture.
+There was a letter on the table. There were no students in the hall. There will be a parking place here next year. I'm sure there won't be any questions after the lecture.
 
 Специальные и альтернативные вопросы:
 
@@ -8134,8 +8134,8 @@ There are a lot of pictures on the walls in her room.
 9. How many mistakes in his last test?
 10. ................................................ a lot of clothes in the wardrobe. Choose anything you like.
 11. ................................................ no work for him yesterday. He had nothing to do.
-12. ................................................ any classes on Friday? No, there won’t. It’s a holiday.
-13. ................................................ anything in this box? Let’s have a look. ....................... a pair of shoes and two dresses.
+12. ................................................ any classes on Friday? No, there won't. It's a holiday.
+13. ................................................ anything in this box? Let's have a look. ....................... a pair of shoes and two dresses.
 14. ...................... ........................ many guests at the hotel when you stayed there?
 15. ...................... ........................ enough food for all of us and we had a nice lunch.
 
@@ -8143,17 +8143,17 @@ There are a lot of pictures on the walls in her room.
 
 1. There will be a good film on TV tomorrow.
 2. The book is good. There are interesting stories in it.
-3. It was late and there weren’t many people in the street.
+3. It was late and there weren't many people in the street.
 4. Will there be many people at the meeting?
-5. There won’t be any meeting next week. It has been cancelled.
+5. There won't be any meeting next week. It has been cancelled.
 6. Was there anybody at home when you came?
-7. There wasn’t anything strange about him yesterday.
+7. There wasn't anything strange about him yesterday.
 8. How many students will there be in your group next year?
 9. How many mistakes were there in his last test?
 10. There are a lot of clothes in the wardrobe. Choose anything you like.
 11. There was no work for him yesterday. He had nothing to do.
-12. Will there be any classes on Friday? No, there won’t. It’s a holiday.
-13. Is there anything in this box? Let’s have a look. There is a pair of shoes and two dresses.
+12. Will there be any classes on Friday? No, there won't. It's a holiday.
+13. Is there anything in this box? Let's have a look. There is a pair of shoes and two dresses.
 14. Were there many guests at the hotel when you stayed there?
 15. There was enough food for all of us and we had a nice lunch.
 
@@ -8166,27 +8166,27 @@ There are a lot of pictures on the walls in her room.
 **Задание**
 
 Дайте краткие ответы на вопросы.  
-Are they coming on Friday? — Yes, they are. We’ll meet them.  
-Are there many questions you would like to ask? — No, there aren’t. Just one in fact.
+Are they coming on Friday? — Yes, they are. We'll meet them.  
+Are there many questions you would like to ask? — No, there aren't. Just one in fact.
 
 1. Are they on holiday? — ............................................................................. . They are working.
-2. Are there any holidays in September? — .................................................... . It’s a busy month.
+2. Are there any holidays in September? — .................................................... . It's a busy month.
 3. Were they present at the meeting? — .................................................................. . I saw them.
 4. Were there many people present at the meeting? — ......................... . Almost everybody came.
 5. Were they on holiday last month? — ........................... . They are having a holiday next month.
-6. Were there many people in the doctor’s waiting room? — .................................... . I was alone.
-7. Are your friends nice people? — ................................. . They are the best people I’ve ever seen.
+6. Were there many people in the doctor's waiting room? — .................................... . I was alone.
+7. Are your friends nice people? — ................................. . They are the best people I've ever seen.
 8. Are there any flowers in their garden? — ............................................. They are fond of flowers.
 
 **Полное решение**
 
-1. Are they on holiday? — No, they aren’t. They are working.
-2. Are there any holidays in September? — No, there aren’t. It’s a busy month.
+1. Are they on holiday? — No, they aren't. They are working.
+2. Are there any holidays in September? — No, there aren't. It's a busy month.
 3. Were they present at the meeting? — Yes, they were. I saw them.
 4. Were there many people present at the meeting? — Yes, there were. Almost everybody came.
-5. Were they on holiday last month? — No, they weren’t. They are having a holiday next month.
-6. Were there many people in the doctor’s waiting room? — No, there weren’t. I was alone.
-7. Are your friends nice people? — Yes, they are. They are the best people I’ve ever seen.
+5. Were they on holiday last month? — No, they weren't. They are having a holiday next month.
+6. Were there many people in the doctor's waiting room? — No, there weren't. I was alone.
+7. Are your friends nice people? — Yes, they are. They are the best people I've ever seen.
 8. Are there any flowers in their garden? — Yes, there are. They are fond of flowers.
 
 <a id="exercise-37-3"></a>
@@ -8229,17 +8229,17 @@ Are there many questions you would like to ask? — No, there aren’t. Just one
 5. Is the traffic in this street always heavy?
 6. There was nothing in the box. It was empty.
 7. Is there a car park anywhere here? — Yes, there is. It is behind that house.
-8. How many stamps will there be in your collection if you buy this one? — There won’t be many.
+8. How many stamps will there be in your collection if you buy this one? — There won't be many.
 9. The dictionary is on the shelf. Take it. — But there are two dictionaries on the shelf. Which one shall I take?
-10. Are there any Italian dishes on the menu? — Unfortunately, there aren’t.
-11. There isn’t much information about Brazil in this book.
+10. Are there any Italian dishes on the menu? — Unfortunately, there aren't.
+11. There isn't much information about Brazil in this book.
 12. Are there any interesting articles in this newspaper? — Yes, there is a very interesting article on page three.
 13. Where is your telephone? — The telephone is in the living-room. You may use it.
 14. Why are there so many plates on the table? Are we having any guests to dinner?
-15. There wasn’t enough paint and I couldn’t finish my work.
+15. There wasn't enough paint and I couldn't finish my work.
 16. What is there in your room? — There is a bed, a wardrobe and some other furniture there.
-17. There isn’t enough cloth here to make a long dress.
-18. There won’t be any further discussion. (There will be no further discussion).
+17. There isn't enough cloth here to make a long dress.
+18. There won't be any further discussion. (There will be no further discussion).
 19. How much fuel is there in the tank? — There is enough fuel there.
 20. Are they tourists? — Yes, they are. There are always a lot of tourists here in May.
 
@@ -8335,7 +8335,7 @@ Are there many questions you would like to ask? — No, there aren’t. Just one
 1. The tree is ................................................ tall!
 2. The smell is .......................................... awful!
 3. It is .................................... a beautiful carpet!
-4. It’s ......................................................... cold!
+4. It's ......................................................... cold!
 5. She is smiling .................................... happily!
 6. They are ................................ friendly people!
 7. The children are ................................... noisy!
@@ -8394,7 +8394,7 @@ Are there many questions you would like to ask? — No, there aren’t. Just one
 1. The tree is so tall!
 2. The smell is so awful!
 3. It is such a beautiful carpet!
-4. It’s so cold!
+4. It's so cold!
 5. She is smiling so happily!
 6. They are such friendly people!
 7. The children are so noisy!
@@ -8494,7 +8494,7 @@ Are there many questions you would like to ask? — No, there aren’t. Just one
 
 #### Правила и примеры
 
-1. ОБРАЗОВАНИЕ Present Indefinite образуется при помощи инфинитива смыслового глагола без частицы to. В 3-м лице единственного числа глагол принимает окончание -s. Вопросительная и отрицательная формы строятся при помощи вспомогательного глагола do (does). We play tennis together. My sister doesn’t have any children yet. Do you know any foreign language?
+1. ОБРАЗОВАНИЕ Present Indefinite образуется при помощи инфинитива смыслового глагола без частицы to. В 3-м лице единственного числа глагол принимает окончание -s. Вопросительная и отрицательная формы строятся при помощи вспомогательного глагола do (does). We play tennis together. My sister doesn't have any children yet. Do you know any foreign language?
 
 Окончание -s в 3-м лице единственного числа может читаться по-разному:
 
@@ -8619,7 +8619,7 @@ We grow flowers in the garden. (Mrs. Green) Mrs. Green grows flowers in the gard
 **Задание**
 
 Исправьте следующие утверждения.  
-The sun rises in the west. The sun doesn’t rise in the west. It rises in the east.
+The sun rises in the west. The sun doesn't rise in the west. It rises in the east.
 
 1. Snow melts in winter. ............................................................................................
 2. Dolphins live in forests. ..........................................................................................
@@ -8629,11 +8629,11 @@ The sun rises in the west. The sun doesn’t rise in the west. It rises in the e
 
 **Полное решение**
 
-1. Snow doesn’t melt in winter. It melts in spring.
-2. Dolphins don’t live in forests. They live in seas and oceans.
-3. The Sun doesn’t go round the Earth. The Earth goes round the Sun.
-4. Spring doesn’t come after autumn. It comes after winter.
-5. The Japanese don’t live in the South. They live in the East.
+1. Snow doesn't melt in winter. It melts in spring.
+2. Dolphins don't live in forests. They live in seas and oceans.
+3. The Sun doesn't go round the Earth. The Earth goes round the Sun.
+4. Spring doesn't come after autumn. It comes after winter.
+5. The Japanese don't live in the South. They live in the East.
 
 <a id="exercise-39-4"></a>
 
@@ -8653,7 +8653,7 @@ Yes, he usually (always) reads newspapers in the evening.
 No, he never (seldom) reads newspapers in the evening.
 
 1. you, to get up early ............................................................................................. ?
-2. your friend, to phone, on one’s day off ................................................................. ?
+2. your friend, to phone, on one's day off ................................................................. ?
 3. you, to help mother, to do the shopping ............................................................... ?
 4. your parents, to go on holiday together ................................................................ ?
 5. your father, to go fishing, at the weekend ............................................................. ?
@@ -8694,7 +8694,7 @@ I am translating an exercise.
 
 She is cooking dinner.
 
-They aren’t watching TV now.
+They aren't watching TV now.
 
 What is he doing at the moment?
 
@@ -8735,7 +8735,7 @@ We are giving a party on Saturday. They are going to build a new road here.
 
 Глагол to have употребляется в Continuous только в устойчивых выражениях (см. Unit 29).
 
-Don’t call him now. He is having a rest.
+Don't call him now. He is having a rest.
 
 <a id="exercise-40-1"></a>
 
@@ -8748,21 +8748,21 @@ Don’t call him now. He is having a rest.
 Раскройте скобки, употребив глаголы в Present Continuous  
 в утвердительной или отрицательной форме.  
 Sue is a secretary. She types letters and documents every day. But today she ...................................... (to type).  
-She ................................... (to shop). But today she isn’t typing. She is shopping.
+She ................................... (to shop). But today she isn't typing. She is shopping.
 
 1. Nick is a student. He has to study a lot. But at the moment he .................... (*to study*). He .................... (*to listen*) to music.
 2. Barbara and Mary are shop assistants. They work at a supermarket. But today is Sunday, so they .................... (*to work*). They .................... (*to walk*) in the park.
-3. Irene is a teacher. She gives lessons at London University. But it’s 7 o’clock in the evening and she is at home. She .................... (*to give*) any lessons. She .................... (*to watch*) TV.
-4. My name is Brian. I’m a taxi driver. I take people to various places in my taxi. But I’m on holiday now. I .................... (*to drive*). I .................... (*to lie*) on a beach.
+3. Irene is a teacher. She gives lessons at London University. But it's 7 o'clock in the evening and she is at home. She .................... (*to give*) any lessons. She .................... (*to watch*) TV.
+4. My name is Brian. I'm a taxi driver. I take people to various places in my taxi. But I'm on holiday now. I .................... (*to drive*). I .................... (*to lie*) on a beach.
 5. Robert is a writer. He writes novels. But right now he .................... (*to write*) anything. He and his wife .................... (*to have*) dinner.
 
 **Полное решение**
 
-1. Nick is a student. He has to study a lot. But at the moment he isn’t studying. He is listening to music.
-2. Barbara and Mary are shop assistants. They work at a supermarket. But today is Sunday, so they aren’t working. They are walking in the park.
-3. Irene is a teacher. She gives lessons at London University. But it’s 7 o’clock in the evening and she is at home. She isn’t giving any lessons. She is watching TV.
-4. My name is Brian. I’m a taxi driver. I take people to various places in my taxi. But I’m on holiday now. I am not driving. I am lying on a beach.
-5. Robert is a writer. He writes novels. But right now he isn’t writing anything. He and his wife are having dinner.
+1. Nick is a student. He has to study a lot. But at the moment he isn't studying. He is listening to music.
+2. Barbara and Mary are shop assistants. They work at a supermarket. But today is Sunday, so they aren't working. They are walking in the park.
+3. Irene is a teacher. She gives lessons at London University. But it's 7 o'clock in the evening and she is at home. She isn't giving any lessons. She is watching TV.
+4. My name is Brian. I'm a taxi driver. I take people to various places in my taxi. But I'm on holiday now. I am not driving. I am lying on a beach.
+5. Robert is a writer. He writes novels. But right now he isn't writing anything. He and his wife are having dinner.
 
 <a id="exercise-40-2"></a>
 
@@ -8792,13 +8792,13 @@ She ................................... (to shop). But today she isn’t typing.
 
 1. I am not waiting for a bus.
 2. I am practising English grammar.
-3. My teacher is (isn’t) listening to me.
-4. Leaves are (aren’t) falling from trees.
+3. My teacher is (isn't) listening to me.
+4. Leaves are (aren't) falling from trees.
 5. I am not watching TV.
 6. I am sitting on a chair.
 7. I am thinking hard.
-8. My classmates are doing this exercise too. / My classmates aren’t doing this exercise.
-9. It is (isn’t) raining heavily.
+8. My classmates are doing this exercise too. / My classmates aren't doing this exercise.
+9. It is (isn't) raining heavily.
 10. I am not having tea with my friends.
 
 <a id="exercise-40-3"></a>
@@ -8812,28 +8812,28 @@ She ................................... (to shop). But today she isn’t typing.
 Раскройте скобки, употребив глагол в форме Present Continuous.
 
 1. Why .................... (*you*, *to wear*) such a funny suit? — I .................... (*to go*) to a fancy party.
-2. It’s so quiet in the house! Where are the children? — They .................... (*to sleep*).
-3. Let’s have a break and go out to lunch together. — I’m sorry, I can’t. I .................... (*to prepare*) a very important project.
-4. You .................... (*always*, *to come*) late. Don’t you realize it’s not polite to keep people waiting?
+2. It's so quiet in the house! Where are the children? — They .................... (*to sleep*).
+3. Let's have a break and go out to lunch together. — I'm sorry, I can't. I .................... (*to prepare*) a very important project.
+4. You .................... (*always*, *to come*) late. Don't you realize it's not polite to keep people waiting?
 5. Jane .................... (*to return*) from her holiday tomorrow, .................... she? — Oh, yes, we are going to meet her at the station.
 6. As far as I know, he .................... (*not*, *to look for*) a new job. So he is unlikely to be interested in your offer.
 7. What .................... (*they*, *to work at*) at the moment? — I have no idea, but it seems to be something special. They .................... (*to make*) more and more experiments every day.
 8. I .................... (*to move*) to a new flat at the weekend. Perhaps you can help me if you .................... (*not*, *to do*) anything special.
 9. He .................... (*to spend*) just a few days in Paris. — And where .................... (*he*, *to stay*)?
-10. When ................... (*you*, *to leave*)? — I don’t know actually. The embassy .................... (*still*, *to consider*) my application.
+10. When ................... (*you*, *to leave*)? — I don't know actually. The embassy .................... (*still*, *to consider*) my application.
 
 **Полное решение**
 
 1. Why are you wearing such a funny suit? — I am going to a fancy party.
-2. It’s so quiet in the house! Where are the children? — They are sleeping.
-3. Let’s have a break and go out to lunch together. — I’m sorry, I can’t. I am preparing a very important project.
-4. You are always coming late. Don’t you realize it’s not polite to keep people waiting?
-5. Jane is returning from her holiday tomorrow, isn’t she? — Oh, yes, we are going to meet her at the station.
-6. As far as I know, he isn’t looking for a new job. So he is unlikely to be interested in your offer.
+2. It's so quiet in the house! Where are the children? — They are sleeping.
+3. Let's have a break and go out to lunch together. — I'm sorry, I can't. I am preparing a very important project.
+4. You are always coming late. Don't you realize it's not polite to keep people waiting?
+5. Jane is returning from her holiday tomorrow, isn't she? — Oh, yes, we are going to meet her at the station.
+6. As far as I know, he isn't looking for a new job. So he is unlikely to be interested in your offer.
 7. What are they working at at the moment? — I have no idea, but it seems to be something special. They are making more and more experiments every day.
-8. I am moving to a new flat at the weekend. Perhaps you can help me if you aren’t doing anything special.
+8. I am moving to a new flat at the weekend. Perhaps you can help me if you aren't doing anything special.
 9. He is spending just a few days in Paris. — And where is he staying?
-10. When are you leaving? — I don’t know actually. The embassy is still considering my application.
+10. When are you leaving? — I don't know actually. The embassy is still considering my application.
 
 <a id="unit-41"></a>
 
@@ -8853,7 +8853,7 @@ She ................................... (to shop). But today she isn’t typing.
 | --- | --- |
 | He writes you letters every week. | He is writing a letter to you right now. |
 | Он пишет тебе письма каждую неделю. | Как раз сейчас он пишет тебе письмо. |
-| Mike jogs in the park every morning. | Look! Isn’t it Mike jogging? |
+| Mike jogs in the park every morning. | Look! Isn't it Mike jogging? |
 | Каждое утро Майк бегает в парке. | Посмотри! Это не Майк бежит? |
 | Jane swims in the pool twice a week. | Look! How well Jane is swimming! |
 | Джейн плавает в бассейне дваж- | Посмотри! Как хорошо плывет |
@@ -8869,14 +8869,14 @@ She ................................... (to shop). But today she isn’t typing.
 | --- | --- |
 | to look | to sound |
 
-Where is he? I don’t see him. We understand what you mean. Do you hear that sound? I find the book quite interesting.
+Where is he? I don't see him. We understand what you mean. Do you hear that sound? I find the book quite interesting.
 
 Некоторые из этих глаголов могут употребляться в формах Continuous, если они обозначают не состояние, а действие.
 
 | Состояние | Действие |
 | --- | --- |
-| I think it’s the right thing to do.<br>Я думаю (считаю), это правильно. | What are you thinking about?<br>О чем ты думаешь (размышляешь)? |
-| The meat smells wonderful!<br>How do you cook it?<br>Мясо пахнет замечательно!<br>Как ты его готовишь? | Why are you smelling the meat?<br>Isn’t it fresh?<br>Почему ты нюхаешь мясо?<br>Разве оно несвежее? |
+| I think it's the right thing to do.<br>Я думаю (считаю), это правильно. | What are you thinking about?<br>О чем ты думаешь (размышляешь)? |
+| The meat smells wonderful!<br>How do you cook it?<br>Мясо пахнет замечательно!<br>Как ты его готовишь? | Why are you smelling the meat?<br>Isn't it fresh?<br>Почему ты нюхаешь мясо?<br>Разве оно несвежее? |
 | Here is Nick! Do you see him?<br>(Can you see him?)<br>А вот и Ник! Видишь его? | I am seeing my future parents-in-law<br>tonight.<br>Сегодня вечером я встречаюсь с родителями своего будущего мужа. |
 
 <a id="exercise-41-1"></a>
@@ -8894,34 +8894,34 @@ Where is he? I don’t see him. We understand what you mean. Do you hear that so
 2. I still .................... (*not*, *to understand*) the rule. — No wonder. You never .................... (*to listen*) to what I .................... (*to say*). And you .................... (*not to listen*) now either.
 3. What ................... (*you*, *to do*) here? — Actually, I ................... (*to wait*) for the museum to open. — But why? .................... (*you*, *not to know*) that it .................... (*not to work*) on Mondays?
 4. The picture you .................... (*to look*) at .................... (*to belong*) to the Tretyakov Gallery. We .................... (*just*, *to exhibit*) it.
-5. I can’t stand her! She .................... (*constantly*, *to throw*) her things about the room. She never .................... (*to put*) anything in its place.
-6. .................... (*you*, *to see*) the notice? — Yes, but it’s too high for me to read. What .................... (*it*, *to say*)?
+5. I can't stand her! She .................... (*constantly*, *to throw*) her things about the room. She never .................... (*to put*) anything in its place.
+6. .................... (*you*, *to see*) the notice? — Yes, but it's too high for me to read. What .................... (*it*, *to say*)?
 7. Has he agreed to your offer? — No, he .................... (*still*, *to think*) it over.
 8. Why, Peter, you .................... (*to smoke*)!!! — .................... (*you*, *not to know*) that I .................... (*to smoke*)?
-9. You .................... (*to taste*) the pizza over and over again. Is anything wrong? — Oh no, on the contrary, it .................... (*to taste*) so delicious that I just can’t help it.
+9. You .................... (*to taste*) the pizza over and over again. Is anything wrong? — Oh no, on the contrary, it .................... (*to taste*) so delicious that I just can't help it.
 10. Where is Mr. Brown? — He .................... (*to have*) lunch at the canteen as usual. He usually .................... (*to return*) to his office at half past one.
-11. I .................... (*to need*) your help immediately. There’s something wrong with my dog. He .................... (*to have*) a temperature and he .................... (*hardly*, *to breathe*)!
+11. I .................... (*to need*) your help immediately. There's something wrong with my dog. He .................... (*to have*) a temperature and he .................... (*hardly*, *to breathe*)!
 12. He .................... (*to come*) back from his business trip in a few days. .................... (*you*, *to know*) it for sure? — Of course, I do. He always .................... (*to call*) me every other day.
 13. These shoes are too tight. — Then why .................... (*you*, *to put*) them on again? — They .................... (*to look*) so wonderful and besides they .................... (*to match*) my dress.
-14. You .................... (*to read*) in the dark again! — But I .................... (*not*, *to believe*) it’s dark. I .................... (*to see*) everything well enough.
+14. You .................... (*to read*) in the dark again! — But I .................... (*not*, *to believe*) it's dark. I .................... (*to see*) everything well enough.
 15. Jack and Pam ........... (*to have*) a long conversation. I wonder what they ............... (*to talk*) about.
 
 **Полное решение**
 
 1. Who are you waiting for? — A friend of mine. We are going to the cinema.
-2. I still don’t understand the rule. — No wonder. You never listen to what I say. And you aren’t listening now either.
-3. What are you doing here? — Actually, I am waiting for the museum to open. — But why? Don’t you know that it doesn’t work on Mondays?
+2. I still don't understand the rule. — No wonder. You never listen to what I say. And you aren't listening now either.
+3. What are you doing here? — Actually, I am waiting for the museum to open. — But why? Don't you know that it doesn't work on Mondays?
 4. The picture you are looking at belongs to the Tretyakov Gallery. We are just exhibiting it.
-5. I can’t stand her! She is constantly throwing her things about the room. She never puts anything in its place.
-6. Do you see the notice? — Yes, but it’s too high for me to read. What does it say?
+5. I can't stand her! She is constantly throwing her things about the room. She never puts anything in its place.
+6. Do you see the notice? — Yes, but it's too high for me to read. What does it say?
 7. Has he agreed to your offer? — No, he is still thinking it over.
-8. Why, Peter, you are smoking! — Don’t you know that I smoke?
-9. You are tasting the pizza over and over again. Is anything wrong? — Oh no, on the contrary, it tastes so delicious that I just can’t help it.
+8. Why, Peter, you are smoking! — Don't you know that I smoke?
+9. You are tasting the pizza over and over again. Is anything wrong? — Oh no, on the contrary, it tastes so delicious that I just can't help it.
 10. Where is Mr. Brown? — He is having lunch at the canteen as usual. He usually returns to his office at half past one.
-11. I need your help immediately. There’s something wrong with my dog. He has a temperature and he is hardly breathing!
+11. I need your help immediately. There's something wrong with my dog. He has a temperature and he is hardly breathing!
 12. He is coming back from his business trip in a few days. Do you know it for sure? — Of course, I do. He always calls me every other day.
 13. These shoes are too tight. — Then why are you putting them on again? — They look so wonderful and besides they match my dress.
-14. You are reading in the dark again! — But I don’t believe it’s dark. I see everything well enough.
+14. You are reading in the dark again! — But I don't believe it's dark. I see everything well enough.
 15. Jack and Pam are having a long conversation. I wonder what they are talking about.
 
 <a id="exercise-41-2"></a>
@@ -8950,19 +8950,19 @@ Where is he? I don’t see him. We understand what you mean. Do you hear that so
 
 **Полное решение**
 
-1. What are you doing tonight? — Nothing special. Why? — Look, I’m going to a concert and I have a spare ticket. Would you like to come? — With pleasure!
+1. What are you doing tonight? — Nothing special. Why? — Look, I'm going to a concert and I have a spare ticket. Would you like to come? — With pleasure!
 2. You are always closing windows! How can you work in such a stuffy room? — But I feel cold!
-3. What are you cooking? It smells so delicious! — It’s a secret. I’m trying a new recipe.
-4. What do you think this man needs? — I don’t (can’t) understand. He is making gestures but he isn’t saying a word.
-5. Why are you looking through the book? Are you looking for anything? — I’m not looking it through, I’m reading it. — Do you always read so fast (quickly)?
-6. I usually work on Friday but this Friday is a holiday, that’s why I’m walking in the park.
-7. You are wet all over! Is it still raining? — It is, and it’s getting colder and colder.
-8. I’m seeing my editor tomorrow. — Are you working at a new book? — Yes, I am, and he wants me to sign a new contract.
+3. What are you cooking? It smells so delicious! — It's a secret. I'm trying a new recipe.
+4. What do you think this man needs? — I don't (can't) understand. He is making gestures but he isn't saying a word.
+5. Why are you looking through the book? Are you looking for anything? — I'm not looking it through, I'm reading it. — Do you always read so fast (quickly)?
+6. I usually work on Friday but this Friday is a holiday, that's why I'm walking in the park.
+7. You are wet all over! Is it still raining? — It is, and it's getting colder and colder.
+8. I'm seeing my editor tomorrow. — Are you working at a new book? — Yes, I am, and he wants me to sign a new contract.
 9. I wonder if it ever snows in Brazil.
 10. I love this song! But this is some new version. Who is singing?
-11. Do you believe me now? — No, I don’t. It still seems to me that you are lying to me.
+11. Do you believe me now? — No, I don't. It still seems to me that you are lying to me.
 12. Are you going to the theatre again? — What do you mean by “again”? I really go to the theatre quite often but why does it surprise you?
-13. Why are you having dinner so early? It’s only six o’clock!
+13. Why are you having dinner so early? It's only six o'clock!
 
 <a id="unit-42"></a>
 
@@ -8978,36 +8978,36 @@ Where is he? I don’t see him. We understand what you mean. Do you hear that so
 | --- | --- | --- |
 | shall / will | + | инфинитив без to |
 
-They will (They’ll) go there tomorrow. We shall (We’ll) finish the work in a few days.
+They will (They'll) go there tomorrow. We shall (We'll) finish the work in a few days.
 
-Вспомогательный глагол shall употребляется только с местоимениями I и we. Однако в современном языке наблюдается тенденция употребления will для всех лиц, тем более, что разница исчезает в сокращенных формах: I’ll, we’ll, you’ll, she’ll, they’ll и т. д. Вопросительную и отрицательную формы строят вспомогательные глаголы will или shall.
+Вспомогательный глагол shall употребляется только с местоимениями I и we. Однако в современном языке наблюдается тенденция употребления will для всех лиц, тем более, что разница исчезает в сокращенных формах: I'll, we'll, you'll, she'll, they'll и т. д. Вопросительную и отрицательную формы строят вспомогательные глаголы will или shall.
 
 |  |  |
 | --- | --- |
-| will not = won’t | shall not = shan’t |
+| will not = won't | shall not = shan't |
 
-I won’t (shan’t) see him next Friday. Will she be free on Sunday?
+I won't (shan't) see him next Friday. Will she be free on Sunday?
 
 2. СЛУЧАИ УПОТРЕБЛЕНИЯ
 
-Future Indefinite обозначает действие или последовательность действий в будущем. In half a year he’ll start working as a doctor. I’ll arrive at about six o’clock, leave my things at the hotel, and then take a walk.
+Future Indefinite обозначает действие или последовательность действий в будущем. In half a year he'll start working as a doctor. I'll arrive at about six o'clock, leave my things at the hotel, and then take a walk.
 
 В придаточных предложениях времени и условия вместо Future Indefinite употребляется Present Indefinite. Эти придаточные предложения присоединяются союзами if, in case, unless, when, after, before, as soon as, till, until, while, …
 
 |  |  |
 | --- | --- |
-| You’ll get this job if you learn English. | Ты получишь эту работу, если выучишь английский. |
-| I won’t be able to help you unless you tell me the truth. | Я не смогу помочь тебе, если ты не скажешь мне правду. |
-| We’ll have dinner together when he comes from work. | Мы вместе поужинаем, когда он придет с работы. |
-| We won’t go for a walk until the rain stops. | Мы не пойдем гулять, пока не прекратится дождь. |
-| I’ll look after the child while you cook | Я присмотрю за ребенком, пока ты |
+| You'll get this job if you learn English. | Ты получишь эту работу, если выучишь английский. |
+| I won't be able to help you unless you tell me the truth. | Я не смогу помочь тебе, если ты не скажешь мне правду. |
+| We'll have dinner together when he comes from work. | Мы вместе поужинаем, когда он придет с работы. |
+| We won't go for a walk until the rain stops. | Мы не пойдем гулять, пока не прекратится дождь. |
+| I'll look after the child while you cook | Я присмотрю за ребенком, пока ты |
 | (are cooking) dinner. | будешь готовить обед. |
 
 Союзы when и if могут присоединять и придаточные изъяснительные. В этом случае в придаточном предложении употребляется Future Indefinite.
 
 |  |  |
 | --- | --- |
-| I’m not sure if they’ll understand us. | Я не уверен (в чем?), поймут ли они нас. |
+| I'm not sure if they'll understand us. | Я не уверен (в чем?), поймут ли они нас. |
 | He has no idea when he will return. | Он понятия не имеет (о чем?), когда вернется. |
 
 <a id="exercise-42-1"></a>
@@ -9020,19 +9020,19 @@ Future Indefinite обозначает действие или последов�
 
 Раскройте скобки, употребив глагол в форме Future Indefinite.
 
-1. Don’t worry, he .................... (*not*, *to refuse*) to lend you the money.
+1. Don't worry, he .................... (*not*, *to refuse*) to lend you the money.
 2. They .................... (*to celebrate*) the second anniversary of their wedding next month.
 3. .................... (*he*, *to show*) us the sights of the town right now?
-4. The actors are very good. I’m sure the performance .................... (*to be*) a great success.
+4. The actors are very good. I'm sure the performance .................... (*to be*) a great success.
 5. I .................... (*never*, *to forget*) what you did to me.
 6. .................... (*there*, *to be*) any party after the official ceremony?
 
 **Полное решение**
 
-1. Don’t worry, he won’t refuse to lend you the money.
+1. Don't worry, he won't refuse to lend you the money.
 2. They will celebrate the second anniversary of their wedding next month.
 3. Will he show us the sights of the town right now?
-4. The actors are very good. I’m sure the performance will be a great success.
+4. The actors are very good. I'm sure the performance will be a great success.
 5. I will never forget what you did to me.
 6. Will there be any party after the official ceremony?
 
@@ -9047,13 +9047,13 @@ Future Indefinite обозначает действие или последов�
 Употребите глагол в правильной форме  
 (Future Indefinite или Present Indefinite).
 
-1. I don’t think she .................... (*to agree*) to help us until she .................... (*to know*) all the details of the plan.
+1. I don't think she .................... (*to agree*) to help us until she .................... (*to know*) all the details of the plan.
 2. I hope he .................... (*not*, *recognize*) me if I .................... (*to wear*) a wig.
-3. I’m sure there .................... (*to be*) a heated discussion after the students .................... (*to see*) the film.
+3. I'm sure there .................... (*to be*) a heated discussion after the students .................... (*to see*) the film.
 4. When you .................... (*to apologize*) to her you .................... (*to feel*) much better.
-5. I don’t know when Mrs. Smith .................... (*to recover*).
+5. I don't know when Mrs. Smith .................... (*to recover*).
 6. I .................... (*to lay*) the table while you .................... (*to dress*) for the party.
-7. I’m not sure if this time .................... (*to be*) convenient for him.
+7. I'm not sure if this time .................... (*to be*) convenient for him.
 8. I .................... (*not*, *to continue*) the conversation unless you .................... (*to calm down*).
 9. I .................... (*to return*) you the book as soon as I .................... (*to finish*) it.
 10. Call me at any time in case you .................... (*to have*) any problems.
@@ -9065,14 +9065,14 @@ Future Indefinite обозначает действие или последов�
 
 **Полное решение**
 
-1. I don’t think she will agree to help us until she knows all the details of the plan.
-2. I hope he won’t recognize me if I wear a wig.
-3. I’m sure there will be a heated discussion after the students see the film.
+1. I don't think she will agree to help us until she knows all the details of the plan.
+2. I hope he won't recognize me if I wear a wig.
+3. I'm sure there will be a heated discussion after the students see the film.
 4. When you apologize to her you will feel much better.
-5. I don’t know when Mrs. Smith will recover.
+5. I don't know when Mrs. Smith will recover.
 6. I will lay the table while you dress for the party.
-7. I’m not sure if this time will be convenient for him.
-8. I won’t continue the conversation unless you calm down.
+7. I'm not sure if this time will be convenient for him.
+8. I won't continue the conversation unless you calm down.
 9. I will return you the book as soon as I finish it.
 10. Call me at any time in case you have any problems.
 11. She promises that when we see him working we will be surprised.
@@ -9112,24 +9112,24 @@ Future Indefinite обозначает действие или последов�
 
 **Полное решение**
 
-1. He won’t pass the exam unless you help him to prepare for it.
-2. As soon as the guests are here, we’ll tell them the news.
+1. He won't pass the exam unless you help him to prepare for it.
+2. As soon as the guests are here, we'll tell them the news.
 3. When will you know the results? — When the teacher checks our papers.
 4. I wonder if John will join us when we tell him about the trip.
 5. Before the child goes to sleep, his Mum will bathe him.
-6. In case he isn’t at home, I’ll call on him later.
+6. In case he isn't at home, I'll call on him later.
 7. I have no idea when the next meeting will take place.
-8. After the film is over we’ll go for a walk.
-9. If the weather is good, we’ll go to the beach.
+8. After the film is over we'll go for a walk.
+9. If the weather is good, we'll go to the beach.
 10. I hope that while I am asleep (am sleeping) the temperature will fall down.
 11. Please, find out if they will go to the theatre with us.
-12. I won’t buy anything until I save a little money.
+12. I won't buy anything until I save a little money.
 13. He says that when he returns from his holiday he will give a party.
-14. I’ll let you know as soon as everything is ready.
-15. While it rains (is raining) I’ll read or watch TV.
-16. I’ll wait until you return.
-17. I’m not sure if he will write to me but if he writes, I’ll certainly answer.
-18. It seems to me that if we go on holiday together we’ll have a good time.
+14. I'll let you know as soon as everything is ready.
+15. While it rains (is raining) I'll read or watch TV.
+16. I'll wait until you return.
+17. I'm not sure if he will write to me but if he writes, I'll certainly answer.
+18. It seems to me that if we go on holiday together we'll have a good time.
 
 <a id="unit-43"></a>
 
@@ -9145,13 +9145,13 @@ Future Indefinite обозначает действие или последов�
 
 - действие в отдаленном будущем (часто с глаголами think, expect, believe; выражениями be sure, be afraid; наречиями probably, perhaps, certainly, …) Their son will probably become a famous doctor.
 
-- только что принятое решение The soup smells strange. I won’t eat it.
+- только что принятое решение The soup smells strange. I won't eat it.
 
 - действие в будущем, на которое нельзя повлиять The temperature will fall to 2°C tomorrow.
 
 2. Present Continuous; to be going to
 
-- запланированное действие в будущем, часто в ближайшем. The Browns are giving a house-warming party on Saturday. I’m going to make a cake for tea.
+- запланированное действие в будущем, часто в ближайшем. The Browns are giving a house-warming party on Saturday. I'm going to make a cake for tea.
 
 Выражение to be going to обычно не употребляется с глаголами движения.
 
@@ -9163,7 +9163,7 @@ Future Indefinite обозначает действие или последов�
 
 - действие в соответствии с программой или расписанием The Berlin train arrives in Moscow at 6 p. m. sharp.
 
-- будущее действие в придаточных времени и условия He won’t come unless you invite him personally. As soon as you finish writing, hand in your papers, please.
+- будущее действие в придаточных времени и условия He won't come unless you invite him personally. As soon as you finish writing, hand in your papers, please.
 
 <a id="exercise-43-1"></a>
 
@@ -9196,27 +9196,27 @@ Future Indefinite обозначает действие или последов�
 7. We ............ to a new flat next week.
 
    Варианты: 1) are moving; 2) will move; 3) move.
-8. The concert ............ at 7 p. m. So let’s meet at 6:45 near the entrance to the concert hall.
+8. The concert ............ at 7 p. m. So let's meet at 6:45 near the entrance to the concert hall.
 
    Варианты: 1) will begin; 2) is going to begin; 3) begins.
 9. We ............ probably ............ to Italy for our next holiday.
 
    Варианты: 1) are ............ going; 2) will ............ go.
-10. I’m hungry. — Me too. I ............ some sandwiches.
+10. I'm hungry. — Me too. I ............ some sandwiches.
 
    Варианты: 1) am going to make; 2) am making; 3) will make.
-11. Why are you taking out this old sewing machine? — I ............ this dress. It’s too big for me now.
+11. Why are you taking out this old sewing machine? — I ............ this dress. It's too big for me now.
 
    Варианты: 1) am going to remake; 2) will remake; 3) am remaking.
-12. I’m looking forward to seeing my daughter. — When ............ she ............ back from the summer camp?
+12. I'm looking forward to seeing my daughter. — When ............ she ............ back from the summer camp?
 
    Варианты: 1) is ............ going to come; 2) will ............ come; 3) is ............ coming.
-13. If you ............ Jack, tell him to call me. — OK. Why? — It’s a secret. — Come on! ............ you ............ him something I shouldn’t know?
+13. If you ............ Jack, tell him to call me. — OK. Why? — It's a secret. — Come on! ............ you ............ him something I shouldn't know?
 
    Варианты: 1) see; will ............ tell; 2) see; are ............ going to tell; 3) will see; will ............ tell.
 14. Oh, the bus is so slow! I hope we ............ late.
 
-   Варианты: 1) aren’t going to be; 2) aren’t; 3) won’t be.
+   Варианты: 1) aren't going to be; 2) aren't; 3) won't be.
 
 **Полное решение**
 
@@ -9227,13 +9227,13 @@ Future Indefinite обозначает действие или последов�
 5. We are having a test on Monday. I have to revise a lot of rules.
 6. Why are you buying so much wallpaper? — My husband and I are going to redecorate our flat.
 7. We are moving to a new flat next week.
-8. The concert begins at 7 p. m. So let’s meet at 6:45 near the entrance to the concert hall.
+8. The concert begins at 7 p. m. So let's meet at 6:45 near the entrance to the concert hall.
 9. We will probably go to Italy for our next holiday.
-10. I’m hungry. — Me too. I will make some sandwiches.
-11. Why are you taking out this old sewing machine? — I am going to remake this dress. It’s too big for me now.
-12. I’m looking forward to seeing my daughter. — When is she coming back from the summer camp?
-13. If you see Jack, tell him to call me. — OK. Why? — It’s a secret. — Come on! Are you going to tell him something I shouldn’t know?
-14. Oh, the bus is so slow! I hope we won’t be late.
+10. I'm hungry. — Me too. I will make some sandwiches.
+11. Why are you taking out this old sewing machine? — I am going to remake this dress. It's too big for me now.
+12. I'm looking forward to seeing my daughter. — When is she coming back from the summer camp?
+13. If you see Jack, tell him to call me. — OK. Why? — It's a secret. — Come on! Are you going to tell him something I shouldn't know?
+14. Oh, the bus is so slow! I hope we won't be late.
 
 <a id="exercise-43-2"></a>
 
@@ -9255,12 +9255,12 @@ Future Indefinite обозначает действие или последов�
 
 **Полное решение**
 
-1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove anything to them.
-2. I think I’ll buy this book as a present for my friend. I’m going to her birthday party tomorrow.
-3. When does the film start? — At 5. — I won’t be able to go then. My classes finish only at 6.
-4. They are leaving by the 8 o’clock train. Then they’ll be at the seaside already in the afternoon.
+1. I'm afraid they won't believe us. — Let them do what they want. I'm not going to prove anything to them.
+2. I think I'll buy this book as a present for my friend. I'm going to her birthday party tomorrow.
+3. When does the film start? — At 5. — I won't be able to go then. My classes finish only at 6.
+4. They are leaving by the 8 o'clock train. Then they'll be at the seaside already in the afternoon.
 5. In summer days will become longer and nights will become shorter.
-6. Don’t forget your umbrella. It’s going to rain.
+6. Don't forget your umbrella. It's going to rain.
 7. Mary is bringing her new boy-friend to the party. — Really? Do you think he will like our company?
 
 <a id="unit-44"></a>
@@ -9297,13 +9297,13 @@ Future Indefinite обозначает действие или последов�
 
 - Вопросительная и отрицательная формы образуются при помощи вспомогательного глагола do в Past Indefinite — did.
 
-He fell ill last night. He didn’t fall ill last night. Did he fall ill last night?
+He fell ill last night. He didn't fall ill last night. Did he fall ill last night?
 
 2. СЛУЧАИ УПОТРЕБЛЕНИЯ
 
 - Действие, которое имело место в прошлом (обычно указывается или подразумевается время совершения действия: last week, a month ago, the other day, yesterday, the day before yesterday, …)
 
-Who did you meet there? I didn’t sleep well last night. They got married seven years ago.
+Who did you meet there? I didn't sleep well last night. They got married seven years ago.
 
 - Цепочка действий в прошлом
 
@@ -9370,14 +9370,14 @@ closed, opened, hated, liked, divided, fitted, explained, cried, touched, stayed
 Составьте предложения о том,  
 что реально произошло или не произошло вчера с вами.  
 I, to quarrel, with a friend  
-I quarrelled with my friend yesterday. / I didn’t quarrel with my friend  
+I quarrelled with my friend yesterday. / I didn't quarrel with my friend  
 yesterday.
 
 1. I, to have classes, till three . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 2. My mother, to go shopping, after work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 3. My friend, to phone, in the evening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 4. I, to get up, early in the morning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-5. It, to be one’s day off . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5. It, to be one's day off . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 6. I, to see, a film at the cinema . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 7. My mother, to make, a delicious dinner . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 8. My friend, to invite to a party . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -9387,14 +9387,14 @@ yesterday.
 **Полное решение**
 
 1. I had classes till three yesterday.
-2. My mother went (didn’t go) shopping after work yesterday.
-3. My friend phoned (didn’t phone) me last night.
-4. I got up (didn’t get up) early yesterday morning.
+2. My mother went (didn't go) shopping after work yesterday.
+3. My friend phoned (didn't phone) me last night.
+4. I got up (didn't get up) early yesterday morning.
 5. It was my day off.
-6. I saw (didn’t see) a film at the cinema yesterday.
-7. My mother made (didn’t make) a delicious dinner yesterday.
-8. My friend invited (didn’t invite) me to a party yesterday.
-9. There was an interesting show on TV yesterday. / There wasn’t any interesting show on TV yesterday.
+6. I saw (didn't see) a film at the cinema yesterday.
+7. My mother made (didn't make) a delicious dinner yesterday.
+8. My friend invited (didn't invite) me to a party yesterday.
+9. There was an interesting show on TV yesterday. / There wasn't any interesting show on TV yesterday.
 10. My parents planned their holiday yesterday.
 
 <a id="exercise-44-3"></a>
@@ -9416,8 +9416,8 @@ He gave me a vase as a present. What did he give you as a present?
 4. *The children* broke that cup the other day. ............................................................ .
 5. They went *to the country* for the weekend. ........................................................... .
 6. The weather was *awful* on Sunday. ...................................................................... .
-7. It took me *an hour* to read that article in yesterday’s newspaper. ........................... .
-8. There was *a gun* in the criminal’s bag. ....................................................................
+7. It took me *an hour* to read that article in yesterday's newspaper. ........................... .
+8. There was *a gun* in the criminal's bag. ....................................................................
 9. *Yes*, I spoke to Mr. Nickson on Tuesday. .................................................................
 10. Nelly danced *with Mark* at the party. ......................................................................
 
@@ -9429,8 +9429,8 @@ He gave me a vase as a present. What did he give you as a present?
 4. Who broke that cup the other day?
 5. Where did they go for the weekend?
 6. What was the weather like on Sunday?
-7. How long did it take you to read that article in yesterday’s newspaper?
-8. What was there in the criminal’s bag?
+7. How long did it take you to read that article in yesterday's newspaper?
+8. What was there in the criminal's bag?
 9. Did you speak to Mr. Nickson on Tuesday?
 10. Who did Nelly dance with at the party?
 
@@ -9459,10 +9459,10 @@ He gave me a vase as a present. What did he give you as a present?
 1. We met (got acquainted) five years ago.
 2. When did he leave?
 3. How many rooms were there in your old flat?
-4. It was my friend’s birthday the other day and she gave a wonderful party.
-5. Why didn’t you tell me the truth at once?
-6. I didn’t see him yesterday. — He wasn’t at work the day before yesterday either.
-7. Nick, you were absent last time. Were you ill? — Yes, I didn’t feel well. (Yes, I felt bad.)
+4. It was my friend's birthday the other day and she gave a wonderful party.
+5. Why didn't you tell me the truth at once?
+6. I didn't see him yesterday. — He wasn't at work the day before yesterday either.
+7. Nick, you were absent last time. Were you ill? — Yes, I didn't feel well. (Yes, I felt bad.)
 8. I used to read this book in English. I remember it was quite interesting.
 9. When were you in the country last? — It was very long ago.
 
@@ -9482,9 +9482,9 @@ He gave me a vase as a present. What did he give you as a present?
 
 - Правильные глаголы образуют причастие прошедшего времени (Participle II) при помощи окончания –ed, что совпадает с формой Past Indefinite (см. Unit 44). Неправильные глаголы имеют особую форму (см. Приложение). Вопросительная и отрицательная формы образуются при помощи вспомогательного глагола have (has).
 
-I have finished the work. Have you finished the work? I haven’t finished the work.
+I have finished the work. Have you finished the work? I haven't finished the work.
 
-He has bought a new car. Has he bought a new car? He hasn’t bought a new car.
+He has bought a new car. Has he bought a new car? He hasn't bought a new car.
 
 2. УПОТРЕБЛЕНИЕ
 
@@ -9497,16 +9497,16 @@ He has come to see you. (= результат: He is here.)
 |  |  |
 | --- | --- |
 | ever | Have you ever played the piano? |
-| never | I’ve never done such a difficult job. |
+| never | I've never done such a difficult job. |
 | just | He has just called me. |
 | already | We have already discussed this problem. |
-| yet | She hasn’t told me the news yet. Has she told you the news yet? (употребление already и yet — см. Unit 83) |
-| today | I haven’t seen her today. |
-| this morning | We haven’t visited our grandparents this month. |
+| yet | She hasn't told me the news yet. Has she told you the news yet? (употребление already и yet — см. Unit 83) |
+| today | I haven't seen her today. |
+| this morning | We haven't visited our grandparents this month. |
 | (this week, this month, this summer, и т. д.) (если период времени еще не истек) | Have you been abroad this summer? |
-| so far | I haven’t had dinner so far. |
-| once (twice, three times, | I’ve seen this film twice. |
-| the third time, и т. д.) | It’s the first time we have met. |
+| so far | I haven't had dinner so far. |
+| once (twice, three times, | I've seen this film twice. |
+| the third time, и т. д.) | It's the first time we have met. |
 
 Обратите внимание на употребление предлога to в предложениях типа
 
@@ -9529,7 +9529,7 @@ Have you ever been to Greece? They have been in Paris since Monday .
 
 **Часть 1**
 
-the longest poem — to learn This is the longest poem I’ve ever learnt.
+the longest poem — to learn This is the longest poem I've ever learnt.
 
 1. the most difficult exam — to take ...........................................................................
 2. the most wonderful present — to get ......................................................................
@@ -9539,17 +9539,17 @@ the longest poem — to learn This is the longest poem I’ve ever learnt.
 
 **Часть 2**
 
-(to see, this film?) — (never / twice) — Have you ever seen this film? — No, I’ve never seen this film. / — Yes, I’ve seen this film twice.
+(to see, this film?) — (never / twice) — Have you ever seen this film? — No, I've never seen this film. / — Yes, I've seen this film twice.
 
 1. (to try, to speak, Chinese?) — (*never*) ....................................................................
 2. (to drive, a car?) — (*several times*) ........................................................................
-3. (to break, one’s arm?) — (*once*) ............................................................................
+3. (to break, one's arm?) — (*once*) ............................................................................
 4. (to get, letters, from abroad?) — (*never*) ................................................................
 5. (to learn, poems, by heart?) — (*many times*) .........................................................
 
 **Часть 3**
 
-(to be, France?) — (never / several times) — Have you ever been to France? — No, I’ve never been to France. / — Yes, I’ve been to France several times.
+(to be, France?) — (never / several times) — Have you ever been to France? — No, I've never been to France. / — Yes, I've been to France several times.
 
 1. (to be, the Historic Museum?) — (*once*) .................................................................
 2. (to be, Australia?) — (*never*) .................................................................................
@@ -9559,7 +9559,7 @@ the longest poem — to learn This is the longest poem I’ve ever learnt.
 
 **Часть 4**
 
-the first time — to hear this song (I ) It’s the first time I’ve heard this song.
+the first time — to hear this song (I ) It's the first time I've heard this song.
 
 1. the second time — to consult this doctor (*I*) ............................................................
 2. not the first time — to make this mistake (*you*) .......................................................
@@ -9571,34 +9571,34 @@ the first time — to hear this song (I ) It’s the first time I’ve heard thi
 
 **Часть 1**
 
-1. This is the most difficult exam I’ve ever taken.
-2. This is the most wonderful present I’ve ever got.
-3. This is the funniest joke I’ve ever heard.
-4. This is the most hard-working person I’ve ever met.
-5. This is the best friend I’ve ever had.
+1. This is the most difficult exam I've ever taken.
+2. This is the most wonderful present I've ever got.
+3. This is the funniest joke I've ever heard.
+4. This is the most hard-working person I've ever met.
+5. This is the best friend I've ever had.
 
 **Часть 2**
 
-1. — Have you ever tried speaking Chinese? — No, I’ve never tried speaking Chinese.
-2. — Have you ever driven a car? — Yes, I’ve driven a car several times.
+1. — Have you ever tried speaking Chinese? — No, I've never tried speaking Chinese.
+2. — Have you ever driven a car? — Yes, I've driven a car several times.
 3. — Have you ever broken your arm? — Yes, I have once broken my arm.
-4. — Have you ever got letters from abroad? — No, I’ve never got letters from abroad.
+4. — Have you ever got letters from abroad? — No, I've never got letters from abroad.
 5. — Have you ever learnt poems by heart? — Yes, I have learnt poems by heart many times.
 
 **Часть 3**
 
 1. — Have you ever been to the Historic Museum? — Yes, I have been to the Historic Museum once.
-2. — Have you ever been to Australia? — No, I’ve never been to Australia.
-3. — Have you ever been to the Zoo? — Yes, I’ve been to the Zoo three times.
-4. — Have you ever been to a birthday party? — Yes, I’ve been to birthday parties many times.
-5. — Have you ever been to the Bolshoy Theatre? — No, I’ve never been to the Bolshoy Theatre.
+2. — Have you ever been to Australia? — No, I've never been to Australia.
+3. — Have you ever been to the Zoo? — Yes, I've been to the Zoo three times.
+4. — Have you ever been to a birthday party? — Yes, I've been to birthday parties many times.
+5. — Have you ever been to the Bolshoy Theatre? — No, I've never been to the Bolshoy Theatre.
 
 **Часть 4**
 
-1. It’s the second time I’ve consulted this doctor.
-2. It’s not the first time you’ve made this mistake.
+1. It's the second time I've consulted this doctor.
+2. It's not the first time you've made this mistake.
 3. Is it the first time she has lied to you?
-4. It’s the third time the child has fallen ill this year.
+4. It's the third time the child has fallen ill this year.
 5. Is it the first time they have helped you?
 
 <a id="exercise-45-2"></a>
@@ -9610,7 +9610,7 @@ the first time — to hear this song (I ) It’s the first time I’ve heard thi
 **Задание**
 
 Дайте ответы на вопросы, употребляя слова в скобках.  
-Have you done exercise one yet? (just) Yes, I’ve just done it.
+Have you done exercise one yet? (just) Yes, I've just done it.
 
 1. Have you learnt all the rules of English grammar yet? (*yet*) ......................................
 2. Have you done many exercises yet? (*already*) ........................................................
@@ -9620,11 +9620,11 @@ Have you done exercise one yet? (just) Yes, I’ve just done it.
 
 **Полное решение**
 
-1. No, I haven’t learnt all of them yet.
-2. Yes, I’ve already done lots of them.
-3. Yes, I’ve already answered them.
-4. No, I haven’t learnt everything so far.
-5. Yes, I’ve just finished it.
+1. No, I haven't learnt all of them yet.
+2. Yes, I've already done lots of them.
+3. Yes, I've already answered them.
+4. No, I haven't learnt everything so far.
+5. Yes, I've just finished it.
 
 <a id="exercise-45-3"></a>
 
@@ -9640,7 +9640,7 @@ Have you done exercise one yet? (just) Yes, I’ve just done it.
 употребив глагол в утвердительной или отрицательной форме  
 Present Perfect.  
 I, to see, an interesting film, this month  
-I have seen an interesting film this month. I haven’t seen  
+I have seen an interesting film this month. I haven't seen  
 any interesting film this month.
 
 1. My mother, to do the shopping, today ....................................................................
@@ -9651,11 +9651,11 @@ any interesting film this month.
 
 **Полное решение**
 
-1. My mother has done the shopping today. / My mother hasn’t done any shopping today.
-2. I’ve read an exciting book this summer. / I haven’t read any exciting book this summer.
+1. My mother has done the shopping today. / My mother hasn't done any shopping today.
+2. I've read an exciting book this summer. / I haven't read any exciting book this summer.
 3. My friend has caught cold this month.
-4. I’ve visited my grandparents this week.
-5. I’ve made some progress in English this year. / I haven’t made any progress in English this year.
+4. I've visited my grandparents this week.
+5. I've made some progress in English this year. / I haven't made any progress in English this year.
 
 <a id="exercise-45-4"></a>
 
@@ -9670,40 +9670,40 @@ any interesting film this month.
 **Часть 1**
 
 1. ................................................................ (*you*, *ever*, *to be*) to any exotic country?
-2. It’s not the first time you ............................................................... (*to argue*), is it?
+2. It's not the first time you ............................................................... (*to argue*), is it?
 3. I ............... (to hear) a lot about this book but I ................... (*not*, *to read*) it so far.
 4. I ................................................ (*already*, *to finish*) the picture. You may look at it.
 5. Where .................................. (*you*, *to be*)? — I ....................... (*to be*) to the bank.
 6. This is the most boring holiday I ..................................................... (*ever*, *to have*).
 7. I ..................... (*to be*) so busy this week that I ............... (*not*, *even*, *to watch*) TV.
-8. It’s too early to call him. He .................................................. (*not*, *to wake up*) yet.
+8. It's too early to call him. He .................................................. (*not*, *to wake up*) yet.
 9. I ..................................... (*never*, *to see*) a sunrise in all my life. It must be beautiful!
-10. I ....................................................................... (*just*, *to hear*) the news! It’s awful!
+10. I ....................................................................... (*just*, *to hear*) the news! It's awful!
 
 **Часть 2**
 
-1. This is the third time you ......................... (*to speak*) to Mr. Campbell. What’s your impression of him?
-2. I’m so hungry! I ......................... (*not*, *to eat*) anything today! — But why?
+1. This is the third time you ......................... (*to speak*) to Mr. Campbell. What's your impression of him?
+2. I'm so hungry! I ......................... (*not*, *to eat*) anything today! — But why?
 3. .................... (*you*, *to be*) to the theatre this month? — Oh, yes, actually I .................... (*to be*) there twice this month.
 4. As far as I know they ......................... (*to sell*) their car because they need money badly.
-5. I’m afraid he can’t help you. He ......................... (*to leave*) for Vienna.
-6. ......................... (*you*, *not to get*) my telegram yet? — No, sorry. What’s the matter?
+5. I'm afraid he can't help you. He ......................... (*to leave*) for Vienna.
+6. ......................... (*you*, *not to get*) my telegram yet? — No, sorry. What's the matter?
 7. We ......................... (*to buy*) a computer at last! Now it will be easier for me to work.
 8. Stop reminding me of this letter! You ......................... (*already*, *to tell*) me about it twice!
 9. The problem is too complicated! I ......................... (*not*, *to clear up*) all the details so far.
-10. ......................... (*you*, *to have*) a holiday this summer? — No, not yet. But I’m going on holiday in August.
+10. ......................... (*you*, *to have*) a holiday this summer? — No, not yet. But I'm going on holiday in August.
 
 **Часть 3**
 
-1. ......................... (*you*, *ever*, *to be*) to the circus? — Sure, and I’d like to go again.
+1. ......................... (*you*, *ever*, *to be*) to the circus? — Sure, and I'd like to go again.
 2. What ......................... (*to happen*)? — I ......................... (*to lose*) my purse with all the money!
 3. Is it the second time your brother ......................... (*to get*) married? — Why? He ......................... (*never*, *to be*) married before.
-4. You ......................... (*to take*) too many pictures! There’s no place for all of them in the photo album.
+4. You ......................... (*to take*) too many pictures! There's no place for all of them in the photo album.
 5. I ......................... (*just*, *to explain*) everything to you. What else do you want?
-6. It’s the third glass of beer you ......................... (*to drink*) today. Isn’t it enough?
+6. It's the third glass of beer you ......................... (*to drink*) today. Isn't it enough?
 7. ......................... (*your Dad*, *to return*) from his business trip yet? — He is coming this evening.
 8. This is the most dangerous, accident my brother ......................... (*ever*, *to have*).
-9. The plant ......................... (*to grow*) too large. I’m afraid I’ll have to cut it.
+9. The plant ......................... (*to grow*) too large. I'm afraid I'll have to cut it.
 10. ......................... (*you*, *to prepare*) everything for the party? — Yes, almost everything is ready.
 
 **Полное решение**
@@ -9711,40 +9711,40 @@ any interesting film this month.
 **Часть 1**
 
 1. Have you ever been to any exotic country?
-2. It’s not the first time you have argued, is it?
-3. I have heard a lot about this book but I haven’t read it so far.
+2. It's not the first time you have argued, is it?
+3. I have heard a lot about this book but I haven't read it so far.
 4. I have already finished the picture. You may look at it.
 5. Where have you been? — I have been to the bank.
 6. This is the most boring holiday I have ever had.
-7. I have been so busy this week that I haven’t even watched TV.
-8. It’s too early to call him. He hasn’t woken up yet.
+7. I have been so busy this week that I haven't even watched TV.
+8. It's too early to call him. He hasn't woken up yet.
 9. I have never seen a sunrise in all my life. It must be beautiful!
-10. I have just heard the news! It’s awful!
+10. I have just heard the news! It's awful!
 
 **Часть 2**
 
-1. This is the third time you have spoken to Mr. Campbell. What’s your impression of him?
-2. I’m so hungry! I haven’t eaten anything today! — But why?
+1. This is the third time you have spoken to Mr. Campbell. What's your impression of him?
+2. I'm so hungry! I haven't eaten anything today! — But why?
 3. Have you been to the theatre this month? — Oh, yes, actually I have been there twice this month.
 4. As far as I know they have sold their car because they need money badly.
-5. I’m afraid he can’t help you. He has left for Vienna.
-6. Haven’t you got my telegram yet? — No, sorry. What’s the matter?
+5. I'm afraid he can't help you. He has left for Vienna.
+6. Haven't you got my telegram yet? — No, sorry. What's the matter?
 7. We have bought a computer at last! Now it will be easier for me to work.
 8. Stop reminding me of this letter! You have already told me about it twice!
-9. The problem is too complicated! I haven’t cleared up all the details so far.
-10. Have you had a holiday this summer? — No, not yet. But I’m going on holiday in August.
+9. The problem is too complicated! I haven't cleared up all the details so far.
+10. Have you had a holiday this summer? — No, not yet. But I'm going on holiday in August.
 
 **Часть 3**
 
-1. Have you ever been to the circus? — Sure, and I’d like to go again.
+1. Have you ever been to the circus? — Sure, and I'd like to go again.
 2. What has happened? — I have lost my purse with all the money!
 3. Is it the second time your brother has got married? — Why? He has never been married before.
-4. You have taken too many pictures! There’s no place for all of them in the photo album.
+4. You have taken too many pictures! There's no place for all of them in the photo album.
 5. I have just explained everything to you. What else do you want?
-6. It’s the third glass of beer you have drunk today. Isn’t it enough?
+6. It's the third glass of beer you have drunk today. Isn't it enough?
 7. Has your Dad returned from his business trip yet? — He is coming this evening.
 8. This is the most dangerous accident my brother has ever had.
-9. The plant has grown too large. I’m afraid I’ll have to cut it.
+9. The plant has grown too large. I'm afraid I'll have to cut it.
 10. Have you prepared everything for the party? — Yes, almost everything is ready.
 
 <a id="exercise-45-5"></a>
@@ -9760,11 +9760,11 @@ any interesting film this month.
 1. Have you ever been at the Tretyakov Gallery? .........................................................
 2. Have you already done your homework? ................................................................
 3. This is the fourth time you are asking me the same question. ...................................
-4. I’ve just took this book from the library. ..................................................................
+4. I've just took this book from the library. ..................................................................
 5. I met him only once. ..............................................................................................
-6. He hasn’t never got a bad mark. .............................................................................
+6. He hasn't never got a bad mark. .............................................................................
 7. Has Mary written the letter so far? ...........................................................................
-8. I’ve been very tired today. ......................................................................................
+8. I've been very tired today. ......................................................................................
 9. I had a hard day today. ...........................................................................................
 10. How many times have you see this film? .................................................................
 
@@ -9772,13 +9772,13 @@ any interesting film this month.
 
 1. Have you ever been to the Tretyakov Gallery?
 2. Have you done your homework yet?
-3. This is the fourth time you’ve asked me the same question.
-4. I’ve just taken this book from the library.
-5. I’ve met him only once.
+3. This is the fourth time you've asked me the same question.
+4. I've just taken this book from the library.
+5. I've met him only once.
 6. He has never got a bad mark.
 7. Has Mary written the letter yet?
-8. I’m very tired today.
-9. I’ve had a hard day today.
+8. I'm very tired today.
+9. I've had a hard day today.
 10. How many times have you seen this film?
 
 <a id="exercise-45-6"></a>
@@ -9821,29 +9821,29 @@ any interesting film this month.
 
 **Часть 1**
 
-1. I’ve never been to this shop before.
-2. This is the most beautiful melody I’ve ever heard.
-3. Have you had breakfast yet? — No, I’m just going to do it. I’ve just got up.
-4. Why haven’t they repaired the car yet?
-5. I’ve called him twice, but he is out (he isn’t at home).
+1. I've never been to this shop before.
+2. This is the most beautiful melody I've ever heard.
+3. Have you had breakfast yet? — No, I'm just going to do it. I've just got up.
+4. Why haven't they repaired the car yet?
+5. I've called him twice, but he is out (he isn't at home).
 6. Have you read papers today? — No, not yet.
-7. They’ve already moved but I haven’t visited them yet.
-8. Here is your shirt. I’ve washed it.
+7. They've already moved but I haven't visited them yet.
+8. Here is your shirt. I've washed it.
 9. This is the fifth pair of shoes she has bought this month. — Why does she need so many?
 10. How many times have you checked this document? There are very many misprints in it.
 
 **Часть 2**
 
-1. Have you ever hitchhiked? — No, I haven’t. Have you?
-2. Is it the first time you’ve planted these flowers?
-3. I haven’t had any rest this summer.
-4. You’ve come at last! Where have you been?
-5. This is the hardest work I’ve ever had to do.
-6. What has happened? (What’s the matter?) You are so pale!
-7. It’s not the first time the cat has torn my curtains! — Have you tried punishing it?
-8. Why haven’t you ever (Why have you never) told me about it?
-9. Have you ever been to the north of the country? — Yes, I’ve been on excursions there several times.
-10. It’s very late and the children haven’t come back (returned) so far. I’m very worried.
+1. Have you ever hitchhiked? — No, I haven't. Have you?
+2. Is it the first time you've planted these flowers?
+3. I haven't had any rest this summer.
+4. You've come at last! Where have you been?
+5. This is the hardest work I've ever had to do.
+6. What has happened? (What's the matter?) You are so pale!
+7. It's not the first time the cat has torn my curtains! — Have you tried punishing it?
+8. Why haven't you ever (Why have you never) told me about it?
+9. Have you ever been to the north of the country? — Yes, I've been on excursions there several times.
+10. It's very late and the children haven't come back (returned) so far. I'm very worried.
 
 <a id="unit-46"></a>
 
@@ -9857,7 +9857,7 @@ any interesting film this month.
 
 |  |  |
 | --- | --- |
-| I’ve known her all my life. | Я знаю ее всю жизнь. |
+| I've known her all my life. | Я знаю ее всю жизнь. |
 
 2. В этом значении (так же, как и в Unit 45) Present Perfect употребляется только в контексте настоящего времени. В предложении, как правило, есть следующие слова и обороты:
 
@@ -9870,11 +9870,11 @@ any interesting film this month.
 
 - указание на весь период протекания действия с предлогом for (for an hour, for many years, for the last few days, for a long time, for ages и т. п.)
 
-I haven’t spoken to him for the last two Я не разговаривал с ним в последние два
+I haven't spoken to him for the last two Я не разговаривал с ним в последние два
 
 |  |  |
 | --- | --- |
-| days. She hasn’t had a proper rest for a long Она давно не отдыхала как следует. time. | дня. |
+| days. She hasn't had a proper rest for a long Она давно не отдыхала как следует. time. | дня. |
 
 В вопросе о том, сколько длится действие, также употребляется Present Perfect.
 
@@ -9889,13 +9889,13 @@ I haven’t spoken to him for the last two Я не разговаривал с �
 
 |  |  |
 | --- | --- |
-| He hasn’t called me since September. | Он не звонил мне с сентября. |
+| He hasn't called me since September. | Он не звонил мне с сентября. |
 
 наречием с тех пор *
 
 |  |  |
 | --- | --- |
-| He moved to a new flat in September and hasn’t called me since (ever since). союзом с тех пор, как * He hasn’t called me since he moved to Он не звонил мне с тех пор, как пере- | Он переехал на новую квартиру в сентябре и с тех пор (с тех самых пор) не звонил мне. |
+| He moved to a new flat in September and hasn't called me since (ever since). союзом с тех пор, как * He hasn't called me since he moved to Он не звонил мне с тех пор, как пере- | Он переехал на новую квартиру в сентябре и с тех пор (с тех самых пор) не звонил мне. |
 | a new flat. | ехал на новую квартиру. |
 
 Обратите внимание на распределение времен в главном и придаточном предложениях:
@@ -9913,7 +9913,7 @@ I haven’t spoken to him for the last two Я не разговаривал с �
 **Задание**
 
 Составьте утвердительные или отрицательные предложения о себе.  
-I, to spend, a lot of money, lately I have spent a lot of money lately. / I haven’t  
+I, to spend, a lot of money, lately I have spent a lot of money lately. / I haven't  
 spent much money lately.
 
 1. I, to be, very busy, lately ...................................................................................... .
@@ -9928,7 +9928,7 @@ spent much money lately.
 2. My Dad has had problems at work recently.
 3. My friend has made progress in English lately.
 4. My Granny has been ill lately.
-5. I have learnt useful things recently. / I haven’t learnt any useful things recently.
+5. I have learnt useful things recently. / I haven't learnt any useful things recently.
 
 <a id="exercise-46-2"></a>
 
@@ -9974,7 +9974,7 @@ She is ill. How long has she been ill?
 **Задание**
 
 Ответьте на вопросы в Present Perfect, используя слова в скобках.  
-When did you play the piano last? (for ages) I haven’t played the piano for ages.
+When did you play the piano last? (for ages) I haven't played the piano for ages.
 
 1. When were you at the cinema last? (*for several months*) .........................................
 2. When did you travel by plane last? (*since last summer*) ...........................................
@@ -9989,16 +9989,16 @@ When did you play the piano last? (for ages) I haven’t played the piano for ag
 
 **Полное решение**
 
-1. I haven’t been to the cinema for several months.
-2. I haven’t travelled by plane since last summer.
-3. I haven’t seen my classmates since I left school.
-4. I haven’t written letters for many years.
-5. I haven’t spoken to Mary since we quarrelled.
-6. I haven’t given parties for a month.
-7. I haven’t heard from Tom for the last few days.
-8. I haven’t gone for a walk since last weekend.
-9. I haven’t bought flowers for ages.
-10. I haven’t phoned my friend since Monday.
+1. I haven't been to the cinema for several months.
+2. I haven't travelled by plane since last summer.
+3. I haven't seen my classmates since I left school.
+4. I haven't written letters for many years.
+5. I haven't spoken to Mary since we quarrelled.
+6. I haven't given parties for a month.
+7. I haven't heard from Tom for the last few days.
+8. I haven't gone for a walk since last weekend.
+9. I haven't bought flowers for ages.
+10. I haven't phoned my friend since Monday.
 
 <a id="exercise-46-4"></a>
 
@@ -10011,31 +10011,31 @@ When did you play the piano last? (for ages) I haven’t played the piano for ag
 **Задание**
 
 Переделайте предложения, употребляя Present Perfect с since или for.  
-I was at the theatre on November 3 last. I haven’t been to the theatre since November 3.  
-It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
+I was at the theatre on November 3 last. I haven't been to the theatre since November 3.  
+It's a month since I ate ice-cream. I haven't eaten ice-cream for a month.
 
 1. She took her temperature in the morning. ...............................................................
 2. I last rode a bicycle about ten years ago. .................................................................
 3. Pete visited us in May last. ......................................................................................
 4. She arrived in London on Saturday. ........................................................................
 5. Rachel and Simon got married five years ago. .........................................................
-6. It’s three weeks since I consulted the doctor. ..........................................................
+6. It's three weeks since I consulted the doctor. ..........................................................
 7. We got a letter from Tom in autumn last. ................................................................
-8. It’s two years since we were at the seaside. .............................................................
+8. It's two years since we were at the seaside. .............................................................
 9. We had our last English class before the teacher fell ill. ............................................
 10. He got into prison in 1980. .....................................................................................
 
 **Полное решение**
 
-1. She hasn’t taken her temperature since morning.
-2. I haven’t ridden a bicycle for about ten years.
-3. Pete hasn’t visited us since May.
+1. She hasn't taken her temperature since morning.
+2. I haven't ridden a bicycle for about ten years.
+3. Pete hasn't visited us since May.
 4. She has been in London since Saturday.
 5. Rachel and Simon have been married for five years.
-6. I haven’t consulted the doctor for three weeks.
-7. We haven’t got letters from Tom since autumn.
-8. We haven’t been to the seaside for two years.
-9. We haven’t had English classes since our teacher fell ill.
+6. I haven't consulted the doctor for three weeks.
+7. We haven't got letters from Tom since autumn.
+8. We haven't been to the seaside for two years.
+9. We haven't had English classes since our teacher fell ill.
 10. He has been in prison since 1980.
 
 <a id="exercise-46-5"></a>
@@ -10051,16 +10051,16 @@ It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
 1. He has phoned me twice .................................................................... my birthday.
 2. Sue has been my best friend ............................................................... a long time.
 3. The child has had a sore throat ............................................................. a few days.
-4. She’s been at home .......................................................... 6 o’clock in the evening.
-5. She’s been on a business trip ................................................................... a month.
+4. She's been at home .......................................................... 6 o'clock in the evening.
+5. She's been on a business trip ................................................................... a month.
 6. The window has been open ...................................................................... evening.
 7. They have lived here ....................................................................... their marriage.
-8. I haven’t eaten anything .......................................................................... two days.
-9. It’s been sunny ............................................................................... early morning.
-10. Michael has been Ann’s husband ................................................ at least five years.
+8. I haven't eaten anything .......................................................................... two days.
+9. It's been sunny ............................................................................... early morning.
+10. Michael has been Ann's husband ................................................ at least five years.
 11. The rains have lasted ....................................................................... three months!
 12. This problem has existed ........................................... the beginning of the century.
-13. I’ve known the news ........................................................................... he returned.
+13. I've known the news ........................................................................... he returned.
 14. Helen has changed a lot .......................................................................... that time.
 15. Nothing interesting has happened .................................................... the last week.
 
@@ -10069,16 +10069,16 @@ It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
 1. He has phoned me twice since my birthday.
 2. Sue has been my best friend for a long time.
 3. The child has had a sore throat for a few days.
-4. She’s been at home since 6 o’clock in the evening.
-5. She’s been on a business trip for a month.
+4. She's been at home since 6 o'clock in the evening.
+5. She's been on a business trip for a month.
 6. The window has been open since evening.
 7. They have lived here since their marriage.
-8. I haven’t eaten anything for two days.
-9. It’s been sunny since early morning.
-10. Michael has been Ann’s husband for at least five years.
+8. I haven't eaten anything for two days.
+9. It's been sunny since early morning.
+10. Michael has been Ann's husband for at least five years.
 11. The rains have lasted for three months!
 12. This problem has existed since the beginning of the century.
-13. I’ve known the news since he returned.
+13. I've known the news since he returned.
 14. Helen has changed a lot since that time.
 15. Nothing interesting has happened for the last week.
 
@@ -10096,12 +10096,12 @@ It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
 2. Since when did you start to work? ..........................................................................
 3. George has been the best student since he has entered the University. ..................... .............................................................................................................................
 4. The children have changed a lot in the last time. .....................................................
-5. Mr. Brown hasn’t been at work for last week. ..........................................................
-6. Mr. Brown hasn’t been at work since the last week. .................................................
+5. Mr. Brown hasn't been at work for last week. ..........................................................
+6. Mr. Brown hasn't been at work since the last week. .................................................
 7. How long do you own this flat? ...............................................................................
 8. I took part in some competitions recently. ..............................................................
 9. Alice has been our secretary for several last years. ..................................................
-10. They’ve been to Paris since Tuesday. .....................................................................
+10. They've been to Paris since Tuesday. .....................................................................
 
 **Полное решение**
 
@@ -10109,12 +10109,12 @@ It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
 2. Since when have you been working?
 3. George has been the best student since he entered the University.
 4. The children have changed a lot lately.
-5. Mr. Brown hasn’t been at work since last week.
-6. Mr. Brown hasn’t been at work for the last week.
+5. Mr. Brown hasn't been at work since last week.
+6. Mr. Brown hasn't been at work for the last week.
 7. How long have you owned this flat?
 8. I have taken part in some competitions recently.
 9. Alice has been our secretary for the last several years.
-10. They’ve been in Paris since Tuesday.
+10. They've been in Paris since Tuesday.
 
 <a id="exercise-46-7"></a>
 
@@ -10156,29 +10156,29 @@ It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
 
 **Часть 1**
 
-1. I’ve known Richard for a long time. We’ve been neighbours for five years already.
-2. I haven’t seen you for ages! How are you?
-3. We haven’t met since 1986. I’m afraid I won’t recognize her.
+1. I've known Richard for a long time. We've been neighbours for five years already.
+2. I haven't seen you for ages! How are you?
+3. We haven't met since 1986. I'm afraid I won't recognize her.
 4. What countries have you visited lately?
-5. Mrs. Dent is badly ill. She’s been in hospital for two weeks already.
-6. I’ve been very busy in the last few days but now I can have a rest.
-7. I haven’t gone to the country since I started working here.
+5. Mrs. Dent is badly ill. She's been in hospital for two weeks already.
+6. I've been very busy in the last few days but now I can have a rest.
+7. I haven't gone to the country since I started working here.
 8. How long have you been friends with Helen? — Oh, since our childhood.
-9. We’ve been in London for several days already. We’ve already seen lots of things!
-10. He left in winter and I haven’t seen him since.
+9. We've been in London for several days already. We've already seen lots of things!
+10. He left in winter and I haven't seen him since.
 
 **Часть 2**
 
 1. He has behaved in a very strange way lately. I wonder what has happened.
-2. How long have you had this picture? I haven’t seen it before.
+2. How long have you had this picture? I haven't seen it before.
 3. Mum has been very nervous since she learnt the news.
 4. This man has been here for half an hour already. Is he waiting for somebody?
 5. Why have you bought so many books lately?
 6. Since when have you lived here?
-7. I haven’t asked her for help since we quarrelled.
-8. On Monday the weather got worse and my Grandpa hasn’t been out ever since.
+7. I haven't asked her for help since we quarrelled.
+8. On Monday the weather got worse and my Grandpa hasn't been out ever since.
 9. How many times has he written to you since he left?
-10. Frank keeps fit. He hasn’t fallen ill for many years.
+10. Frank keeps fit. He hasn't fallen ill for many years.
 
 <a id="unit-47"></a>
 
@@ -10206,17 +10206,17 @@ Has he been working here long? Have you been doing anything special lately.
 
 Present Perfect Continuous, как правило, не употребляется в отрицательных предложениях. Вместо него употребляется Present Perfect.
 
-Ann hasn’t played the piano much lately.
+Ann hasn't played the piano much lately.
 
 2. СЛУЧАИ УПОТРЕБЛЕНИЯ
 
 - Действие, которое началось до момента речи и продолжалось до него или все еще продолжается. В этом значении Present Perfect Continuous употребляется с теми же словами и оборотами, что и Present Perfect: lately, recently, since, for ... (см. Unit 46).
 
-My Dad has been trying to fix the bicycle since morning. She’s been sleeping for two hours already. The students have been working hard lately.
+My Dad has been trying to fix the bicycle since morning. She's been sleeping for two hours already. The students have been working hard lately.
 
 - Действие, которое происходило непосредственно перед моментом речи и отражается на настоящей ситуации или объясняет ее.
 
-Ally’s eyes are red. She has been crying.
+Ally's eyes are red. She has been crying.
 
 Глаголы, не имеющие форм Continuous, не употребляются в Present Perfect Continuous. В указанных значениях они образуют Present Perfect (см. Unit 46).
 
@@ -10238,17 +10238,17 @@ Why is Lucy looking so tired? (to work hard, lately) She has been working hard l
 4. You look much thinner! Have you lost weight? — Yes, (*to diet*, *lately*) ....................................... ..............................................................................................................................................
 5. *on the phone*) Liz, you sound busy. — (*to do the housework*, *since morning*) .........................( ..............................................................................................................................................
 6. Have you come to any conclusion? — Not yet, but (*to think about the problem*, *since you told me* *about it*) ................................................................................................................................ ..............................................................................................................................................
-7. I think now you can sing this song with the player. — Oh, I’m not sure, (*to listen to it*, *for half an* *hour*), but I can’t get several words. ......................................................................................... ..............................................................................................................................................
+7. I think now you can sing this song with the player. — Oh, I'm not sure, (*to listen to it*, *for half an* *hour*), but I can't get several words. ......................................................................................... ..............................................................................................................................................
 
 **Полное решение**
 
 1. They have been arguing and quarrelling for at least an hour.
 2. She has been suffering from a headache all day.
 3. The children have been playing here for the last two hours.
-4. Yes, I’ve been dieting lately.
-5. I’ve been doing the housework since morning.
-6. Not yet, but I’ve been thinking about the problem since you told me about it.
-7. Oh, I’m not sure. I’ve been listening to it for half an hour.
+4. Yes, I've been dieting lately.
+5. I've been doing the housework since morning.
+6. Not yet, but I've been thinking about the problem since you told me about it.
+7. Oh, I'm not sure. I've been listening to it for half an hour.
 
 <a id="exercise-47-2"></a>
 
@@ -10311,17 +10311,17 @@ Nick is reading a magazine. How long has he been reading it?
 2. Where is Sam? — He is in the room. He has been doing his homework since he returned from school.
 3. Mary has been practising the piano a lot lately. She is having a concert tomorrow.
 4. How long have you been learning this poem?
-5. The child has been crying since his mother left for work. I don’t know what to do.
-6. This flower (plant) hasn’t grown since the weather changed.
+5. The child has been crying since his mother left for work. I don't know what to do.
+6. This flower (plant) hasn't grown since the weather changed.
 7. What have you been doing lately?
 8. My brother is in Australia now. He has been travelling for a whole month.
 9. Have you been waiting for me long? — No, for about five minutes.
 10. Our neighbours have been shouting at each other all morning. I wonder what the matter is.
 11. Since when have you been working here?
-12. I haven’t used this dictionary lately.
-13. Who has been using my dictionary? Why isn’t it in its place?
+12. I haven't used this dictionary lately.
+13. Who has been using my dictionary? Why isn't it in its place?
 14. Why have you been making this salad so long? — There are very many ingredients in it.
-15. My sister has been lying in the sun too long, that’s why her skin looks so red.
+15. My sister has been lying in the sun too long, that's why her skin looks so red.
 
 <a id="unit-48"></a>
 
@@ -10342,7 +10342,7 @@ Nick is reading a magazine. How long has he been reading it?
 
 |  |  |
 | --- | --- |
-| I’ve read this book two or three times. | I’ve been reading a lot lately. |
+| I've read this book two or three times. | I've been reading a lot lately. |
 | Я читала (прочла) эту книгу два или три раза. | В последнее время я много читаю. |
 
 3. Present Perfect употребляется в вопросах how much, how many, how many times о завершенных действиях. Present Perfect Continuous употребляется в вопросах how long о действиях, которые еще продолжаются.
@@ -10374,31 +10374,31 @@ Present Perfect или Present Perfect Continuous.
 
 1. — She ......................... (*to eat*) a lot of sweet things lately. — How many sweets ......................... (*she*, *to eat*) today?
 2. — What ......................... (*you*, *to do*) all day? — I ......................... (*to revise*) the material for my exam. — ......................... (*you*, *to revise*) everything?
-3. I ......................... (*to hear*) your promises so many times! I don’t believe you any more!
-4. — Oh, there’s paint in your hair! — I ......................... (*to paint*) the ceiling in my room.
+3. I ......................... (*to hear*) your promises so many times! I don't believe you any more!
+4. — Oh, there's paint in your hair! — I ......................... (*to paint*) the ceiling in my room.
 5. How long did it take you to make such a wonderful dinner? You ................................ (*to cook*) so many dishes!
 6. The book is so interesting! I ......................... (*to read*) for three hours. I ........................ (*to read*) almost all of it.
-7. Mum .................... (*to have*) a rest in her room since she returned from work. Don’t disturb her.
-8. — You’re breathing with difficulty! What’s the matter? — I ......................... (*to walk*) very fast.
+7. Mum .................... (*to have*) a rest in her room since she returned from work. Don't disturb her.
+8. — You're breathing with difficulty! What's the matter? — I ......................... (*to walk*) very fast.
 9. — Nick ......................... (*to make*) real progress lately. — Oh, yes, he ......................... (*to work*) hard this term.
 10. — I ......................... (*to know*) Mr. Jackson for so many years!
 11. The weather ......................... (*to be*) awful lately. It ......................... (*to rain*) for several weeks!
-12. — How long ......................... (*your sister*, *to think*) over Pete’s proposal? — Oh, for several days. — Well, ......................... (*she*, *to decide*) anything?
+12. — How long ......................... (*your sister*, *to think*) over Pete's proposal? — Oh, for several days. — Well, ......................... (*she*, *to decide*) anything?
 
 **Полное решение**
 
 1. — She has been eating a lot of sweet things lately. — How many sweets has she eaten today?
 2. — What have you been doing all day? — I have been revising the material for my exam. — Have you revised everything?
-3. I have heard your promises so many times! I don’t believe you any more!
-4. — Oh, there’s paint in your hair! — I have been painting the ceiling in my room.
+3. I have heard your promises so many times! I don't believe you any more!
+4. — Oh, there's paint in your hair! — I have been painting the ceiling in my room.
 5. How long did it take you to make such a wonderful dinner? You have cooked so many dishes!
 6. The book is so interesting! I have been reading for three hours. I have read almost all of it.
-7. Mum has been having a rest in her room since she returned from work. Don’t disturb her.
-8. — You’re breathing with difficulty! What’s the matter? — I have been walking very fast.
+7. Mum has been having a rest in her room since she returned from work. Don't disturb her.
+8. — You're breathing with difficulty! What's the matter? — I have been walking very fast.
 9. — Nick has made real progress lately. — Oh, yes, he has been working hard this term.
 10. — I have known Mr. Jackson for so many years!
 11. The weather has been awful lately. It has been raining for several weeks!
-12. — How long has your sister been thinking over Pete’s proposal? — Oh, for several days. — Well, has she decided anything?
+12. — How long has your sister been thinking over Pete's proposal? — Oh, for several days. — Well, has she decided anything?
 
 <a id="exercise-48-2"></a>
 
@@ -10428,19 +10428,19 @@ Present Perfect или Present Perfect Continuous.
 
 **Полное решение**
 
-1. This elderly lady has been choosing a present so long! — Hasn’t she chosen anything yet?
-2. I’ve been waiting for Frank’s call since 3 o’clock but he hasn’t called so far.
-3. — I’m very pleased with our new baby-sitter. — How long has she been working for you?
-4. I’ve known my neighbours for ages. They are nice people.
+1. This elderly lady has been choosing a present so long! — Hasn't she chosen anything yet?
+2. I've been waiting for Frank's call since 3 o'clock but he hasn't called so far.
+3. — I'm very pleased with our new baby-sitter. — How long has she been working for you?
+4. I've known my neighbours for ages. They are nice people.
 5. Alice has been very absent-minded lately. Do you know what has happened to her?
-6. We haven’t spoken to each other since we quarrelled.
-7. Nick has been saving (money) for a new player since he saw the advertisement, but he hasn’t saved enough so far.
-8. I’ve wanted to buy a new computer for a very long time.
+6. We haven't spoken to each other since we quarrelled.
+7. Nick has been saving (money) for a new player since he saw the advertisement, but he hasn't saved enough so far.
+8. I've wanted to buy a new computer for a very long time.
 9. Have you taken part in any competitions lately?
 10. My brother has been listening to loud music all day! — And what have you been doing all this time?
 11. He has had this disease since his childhood but he has been getting worse in the last few days.
 12. How many classes have you missed this month?
-13. We’ve raised this question many times but we haven’t discussed it lately.
+13. We've raised this question many times but we haven't discussed it lately.
 14. She has been buying lots of new things since she got married. Her husband is rich.
 15. It seems to me, Dick has been smoking more than usual lately. He has already smoked ten cigarettes since morning.
 
@@ -10468,7 +10468,7 @@ Who gave you this advice? The French invented the cinema.
 
 - когда указания точного времени нет, но оно подразумевается
 
-I’ve discussed the project with my boss. — What did he say? (= What did he say during the discussion?) I didn’t know my Granny. (= She is dead. We didn’t meet while she was alive.)
+I've discussed the project with my boss. — What did he say? (= What did he say during the discussion?) I didn't know my Granny. (= She is dead. We didn't meet while she was alive.)
 
 Независимо от наличия слов и оборотов, характерных для Present Perfect, это время нельзя употребить в контексте прошедшего времени.
 
@@ -10477,7 +10477,7 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 | She has been working at school for many years. | She worked at school for three years and then quit. |
 | Она работает в школе много лет. | Она проработала в школе три года, |
 | (= и сейчас продолжает работать) | а затем уволилась. (= сейчас там не работает) |
-| I’ve been to the Zoo twice. | I was in the Zoo twice in my childhood. |
+| I've been to the Zoo twice. | I was in the Zoo twice in my childhood. |
 | Я дважды была в зоопарке. | В детстве я дважды была в зоопарке. |
 | (= на данный момент, до сих пор) | (= когда была ребенком) |
 
@@ -10493,7 +10493,7 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 | Они давно женаты. | Они давно поженились. |
 | They have been married for a long time. | They got married long ago. |
 | Я давно читаю эту книгу. | Я давно читал эту книгу. |
-| I’ve been reading the book for a long time. | I read the book long ago. |
+| I've been reading the book for a long time. | I read the book long ago. |
 
 <a id="exercise-49-1"></a>
 
@@ -10515,7 +10515,7 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 5. I ......................... (*already*, *to buy*) everything necessary for the party.
 6. I ......................... (*already*, *to buy*) everything necessary for the party on the way home.
 7. I ......................... (*to know*) this poem for a long time.
-8. I ......................... (*to know*) this poem long ago. But I can’t remember it now.
+8. I ......................... (*to know*) this poem long ago. But I can't remember it now.
 9. When ......................... (*you*, *to send*) him the letter?
 10. Since when ......................... (*you*, *to send*) him letters?
 11. I ......................... (*to read*) this book three or four times. I like it very much.
@@ -10540,9 +10540,9 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 
 1. They ......................... (*to be*) our neighbours for five years from 1999 till 2004.
 2. — ...................... (*you*, *to walk*) with the baby today? — Yes, we ...................... (*to take*) a walk in the morning. — How long ......................... (*you*, *to walk*)? — For about two hours.
-3. — How ......................... (*your first family party*, *to go*)? — I’m afraid it ......................... (*to be*) a bit boring. But we ......................... (*to improve*) since then.
+3. — How ......................... (*your first family party*, *to go*)? — I'm afraid it ......................... (*to be*) a bit boring. But we ......................... (*to improve*) since then.
 4. He ......................... (*to study*) medicine for three years. Then he ...................... (*to give*) it up and ......................... (*to leave*) for India. Nobody ......................... (*to hear*) from him ever since.
-5. — He ......................... (*to tell*) stories all evening. — Do you think he’s going to tell more? — Oh, sure, he seems to know no end of them.
+5. — He ......................... (*to tell*) stories all evening. — Do you think he's going to tell more? — Oh, sure, he seems to know no end of them.
 6. How many jokes ......................... (*she*, *to tell*) you at the party?
 7. Who ......................... (*to compose*) the music to this opera?
 8. How long ......................... (*you*, *to be*) here? ......................... (*you*, *to eavesdrop*)?
@@ -10553,14 +10553,14 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 
 **Часть 1**
 
-1. Mr. Jones hasn’t spoken to me since he returned from his trip.
-2. Mr. Jones didn’t speak to me when he returned from his trip.
+1. Mr. Jones hasn't spoken to me since he returned from his trip.
+2. Mr. Jones didn't speak to me when he returned from his trip.
 3. She has been cooking for the company for about two years. Everybody thinks her dinners are wonderful.
 4. She cooked for the company for about two years. Then she had a baby and left the job.
 5. I have already bought everything necessary for the party.
 6. I already bought everything necessary for the party on the way home.
 7. I have known this poem for a long time.
-8. I knew this poem long ago. But I can’t remember it now.
+8. I knew this poem long ago. But I can't remember it now.
 9. When did you send him the letter?
 10. Since when have you sent him letters?
 11. I have read this book three or four times. I like it very much.
@@ -10585,13 +10585,13 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 
 1. They were our neighbours for five years from 1999 till 2004.
 2. — Have you walked with the baby today? — Yes, we took a walk in the morning. — How long did you walk? — For about two hours.
-3. — How did your first family party go? — I’m afraid it was a bit boring. But we have improved since then.
+3. — How did your first family party go? — I'm afraid it was a bit boring. But we have improved since then.
 4. He studied medicine for three years. Then he gave it up and left for India. Nobody has heard from him ever since.
-5. — He has been telling stories all evening. — Do you think he’s going to tell more? — Oh, sure, he seems to know no end of them.
+5. — He has been telling stories all evening. — Do you think he's going to tell more? — Oh, sure, he seems to know no end of them.
 6. How many jokes did she tell you at the party?
 7. Who composed the music to this opera?
 8. How long have you been here? Have you been eavesdropping?
-9. We haven’t met for the last two weeks.
+9. We haven't met for the last two weeks.
 10. Where did you spend your holiday this year?
 
 <a id="exercise-49-2"></a>
@@ -10604,14 +10604,14 @@ I’ve discussed the project with my boss. — What did he say? (= What did he s
 
 Исправьте возможные ошибки.  
 Have you met before? — RIGHT  
-I’ve heard the news the other day. — I heard the news the other day.
+I've heard the news the other day. — I heard the news the other day.
 
 **Часть 1**
 
-1. I’ve just talked with him and he hasn’t told me anything about it. ..........................
+1. I've just talked with him and he hasn't told me anything about it. ..........................
 2. I have found this coin in our garden. ................................................................
-3. It’s the first time I see him. .............................................................................
-4. I haven’t had a good holiday for ages. ..............................................................
+3. It's the first time I see him. .............................................................................
+4. I haven't had a good holiday for ages. ..............................................................
 5. I am not married so far. .................................................................................
 6. Have you heard the bell ringing? .....................................................................
 7. The first Olympic Games took place in Ancient Greece. ......................................
@@ -10621,14 +10621,14 @@ I’ve heard the news the other day. — I heard the news the other day.
 
 **Часть 2**
 
-1. I’ve already heard this legend when I was on an excursion in Italy. .........................
-2. I’ve already been in this theatre. ......................................................................
+1. I've already heard this legend when I was on an excursion in Italy. .........................
+2. I've already been in this theatre. ......................................................................
 3. Have you lunch so far? ..................................................................................
 4. We spoke on the phone for about an hour yesterday. ..........................................
 5. He is very friendly since we helped him. ...........................................................
-6. It’s a week since she has made a new dress. .....................................................
+6. It's a week since she has made a new dress. .....................................................
 7. He has left by the first train this morning. ..........................................................
-8. I saw him at my friend’s birthday party. ............................................................
+8. I saw him at my friend's birthday party. ............................................................
 9. Who gave you this toy, Charlie? ......................................................................
 10. Since when were you his assistant? .................................................................
 
@@ -10637,23 +10637,23 @@ I’ve heard the news the other day. — I heard the news the other day.
 1. I did nothing for the last two days. ...................................................................
 2. This sportsman was very famous. He has won ten gold medals. ...........................
 3. Have you visited your relatives lately? — Oh yes, I went to see my aunt on Saturday.
-4. I heard this joke several times. It doesn’t seem funny any longer. .........................
+4. I heard this joke several times. It doesn't seem funny any longer. .........................
 5. He concealed the truth from us all this time! ......................................................
 6. How long are you growing flowers? ..................................................................
 7. How long ago did you start growing flowers? .....................................................
 8. Why have you said it? ...................................................................................
-9. I didn’t see Tom for two years. ........................................................................
-10. The film began at 6 o’clock and lasted for two hours. Everybody has enjoyed it. ......
+9. I didn't see Tom for two years. ........................................................................
+10. The film began at 6 o'clock and lasted for two hours. Everybody has enjoyed it. ......
 
 **Полное решение**
 
 **Часть 1**
 
-1. I’ve just talked with him and he didn’t tell me anything about it.
+1. I've just talked with him and he didn't tell me anything about it.
 2. I found this coin in our garden.
-3. It’s the first time I’ve seen him.
-4. I haven’t had a good holiday for ages.
-5. I haven’t been married so far.
+3. It's the first time I've seen him.
+4. I haven't had a good holiday for ages.
+5. I haven't been married so far.
 6. Did you hear the bell ringing?
 7. The first Olympic Games took place in Ancient Greece.
 8. They divorced long ago.
@@ -10663,28 +10663,28 @@ I’ve heard the news the other day. — I heard the news the other day.
 **Часть 2**
 
 1. I already heard this legend when I was on an excursion in Italy.
-2. I’ve already been to this theatre.
+2. I've already been to this theatre.
 3. Have you had lunch yet?
 4. We spoke on the phone for about an hour yesterday.
 5. He has been very friendly since we helped him.
-6. It’s a week since she made a new dress.
+6. It's a week since she made a new dress.
 7. He left by the first train this morning.
-8. I saw him at my friend’s birthday party.
+8. I saw him at my friend's birthday party.
 9. Who gave you this toy, Charlie?
 10. Since when have you been his assistant?
 
 **Часть 3**
 
-1. I’ve done (I’ve been doing) nothing for the last two days.
+1. I've done (I've been doing) nothing for the last two days.
 2. This sportsman was very famous. He won ten gold medals.
 3. Have you visited your relatives lately? — Oh yes, I went to see my aunt on Saturday.
-4. I’ve heard this joke several times. It doesn’t seem funny any longer.
+4. I've heard this joke several times. It doesn't seem funny any longer.
 5. He has been concealing the truth from us all this time!
 6. How long have you been growing flowers?
 7. How long ago did you start growing flowers?
 8. Why did you say it?
-9. I haven’t seen Tom for two years.
-10. The film began at 6 o’clock and lasted for two hours. Everybody enjoyed it.
+9. I haven't seen Tom for two years.
+10. The film began at 6 o'clock and lasted for two hours. Everybody enjoyed it.
 
 <a id="exercise-49-3"></a>
 
@@ -10739,14 +10739,14 @@ I’ve heard the news the other day. — I heard the news the other day.
 
 **Часть 1**
 
-1. I’ve consulted another doctor today. — And what did he advise you?
+1. I've consulted another doctor today. — And what did he advise you?
 2. I already was on this excursion two years ago.
 3. Who invented the computer?
 4. I returned home not long ago. — Have you had dinner yet?
 5. What did you write about in the composition?
 6. There has been no other news about this accident in the last few days.
-7. We’ve been friends for a long time. — When did you meet? (When did you get acquainted?)
-8. Have you ever been abroad? — Yes, I’ve been there many times. Last year my husband and I went to Italy.
+7. We've been friends for a long time. — When did you meet? (When did you get acquainted?)
+8. Have you ever been abroad? — Yes, I've been there many times. Last year my husband and I went to Italy.
 9. Do you know how many battles Napoleon won?
 10. How long have you been working here?
 
@@ -10754,14 +10754,14 @@ I’ve heard the news the other day. — I heard the news the other day.
 
 1. How long ago did you start working here?
 2. How many guests have you invited? — Fifteen. But perhaps not everybody will be able to come.
-3. Since my parents left I’ve been missing them badly.
+3. Since my parents left I've been missing them badly.
 4. Have you ever heard about this singer? — Yes, I have. She is very famous. I have once heard her concert on the radio. — What did she sing?
-5. This is the third bad mark that you’ve got in English. What’s the matter? What did you get it for?
+5. This is the third bad mark that you've got in English. What's the matter? What did you get it for?
 6. How long did you sleep today? — About six hours.
-7. It’s twelve years since she graduated from the University.
-8. It’s the most incredible story that has happened to me.
+7. It's twelve years since she graduated from the University.
+8. It's the most incredible story that has happened to me.
 9. They have been arguing for a long time.
-10. They quarrelled long ago. — Haven’t they made it up yet?
+10. They quarrelled long ago. — Haven't they made it up yet?
 
 **Часть 3**
 
@@ -10771,10 +10771,10 @@ I’ve heard the news the other day. — I heard the news the other day.
 4. She has been on holiday since Monday. — What did she take a holiday in autumn for?
 5. He used to travel a lot and he has been writing books about various countries since then.
 6. Was it the Canadians who invented hockey? (Did the Canadians invent hockey?)
-7. I’ve tried to see this film twice, but each time I fell asleep in the first half an hour. I can’t understand why it got the first prize at the contest.
+7. I've tried to see this film twice, but each time I fell asleep in the first half an hour. I can't understand why it got the first prize at the contest.
 8. Did you come long ago? How long have you been waiting for me?
-9. Pete hasn’t called me since we met at Kate’s birthday party. — But he has been in hospital for more than a month! — Why? What has happened?
-10. I’ve been here for fifteen minutes already. You haven’t been late before! — I’m sorry but it’s not my fault. I got stuck in a traffic jam.
+9. Pete hasn't called me since we met at Kate's birthday party. — But he has been in hospital for more than a month! — Why? What has happened?
+10. I've been here for fifteen minutes already. You haven't been late before! — I'm sorry but it's not my fault. I got stuck in a traffic jam.
 
 <a id="unit-50"></a>
 
@@ -10792,13 +10792,13 @@ I’ve heard the news the other day. — I heard the news the other day.
 | --- | --- |
 | was (were) | + (причастие настоящего времени) |
 
-Орфографические правила образования причастия настоящего времени см. в Unit 40. My friend and I were playing chess when the telephone rang. I wasn’t doing anything special when he called. What were you doing at 6 o’clock yesterday?
+Орфографические правила образования причастия настоящего времени см. в Unit 40. My friend and I were playing chess when the telephone rang. I wasn't doing anything special when he called. What were you doing at 6 o'clock yesterday?
 
 2. СЛУЧАИ УПОТРЕБЛЕНИЯ
 
 - Действие, которое происходило в определенный момент или период времени в прошлом, который может быть выражен:
 
-точным указанием времени (from 5 till 6 yesterday, at three o’clock yesterday, * etc.) At seven o’clock yesterday I was watching TV.
+точным указанием времени (from 5 till 6 yesterday, at three o'clock yesterday, * etc.) At seven o'clock yesterday I was watching TV.
 
 другим действием в прошлом * Jack was walking down the street when he saw Joan.
 
@@ -10829,8 +10829,8 @@ She was constantly talking about her health problems.
 
 1. at this time yesterday — I, to walk in the park ..........................................................
 2. at 8 yesterday morning — my mother, to make breakfast ........................................ .............................................................................................................................
-3. at 1 o’clock yesterday — my friends, to have classes, at school (the Institute) .......... .............................................................................................................................
-4. at 9 o’clock last night — my Dad, to watch the news program on TV ........................ .............................................................................................................................
+3. at 1 o'clock yesterday — my friends, to have classes, at school (the Institute) .......... .............................................................................................................................
+4. at 9 o'clock last night — my Dad, to watch the news program on TV ........................ .............................................................................................................................
 5. from 3 till 5 on Sunday — I, to prepare homework ...................................................
 6. from 10 till 11 on Saturday — my Mum and I, to clean the flat .................................. .............................................................................................................................
 7. at this time on Tuesday — I, to play, with my younger brother (sister) ...................... .............................................................................................................................
@@ -10839,8 +10839,8 @@ She was constantly talking about her health problems.
 
 1. At this time yesterday I was walking in the park.
 2. At 8 yesterday my Mother was making breakfast.
-3. At 1 o’clock yesterday my friends were having classes at school (at the Institute).
-4. At 9 o’clock last night my Dad was watching the news program on TV.
+3. At 1 o'clock yesterday my friends were having classes at school (at the Institute).
+4. At 9 o'clock last night my Dad was watching the news program on TV.
 5. From 3 till 5 on Sunday I was preparing my homework.
 6. From 10 till 11 on Saturday my Mum and I were cleaning the flat.
 7. At this time on Tuesday I was playing with my younger brother (sister).
@@ -10857,17 +10857,17 @@ She was constantly talking about her health problems.
 
 1. The street was absolutely empty and we ......................... (*to drive*) very fast.
 2. Did you really hear what they ................ (*to talk*) about? — I tell you it was about some robbery!
-3. She was disgusting to look at! — But why! Isn’t she pretty? — It wasn’t that! She ......................... (*always*, *to chew*) gum! I find it extremely unpleasant. Don’t you?
+3. She was disgusting to look at! — But why! Isn't she pretty? — It wasn't that! She ......................... (*always*, *to chew*) gum! I find it extremely unpleasant. Don't you?
 4. ......................... (*the music*, *to play*) all the time from 7 till 9 in the evening?
 5. When we arrived at the seaside the weather was disappointing at first. A strong wind ......................... (*to blow*), the sky was cloudy and it .................. (*to drizzle*). But the next day the sun came out.
-6. It sounds strange but I can’t remember what I ......................... (*to do*) at this time two days ago. — Perhaps you ......................... (*to sleep*)?
+6. It sounds strange but I can't remember what I ......................... (*to do*) at this time two days ago. — Perhaps you ......................... (*to sleep*)?
 7. It seems to me everybody ......................... (*really*, *to enjoy*) the party when the awful news about that accident came.
 8. I found the house in a mess. The light was on. The water in the bathroom ....................... (*to run*), some dish ......................... (*to burn*) in the oven. — Good Lord, it could have caught fire, then!
 9. I asked the nurse who ......................... (*to go*) upstairs to take the papers to Dr. Reed.
-10. I didn’t like him at all, to put it mildly. He ......................... (*constantly*, *to bite*) his nails, which is a most annoying habit!
-11. He was actually the only one who ......................... (*to listen*) carefully to what I ......................... (*to say*). That’s why he attracted my attention at once.
+10. I didn't like him at all, to put it mildly. He ......................... (*constantly*, *to bite*) his nails, which is a most annoying habit!
+11. He was actually the only one who ......................... (*to listen*) carefully to what I ......................... (*to say*). That's why he attracted my attention at once.
 12. What ......................... (*she*, *to wear*) at the party?
-13. ......................... (*you*, *not to wait*) for me at five? — But I was. Why didn’t you come?
+13. ......................... (*you*, *not to wait*) for me at five? — But I was. Why didn't you come?
 14. I can swear that fifteen minutes ago the child ......................... (*to play*) on the carpet in the room. — Well, where is he now?
 15. I nearly missed the bus. It ......................... (*to leave*) a few minutes later.
 
@@ -10875,17 +10875,17 @@ She was constantly talking about her health problems.
 
 1. The street was absolutely empty and we were driving very fast.
 2. Did you really hear what they were talking about? — I tell you it was about some robbery!
-3. She was disgusting to look at! — But why! Isn’t she pretty? — It wasn’t that! She was always chewing gum! I find it extremely unpleasant. Don’t you?
+3. She was disgusting to look at! — But why! Isn't she pretty? — It wasn't that! She was always chewing gum! I find it extremely unpleasant. Don't you?
 4. Was the music playing all the time from 7 till 9 in the evening?
 5. When we arrived at the seaside the weather was disappointing at first. A strong wind was blowing, the sky was cloudy and it was drizzling. But the next day the sun came out.
-6. It sounds strange but I can’t remember what I was doing at this time two days ago. — Perhaps you were sleeping?
+6. It sounds strange but I can't remember what I was doing at this time two days ago. — Perhaps you were sleeping?
 7. It seems to me everybody was really enjoying the party when the awful news about that accident came.
 8. I found the house in a mess. The light was on. The water in the bathroom was running, some dish was burning in the oven. — Good Lord, it could have caught fire, then!
 9. I asked the nurse who was going upstairs to take the papers to Dr. Reed.
-10. I didn’t like him at all, to put it mildly. He was constantly biting his nails, which is a most annoying habit!
-11. He was actually the only one who was listening carefully to what I was saying. That’s why he attracted my attention at once.
+10. I didn't like him at all, to put it mildly. He was constantly biting his nails, which is a most annoying habit!
+11. He was actually the only one who was listening carefully to what I was saying. That's why he attracted my attention at once.
 12. What was she wearing at the party?
-13. Weren’t you waiting for me at five? — But I was. Why didn’t you come?
+13. Weren't you waiting for me at five? — But I was. Why didn't you come?
 14. I can swear that fifteen minutes ago the child was playing on the carpet in the room. — Well, where is he now?
 15. I nearly missed the bus. It was leaving a few minutes later.
 
@@ -10909,8 +10909,8 @@ She was constantly talking about her health problems.
 **Полное решение**
 
 1. Mr. Dowly was coming two days later. The whole family were carefully preparing for his arrival.
-2. I woke up at 8 o’clock. Mum was having breakfast at that time and Dad was leaving for work.
-3. Where were you at 4 o’clock? — I was walking my dog.
+2. I woke up at 8 o'clock. Mum was having breakfast at that time and Dad was leaving for work.
+3. Where were you at 4 o'clock? — I was walking my dog.
 4. It was impossible to talk with him. He was constantly repeating the same thing in different words!
 5. The Detective wants to know what we were doing from 8 till 10 last night. — As far as I remember, you were doing crossword puzzles and I was knitting.
 6. At this time just two days ago I was skiing in the country!
@@ -10928,7 +10928,7 @@ She was constantly talking about her health problems.
 |  |  |
 | --- | --- |
 | Вчера в 7 часов вечера он возвращался домой. | Вчера в 7 часов вечера он вернулся домой. |
-| At 7 o’clock last night he was returning home. | At 7 o’clock last night he returned home. |
+| At 7 o'clock last night he was returning home. | At 7 o'clock last night he returned home. |
 
 2. В сложных предложениях Past Continuous употребляется для описания ситуации в прошлом, а для выражения законченного действия во время этой ситуации употребляется Past Indefinite.
 
@@ -10955,7 +10955,7 @@ I played the piano for three hours. He read for five hours yesterday.
 
 Помните, что глаголы, обозначающие чувственное восприятие и умственную деятельность, не имеют форм Continuous (см. Unit 41).
 
-I didn’t understand anything at that moment yet. I heard him close the door at 6.
+I didn't understand anything at that moment yet. I heard him close the door at 6.
 
 Обратите внимание на перевод следующих сочетаний:
 
@@ -10979,10 +10979,10 @@ Past Continuous или Past Indefinite.
 2. I .............. (*to see*) that she ................. (*to enjoy*) the concert. She ................ (*to sit*, *to smile*).
 3. Why .......................... (*you*, *not*, *to open*) the door at once? — Sorry, I ......................... (*not*, *to hear*) the bell.
 4. I ......................... (*to break*) the plate while I ......................... (*to do*) the washing-up.
-5. At two o’clock this afternoon I ......................... (*to have*) lunch that’s why you ......................... (*not*, *to get*) me on the phone. What ............................... (*you*, *to want*) to tell me? — Actually I ......................... (*to call*) to tell you I ......................... (*to come*) by the 7 o’clock train.
+5. At two o'clock this afternoon I ......................... (*to have*) lunch that's why you ......................... (*not*, *to get*) me on the phone. What ............................... (*you*, *to want*) to tell me? — Actually I ......................... (*to call*) to tell you I ......................... (*to come*) by the 7 o'clock train.
 6. I .......................... (*to find*) that old photo when I .......................... (*to look*) through the album.
 7. He ................. (*to look*) through the article for some time and then ................. (*to make*) notes.
-8. They ......................... (*to discuss*) the situation for about an hour at yesterday’s meeting.
+8. They ......................... (*to discuss*) the situation for about an hour at yesterday's meeting.
 9. The boy ........................ (*always*, *to fidget*)! But whenever I ........................ (*to tell*) him not to, he ......................... (*to stick*) out his tongue at me.
 10. While the Coppards ............................ (*to work*) in the garden Mr. Coppard ............................ (*to have*) a heart attack and his wife ......................... (*to call*) the doctor.
 11. I ................ (*to know*) for sure what ................... (*to happen*) in the next room at that moment.
@@ -10995,18 +10995,18 @@ Past Continuous или Past Indefinite.
 
 1. He hurt his leg when he fell off the ladder.
 2. I saw that she was enjoying the concert. She sat smiling.
-3. Why didn’t you open the door at once? — Sorry, I didn’t hear the bell.
+3. Why didn't you open the door at once? — Sorry, I didn't hear the bell.
 4. I broke the plate while I was doing the washing-up.
-5. At two o’clock this afternoon I was having lunch that’s why you didn’t get me on the phone. What did you want to tell me? — Actually I was calling to tell you I was coming by the 7 o’clock train.
+5. At two o'clock this afternoon I was having lunch that's why you didn't get me on the phone. What did you want to tell me? — Actually I was calling to tell you I was coming by the 7 o'clock train.
 6. I found that old photo when I was looking through the album.
 7. He looked through the article for some time and then made notes.
-8. They discussed the situation for about an hour at yesterday’s meeting.
+8. They discussed the situation for about an hour at yesterday's meeting.
 9. The boy was always fidgeting! But whenever I told him not to, he stuck out his tongue at me.
 10. While the Coppards were working in the garden Mr. Coppard had a heart attack and his wife called the doctor.
 11. I knew for sure what was happening in the next room at that moment.
-12. I didn’t mean to shout at you. I was just speaking in an emotional manner!
+12. I didn't mean to shout at you. I was just speaking in an emotional manner!
 13. When I arrived the party was in full swing. Someone was playing the piano and the guests were dancing. Nobody noticed me come in.
-14. I asked her something but she didn’t answer as she was tasting some dish.
+14. I asked her something but she didn't answer as she was tasting some dish.
 15. What did you do when you found the ring? — I called the police, of course.
 
 <a id="exercise-51-2"></a>
@@ -11040,22 +11040,22 @@ Past Continuous или Past Indefinite.
 
 **Полное решение**
 
-1. Didn’t anybody notice anything? — No, everybody was watching TV and heard nothing suspicious (didn’t hear anything suspicious).
+1. Didn't anybody notice anything? — No, everybody was watching TV and heard nothing suspicious (didn't hear anything suspicious).
 2. When the alarm-clock rang he turned it off and got up.
 3. All morning he lay in bed doing nothing.
 4. I was thinking over our plan when I had a wonderful idea.
-5. When we were listening to the news we didn’t know yet what it meant.
-6. I didn’t understand a word. They were talking (speaking) very quickly.
+5. When we were listening to the news we didn't know yet what it meant.
+6. I didn't understand a word. They were talking (speaking) very quickly.
 7. While he was speaking everybody was listening to him attentively.
 8. It was very noisy in the hall. Our neighbours were celebrating something.
 9. When he returned we discussed the plan in detail.
 10. He spoke on the phone about three minutes then gave the receiver to me.
 11. She was constantly looking in the mirror! It was getting on my nerves more and more!
 12. It was getting cold and we returned to town.
-13. It doesn’t matter what exactly I was doing at 5 o’clock. — But still? — I was having a date.
+13. It doesn't matter what exactly I was doing at 5 o'clock. — But still? — I was having a date.
 14. She cried / was crying all night. — And what were you doing at that time? — I sat thinking how to help her.
 15. I was so tired that I slept for 10 hours!
-16. I saw him at the railway station last. He was looking for something in his bag and was obviously very nervous as he couldn’t find what he needed at that moment. — Do you remember what he was wearing?
+16. I saw him at the railway station last. He was looking for something in his bag and was obviously very nervous as he couldn't find what he needed at that moment. — Do you remember what he was wearing?
 17. On Saturday the Browns were moving to a new flat and we called to say Good-bye to them.
 18. The children were looking forward to the beginning of the party. Everybody was discussing the presents they wanted to get.
 
@@ -11075,13 +11075,13 @@ Past Continuous или Past Indefinite.
 
 Правила образования причастия прошедшего времени см. в Unit 45. Вопросительная и отрицательная формы образуются при помощи вспомогательного глагола had.
 
-I had finished working by 4 o’clock. She hadn’t returned yet when I called. Had they discussed the events by the time you arrived?
+I had finished working by 4 o'clock. She hadn't returned yet when I called. Had they discussed the events by the time you arrived?
 
 2. СЛУЧАИ УПОТРЕБЛЕНИЯ
 
 - Действие, совершившееся до определенного момента в прошлом. Этот момент в прошлом может быть выражен:
 
-указанием времени с предлогом by * She had written the essay by 6 o’clock.
+указанием времени с предлогом by * She had written the essay by 6 o'clock.
 
 другим действием в прошлом * By the time we came the children had already stopped fighting. He had done everything necessary when I arrived.
 
@@ -11103,7 +11103,7 @@ She looked pale. She had had a headache since morning. They were very close frie
 
 Закончите ситуации. Составьте предложения или части предложений  
 из данных слов, употребляя глаголы в форме Past Perfect.  
-She was very worried. (by midnight, her son, not, to return, yet) By midnight her son hadn’t returned  
+She was very worried. (by midnight, her son, not, to return, yet) By midnight her son hadn't returned  
 yet.
 
 1. They thought they were well-prepared for the exam. (*to study*, *all the necessary material*, *by the* *end of the term*) .....................................................................................................................
@@ -11118,7 +11118,7 @@ yet.
 2. By the time he was thirty-five he had visited 12 countries.
 3. They had been married for 10 years.
 4. The train had already left when I arrived.
-5. We hadn’t seen each other since 1990.
+5. We hadn't seen each other since 1990.
 
 <a id="exercise-52-2"></a>
 
@@ -11132,12 +11132,12 @@ yet.
 
 1. Frank was in the Tretyakov Gallery last Sunday. He ........................ (*never*, *to be*) there before.
 2. She entered the room, greeted the guests, and introduced the friend she .................... (*to bring*).
-3. By 6 o’clock they ......................... (*not*, *to announce*) the results yet.
+3. By 6 o'clock they ......................... (*not*, *to announce*) the results yet.
 4. He ......................... (*to try*) getting her on the phone since early morning but she was out.
 5. By the time he was 15 he ......................... (*to break*) his arm three times.
 6. She ......................... (*to do*) all the housework before the children returned from school.
 7. Everybody was eager to get tickets for her concert. She ................. (*to be*) the most famous singer in the country for many years.
-8. It was the second time you ................. (*to lie*) to me. That’s why I never believed you afterwards.
+8. It was the second time you ................. (*to lie*) to me. That's why I never believed you afterwards.
 9. She ......................... (*to be*) very busy lately so she nearly forgot about our arrangement.
 10. We ......................... (*to discuss*) every detail of the plan by evening.
 11. He had dinner and took out the book he ......................... (*to buy*) on his way home.
@@ -11153,18 +11153,18 @@ yet.
 
 1. Frank was in the Tretyakov Gallery last Sunday. He had never been there before.
 2. She entered the room, greeted the guests, and introduced the friend she had brought.
-3. By 6 o’clock they hadn’t announced the results yet.
+3. By 6 o'clock they hadn't announced the results yet.
 4. He had tried getting her on the phone since early morning but she was out.
 5. By the time he was 15 he had broken his arm three times.
 6. She had done all the housework before the children returned from school.
 7. Everybody was eager to get tickets for her concert. She had been the most famous singer in the country for many years.
-8. It was the second time you had lied to me. That’s why I never believed you afterwards.
+8. It was the second time you had lied to me. That's why I never believed you afterwards.
 9. She had been very busy lately so she nearly forgot about our arrangement.
 10. We had discussed every detail of the plan by evening.
 11. He had dinner and took out the book he had bought on his way home.
 12. When the police arrived the criminal had already escaped.
 13. It was the most beautiful bunch of flowers I had ever got.
-14. I was surprised when she called. We hadn’t spoken for the last two months.
+14. I was surprised when she called. We hadn't spoken for the last two months.
 15. At the age of 40 he was a very experienced specialist. He had achieved a lot since he started working in that field.
 16. It had got dark by the time we reached the place.
 17. He had a good tan. He had just returned from his holiday in Spain.
@@ -11197,13 +11197,13 @@ yet.
 
 1. By the end of the month they had spent all their money.
 2. By the time she was 28 she had made a wonderful career.
-3. When Mike’s parents returned his friends had already left.
+3. When Mike's parents returned his friends had already left.
 4. Everything was very interesting for the child. He had never been to the Zoo before.
-5. I didn’t expect him to come in time. He had been late twice already.
+5. I didn't expect him to come in time. He had been late twice already.
 6. It was just the present I had wanted to get for a long time.
 7. By the time the rain started (By the time it started raining) they had already repaired the car.
 8. He arrived at the station, bought a ticket and called his wife as he had promised.
-9. They didn’t know what to tell each other. They hadn’t met since they divorced.
+9. They didn't know what to tell each other. They hadn't met since they divorced.
 10. Everything was new for Alice. It was the first time she had been out of town.
 
 <a id="unit-53"></a>
@@ -11218,7 +11218,7 @@ yet.
 
 |  |  |
 | --- | --- |
-| They didn’t know anything by that time yet. | They hadn’t found anything out by that time yet. |
+| They didn't know anything by that time yet. | They hadn't found anything out by that time yet. |
 | Они еще ничего не знали к тому времени. | Они еще ничего не узнали к тому времени. |
 
 Но если указано, сколько длится это состояние к определенному моменту в прошлом, обязательно употребление Past Perfect.
@@ -11232,7 +11232,7 @@ yet.
 
 |  |  |
 | --- | --- |
-| He lost the key and couldn’t get into the house. | He couldn’t get into the house because he had lost the key. |
+| He lost the key and couldn't get into the house. | He couldn't get into the house because he had lost the key. |
 | Он потерял ключ и не мог попасть домой. | Он не мог попасть домой, потому что потерял ключ. |
 
 3. В сложных предложениях с союзами hardly ... when, scarcely ... when, no sooner ... than в главном предложении употребляется Past Perfect, а в придаточном Past Indefinite. Обратите внимание на порядок слов.
@@ -11272,7 +11272,7 @@ Past Indefinite или Past Continuous.
 
 **Часть 2**
 
-1. At 8 o’clock yesterday I ......... (*to do*) nearly all my homework and ............. (*to listen*) to music.
+1. At 8 o'clock yesterday I ......... (*to do*) nearly all my homework and ............. (*to listen*) to music.
 2. By the time the operation ................ (*to be*) over the doctor .............. (*to be*) so tired that he .................. (*can*) hardly walk.
 3. By the time the operation ......................... (*to be*) over the doctor ......................... (*to get*) so tired that he ......................... (*can*) hardly walk.
 4. It ............. (*to be*) evening when I ................(*to leave*) the building and it ............. (*to get*) dark.
@@ -11306,15 +11306,15 @@ Past Indefinite или Past Continuous.
 6. He ............................ (*to agree*) to help only after I ........................... (*to ask*) him several times. I never ......................... (*to find*) out why he ......................... (*to refuse*) so long.
 7. By that time the police .................. (*to have*) all the necessary information so they ...................... (*to look*) for the criminals in all the places where people ......................... (*to see*) them before.
 8. He ......................... (*to be*) thirsty again though he ......................... (*to drink*) half the bottle of juice since he ......................... (*to come*) home.
-9. I ............. (*to need*) your advice at that time that’s why I ................. (*to call*). I ............... (*to* *call*) many times for about an hour but nobody ....................... (*to answer*). ................... (*you*, *to be*) out? — Actually I ..................... (*to sleep*). Your calls ....................... (*not*, *to wake*) me up because I ......................... (*to take*) a sleeping pill.
-10. Laura .................... (*to spend*) a sleepless night and .................... (*to suffer*) from a bad headache. She .................. (*to want*) a rest badly. She ............... (*to go*) out, (*to walk*) for some time but it .................... (*not*, *to help*) and by 1 o’clock in the afternoon she ................ (*to be*) in bed again. Hardly ...................... (*she*, *to start*) to fall asleep when the telephone ...................... (*to ring*) and she ......................... (*to get*) up.
+9. I ............. (*to need*) your advice at that time that's why I ................. (*to call*). I ............... (*to* *call*) many times for about an hour but nobody ....................... (*to answer*). ................... (*you*, *to be*) out? — Actually I ..................... (*to sleep*). Your calls ....................... (*not*, *to wake*) me up because I ......................... (*to take*) a sleeping pill.
+10. Laura .................... (*to spend*) a sleepless night and .................... (*to suffer*) from a bad headache. She .................. (*to want*) a rest badly. She ............... (*to go*) out, (*to walk*) for some time but it .................... (*not*, *to help*) and by 1 o'clock in the afternoon she ................ (*to be*) in bed again. Hardly ...................... (*she*, *to start*) to fall asleep when the telephone ...................... (*to ring*) and she ......................... (*to get*) up.
 
 **Полное решение**
 
 **Часть 1**
 
-1. She didn’t learn the material well enough and got a bad mark at the exam.
-2. She got a bad mark at the exam because she hadn’t learnt the material well enough.
+1. She didn't learn the material well enough and got a bad mark at the exam.
+2. She got a bad mark at the exam because she hadn't learnt the material well enough.
 3. I had known Sam for about two years when he got married.
 4. I knew Sam and Rachel when they got married.
 5. We gave the children their presents and they opened the parcels at once.
@@ -11326,13 +11326,13 @@ Past Indefinite или Past Continuous.
 
 **Часть 2**
 
-1. At 8 o’clock yesterday I had done nearly all my homework and was listening to music.
+1. At 8 o'clock yesterday I had done nearly all my homework and was listening to music.
 2. By the time the operation was over the doctor was so tired that he could hardly walk.
 3. By the time the operation was over the doctor had got so tired that he could hardly walk.
 4. It was evening when I left the building and it was getting dark.
 5. When I left the building it had got completely dark. I saw absolutely nothing.
-6. She made a list of things she needed and looked it through again to make sure she hadn’t forgotten anything.
-7. She forgot a few things when she was making a list, so she didn’t buy some of the things she needed.
+6. She made a list of things she needed and looked it through again to make sure she hadn't forgotten anything.
+7. She forgot a few things when she was making a list, so she didn't buy some of the things she needed.
 8. He spoke rudely to her but he apologized afterwards.
 9. He apologized because he had spoken rudely to her.
 10. Nick says he met Liz at the library a few days ago. She had come to take some book for her exam and was asking the librarian about it. Nick recognized her voice and came up.
@@ -11348,7 +11348,7 @@ Past Indefinite или Past Continuous.
 7. When the stranger entered, Mrs. Harper dropped the book she had taken out of the bookcase.
 8. By the time the police caught the robbers they no longer had the money they had stolen.
 9. When we moved here the Browns lived in the next house.
-10. She hurt her leg when she was getting off the bus. Fortunately, she didn’t break it.
+10. She hurt her leg when she was getting off the bus. Fortunately, she didn't break it.
 
 **Часть 4**
 
@@ -11360,8 +11360,8 @@ Past Indefinite или Past Continuous.
 6. He agreed to help only after I had asked him several times. I never found out why he had refused so long.
 7. By that time the police had all the necessary information so they were looking for the criminals in all the places where people had seen them before.
 8. He was thirsty again though he had drunk half the bottle of juice since he came home.
-9. I needed your advice at that time that’s why I called. I called many times for about an hour but nobody answered. Were you out? — Actually I was sleeping. Your calls didn’t wake me up because I had taken a sleeping pill.
-10. Laura had spent a sleepless night and was suffering from a bad headache. She wanted a rest badly. She went out, walked for some time but it didn’t help and by 1 o’clock in the afternoon she was in bed again. Hardly had she started to fall asleep when the telephone rang and she got up.
+9. I needed your advice at that time that's why I called. I called many times for about an hour but nobody answered. Were you out? — Actually I was sleeping. Your calls didn't wake me up because I had taken a sleeping pill.
+10. Laura had spent a sleepless night and was suffering from a bad headache. She wanted a rest badly. She went out, walked for some time but it didn't help and by 1 o'clock in the afternoon she was in bed again. Hardly had she started to fall asleep when the telephone rang and she got up.
 
 <a id="exercise-53-2"></a>
 
@@ -11396,7 +11396,7 @@ We had done everything by dinner time. — RIGHT ...............................
 3. By the time she had cleaned the flat she was very tired. ..........................................
 4. How long were you staying in London? ..................................................................
 5. We had already wanted to call the police when Mr. Thompson brought our children home. ..................................................................................................................
-6. She had forgotten her friend’s address and couldn’t find the house. ........................
+6. She had forgotten her friend's address and couldn't find the house. ........................
 7. She sat working on her computer when the light went out. .....................................
 8. Sam took a shower and was unpacking his things when somebody knocked at the door. ..........................................................................................................
 9. By the time we returned the children were fast asleep. ............................................
@@ -11424,7 +11424,7 @@ We had done everything by dinner time. — RIGHT ...............................
 3. By the time she cleaned the flat she was very tired.
 4. How long did you stay in London?
 5. We already wanted to call the police when Mr. Thompson brought our children home.
-6. She forgot her friend’s address and couldn’t find the house.
+6. She forgot her friend's address and couldn't find the house.
 7. She sat working on her computer when the light went out.
 8. Sam had taken a shower and was unpacking his things when somebody knocked at the door.
 9. By the time we returned the children were fast asleep.
@@ -11514,16 +11514,16 @@ We had done everything by dinner time. — RIGHT ...............................
 2. By the time she was 30 she had danced all the classical parts and was already a famous ballet dancer.
 3. When she woke up it was already light, morning had come.
 4. The children were very excited. Everybody had read the book and was discussing it.
-5. He felt that somebody was following him but he didn’t turn around.
+5. He felt that somebody was following him but he didn't turn around.
 6. We watched the film for about half an hour. — And then? — Then we turned off the TV set because the film was boring.
-7. By 5 o’clock she had prepared everything and (had) laid the table.
+7. By 5 o'clock she had prepared everything and (had) laid the table.
 8. Everything was ready and she was waiting for the guests.
 9. It stopped raining and we went for a walk.
-10. It hadn’t stopped raining when we went for a walk.
+10. It hadn't stopped raining when we went for a walk.
 
 **Часть 3**
 
-1. She was having a real rest. She hadn’t even read a newspaper since her holidays started.
+1. She was having a real rest. She hadn't even read a newspaper since her holidays started.
 2. He was very happy as he had won first prize in the competition.
 3. I was late. The teacher was already explaining a new rule.
 4. I was late. The teacher had already explained a new rule and everybody was doing an exercise.
@@ -11531,7 +11531,7 @@ We had done everything by dinner time. — RIGHT ...............................
 6. No sooner had we entered the hall than the light went out and the film started.
 7. I had known Maggie for about five years when I met her brother.
 8. We were already leaving when he caught up with us and asked us to stay.
-9. Was she still working in the garden at that time? — I don’t know. I didn’t see her.
+9. Was she still working in the garden at that time? — I don't know. I didn't see her.
 10. I had warned Dick many times before I finally punished him.
 
 <a id="unit-54"></a>
@@ -11552,7 +11552,7 @@ We had done everything by dinner time. — RIGHT ...............................
 
 It was just the book he had been looking for so long. Why had he been looking for the book so long before he finally found it?
 
-- Так же, как и Present Perfect Continuous, Past Perfect Continuous, как правило, не употребляется в отрицательных предложениях. Вместо него употребляется Past Perfect. It turned out that he hadn’t practised the reading of the text at home.
+- Так же, как и Present Perfect Continuous, Past Perfect Continuous, как правило, не употребляется в отрицательных предложениях. Вместо него употребляется Past Perfect. It turned out that he hadn't practised the reading of the text at home.
 
 2. СЛУЧАИ УПОТРЕБЛЕНИЯ
 
@@ -11612,7 +11612,7 @@ all night long.
 3. Pete ..................... (*not*, *to decide*) anything by Wednesday though we ..................... (*to discuss*) the situation long enough.
 4. We met at the Ritz. She ......................... (*to work*) there since the beginning of the year.
 5. I ......................... (*to call*) Nick several times before I finally got through.
-6. The child’s curiosity annoyed me. He ....................................... (*to ask*) me questions all day! He ......................... (*to ask*) me ten questions just for the last half an hour.
+6. The child's curiosity annoyed me. He ....................................... (*to ask*) me questions all day! He ......................... (*to ask*) me ten questions just for the last half an hour.
 7. The man who ......................... (*to follow*) me all the way turned out to be a policeman.
 8. The boy was exhausted. He ......................... (*not*, *to eat*) for three days.
 9. By the time the police found the burglar he ........................ (*to hide*) in the attic for three weeks.
@@ -11622,12 +11622,12 @@ all night long.
 
 1. The program she had been watching for some time suddenly stopped.
 2. How long had the Smallwoods been looking for the house before they found the one they really liked?
-3. Pete hadn’t decided anything by Wednesday though we had been discussing the situation long enough.
+3. Pete hadn't decided anything by Wednesday though we had been discussing the situation long enough.
 4. We met at the Ritz. She had been working there since the beginning of the year.
 5. I had called Nick several times before I finally got through.
-6. The child’s curiosity annoyed me. He had been asking me questions all day! He had asked me ten questions just for the last half an hour.
+6. The child's curiosity annoyed me. He had been asking me questions all day! He had asked me ten questions just for the last half an hour.
 7. The man who had been following me all the way turned out to be a policeman.
-8. The boy was exhausted. He hadn’t eaten for three days.
+8. The boy was exhausted. He hadn't eaten for three days.
 9. By the time the police found the burglar he had been hiding in the attic for three weeks.
 10. The dress she had put on looked wonderful.
 
@@ -11658,7 +11658,7 @@ all night long.
 
 **Полное решение**
 
-1. When Kate came we’d been discussing the news for half an hour already.
+1. When Kate came we'd been discussing the news for half an hour already.
 2. Was the car waiting for you when the train arrived? — Oh yes, but the driver was very nervous because the train was late and he had been waiting for me for a long time.
 3. The children looked cheerful. They had been skiing all morning.
 4. She was tired because she had been studying hard since morning. She had learnt half of the necessary material.
@@ -11705,17 +11705,17 @@ all night long.
    Варианты: 1) has got; was; 2) had got; was; 3) got; was.
 5. By that time she ......................... any more explanations, she ......................... everything.
 
-   Варианты: 1) didn’t need; had understood; 2) hadn’t needed; had understood; 3) didn’t need; understood.
+   Варианты: 1) didn't need; had understood; 2) hadn't needed; had understood; 3) didn't need; understood.
 6. How long ......................... you ......................... this information?
 
    Варианты: 1) have ................ had; 2) do ............ have; 3) have ............. been having.
 7. He ......................... a word yet since he ......................... .
 
-   Варианты: 1) hasn’t said; has come; 2) hasn’t said; came; 3) hasn’t been saying; came.
+   Варианты: 1) hasn't said; has come; 2) hasn't said; came; 3) hasn't been saying; came.
 8. My friends and I ......................... to the cinema this Saturday.
 
    Варианты: 1) go; 2) will go; 3) are going.
-9. I’ll tell him the truth as soon as he ......................... me.
+9. I'll tell him the truth as soon as he ......................... me.
 
    Варианты: 1) will ask; 2) ask; 3) asks.
 10. We ......................... the book during several lessons and ......................... an essay.
@@ -11739,12 +11739,12 @@ all night long.
 5. He ......................... his grammar for two hours yesterday.
 
    Варианты: 1) has been practising; 2) was practising; 3) practised.
-6. He ......................... his passport and couldn’t go away.
+6. He ......................... his passport and couldn't go away.
 
    Варианты: 1) had lost; 2) has lost; 3) lost.
 7. He ......................... a word. The man ......................... a foreign language.
 
-   Варианты: 1) didn’t understand; was speaking; 2) didn’t understand; spoke; 3) wasn’t understanding; was speaking.
+   Варианты: 1) didn't understand; was speaking; 2) didn't understand; spoke; 3) wasn't understanding; was speaking.
 8. He was amazed when he ......................... the church.
 
    Варианты: 1) had seen; 2) saw; 3) was seeing.
@@ -11763,13 +11763,13 @@ all night long.
 2. I hope that the situation ..........................
 
    Варианты: 1) soon clears up; 2) will soon clear up; 3) is soon going to clear up.
-3. It’s the first time I ......................... abroad.
+3. It's the first time I ......................... abroad.
 
    Варианты: 1) am; 2) have been; 3) was.
 4. I could see Mrs. Bell through the window. She ................... the curtains and .................... them.
 
    Варианты: 1) washed; hung; 2) was washing; was hanging; 3) had washed; was hanging.
-5. She ........................................ on the phone! No wonder you can’t get through.
+5. She ........................................ on the phone! No wonder you can't get through.
 
    Варианты: 1) is always talking; 2) has always been talking; 3) always talks.
 6. What ......................... he ......................... you?
@@ -11781,7 +11781,7 @@ all night long.
 8. I ............................... you a present the other day.
 
    Варианты: 1) bought; 2) have bought; 3) had bought.
-9. They ......................... each other for many years, that’s why she can’t believe it.
+9. They ......................... each other for many years, that's why she can't believe it.
 
    Варианты: 1) know; 2) knew; 3) have known.
 10. They ............... a house of their own for about a year when they decided to move to another city.
@@ -11796,11 +11796,11 @@ all night long.
 2. Did you hear the concert at 5?
 3. I wonder if they will come in time.
 4. He got married three times when he was young.
-5. By that time she didn’t need any more explanations, she had understood everything.
+5. By that time she didn't need any more explanations, she had understood everything.
 6. How long have you had this information?
-7. He hasn’t said a word yet since he came.
+7. He hasn't said a word yet since he came.
 8. My friends and I are going to the cinema this Saturday.
-9. I’ll tell him the truth as soon as he asks me.
+9. I'll tell him the truth as soon as he asks me.
 10. We discussed the book during several lessons and wrote an essay.
 
 **Часть 2**
@@ -11810,8 +11810,8 @@ all night long.
 3. What has happened to him in the last few days?
 4. What time do your classes start?
 5. He practised his grammar for two hours yesterday.
-6. He lost his passport and couldn’t go away.
-7. He didn’t understand a word. The man was speaking a foreign language.
+6. He lost his passport and couldn't go away.
+7. He didn't understand a word. The man was speaking a foreign language.
 8. He was amazed when he saw the church.
 9. The woman was in despair. Her child had disappeared.
 10. I think that if Pete keeps the secret nobody will find out anything.
@@ -11820,13 +11820,13 @@ all night long.
 
 1. Has she changed her mind?
 2. I hope that the situation will soon clear up.
-3. It’s the first time I have been abroad.
+3. It's the first time I have been abroad.
 4. I could see Mrs. Bell through the window. She had washed the curtains and was hanging them.
-5. She is always talking on the phone! No wonder you can’t get through.
+5. She is always talking on the phone! No wonder you can't get through.
 6. What did he tell you?
 7. It was late when he came and she was asleep.
 8. I bought you a present the other day.
-9. They have known each other for many years, that’s why she can’t believe it.
+9. They have known each other for many years, that's why she can't believe it.
 10. They had had a house of their own for about a year when they decided to move to another city.
 
 <a id="exercise-55-2"></a>
@@ -11841,7 +11841,7 @@ all night long.
 
 **Часть 1**
 
-For thirty years now I ......................... (to study) people. I ......................... (not, to know) very much about them. Some people ......................... (to say) that their first impressions of a person ......................... (to be) always right. For my part I find the longer I ......................... (to know) people the more they ......................... (to puzzle) me: my oldest friends ......................... (to be) those of whom I can say that I ......................... (not, to know) the first thing about them. That is what I ......................... (to think) when I ......................... (to read) in this morning’s paper that Edward Hyde Burton ......................... (to die) at Kobe. He ......................... (to be) a merchant and he ................. (to be) in business in Japan for many years. I ....................... (to know) him very little, but he ......................... (to interest) me because once he ......................... (to give) me a great surprise. After W. S. Maugham “A Friend in Need”
+For thirty years now I ......................... (to study) people. I ......................... (not, to know) very much about them. Some people ......................... (to say) that their first impressions of a person ......................... (to be) always right. For my part I find the longer I ......................... (to know) people the more they ......................... (to puzzle) me: my oldest friends ......................... (to be) those of whom I can say that I ......................... (not, to know) the first thing about them. That is what I ......................... (to think) when I ......................... (to read) in this morning's paper that Edward Hyde Burton ......................... (to die) at Kobe. He ......................... (to be) a merchant and he ................. (to be) in business in Japan for many years. I ....................... (to know) him very little, but he ......................... (to interest) me because once he ......................... (to give) me a great surprise. After W. S. Maugham “A Friend in Need”
 
 **Часть 2**
 
@@ -11853,17 +11853,17 @@ It was settled. Frank, with her usual decisiveness, walked out as soon as she ..
 
 **Часть 4**
 
-“Then, what in God’s name ......................... (you, to leave) her for?” “I ......................... (to want) to paint.” I ........................... (to look) at him for quite a long time. I .............................. (not, to understand). I thought he was mad. It must be remembered that I was very young, and I ......................... (to look) upon him as a middle-aged man. “But you ......................... (to be) forty.” “That’s what ......................... (to make) me think it was high time to begin.” “......................... (you, ever, to paint)? “ “I rather ..................... (to want) to be a painter when I ..................... (to be) a boy, but my father .................... (to make) me go into business because he .............. (to say) there was no money in art. I .................... (to begin) to paint a bit a year ago. For the last year I ......................... (to go) to some classes at night.” “Was that where you .................... (to go) when Mrs. Strickland thought you ....................... (to play) bridge at your club?” “That’s it.” “Why ......................... (you, not, to tell) her?” “I ......................... (to prefer) to keep it to myself.” “Can you paint?” “Not yet. But I shall. That’s why I .......................... (to come) over here. I couldn’t get what I wanted in London. Perhaps I can here.” “Do you think it’s likely that a man ..................... (to do) any good when he ......................... (to start) at your age? Most men ......................... (to begin) painting at eighteen.” “I can learn quicker that I could when I ......................... (to be) eighteen.” After W. S. Maugham “The Moon and Sixpence”
+“Then, what in God's name ......................... (you, to leave) her for?” “I ......................... (to want) to paint.” I ........................... (to look) at him for quite a long time. I .............................. (not, to understand). I thought he was mad. It must be remembered that I was very young, and I ......................... (to look) upon him as a middle-aged man. “But you ......................... (to be) forty.” “That's what ......................... (to make) me think it was high time to begin.” “......................... (you, ever, to paint)? “ “I rather ..................... (to want) to be a painter when I ..................... (to be) a boy, but my father .................... (to make) me go into business because he .............. (to say) there was no money in art. I .................... (to begin) to paint a bit a year ago. For the last year I ......................... (to go) to some classes at night.” “Was that where you .................... (to go) when Mrs. Strickland thought you ....................... (to play) bridge at your club?” “That's it.” “Why ......................... (you, not, to tell) her?” “I ......................... (to prefer) to keep it to myself.” “Can you paint?” “Not yet. But I shall. That's why I .......................... (to come) over here. I couldn't get what I wanted in London. Perhaps I can here.” “Do you think it's likely that a man ..................... (to do) any good when he ......................... (to start) at your age? Most men ......................... (to begin) painting at eighteen.” “I can learn quicker that I could when I ......................... (to be) eighteen.” After W. S. Maugham “The Moon and Sixpence”
 
 **Часть 5**
 
-One morning when he ......................... (to be) in Rhodes a little over a week, he happened to be coming upstairs as Betty ......................... (to walk) along the passage. “You ......................... (never, to show) me your room, Betty,” he said. “Oh, come in and have a look now. It’s rather nice.” She ......................... (to turn) back and he ......................... (to follow) her in. It was over the drawingroom and nearly as large. It was furnished in the Italian style. The bed was Venetian and beautifully painted. “That’s a couch of rather imposing dimensions for a widow lady,” he said facetiously. “It’s enormous, isn’t it? But it was so lovely, I had to buy it. It ......................... (to cost) a fortune.” His eye ......................... (to take) in the bed-table by the side. There ......................... (to be) two or three books on it, a box of cigarettes, and on an ash-tray a briar pipe. Funny! What on earth ......................... (Betty, to have) a pipe by her bed for?” “Do look at this. Isn’t the painting marvellous? I almost ............. (to cry) when I ............. (to find) it.” “I suppose that ......................... (to cost) a fortune too.” “I daren’t tell you what I ......................... (to pay).” When they .................. (to leave) the room he ..................... (to cast) another glance at the bed-table. The pipe ......................... (to vanish). After W. S. Maugham “The Human Element”
+One morning when he ......................... (to be) in Rhodes a little over a week, he happened to be coming upstairs as Betty ......................... (to walk) along the passage. “You ......................... (never, to show) me your room, Betty,” he said. “Oh, come in and have a look now. It's rather nice.” She ......................... (to turn) back and he ......................... (to follow) her in. It was over the drawingroom and nearly as large. It was furnished in the Italian style. The bed was Venetian and beautifully painted. “That's a couch of rather imposing dimensions for a widow lady,” he said facetiously. “It's enormous, isn't it? But it was so lovely, I had to buy it. It ......................... (to cost) a fortune.” His eye ......................... (to take) in the bed-table by the side. There ......................... (to be) two or three books on it, a box of cigarettes, and on an ash-tray a briar pipe. Funny! What on earth ......................... (Betty, to have) a pipe by her bed for?” “Do look at this. Isn't the painting marvellous? I almost ............. (to cry) when I ............. (to find) it.” “I suppose that ......................... (to cost) a fortune too.” “I daren't tell you what I ......................... (to pay).” When they .................. (to leave) the room he ..................... (to cast) another glance at the bed-table. The pipe ......................... (to vanish). After W. S. Maugham “The Human Element”
 
 **Полное решение**
 
 **Часть 1**
 
-For thirty years now I have been studying people. I don’t know very much about them. Some people say that their first impressions of a person are always right. For my part I find the longer I know people the more they puzzle me: my oldest friends are those of whom I can say that I don’t know the first thing about them. That is what I was thinking when I read in this morning’s paper that Edward Hyde Burton had died at Kobe. He was a merchant and he was in business in Japan for many years. I knew him very little, but he interested me because once he gave me a great surprise. After W. S. Maugham “A Friend in Need”
+For thirty years now I have been studying people. I don't know very much about them. Some people say that their first impressions of a person are always right. For my part I find the longer I know people the more they puzzle me: my oldest friends are those of whom I can say that I don't know the first thing about them. That is what I was thinking when I read in this morning's paper that Edward Hyde Burton had died at Kobe. He was a merchant and he was in business in Japan for many years. I knew him very little, but he interested me because once he gave me a great surprise. After W. S. Maugham “A Friend in Need”
 
 **Часть 2**
 
@@ -11871,15 +11871,15 @@ She was waiting for him at the station house. He put his hands on her and knelt 
 
 **Часть 3**
 
-It was settled. Frank, with her usual decisiveness, walked out as soon as she had finished her breakfast to send a wire, and three days later Lena Finch arrived. Frank met her at the station. She was in deep but not obtrusive mourning for the recent death of her husband. Frank hadn’t seen her for two years. She kissed her warmly and took a good look at her. “You are very thin, darling,” she said. Lena smiled bravely. “I have been through a good deal lately. I have lost a lot of weight.” After W. S. Maugham “The Three Fat Women of Antibes” (Одна из героинь рассказа называла себя мужским именем Frank.)
+It was settled. Frank, with her usual decisiveness, walked out as soon as she had finished her breakfast to send a wire, and three days later Lena Finch arrived. Frank met her at the station. She was in deep but not obtrusive mourning for the recent death of her husband. Frank hadn't seen her for two years. She kissed her warmly and took a good look at her. “You are very thin, darling,” she said. Lena smiled bravely. “I have been through a good deal lately. I have lost a lot of weight.” After W. S. Maugham “The Three Fat Women of Antibes” (Одна из героинь рассказа называла себя мужским именем Frank.)
 
 **Часть 4**
 
-“Then, what in God’s name have you left her for?” “I want to paint.” I looked at him for quite a long time. I didn’t understand. I thought he was mad. It must be remembered that I was very young, and I looked upon him as a middle-aged man. “But you are forty.” “That’s what made me think it was high time to begin.” “Have you ever painted?” “I rather wanted to be a painter when I was a boy, but my father made me go into business because he said there was no money in art. I began to paint a bit a year ago. For the last year I have been going to some classes at night.” “Was that where you went when Mrs. Strickland thought you were playing bridge at your club?” “That’s it.” “Why didn’t you tell her?” “I preferred to keep it to myself.” “Can you paint?” “Not yet. But I shall. That’s why I have come over here. I couldn’t get what I wanted in London. Perhaps I can here.” “Do you think it’s likely that a man will do any good when he starts at your age? Most men begin painting at eighteen.” “I can learn quicker than I could when I was eighteen.” After W. S. Maugham “The Moon and Sixpence”
+“Then, what in God's name have you left her for?” “I want to paint.” I looked at him for quite a long time. I didn't understand. I thought he was mad. It must be remembered that I was very young, and I looked upon him as a middle-aged man. “But you are forty.” “That's what made me think it was high time to begin.” “Have you ever painted?” “I rather wanted to be a painter when I was a boy, but my father made me go into business because he said there was no money in art. I began to paint a bit a year ago. For the last year I have been going to some classes at night.” “Was that where you went when Mrs. Strickland thought you were playing bridge at your club?” “That's it.” “Why didn't you tell her?” “I preferred to keep it to myself.” “Can you paint?” “Not yet. But I shall. That's why I have come over here. I couldn't get what I wanted in London. Perhaps I can here.” “Do you think it's likely that a man will do any good when he starts at your age? Most men begin painting at eighteen.” “I can learn quicker than I could when I was eighteen.” After W. S. Maugham “The Moon and Sixpence”
 
 **Часть 5**
 
-One morning when he had been in Rhodes a little over a week, he happened to be coming upstairs as Betty was walking along the passage. “You have never shown me your room, Betty,” he said. “Oh, come in and have a look now. It’s rather nice.” She turned back and he followed her in. It was over the drawing-room and nearly as large. It was furnished in the Italian style. The bed was Venetian and beautifully painted. “That’s a couch of rather imposing dimensions for a widow lady,” he said facetiously. “It’s enormous, isn’t it? But it was so lovely, I had to buy it. It cost a fortune.” His eye took in the bed-table by the side. There were two or three books on it, a box of cigarettes, and on an ash-tray a briar pipe. Funny! What on earth did Betty have a pipe by her bed for?” “Do look at this. Isn’t the painting marvellous? I almost cried when I found it.” “I suppose that cost a fortune too.” “I daren’t tell you what I paid.” When they were leaving the room he cast another glance at the bed-table. The pipe had vanished. After W. S. Maugham “The Human Element”
+One morning when he had been in Rhodes a little over a week, he happened to be coming upstairs as Betty was walking along the passage. “You have never shown me your room, Betty,” he said. “Oh, come in and have a look now. It's rather nice.” She turned back and he followed her in. It was over the drawing-room and nearly as large. It was furnished in the Italian style. The bed was Venetian and beautifully painted. “That's a couch of rather imposing dimensions for a widow lady,” he said facetiously. “It's enormous, isn't it? But it was so lovely, I had to buy it. It cost a fortune.” His eye took in the bed-table by the side. There were two or three books on it, a box of cigarettes, and on an ash-tray a briar pipe. Funny! What on earth did Betty have a pipe by her bed for?” “Do look at this. Isn't the painting marvellous? I almost cried when I found it.” “I suppose that cost a fortune too.” “I daren't tell you what I paid.” When they were leaving the room he cast another glance at the bed-table. The pipe had vanished. After W. S. Maugham “The Human Element”
 
 <a id="exercise-55-3"></a>
 
@@ -11962,11 +11962,11 @@ One morning when he had been in Rhodes a little over a week, he happened to be c
 
 1. I used to see him here quite often.
 2. Have you seen him here before? — Yes, I have. — When was he here last?
-3. By the time she was to return the book to the library she hadn’t finished it yet. — And what did she do?
+3. By the time she was to return the book to the library she hadn't finished it yet. — And what did she do?
 4. She watched TV looking through a magazine.
 5. Did everybody like the performance?
 6. It was the first time she had listened to that opera. — Where did she get the tickets?
-7. She had been using that medicine for a month but she didn’t feel better.
+7. She had been using that medicine for a month but she didn't feel better.
 8. Hardly had they got married when they divorced.
 9. Have you ever been to a disco? — Yes, I have. I was there many times when I was a teenager.
 10. She had got a letter and was reading it.
@@ -11978,11 +11978,11 @@ One morning when he had been in Rhodes a little over a week, he happened to be c
 3. Did you recognize each other at once? — Sure, we had met many times.
 4. Why are you smelling the flower again? — It smells so nice!
 5. She got a terrible headache while she was listening to the lecture.
-6. How long has it been raining? — Since about 12 o’clock.
-7. Tom thinks that even if he brings all of us home, his Mum won’t get angry.
-8. Does the program begin at 7 o’clock in the evening?
+6. How long has it been raining? — Since about 12 o'clock.
+7. Tom thinks that even if he brings all of us home, his Mum won't get angry.
+8. Does the program begin at 7 o'clock in the evening?
 9. By the time he was 30 he already had two professions and had changed several jobs.
-10. I haven’t gone out since I broke my leg.
+10. I haven't gone out since I broke my leg.
 
 **Часть 3**
 
@@ -11992,20 +11992,20 @@ One morning when he had been in Rhodes a little over a week, he happened to be c
 4. This house has been ours for 5 years.
 5. Our neighbours were having a very noisy party and we called the police.
 6. You are always speaking at the top of your voice!
-7. She looked at her watch. It was already late and her son hadn’t come back yet.
-8. I haven’t been very busy lately and that’s why I’ve been reading a lot.
-9. Until I repair the car we won’t go anywhere.
+7. She looked at her watch. It was already late and her son hadn't come back yet.
+8. I haven't been very busy lately and that's why I've been reading a lot.
+9. Until I repair the car we won't go anywhere.
 10. She had a rest for a fortnight and returned to work.
 
 **Часть 4**
 
 1. The children had done their homework and were playing. They had been playing for about two hours.
-2. By the end of the week the police had stopped the investigation though they hadn’t found the criminal.
+2. By the end of the week the police had stopped the investigation though they hadn't found the criminal.
 3. She combed her hair and looked in the mirror.
-4. We’ve been looking for our kitten ever since it got lost.
+4. We've been looking for our kitten ever since it got lost.
 5. Call me in case you have problems.
 6. When I was approaching the stop, the passengers were already getting on the bus.
-7. I have no idea what my wife was doing at that time. She was out. (She wasn’t at home.)
+7. I have no idea what my wife was doing at that time. She was out. (She wasn't at home.)
 8. Kate planted a flower and put it on the window sill. The next day it died as she had forgotten to water it.
 9. The clients wonder when they will get an answer to their question.
 10. He used to be the worst student in the group. But now everything has changed.
@@ -12018,10 +12018,10 @@ One morning when he had been in Rhodes a little over a week, he happened to be c
 4. I learnt fantastic news the other day.
 5. I needed a present for Helen as I was going to her birthday party at the weekend.
 6. How did the children behave?
-7. I’ve been thinking over their offer for several days but I haven’t made up my mind to accept it yet.
-8. You are making this bad mistake again! Why haven’t you learnt the rule so far?
+7. I've been thinking over their offer for several days but I haven't made up my mind to accept it yet.
+8. You are making this bad mistake again! Why haven't you learnt the rule so far?
 9. I was going to tell them about my new job but they already knew everything and were just discussing it when I came. — Who had told them?
-10. This is the most difficult decision I’ve ever made.
+10. This is the most difficult decision I've ever made.
 
 ## Косвенная речь и согласование времён
 
@@ -12053,7 +12053,7 @@ Helen wonders, “Where did they hide the money?” Helen wonders where they hid
 
 4. Команда или просьба переводятся в косвенную речь инфинитивом.
 
-The teacher asks, “Close the window, Charles.” The teacher asks Charles to close the window. The shop assistant says, “Don’t touch it.” The shop assistant says not to touch it.
+The teacher asks, “Close the window, Charles.” The teacher asks Charles to close the window. The shop assistant says, “Don't touch it.” The shop assistant says not to touch it.
 
 Обратите внимание на смысловое изменение личных и притяжательных местоимений при переводе из прямой речи в косвенную.
 
@@ -12061,7 +12061,7 @@ Alice says, “My Dad comes home very late.” Alice says that her Dad comes hom
 
 Если указан объект, к которому обращена прямая речь, то при переводе в косвенную речь в словах автора глагол say заменяется на tell.
 
-My Granny often says to me, “Don’t be lazy.” My Granny often tells me not to be lazy.
+My Granny often says to me, “Don't be lazy.” My Granny often tells me not to be lazy.
 
 <a id="exercise-56-1"></a>
 
@@ -12076,10 +12076,10 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 **Часть 1**
 
 1. My brother says, “You are always spending hours in the bathroom!”
-2. Brian says, “I’ve never been to England but I’d like to go there.”
+2. Brian says, “I've never been to England but I'd like to go there.”
 3. Rachel says, “Tim, you must help me with the shopping today.”
-4. The teacher says to the student, “You weren’t attentive enough.”
-5. My friends say, “We were waiting for you at the cinema at 5 o’clock.”
+4. The teacher says to the student, “You weren't attentive enough.”
+5. My friends say, “We were waiting for you at the cinema at 5 o'clock.”
 
 **Часть 2**
 
@@ -12091,9 +12091,9 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 
 **Часть 3**
 
-1. Nick’s parents wonder, “How did you meet Helen?”
+1. Nick's parents wonder, “How did you meet Helen?”
 2. The teacher asks the pupils, “Which of you can translate this sentence?”
-3. I ask Ned, “What does Alice’s elder brother look like?”
+3. I ask Ned, “What does Alice's elder brother look like?”
 4. Mum asks me, “Where have you been all this time?”
 5. The man asks, “Why are you crying, boy?”
 
@@ -12101,19 +12101,19 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 
 1. Mum advises, “Call the doctor at once.”
 2. My husband says to me, “Never touch this button.”
-3. The teacher asks, “Children, don’t make so much noise.”
+3. The teacher asks, “Children, don't make so much noise.”
 4. The sick child asks, “Give me something tasty, Mum.”
-5. I say to my child, “Don’t speak to people in such a way.”
+5. I say to my child, “Don't speak to people in such a way.”
 
 **Полное решение**
 
 **Часть 1**
 
-1. My brother says that I’m always spending hours in the bathroom.
-2. Brian says that he has never been to England but he’d like to go there.
+1. My brother says that I'm always spending hours in the bathroom.
+2. Brian says that he has never been to England but he'd like to go there.
 3. Rachel tells Tim that he must help her with the shopping today.
-4. The teacher tells the student that he (she) wasn’t attentive enough.
-5. My friends say that they were waiting for me at the cinema at 5 o’clock.
+4. The teacher tells the student that he (she) wasn't attentive enough.
+5. My friends say that they were waiting for me at the cinema at 5 o'clock.
 
 **Часть 2**
 
@@ -12125,9 +12125,9 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 
 **Часть 3**
 
-1. Nick’s parents wonder how he met Helen.
+1. Nick's parents wonder how he met Helen.
 2. The teacher asks which of the pupils can translate this sentence. (The teacher asks the pupils which of them can translate this sentence.)
-3. I ask Ned what Alice’s elder brother looks like.
+3. I ask Ned what Alice's elder brother looks like.
 4. Mum asks me where I have been all this time.
 5. The man asks the boy why he is crying.
 
@@ -12180,7 +12180,7 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 **Часть 1**
 
 1. My doctor advises me not to take this medicine.
-2. David says that he has seen this film but he didn’t like it.
+2. David says that he has seen this film but he didn't like it.
 3. They wonder what else Mr. Brown said.
 4. Mum asks me to clean my room once a week.
 5. Kate asks if the others know about the changes in the plan.
@@ -12197,7 +12197,7 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 3. My son says that he needs a computer.
 4. The speaker says that he knows what he is speaking about.
 5. This woman wonders where you used to live.
-6. Our neighbours say that if we don’t come to their party they will be hurt.
+6. Our neighbours say that if we don't come to their party they will be hurt.
 7. My brother asks me not to be angry with him.
 8. When we meet he always asks how I am.
 9. My Mum always wonders who I went to the cinema with.
@@ -12221,7 +12221,7 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 | Present Perfect Continuous<br>She said, “I have been working at it this<br>week.” | Past Perfect Continuous<br>She said that she had been working<br>at it that week. |
 | Past Indefinite<br>She said, “I found it out long ago<br>(last week).” | Past Perfect<br>She said that she had found it out long<br>before (the previous week). |
 | Past Continuous<br>She said, “I was walking in the park at<br>three yesterday.” | Past Perfect Continuous<br>She said that she had been walking in the<br>park at three the day before. |
-| Future Indefinite<br>She said, “I’ll call you tomorrow<br>(next week).” | Future-in-the-Past<br>She said that she would call me<br>the next / the following day<br>(the next / the following week). |
+| Future Indefinite<br>She said, “I'll call you tomorrow<br>(next week).” | Future-in-the-Past<br>She said that she would call me<br>the next / the following day<br>(the next / the following week). |
 
 2. Видо-временная форма глагола, употребленного в прямой речи, остается неизменной при переводе в косвенную, если в прямой речи говорилось об общеизвестном факте или универсальной истине.
 
@@ -12243,7 +12243,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 
 **Часть 1**
 
-1. “It’s a wonderful view!” she exclaimed. ....................................................................................
+1. “It's a wonderful view!” she exclaimed. ....................................................................................
 2. “Do you agree that clothes make the man?” Ann wondered. .................................................... ..............................................................................................................................................
 3. “My sister stars in the new play,” said Dick. ..............................................................................
 4. “My neighbours are vegetarians,” Mrs. Crow said. ....................................................................
@@ -12253,7 +12253,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 
 1. Mrs. Pitt announced, “My daughter is going to have a baby.” .................................................... ..............................................................................................................................................
 2. “Why is he looking for a new job?” I asked. ..............................................................................
-3. “I’m taking my final exams next month,” said Pete. ..................................................................
+3. “I'm taking my final exams next month,” said Pete. ..................................................................
 4. “Are you doing it on purpose?” the old man wondered. .............................................................
 5. “Who is making that awful noise?” the teacher cried. ...............................................................
 
@@ -12261,8 +12261,8 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 
 1. “How long have you been learning English?” asked the examiner. ............................................ ..............................................................................................................................................
 2. “My Mum has never travelled by plane,” she said. ....................................................................
-3. “I haven’t seen Patsy for ages,” Jane complained. ....................................................................
-4. “You’ve been working really hard lately,” my coach admitted. ...................................................
+3. “I haven't seen Patsy for ages,” Jane complained. ....................................................................
+4. “You've been working really hard lately,” my coach admitted. ...................................................
 5. “Have you heard the news?” Raymond asked. .........................................................................
 
 **Часть 4**
@@ -12270,51 +12270,51 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 1. “That was a wonderful party,” Laura said. ................................................................................
 2. “My son graduated from Oxford University three years ago,” Mr. Dent said. ............................... ..............................................................................................................................................
 3. ”Did you enjoy your holiday last year?” John asked. ................................................................
-4. “Where were you yesterday? I couldn’t find you,” said Jane. .....................................................
+4. “Where were you yesterday? I couldn't find you,” said Jane. .....................................................
 5. “Einstein invented the theory of relativity,” said the book. ........................................................
 
 **Часть 5**
 
 1. “What were you laughing at when I entered?” the boy asked. .................................................... ..............................................................................................................................................
-2. “I didn’t hear anything. The music was playing quite loudly,” the woman said. .......................... ..............................................................................................................................................
+2. “I didn't hear anything. The music was playing quite loudly,” the woman said. .......................... ..............................................................................................................................................
 3. “My daughter was still sleeping at that time,” Mrs. Gray said. .................................................... ..............................................................................................................................................
 4. “Were you playing tennis at 5, as usual?” Dad asked. ...............................................................
 5. “The man was leaving for St. Petersburg and asked to take him to the station,” the taxi driver said. ......................................................................................................................................
 
 **Часть 6**
 
-1. “I’ll call you tomorrow,” Mary promised. ..................................................................................
-2. “If anything happens to me, you’ll have to look after my children,” she said. .............................. ..............................................................................................................................................
-3. “I won’t help you until you tell me all the truth,” the lawyer said. ................................................ ..............................................................................................................................................
-4. “We won’t have this subject next year,” she complained. .......................................................... ..............................................................................................................................................
+1. “I'll call you tomorrow,” Mary promised. ..................................................................................
+2. “If anything happens to me, you'll have to look after my children,” she said. .............................. ..............................................................................................................................................
+3. “I won't help you until you tell me all the truth,” the lawyer said. ................................................ ..............................................................................................................................................
+4. “We won't have this subject next year,” she complained. .......................................................... ..............................................................................................................................................
 5. “Will you stay there long?” Mum wondered. .............................................................................
 
 **Часть 7**
 
-1. “You won’t make the child obey if you shout at him,” the woman insisted. ................................. ..............................................................................................................................................
-2. “I’m so sleepy that I can’t think clearly now,” Mary said. ........................................................... ..............................................................................................................................................
+1. “You won't make the child obey if you shout at him,” the woman insisted. ................................. ..............................................................................................................................................
+2. “I'm so sleepy that I can't think clearly now,” Mary said. ........................................................... ..............................................................................................................................................
 3. “How many times have you got letters from Lady Fox?” asked the police inspector. .................. ..............................................................................................................................................
-4. “Who gave you the recipe? It’s so good!” my mother-in-law said. ............................................. ..............................................................................................................................................
+4. “Who gave you the recipe? It's so good!” my mother-in-law said. ............................................. ..............................................................................................................................................
 5. “Paris is the capital of France,” the pupil answered. ..................................................................
-6. “Don’t show the dog that you are afraid,” Dad said. ..................................................................
-7. “What are you doing tomorrow? How about going for a walk?” Nick asked. — “I can go now. I’ll be ready in five minutes,” I answered. ...................................................................................... ..............................................................................................................................................
+6. “Don't show the dog that you are afraid,” Dad said. ..................................................................
+7. “What are you doing tomorrow? How about going for a walk?” Nick asked. — “I can go now. I'll be ready in five minutes,” I answered. ...................................................................................... ..............................................................................................................................................
 8. “Who will stay with the baby while you work?” Mum asked. ......................................................
-9. “I haven’t had such a good time since I fell ill,” the girl admitted. ............................................... ..............................................................................................................................................
+9. “I haven't had such a good time since I fell ill,” the girl admitted. ............................................... ..............................................................................................................................................
 10. “Why did you have to get up so early today?” my brother asked. .............................................. ..............................................................................................................................................
-11. “I wasn’t going to steal the pen at all. I was just looking at it!” the woman argued. ...................... ..............................................................................................................................................
+11. “I wasn't going to steal the pen at all. I was just looking at it!” the woman argued. ...................... ..............................................................................................................................................
 12. “Peter I won the war with the Swedes,” the teacher said. ...........................................................
-13. “What do you mean? I don’t quite get you,” I asked my boss. ................................................... ..............................................................................................................................................
-14. “I was surprised but I didn’t know what to say,” Joan said. ........................................................ ..............................................................................................................................................
-15. “You’ve been wasting time again! You haven’t done anything!” the teacher complained. ............ ..............................................................................................................................................
-16. “Speak to that young man again,” Mr. Smiley advised me. “I think he knows more than he’s saying.” .................................................................................................................................
+13. “What do you mean? I don't quite get you,” I asked my boss. ................................................... ..............................................................................................................................................
+14. “I was surprised but I didn't know what to say,” Joan said. ........................................................ ..............................................................................................................................................
+15. “You've been wasting time again! You haven't done anything!” the teacher complained. ............ ..............................................................................................................................................
+16. “Speak to that young man again,” Mr. Smiley advised me. “I think he knows more than he's saying.” .................................................................................................................................
 17. “What will you do if you fail your exam?” Diana wondered. ....................................................... ..............................................................................................................................................
 18. “Whose fault is it? Tell me at once!” the principal said angrily. ................................................... ..............................................................................................................................................
-19. “Sorry, I didn’t stop to speak to you yesterday. I was in a great hurry,” Fred said. ....................... ..............................................................................................................................................
+19. “Sorry, I didn't stop to speak to you yesterday. I was in a great hurry,” Fred said. ....................... ..............................................................................................................................................
 20. “My sister is a journalist. She has interviewed many famous people,” Jerry said proudly. ........... ..............................................................................................................................................
 21. “Is Tim your brother or your cousin?” I asked Ann. ..................................................................
 22. “I wonder what will come of your plan,” said Brian. ...................................................................
 23. “Jupiter is the largest planet in the solar system,” the lecturer said. ........................................... ..............................................................................................................................................
-24. “I paid attention to the boy’s behaviour long ago. I think it’s strange,” Mrs. Barney said. ............ ..............................................................................................................................................
+24. “I paid attention to the boy's behaviour long ago. I think it's strange,” Mrs. Barney said. ............ ..............................................................................................................................................
 25. “Your sister is sleeping in her room. She asked not to disturb her,” our servant said. .................. ..............................................................................................................................................
 
 **Полное решение**
@@ -12339,7 +12339,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 
 1. The examiner asked how long I had been learning English.
 2. She said that her Mum had never travelled by plane.
-3. Jane complained that she hadn’t seen Patsy for ages.
+3. Jane complained that she hadn't seen Patsy for ages.
 4. My coach admitted that I had been working really hard lately.
 5. Raymond asked if I had heard the news.
 
@@ -12348,13 +12348,13 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 1. Laura said that it had been a wonderful party.
 2. Mr. Dent said that his son had graduated from Oxford University three years before.
 3. John asked if I had enjoyed my holiday the previous year.
-4. Jane asked where I had been the day before and added that she hadn’t been able to find me.
+4. Jane asked where I had been the day before and added that she hadn't been able to find me.
 5. The book said that Einstein invented the theory of relativity.
 
 **Часть 5**
 
 1. The boy asked what I (we) had been laughing at when he entered.
-2. The woman said that she hadn’t heard anything because the music had been playing quite loudly.
+2. The woman said that she hadn't heard anything because the music had been playing quite loudly.
 3. Mrs. Gray said that her daughter had been still sleeping at that time.
 4. Dad asked if I had been playing tennis at 5 as usual.
 5. The taxi driver said that the man had been leaving for St. Petersburg and had asked him to take him to the station.
@@ -12363,36 +12363,36 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 
 1. Mary promised that she would call me the following day.
 2. She said that if anything happened to her I would have to look after her children.
-3. The lawyer said that he wouldn’t help me until I told him all the truth.
-4. She complained that they wouldn’t have that subject the following year.
+3. The lawyer said that he wouldn't help me until I told him all the truth.
+4. She complained that they wouldn't have that subject the following year.
 5. My Mum wondered if I would stay there long.
 
 **Часть 7**
 
-1. The woman insisted that I wouldn’t make the child obey if I shouted at him.
-2. Mary said that she was so sleepy that she couldn’t think clearly then.
+1. The woman insisted that I wouldn't make the child obey if I shouted at him.
+2. Mary said that she was so sleepy that she couldn't think clearly then.
 3. The police inspector asked me how many times I had got letters from Lady Fox.
 4. My mother-in-law asked me who had given me the recipe and added that it was very good.
 5. The pupil answered that Paris is the capital of France.
 6. Dad told me not to show the dog that I was afraid.
 7. Nick asked what I was doing the next day and suggested going for a walk. I said that I could go right away and that I would be ready in five minutes.
 8. Mum asked who would stay with the baby while I worked.
-9. The girl admitted that she hadn’t had such a good time since she fell ill.
+9. The girl admitted that she hadn't had such a good time since she fell ill.
 10. My brother asked why I had had to get up so early that day.
-11. The woman argued that she hadn’t been going to steal the pen at all and that she had just been looking at it.
+11. The woman argued that she hadn't been going to steal the pen at all and that she had just been looking at it.
 12. The teacher said that Peter I won the war with the Swedes.
-13. I asked my boss what he meant because I hadn’t quite got him.
-14. Joan said that she had been surprised and hadn’t known what to say.
-15. The teacher complained that I had been wasting time again and hadn’t done anything.
+13. I asked my boss what he meant because I hadn't quite got him.
+14. Joan said that she had been surprised and hadn't known what to say.
+15. The teacher complained that I had been wasting time again and hadn't done anything.
 16. Mr. Smiley advised me to speak to that young man. He thought that he knew more than he was saying.
 17. Diana wondered what I would do if I failed my exam.
 18. The principal angrily asked whose fault it was and told me to answer at once.
-19. Fred was sorry he hadn’t stopped to speak to me the day before. He explained that he had been in a great hurry.
+19. Fred was sorry he hadn't stopped to speak to me the day before. He explained that he had been in a great hurry.
 20. Jerry said proudly that his sister was a journalist and had interviewed many famous people.
 21. I asked Ann if Tim was her brother or her cousin.
 22. Brian wondered what would come of our plan.
 23. The lecturer said that Jupiter is the largest planet in the Solar system.
-24. Mrs. Barney said that she had paid attention to the boy’s behaviour long before and added that she thought it was strange.
+24. Mrs. Barney said that she had paid attention to the boy's behaviour long before and added that she thought it was strange.
 25. Our servant said that my sister was sleeping in her room and added that she had asked not to disturb her.
 
 <a id="exercise-57-2"></a>
@@ -12410,7 +12410,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 3. Nick told his sister to turn down the volume of the music because he had a bad headache. ........ ..............................................................................................................................................
 4. Mary said that she had seen Max the day before. ...................................................................... ..............................................................................................................................................
 5. Meeting me in the park my Dad wondered how long I had been walking there. .......................... ..............................................................................................................................................
-6. The teacher told Charles that if he didn’t tell her the truth she would have to call his parents. ...... ..............................................................................................................................................
+6. The teacher told Charles that if he didn't tell her the truth she would have to call his parents. ...... ..............................................................................................................................................
 7. My friend wondered how I got on with my mother-in-law. ......................................................... ..............................................................................................................................................
 8. My Granny said that though she had seen those photos hundreds of times it was a pleasure for her to look them through again. .................................................................................................... ..............................................................................................................................................
 9. The tennis coach said that my brother was too young and that he would be able to join the sports club only the following year. .................................................................................................... ..............................................................................................................................................
@@ -12419,14 +12419,14 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 **Полное решение**
 
 1. The man asked, “What are you doing here so late?”
-2. The doctor said, “Don’t worry. Your child will be all right.”
+2. The doctor said, “Don't worry. Your child will be all right.”
 3. Nick said to his sister, “Turn down the volume of the music. I have a bad headache.”
 4. Mary said, “I saw Max yesterday.”
 5. Meeting me in the park my Dad wondered, “How long have you been walking here?”
-6. The teacher said, “Charles, if you don’t tell me the truth, I’ll have to call your parents.”
+6. The teacher said, “Charles, if you don't tell me the truth, I'll have to call your parents.”
 7. My friend wondered, “How do you get on with your mother-in-law?”
-8. My Granny said, “Though I have seen these photos hundreds of times, it’s a pleasure for me to look them through again.”
-9. The tennis coach said, “Your brother is too young. He’ll be able to join the sports club only next year.”
+8. My Granny said, “Though I have seen these photos hundreds of times, it's a pleasure for me to look them through again.”
+9. The tennis coach said, “Your brother is too young. He'll be able to join the sports club only next year.”
 10. Mother asked Kate, “Is this the boy you got acquainted with last year?”
 
 <a id="exercise-57-3"></a>
@@ -12442,26 +12442,26 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 1. Never ........................................................................................................................ it again.
 2. He ...................................................... me to wait a minute but returned only half an hour later.
 3. They .................................................... that dialect was wide-spread in that part of the country.
-4. I don’t believe a word of what you (just) .................................................................................. .
-5. Don’t ............................................................................................. me that you knew nothing.
-6. ............................................................. the truth I didn’t like the man from the very beginning.
+4. I don't believe a word of what you (just) .................................................................................. .
+5. Don't ............................................................................................. me that you knew nothing.
+6. ............................................................. the truth I didn't like the man from the very beginning.
 7. He often pays me compliments. — What exactly ............................................................. (he)?
 8. We warned them but we ............................................ (not) them all the details of the situation.
-9. You aren’t listening to what I ................................................................................................... .
-10. She always ............................. to me “You aren’t quite right!”, no matter what I ...................... .
+9. You aren't listening to what I ................................................................................................... .
+10. She always ............................. to me “You aren't quite right!”, no matter what I ...................... .
 
 **Полное решение**
 
 1. Never say it again.
 2. He told me to wait a minute but returned only half an hour later.
 3. They said that dialect was wide-spread in that part of the country.
-4. I don’t believe a word of what you have just said.
-5. Don’t tell me that you knew nothing.
-6. To tell the truth I didn’t like the man from the very beginning.
+4. I don't believe a word of what you have just said.
+5. Don't tell me that you knew nothing.
+6. To tell the truth I didn't like the man from the very beginning.
 7. He often pays me compliments. — What exactly does he say?
-8. We warned them but we didn’t tell them all the details of the situation.
-9. You aren’t listening to what I am saying.
-10. She always says to me “You aren’t quite right!”, no matter what I say.
+8. We warned them but we didn't tell them all the details of the situation.
+9. You aren't listening to what I am saying.
+10. She always says to me “You aren't quite right!”, no matter what I say.
 
 <a id="exercise-57-4"></a>
 
@@ -12513,7 +12513,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 3. The secretary answered that Mr. Clark would return only an hour later and advised me not to wait for him.
 4. The policemen asked how long Mr. Smithers had been renting the room in our house and what we thought about him.
 5. Ned said that he had never spoken to me as it was the first time he had seen me.
-6. My friend said that he had returned two days before but he hadn’t had time to call before.
+6. My friend said that he had returned two days before but he hadn't had time to call before.
 7. The guide explained to us that we would be able to get into the museum only after the restoration was over.
 8. Mother asked at once what was going on there.
 9. The teacher pointed at the map and said that Everest is the highest mountain in the world.
@@ -12521,21 +12521,21 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 
 **Часть 2**
 
-1. Mother said that she had been sleeping when the telephone rang and she hadn’t managed to answer it.
-2. I apologized and said that I couldn’t speak at that moment (then) and asked to call back later.
+1. Mother said that she had been sleeping when the telephone rang and she hadn't managed to answer it.
+2. I apologized and said that I couldn't speak at that moment (then) and asked to call back later.
 3. Mary said that she had been to Italy a year before but if she had a chance she would certainly go there once again.
 4. The child said that he was hungry and asked when we would have lunch.
-5. He recommended not following Mr. Gray’s advice as it was not always useful.
+5. He recommended not following Mr. Gray's advice as it was not always useful.
 6. I wondered if Helen and Pete had been travelling so much and they said they had.
 7. Charlie explained what all those questions meant.
 8. He said that he was leaving but he promised to come the following week.
 9. We asked when the results of the experiment would be known.
 10. He was sorry he was late and said that the traffic was heavy and he had got stuck in a traffic jam.
-11. She said that she didn’t know how it had happened and couldn’t say anything.
+11. She said that she didn't know how it had happened and couldn't say anything.
 12. My friends wondered whose child it was and why he was at my place.
 13. The pupils answered all together that five times five is twenty-five.
 14. Bob warned me not to tell Harold about it even if he threatened me.
-15. I asked my brother if he knew how long Jess and Caroline had been married but he answered that he didn’t.
+15. I asked my brother if he knew how long Jess and Caroline had been married but he answered that he didn't.
 
 <a id="unit-58"></a>
 
@@ -12553,7 +12553,7 @@ Everybody knew why she behaved like that. I could hardly understand what she was
 
 - Если действие в придаточном предложении предшествует действию в главном, то в придаточном предложении глагол употребляется в форме Past Perfect или Past Perfect Continuous.
 
-It wasn’t quite clear how the accident had happened. I realized that the man had been watching me for quite a long time.
+It wasn't quite clear how the accident had happened. I realized that the man had been watching me for quite a long time.
 
 - Если действие в придаточном предложении следует за действием в главном, то в придаточном предложении глагол употребляется в форме Future-in-the Past.
 
@@ -12561,7 +12561,7 @@ It seemed to her that nothing would ever change in her life.
 
 2. Согласование времен действует не только внутри одного предложения, но и в контексте.
 
-I knew what kind of man Pete’s brother was. We had met several times and besides Pete had often told me about him. I realized that he was a difficult man to deal with. It wouldn’t be easy to persuade him to join us.
+I knew what kind of man Pete's brother was. We had met several times and besides Pete had often told me about him. I realized that he was a difficult man to deal with. It wouldn't be easy to persuade him to join us.
 
 Правила согласования времен не соблюдаются, если в придаточном предложении речь идет об общеизвестном факте или универсальной истине.
 
@@ -12588,10 +12588,10 @@ The guide said that Buckingham Palace is the London residence of the British Que
 4. She ......................... (*to be*) sorry she ......................... (*not*, *to warn*) me about the changes and I ......................... (*to waste*) so much time.
 5. I ................... (*to be*) surprised when the doorbell ....................... (*to ring*) because all the guests ......................... (*already*, *to arrive*) and I ......................... (*not*, *to expect*) anyone else.
 6. It ......................... (*to turn out*) that all the efforts we ......................... (*to make*) for so much time ......................... (*to be*) in vain.
-7. At eleven o’clock in the evening I ...................... (*still*, *to look*) through the notes I .................... (*to make*) at the lecture. The information ......................... (*to be*) new to me and I .................... (*to want*) to make sure that I ......................... (*to have*) no questions left.
+7. At eleven o'clock in the evening I ...................... (*still*, *to look*) through the notes I .................... (*to make*) at the lecture. The information ......................... (*to be*) new to me and I .................... (*to want*) to make sure that I ......................... (*to have*) no questions left.
 8. She ......................... (*to realize*) that it ......................... (to be) her last chance and if she ......................... (*not*, *to use*) it she ......................... (*to regret*) it all her life.
 9. On her way home she .................. (*to have*) a vague feeling that she ................. (*to do*) something wrong. But on the other hand she ......................... (*to be*) sure she ......................... (*to plan*) everything thoroughly.
-10. Mary ..................... (*to hope*) that during their excursion around London the guide ...................... (*to take*) them to St. Paul’s Cathedral which, as she .................... (*to read*), ..................... (*to be*) the second-largest cathedral in the world.
+10. Mary ..................... (*to hope*) that during their excursion around London the guide ...................... (*to take*) them to St. Paul's Cathedral which, as she .................... (*to read*), ..................... (*to be*) the second-largest cathedral in the world.
 
 **Часть 2**
 
@@ -12606,7 +12606,7 @@ The guide said that Buckingham Palace is the London residence of the British Que
 9. I ......................... (*not*, *to trust*) Sam and ......................... (*to be*) sure that sooner or later he ......................... (*to show*) his true attitude to us and then everybody ......................... (*to see*) that I ......................... (*to be*) right.
 10. The Tysons ......................... (*to have*) an impression that something strange ......................... (*to* *go on*) in the room but they ......................... (*to pretend*) they ......................... (*not*, *to notice*) it or at least ......................... (*not*, *to pay*) attention to it.
 11. I read in a reference book that the ancient Egyptians ......................... (*to build*) pyramids over the tombs of dead kings and queens.
-12. The book she ................... (*to find*) ................... (*to look*) very old. She .................... (*to realize*) that it .................... (*can*) be valuable, that’s why she ......................... (*not*, *to throw*) it away.
+12. The book she ................... (*to find*) ................... (*to look*) very old. She .................... (*to realize*) that it .................... (*can*) be valuable, that's why she ......................... (*not*, *to throw*) it away.
 13. Brian .................... (*to look*) totally different from the man I ......................... (*to expect*) to see. In fact I ......................... (*to be*) disappointed because I ......................... (*to imagine*) a stronger and a more handsome man. But my friend ......................... (*to remind*) me that appearance ......................... (*can*) be deceiving.
 14. She ......................... (*to begin*) to cry when she ......................... (*to see*) that the flowers she ......................... (*always*, *to look after*) so carefully ......................... (*to be*) dead.
 15. Mrs. Crap ............................... (*never*, *to throw away*) anything hoping that this or that thing ......................... (*to come in*) handy. As a result her flat ......................... (*to be*) full of unnecessary old things she ......................... (*to store*) for ages.
@@ -12616,30 +12616,30 @@ The guide said that Buckingham Palace is the London residence of the British Que
 **Часть 1**
 
 1. The result was absolutely different from what we had expected and we nearly gave up the experiment but soon Victor found where we had made a mistake.
-2. No sooner had I entered the room than a young man came up to me with a glass of champagne. I was sure it was the first time I had seen him in my life and I didn’t know his name but half an hour later he was still asking me questions about my relatives and telling me something about his new business.
+2. No sooner had I entered the room than a young man came up to me with a glass of champagne. I was sure it was the first time I had seen him in my life and I didn't know his name but half an hour later he was still asking me questions about my relatives and telling me something about his new business.
 3. I had no idea what it would lead to but I decided to have a try.
-4. She was sorry she hadn’t warned me about the changes and I had wasted so much time.
-5. I was surprised when the doorbell rang because all the guests had already arrived and I wasn’t expecting anyone else.
+4. She was sorry she hadn't warned me about the changes and I had wasted so much time.
+5. I was surprised when the doorbell rang because all the guests had already arrived and I wasn't expecting anyone else.
 6. It turned out that all the efforts we had been making for so much time had been in vain.
-7. At eleven o’clock in the evening I was looking through the notes I had made at the lecture. The information was new to me and I wanted to make sure that I had no questions left.
-8. She realized that it was her last chance and if she didn’t use it she would regret it all her life.
+7. At eleven o'clock in the evening I was looking through the notes I had made at the lecture. The information was new to me and I wanted to make sure that I had no questions left.
+8. She realized that it was her last chance and if she didn't use it she would regret it all her life.
 9. On her way home she had a vague feeling that she had done something wrong. But on the other hand she was sure she had planned everything thoroughly.
-10. Mary hoped that during their excursion around London the guide would take them to St. Paul’s Cathedral which, as she had read, is the second-largest cathedral in the world.
+10. Mary hoped that during their excursion around London the guide would take them to St. Paul's Cathedral which, as she had read, is the second-largest cathedral in the world.
 
 **Часть 2**
 
 1. Nick turned off the music he had been listening to and went to answer the phone. He thought it was Steve but it turned out somebody who had dialled the wrong number.
-2. It was obvious that she couldn’t control herself. She was crying in hysterics.
-3. Sheila liked the novel so much that everything she had read so far seemed ordinary and uninteresting. She even thought she wouldn’t like any other book so much and that one would remain her favourite.
-4. She was enjoying the music that sounded on the radio. She had heard neither the melody nor the singer before and was sorry she didn’t know what the song was.
-5. The blouse she was wearing suited her very well. It looked very beautiful and unusual. I hadn’t seen anything like that before.
-6. She was having a rest after she had been working so hard all day. Right at that moment the telephone rang and her mood changed for the worse at once because she didn’t want to speak to anyone and had hoped that nobody and nothing would disturb her.
+2. It was obvious that she couldn't control herself. She was crying in hysterics.
+3. Sheila liked the novel so much that everything she had read so far seemed ordinary and uninteresting. She even thought she wouldn't like any other book so much and that one would remain her favourite.
+4. She was enjoying the music that sounded on the radio. She had heard neither the melody nor the singer before and was sorry she didn't know what the song was.
+5. The blouse she was wearing suited her very well. It looked very beautiful and unusual. I hadn't seen anything like that before.
+6. She was having a rest after she had been working so hard all day. Right at that moment the telephone rang and her mood changed for the worse at once because she didn't want to speak to anyone and had hoped that nobody and nothing would disturb her.
 7. At the recent environmental conference scientists pointed out again that the world climate is getting warmer.
 8. I doubted that Mr. Stevens would do what we wanted to ask him for.
-9. I didn’t trust Sam and was sure that sooner or later he would show his true attitude to us and then everybody would see that I was right.
-10. The Tysons had an impression that something strange was going on in the room but they pretended they didn’t notice it or at least weren’t paying attention to it.
+9. I didn't trust Sam and was sure that sooner or later he would show his true attitude to us and then everybody would see that I was right.
+10. The Tysons had an impression that something strange was going on in the room but they pretended they didn't notice it or at least weren't paying attention to it.
 11. I read in a reference book that the ancient Egyptians built pyramids over the tombs of dead kings and queens.
-12. The book she had found looked very old. She realized that it could be valuable, that’s why she didn’t throw it away.
+12. The book she had found looked very old. She realized that it could be valuable, that's why she didn't throw it away.
 13. Brian looked totally different from the man I had expected to see. In fact I was disappointed because I had imagined a stronger and a more handsome man. But my friend reminded me that appearance can be deceiving.
 14. She began to cry when she saw that the flowers she had always been looking after so carefully were dead.
 15. Mrs. Crap never threw away anything hoping that this or that thing would come in handy. As a result her flat was full of unnecessary old things she had been storing for ages.
@@ -12669,7 +12669,7 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 **Часть 4**
 
-“Her children ......................... (to come) home from school then and she ......................... (to turn off) the radio and ......................... (to go) to the nursery. When Jim ......................... (to come) home that night, he ................ (to be) tired, and he .................... (to take) a bath and ...................... (to change) his clothes. Then he .................. (to join) Irene in the living room. He ..................... (just, to turn on) the radio when the maid ......................... (to announce) dinner, so he ......................... (to leave) it on, and he and Irene ......................... (to go) to the table. Jim ......................... (to be) too tired to make even a pretense of sociability, and there ......................... (to be) nothing about the dinner to hold Irene’s interest, so her attention ......................... (to wander) from the food to the deposits of silver polish on the candlesticks and from there to the music in the other room. She ............................... (to listen) for a few moments to a Chopin prelude and then ........................ (to be) surprised to hear a man’s voice break in. “For Christ’s sake, Kathy,” he said, “do you always have to play the piano when I get home?” The music ......................... (to stop) abruptly. “It’s the only chance I have,” a woman ......................... (to say). “I’m at the office all day.” “So am I,” the man said. He ......................... (to add) something obscene about an upright piano, and ......................... (to slam) the door. The passionate and melancholy music ......................... (to begin) again. “......................... (you, to hear) that?” Irene asked. “What?” Jim ......................... (to eat) his dessert. “The radio. A man .................... (to say) something while the music ..................... (still, to go on).” After John Cheever “The Enormous Radio”
+“Her children ......................... (to come) home from school then and she ......................... (to turn off) the radio and ......................... (to go) to the nursery. When Jim ......................... (to come) home that night, he ................ (to be) tired, and he .................... (to take) a bath and ...................... (to change) his clothes. Then he .................. (to join) Irene in the living room. He ..................... (just, to turn on) the radio when the maid ......................... (to announce) dinner, so he ......................... (to leave) it on, and he and Irene ......................... (to go) to the table. Jim ......................... (to be) too tired to make even a pretense of sociability, and there ......................... (to be) nothing about the dinner to hold Irene's interest, so her attention ......................... (to wander) from the food to the deposits of silver polish on the candlesticks and from there to the music in the other room. She ............................... (to listen) for a few moments to a Chopin prelude and then ........................ (to be) surprised to hear a man's voice break in. “For Christ's sake, Kathy,” he said, “do you always have to play the piano when I get home?” The music ......................... (to stop) abruptly. “It's the only chance I have,” a woman ......................... (to say). “I'm at the office all day.” “So am I,” the man said. He ......................... (to add) something obscene about an upright piano, and ......................... (to slam) the door. The passionate and melancholy music ......................... (to begin) again. “......................... (you, to hear) that?” Irene asked. “What?” Jim ......................... (to eat) his dessert. “The radio. A man .................... (to say) something while the music ..................... (still, to go on).” After John Cheever “The Enormous Radio”
 
 **Полное решение**
 
@@ -12687,7 +12687,7 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 **Часть 4**
 
-“Her children came home from school then and she turned off the radio and went to the nursery. When Jim came home that night, he was tired, and he took a bath and changed his clothes. Then he joined Irene in the living room. He had just turned on the radio when the maid announced dinner, so he left it on, and he and Irene went to the table. Jim was too tired to make even a pretense of sociability, and there was nothing about the dinner to hold Irene’s interest, so her attention wandered from the food to the deposits of silver polish on the candlesticks and from there to the music in the other room. She listened for a few moments to a Chopin prelude and then was surprised to hear a man’s voice break in. “For Christ’s sake, Kathy,” he said, “do you always have to play the piano when I get home?” The music stopped abruptly. “It’s the only chance I have,” a woman said. “I’m at the office all day.” “So am I,” the man said. He added something obscene about an upright piano, and slammed the door. The passionate and melancholy music began again. “Did you hear that?” Irene asked. “What?” Jim was eating his dessert. “The radio. A man said something while the music was still going on.” After John Cheever “The Enormous Radio”
+“Her children came home from school then and she turned off the radio and went to the nursery. When Jim came home that night, he was tired, and he took a bath and changed his clothes. Then he joined Irene in the living room. He had just turned on the radio when the maid announced dinner, so he left it on, and he and Irene went to the table. Jim was too tired to make even a pretense of sociability, and there was nothing about the dinner to hold Irene's interest, so her attention wandered from the food to the deposits of silver polish on the candlesticks and from there to the music in the other room. She listened for a few moments to a Chopin prelude and then was surprised to hear a man's voice break in. “For Christ's sake, Kathy,” he said, “do you always have to play the piano when I get home?” The music stopped abruptly. “It's the only chance I have,” a woman said. “I'm at the office all day.” “So am I,” the man said. He added something obscene about an upright piano, and slammed the door. The passionate and melancholy music began again. “Did you hear that?” Irene asked. “What?” Jim was eating his dessert. “The radio. A man said something while the music was still going on.” After John Cheever “The Enormous Radio”
 
 <a id="exercise-58-3"></a>
 
@@ -12718,13 +12718,13 @@ The guide said that Buckingham Palace is the London residence of the British Que
 **Полное решение**
 
 1. He understood that if his wife found out what he had done she would never forgive him.
-2. Rick had been concealing the truth for so many years that it was difficult for him to confess now. He himself already didn’t remember why he hadn’t done it at once.
-3. He didn’t go to the party because he avoided meeting Megan. He didn’t want her to see how ashamed he was for the fact that he had been rude to her.
-4. By the expression of my secretary’s face I guessed who was calling her. She was speaking in a low voice so that nobody would understand what she was talking about.
-5. Obviously the man didn’t understand that everybody was laughing at him as he went on behaving as before.
-6. There was something mysterious in the newcomer’s name because though it seemed simple to everybody nobody remembered it.
+2. Rick had been concealing the truth for so many years that it was difficult for him to confess now. He himself already didn't remember why he hadn't done it at once.
+3. He didn't go to the party because he avoided meeting Megan. He didn't want her to see how ashamed he was for the fact that he had been rude to her.
+4. By the expression of my secretary's face I guessed who was calling her. She was speaking in a low voice so that nobody would understand what she was talking about.
+5. Obviously the man didn't understand that everybody was laughing at him as he went on behaving as before.
+6. There was something mysterious in the newcomer's name because though it seemed simple to everybody nobody remembered it.
 7. The policemen wondered how the criminal had managed to escape from prison and where he had been hiding so long. They were sure that somebody was helping him.
-8. The child was crying and Liz couldn’t calm him down. It wasn’t clear to her what the matter was and she was afraid that she had done something wrong.
+8. The child was crying and Liz couldn't calm him down. It wasn't clear to her what the matter was and she was afraid that she had done something wrong.
 9. The only thing everybody was talking about was the accident that had happened (had taken place) the day before. People discussed the details trying to guess what the consequences would be.
 10. Mr. Deal was sure that when people read his book he would certainly become famous and popular.
 11. Chris was surprised that nobody was meeting him as he had informed them of the date of his arrival long before.
@@ -12749,39 +12749,39 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 Исправьте ошибки.
 
-1. Nick tells that it’s time to go. ...................................................................................................
+1. Nick tells that it's time to go. ...................................................................................................
 2. Michael wondered what my brother looks like. .........................................................................
 3. My Dad says that he would help me. ....................................................................................... .
 4. The children said that we were ready for the competition. ........................................................ .
 5. The man said that he saw the accident. .................................................................................. .
-6. The teacher said that if we wouldn’t study hard we would have problems at the exam. .............. . ..............................................................................................................................................
+6. The teacher said that if we wouldn't study hard we would have problems at the exam. .............. . ..............................................................................................................................................
 7. Myra asked why had I lied to her. ............................................................................................
 8. Laura said me that her brother was coming to see her. .............................................................
 9. Mother told Maude that she clean her room. .............................................................................
-10. My little son was very surprised when he read that the cuckoo laid its eggs in other birds’ nests. ...........................................................................................................................
+10. My little son was very surprised when he read that the cuckoo laid its eggs in other birds' nests. ...........................................................................................................................
 11. It turned out that everybody had learnt about it long ago. ..........................................................
 12. I asked who was looking after his garden while he is in hospital. ................................................ ..............................................................................................................................................
 13. He said his neighbours would return next week. .......................................................................
-14. Roger asked me don’t touch that picture. ................................................................................
-15. My parents wondered why I hadn’t called yesterday. ................................................................ ..............................................................................................................................................
+14. Roger asked me don't touch that picture. ................................................................................
+15. My parents wondered why I hadn't called yesterday. ................................................................ ..............................................................................................................................................
 
 **Полное решение**
 
-1. Nick says that it’s time to go.
+1. Nick says that it's time to go.
 2. Michael wondered what my brother looked like.
 3. My Dad says that he will help me.
 4. The children said that they were ready for the competition.
 5. The man said that he had seen the accident.
-6. The teacher said that if we didn’t study hard we would have problems at the exam.
+6. The teacher said that if we didn't study hard we would have problems at the exam.
 7. Myra asked why I had lied to her.
 8. Laura said to me (told me) that her brother was coming to see her.
 9. Mother told Maude to clean her room.
-10. My little son was very surprised when he read that the cuckoo lays its eggs in other birds’ nests.
+10. My little son was very surprised when he read that the cuckoo lays its eggs in other birds' nests.
 11. It turned out that everybody had learnt about it long before.
 12. I asked who was looking after his garden while he was in hospital.
 13. He said his neighbours would return the next week.
 14. Roger asked me not to touch that picture.
-15. My parents wondered why I hadn’t called the day before.
+15. My parents wondered why I hadn't called the day before.
 
 <a id="exercise-59-2"></a>
 
@@ -12796,21 +12796,21 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 **Часть 1**
 
-“We’re very glad to have you here, Mr. Gorin,” Professor Fox said gently. “This year we ......................... (to take) only one assistant. ......................... (you, to have) a pleasant summer, Mr. Gorin?” “A pleasant summer?” Erik ......................... (to be) silent for the time of two long breaths. “No, sir,” he said. “What ......................... (you, to say)?” Fox ......................... (to ask) out of surprise. “I ......................... (to say) that the summer ......................... (to be) pretty awful,” Erik said once more. “All I can say is I’m glad it ......................... (to be) over,” Eric went on. “You see I ......................... (to be) absolutely broke when Professor Hollingworth ......................... (to tell) me that I ......................... (to get) the appointment here. He ......................... (to ask) me to spend the summer with him and his family. But I couldn’t see myself sponging on him for all that time, so I ......................... (to stay) there for two weeks. It ......................... (to be) wonderful there. But at the end of two weeks, I ......................... (to leave) them saying I ......................... (to go) East to visit a cousin. I ......................... (not, to have) any cousin, but I ......................... (to get on) the train because the whole Hollingworth family ......................... (to come) to the station to see me off. On the train I ......................... (to buy) a ticket for the next town. I ......................... (to get out) there and ......................... (to take) a lift on the highway. That fellow ......................... (to drive) his car to Cleveland to sell it there. He ......................... (to love) the car, because you see he ......................... (to save) so long to buy it. He ................... (to be) sad all the way and ......................... (to tell) me over and over how he ................... (to fix) this part and ......................... (to repair) that one. But he ................... (to be) out of work and had to sell the car. When we ......................... (to stop) for gas, I ......................... (to get) into conversation with the owner of the station. He ......................... (to offer) me a job for a place to eat and sleep. I was supposed to help him in repairs and service. One day I ....................... (to go) into town and a fellow ......................... (to stop) me. He ......................... (to be) almost crazy because he ......................... (to say) I ......................... (to take) his job. He used to make thirty a week and I ......................... (to do) the work for practically nothing. He ......................... (to be) married and ......................... (to have) a family, so I ......................... (to move on). I ......................... (not, to know) whether he ever got the job back, but I know I ......................... (not, to want) it any more. Then I ......................... (to wash) dishes for a while in a cafe, and when I ...................... (to get) to New York, I ...................... (to come up) here at once but you .................. (to be) still away on your vacation. For two weeks until yesterday I ..................... (to work) in a bathhouse at an open air pool.” After Mitchell Wilson “Live with Lightning”
+“We're very glad to have you here, Mr. Gorin,” Professor Fox said gently. “This year we ......................... (to take) only one assistant. ......................... (you, to have) a pleasant summer, Mr. Gorin?” “A pleasant summer?” Erik ......................... (to be) silent for the time of two long breaths. “No, sir,” he said. “What ......................... (you, to say)?” Fox ......................... (to ask) out of surprise. “I ......................... (to say) that the summer ......................... (to be) pretty awful,” Erik said once more. “All I can say is I'm glad it ......................... (to be) over,” Eric went on. “You see I ......................... (to be) absolutely broke when Professor Hollingworth ......................... (to tell) me that I ......................... (to get) the appointment here. He ......................... (to ask) me to spend the summer with him and his family. But I couldn't see myself sponging on him for all that time, so I ......................... (to stay) there for two weeks. It ......................... (to be) wonderful there. But at the end of two weeks, I ......................... (to leave) them saying I ......................... (to go) East to visit a cousin. I ......................... (not, to have) any cousin, but I ......................... (to get on) the train because the whole Hollingworth family ......................... (to come) to the station to see me off. On the train I ......................... (to buy) a ticket for the next town. I ......................... (to get out) there and ......................... (to take) a lift on the highway. That fellow ......................... (to drive) his car to Cleveland to sell it there. He ......................... (to love) the car, because you see he ......................... (to save) so long to buy it. He ................... (to be) sad all the way and ......................... (to tell) me over and over how he ................... (to fix) this part and ......................... (to repair) that one. But he ................... (to be) out of work and had to sell the car. When we ......................... (to stop) for gas, I ......................... (to get) into conversation with the owner of the station. He ......................... (to offer) me a job for a place to eat and sleep. I was supposed to help him in repairs and service. One day I ....................... (to go) into town and a fellow ......................... (to stop) me. He ......................... (to be) almost crazy because he ......................... (to say) I ......................... (to take) his job. He used to make thirty a week and I ......................... (to do) the work for practically nothing. He ......................... (to be) married and ......................... (to have) a family, so I ......................... (to move on). I ......................... (not, to know) whether he ever got the job back, but I know I ......................... (not, to want) it any more. Then I ......................... (to wash) dishes for a while in a cafe, and when I ...................... (to get) to New York, I ...................... (to come up) here at once but you .................. (to be) still away on your vacation. For two weeks until yesterday I ..................... (to work) in a bathhouse at an open air pool.” After Mitchell Wilson “Live with Lightning”
 
 **Часть 2**
 
-“All right, if you want the truth you can have it. I .................... (to do) it and I’d do it again. I told you I ................... (to stop) at nothing to prevent Sophie from marrying Larry. He .................... (to think) he ................... (to make) a new woman out of her. What fools men ............... (to be)! I ......................... (to know) that sooner or later she ......................... (to break down). It ......................... (to stick out) a mile. You ......................... (to see) yourself when we ......................... (all, to lunch) together at the Ritz how jittery she ......................... (to be). I ......................... (to notice) you looking at her when she ...................... (to drink) her coffee; her hand ...................... (to shake) so, she ..................... (to be) afraid to take the cup with one hand. The idea ......................... (to come) to me when Uncle Elliott ......................... (to make) all that fuss about that damned Polish liqueur. I ......................... (to think) it beastly, but I (to pretend) it .................... (to be) the most wonderful stuff I ......................... (ever, to taste). I .................... (to be) certain that if she .................... (to get) a chance she .......................... (never, to have) the strength to resist. That’s why I ......................... (to take) her to the dress show. That’s why I ......................... (to offer) to make her a present of her wedding dress. That day, when she was going to have the last fitting I ......................... (to tell) Antoine I ......................... (to have) the zubrovka after lunch and then I ......................... (to tell) him I ......................... (to expect) a lady and to ask her to wait and offer her some coffee and to leave the liqueur in case she ......................... (to fancy) a glass. I did take Joan to the dentist’s, but of course we ......................... (not, to have) an appointment and he couldn’t see us, so I ......................... (to take) her to a newsreel. I ......................... (to make up) my mind that if I ......................... (to find) Sophie ......................... (not , to touch) the stuff I ......................... (to make) the best of things and try to be friends with her. That ...................... (to be) true, I ......................... (to swear) it. But when I ............................ (to get) home and ........................... (to see) the bottle I ......................... (to know) I ......................... (to be) right. She ......................... (to go).” Isabel ......................... (actually, to pant) when she ......................... (to finish). “That .................. (to be) more or less what I ...................... (to imagine) ...................... (to happen),» I ......................... (to say).” After W. S. Maugham “The Razor’s Edge”
+“All right, if you want the truth you can have it. I .................... (to do) it and I'd do it again. I told you I ................... (to stop) at nothing to prevent Sophie from marrying Larry. He .................... (to think) he ................... (to make) a new woman out of her. What fools men ............... (to be)! I ......................... (to know) that sooner or later she ......................... (to break down). It ......................... (to stick out) a mile. You ......................... (to see) yourself when we ......................... (all, to lunch) together at the Ritz how jittery she ......................... (to be). I ......................... (to notice) you looking at her when she ...................... (to drink) her coffee; her hand ...................... (to shake) so, she ..................... (to be) afraid to take the cup with one hand. The idea ......................... (to come) to me when Uncle Elliott ......................... (to make) all that fuss about that damned Polish liqueur. I ......................... (to think) it beastly, but I (to pretend) it .................... (to be) the most wonderful stuff I ......................... (ever, to taste). I .................... (to be) certain that if she .................... (to get) a chance she .......................... (never, to have) the strength to resist. That's why I ......................... (to take) her to the dress show. That's why I ......................... (to offer) to make her a present of her wedding dress. That day, when she was going to have the last fitting I ......................... (to tell) Antoine I ......................... (to have) the zubrovka after lunch and then I ......................... (to tell) him I ......................... (to expect) a lady and to ask her to wait and offer her some coffee and to leave the liqueur in case she ......................... (to fancy) a glass. I did take Joan to the dentist's, but of course we ......................... (not, to have) an appointment and he couldn't see us, so I ......................... (to take) her to a newsreel. I ......................... (to make up) my mind that if I ......................... (to find) Sophie ......................... (not , to touch) the stuff I ......................... (to make) the best of things and try to be friends with her. That ...................... (to be) true, I ......................... (to swear) it. But when I ............................ (to get) home and ........................... (to see) the bottle I ......................... (to know) I ......................... (to be) right. She ......................... (to go).” Isabel ......................... (actually, to pant) when she ......................... (to finish). “That .................. (to be) more or less what I ...................... (to imagine) ...................... (to happen),» I ......................... (to say).” After W. S. Maugham “The Razor's Edge”
 
 **Полное решение**
 
 **Часть 1**
 
-“We’re very glad to have you here, Mr. Gorin,” Professor Fox said gently. “This year we have taken only one assistant. Did you have a pleasant summer, Mr. Gorin?” “A pleasant summer?” Erik was silent for the time of two long breaths. “No, sir,” he said. “What did you say?” Fox asked out of surprise. “I said that the summer had been pretty awful,” Erik said once more. “All I can say is I’m glad it is over,” Eric went on. “You see I was absolutely broke when Professor Hollingworth told me that I had got the appointment here. He asked me to spend the summer with him and his family. But I couldn’t see myself sponging on him for all that time, so I stayed there for two weeks. It was wonderful there. But at the end of two weeks, I left them saying I was going East to visit a cousin. I don’t have any cousin, but I got on the train because the whole Hollingworth family had come to the station to see me off. On the train I bought a ticket for the next town. I got out there and took a lift on the highway. That fellow was driving his car to Cleveland to sell it there. He loved the car, because you see he had been saving so long to buy it. He was sad all the way and told me over and over how he had fixed this part and repaired that one. But he was out of work and had to sell the car. When we stopped for gas, I got into conversation with the owner of the station. He offered me a job for a place to eat and sleep. I was supposed to help him in repairs and service. One day I went into town and a fellow stopped me. He was almost crazy because he said I had taken his job. He used to make thirty a week and I was doing the work for practically nothing. He was married and had a family, so I moved on. I don’t know whether he ever got the job back, but I know I didn’t want it any more. Then I washed dishes for a while in a cafe, and when I got to New York, I came up here at once but you were still away on your vacation. For two weeks until yesterday I worked in a bathhouse at an open air pool.” After Mitchell Wilson “Live with Lightning”
+“We're very glad to have you here, Mr. Gorin,” Professor Fox said gently. “This year we have taken only one assistant. Did you have a pleasant summer, Mr. Gorin?” “A pleasant summer?” Erik was silent for the time of two long breaths. “No, sir,” he said. “What did you say?” Fox asked out of surprise. “I said that the summer had been pretty awful,” Erik said once more. “All I can say is I'm glad it is over,” Eric went on. “You see I was absolutely broke when Professor Hollingworth told me that I had got the appointment here. He asked me to spend the summer with him and his family. But I couldn't see myself sponging on him for all that time, so I stayed there for two weeks. It was wonderful there. But at the end of two weeks, I left them saying I was going East to visit a cousin. I don't have any cousin, but I got on the train because the whole Hollingworth family had come to the station to see me off. On the train I bought a ticket for the next town. I got out there and took a lift on the highway. That fellow was driving his car to Cleveland to sell it there. He loved the car, because you see he had been saving so long to buy it. He was sad all the way and told me over and over how he had fixed this part and repaired that one. But he was out of work and had to sell the car. When we stopped for gas, I got into conversation with the owner of the station. He offered me a job for a place to eat and sleep. I was supposed to help him in repairs and service. One day I went into town and a fellow stopped me. He was almost crazy because he said I had taken his job. He used to make thirty a week and I was doing the work for practically nothing. He was married and had a family, so I moved on. I don't know whether he ever got the job back, but I know I didn't want it any more. Then I washed dishes for a while in a cafe, and when I got to New York, I came up here at once but you were still away on your vacation. For two weeks until yesterday I worked in a bathhouse at an open air pool.” After Mitchell Wilson “Live with Lightning”
 
 **Часть 2**
 
-“All right, if you want the truth you can have it. I did it and I’d do it again. I told you I would stop at nothing to prevent Sophie from marrying Larry. He thought he would make a new woman out of her. What fools men are! I knew that sooner or later she would break down. It stuck out a mile. You saw yourself when we were all lunching together at the Ritz how jittery she was. I noticed you looking at her when she was drinking her coffee; her hand was shaking so, she was afraid to take the cup with one hand. The idea came to me when Uncle Elliott made all that fuss about that damned Polish liqueur. I thought it beastly, but I pretended it was the most wonderful stuff I had ever tasted. I was certain that if she got a chance she would never have the strength to resist. That’s why I took her to the dress show. That’s why I offered to make her a present of her wedding dress. That day, when she was going to have the last fitting I told Antoine I would have the zubrovka after lunch and then I told him I was expecting a lady and to ask her to wait and offer her some coffee and to leave the liqueur in case she fancied a glass. I did take Joan to the dentist’s, but of course we didn’t have an appointment and he couldn’t see us, so I took her to a newsreel. I had made up my mind that if I found Sophie hadn’t touched the stuff I would make the best of things and try to be friends with her. That is true, I swear it. But when I got home and saw the bottle I knew I had been right. She had gone.” Isabel was actually panting when she finished. “That is more or less what I imagined had happened,” I said. After W. S. Maugham “The Razor’s Edge”
+“All right, if you want the truth you can have it. I did it and I'd do it again. I told you I would stop at nothing to prevent Sophie from marrying Larry. He thought he would make a new woman out of her. What fools men are! I knew that sooner or later she would break down. It stuck out a mile. You saw yourself when we were all lunching together at the Ritz how jittery she was. I noticed you looking at her when she was drinking her coffee; her hand was shaking so, she was afraid to take the cup with one hand. The idea came to me when Uncle Elliott made all that fuss about that damned Polish liqueur. I thought it beastly, but I pretended it was the most wonderful stuff I had ever tasted. I was certain that if she got a chance she would never have the strength to resist. That's why I took her to the dress show. That's why I offered to make her a present of her wedding dress. That day, when she was going to have the last fitting I told Antoine I would have the zubrovka after lunch and then I told him I was expecting a lady and to ask her to wait and offer her some coffee and to leave the liqueur in case she fancied a glass. I did take Joan to the dentist's, but of course we didn't have an appointment and he couldn't see us, so I took her to a newsreel. I had made up my mind that if I found Sophie hadn't touched the stuff I would make the best of things and try to be friends with her. That is true, I swear it. But when I got home and saw the bottle I knew I had been right. She had gone.” Isabel was actually panting when she finished. “That is more or less what I imagined had happened,” I said. After W. S. Maugham “The Razor's Edge”
 
 <a id="exercise-59-3"></a>
 
@@ -12838,15 +12838,15 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 **Часть 1**
 
-One day Jimmy ran away from home when his father and step-mother had beaten him again. He didn’t know where he was going. Finally he found himself in a street he had never been to before. He got frightened and started to cry. He sat in the street for quite a long time. It was already getting dark when two boys came up to him and asked what had happened and why he was crying. At first Jimmy was afraid of them as it was the first time he had seen them. But then he told them his story. They felt sorry for Jimmy. They realized that the boy wouldn’t survive if they left him alone. The boys told Jimmy not to cry and promised to help him.
+One day Jimmy ran away from home when his father and step-mother had beaten him again. He didn't know where he was going. Finally he found himself in a street he had never been to before. He got frightened and started to cry. He sat in the street for quite a long time. It was already getting dark when two boys came up to him and asked what had happened and why he was crying. At first Jimmy was afraid of them as it was the first time he had seen them. But then he told them his story. They felt sorry for Jimmy. They realized that the boy wouldn't survive if they left him alone. The boys told Jimmy not to cry and promised to help him.
 
 **Часть 2**
 
-It turned out that Mr. Hopkins was a robber and he had been using Jimmy for his crimes all that time. Jimmy had been thinking what to do since he realized it. He remembered that a friend in need is a friend indeed and went to Rip. Rip was afraid that when Jimmy came to the police policemen would arrest him as he had taken part in many robberies by that time and policemen knew that somebody helped Hopkins. The boys sat thinking what to do when Rip’s master came and asked what they were doing there so late.
+It turned out that Mr. Hopkins was a robber and he had been using Jimmy for his crimes all that time. Jimmy had been thinking what to do since he realized it. He remembered that a friend in need is a friend indeed and went to Rip. Rip was afraid that when Jimmy came to the police policemen would arrest him as he had taken part in many robberies by that time and policemen knew that somebody helped Hopkins. The boys sat thinking what to do when Rip's master came and asked what they were doing there so late.
 
 **Часть 3**
 
-Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out. Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn’t know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job. At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn’t even imagine where they were really sending the boy and what would happen to him there.
+Mrs. Winkship and her niece Martha couldn't help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out. Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn't know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job. At first Uncle Belcher didn't want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn't even imagine where they were really sending the boy and what would happen to him there.
 
 ## Пассивный залог
 
@@ -12896,7 +12896,7 @@ The room is being cleaned now.
 
 - The Past Continuous Passive — was (were) being done
 
-The room was being cleaned at 6 o’clock yesterday.
+The room was being cleaned at 6 o'clock yesterday.
 
 - The Present Perfect Passive — have (has) been done
 
@@ -12910,7 +12910,7 @@ The room had been cleaned by that time.
 
 Вопросительную и отрицательную формы образует первый вспомогательный глагол.
 
-Will the work be done tomorrow? The room isn’t being cleaned now.
+Will the work be done tomorrow? The room isn't being cleaned now.
 
 <a id="exercise-60-1"></a>
 
@@ -12939,15 +12939,15 @@ Will the work be done tomorrow? The room isn’t being cleaned now.
 **Часть 2**
 
 1. What did they say about the exam? .........................................................................................
-2. They haven’t found a way out yet. ...........................................................................................
+2. They haven't found a way out yet. ...........................................................................................
 3. Why did they conceal the truth? ..............................................................................................
 4. My brother is still repairing his car. ..........................................................................................
 5. It turned out that Mary had organized a new show. ....................................................................
-6. I won’t leave such important documents at the office. ..............................................................
+6. I won't leave such important documents at the office. ..............................................................
 7. How many times has she used the mincer since she bought it? .................................................
 8. Did you know that they were watching you? ............................................................................
 9. My daughter breaks something every time she washes the dishes. ............................................
-10. She didn’t make the children help her in the garden. ................................................................
+10. She didn't make the children help her in the garden. ................................................................
 
 **Полное решение**
 
@@ -12969,13 +12969,13 @@ Will the work be done tomorrow? The room isn’t being cleaned now.
 1. What was said about the exam?
 2. No way out has been found yet.
 3. Why was the truth concealed?
-4. My brother’s car is still being repaired.
+4. My brother's car is still being repaired.
 5. It turned out that a new show had been organized by Mary.
-6. Such important documents won’t be left at the office.
+6. Such important documents won't be left at the office.
 7. How many times has the mincer been used since it was bought?
 8. Did you know that you were being watched?
 9. Something is broken every time the dishes are washed by my daughter.
-10. The children weren’t made to help her in the garden.
+10. The children weren't made to help her in the garden.
 
 <a id="exercise-60-2"></a>
 
@@ -13017,14 +13017,14 @@ Will the work be done tomorrow? The room isn’t being cleaned now.
 
 **Часть 1**
 
-1. The new theatre hasn’t been built yet, has it?
+1. The new theatre hasn't been built yet, has it?
 2. When will your book be published?
 3. Such cards are usually sent on birthdays.
 4. The same melody was being played when I returned from work.
 5. Were your things packed in time? — Yes, they were, thank you.
 6. The house was in perfect order. Everything had been put in its place, the floor had been cleaned and the curtains had been washed.
 7. Whose report is being discussed now?
-8. Nick hasn’t been seen for quite a long time.
+8. Nick hasn't been seen for quite a long time.
 9. Fruit is eaten before meals.
 10. We got to the theatre as the tickets had been booked long before.
 
@@ -13033,11 +13033,11 @@ Will the work be done tomorrow? The room isn’t being cleaned now.
 1. Be quiet! Important news is being reported.
 2. How long has this flat been redecorated?
 3. It was said specially for you.
-4. He won’t be cured if he doesn’t go to hospital.
+4. He won't be cured if he doesn't go to hospital.
 5. This cake is cooked easily.
-6. It didn’t seem to me! — But were you really being followed?
+6. It didn't seem to me! — But were you really being followed?
 7. Not a minute was wasted. All the necessary preparations were made.
-8. The car isn’t being painted. It’s already being dried.
+8. The car isn't being painted. It's already being dried.
 9. Had the name been chosen by the time the child was born?
 10. I was afraid that the mistake would be noticed all the same.
 
@@ -13109,27 +13109,27 @@ She is said to be a good doctor. He was heard to shout at her. She was seen to l
 
 1. They sold the ring to some lady yesterday. ...............................................................................
 2. The principal introduced our new English teacher to us. ...........................................................
-3. Haven’t you agreed on all the most important details yet? .........................................................
-4. She’ll certainly show us her new picture. ..................................................................................
+3. Haven't you agreed on all the most important details yet? .........................................................
+4. She'll certainly show us her new picture. ..................................................................................
 5. They report that a dangerous criminal is missing. .....................................................................
 6. Did the teacher explain anything new to you at the lesson? .......................................................
-7. She didn’t even send me a birthday card! .................................................................................
-8. By 5 o’clock the committee hadn’t announced the winner yet. .................................................
+7. She didn't even send me a birthday card! .................................................................................
+8. By 5 o'clock the committee hadn't announced the winner yet. .................................................
 9. Professor Brand always gives these recommendations to his students. ..................................... ..............................................................................................................................................
-10. We never laugh at his jokes because they aren’t funny. .............................................................
+10. We never laugh at his jokes because they aren't funny. .............................................................
 
 **Часть 2**
 
-1. Don’t disturb him. He’s dictating a very important letter to his secretary. ................................... ..............................................................................................................................................
+1. Don't disturb him. He's dictating a very important letter to his secretary. ................................... ..............................................................................................................................................
 2. She was describing the accident to passers-by when the police arrived. .................................... ..............................................................................................................................................
-3. Oh, dear! She’s been waiting for me for a quarter of an hour already. ......................................... ..............................................................................................................................................
+3. Oh, dear! She's been waiting for me for a quarter of an hour already. ......................................... ..............................................................................................................................................
 4. What are they looking for? ......................................................................................................
 5. Some stranger offered his help when I fell down in the street. ....................................................
 6. When did he write this book? ..................................................................................................
 7. He speaks in such a low voice that nobody ever listens to him. ..................................................
 8. Mr. Brown is buying a new car. ................................................................................................
 9. Every woman is pleased when somebody pays her a compliment. ............................................
-10. They haven’t bought anything new lately. ................................................................................
+10. They haven't bought anything new lately. ................................................................................
 
 **Полное решение**
 
@@ -13137,18 +13137,18 @@ She is said to be a good doctor. He was heard to shout at her. She was seen to l
 
 1. The ring was sold to some lady yesterday.
 2. Our new English teacher was introduced to us by the principal.
-3. Haven’t all the most important details been agreed on yet?
-4. We’ll certainly be shown her new picture. Her new picture will certainly be shown to us.
+3. Haven't all the most important details been agreed on yet?
+4. We'll certainly be shown her new picture. Her new picture will certainly be shown to us.
 5. It is reported that a dangerous criminal is missing.
 6. Was anything new explained to you by the teacher at the lesson?
-7. Even a birthday card wasn’t sent to me by her! I wasn’t even sent a birthday card by her!
-8. By 5 o’clock the winner hadn’t been announced by the committee yet.
+7. Even a birthday card wasn't sent to me by her! I wasn't even sent a birthday card by her!
+8. By 5 o'clock the winner hadn't been announced by the committee yet.
 9. These recommendations are always given to students by Professor Brand. Students are always given these recommendations by Professor Brand.
-10. His jokes are never laughed at because they aren’t funny.
+10. His jokes are never laughed at because they aren't funny.
 
 **Часть 2**
 
-1. Don’t disturb him. A very important letter is being dictated by him to his secretary.
+1. Don't disturb him. A very important letter is being dictated by him to his secretary.
 2. The accident was being described by her to passers-by when the police arrived.
 3. I have been waited for for a quarter of an hour already.
 4. What is being looked for?
@@ -13206,9 +13206,9 @@ She is said to be a good doctor. He was heard to shout at her. She was seen to l
 5. Why had this fact been mentioned twice by the end of the conversation?
 6. Our tests are being looked through now. — And when will the marks be announced?
 7. I was promised that my suggestion would be thought over.
-8. The task was repeated to the pupils several times but some of them still didn’t understand it.
+8. The task was repeated to the pupils several times but some of them still didn't understand it.
 9. What film was shown to the children yesterday? What film were the children shown yesterday?
-10. It’s reported that the visit will be paid at the beginning of the month.
+10. It's reported that the visit will be paid at the beginning of the month.
 
 **Часть 2**
 
@@ -13239,16 +13239,16 @@ She is said to be a good doctor. He was heard to shout at her. She was seen to l
 
 Исправьте возможные ошибки.  
 Has the baby be fed yet? Has the baby been fed yet? .....................................................  
-Why wasn’t I sent for at once? RIGHT ...................................................................................
+Why wasn't I sent for at once? RIGHT ...................................................................................
 
 **Часть 1**
 
-1. There’s something wrong with the piano. It is been tuned now. ...............................
+1. There's something wrong with the piano. It is been tuned now. ...............................
 2. When will be the picture finished? .........................................................................
 3. The boy was made to stay after classes. ................................................................
 4. The plan we agreed looked perfect. .......................................................................
 5. They were recommended to call the police. ...........................................................
-6. You’ll have to wait. The documents are looking through. ........................................
+6. You'll have to wait. The documents are looking through. ........................................
 7. She was looked at with curiosity when she entered. ...............................................
 8. Mary was sure she had been watched all the way. ...................................................
 9. Who was the book written? ...................................................................................
@@ -13258,7 +13258,7 @@ Why wasn’t I sent for at once? RIGHT .........................................
 
 1. The question has been being discussed for two hours already. ................................
 2. What were you being explained when the principal entered? ...................................
-3. He was seen leave the building at 8 o’clock. ...........................................................
+3. He was seen leave the building at 8 o'clock. ...........................................................
 4. It was arranged that the incident would never be mentioned in the family. ................
 5. She was said to go home at once. ..........................................................................
 6. This event has been much spoken lately. ...............................................................
@@ -13271,7 +13271,7 @@ Why wasn’t I sent for at once? RIGHT .........................................
 
 **Часть 1**
 
-1. There’s something wrong with the piano. It is being tuned now.
+1. There's something wrong with the piano. It is being tuned now.
 2. When will the picture be finished?
 3. The boy was made to stay after classes.
 4. The plan we agreed on looked perfect.
@@ -13286,7 +13286,7 @@ Why wasn’t I sent for at once? RIGHT .........................................
 
 1. The question has been discussed for two hours already.
 2. What was being explained to you when the principal entered?
-3. He was seen to leave the building at 8 o’clock.
+3. He was seen to leave the building at 8 o'clock.
 4. It was arranged that the incident would never be mentioned in the family.
 5. She was told to go home at once.
 6. This event has been much spoken about lately.
@@ -13309,16 +13309,16 @@ Why wasn’t I sent for at once? RIGHT .........................................
 
 **Часть 1**
 
-1. What’s going on here? What’s all that noise? — Sorry! My flat ......................... (*to redecorate*).
-2. If the work ......................... (*not*, *to finish*) by evening, you’ll be in trouble.
+1. What's going on here? What's all that noise? — Sorry! My flat ......................... (*to redecorate*).
+2. If the work ......................... (*not*, *to finish*) by evening, you'll be in trouble.
 3. By the time I left the problem ...................... (*not*, *to solve*) though it ......................... (*to discuss*) actively for quite a long time.
-4. Why ......................... (*this information*, *ever*, *to use*)? It’s so interesting!
+4. Why ......................... (*this information*, *ever*, *to use*)? It's so interesting!
 5. Such clothes ......................... (*not*, *to* *wear*) now. They are old-fashioned.
-6. Don’t worry. Nobody will notice such a tiny spot. It ......................... (*not*, *to pay attention to*).
+6. Don't worry. Nobody will notice such a tiny spot. It ......................... (*not*, *to pay attention to*).
 7. She suddenly realized that she ......................... (*to listen to*) in complete silence.
-8. She ......................... (*not*, *to introduce*) by the hostess and felt embarrassed as she herself didn’t know anybody.
-9. I’ll take a picture of you when you ......................... (*to give*) the prize.
-10. What was that book about? — It ................................ (*to devote*) to the writer’s brother who ......................... (*to kill*) in the war.
+8. She ......................... (*not*, *to introduce*) by the hostess and felt embarrassed as she herself didn't know anybody.
+9. I'll take a picture of you when you ......................... (*to give*) the prize.
+10. What was that book about? — It ................................ (*to devote*) to the writer's brother who ......................... (*to kill*) in the war.
 
 **Часть 2**
 
@@ -13328,7 +13328,7 @@ Why wasn’t I sent for at once? RIGHT .........................................
 4. The girl was crying because she ......................... (*to make fun of*) by her classmates.
 5. It was the third time the name ......................... (*to mention*) and I wondered who the man was.
 6. I was sure that if the figures ......................... (*to check*) properly the mistake ......................... (*to find*) easily.
-7. I’m fed up. I .................. (*to keep*) waiting for half an hour! I’m not going to stay here any longer.
+7. I'm fed up. I .................. (*to keep*) waiting for half an hour! I'm not going to stay here any longer.
 8. Now that the situation ......................... (*to study*) thoroughly what ......................... (*to do*) to improve it?
 9. This is the only thing that ......................... (*to talk about*) for several days.
 10. I doubted if the child .............................. (*to look after*) properly though I ................................ (*to promise*) complete care.
@@ -13337,26 +13337,26 @@ Why wasn’t I sent for at once? RIGHT .........................................
 
 **Часть 1**
 
-1. What’s going on here? What’s all that noise? — Sorry! My flat is being redecorated.
-2. If the work isn’t finished by evening, you’ll be in trouble.
-3. By the time I left the problem hadn’t been solved though it had been discussed actively for quite a long time.
-4. Why hasn’t this information ever been used? It’s so interesting!
-5. Such clothes aren’t worn now. They are old-fashioned.
-6. Don’t worry. Nobody will notice such a tiny spot. It won’t be paid any attention to.
+1. What's going on here? What's all that noise? — Sorry! My flat is being redecorated.
+2. If the work isn't finished by evening, you'll be in trouble.
+3. By the time I left the problem hadn't been solved though it had been discussed actively for quite a long time.
+4. Why hasn't this information ever been used? It's so interesting!
+5. Such clothes aren't worn now. They are old-fashioned.
+6. Don't worry. Nobody will notice such a tiny spot. It won't be paid any attention to.
 7. She suddenly realized that she was being listened to in complete silence.
-8. She wasn’t introduced by the hostess and felt embarrassed as she herself didn’t know anybody.
-9. I’ll take a picture of you when you are given the prize.
-10. What was that book about? — It was devoted to the writer’s brother who had been killed in the war.
+8. She wasn't introduced by the hostess and felt embarrassed as she herself didn't know anybody.
+9. I'll take a picture of you when you are given the prize.
+10. What was that book about? — It was devoted to the writer's brother who had been killed in the war.
 
 **Часть 2**
 
 1. He has been offered this job several times. — What made him refuse it?
-2. I was told that the problem hadn’t been considered yet but when it was I would be informed immediately.
+2. I was told that the problem hadn't been considered yet but when it was I would be informed immediately.
 3. They say a new play is being rehearsed by the school theatre. — Oh, yes, all the parents and teachers have been invited.
 4. The girl was crying because she had been made fun of by her classmates.
 5. It was the third time the name had been mentioned and I wondered who the man was.
 6. I was sure that if the figures were checked properly the mistake would be found easily.
-7. I’m fed up. I have been kept waiting for half an hour! I’m not going to stay here any longer.
+7. I'm fed up. I have been kept waiting for half an hour! I'm not going to stay here any longer.
 8. Now that the situation has been studied thoroughly what is being done to improve it?
 9. This is the only thing that has been talked about for several days.
 10. I doubted if the child would be looked after properly though I had been promised complete care.
@@ -13414,42 +13414,42 @@ Why wasn’t I sent for at once? RIGHT .........................................
 
 **Часть 1**
 
-1. If we are taught another foreign language next year, I’ll choose English. It is spoken in many countries.
+1. If we are taught another foreign language next year, I'll choose English. It is spoken in many countries.
 2. Who told you that he had been robbed? He was badly beaten but nothing was stolen.
 3. I switched on the TV set. Some old film was being shown.
-4. It turned out that he hadn’t been invited to the party, as his telephone number hadn’t been found.
-5. What was given to you as a birthday present? — Nothing. I haven’t been congratulated so far.
-6. It was explained to us that this sad event was never discussed in the family and that’s why our questions wouldn’t be answered.
+4. It turned out that he hadn't been invited to the party, as his telephone number hadn't been found.
+5. What was given to you as a birthday present? — Nothing. I haven't been congratulated so far.
+6. It was explained to us that this sad event was never discussed in the family and that's why our questions wouldn't be answered.
 7. Your dress is being ironed. Will you wait a minute, please?
 8. It seems to me this is a trifle incident. Why do you think it will be spoken about?
-9. Instructions were just dictated to me. — Wasn’t it explained to you what it was all for?
-10. Nick wondered what day the meeting had been put off to and why he hadn’t been told about it.
+9. Instructions were just dictated to me. — Wasn't it explained to you what it was all for?
+10. Nick wondered what day the meeting had been put off to and why he hadn't been told about it.
 
 **Часть 2**
 
-1. When will the next speaker be listened to? — I don’t know. He hasn’t come yet. He is being waited for by everybody.
-2. I’ve never been offered anything like this before. I don’t know what to do.
-3. Nobody will believe you. You’ll be just laughed at.
+1. When will the next speaker be listened to? — I don't know. He hasn't come yet. He is being waited for by everybody.
+2. I've never been offered anything like this before. I don't know what to do.
+3. Nobody will believe you. You'll be just laughed at.
 4. Nothing is repeated twice at her lessons. Pupils understand her explanations very well.
 5. Why have the documents been looked through so long? Is anything wrong?
-6. Why can’t you understand such a simple thing? How many times has it been explained to you?
-7. If she is promised defence by the police she’ll say who the crime was committed by.
+6. Why can't you understand such a simple thing? How many times has it been explained to you?
+7. If she is promised defence by the police she'll say who the crime was committed by.
 8. What was recommended to you by the doctor?
 9. By that time five patients had been operated on.
-10. The letter was written in a hurry, that’s why it was difficult to read it.
+10. The letter was written in a hurry, that's why it was difficult to read it.
 
 **Часть 3**
 
-1. You’ll be told when your car will be sold. You’ll be sent a letter.
-2. Though Mr. Smith had been described to me I couldn’t recognize him until we were introduced to each other.
+1. You'll be told when your car will be sold. You'll be sent a letter.
+2. Though Mr. Smith had been described to me I couldn't recognize him until we were introduced to each other.
 3. Has our flight been announced yet?
 4. It was clear that such a beautiful thing would be bought very soon. Any money would be paid for it.
-5. I didn’t get whose name was being mentioned. I just guessed that somebody was being sent for.
-6. Our help was received with gratitude but actually it wasn’t needed.
-7. He should be given time to think. Such decisions can’t be taken at once.
+5. I didn't get whose name was being mentioned. I just guessed that somebody was being sent for.
+6. Our help was received with gratitude but actually it wasn't needed.
+7. He should be given time to think. Such decisions can't be taken at once.
 8. Everything had been arranged long before the meeting. Why was the plan suddenly changed?
-9. If the injection isn’t made within an hour, the patient may die.
-10. Don’t enter! A rehearsal is being held.
+9. If the injection isn't made within an hour, the patient may die.
+10. Don't enter! A rehearsal is being held.
 
 ## Сослагательное наклонение
 
@@ -13494,7 +13494,7 @@ would + перфектный инфинитив форма, сходная с Pa
 |  |  |
 | --- | --- |
 | форма, сходная с Past Perfect | would + инфинитив смыслового глагола |
-| If you had prepared everything beforehand we wouldn’t wait for you now. | Если бы ты приготовил все заранее, мы бы тебя сейчас не ждали. |
+| If you had prepared everything beforehand we wouldn't wait for you now. | Если бы ты приготовил все заранее, мы бы тебя сейчас не ждали. |
 
 |  |  |
 | --- | --- |
@@ -13514,7 +13514,7 @@ would + перфектный инфинитив форма, сходная с Pa
 | If I were you I would do it now. | На вашем месте я бы сделал это сейчас. |
 | If I were you I would have done it long ago. | На вашем месте я бы давно это сделал. |
 
-В предложениях с придаточными нереального условия правила согласования времен не соблюдаются. If I ate less I wouldn’t be so fat. He said that if he ate less he wouldn’t be so fat.
+В предложениях с придаточными нереального условия правила согласования времен не соблюдаются. If I ate less I wouldn't be so fat. He said that if he ate less he wouldn't be so fat.
 
 6. Оборот but for соответствует русскому если бы не ...
 
@@ -13538,27 +13538,27 @@ If I knew English I would speak to them. (to know)
 
 1. If Jack were a polite man he ................................ in such a way. (*not*, *to behave*)
 2. If Barbara ......................... to my birthday party I would be so pleased. (*to come*)
-3. If I weren’t tired I ......................... you. (*to join*)
+3. If I weren't tired I ......................... you. (*to join*)
 4. He ......................... ill so often if he went in for sports. (*not*, *to fall*)
 5. I would go to the sea-side if I ......................... afford a holiday now. (*can*)
-6. If you ......................... ready he wouldn’t be so annoyed . (*to be*)
+6. If you ......................... ready he wouldn't be so annoyed . (*to be*)
 7. You ......................... better if you walked more. (*to feel*)
 8. If I ......................... a cold I would take part in the competition. (*not*, *to have*)
-9. I wouldn’t be angry with you if you ......................... me all the time. (*not*, *to interrupt*)
-10. I ......................... the house if it weren’t so large. (*not*, *to sell*)
+9. I wouldn't be angry with you if you ......................... me all the time. (*not*, *to interrupt*)
+10. I ......................... the house if it weren't so large. (*not*, *to sell*)
 
 **Полное решение**
 
-1. If Jack were a polite man he wouldn’t behave in such a way.
+1. If Jack were a polite man he wouldn't behave in such a way.
 2. If Barbara came to my birthday party I would be so pleased.
-3. If I weren’t tired I would join you.
-4. He wouldn’t fall ill so often if he went in for sports.
+3. If I weren't tired I would join you.
+4. He wouldn't fall ill so often if he went in for sports.
 5. I would go to the seaside if I could afford a holiday now.
-6. If you were ready he wouldn’t be so annoyed.
+6. If you were ready he wouldn't be so annoyed.
 7. You would feel better if you walked more.
-8. If I didn’t have a cold I would take part in the competition.
-9. I wouldn’t be angry with you if you didn’t interrupt me all the time.
-10. I wouldn’t sell the house if it weren’t so large.
+8. If I didn't have a cold I would take part in the competition.
+9. I wouldn't be angry with you if you didn't interrupt me all the time.
+10. I wouldn't sell the house if it weren't so large.
 
 <a id="exercise-63-2"></a>
 
@@ -13571,29 +13571,29 @@ If I knew English I would speak to them. (to know)
 Употребите глагол в форме сослагательного наклонения.  
 Ситуация относится к прошедшему времени.  
 If I had found him at home I would have told him the news. (to tell)  
-If so many years hadn’t passed I would have recognized him. (to pass)
+If so many years hadn't passed I would have recognized him. (to pass)
 
-1. If I hadn’t been rude to him yesterday we ......................... . (*not*, *to quarrel*)
-2. If she ......................... away some important papers I wouldn’t have been angry. (*not*, *to throw*)
-3. I wouldn’t have taken a taxi if I ......................... so much luggage. (*not*, *to have*)
+1. If I hadn't been rude to him yesterday we ......................... . (*not*, *to quarrel*)
+2. If she ......................... away some important papers I wouldn't have been angry. (*not*, *to throw*)
+3. I wouldn't have taken a taxi if I ......................... so much luggage. (*not*, *to have*)
 4. He ......................... his way if you had explained to him how to get there. (*not*, *to lose*)
 5. They ......................... if you had told them the truth. (*to help*)
-6. He wouldn’t have lost his way if you ......................... him. (*to meet*)
+6. He wouldn't have lost his way if you ......................... him. (*to meet*)
 7. If you ......................... the police they would have arrested him. (*to call*)
-8. If they hadn’t been in a hurry they ......................... to drive you to the station. (*not*, *to refuse*)
+8. If they hadn't been in a hurry they ......................... to drive you to the station. (*not*, *to refuse*)
 9. I ......................... everything to you if you had asked me. (*to explain*)
 10. If you ......................... me for advice I would have advised you to stay at home. (*to ask*)
 
 **Полное решение**
 
-1. If I hadn’t been rude to him yesterday we wouldn’t have quarrelled.
-2. If she hadn’t thrown away some important papers I wouldn’t have been angry.
-3. I wouldn’t have taken a taxi if I hadn’t had so much luggage.
-4. He wouldn’t have lost his way if you had explained to him how to get there.
+1. If I hadn't been rude to him yesterday we wouldn't have quarrelled.
+2. If she hadn't thrown away some important papers I wouldn't have been angry.
+3. I wouldn't have taken a taxi if I hadn't had so much luggage.
+4. He wouldn't have lost his way if you had explained to him how to get there.
 5. They would have helped if you had told them the truth.
-6. He wouldn’t have lost his way if you had met him.
+6. He wouldn't have lost his way if you had met him.
 7. If you had called the police they would have arrested him.
-8. If they hadn’t been in a hurry they wouldn’t have refused to drive you to the station.
+8. If they hadn't been in a hurry they wouldn't have refused to drive you to the station.
 9. I would have explained everything to you if you had asked me.
 10. If you had asked me for advice I would have advised you to stay at home.
 
@@ -13607,28 +13607,28 @@ If so many years hadn’t passed I would have recognized him. (to pass)
 
 Переделайте предложения, употребляя сослагательное наклонение.
 
-1. She is unhappy because he doesn’t love her. ...........................................................................
+1. She is unhappy because he doesn't love her. ...........................................................................
 2. She was so happy yesterday because he told her he loved her. .................................................
 3. Glen stayed at home because the weather was bad. .................................................................
-4. Molly doesn’t trust him because she doesn’t know him well. .....................................................
-5. He didn’t argue because he didn’t know the subject well. ..........................................................
-6. I didn’t drink the coffee because it wasn’t tasty. ........................................................................
+4. Molly doesn't trust him because she doesn't know him well. .....................................................
+5. He didn't argue because he didn't know the subject well. ..........................................................
+6. I didn't drink the coffee because it wasn't tasty. ........................................................................
 7. The child learned the poem quickly because it was easy. ..........................................................
 8. I read a lot because I want to know a lot. ..................................................................................
 9. I took the cat home because it looked unhappy. .......................................................................
-10. I don’t watch TV because I don’t have much time. ....................................................................
+10. I don't watch TV because I don't have much time. ....................................................................
 
 **Полное решение**
 
-1. If he loved her she wouldn’t be unhappy.
-2. If he hadn’t told her he loved her she wouldn’t have been so happy.
-3. If the weather hadn’t been so bad Glen wouldn’t have stayed at home.
+1. If he loved her she wouldn't be unhappy.
+2. If he hadn't told her he loved her she wouldn't have been so happy.
+3. If the weather hadn't been so bad Glen wouldn't have stayed at home.
 4. If Molly knew him well she would trust him.
 5. If he had known the subject well he would have argued.
 6. If the coffee had been tasty I would have drunk it.
-7. The child wouldn’t have learned the poem quickly if it hadn’t been so easy.
-8. I wouldn’t read much if I didn’t want to know much.
-9. I wouldn’t have taken the cat home if it hadn’t looked unhappy.
+7. The child wouldn't have learned the poem quickly if it hadn't been so easy.
+8. I wouldn't read much if I didn't want to know much.
+9. I wouldn't have taken the cat home if it hadn't looked unhappy.
 10. I would watch TV if I had much time.
 
 <a id="exercise-63-4"></a>
@@ -13640,32 +13640,32 @@ If so many years hadn’t passed I would have recognized him. (to pass)
 **Задание**
 
 Постройте предложения по образцу.  
-I don’t walk much. If I were you I would walk more.  
-I’ve sold my car. If I were you I wouldn’t have sold my car.
+I don't walk much. If I were you I would walk more.  
+I've sold my car. If I were you I wouldn't have sold my car.
 
-1. I didn’t go there. .....................................................................................................................
+1. I didn't go there. .....................................................................................................................
 2. I ate a lot yesterday. ................................................................................................................
-3. I don’t learn English. ...............................................................................................................
+3. I don't learn English. ...............................................................................................................
 4. I always trust people. ..............................................................................................................
 5. I told him the truth. .................................................................................................................
-6. I didn’t buy that bag. ...............................................................................................................
+6. I didn't buy that bag. ...............................................................................................................
 7. I smoke a lot. .........................................................................................................................
-8. I don’t eat much fruit. .............................................................................................................
-9. I didn’t have a holiday last year. ...............................................................................................
-10. I’m angry with him. ................................................................................................................
+8. I don't eat much fruit. .............................................................................................................
+9. I didn't have a holiday last year. ...............................................................................................
+10. I'm angry with him. ................................................................................................................
 
 **Полное решение**
 
 1. If I were you I would have gone there.
-2. If I were you I wouldn’t have eaten much.
+2. If I were you I wouldn't have eaten much.
 3. If I were you I would learn English.
-4. If I were you I wouldn’t always trust people.
-5. If I were you I wouldn’t have told him the truth.
+4. If I were you I wouldn't always trust people.
+5. If I were you I wouldn't have told him the truth.
 6. If I were you I would have bought that bag.
-7. If I were you I wouldn’t smoke much.
+7. If I were you I wouldn't smoke much.
 8. If I were you I would eat a lot of fruit.
 9. If I were you I would have had a holiday last year.
-10. If I were you I wouldn’t be angry with him.
+10. If I were you I wouldn't be angry with him.
 
 <a id="exercise-63-5"></a>
 
@@ -13688,7 +13688,7 @@ I’ve sold my car. If I were you I wouldn’t have sold my car.
 | My chief is loyal | E. he gave me a day off |
 | My mother is kind | F. he has saved a lot of money |
 
-**Образец:** If Graham weren’t friendly he wouldn’t have made so many friends.
+**Образец:** If Graham weren't friendly he wouldn't have made so many friends.
 
 1. ..............................................................................................................................................
 2. ..............................................................................................................................................
@@ -13701,13 +13701,13 @@ I’ve sold my car. If I were you I wouldn’t have sold my car.
 | Первая часть | Варианты второй части (сопоставьте) |
 | --- | --- |
 | I have passed the exam | A. He is wet through now |
-| Steve hasn’t saved enough money | B. I’m thirsty now |
-| Katherine hasn’t cleaned the coat | C. I’m the happiest man |
-| Adam didn’t take the umbrella | D. She can’t put it on |
-| This man broke into a house | E. He can’t go on holiday |
-| I didn’t buy a bottle of water | F. He is in prison now |
+| Steve hasn't saved enough money | B. I'm thirsty now |
+| Katherine hasn't cleaned the coat | C. I'm the happiest man |
+| Adam didn't take the umbrella | D. She can't put it on |
+| This man broke into a house | E. He can't go on holiday |
+| I didn't buy a bottle of water | F. He is in prison now |
 
-**Образец:** If I hadn’t passed the exam I wouldn’t be the happiest man.
+**Образец:** If I hadn't passed the exam I wouldn't be the happiest man.
 
 1. ..............................................................................................................................................
 2. ..............................................................................................................................................
@@ -13719,19 +13719,19 @@ I’ve sold my car. If I were you I wouldn’t have sold my car.
 
 **Часть 1**
 
-1. If Richard weren’t nervous he wouldn’t have shouted at his child.
-2. If Bill weren’t economical he wouldn’t have saved so much money.
-3. If Bess weren’t bad-tempered she wouldn’t have quarrelled with her husband.
-4. If my chief weren’t loyal he wouldn’t have given me a day off.
-5. If my mother weren’t kind she wouldn’t have forgiven me.
+1. If Richard weren't nervous he wouldn't have shouted at his child.
+2. If Bill weren't economical he wouldn't have saved so much money.
+3. If Bess weren't bad-tempered she wouldn't have quarrelled with her husband.
+4. If my chief weren't loyal he wouldn't have given me a day off.
+5. If my mother weren't kind she wouldn't have forgiven me.
 
 **Часть 2**
 
 1. If Steve had saved enough money he would be able to go on holiday.
 2. If Katherine had cleaned her coat she would be able to put it on.
-3. If Adam had taken the umbrella he wouldn’t be wet through now.
-4. If this man hadn’t broken into a house he wouldn’t be in prison now.
-5. If I had bought a bottle of water I wouldn’t be thirsty now.
+3. If Adam had taken the umbrella he wouldn't be wet through now.
+4. If this man hadn't broken into a house he wouldn't be in prison now.
+5. If I had bought a bottle of water I wouldn't be thirsty now.
 
 <a id="exercise-63-6"></a>
 
@@ -13745,53 +13745,53 @@ I’ve sold my car. If I were you I wouldn’t have sold my car.
 
 **Часть 1**
 
-I didn’t book a room in advance, that’s why I have problems now. If I had booked a room in advance, I wouldn’t have problems now.
+I didn't book a room in advance, that's why I have problems now. If I had booked a room in advance, I wouldn't have problems now.
 
-1. You didn’t take the pills, that’s why you feel bad now. ...............................................................
-2. I didn’t clean the room yesterday, that’s why I have to do it now. ...............................................
-3. The film is interesting, that’s why I’ve seen it twice. ..................................................................
-4. He is a good lawyer, that’s why he has earned a lot of money. ...................................................
-5. He hasn’t given up smoking, that’s why he feels bad. ...............................................................
-6. Tom hasn’t eaten anything the whole day, so he is hungry now. ................................................
-7. You are late again. Why didn’t you take a taxi? .........................................................................
-8. I’m afraid of flying, that’s why I didn’t go there by plane. ...........................................................
-9. My radio-set doesn’t work and I didn’t listen to the 7 o’clock news. ...........................................
-10. The bag is cheap, that’s why I bought it. ..................................................................................
+1. You didn't take the pills, that's why you feel bad now. ...............................................................
+2. I didn't clean the room yesterday, that's why I have to do it now. ...............................................
+3. The film is interesting, that's why I've seen it twice. ..................................................................
+4. He is a good lawyer, that's why he has earned a lot of money. ...................................................
+5. He hasn't given up smoking, that's why he feels bad. ...............................................................
+6. Tom hasn't eaten anything the whole day, so he is hungry now. ................................................
+7. You are late again. Why didn't you take a taxi? .........................................................................
+8. I'm afraid of flying, that's why I didn't go there by plane. ...........................................................
+9. My radio-set doesn't work and I didn't listen to the 7 o'clock news. ...........................................
+10. The bag is cheap, that's why I bought it. ..................................................................................
 
 **Часть 2**
 
-There is a good film on TV today. I won’t go with you. But for the film I would go with you.
+There is a good film on TV today. I won't go with you. But for the film I would go with you.
 
-1. The frost is strong. We won’t go skating. .................................................................................
+1. The frost is strong. We won't go skating. .................................................................................
 2. I had a map. It helped me to find the place. ..............................................................................
 3. He gave me advice and now I know what to do. ........................................................................
-4. The price was too high, so I didn’t buy the car. .........................................................................
+4. The price was too high, so I didn't buy the car. .........................................................................
 5. Only the alarm-clock woke me up. ..........................................................................................
-6. I’m upset because of his words. . .............................................................................................
+6. I'm upset because of his words. . .............................................................................................
 
 **Полное решение**
 
 **Часть 1**
 
-1. If you had taken the pills you wouldn’t feel bad now.
-2. If I had cleaned the room yesterday I wouldn’t have to do it now.
-3. If the film weren’t interesting I wouldn’t have seen it twice.
-4. If he weren’t a good lawyer he wouldn’t have earned so much money.
-5. If he had given up smoking he wouldn’t feel bad.
-6. If Tom had eaten something he wouldn’t be hungry.
-7. If you had taken a taxi you wouldn’t be late.
-8. If I weren’t afraid of flying I would have gone there by plane.
-9. If my radio-set worked I would have listened to the 7 o’clock news.
-10. If the bag weren’t cheap I wouldn’t have bought it.
+1. If you had taken the pills you wouldn't feel bad now.
+2. If I had cleaned the room yesterday I wouldn't have to do it now.
+3. If the film weren't interesting I wouldn't have seen it twice.
+4. If he weren't a good lawyer he wouldn't have earned so much money.
+5. If he had given up smoking he wouldn't feel bad.
+6. If Tom had eaten something he wouldn't be hungry.
+7. If you had taken a taxi you wouldn't be late.
+8. If I weren't afraid of flying I would have gone there by plane.
+9. If my radio-set worked I would have listened to the 7 o'clock news.
+10. If the bag weren't cheap I wouldn't have bought it.
 
 **Часть 2**
 
 1. But for the frost we would go skating.
-2. But for the map I wouldn’t have found the place.
-3. But for his advice I wouldn’t know what to do.
+2. But for the map I wouldn't have found the place.
+3. But for his advice I wouldn't know what to do.
 4. But for the price I would have bought the car.
-5. But for the alarm-clock I wouldn’t have woken up.
-6. But for his words I wouldn’t be upset.
+5. But for the alarm-clock I wouldn't have woken up.
+6. But for his words I wouldn't be upset.
 
 <a id="exercise-63-7"></a>
 
@@ -13840,38 +13840,38 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 
 **Полное решение**
 
-1. If you had been late we would have left without you. It’s good you came in time.
+1. If you had been late we would have left without you. It's good you came in time.
 2. I would have finished the work long ago if he had helped me.
-3. I would treat him better if he hadn’t told me a lie.
-4. But for the fog the flight wouldn’t have been delayed.
+3. I would treat him better if he hadn't told me a lie.
+4. But for the fog the flight wouldn't have been delayed.
 5. If I were you I would discuss this question with everybody.
 6. If Steve were an honest man he would have told us the truth long ago.
 7. If he were a more experienced driver there would have been no accident.
 8. If I were you I would have phoned him long ago.
 9. If I had money I would lend you the necessary sum.
 10. If he had felt like staying with us last week he would have stayed.
-11. I would visit Jane today if I hadn’t fallen ill.
-12. But for him I wouldn’t know what is going on.
-13. If I were you I wouldn’t make the child learn this poem by heart.
-14. If the book weren’t so expensive I would have bought it yesterday.
+11. I would visit Jane today if I hadn't fallen ill.
+12. But for him I wouldn't know what is going on.
+13. If I were you I wouldn't make the child learn this poem by heart.
+14. If the book weren't so expensive I would have bought it yesterday.
 15. What would you do if you missed the train?
-16. He said that if his leg didn’t hurt he would play with us.
-17. I didn’t apologize. What would you have done if you were me?
-18. If you had bought a ticket you wouldn’t have been fined.
-19. Your child wouldn’t have got a bad mark if you paid more attention to him.
+16. He said that if his leg didn't hurt he would play with us.
+17. I didn't apologize. What would you have done if you were me?
+18. If you had bought a ticket you wouldn't have been fined.
+19. Your child wouldn't have got a bad mark if you paid more attention to him.
 20. Molly said that if she were Tim she would wear a hat.
 21. If you had bought those shoes you could put them on now.
 22. If I were her I would try to do it again.
 23. The child said that if Mother had bought him that toy he would be happy.
-24. I would go for a swim if it weren’t so cold.
-25. If I were you I wouldn’t allow my son to cross the street alone.
-26. I wouldn’t have been late yesterday if I hadn’t been caught in a traffic jam.
-27. But for the heat the flowers wouldn’t have faded.
+24. I would go for a swim if it weren't so cold.
+25. If I were you I wouldn't allow my son to cross the street alone.
+26. I wouldn't have been late yesterday if I hadn't been caught in a traffic jam.
+27. But for the heat the flowers wouldn't have faded.
 28. If I were you I would have given up smoking long ago and jogged in the morning.
 29. Mr. Cain would have given you promotion long ago if you were more responsible.
-30. I wouldn’t be in a rush if they weren’t waiting for me.
-31. If you hadn’t missed the lecture you wouldn’t be asking me about it now.
-32. She said she would sit for little Chris if she weren’t ill.
+30. I wouldn't be in a rush if they weren't waiting for me.
+31. If you hadn't missed the lecture you wouldn't be asking me about it now.
+32. She said she would sit for little Chris if she weren't ill.
 33. What would you do if you had a million dollars?
 34. But for his arrival I would meet you today.
 
@@ -13890,7 +13890,7 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 |  |  |
 | --- | --- |
 | I wish I knew where he is. | Хотел бы я знать, где он.(Жаль, что я не знаю, где он.) |
-| I wish he didn’t come. | Хотелось бы, чтобы он не приходил. (Жаль, что он придет.) |
+| I wish he didn't come. | Хотелось бы, чтобы он не приходил. (Жаль, что он придет.) |
 
 - Если действие относится к будущему, то может также употребляться форма would do:
 
@@ -13902,14 +13902,14 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 
 |  |  |
 | --- | --- |
-| I wish he would’t throw his things all over the place. | Мне бы хотелось, чтобы он не разбрасывал повсюду свои вещи. |
+| I wish he would't throw his things all over the place. | Мне бы хотелось, чтобы он не разбрасывал повсюду свои вещи. |
 
 - Если действие относится к прошлому, то употребляется форма, сходная с формой Past Perfect.
 
 |  |  |
 | --- | --- |
 | I wish I had known where he was yesterday. | Жаль, что я не знал, где он был вчера. |
-| I wish he hadn’t said it. | Жаль, что он это сказал. |
+| I wish he hadn't said it. | Жаль, что он это сказал. |
 
 - В придаточных дополнительных предложениях после wish глагол to be чаще употребляется в форме множественного числа were. В разговорной речи возможно употребление формы was.
 
@@ -13921,8 +13921,8 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 
 |  |  |
 | --- | --- |
-| I wish it weren’t so hot. | Жаль, что так жарко. |
-| I wish I hadn’t spent so much money on flowers. | Жаль, что я потратила так много денег на цветы. |
+| I wish it weren't so hot. | Жаль, что так жарко. |
+| I wish I hadn't spent so much money on flowers. | Жаль, что я потратила так много денег на цветы. |
 
 <a id="exercise-64-1"></a>
 
@@ -13933,20 +13933,20 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 **Задание**
 
 Закончите предложения. Отнесите ситуацию к настоящему.  
-He is busy now. I wish ... I wish he weren’t busy now.
+He is busy now. I wish ... I wish he weren't busy now.
 
-1. My boss says I’m often late for work. He wishes .......................................................................
-2. It’s a pity but it’s not my car. I wish ..........................................................................................
+1. My boss says I'm often late for work. He wishes .......................................................................
+2. It's a pity but it's not my car. I wish ..........................................................................................
 3. The day is so gloomy today. I wish ..........................................................................................
-4. I don’t have a house of my own. I wish .....................................................................................
-5. Paul’s wife is a bad cook. Paul wishes ......................................................................................
-6. Ron doesn’t speak German well. He wishes .............................................................................
+4. I don't have a house of my own. I wish .....................................................................................
+5. Paul's wife is a bad cook. Paul wishes ......................................................................................
+6. Ron doesn't speak German well. He wishes .............................................................................
 
 **Полное решение**
 
-1. He wishes I weren’t often late for work.
+1. He wishes I weren't often late for work.
 2. I wish it were ( was) my car.
-3. I wish the day weren’t (wasn’t) gloomy.
+3. I wish the day weren't (wasn't) gloomy.
 4. I wish I had a house of my own.
 5. Paul wishes his wife were a good cook.
 6. He wishes he spoke German better.
@@ -13960,22 +13960,22 @@ He is busy now. I wish ... I wish he weren’t busy now.
 **Задание**
 
 Закончите предложения. Отнесите ситуацию к прошлому.  
-My wife didn’t wake me up. I wish........ I wish my wife had woken me up.
+My wife didn't wake me up. I wish........ I wish my wife had woken me up.
 
 1. I bought a new suit yesterday. I wish ........................................................................................
 2. He has just got married. I wish .................................................................................................
-3. I didn’t hear him singing. I wish ...............................................................................................
-4. She wasn’t pleased with my work. I wish .................................................................................
+3. I didn't hear him singing. I wish ...............................................................................................
+4. She wasn't pleased with my work. I wish .................................................................................
 5. I ate too much for dinner. I wish ..............................................................................................
-6. Jack didn’t spell the word correctly. He wishes ........................................................................
+6. Jack didn't spell the word correctly. He wishes ........................................................................
 
 **Полное решение**
 
-1. I wish I hadn’t bought it.
-2. I wish he hadn’t got married.
+1. I wish I hadn't bought it.
+2. I wish he hadn't got married.
 3. I wish I had heard him singing.
 4. I wish she had been pleased with my work.
-5. I wish I hadn’t eaten too much for dinner.
+5. I wish I hadn't eaten too much for dinner.
 6. He wishes he had spelt it correctly.
 
 <a id="exercise-64-3"></a>
@@ -13993,11 +13993,11 @@ I feel bad. I wish I felt fine.
 **Слова для выбора:** to go on holiday; friends; coffee; leave it open; cheaper; active; sunny; let it grow; fast; the truth; fine.
 
 1. I closed the window when I was leaving. I wish ........................................
-2. I’m tired. I wish ......................................................................................
+2. I'm tired. I wish ......................................................................................
 3. He told me a lie. I wish ...........................................................................
 4. The sofa is too expensive. I wish ............................................................
 5. It was a rainy day yesterday. I wish .........................................................
-6. I’ve had my hair cut. I wish .....................................................................
+6. I've had my hair cut. I wish .....................................................................
 7. I drank tea for breakfast. I wish ...............................................................
 8. The train is slow. I wish ..........................................................................
 9. We are enemies. I wish ..........................................................................
@@ -14039,15 +14039,15 @@ I feel bad. I wish I felt fine.
 
 **Полное решение**
 
-1. I wish my friend and I didn’t quarrel so often.
-2. I wish he hadn’t changed that much.
+1. I wish my friend and I didn't quarrel so often.
+2. I wish he hadn't changed that much.
 3. I wish I knew his address.
 4. I wish the police had caught the criminals.
-5. I wish you didn’t spend so much money. / I wish you wouldn’t spend so much money.
+5. I wish you didn't spend so much money. / I wish you wouldn't spend so much money.
 6. I wish I could drive.
 7. I wish somebody had met him at the airport.
-8. I wish the car hadn’t broken down. We could go there by car.
-9. I wish he wouldn’t change his plans so often. / I wish he didn’t change his plans so often.
+8. I wish the car hadn't broken down. We could go there by car.
+9. I wish he wouldn't change his plans so often. / I wish he didn't change his plans so often.
 10. I wish you had revised this rule.
 
 <a id="unit-65"></a>
@@ -14127,31 +14127,31 @@ If he had asked me for help I would have helped him.
 
 Отреагируйте на предложенные ситуации отрицательно  
 при помощи If I were.  
-Tom hit Jack and Jack hit him back. If I were Jack I wouldn’t have hit Tom back.
+Tom hit Jack and Jack hit him back. If I were Jack I wouldn't have hit Tom back.
 
 1. Mr. Stone found treasure and handed it over to the authorities. .................................................
 2. Mr. Smith inherited a large sum of money and bought a house. .................................................
 3. Mrs. Brown always tells people what to do. ..............................................................................
-4. Mr. Steel went to the sea-side but didn’t swim in the sea. ..........................................................
-5. We don’t go in for sports. ........................................................................................................
+4. Mr. Steel went to the sea-side but didn't swim in the sea. ..........................................................
+5. We don't go in for sports. ........................................................................................................
 6. Mr. Crook wrote a novel and then burnt it. ................................................................................
 7. He misses lectures very often. .................................................................................................
 8. Mr. Clark bought a picture but then sold it. ...............................................................................
-9. He doesn’t even try to understand the problem. .......................................................................
+9. He doesn't even try to understand the problem. .......................................................................
 10. He smokes a lot. ....................................................................................................................
 
 **Полное решение**
 
-1. If I had found treasure I wouldn’t have handed it over to the authorities.
-2. If I had inherited a large sum of money I wouldn’t have bought a house.
-3. If I were Mrs. Brown I wouldn’t always tell people what to do.
+1. If I had found treasure I wouldn't have handed it over to the authorities.
+2. If I had inherited a large sum of money I wouldn't have bought a house.
+3. If I were Mrs. Brown I wouldn't always tell people what to do.
 4. If I had gone to the seaside I would have swum in the sea.
 5. If I were you I would go in for sports.
-6. If I had written a novel I wouldn’t have burnt it.
-7. If I were him I wouldn’t miss lectures often.
-8. If I had bought a picture I wouldn’t have sold it.
+6. If I had written a novel I wouldn't have burnt it.
+7. If I were him I wouldn't miss lectures often.
+8. If I had bought a picture I wouldn't have sold it.
 9. If I were him I would try to understand the problem.
-10. If I were him I wouldn’t smoke much.
+10. If I were him I wouldn't smoke much.
 
 <a id="exercise-65-4"></a>
 
@@ -14165,24 +14165,24 @@ Tom hit Jack and Jack hit him back. If I were Jack I wouldn’t have hit Tom bac
 
 **Часть 1**
 
-I want to be a housewife. I wish I didn’t work.
+I want to be a housewife. I wish I didn't work.
 
 1. I am lonely.
-2. My TV-set doesn’t work.
+2. My TV-set doesn't work.
 3. Her garden is not very nice.
-4. I haven’t got a camera.
-5. I’m not very beautiful. **not to work** *to have more friends* *can afford a new TV-set* *to take better care of it* *can take pictures* *to be a model*
+4. I haven't got a camera.
+5. I'm not very beautiful. **not to work** *to have more friends* *can afford a new TV-set* *to take better care of it* *can take pictures* *to be a model*
 
 **Часть 2**
 
-I don’t like this mirror. (buy) I wish I hadn’t bought it.
+I don't like this mirror. (buy) I wish I hadn't bought it.
 
 1. This food is bad. Why have I come to this restaurant?
 2. I went riding and fell down.
 3. I saw the match. My favourite team lost.
-4. I dyed my hair but now I don’t like the colour.
-5. I failed the driving test because I didn’t know the rules well.
-6. The floor is dirty but I don’t have the time to wash it. **buy** *go to another restaurant* *not to ride so fast* *not to switch on the TV-set* *to choose another colour* *to learn the rules better* *to wash it yesterday*
+4. I dyed my hair but now I don't like the colour.
+5. I failed the driving test because I didn't know the rules well.
+6. The floor is dirty but I don't have the time to wash it. **buy** *go to another restaurant* *not to ride so fast* *not to switch on the TV-set* *to choose another colour* *to learn the rules better* *to wash it yesterday*
 
 **Полное решение**
 
@@ -14197,8 +14197,8 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 **Часть 2**
 
 1. I wish I had gone to another restaurant.
-2. I wish I hadn’t ridden so fast.
-3. I wish I hadn’t switched on the TV-set.
+2. I wish I hadn't ridden so fast.
+3. I wish I hadn't switched on the TV-set.
 4. I wish I had chosen another colour.
 5. I wish I had learnt the rules better.
 6. I wish I had washed it yesterday.
@@ -14213,39 +14213,39 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 
 Закончите предложения, употребляя сослагательное наклонение.
 
-1. It’s raining and I can’t go for a walk. But for ..............................................................................
-2. I don’t have an umbrella and that’s why I’m wet. If ....................................................................
-3. I’m not rich and I didn’t stop at the Ritz. If ................................................................................
-4. I don’t know anything about gardening. I wish ..........................................................................
-5. It’s noisy. I wish ......................................................................................................................
+1. It's raining and I can't go for a walk. But for ..............................................................................
+2. I don't have an umbrella and that's why I'm wet. If ....................................................................
+3. I'm not rich and I didn't stop at the Ritz. If ................................................................................
+4. I don't know anything about gardening. I wish ..........................................................................
+5. It's noisy. I wish ......................................................................................................................
 6. The bus is overcrowded. I wish ................................................................................................
-7. The team made a mistake so they didn’t win. But for ................................................................
+7. The team made a mistake so they didn't win. But for ................................................................
 8. He failed the exam and he is upset. If .......................................................................................
 9. It was slippery and he broke his leg. If ......................................................................................
-10. I didn’t win the first prize. I wish ...............................................................................................
+10. I didn't win the first prize. I wish ...............................................................................................
 11. I had a headache and left the party early. But for ......................................................................
-12. I don’t trust him. I wish ...........................................................................................................
-13. It’s not dark and we’ll find the way. If .......................................................................................
+12. I don't trust him. I wish ...........................................................................................................
+13. It's not dark and we'll find the way. If .......................................................................................
 14. Because of the heavy snowfall the flight was cancelled. But for .................................................
-15. He doesn’t learn all rules and that’s why he makes mistakes. If .................................................
+15. He doesn't learn all rules and that's why he makes mistakes. If .................................................
 
 **Полное решение**
 
 1. But for the rain I would go for a walk.
-2. If I had an umbrella I wouldn’t be wet.
+2. If I had an umbrella I wouldn't be wet.
 3. If I were rich I would have stopped at the Ritz.
 4. I wish I knew something about gardening.
-5. I wish it weren’t noisy.
-6. I wish the bus wasn’t overcrowded.
+5. I wish it weren't noisy.
+6. I wish the bus wasn't overcrowded.
 7. But for the mistake the team would have won.
-8. If he hadn’t failed the exam he wouldn’t be upset.
-9. If it hadn’t been slippery he wouldn’t have broken his leg.
+8. If he hadn't failed the exam he wouldn't be upset.
+9. If it hadn't been slippery he wouldn't have broken his leg.
 10. I wish I had won the first prize.
-11. But for the headache I wouldn’t have left the party early.
+11. But for the headache I wouldn't have left the party early.
 12. I wish I trusted him.
-13. If it were dark we wouldn’t find the way.
-14. But for the heavy snowfall the flight wouldn’t have been cancelled.
-15. If he learned all rules he wouldn’t make mistakes.
+13. If it were dark we wouldn't find the way.
+14. But for the heavy snowfall the flight wouldn't have been cancelled.
+15. If he learned all rules he wouldn't make mistakes.
 
 <a id="exercise-65-6"></a>
 
@@ -14302,42 +14302,42 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 
 1. I wish I knew his name.
 2. If I were hungry I would eat something.
-3. You wouldn’t feel so bad now if you hadn’t eaten so much for dinner.
-4. If you had been more careful yesterday you wouldn’t be in trouble today.
-5. I wish it weren’t winter.
+3. You wouldn't feel so bad now if you hadn't eaten so much for dinner.
+4. If you had been more careful yesterday you wouldn't be in trouble today.
+5. I wish it weren't winter.
 6. If I knew where he is I would tell you.
-7. But for him she wouldn’t have found a job.
+7. But for him she wouldn't have found a job.
 8. I would play tennis if I liked it.
 9. If I were you I would try to understand him.
 10. I wish I could swim.
 11. If he read more he would know more.
 12. He said that if he knew this song he would sing it now.
 13. But for your help I would be in trouble.
-14. I wish he weren’t (wasn’t) so lazy.
+14. I wish he weren't (wasn't) so lazy.
 15. If she liked dogs she would have bought one long ago.
-16. If you didn’t smoke here I wouldn’t have a headache.
+16. If you didn't smoke here I wouldn't have a headache.
 17. If I were you I would have bought that tie.
-18. I wish they hadn’t lost the game.
-19. If he didn’t know French he wouldn’t have translated this story.
+18. I wish they hadn't lost the game.
+19. If he didn't know French he wouldn't have translated this story.
 20. She said that if it were easy she would do it.
-21. I wish you hadn’t thrown away the letter.
+21. I wish you hadn't thrown away the letter.
 22. I wish she had read this book.
 23. If he lived not far from me I would have visited him long ago.
-24. I wish you hadn’t been angry with me.
+24. I wish you hadn't been angry with me.
 25. But for his help I would be late.
-26. If he weren’t bad-tempered today, he wouldn’t be so rude.
+26. If he weren't bad-tempered today, he wouldn't be so rude.
 27. I wish you would revise all the rules for the exam.
-28. I wish I didn’t have to wake up so early every day.
+28. I wish I didn't have to wake up so early every day.
 29. I wish you had asked him to join the excursion.
-30. But for his advice I wouldn’t have known what to do.
+30. But for his advice I wouldn't have known what to do.
 31. But for the strong frost we could go skiing.
-32. I would have met him yesterday if I hadn’t been held up at work.
+32. I would have met him yesterday if I hadn't been held up at work.
 33. Where would you have gone last summer if you had had a chance?
 34. What would you do if you were the headmaster?
-35. If I were him I wouldn’t have considered the question yesterday.
-36. If you had bought a present last week, you wouldn’t be nervous now.
-37. She would have asked you yesterday if she weren’t so shy.
-38. I wish you hadn’t missed so many classes. Your answer would have been better.
+35. If I were him I wouldn't have considered the question yesterday.
+36. If you had bought a present last week, you wouldn't be nervous now.
+37. She would have asked you yesterday if she weren't so shy.
+38. I wish you hadn't missed so many classes. Your answer would have been better.
 39. I wish he were more persistent. He would have had his way long ago.
 40. What would you do if you had more time?
 
@@ -14359,20 +14359,20 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 | --- | --- |
 | He can read. | Он умеет читать. |
 | He could read before he was five. | Он умел читать, когда ему не было пяти. |
-| I couldn’t pronounce the word correctly. | Я не мог произнести слово правильно. |
+| I couldn't pronounce the word correctly. | Я не мог произнести слово правильно. |
 
 - возможность, создаваемую обстоятельствами
 
 |  |  |
 | --- | --- |
 | You can buy there anything you want. | Ты можешь купить там все, что хочешь. |
-| I couldn’t phone him before nine. | Я не мог позвонить ему до девяти. |
+| I couldn't phone him before nine. | Я не мог позвонить ему до девяти. |
 
 - разрешение, запрещение
 
 |  |  |
 | --- | --- |
-| You can’t smoke here. | Здесь нельзя курить. |
+| You can't smoke here. | Здесь нельзя курить. |
 | Can I ask you a question? | Могу я задать вам вопрос? |
 | You can use my phone. | Можете позвонить от меня. |
 
@@ -14388,8 +14388,8 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 |  |  |
 | --- | --- |
 | I can phone him today. | I could phone him yesterday. |
-| I’ll be able to phone him in the evening. | Я смогу позвонить ему вечером. |
-| I haven’t been able to sleep well lately. | В последнее время я не могу хорошо спать. |
+| I'll be able to phone him in the evening. | Я смогу позвонить ему вечером. |
+| I haven't been able to sleep well lately. | В последнее время я не могу хорошо спать. |
 | He might be able to do it. | Возможно, он может это сделать. |
 
 Форма could как форма прошедшего времени указывает только на возможность совершения действия в прошлом. Для того, чтобы показать, что действие было или не было совершено в прошлом, следует употреблять глагол to manage или оборот to be able to.
@@ -14398,7 +14398,7 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 | --- | --- |
 | I could get him on the phone. | Я мог до него дозвониться. |
 | I managed to get him on the phone. | Я сумел (мне удалось) до него дозвониться. |
-| I wasn’t able to start the car. | Мне не удалось завести машину. |
+| I wasn't able to start the car. | Мне не удалось завести машину. |
 
 <a id="exercise-66-1"></a>
 
@@ -14410,28 +14410,28 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 
 Закончите ситуации при помощи глагола can в правильной форме.  
 Используйте словосочетания в таблице.  
-Can you show me the way? I’m a stranger here.
+Can you show me the way? I'm a stranger here.
 
 **Слова для выбора:** park your car; show me the way; ride a bicycle; understand; trust; wait for us; close the window; swim; phone.
 
-1. ...................................... you ........................................... ? I’m cold.
+1. ...................................... you ........................................... ? I'm cold.
 2. You ............................... here. Look for another place to park your car.
 3. I ............................................ when I was three. My father taught me.
 4. She ................................................................ . She is afraid of water.
-5. I ......................................... yesterday. I didn’t remember his number.
+5. I ......................................... yesterday. I didn't remember his number.
 6. We ........................................................................... him. He is a liar.
 7. She .................................................................... . She was in a hurry.
 8. .....................you ....................... him? I think he is speaking English.
 
 **Полное решение**
 
-1. Can you close the window? I’m cold.
-2. You can’t park here. Look for another place to park your car.
+1. Can you close the window? I'm cold.
+2. You can't park here. Look for another place to park your car.
 3. I could ride a bicycle when I was three. My father taught me.
-4. She can’t swim. She is afraid of water.
-5. I couldn’t phone him yesterday. I didn’t remember his number.
-6. We can’t trust him. He is a liar.
-7. She couldn’t wait for us. She was in a hurry.
+4. She can't swim. She is afraid of water.
+5. I couldn't phone him yesterday. I didn't remember his number.
+6. We can't trust him. He is a liar.
+7. She couldn't wait for us. She was in a hurry.
 8. Can you understand him? I think he is speaking English.
 
 <a id="exercise-66-2"></a>
@@ -14446,20 +14446,20 @@ Can you show me the way? I’m a stranger here.
 
 1. I .................... drive now but next year I .................... drive.
 2. Last year he .................... speak English as well as he .................... speak this year.
-3. I’ve never .................... remember his name.
-4. I ................... cook a month ago but I’m taking a course and next month I ....................to cook.
-5. She might .................... baby-sit but I’m not sure of that.
+3. I've never .................... remember his name.
+4. I ................... cook a month ago but I'm taking a course and next month I ....................to cook.
+5. She might .................... baby-sit but I'm not sure of that.
 6. .................... I help you? Do you need help?
 7. ....................you .................... do the shopping in the evening? The fridge is empty.
 8. .................... skate when you were six?
 
 **Полное решение**
 
-1. I can’t drive now but next year I will be able to drive.
-2. Last year he couldn’t speak English as well as he can speak this year.
-3. I’ve never been able to remember his name.
-4. I couldn’t cook a month ago but I’m taking a course and next month I will be able to cook.
-5. She might be able to baby-sit but I’m not sure of that.
+1. I can't drive now but next year I will be able to drive.
+2. Last year he couldn't speak English as well as he can speak this year.
+3. I've never been able to remember his name.
+4. I couldn't cook a month ago but I'm taking a course and next month I will be able to cook.
+5. She might be able to baby-sit but I'm not sure of that.
 6. Can I help you? Do you need help?
 7. Will you be able to do the shopping in the evening? The fridge is empty.
 8. Could you skate when you were six?
@@ -14485,14 +14485,14 @@ Can you show me the way? I’m a stranger here.
 
 **Полное решение**
 
-1. I didn’t manage to pass the exam because I wasn’t prepared well enough.
-2. The children couldn’t break the vase. They weren’t at home.
-3. I couldn’t argue with her.
-4. I tried not to argue with her but didn’t manage to.
+1. I didn't manage to pass the exam because I wasn't prepared well enough.
+2. The children couldn't break the vase. They weren't at home.
+3. I couldn't argue with her.
+4. I tried not to argue with her but didn't manage to.
 5. Could you do it without my help?
 6. How did you manage to do it without my help?
-7. The children didn’t manage to repeat the word because it was difficult.
-8. I could repeat everything again but I didn’t want to.
+7. The children didn't manage to repeat the word because it was difficult.
+8. I could repeat everything again but I didn't want to.
 
 <a id="exercise-66-4"></a>
 
@@ -14520,13 +14520,13 @@ Can you show me the way? I’m a stranger here.
 **Полное решение**
 
 1. Can (could) I ask you a question?
-2. I won’t be able to come in time.
-3. Ted wasn’t able to read (didn’t manage to read) the word.
-4. I couldn’t believe it.
+2. I won't be able to come in time.
+3. Ted wasn't able to read (didn't manage to read) the word.
+4. I couldn't believe it.
 5. The child must be able to eat by himself.
-6. She hasn’t been able to work well lately.
+6. She hasn't been able to work well lately.
 7. I will be able to buy (can buy) something for supper.
-8. She can’t ride.
+8. She can't ride.
 9. Who will be able to answer (can answer) the question?
 10. I have never been able to argue with him.
 11. How long have you been able to swim?
@@ -14534,7 +14534,7 @@ Can you show me the way? I’m a stranger here.
 
 <a id="unit-67"></a>
 
-### Урок 67. Can(’t) be doing, can(’t) have done
+### Урок 67. Can('t) be doing, can('t) have done
 
 Страница 182 книги.
 
@@ -14574,26 +14574,26 @@ Can you show me the way? I’m a stranger here.
 
 2. В отрицательных предложениях модальный глагол can может также выражать невозможность, невероятность. В этом случае инфинитив смыслового глагола употребляется так же, как в пункте 1.
 
-- can’t be doing
+- can't be doing
 
 |  |  |
 | --- | --- |
-| He can’t be reading now. глагол не употребляется в форме Continuos * | Не может быть, что он сейчас читает. |
-| He can’t know it. | Не может быть, что он это знает. |
+| He can't be reading now. глагол не употребляется в форме Continuos * | Не может быть, что он сейчас читает. |
+| He can't know it. | Не может быть, что он это знает. |
 
-- can’t have done
-
-|  |  |
-| --- | --- |
-| He can’t have come. | Не может быть, что он пришел. |
-
-- can’t have been doing
+- can't have done
 
 |  |  |
 | --- | --- |
-| He can’t have been waiting so long. | Не может быть, что он так долго ждет. |
+| He can't have come. | Не может быть, что он пришел. |
 
-3. Предложения типа: «Неужели он не смог это сделать?», «Не может быть, чтобы он не пришел» переводятся при помощи глагола to fail. В этом случае ситуация всегда относится к прошлому. Can he have failed to do it? He can’t have failed to come.
+- can't have been doing
+
+|  |  |
+| --- | --- |
+| He can't have been waiting so long. | Не может быть, что он так долго ждет. |
+
+3. Предложения типа: «Неужели он не смог это сделать?», «Не может быть, чтобы он не пришел» переводятся при помощи глагола to fail. В этом случае ситуация всегда относится к прошлому. Can he have failed to do it? He can't have failed to come.
 
 <a id="exercise-67-1"></a>
 
@@ -14608,14 +14608,14 @@ He is unpunctual. (he, to come in time) Can he have come in time?
 
 1. She is lazy. (*she*, *to do the work*, *yet*) .......................................................................................
 2. He is very polite (*he*, *say it*, *yesterday*) .....................................................................................
-3. It’s early. (*they*, *to be at home*) ................................................................................................
+3. It's early. (*they*, *to be at home*) ................................................................................................
 4. The book is not interesting. (*you*, *read it*, *yet*) ..........................................................................
-5. They don’t know the city well. (*they*, *to live here*, *long*) ............................................................
+5. They don't know the city well. (*they*, *to live here*, *long*) ............................................................
 6. The story is so long. (*she*, *to type it*, *yet*) ..................................................................................
-7. It’s early. (*he*, *to sleep*, *now*) ....................................................................................................
-8. I didn’t tell him about it. (*he*, *to know it*) ...................................................................................
-9. (*he*, *to watch TV*, *all this time*)? It’s bad for his eyes..................................................................
-10. It’s raining. (*he*, *to walk*, *now*) ................................................................................................
+7. It's early. (*he*, *to sleep*, *now*) ....................................................................................................
+8. I didn't tell him about it. (*he*, *to know it*) ...................................................................................
+9. (*he*, *to watch TV*, *all this time*)? It's bad for his eyes..................................................................
+10. It's raining. (*he*, *to walk*, *now*) ................................................................................................
 11. He has a good memory. (*he*, *not to learn the poem*) .................................................................
 12. She has always been very kind-hearted. (*she*, *not to give you a present for your birthday*) ......... ..............................................................................................................................................
 
@@ -14643,16 +14643,16 @@ He is unpunctual. (he, to come in time) Can he have come in time?
 **Задание**
 
 Составьте отрицательные предложения, используя слова в скобках.  
-He doesn’t know French. (he, translate the text) He can’t have translated the text.
+He doesn't know French. (he, translate the text) He can't have translated the text.
 
-1. They didn’t earn much money last year. (*they*, *to buy this house*) .............................................
+1. They didn't earn much money last year. (*they*, *to buy this house*) .............................................
 2. He is your friend. (*he*, *to fail you*, *last week*) .............................................................................
 3. He is lazy. (*he*, *to be a good student*) ........................................................................................
 4. She is airsick. (*she*, *to go by plane*, *last year*) ...........................................................................
 5. He is an honest boy. (*he*, *to tell a lie*, *now*) ...............................................................................
 6. The ground is dry. (*it*, *to rain*, *half an hour ago*) .......................................................................
-7. It’s snowing. (*they*, *to play football*, *now*) ................................................................................
-8. She doesn’t look tired. (*she*, *to work*, *the whole day*) ...............................................................
+7. It's snowing. (*they*, *to play football*, *now*) ................................................................................
+8. She doesn't look tired. (*she*, *to work*, *the whole day*) ...............................................................
 9. The water is cold. (*they*, *to swim*, *all this time*) ........................................................................
 10. I saw him leaving. (*he*, *to wash his car*) ....................................................................................
 11. The doctor forbade him to smoke. (*he*, *not to give up smoking*) ...............................................
@@ -14660,18 +14660,18 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 
 **Полное решение**
 
-1. They can’t have bought this house.
-2. He can’t have failed you last week.
-3. He can’t be a good student.
-4. She can’t have gone by plane last year.
-5. He can’t be telling a lie now.
-6. It can’t have rained half an hour ago.
-7. They can’t be playing football now.
-8. She can’t have been working the whole day.
-9. They can’t have been swimming all this time.
-10. He can’t be washing his car.
-11. He can’t have failed to give up smoking.
-12. She can’t have failed to understand you.
+1. They can't have bought this house.
+2. He can't have failed you last week.
+3. He can't be a good student.
+4. She can't have gone by plane last year.
+5. He can't be telling a lie now.
+6. It can't have rained half an hour ago.
+7. They can't be playing football now.
+8. She can't have been working the whole day.
+9. They can't have been swimming all this time.
+10. He can't be washing his car.
+11. He can't have failed to give up smoking.
+12. She can't have failed to understand you.
 
 <a id="exercise-67-3"></a>
 
@@ -14702,20 +14702,20 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 **Полное решение**
 
 1. Can he be talking on the phone?
-2. She can’t have failed to come yesterday.
-3. The child can’t be hungry.
+2. She can't have failed to come yesterday.
+3. The child can't be hungry.
 4. Can she have been making dinner for three hours already?
 5. Can he have failed to tell you about it?
-6. The Swifts can’t have failed to send a letter.
+6. The Swifts can't have failed to send a letter.
 7. Can he have been playing the piano since morning?
-8. They can’t have been deciding the question since morning.
+8. They can't have been deciding the question since morning.
 9. Can they still be taking exams?
 10. Can Steve have been riding his bicycle since morning?
-11. Caroline can’t have lost the match.
-12. He can’t have failed to help you.
+11. Caroline can't have lost the match.
+12. He can't have failed to help you.
 13. Can Sharon still be washing the windows?
-14. Mr. Clark can’t have missed the meeting.
-15. Don and Kate can’t have failed to get married.
+14. Mr. Clark can't have missed the meeting.
+15. Don and Kate can't have failed to get married.
 
 <a id="unit-68"></a>
 
@@ -14737,7 +14737,7 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 |  |  |
 | --- | --- |
 | I had to do it at once. | Я должен был (мне пришлось) сделать это немедленно. |
-| I’ll have to do it at once. | Я буду должен (мне придется) сделать это немедленно. |
+| I'll have to do it at once. | Я буду должен (мне придется) сделать это немедленно. |
 
 - Must может выражать обязанность, долг (с точки зрения говорящего) *
 
@@ -14750,29 +14750,29 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 
 |  |  |
 | --- | --- |
-| You mustn’t stop to speak with strangers. | Ты не должна останавливаться и разговаривать с незнакомыми людьми. |
+| You mustn't stop to speak with strangers. | Ты не должна останавливаться и разговаривать с незнакомыми людьми. |
 
 настойчивый совет *
 
 |  |  |
 | --- | --- |
 | You must read the book. | Ты должен прочитать книгу. |
-| You mustn’t phone him. | Ты не должен ему звонить. / Не надо ему звонить. |
+| You mustn't phone him. | Ты не должен ему звонить. / Не надо ему звонить. |
 
 2. В своем модальном значении глагол to have to употребляется во всех видо-временных формах и выражает обязанность или необходимость, обусловленную обстоятельствами.
 
 |  |  |
 | --- | --- |
-| I’ll have to stay at home tomorrow. | Мне придется остаться завтра дома. |
+| I'll have to stay at home tomorrow. | Мне придется остаться завтра дома. |
 | I had to stay at home yesterday. | Мне пришлось вчера остаться дома. |
 | I have to stay at home every evening. | Мне приходится сидеть дома каждый вечер. |
-| I’ve had to stay at home the whole week. | Мне всю неделю пришлось сидеть дома. |
+| I've had to stay at home the whole week. | Мне всю неделю пришлось сидеть дома. |
 
 - Вопросительная и отрицательная формы глагола to have to образуются с помощью вспомогательного глагола to do.
 
 |  |  |
 | --- | --- |
-| I don’t have to go to work today. | Сегодня мне не надо идти на работу. |
+| I don't have to go to work today. | Сегодня мне не надо идти на работу. |
 | Did you have to stay at home yesterday? | Вчера тебе пришлось сидеть дома? |
 
 3. У модального глагола must есть также эквивалент to be to, который употребляется в двух формах — Present и Past Indefinite, и может выражать:
@@ -14789,7 +14789,7 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 |  |  |
 | --- | --- |
 | The medicine is to be taken after meals. | Лекарство нужно принимать после еды. |
-| Children are not to leave the school without their teacher’s permission. | Детям не позволено покидать школу без разрешения учителя. |
+| Children are not to leave the school without their teacher's permission. | Детям не позволено покидать школу без разрешения учителя. |
 
 <a id="exercise-68-1"></a>
 
@@ -14808,7 +14808,7 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 5. I .................... wake up early yesterday.
 6. .................... I type this article now?
 7. I was late because I .................... type an article.
-8. I’ll prove it and you .................... admit I’m right.
+8. I'll prove it and you .................... admit I'm right.
 9. The house was too small for them and they ....................look for another house last year.
 10. I .................... leave in an hour.
 
@@ -14821,7 +14821,7 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 5. I had to wake up early yesterday.
 6. Must I type this article now?
 7. I was late because I had to type an article.
-8. I’ll prove it and you will have to admit I’m right.
+8. I'll prove it and you will have to admit I'm right.
 9. The house was too small for them and they had to look for another house last year.
 10. I will have to leave in an hour.
 
@@ -14837,37 +14837,37 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 в правильной форме.
 
 1. As we had agreed I .............. meet him at 7.
-2. I know I .................... do the work myself. It’s my duty.
-3. Susan says I .................... drive her to the station. She thinks it’s my duty.
+2. I know I .................... do the work myself. It's my duty.
+3. Susan says I .................... drive her to the station. She thinks it's my duty.
 4. The baby -sitter was ill and Ellen .................... look after the child herself.
 5. “You .................... look after the children properly, feed them and take them for a walk,” Mrs. Swift said to the baby-sitter.
 6. The guide .................... meet the group and take them to the hotel yesterday.
-7. The children didn’t understand the rule and the teacher .................... explain it again.
+7. The children didn't understand the rule and the teacher .................... explain it again.
 8. “You .................... cross the road alone,” the mother said to the child.
 9. I .................... take the umbrella because the forecast was bad.
 10. The bell had gone and I .................... answer the question.
-11. I didn’t know I .................... to work extra hours. We hadn’t agreed on that.
+11. I didn't know I .................... to work extra hours. We hadn't agreed on that.
 12. “When .................... (*I* ) return the book?” Steve asked the librarian.
-13. I .................... interrupt the speaker because I didn’t get the point.
+13. I .................... interrupt the speaker because I didn't get the point.
 14. You .................... shout at children.
 15. I .................... sell the car one of these days. It keeps breaking down.
 
 **Полное решение**
 
 1. As we had agreed I was to meet him at 7.
-2. I know I must do the work myself. It’s my duty.
-3. Susan says I must drive her to the station. She thinks it’s my duty.
+2. I know I must do the work myself. It's my duty.
+3. Susan says I must drive her to the station. She thinks it's my duty.
 4. The baby-sitter was ill and Ellen had to look after the child herself.
 5. “You are to look after the children properly, feed them and take them for a walk,” Mrs. Swift said to the baby-sitter.
 6. The guide was to meet the group and take them to the hotel yesterday.
-7. The children didn’t understand the rule and the teacher had to explain it again.
-8. “You mustn’t cross the road alone,” the mother said to the child.
+7. The children didn't understand the rule and the teacher had to explain it again.
+8. “You mustn't cross the road alone,” the mother said to the child.
 9. I had to take the umbrella because the forecast was bad.
-10. The bell had gone and I didn’t have to answer the question.
-11. I didn’t know I was to work extra hours. We hadn’t agreed on that.
+10. The bell had gone and I didn't have to answer the question.
+11. I didn't know I was to work extra hours. We hadn't agreed on that.
 12. “When am I to return the book?” Steve asked the librarian.
-13. I had to interrupt the speaker because I didn’t get the point.
-14. You mustn’t shout at children.
+13. I had to interrupt the speaker because I didn't get the point.
+14. You mustn't shout at children.
 15. I will have to sell the car one of these days. It keeps breaking down.
 
 <a id="exercise-68-3"></a>
@@ -14900,19 +14900,19 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 
 1. He is to come in ten minutes.
 2. I think you must do all the work yourself.
-3. I’ll have to meet him again.
+3. I'll have to meet him again.
 4. She insisted and I had to agree.
 5. As we had agreed he was to call for me in the evening.
-6. You mustn’t pay attention to his remarks. He is an impolite person.
+6. You mustn't pay attention to his remarks. He is an impolite person.
 7. He looked unhappy and Deborah had to forgive him.
 8. What am I to do when the guests come?
 9. He phoned us and we had to invite him.
 10. This is a wonderful story. You must publish it.
 11. Now he is to be in California and in a week in Colorado.
-12. You mustn’t laugh at what he is saying. It’s sensible.
+12. You mustn't laugh at what he is saying. It's sensible.
 13. “Where am I to put the suitcase?” the taxi driver asked Miss Cain.
 14. Will you have to go there again?
-15. You mustn’t wash this sweater in hot water.
+15. You mustn't wash this sweater in hot water.
 
 <a id="unit-69"></a>
 
@@ -14960,7 +14960,7 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 
 — Caroline is so happy. John must have proposed to her.
 
-— Oh, I’m sure he had to propose to her. She wanted to marry him so much.
+— Oh, I'm sure he had to propose to her. She wanted to marry him so much.
 
 3. Для выражения предположения, относящегося к будущему, употребляется to be (un)likely to.
 
@@ -14982,8 +14982,8 @@ He looks so upset. (he, to fail his exam again) He must have failed his exam aga
 
 1. The manager let Susan go yesterday. (*she*, *to look ill*) ..............................................................
 2. Robert is sleeping. (*he*, *to be tired*) ..........................................................................................
-3. Why isn’t Jill at home? What has she been doing? (*she*, *to ride a bicycle*, *two hours*) ................ ..............................................................................................................................................
-4. You can’t use the telephone now. (*Barbara*, *to talk on the phone*) ............................................ ..............................................................................................................................................
+3. Why isn't Jill at home? What has she been doing? (*she*, *to ride a bicycle*, *two hours*) ................ ..............................................................................................................................................
+4. You can't use the telephone now. (*Barbara*, *to talk on the phone*) ............................................ ..............................................................................................................................................
 5. Professor Dane seems to know everything about malaria. (*he*, *to study malaria*, *ten years*) ....... ..............................................................................................................................................
 6. John is afraid to go to school. (*he*, *not to do his homework*, *yesterday*) .................................... ..............................................................................................................................................
 7. The children are in the sitting-room. (*they*, *to watch TV*) ..........................................................
@@ -15110,7 +15110,7 @@ He looks so upset. (he, to fail his exam again) He must have failed his exam aga
 | May I wait here? — Yes, you may. | Могу я подождать здесь? — Да, можете. |
 | You may not smoke here. | Здесь нельзя курить. |
 
-Следует помнить, что форма may not является официальной, поэтому для выражения запрещения лучше выбирать форму can’t. May I smoke here? — No, you can’t.
+Следует помнить, что форма may not является официальной, поэтому для выражения запрещения лучше выбирать форму can't. May I smoke here? — No, you can't.
 
 2. Форма might:
 
@@ -15142,7 +15142,7 @@ What does she say? May I leave earlier?
 2. Mr. Newton is nervous and wants to speak to the pilot. He asks the stewardess: ........ .............................................................................................................................
 3. You want to use the telephone but the line is busy. Mary has been talking for forty minutes. What do you say? ....................................................................................
 4. Your car has broken down and you must meet a friend at the airport. Ask your neighbour to let you have his car. ...........................................................................................
-5. You don’t like your room at the hotel. You want to have another room. What do you say? ......................................................................................................................
+5. You don't like your room at the hotel. You want to have another room. What do you say? ......................................................................................................................
 
 **Полное решение**
 
@@ -15187,13 +15187,13 @@ Children under 16 ... to see the film. Children under 16 may not see the film.
 
 Отреагируйте, выразив упрек.  
 Pete is not ready. He might be ready  
-I haven’t cleaned the windows. You might have cleaned the windows.
+I haven't cleaned the windows. You might have cleaned the windows.
 
-1. Catherine didn’t buy anything for supper. ...............................................................
-2. Trever isn’t very polite. ..........................................................................................
-3. The workers haven’t painted the fence yet. .............................................................
-4. Steve didn’t help them. ..........................................................................................
-5. Roberta isn’t in time again. .....................................................................................
+1. Catherine didn't buy anything for supper. ...............................................................
+2. Trever isn't very polite. ..........................................................................................
+3. The workers haven't painted the fence yet. .............................................................
+4. Steve didn't help them. ..........................................................................................
+5. Roberta isn't in time again. .....................................................................................
 
 **Полное решение**
 
@@ -15309,18 +15309,18 @@ He may have been reading. What has he been doing today. He may have been visitin
 **Задание**
 
 Выразите предположение, используя слова в скобках.  
-She didn’t come. (she, to forget, the meeting) She may have forgotten about the meeting.
+She didn't come. (she, to forget, the meeting) She may have forgotten about the meeting.
 
 1. Why is she so unhappy? (*she*, *to quarrel with her boyfriend*) ...................................................
-2. Let’s not call on Mark. (*he*, *to be busy*) ....................................................................................
-3. Why didn’t you tell Steve you were not coming? (*he*, *to wait for you*, *all this time*) .................... ..............................................................................................................................................
-4. Why hasn’t Kate arrived yet? (*she*, *to miss the train*) ................................................................
-5. I haven’t seen Derrick for a long time. (*he*, *to stay with his friends all this time*) ........................ ..............................................................................................................................................
+2. Let's not call on Mark. (*he*, *to be busy*) ....................................................................................
+3. Why didn't you tell Steve you were not coming? (*he*, *to wait for you*, *all this time*) .................... ..............................................................................................................................................
+4. Why hasn't Kate arrived yet? (*she*, *to miss the train*) ................................................................
+5. I haven't seen Derrick for a long time. (*he*, *to stay with his friends all this time*) ........................ ..............................................................................................................................................
 6. Why is the child hungry? (*he*, *not to have dinner*) ....................................................................
 7. I wish I had gone to the party. (*they*, *to dance now*) .................................................................
 8. What are they doing here? (*Tom*, *to invite them*) ......................................................................
 9. Where is he? (*he*, *to have a rest*) .............................................................................................
-10. I’ve been trying to get Ellen on the phone since morning. (*she*, *to work in the library*, *since* *morning*) ...............................................................................................................................
+10. I've been trying to get Ellen on the phone since morning. (*she*, *to work in the library*, *since* *morning*) ...............................................................................................................................
 
 **Полное решение**
 
@@ -15411,7 +15411,7 @@ Is it possible that he is angry? Can he be angry?
 
 <a id="unit-72"></a>
 
-### Урок 72. Need, needn’t, needn’t have done
+### Урок 72. Need, needn't, needn't have done
 
 Страница 192 книги.
 
@@ -15421,39 +15421,39 @@ Is it possible that he is angry? Can he be angry?
 
 |  |  |
 | --- | --- |
-| You needn’t go there. | Тебе не нужно туда идти. (незачем) |
+| You needn't go there. | Тебе не нужно туда идти. (незачем) |
 | Need I go there? | Мне нужно туда идти? (Зачем мне туда идти?) |
-| Shall I speak louder? — No, you needn’t. | Мне говорить громче? — Нет, не нуж- |
+| Shall I speak louder? — No, you needn't. | Мне говорить громче? — Нет, не нуж- |
 | I can hear you well. | но. Я вас хорошо слышу. |
 | Must I tell him about it? — No, you | Я должен сказать ему об этом? — |
-| needn’t. | Не нужно. |
+| needn't. | Не нужно. |
 
-Your train leaves in two hours. You needn’t hurry. Shall I make a copy? — No, you needn’t. We have enough copies.
+Your train leaves in two hours. You needn't hurry. Shall I make a copy? — No, you needn't. We have enough copies.
 
 2. Глагол need может сочетаться с перфектным инфинитивом смыслового глагола. В этом случае он показывает, что действие было совершено напрасно.
 
 |  |  |
 | --- | --- |
-| You needn’t have gone there. | Тебе не нужно (не к чему) было ходить туда. |
+| You needn't have gone there. | Тебе не нужно (не к чему) было ходить туда. |
 
-Обратите внимание на разницу между needn’t have done и didn’t have to do.
+Обратите внимание на разницу между needn't have done и didn't have to do.
 
 |  |  |
 | --- | --- |
-| You needn’t have come. | Вам не надо было приходить. |
+| You needn't have come. | Вам не надо было приходить. |
 | We could sent you the answer by post. | (Но человек пришел.) |
-| I didn’t have to come as they sent me | Мне не надо было приходить... |
+| I didn't have to come as they sent me | Мне не надо было приходить... |
 | the answer by post. | (и я не пошел). |
 
 3. Если действие относится к будущему, то, как правило, употребляется will have to.
 
 |  |  |
 | --- | --- |
-| I’ll have to meet him. | Мне нужно будет его встретить. |
+| I'll have to meet him. | Мне нужно будет его встретить. |
 
 4. Смысловой глагол need всегда сочетается с существительными. Для построения отрицательной и вопросительной форм требуется вспомогательный глагол to do.
 
-I don’t need this pen now. You may take it.
+I don't need this pen now. You may take it.
 
 Did you need any help?
 
@@ -15471,41 +15471,41 @@ Did you need any help?
 
 **Часть a)**
 
-The fridge is full. You needn’t buy any food.
+The fridge is full. You needn't buy any food.
 
-1. I’m all right. You ....................................................................................... .
+1. I'm all right. You ....................................................................................... .
 2. I understand everything. You ....................................................... anything.
-3. I’ve put the address down. You ................................................................ it.
+3. I've put the address down. You ................................................................ it.
 4. The child is well. He ...................................................................................
 5. The car is clean. You ............................................................................... it.
 
 **Часть b)**
 
-What is he doing here? He needn’t have come.
+What is he doing here? He needn't have come.
 
 1. I only asked you to read the text. You ....................................................... it.
 2. I could drive you to the station. You ................................................. by taxi.
 3. You could stay with us. You .......................................... a room at this hotel.
-4. I’ve made a cake. You ......................................................................... one.
+4. I've made a cake. You ......................................................................... one.
 5. I spoke with him yesterday. You ........................................................... him.
 
 **Полное решение**
 
 **Часть a)**
 
-1. You needn’t worry.
-2. You needn’t repeat anything.
-3. You needn’t remember it.
-4. He needn’t take pills.
-5. You needn’t wash it.
+1. You needn't worry.
+2. You needn't repeat anything.
+3. You needn't remember it.
+4. He needn't take pills.
+5. You needn't wash it.
 
 **Часть b)**
 
-1. You needn’t have translated it.
-2. You needn’t have gone by taxi.
-3. You needn’t have booked a room at this hotel.
-4. You needn’t have bought one.
-5. You needn’t have phoned him.
+1. You needn't have translated it.
+2. You needn't have gone by taxi.
+3. You needn't have booked a room at this hotel.
+4. You needn't have bought one.
+5. You needn't have phoned him.
 
 <a id="exercise-72-2"></a>
 
@@ -15537,23 +15537,23 @@ What is he doing here? He needn’t have come.
 
 **Полное решение**
 
-1. You needn’t ask him for help. I’ll help you.
-2. She needn’t pay the bill. Her husband has paid it.
-3. The weather is wonderful. You needn’t have taken the umbrella.
-4. I didn’t have to meet with him because Ann had agreed to do it for me.
-5. The child needn’t put on his hat. It’s warm.
-6. I’ll have to wake up early tomorrow. I’m to meet him at 7.
-7. You needn’t have bought a bicycle. I could give you mine.
-8. I didn’t have to explain anything to him. He knew everything himself.
-9. You needn’t have looked for a taxi. I’ve called a taxi.
-10. I’ll have to take the tourists to the hotel.
-11. David said that I needn’t have brought those books. He has them.
-12. You needn’t do the shopping. I’ve bought everything.
-13. Shall we write any exercises? — No, you needn’t. Learn the words.
+1. You needn't ask him for help. I'll help you.
+2. She needn't pay the bill. Her husband has paid it.
+3. The weather is wonderful. You needn't have taken the umbrella.
+4. I didn't have to meet with him because Ann had agreed to do it for me.
+5. The child needn't put on his hat. It's warm.
+6. I'll have to wake up early tomorrow. I'm to meet him at 7.
+7. You needn't have bought a bicycle. I could give you mine.
+8. I didn't have to explain anything to him. He knew everything himself.
+9. You needn't have looked for a taxi. I've called a taxi.
+10. I'll have to take the tourists to the hotel.
+11. David said that I needn't have brought those books. He has them.
+12. You needn't do the shopping. I've bought everything.
+13. Shall we write any exercises? — No, you needn't. Learn the words.
 14. She will have to wait.
-15. Shall I lock the door? — No, you needn’t. Father will come soon.
-16. You needn’t have taken so many warm clothes. It’s warm here in October.
-17. I didn’t have to take a lot of warm clothes because I knew it was warm there in October.
+15. Shall I lock the door? — No, you needn't. Father will come soon.
+16. You needn't have taken so many warm clothes. It's warm here in October.
+17. I didn't have to take a lot of warm clothes because I knew it was warm there in October.
 
 <a id="unit-73"></a>
 
@@ -15571,24 +15571,24 @@ What is he doing here? He needn’t have come.
 | --- | --- |
 | You should speak to him. | Тебе следует с ним поговорить. |
 | Should I speak to him? | Мне надо с ним поговорить? (Я должен? Мне следует?) |
-| You should’t go there alone. | Тебе не следует идти туда одному. |
+| You should't go there alone. | Тебе не следует идти туда одному. |
 
 You should always remember my words.
 
-You shouldn’t forget what I’ve just said. Then you won’t be in trouble again.
+You shouldn't forget what I've just said. Then you won't be in trouble again.
 
 - Если действие относится к прошлому, то употребляется форма should have done. В утвердительных предложениях эта форма означает, что действие не произошло, хотя было желательно.
 
 |  |  |
 | --- | --- |
-| You should have told me about it. Why didn’t you? You should have put on something warm. | Тебе следовало рассказать мне об этом. (Ты должен был. Надо было.) |
+| You should have told me about it. Why didn't you? You should have put on something warm. | Тебе следовало рассказать мне об этом. (Ты должен был. Надо было.) |
 
 - В отрицательных предложениях эта форма означает, что действие произошло, хотя было нежелательно.
 
 |  |  |
 | --- | --- |
-| You shouldn’t have told him about it. | Не надо было ему об этом говорить. (Не следовало. Ты не должен был.) |
-| You shouldn’t have run so much. Не надо было так много бегать. | You needn’t have run. You’ve still got plenty of time. |
+| You shouldn't have told him about it. | Не надо было ему об этом говорить. (Не следовало. Ты не должен был.) |
+| You shouldn't have run so much. Не надо было так много бегать. | You needn't have run. You've still got plenty of time. |
 | (упрек) | Не надо было бежать. У тебя еще полно времени. |
 
 - В вопросительных предложениях эта форма показывает, что говорящий не уверен, правильно ли он поступил.
@@ -15605,13 +15605,13 @@ You shouldn’t forget what I’ve just said. Then you won’t be in trouble aga
 
 **Задание**
 
-Закончите ситуации при помощи should, shouldn’t и глаголов из таблицы.  
-You see Jack is busy. You shouldn’t disturb him.
+Закончите ситуации при помощи should, shouldn't и глаголов из таблицы.  
+You see Jack is busy. You shouldn't disturb him.
 
 **Слова для выбора:** revise; forgive; disturb; believe; use; pain; return; miss; help.
 
 1. The old man is afraid to cross the street. You ............................... him.
-2. You don’t know the rules well. You .................................... everything.
+2. You don't know the rules well. You .................................... everything.
 3. He is a liar. You .......................................................................... him.
 4. His lectures are interesting. You ............................................... them.
 5. The house looks ugly. You ............................................................. it.
@@ -15622,12 +15622,12 @@ You see Jack is busy. You shouldn’t disturb him.
 **Полное решение**
 
 1. The old man is afraid to cross the street. You should help him.
-2. You don’t know the rules well. You should revise everything.
-3. He is a liar. You shouldn’t believe him.
-4. His lectures are interesting. You shouldn’t miss them.
+2. You don't know the rules well. You should revise everything.
+3. He is a liar. You shouldn't believe him.
+4. His lectures are interesting. You shouldn't miss them.
 5. The house looks ugly. You should paint it.
-6. Nobody wants you here. You shouldn’t return here.
-7. The girl is too young. She shouldn’t use make-up.
+6. Nobody wants you here. You shouldn't return here.
+7. The girl is too young. She shouldn't use make-up.
 8. He has apologized. You should forgive him.
 
 <a id="exercise-73-2"></a>
@@ -15638,13 +15638,13 @@ You see Jack is busy. You shouldn’t disturb him.
 
 **Задание**
 
-Закончите ситуации при помощи should have, shouldn’t have  
+Закончите ситуации при помощи should have, shouldn't have  
 и глаголов из таблицы.  
 You look awful. You should have gone to bed earlier.
 
 **Слова для выбора:** to take; to go to bed; to go; to see; to get married; to listen; to eat; to come; to read.
 
-1. We can’t take photos. We .................................................. a camera.
+1. We can't take photos. We .................................................. a camera.
 2. The letter is for me. You ................................................................. it.
 3. You look tired. You ............................................................ on holiday.
 4. He is a foolish man. You ......................................................... to him.
@@ -15655,12 +15655,12 @@ You look awful. You should have gone to bed earlier.
 
 **Полное решение**
 
-1. We can’t take photos. We should have taken a camera.
-2. The letter is for me. You shouldn’t have read it.
+1. We can't take photos. We should have taken a camera.
+2. The letter is for me. You shouldn't have read it.
 3. You look tired. You should have gone on holiday.
-4. He is a foolish man. You shouldn’t have listened to him.
+4. He is a foolish man. You shouldn't have listened to him.
 5. They are in love. They should have got married long ago.
-6. I have a stomach ache. I shouldn’t have eaten so much.
+6. I have a stomach ache. I shouldn't have eaten so much.
 7. The shop is already closed. We should have come earlier.
 8. If you felt bad you should have seen a doctor.
 
@@ -15692,21 +15692,21 @@ You look awful. You should have gone to bed earlier.
 
 **Полное решение**
 
-1. You shouldn’t have bought these shoes.
+1. You shouldn't have bought these shoes.
 2. You should have waited for him.
 3. We should be more attentive to him.
-4. You shouldn’t have been late.
-5. You shouldn’t ask them for money.
-6. You shouldn’t have left so early.
+4. You shouldn't have been late.
+5. You shouldn't ask them for money.
+6. You shouldn't have left so early.
 7. We should have chosen another present.
-8. I didn’t have to go to the meeting because it had been cancelled.
-9. You needn’t have come. The meeting has been cancelled.
-10. You shouldn’t have come. Nobody expected you.
-11. You shouldn’t have kept them waiting.
+8. I didn't have to go to the meeting because it had been cancelled.
+9. You needn't have come. The meeting has been cancelled.
+10. You shouldn't have come. Nobody expected you.
+11. You shouldn't have kept them waiting.
 12. You should have explained everything to him.
-13. You shouldn’t argue with him.
+13. You shouldn't argue with him.
 14. You should work more.
-15. You shouldn’t laugh at him.
+15. You shouldn't laugh at him.
 
 <a id="unit-74"></a>
 
@@ -15728,47 +15728,47 @@ You look awful. You should have gone to bed earlier.
 
 1. As we had agreed I *was to* / *had to* speak to him myself.
 2. He turned up and I *was to* / *had to* introduce him to the other guests.
-3. I’m giving a party. You *must* / *are to* come.
+3. I'm giving a party. You *must* / *are to* come.
 4. Are you strong enough? Will you *have to* / *be able to* cross the river.
-5. It’s urgent. You *will have to* / *be able to* do it as soon as possible.
-6. You *are not to* / *mustn’t* sleep at lectures. It’s impolite.
+5. It's urgent. You *will have to* / *be able to* do it as soon as possible.
+6. You *are not to* / *mustn't* sleep at lectures. It's impolite.
 7. I live in the suburbs. I *must* / *have to* take a train every day.
-8. You *may* / *can* stay here as long as you can. I don’t mind.
-9. Even if you want to see him you *shouldn’t* / *needn’t* call on him now.
-10. It’s not your fault. You *shouldn’t* / *needn’t* apologise.
-11. I tried to open the box but I *couldn’t* / *didn’t manage to*.
-12. I *could* / *managed to* learn it but I didn’t have enough time.
-13. You *shouldn’t* / *needn’t* add any more salt. It’s bad for you.
-14. You *shouldn’t* / *needn’t* add sugar to the tea. It’s sweet.
-15. You *shouldn’t* / *don’t have to* drink so much beer. You will put on weight.
-16. You *don’t have* / *needn’t* bother. Everything is ready.
-17. You *may not* / *shouldn’t* enter after the bell goes.
-18. Shall I get in touch with them? — No, you *needn’t* / *shouldn’t*.
+8. You *may* / *can* stay here as long as you can. I don't mind.
+9. Even if you want to see him you *shouldn't* / *needn't* call on him now.
+10. It's not your fault. You *shouldn't* / *needn't* apologise.
+11. I tried to open the box but I *couldn't* / *didn't manage to*.
+12. I *could* / *managed to* learn it but I didn't have enough time.
+13. You *shouldn't* / *needn't* add any more salt. It's bad for you.
+14. You *shouldn't* / *needn't* add sugar to the tea. It's sweet.
+15. You *shouldn't* / *don't have to* drink so much beer. You will put on weight.
+16. You *don't have* / *needn't* bother. Everything is ready.
+17. You *may not* / *shouldn't* enter after the bell goes.
+18. Shall I get in touch with them? — No, you *needn't* / *shouldn't*.
 19. Etiquette said that they all *had to* / *were to* shake hands.
 20. Roger came in and Mr. Smith *had to* / *was* to rise to shake hands.
 
 **Часть 2**
 
-1. Alice can’t ride well. She *must have had* / *could have had* little practice.
-2. Carrie expects them today. They *mustn’t have gone* / *can’t have gone* to a show.
+1. Alice can't ride well. She *must have had* / *could have had* little practice.
+2. Carrie expects them today. They *mustn't have gone* / *can't have gone* to a show.
 3. *Can they have forgotten* / *may they have forgotten* about the party?
-4. I don’t know where they are. They *can be* / *may be* on holiday in Switzerland. They *can be skiing /* *may be skiing* there.
-5. It’s so hot. The ice-cream *should have melted* / *must have melted*.
+4. I don't know where they are. They *can be* / *may be* on holiday in Switzerland. They *can be skiing /* *may be skiing* there.
+5. It's so hot. The ice-cream *should have melted* / *must have melted*.
 6. You are so slow. You *may have decide* / *might have decided* what to do.
-7. He *can’t be staying* / *mustn’t be staying* at this hotel.
-8. *May he be studying* / *Can he be studying* Geography? He doesn’t seem to be interested in it.
-9. That’s a terrible colour. You *must have painted* / *should have painted* it green.
-10. I could do it. You *needn’t have bothered* / *mustn’t have bothered*.
+7. He *can't be staying* / *mustn't be staying* at this hotel.
+8. *May he be studying* / *Can he be studying* Geography? He doesn't seem to be interested in it.
+9. That's a terrible colour. You *must have painted* / *should have painted* it green.
+10. I could do it. You *needn't have bothered* / *mustn't have bothered*.
 11. They *should have got acquainted* / *may have got acquainted* when Alice was on holiday.
-12. They are great friends. They *can’t have quarreled* / *may have quarrelled*.
-13. It’s 8 o’clock. He *must have arrived* / *had to arrive* at the airport.
+12. They are great friends. They *can't have quarreled* / *may have quarrelled*.
+13. It's 8 o'clock. He *must have arrived* / *had to arrive* at the airport.
 14. He looks unhappy. He *must have got hurt* / *should have got hurt*.
 15. He was rude and I *should have made* / *had to make* him leave. — You were right.
-16. Everybody will come at 7. You *needn’t have come* / *didn’t have to come* so early.
-17. I *needn’t have made* / *didn’t have to make* a speech. Liz did it.
-18. I need him now. He *shouldn’t have left* / *mustn’t have left* so early.
-19. He never leaves before five. He *shouldn’t have left* / *can’t have left*.
-20. You are too hot-tempered. You *needn’t have quarrelled* / *shouldn’t have quarrelled* with him.
+16. Everybody will come at 7. You *needn't have come* / *didn't have to come* so early.
+17. I *needn't have made* / *didn't have to make* a speech. Liz did it.
+18. I need him now. He *shouldn't have left* / *mustn't have left* so early.
+19. He never leaves before five. He *shouldn't have left* / *can't have left*.
+20. You are too hot-tempered. You *needn't have quarrelled* / *shouldn't have quarrelled* with him.
 
 **Полное решение**
 
@@ -15776,47 +15776,47 @@ You look awful. You should have gone to bed earlier.
 
 1. As we had agreed I was to speak to him myself.
 2. He turned up and I had to introduce him to the other guests.
-3. I’m giving a party. You must come.
+3. I'm giving a party. You must come.
 4. Are you strong enough? Will you be able to cross the river?
-5. It’s urgent. You will have to do it as soon as possible.
-6. You mustn’t sleep at lectures. It’s impolite.
+5. It's urgent. You will have to do it as soon as possible.
+6. You mustn't sleep at lectures. It's impolite.
 7. I live in the suburbs. I have to take a train every day.
-8. You may stay here as long as you can. I don’t mind.
-9. Even if you want to see him you shouldn’t call on him now.
-10. It’s not your fault. You needn’t apologise.
-11. I tried to open the box but I didn’t manage to.
-12. I could learn it but I didn’t have enough time.
-13. You shouldn’t add any more salt. It’s bad for you.
-14. You needn’t add sugar to the tea. It’s sweet.
-15. You shouldn’t drink so much beer. You will put on weight.
-16. You needn’t bother. Everything is ready.
+8. You may stay here as long as you can. I don't mind.
+9. Even if you want to see him you shouldn't call on him now.
+10. It's not your fault. You needn't apologise.
+11. I tried to open the box but I didn't manage to.
+12. I could learn it but I didn't have enough time.
+13. You shouldn't add any more salt. It's bad for you.
+14. You needn't add sugar to the tea. It's sweet.
+15. You shouldn't drink so much beer. You will put on weight.
+16. You needn't bother. Everything is ready.
 17. You may not enter after the bell goes.
-18. Shall I get in touch with them? — No, you needn’t.
+18. Shall I get in touch with them? — No, you needn't.
 19. Etiquette said that they all were to shake hands.
 20. Roger came in and Mr. Smith had to rise to shake hands.
 
 **Часть 2**
 
-1. Alice can’t ride well. She must have had little practice.
-2. Carrie expects them today. They can’t have gone to a show.
+1. Alice can't ride well. She must have had little practice.
+2. Carrie expects them today. They can't have gone to a show.
 3. Can they have forgotten about the party?
-4. I don’t know where they are. They may be on holiday in Switzerland. They may be skiing there.
-5. It’s so hot. The ice-cream must have melted.
+4. I don't know where they are. They may be on holiday in Switzerland. They may be skiing there.
+5. It's so hot. The ice-cream must have melted.
 6. You are so slow. You might have decided what to do.
-7. He can’t be staying at this hotel.
-8. Can he be studying Geography? He doesn’t seem to be interested in it.
-9. That’s a terrible colour. You should have painted it green.
-10. I could do it. You needn’t have bothered.
+7. He can't be staying at this hotel.
+8. Can he be studying Geography? He doesn't seem to be interested in it.
+9. That's a terrible colour. You should have painted it green.
+10. I could do it. You needn't have bothered.
 11. They may have got acquainted when Alice was on holiday.
-12. They are great friends. They can’t have quarrelled.
-13. It’s 8 o’clock. He must have arrived at the airport.
+12. They are great friends. They can't have quarrelled.
+13. It's 8 o'clock. He must have arrived at the airport.
 14. He looks unhappy. He must have got hurt.
 15. He was rude and I had to make him leave. — You were right.
-16. Everybody will come at 7. You needn’t have come so early.
-17. I didn’t have to make a speech. Liz did it.
-18. I need him now. He shouldn’t have left so early.
-19. He never leaves before five. He can’t have left.
-20. You are too hot-tempered. You shouldn’t have quarrelled with him.
+16. Everybody will come at 7. You needn't have come so early.
+17. I didn't have to make a speech. Liz did it.
+18. I need him now. He shouldn't have left so early.
+19. He never leaves before five. He can't have left.
+20. You are too hot-tempered. You shouldn't have quarrelled with him.
 
 <a id="exercise-74-2"></a>
 
@@ -15900,9 +15900,9 @@ You look awful. You should have gone to bed earlier.
 1. I think I should go to bed early.
 2. Paris is a beautiful city. You must see it.
 3. You must water the plants twice a week.
-4. You shouldn’t be so talkative.
+4. You shouldn't be so talkative.
 5. You must be a very romantic man.
-6. He can’t be serious about it.
+6. He can't be serious about it.
 7. You should have been more friendly.
 8. Can he have many friends?
 9. She may be unemployed.
@@ -15915,50 +15915,50 @@ You look awful. You should have gone to bed earlier.
 3. Can they have been in love all this time?
 4. He must have been taking a shower for half an hour.
 5. It may have been raining since morning there.
-6. He can’t have changed so much.
+6. He can't have changed so much.
 7. Can he have been looking for a job all this time?
-8. He can’t be skiing now.
+8. He can't be skiing now.
 9. You must be joking.
 10. She may be taking a bath.
 
 **Часть 3**
 
 1. Can he have been playing football all this time?
-2. You’ll have to take a bus.
+2. You'll have to take a bus.
 3. I have to wear glasses.
 4. May I introduce my wife to you?
 5. Can I help you?
 6. You are to translate 20 pages by the evening.
 7. You must obey the police.
 8. He was to play against Swift.
-9. I needn’t take much luggage.
+9. I needn't take much luggage.
 10. He must have been working on the farm since childhood.
 
 **Часть 4**
 
 1. He must have failed to warn her.
-2. He won’t be able to climb the tree.
+2. He won't be able to climb the tree.
 3. You will have to bring a ladder.
 4. You should forget about it.
-5. You can’t leave him now.
+5. You can't leave him now.
 6. You may not enter without knocking.
-7. They can’t have failed to warn him.
-8. I’m afraid I won’t be able to help you.
+7. They can't have failed to warn him.
+8. I'm afraid I won't be able to help you.
 9. May I use this box?
-10. Shall I give you a lift? — No, you needn’t.
+10. Shall I give you a lift? — No, you needn't.
 
 **Часть 5**
 
 1. I would like to be able to cook as well as you do.
 2. Will you help me, please?
-3. He may have tried to get in touch with you but didn’t manage to.
+3. He may have tried to get in touch with you but didn't manage to.
 4. He must have been hurt by your words.
 5. He must have been doing his best all this time to achieve success.
 6. You are unlikely to talk to him in the near future.
-7. He can’t have failed to attend the conference.
+7. He can't have failed to attend the conference.
 8. Can he have been involved in this robbery?
 9. He may be playing computer games.
-10. They can’t have been talking all this time.
+10. They can't have been talking all this time.
 
 ## Неличные формы глагола
 
@@ -16017,8 +16017,8 @@ You look awful. You should have gone to bed earlier.
 
 |  |  |
 | --- | --- |
-| I don’t mind opening the window. | Я не возражаю против того, чтобы открыть окно. |
-| I don’t mind his (him) opening the window | Я не возражаю против того, чтобы он открыл окно. |
+| I don't mind opening the window. | Я не возражаю против того, чтобы открыть окно. |
+| I don't mind his (him) opening the window | Я не возражаю против того, чтобы он открыл окно. |
 | Why do you insist on leaving? | Почему вы настаиваете на отъезде? |
 | Why do you insist on her leaving? | Почему вы настаиваете на ее отъезде? |
 
@@ -16031,19 +16031,19 @@ You look awful. You should have gone to bed earlier.
 **Задание**
 
 Употребите герундий в функции подлежащего.  
-It’s very convenient to go there by car. Going there by car is very convenient.
+It's very convenient to go there by car. Going there by car is very convenient.
 
-1. It’s so uncomfortable to sleep on the floor. ...............................................................................
-2. It’s great to meet old friends. ...................................................................................................
-3. It’s impolite to speak in a loud voice. .......................................................................................
-4. It’s always useful to think. ........................................................................................................
-5. It’s boring to clean the flat. ......................................................................................................
-6. It’s interesting to teach. ..........................................................................................................
-7. It’s exciting to travel to other countries. ...................................................................................
-8. It’s simple to give advice. ........................................................................................................
-9. It’s not always clever to take other people’s advice. ..................................................................
-10. It’s inconvenient to have much luggage. ..................................................................................
-11. It wasn’t easy to follow the man. ..............................................................................................
+1. It's so uncomfortable to sleep on the floor. ...............................................................................
+2. It's great to meet old friends. ...................................................................................................
+3. It's impolite to speak in a loud voice. .......................................................................................
+4. It's always useful to think. ........................................................................................................
+5. It's boring to clean the flat. ......................................................................................................
+6. It's interesting to teach. ..........................................................................................................
+7. It's exciting to travel to other countries. ...................................................................................
+8. It's simple to give advice. ........................................................................................................
+9. It's not always clever to take other people's advice. ..................................................................
+10. It's inconvenient to have much luggage. ..................................................................................
+11. It wasn't easy to follow the man. ..............................................................................................
 12. It made him nervous to speak before a large audience. .............................................................
 
 **Полное решение**
@@ -16056,9 +16056,9 @@ It’s very convenient to go there by car. Going there by car is very convenient
 6. Teaching is interesting.
 7. Travelling to other countries is exciting.
 8. Giving advice is simple.
-9. Taking other people’s advice is not always clever.
+9. Taking other people's advice is not always clever.
 10. Having much luggage is inconvenient.
-11. Following the man wasn’t easy.
+11. Following the man wasn't easy.
 12. Speaking before a large audience made him nervous.
 
 <a id="exercise-75-2"></a>
@@ -16071,19 +16071,19 @@ It’s very convenient to go there by car. Going there by car is very convenient
 
 Употребите герундий в форме страдательного залога.  
 I like visiting other people. I like being visited by other people.  
-I don’t mind sending him there. I don’t mind being sent there.
+I don't mind sending him there. I don't mind being sent there.
 
 1. I avoid visiting strangers. ........................................................................................................
 2. I remember asking him for help. ..............................................................................................
 3. He was tired of asking questions. ............................................................................................
-4. I’m looking forward to showing them the place. .......................................................................
+4. I'm looking forward to showing them the place. .......................................................................
 5. The manager objects to doing this work now. ..........................................................................
 6. They insist on letting him in. ...................................................................................................
 7. I avoid asking for help. ............................................................................................................
 8. Do you mind telling us how to do it? ........................................................................................
 9. Why are you afraid of asking him questions? ............................................................................
 10. Why do you object to showing them the letter? ........................................................................
-11. I don’t mind leaving him alone. ...............................................................................................
+11. I don't mind leaving him alone. ...............................................................................................
 12. He objected to forcing me to do it. ...........................................................................................
 
 **Полное решение**
@@ -16091,14 +16091,14 @@ I don’t mind sending him there. I don’t mind being sent there.
 1. I avoid being visited by strangers.
 2. I remember being asked for help.
 3. He was tired of being asked questions.
-4. I’m looking forward to being shown the place.
+4. I'm looking forward to being shown the place.
 5. The manager objects to the work being done now.
 6. They insist on being let in.
 7. I avoid being asked for help.
 8. Do you mind being told how to do it?
 9. Why are you afraid of being asked questions?
 10. Why do you object to being shown the letter?
-11. I don’t mind being left alone.
+11. I don't mind being left alone.
 12. He objected to being forced to do it.
 
 <a id="exercise-75-3"></a>
@@ -16110,32 +16110,32 @@ I don’t mind sending him there. I don’t mind being sent there.
 **Задание**
 
 Постройте предложения по образцу, употребляя герундий.  
-I can phone him. I don’t mind it. I don’t mind phoning him.  
-You can phone him. I don’t mind. I don’t mind your phoning him.
+I can phone him. I don't mind it. I don't mind phoning him.  
+You can phone him. I don't mind. I don't mind your phoning him.
 
-1. She can come later. We don’t mind. ........................................................................................
-2. I will help him. I don’t mind. ....................................................................................................
-3. They can visit me. I don’t mind. ..............................................................................................
-4. You can turn on the volume. I don’t mind. ................................................................................
+1. She can come later. We don't mind. ........................................................................................
+2. I will help him. I don't mind. ....................................................................................................
+3. They can visit me. I don't mind. ..............................................................................................
+4. You can turn on the volume. I don't mind. ................................................................................
 5. Can I turn on the TV set? Do you mind? ...................................................................................
 6. Can you switch off the light? Do you mind? ..............................................................................
 7. Can she talk to him? Do you mind? .........................................................................................
 8. Can I tell them about the plan? Do you mind? ..........................................................................
-9. She can take the papers. I don’t mind. .....................................................................................
-10. They can play together. I don’t mind. ......................................................................................
+9. She can take the papers. I don't mind. .....................................................................................
+10. They can play together. I don't mind. ......................................................................................
 
 **Полное решение**
 
-1. We don’t mind her coming later.
-2. I don’t mind helping him.
-3. I don’t mind their visiting me.
-4. I don’t mind your turning on the volume.
+1. We don't mind her coming later.
+2. I don't mind helping him.
+3. I don't mind their visiting me.
+4. I don't mind your turning on the volume.
 5. Do you mind my turning on the TV-set?
 6. Do you mind switching off the light?
 7. Do you mind her talking to him?
 8. Do you mind my telling them about the plan?
-9. I don’t mind her taking the papers.
-10. I don’t mind their playing together.
+9. I don't mind her taking the papers.
+10. I don't mind their playing together.
 
 <a id="unit-76"></a>
 
@@ -16154,14 +16154,14 @@ You can phone him. I don’t mind. I don’t mind your phoning him.
 | to deny doing | He denies robbing the bank. |
 | to imagine doing | Just imagine spending a holiday there. |
 | need doing | The floor needs washing. |
-| can’t help doing | I couldn’t help laughing. |
+| can't help doing | I couldn't help laughing. |
 | to be worth doing | The exhibition is worth visiting. |
-| to feel / not to feel like doing | I don’t feel like talking. |
-| It’s no use doing | It was no use speaking with him. |
-| what’s the use of? | What’s the use of arguing? |
+| to feel / not to feel like doing | I don't feel like talking. |
+| It's no use doing | It was no use speaking with him. |
+| what's the use of? | What's the use of arguing? |
 | to be used to doing | He is used to getting up late. |
-| to be fond of | I’m fond of swimming. |
-| to be tired of | I’m tired of waiting. |
+| to be fond of | I'm fond of swimming. |
+| to be tired of | I'm tired of waiting. |
 | to be (in)capable of | He is capable of doing the work. |
 | to be interested in | He is interested in talking to you. |
 | there are a lot of ways of doing | There are a lot of ways of doing it. |
@@ -16179,8 +16179,8 @@ You can phone him. I don’t mind. I don’t mind your phoning him.
 
 | to go on | He went on speaking. |
 | --- | --- |
-| to dream of | I’m dreaming of spending a week at the sea. |
-| to look forward to | I’m looking forward to seeing them. |
+| to dream of | I'm dreaming of spending a week at the sea. |
+| to look forward to | I'm looking forward to seeing them. |
 | to give up | She gave up smoking. |
 | to object to | I object to your coming late. |
 | to insist on | He insists on leaving. |
@@ -16195,18 +16195,18 @@ You can phone him. I don’t mind. I don’t mind your phoning him.
 
 Перефразируйте предложения, используя данные  
 глаголы и выражения.  
-Don’t drive in rainy weather. Avoid driving in rainy weather. (to avoid)
+Don't drive in rainy weather. Avoid driving in rainy weather. (to avoid)
 
-1. I think it’s great to swim in cold water. ................................................ (to be fond of)
-2. It’s useless to speak with him. ............................................................ (it’s no use)
+1. I think it's great to swim in cold water. ................................................ (to be fond of)
+2. It's useless to speak with him. ............................................................ (it's no use)
 3. He always interrupts people. .............................................................. (to have a habit of)
-4. He says he didn’t see Jack on Friday. ................................................. (to deny)
-5. I can’t live without music. ................................................................... (to imagine)
+4. He says he didn't see Jack on Friday. ................................................. (to deny)
+5. I can't live without music. ................................................................... (to imagine)
 6. He is still talking. ............................................................................... (to keep)
 7. Just suppose that you live in a big house. ........................................... (to imagine)
-8. The man says he didn’t steal anything. ............................................... (to deny)
+8. The man says he didn't steal anything. ............................................... (to deny)
 9. She repeats the same thing all the time. .............................................. (to keep)
-10. It’s useless to phone him. .................................................................. (It’s no use)
+10. It's useless to phone him. .................................................................. (It's no use)
 11. I always play tennis on Sunday with pleasure. ..................................... (to enjoy)
 12. I try not to meet him. ......................................................................... (to avoid)
 13. You can learn a foreign language in different ways. .............................. (there are many ways of)
@@ -16215,15 +16215,15 @@ Don’t drive in rainy weather. Avoid driving in rainy weather. (to avoid)
 **Полное решение**
 
 1. I am fond of swimming in cold water.
-2. It’s no use speaking to him.
+2. It's no use speaking to him.
 3. He has a habit of interrupting people.
 4. He denies seeing Jack on Friday.
-5. I can’t imagine living without music.
+5. I can't imagine living without music.
 6. He keeps talking.
 7. Imagine living in a big house.
 8. The man denies stealing anything.
 9. She keeps repeating the same thing.
-10. It’s no use phoning him.
+10. It's no use phoning him.
 11. I enjoy playing tennis on Sunday.
 12. I avoid meeting him.
 13. There are many ways of learning a foreign language.
@@ -16272,13 +16272,13 @@ He read the letter and hid it. On reading the letter he hid it. (on)
 
 **Задание**
 
-Постройте предложения при помощи can’t help doing.  
-The story was funny. He ............................. He couldn’t help laughing.
+Постройте предложения при помощи can't help doing.  
+The story was funny. He ............................. He couldn't help laughing.
 
 **Слова для выбора:** to laugh; to shout; to be angry; to tell him the truth; to smile; tear it; to put it on at once; to buy it.
 
 1. She was so irritated that she ............................................................. .
-2. Jack’s behaviour was so awful that I ................................................. .
+2. Jack's behaviour was so awful that I ................................................. .
 3. He is my friend, so I ......................................................................... .
 4. The man was so pleasant that she .................................................... .
 5. The letter was so disrespectful that she ............................................. .
@@ -16287,13 +16287,13 @@ The story was funny. He ............................. He couldn’t help laughin
 
 **Полное решение**
 
-1. She was so irritated that she couldn’t help shouting.
-2. Jack’s behaviour was so awful that I couldn’t help being angry.
-3. He is my friend, so I can’t help telling him the truth.
-4. The man was so pleasant that she couldn’t help smiling.
-5. The letter was so disrespectful that she couldn’t help tearing it.
-6. The dress was so nice that the girl couldn’t help putting it on at once.
-7. The bag is so cheap that I couldn’t help buying it.
+1. She was so irritated that she couldn't help shouting.
+2. Jack's behaviour was so awful that I couldn't help being angry.
+3. He is my friend, so I can't help telling him the truth.
+4. The man was so pleasant that she couldn't help smiling.
+5. The letter was so disrespectful that she couldn't help tearing it.
+6. The dress was so nice that the girl couldn't help putting it on at once.
+7. The bag is so cheap that I couldn't help buying it.
 
 <a id="exercise-76-4"></a>
 
@@ -16358,17 +16358,17 @@ the exhibition, to visit The exhibition is worth visiting.
 **Задание**
 
 Постройте предложения, употребляя without doing.  
-You can’t do this work and not get your clothes dirty.  
-You can’t do this work without getting your clothes dirty.
+You can't do this work and not get your clothes dirty.  
+You can't do this work without getting your clothes dirty.
 
-1. He didn’t say anything when he was leaving. ............................................................................
-2. She didn’t greet anybody when she entered. ............................................................................
-3. He didn’t ask permission but just sat down. .............................................................................
-4. When she was speaking she didn’t even turn her head. .............................................................
-5. He listened carefully and didn’t interrupt me. ...........................................................................
-6. The man sat down and didn’t take off his hat. ...........................................................................
-7. It’s difficult to sit for a long time if you can’t move. ...................................................................
-8. The child was playing with his toys and didn’t pay attention to what was going on. .....................
+1. He didn't say anything when he was leaving. ............................................................................
+2. She didn't greet anybody when she entered. ............................................................................
+3. He didn't ask permission but just sat down. .............................................................................
+4. When she was speaking she didn't even turn her head. .............................................................
+5. He listened carefully and didn't interrupt me. ...........................................................................
+6. The man sat down and didn't take off his hat. ...........................................................................
+7. It's difficult to sit for a long time if you can't move. ...................................................................
+8. The child was playing with his toys and didn't pay attention to what was going on. .....................
 
 **Полное решение**
 
@@ -16378,7 +16378,7 @@ You can’t do this work without getting your clothes dirty.
 4. She spoke without turning her head.
 5. He listened carefully without interrupting me.
 6. The man sat down without taking off his hat.
-7. It’s difficult to sit for a long time without moving.
+7. It's difficult to sit for a long time without moving.
 8. The child played with his toys without paying attention to what was going on.
 
 <a id="exercise-76-7"></a>
@@ -16390,29 +16390,29 @@ You can’t do this work without getting your clothes dirty.
 **Задание**
 
 Соедините предложения, употребив герундий.  
-I want to get this information. I’m interested in it. I’m interested in getting this information.
+I want to get this information. I'm interested in it. I'm interested in getting this information.
 
 1. Steve has a dream. He wants to have a house in the country. ....................................................
-2. Let’s phone him at once. I insist on it. ......................................................................................
-3. Why must we go there? What’s the use of it? ...........................................................................
-4. I often eat at restaurants. I’m fond of it. ....................................................................................
-5. We’ll meet him soon and we are looking forward to it. ...............................................................
-6. Mark couldn’t hurt the child. He is incapable of it. .....................................................................
-7. I don’t ride my bike in the park any more. I’ve given it up. .........................................................
-8. Let’s go by plane. I don’t object. ..............................................................................................
-9. Susan can’t stay here anymore. She is tired. ............................................................................
+2. Let's phone him at once. I insist on it. ......................................................................................
+3. Why must we go there? What's the use of it? ...........................................................................
+4. I often eat at restaurants. I'm fond of it. ....................................................................................
+5. We'll meet him soon and we are looking forward to it. ...............................................................
+6. Mark couldn't hurt the child. He is incapable of it. .....................................................................
+7. I don't ride my bike in the park any more. I've given it up. .........................................................
+8. Let's go by plane. I don't object. ..............................................................................................
+9. Susan can't stay here anymore. She is tired. ............................................................................
 10. Barbara likes playing tennis. She is fond of it. ...........................................................................
 
 **Полное решение**
 
 1. Steve dreams of having a house in the country.
 2. I insist on phoning him at once.
-3. What’s the use of going there?
-4. I’m fond of eating at restaurants.
+3. What's the use of going there?
+4. I'm fond of eating at restaurants.
 5. We are looking forward to meeting him.
 6. Mark is incapable of hurting the child.
-7. I’ve given up riding my bike in the park.
-8. I don’t object to going by plane.
+7. I've given up riding my bike in the park.
+8. I don't object to going by plane.
 9. Susan is tired of staying here.
 10. Barbara is fond of playing tennis.
 
@@ -16430,7 +16430,7 @@ Let him read further. Let him go on reading.
 1. He greeted us and translated the text further. ...........................................................................
 2. Though a police car was following him he drove on. .................................................................
 3. Nobody was listening but he spoke and spoke. ........................................................................
-4. I wouldn’t like to argue any more. ............................................................................................
+4. I wouldn't like to argue any more. ............................................................................................
 5. Though he was tired and cold he swam and swam. ..................................................................
 
 **Полное решение**
@@ -16438,7 +16438,7 @@ Let him read further. Let him go on reading.
 1. He went on translating the text.
 2. He went on driving.
 3. He went on speaking.
-4. I wouldn’t like to go on arguing.
+4. I wouldn't like to go on arguing.
 5. He went on swimming.
 
 <a id="exercise-76-9"></a>
@@ -16450,7 +16450,7 @@ Let him read further. Let him go on reading.
 **Задание**
 
 Переделайте предложения, употребив to be used to doing.  
-I always jog in the morning. I’m used to jogging in the morning.
+I always jog in the morning. I'm used to jogging in the morning.
 
 1. He always reads in bed. ..........................................................................................................
 2. They always eat late. ..............................................................................................................
@@ -16533,39 +16533,39 @@ I always jog in the morning. I’m used to jogging in the morning.
 **Часть 1**
 
 1. Being happy is very good.
-2. I don’t mind (I don’t object to) being criticized.
+2. I don't mind (I don't object to) being criticized.
 3. He is busy talking on the phone.
 4. She avoids meeting me.
 5. The child is looking forward to going to the Zoo.
 6. Why do you insist on her returning?
 7. He went on writing without looking at us.
-8. I’m fond of playing tennis.
+8. I'm fond of playing tennis.
 9. This information needs checking.
 10. There are different ways of explaining to him that he is wrong.
 
 **Часть 2**
 
-1. I don’t feel like going out.
+1. I don't feel like going out.
 2. On coming home he rang his parents at once.
 3. Unfortunately he is incapable of remembering so many words at once.
 4. Can she have given up dancing?
 5. He took these papers without asking permission.
 6. Speaking to him is very interesting.
 7. I object to being spoken to like this.
-8. What’s the use of discussing it now?
-9. I’m looking forward to being introduced to this man.
+8. What's the use of discussing it now?
+9. I'm looking forward to being introduced to this man.
 10. This programme is worth seeing.
 
 **Часть 3**
 
-1. I’m not used to being told what to do.
+1. I'm not used to being told what to do.
 2. His manner of eating annoys everybody.
-3. I don’t mind (don’t object to) his phoning me.
-4. I’m tired of her being displeased with everything.
+3. I don't mind (don't object to) his phoning me.
+4. I'm tired of her being displeased with everything.
 5. He denies going there.
 6. He left the hall without waiting for the performance to end.
 7. He has achieved a lot by working hard.
-8. I’m fond of listening to music.
+8. I'm fond of listening to music.
 9. He has given up looking for a job in this town.
 10. The grass needs cutting.
 
@@ -16574,13 +16574,13 @@ I always jog in the morning. I’m used to jogging in the morning.
 1. Are you interested in getting this job?
 2. Before using this fan read the instruction.
 3. The burglars got into the house by breaking the window.
-4. I’m used to living in a big city.
-5. I’m afraid of her doing it in any case.
+4. I'm used to living in a big city.
+5. I'm afraid of her doing it in any case.
 6. Do you mind (object to) our joining you?
 7. She insisted on paying for the purchases.
 8. Do you feel like moving to another place?
-9. It’s no use worrying now.
-10. It’s not worth taking a taxi.
+9. It's no use worrying now.
+10. It's not worth taking a taxi.
 
 <a id="unit-77"></a>
 
@@ -16592,7 +16592,7 @@ I always jog in the morning. I’m used to jogging in the morning.
 
 1. Инфинитив — неопределенная форма глагола, отвечающая на вопрос «Что делать?» или «Что сделать?»
 
-- Формальным признаком инфинитива является частица to, которая в некоторых случаях не употребляется (после модальных глаголов, вспомогательных глаголов и др.): He wants to read it. — He can read. — He doesn’t read well.
+- Формальным признаком инфинитива является частица to, которая в некоторых случаях не употребляется (после модальных глаголов, вспомогательных глаголов и др.): He wants to read it. — He can read. — He doesn't read well.
 
 | Indefinite
 Continuous
@@ -16613,13 +16613,13 @@ Perfect Continuous | Active | Passive |
 
 После **make** и **let** в действительном залоге используется инфинитив без **to**: *They made him wait; they let him go.* В страдательном залоге **make** требует **to**: *He was made to wait.* Для разрешения вместо пассивной конструкции с **let** употребляется **be allowed to**: *He was allowed to go.*
 
-> Поправка к печатному правилу: правило о страдательном залоге ошибочно распространялось на **let**. См. [Cambridge Grammar: Let, let’s](https://dictionary.cambridge.org/grammar/british-grammar/let-let-s). Сочетания вроде *be let in* имеют другую конструкцию и остаются допустимыми.
+> Поправка к печатному правилу: правило о страдательном залоге ошибочно распространялось на **let**. См. [Cambridge Grammar: Let, let's](https://dictionary.cambridge.org/grammar/british-grammar/let-let-s). Сочетания вроде *be let in* имеют другую конструкцию и остаются допустимыми.
 
 |  |  |
 | --- | --- |
 | They made me say it. | I was made to say it. |
 
-- После выражений I would rather, I / You had better употребляется инфинитив без частицы to. I’d rather go skating. You’d better do it now.
+- После выражений I would rather, I / You had better употребляется инфинитив без частицы to. I'd rather go skating. You'd better do it now.
 
 - Запомните ряд глаголов, после которых употребляется инфинитив:
 
@@ -16664,7 +16664,7 @@ It seems to me he is reading. He seems to be reading now.
 7. It appeared that everybody was ready. .....................................................................................
 8. The boy pretended that he was crying. ....................................................................................
 9. It seems to me that the book is translated into almost all languages. .........................................
-10. They claim that they don’t understand anything. ......................................................................
+10. They claim that they don't understand anything. ......................................................................
 
 **Полное решение**
 
@@ -16707,13 +16707,13 @@ It seems to me he is reading. He seems to be reading now.
 
 **Часть 1**
 
-1. I can’t afford ................. (*stay*) at such an expensive hotel.
-2. I think I’ll manage ....................... (*do*) the work tomorrow.
-3. You’d better ....................... (*spend*) the evening at home.
+1. I can't afford ................. (*stay*) at such an expensive hotel.
+2. I think I'll manage ....................... (*do*) the work tomorrow.
+3. You'd better ....................... (*spend*) the evening at home.
 4. Who taught you .................................................. (*skate*)?
-5. I can’t make the child .................................... (*go*) to bed.
+5. I can't make the child .................................... (*go*) to bed.
 6. They agreed ..................................................... (*help*) us.
-7. I’d rather ............................................ (*go*) to the cinema.
+7. I'd rather ............................................ (*go*) to the cinema.
 8. I was allowed ............................................ (*visit*) the sick man.
 9. Tell him ................................................... (*come*) at once.
 10. Let him .................................. (*have a look*) at the photo.
@@ -16721,10 +16721,10 @@ It seems to me he is reading. He seems to be reading now.
 **Часть 2**
 
 1. The doctor forbade him ..................................... (*smoke*).
-2. You’d better ......................................... (*help*) them now.
+2. You'd better ......................................... (*help*) them now.
 3. Make him ................................................. (*clean*) the flat.
 4. He failed .................................... (*get*) Sam on the phone.
-5. I can’t let you ........................................ (*go*) there alone.
+5. I can't let you ........................................ (*go*) there alone.
 6. The child was made .............................. (*learn*) the poem.
 7. He refused .............................................. (*work*) with us.
 8. I advise you ..................................... (*visit*) this exhibition.
@@ -16735,13 +16735,13 @@ It seems to me he is reading. He seems to be reading now.
 
 **Часть 1**
 
-1. I can’t afford to stay at such an expensive hotel.
-2. I think I’ll manage to do the work tomorrow.
-3. You’d better spend the evening at home.
+1. I can't afford to stay at such an expensive hotel.
+2. I think I'll manage to do the work tomorrow.
+3. You'd better spend the evening at home.
 4. Who taught you to skate?
-5. I can’t make the child go to bed.
+5. I can't make the child go to bed.
 6. They agreed to help us.
-7. I’d rather go to the cinema.
+7. I'd rather go to the cinema.
 8. I was allowed to visit the sick man.
 9. Tell him to come at once.
 10. Let him have a look at the photo.
@@ -16749,10 +16749,10 @@ It seems to me he is reading. He seems to be reading now.
 **Часть 2**
 
 1. The doctor forbade him to smoke.
-2. You’d better help them now.
+2. You'd better help them now.
 3. Make him clean the flat.
 4. He failed to get Sam on the phone.
-5. I can’t let you go there alone.
+5. I can't let you go there alone.
 6. The child was made to learn the poem.
 7. He refused to work with us.
 8. I advise you to visit this exhibition.
@@ -16859,11 +16859,11 @@ I have a lot of work that I must do. I have a lot of work to do.
 Переделайте предложения, употребляя конструкцию  
 too + adjective + infinitive.
 
-1. The weather is so bad that we won’t go to the country. .............................................................
-2. The article is so difficult that he can’t translate it. ......................................................................
+1. The weather is so bad that we won't go to the country. .............................................................
+2. The article is so difficult that he can't translate it. ......................................................................
 3. The day is so hot that it is impossible to stay in town. ...............................................................
-4. The dress is so expensive that it can’t be worn every day. .........................................................
-5. The mountain is so high that you won’t be able to climb it. ........................................................
+4. The dress is so expensive that it can't be worn every day. .........................................................
+5. The mountain is so high that you won't be able to climb it. ........................................................
 
 **Полное решение**
 
@@ -16887,9 +16887,9 @@ too + adjective + infinitive.
 adjective + enough + infinitive.
 
 1. The rule was difficult. The child could hardly understand it.
-2. The car is expensive. I can’t buy it. ..........................................................................................
-3. The house is small. Such a big family can’t live in it. .................................................................
-4. The shoes are tight. The child can’t wear them. ........................................................................
+2. The car is expensive. I can't buy it. ..........................................................................................
+3. The house is small. Such a big family can't live in it. .................................................................
+4. The shoes are tight. The child can't wear them. ........................................................................
 5. The passage is difficult. It can hardly be learned by heart. .........................................................
 
 **Полное решение**
@@ -16930,7 +16930,7 @@ adjective + enough + infinitive.
 3. He was the first to arrive.
 4. She was the last to do the work.
 5. She has had a new dress made.
-6. He must have this article translated but he doesn’t know any German.
+6. He must have this article translated but he doesn't know any German.
 7. It was the third question for us to decide.
 8. I must have my boots polished.
 9. Have you had your hair cut?
@@ -16968,7 +16968,7 @@ adjective + enough + infinitive.
 | Мне жаль, что я сказал ей правду. | Мне жаль вам это говорить, но это правда. |
 | allow doing | allow somebody to do |
 | разрешено, позволено | разрешать кому-то делать что-то |
-| Do they allow smoking here? | I don’t allow my son to smoke. |
+| Do they allow smoking here? | I don't allow my son to smoke. |
 | Здесь разрешено курить? | Я не разрешаю сыну курить. |
 | be busy doing | be busy to do |
 | быть занятым чем-нибудь | быть занятым для чего-нибудь |
@@ -16976,11 +16976,11 @@ adjective + enough + infinitive.
 | Он занят, он читает. | Он слишком занят, чтобы читать. |
 | try doing | try to do |
 | способ совершения действия | усилия, потраченные на действие |
-| If you can’t remember a word, try writing it ten times. | I couldn’t remember the word no matter how hard I tried to remember it. |
+| If you can't remember a word, try writing it ten times. | I couldn't remember the word no matter how hard I tried to remember it. |
 | Если не можете запомнить слово, попробуйте написать его десять раз. | Я не мог запомнить слово, как ни старался. |
 | be (to get) used to doing | used to do |
 | привычка к чему-либо | регулярное действие в прошлом |
-| I’m used to living in a small flat. | I used to live in a small flat. |
+| I'm used to living in a small flat. | I used to live in a small flat. |
 | Я привык жить в маленькой квартире. | Раньше я жил в маленькой квартире. |
 
 <a id="exercise-79-1"></a>
@@ -16994,38 +16994,38 @@ adjective + enough + infinitive.
 Раскройте скобки, употребляя инфинитив или герундий.
 
 1. I used .........................(*do*) the shopping in this shop when I lived here.
-2. I haven’t yet got used to .........................(*live*) in this house.
-3. I’m trying .........................(*explain*) to you the point. Why aren’t you listening?
+2. I haven't yet got used to .........................(*live*) in this house.
+3. I'm trying .........................(*explain*) to you the point. Why aren't you listening?
 4. Stop .........................(*shout*). I can hear you very well.
 5. On his way to the office he often stops .........................(*talk*) to this man or that.
-6. I remember .........................(*have*) a rest there. It’s a really wonderful place.
+6. I remember .........................(*have*) a rest there. It's a really wonderful place.
 7. Please, remember .........................(*send*) them an invitation card.
 8. She is used to .........................(*drink*) coffee in the morning.
 9. I tried .........................(*speak*) Italian with him but I failed. My Italian is too bad.
-10. Try .........................(*speak*) French with him. You are good at French, aren’t you?
+10. Try .........................(*speak*) French with him. You are good at French, aren't you?
 11. He stopped .........................(*show*) a stranger the way to the nearest bank.
 12. While living in England I used .........................(*read*) this newspaper in the morning.
-13. I didn’t like .........................(*open*) the letter as it wasn’t addressed to me.
-14. Many dentists don’t allow .........................(*chew*) gum.
-15. The doctor doesn’t allow me .........................(*drive*).
+13. I didn't like .........................(*open*) the letter as it wasn't addressed to me.
+14. Many dentists don't allow .........................(*chew*) gum.
+15. The doctor doesn't allow me .........................(*drive*).
 
 **Полное решение**
 
 1. I used to do the shopping in this shop when I lived here.
-2. I haven’t yet got used to living in this house.
-3. I’m trying to explain to you the point. Why aren’t you listening?
+2. I haven't yet got used to living in this house.
+3. I'm trying to explain to you the point. Why aren't you listening?
 4. Stop shouting. I can hear you very well.
 5. On his way to the office he often stops to talk to this man or that.
-6. I remember having a rest there. It’s a really wonderful place.
+6. I remember having a rest there. It's a really wonderful place.
 7. Please, remember to send them an invitation card.
 8. She is used to drinking coffee in the morning.
 9. I tried to speak Italian with him but I failed. My Italian is too bad.
-10. Try speaking French with him. You are good at French, aren’t you?
+10. Try speaking French with him. You are good at French, aren't you?
 11. He stopped to show a stranger the way to the nearest bank.
 12. While living in England I used to read this newspaper in the morning.
-13. I didn’t like to open the letter as it wasn’t addressed to me.
-14. Many dentists don’t allow chewing gum.
-15. The doctor doesn’t allow me to drive.
+13. I didn't like to open the letter as it wasn't addressed to me.
+14. Many dentists don't allow chewing gum.
+15. The doctor doesn't allow me to drive.
 
 <a id="exercise-79-2"></a>
 
@@ -17046,14 +17046,14 @@ adjective + enough + infinitive.
 5. He lives in the suburbs and he is used to ......................... a train to go to work and back.
 6. When I lived in the suburbs I used . ..................... by train to work and back.
 7. I tried not ......................... to what he was saying but it was impossible.
-8. — I can’t stand his presence any more. — Try .................... all his remarks.
-9. She regrets ......................... the child. She thinks it wasn’t his fault.
+8. — I can't stand his presence any more. — Try .................... all his remarks.
+9. She regrets ......................... the child. She thinks it wasn't his fault.
 10. She is busy ......................... in the garden.
-11. I’m too busy ......................... for them. I don’t want to be late.
+11. I'm too busy ......................... for them. I don't want to be late.
 12. I regret ......................... you that he has fallen ill.
-13. I don’t like ...................... everything to him but he expects an explanation.
-14. The mother didn’t allow the child ......................... so many sweets.
-15. I like ......................... when I’m tired.
+13. I don't like ...................... everything to him but he expects an explanation.
+14. The mother didn't allow the child ......................... so many sweets.
+15. I like ......................... when I'm tired.
 
 **Полное решение**
 
@@ -17064,14 +17064,14 @@ adjective + enough + infinitive.
 5. He lives in the suburbs and he is used to taking a train to go to work and back.
 6. When I lived in the suburbs I used to go by train to work and back.
 7. I tried not to pay attention to what he was saying but it was impossible.
-8. — I can’t stand his presence any more. — Try ignoring all his remarks.
-9. She regrets punishing the child. She thinks it wasn’t his fault.
+8. — I can't stand his presence any more. — Try ignoring all his remarks.
+9. She regrets punishing the child. She thinks it wasn't his fault.
 10. She is busy working in the garden.
-11. I’m too busy to wait for them. I don’t want to be late.
+11. I'm too busy to wait for them. I don't want to be late.
 12. I regret to tell you that he has fallen ill.
-13. I don’t like to explain everything to him but he expects an explanation.
-14. The mother didn’t allow the child to eat so many sweets.
-15. I like staying in bed when I’m tired.
+13. I don't like to explain everything to him but he expects an explanation.
+14. The mother didn't allow the child to eat so many sweets.
+15. I like staying in bed when I'm tired.
 
 <a id="exercise-79-3"></a>
 
@@ -17096,14 +17096,14 @@ adjective + enough + infinitive.
 
 **Полное решение**
 
-1. I used to drink a lot of coffee but now I don’t.
-2. Don’t forget to switch off the light when you are leaving.
+1. I used to drink a lot of coffee but now I don't.
+2. Don't forget to switch off the light when you are leaving.
 3. I remember paying this bill.
 4. I tried to get him on the phone yesterday but I failed. Try doing it in the evening.
-5. I’m used to reading newspapers in the morning.
-6. You won’t regret having a rest there.
-7. The lecturer doesn’t allow missing classes.
-8. The teacher doesn’t allow the children to miss classes.
+5. I'm used to reading newspapers in the morning.
+6. You won't regret having a rest there.
+7. The lecturer doesn't allow missing classes.
+8. The teacher doesn't allow the children to miss classes.
 9. He stopped to read the announcement.
 10. Stop whispering.
 
@@ -17126,11 +17126,11 @@ adjective + enough + infinitive.
 
 |  |  |
 | --- | --- |
-| The boy playing in the garden is my son’s friend. | Мальчик, играющий в саду — сын моего друга. |
+| The boy playing in the garden is my son's friend. | Мальчик, играющий в саду — сын моего друга. |
 | The question being discussed now is important. | Вопрос, который сейчас обсуждается, важный. |
 | He put the typed texts on the table. | Он положил отпечатанные тексты на стол. |
 | Having taken what he wanted he left the room. | Взяв то, что ему было нужно, он вышел из комнаты. |
-| Having been told to come later he didn’t know what to do. | Так как ему сказали прийти позже, он не знал, что делать. |
+| Having been told to come later he didn't know what to do. | Так как ему сказали прийти позже, он не знал, что делать. |
 
 2. Отрицательная форма причастия
 
@@ -17223,14 +17223,14 @@ some photos of a church built in the 15th century.
 
 Употребите причастия в форме прошедшего времени  
 действительного залога.  
-As I hadn’t phoned him back I had to apologise. Not having phoned him back I had to apologize.
+As I hadn't phoned him back I had to apologise. Not having phoned him back I had to apologize.
 
 1. I left the luggage at the airport and went to the restaurant. ........................................................
-2. As he hadn’t found the necessary papers he felt angry. .............................................................
-3. As he hadn’t read the book he couldn’t discuss it. ....................................................................
-4. As they hadn’t taken a decision they turned to him for help. .....................................................
+2. As he hadn't found the necessary papers he felt angry. .............................................................
+3. As he hadn't read the book he couldn't discuss it. ....................................................................
+4. As they hadn't taken a decision they turned to him for help. .....................................................
 5. She made dinner and decided to have a rest. ...........................................................................
-6. As he hadn’t bought tickets he couldn’t join them. ...................................................................
+6. As he hadn't bought tickets he couldn't join them. ...................................................................
 7. As he had broken his car he had to go by bus. .........................................................................
 8. He finished the article and went to bed. ....................................................................................
 9. As he had given up smoking he felt better. ...............................................................................
@@ -17239,10 +17239,10 @@ As I hadn’t phoned him back I had to apologise. Not having phoned him back I h
 
 1. Having left the luggage at the airport I went to the restaurant.
 2. Not having found the necessary papers he felt angry.
-3. Not having read the book he couldn’t discuss it.
+3. Not having read the book he couldn't discuss it.
 4. Not having taken a decision they turned to him for help.
 5. Having made dinner she decided to have a rest.
-6. Not having bought tickets he couldn’t join them.
+6. Not having bought tickets he couldn't join them.
 7. Having broken his car he had to go by bus.
 8. Having finished the article he went to bed.
 9. Having given up smoking he felt better.
@@ -17258,15 +17258,15 @@ As I hadn’t phoned him back I had to apologise. Not having phoned him back I h
 Употребите причастия в форме страдательного залога.  
 He was being followed and felt uneasy. Being followed he felt uneasy.
 
-1. As he hadn’t been introduced to the other guests he felt a stranger. ..........................................
+1. As he hadn't been introduced to the other guests he felt a stranger. ..........................................
 2. As she was being looked at she felt confused. ..........................................................................
 3. He had been taught good manners and that was why he was admired by everybody. ................. ..............................................................................................................................................
 4. The clothes, which are being sold here, are expensive. .............................................................
 5. As the cup was broken it was of no use. ...................................................................................
-6. He hadn’t been asked to come in and felt hurt. .........................................................................
+6. He hadn't been asked to come in and felt hurt. .........................................................................
 7. As the flowers had been kept without water for a long time they faded. ......................................
 8. As the house was being reconstructed it was empty. ................................................................
-9. As he had not been told the truth he didn’t know how to act. .....................................................
+9. As he had not been told the truth he didn't know how to act. .....................................................
 
 **Полное решение**
 
@@ -17278,7 +17278,7 @@ He was being followed and felt uneasy. Being followed he felt uneasy.
 6. Not having been asked to come in he felt hurt.
 7. Having been kept without water for a long time the flowers faded.
 8. Being reconstructed the house was empty.
-9. Not having been told the truth he didn’t know how to act.
+9. Not having been told the truth he didn't know how to act.
 
 <a id="unit-81"></a>
 
@@ -17295,7 +17295,7 @@ He was being followed and felt uneasy. Being followed he felt uneasy.
 | существительное в общем падеже или местоимение | инфинитив смыслового + |
 | в объектном падеже, обозначающее лицо или предмет | глагола или причастие |
 
-После следующих глаголов и выражений инфинитив употребляется с частицей to: to want, I’d like, to expect, to know, to like, to hate, etc.
+После следующих глаголов и выражений инфинитив употребляется с частицей to: to want, I'd like, to expect, to know, to like, to hate, etc.
 
 На русский язык Complex Object, как правило, переводится дополнительным придаточным предложением с союзами что, чтобы, как.
 
@@ -17330,7 +17330,7 @@ He was being followed and felt uneasy. Being followed he felt uneasy.
 |  |  |
 | --- | --- |
 | I hear (that) they have just moved to a new flat. | Я слышал, (что) они только что пере ехали на новую квартиру. |
-| I saw (that) he didn’t understand anything. | Я видел, (что) он ничего не понимает. |
+| I saw (that) he didn't understand anything. | Я видел, (что) он ничего не понимает. |
 | I felt that he was wrong. | Я чувствовал, что он не прав. |
 
 Придаточное предложение также употребляется вместо Complex Object в предложе ниях типа Ты слышал, как он поет? Ты видел, как она рисует?
@@ -17354,7 +17354,7 @@ He is very clever. We know him to study a lot.
 **Слова для выбора:** to study; to behave; to open; to smile; to do the shopping; to arrive.
 
 1. Why have you closed the window? I want ........................................... it.
-2. Why didn’t Steve buy anything on his way home? I’d like ....................... .
+2. Why didn't Steve buy anything on his way home? I'd like ....................... .
 3. When are they to come? — We expect ................................ on Tuesday.
 4. She is very pretty. I like ........................................................................ .
 5. Nick is sometimes so impolite. I hate ....................................... like that.
@@ -17362,7 +17362,7 @@ He is very clever. We know him to study a lot.
 **Полное решение**
 
 1. Why have you closed the window? I want you to open it.
-2. Why didn’t Steve buy anything on his way home? I’d like him to do the shopping.
+2. Why didn't Steve buy anything on his way home? I'd like him to do the shopping.
 3. When are they to come? — We expect them to arrive on Tuesday.
 4. She is very pretty. I like her to smile.
 5. Nick is sometimes so impolite. I hate him to behave like that.
@@ -17376,22 +17376,22 @@ He is very clever. We know him to study a lot.
 **Задание**
 
 Употребите Complex Object после глаголов make и let.  
-Why aren’t the children sleeping? Make them go to bed.
+Why aren't the children sleeping? Make them go to bed.
 
 **Слова для выбора:** go to bed; to tell the truth; to translate; to learn; to come in; to read.
 
 1. Why is he waiting in the street? Let ........................................................ .
 2. David is lying again. Make .................................................................... .
-3. I haven’t heard about it yet. Let .............................................. the article.
-4. The child doesn’t know the rules. Make ........................................ them.
+3. I haven't heard about it yet. Let .............................................. the article.
+4. The child doesn't know the rules. Make ........................................ them.
 5. Alice knows English very well. Let ............................................. the text.
 
 **Полное решение**
 
 1. Why is he waiting in the street? Let him come in.
 2. David is lying again. Make him tell the truth.
-3. I haven’t heard about it yet. Let me read the article.
-4. The child doesn’t know the rules. Make him learn them.
+3. I haven't heard about it yet. Let me read the article.
+4. The child doesn't know the rules. Make him learn them.
 5. Alice knows English very well. Let her translate the text.
 
 <a id="exercise-81-3"></a>
@@ -17411,7 +17411,7 @@ Why did you punish the child? I heard him crying.
 2. I like children and I like to watch ............................................................ .
 3. She was cold. I felt her .......................................................................... .
 4. They have made it up. I heard ...................................... in the next room.
-5. I’m sure Mrs. Smith is not at home. I saw ................................ the house.
+5. I'm sure Mrs. Smith is not at home. I saw ................................ the house.
 
 **Полное решение**
 
@@ -17419,7 +17419,7 @@ Why did you punish the child? I heard him crying.
 2. I like children and I like to watch them playing.
 3. She was cold. I felt her shivering.
 4. They have made it up. I heard them laughing in the next room.
-5. I’m sure Mrs. Smith is not at home. I saw her leaving the house.
+5. I'm sure Mrs. Smith is not at home. I saw her leaving the house.
 
 <a id="exercise-81-4"></a>
 
@@ -17493,37 +17493,37 @@ Ask Mark to lend you the book. I saw him buy it.
 **Задание**
 
 Переделайте предложения, как показано в примере.  
-I won’t go on holiday this year. I can’t afford it. I can’t afford to go on holiday this year.  
+I won't go on holiday this year. I can't afford it. I can't afford to go on holiday this year.  
 The child was sleeping. The mother watched him. The mother watched the child sleeping.
 
 **Часть 1**
 
-1. We’ll go to the theatre on Friday. I’m looking forward to it. ........................................................
+1. We'll go to the theatre on Friday. I'm looking forward to it. ........................................................
 2. Paul bought some flowers. Jane saw it. ....................................................................................
-3. I can wait for you. I don’t mind. ...............................................................................................
+3. I can wait for you. I don't mind. ...............................................................................................
 4. I turned off the light when I was leaving. I remember it. .............................................................
-5. I can earn my own living. I’m capable of it. ...............................................................................
+5. I can earn my own living. I'm capable of it. ...............................................................................
 6. He was crossing the street at the red light. I saw it. ...................................................................
-7. I didn’t remind him of the meeting. I forgot. .............................................................................
+7. I didn't remind him of the meeting. I forgot. .............................................................................
 8. I always have dinners in a restaurant. I enjoy it. ........................................................................
-9. Don’t make him angry. Try to avoid it. .....................................................................................
+9. Don't make him angry. Try to avoid it. .....................................................................................
 10. The child read well. Did you hear? ...........................................................................................
 
 **Часть 2**
 
-1. You must break eggs to make an omelette. You can’t make it without it. ....................................
-2. It’s wonderful to stay at an expensive hotel. Just imagine it. ......................................................
+1. You must break eggs to make an omelette. You can't make it without it. ....................................
+2. It's wonderful to stay at an expensive hotel. Just imagine it. ......................................................
 3. He opened the door and came into the room. I heard it. ............................................................
-4. It’s a nice place to have a rest. I know it. ..................................................................................
-5. You must see the play. It’s worth that. ......................................................................................
-6. I won’t go to the disco. I don’t feel like that. ..............................................................................
-7. Even if he doesn’t want to answer the question make him. .......................................................
-8. Don’t advise him anything. It’s no use. ....................................................................................
-9. I overheard what you said. I just couldn’t help it. .......................................................................
+4. It's a nice place to have a rest. I know it. ..................................................................................
+5. You must see the play. It's worth that. ......................................................................................
+6. I won't go to the disco. I don't feel like that. ..............................................................................
+7. Even if he doesn't want to answer the question make him. .......................................................
+8. Don't advise him anything. It's no use. ....................................................................................
+9. I overheard what you said. I just couldn't help it. .......................................................................
 10. She picked up something and put it into her pocket. I noticed it. ...............................................
 11. He will apply for the job. I advised him. ....................................................................................
-12. You will meet the president. I’ve arranged it. ............................................................................
-13. He hasn’t recovered after the illness. He doesn’t seem to. .........................................................
+12. You will meet the president. I've arranged it. ............................................................................
+13. He hasn't recovered after the illness. He doesn't seem to. .........................................................
 14. Did you lock the door? Do you remember? ..............................................................................
 15. The bell was ringing. I heard it. ................................................................................................
 
@@ -17531,11 +17531,11 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 
 **Часть 1**
 
-1. I’m looking forward to going to the theatre.
+1. I'm looking forward to going to the theatre.
 2. Jane saw Paul buy some flowers.
-3. I don’t mind waiting for you.
+3. I don't mind waiting for you.
 4. I remember turning off the light when I was leaving.
-5. I’m capable of earning my own living.
+5. I'm capable of earning my own living.
 6. I saw him crossing the street at the red light.
 7. I forgot to remind him of the meeting.
 8. I enjoy having dinners in a restaurant.
@@ -17544,19 +17544,19 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 
 **Часть 2**
 
-1. You can’t make an omelette without breaking eggs.
+1. You can't make an omelette without breaking eggs.
 2. Imagine staying at an expensive hotel.
 3. I heard him open the door and come into the room.
 4. I know it to be a nice place to have a rest.
 5. The play is worth seeing.
-6. I don’t feel like going to the disco.
+6. I don't feel like going to the disco.
 7. Make him answer the question.
-8. It’s no use giving him any advice.
-9. I couldn’t help overhearing what you said.
+8. It's no use giving him any advice.
+9. I couldn't help overhearing what you said.
 10. I noticed her pick up something and put it into her pocket.
 11. I advised him to apply for the job.
-12. I’ve arranged for you to meet the president.
-13. He doesn’t seem to have recovered after the illness.
+12. I've arranged for you to meet the president.
+13. He doesn't seem to have recovered after the illness.
 14. Do you remember locking the door?
 15. I heard the bell ringing.
 
@@ -17575,39 +17575,39 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 1. Would you like *come* with us?
 2. Remember *leaving* him a note.
 3. I want the porter *taking* my luggage to the carriage.
-4. They don’t let us *park* cars here.
-5. They don’t allow us *park* cars here.
-6. They don’t allow *talking* loudly here.
+4. They don't let us *park* cars here.
+5. They don't allow us *park* cars here.
+6. They don't allow *talking* loudly here.
 7. The manager is too busy today *receiving* anybody.
 8. The inspector asked me *show* my ticket but I failed *do* it.
 9. The inspector asked me *pay* the fine but I refused *paying*.
-10. I’m used to *work* with the radio on.
+10. I'm used to *work* with the radio on.
 
 **Часть 2**
 
 1. The father kept *buying* the boy toy guns.
 2. Do you mind *to keep* silence for a moment?
-3. I’d rather *to go* by train.
+3. I'd rather *to go* by train.
 4. James expected the director *to see* him at once.
 5. I heard waves *to beat* against the shore.
-6. Do you feel like *to walk*? — I’d rather *to go* by bus.
+6. Do you feel like *to walk*? — I'd rather *to go* by bus.
 7. When I was younger I used *to going* on holiday three times a year.
-8. I hate this district. I’m afraid of *been robbed*.
+8. I hate this district. I'm afraid of *been robbed*.
 9. If he needs it so much let him *to have* it.
 10. I noticed him *walking* towards me and stopped *to shake* hands.
 
 **Часть 3**
 
 1. After *spend* a week in the cottage she began to enjoy *to live* in the country.
-2. It’s no use *to argue* with him. He is incapable *to see* anyone else’s point of view.
-3. Avoid *staying* in the sun. It’s too hot.
+2. It's no use *to argue* with him. He is incapable *to see* anyone else's point of view.
+3. Avoid *staying* in the sun. It's too hot.
 4. His words are worth *to remember*.
 5. Why did you give up *to work* for the company?
 6. He agreed *come* without *thinking*.
 7. I know I promised *calling* on him but somehow I failed *do* it.
 8. On *arrive* at the station I managed *finding* a porter at once.
-9. The coat needs *to clean*. You’d better *to take* it to the cleaner’s.
-10. I couldn’t help *pay* attention to his words.
+9. The coat needs *to clean*. You'd better *to take* it to the cleaner's.
+10. I couldn't help *pay* attention to his words.
 
 **Полное решение**
 
@@ -17616,39 +17616,39 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 1. Would you like to come with us?
 2. Remember to leave him a note.
 3. I want the porter to take my luggage to the carriage.
-4. They don’t let us park cars here.
-5. They don’t allow us to park cars here.
-6. They don’t allow talking loudly here.
+4. They don't let us park cars here.
+5. They don't allow us to park cars here.
+6. They don't allow talking loudly here.
 7. The manager is too busy today to receive anybody.
 8. The inspector asked me to show my ticket but I failed to do it.
 9. The inspector asked me to pay the fine but I refused to pay.
-10. I’m used to working with the radio on.
+10. I'm used to working with the radio on.
 
 **Часть 2**
 
 1. The father kept buying the boy toy guns.
 2. Do you mind keeping silence for a moment?
-3. I’d rather go by train.
+3. I'd rather go by train.
 4. James expected the director to see him at once.
 5. I heard waves beating against the shore.
-6. Do you feel like walking? — I’d rather go by bus.
+6. Do you feel like walking? — I'd rather go by bus.
 7. When I was younger I used to go on holiday three times a year.
-8. I hate this district. I’m afraid of being robbed.
+8. I hate this district. I'm afraid of being robbed.
 9. If he needs it so much let him have it.
 10. I noticed him walking towards me and stopped to shake hands.
 
 **Часть 3**
 
 1. After spending a week in the cottage she began to enjoy living in the country.
-2. It’s no use arguing with him. He is incapable of seeing anyone else’s point of view.
-3. Avoid staying in the sun. It’s too hot.
+2. It's no use arguing with him. He is incapable of seeing anyone else's point of view.
+3. Avoid staying in the sun. It's too hot.
 4. His words are worth remembering.
 5. Why did you give up working for the company?
 6. He agreed to come without thinking.
 7. I know I promised to call on him but somehow I failed to do it.
 8. On arriving at the station I managed to find a porter at once.
-9. The coat needs cleaning. You’d better take it to the cleaner’s.
-10. I couldn’t help paying attention to his words.
+9. The coat needs cleaning. You'd better take it to the cleaner's.
+10. I couldn't help paying attention to his words.
 
 <a id="exercise-82-3"></a>
 
@@ -17709,14 +17709,14 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 **Часть 1**
 
 1. I want you to wait for me after classes.
-2. I didn’t expect him to forget about your birthday.
+2. I didn't expect him to forget about your birthday.
 3. He refused to have a smoke because he had given up smoking.
 4. The baby-sitter had told the children to play in the yard and sat watching them playing.
 5. I saw the sun rising.
 6. Stop shouting. I forbid you to shout.
 7. I heard them speaking English.
 8. I hear you speak English.
-9. I couldn’t help asking him to stay.
+9. I couldn't help asking him to stay.
 10. The teacher made the boy do the exercise again.
 
 **Часть 2**
@@ -17725,28 +17725,28 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 2. I watched Mike trying to teach the child to skate.
 3. She wants the guests to come in time.
 4. I heard a car pass.
-5. I saw that he didn’t feel well.
-6. I don’t allow smoking here. I’m tired of reminding you about it.
+5. I saw that he didn't feel well.
+6. I don't allow smoking here. I'm tired of reminding you about it.
 7. I saw how you looked at him.
 8. He made me get up early.
 9. At last she has given up telling me what to do.
-10. I don’t let the child walk alone.
+10. I don't let the child walk alone.
 
 **Часть 3**
 
 1. He seems to be a good specialist. I advise you to hire him.
-2. I’m used to living alone.
+2. I'm used to living alone.
 3. Everybody knew him to be a good doctor.
-4. The car needs washing. Don’t forget to do it.
+4. The car needs washing. Don't forget to do it.
 5. I expect him to understand our problems.
-6. She can’t afford to stay here long.
+6. She can't afford to stay here long.
 7. The children were looking forward to going to the seaside.
 8. I noticed Jack hit Bill.
 9. He likes laughing at other people.
-10. I didn’t like George’s manner of speaking to the client.
+10. I didn't like George's manner of speaking to the client.
 11. There are different ways of making a child be polite.
 12. We saw her leave the room.
-13. Stop worrying. I’ve arranged for you to see a good doctor.
+13. Stop worrying. I've arranged for you to see a good doctor.
 14. I heard him asking this question.
 15. I insist on your refusing their idea.
 
@@ -17773,16 +17773,16 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 
 |  |  |
 | --- | --- |
-| He still hasn’t taken a decision. | Он все еще не принял решение. |
-| He still doesn’t know what to do. | Он все еще не знает, что делать. |
+| He still hasn't taken a decision. | Он все еще не принял решение. |
+| He still doesn't know what to do. | Он все еще не знает, что делать. |
 
 2. Yet совпадает по значению со still, но употребляется в отрицательных предложениях и переводится на русский язык как пока еще не...
 
 |  |  |
 | --- | --- |
-| He hasn’t come yet. | Он пока еще не пришел. |
-| He isn’t here yet. | Его пока еще нет. |
-| He is still absent. | He hasn’t come yet. |
+| He hasn't come yet. | Он пока еще не пришел. |
+| He isn't here yet. | Его пока еще нет. |
+| He is still absent. | He hasn't come yet. |
 | Он все еще отсутствует. | Он еще не пришел. |
 
 - В вопросительных предложениях yet переводится на русский как уже.
@@ -17813,24 +17813,24 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 **Задание**
 
 Переделайте предложения, употребляя yet или still.  
-Charlie is still at school. (to come home) He hasn’t come home yet.  
-Mr. Stain hasn’t gone to bed yet. (to read) He is still reading.
+Charlie is still at school. (to come home) He hasn't come home yet.  
+Mr. Stain hasn't gone to bed yet. (to read) He is still reading.
 
-1. They haven’t finished dinner yet. (*to sit at the table*). ...............................................................
-2. The Meadows haven’t decided where to go yet. (*to discuss*) .....................................................
+1. They haven't finished dinner yet. (*to sit at the table*). ...............................................................
+2. The Meadows haven't decided where to go yet. (*to discuss*) .....................................................
 3. Mark is still watching TV. (*to go to bed*) ...................................................................................
 4. My father is still fishing. (*to catch fish*) .....................................................................................
-5. David hasn’t switched off his PC yet. (*to play computer games*) ...............................................
+5. David hasn't switched off his PC yet. (*to play computer games*) ...............................................
 6. Leo is still using the car. (*to sell*) .............................................................................................
 
 **Полное решение**
 
 1. They are still sitting at the table.
 2. They are still discussing it.
-3. He hasn’t gone to bed yet.
-4. He hasn’t caught any fish yet.
+3. He hasn't gone to bed yet.
+4. He hasn't caught any fish yet.
 5. He is still playing computer games.
-6. He hasn’t sold it yet.
+6. He hasn't sold it yet.
 
 <a id="exercise-83-2"></a>
 
@@ -17841,13 +17841,13 @@ Mr. Stain hasn’t gone to bed yet. (to read) He is still reading.
 **Задание**
 
 Переделайте предложения, употребляя yet или already.  
-He isn’t still watching TV. (to go to bed) He has already gone to bed.  
-She has already made dinner. (to cook) She isn’t still cooking.
+He isn't still watching TV. (to go to bed) He has already gone to bed.  
+She has already made dinner. (to cook) She isn't still cooking.
 
-1. She isn’t still playing the piano. (*to go for a walk*) ....................................................................
-2. He hasn’t written the book yet. (*to collect information*) ............................................................
-3. The workers aren’t still repairing the roof. (*to leave*) .................................................................
-4. The mother isn’t still washing the dishes. (*to do the washing up*) .............................................
+1. She isn't still playing the piano. (*to go for a walk*) ....................................................................
+2. He hasn't written the book yet. (*to collect information*) ............................................................
+3. The workers aren't still repairing the roof. (*to leave*) .................................................................
+4. The mother isn't still washing the dishes. (*to do the washing up*) .............................................
 5. Sally has already made up her mind. (*to think*) ........................................................................
 6. Is he still riding his bicycle? — No, he (*to fall down*) .................................................................
 
@@ -17857,7 +17857,7 @@ She has already made dinner. (to cook) She isn’t still cooking.
 2. He is still collecting information.
 3. They have already left.
 4. She has already done the washing up.
-5. She isn’t still thinking.
+5. She isn't still thinking.
 6. He has already fallen down.
 
 <a id="exercise-83-3"></a>
@@ -17878,11 +17878,11 @@ She has already made dinner. (to cook) She isn’t still cooking.
 
 **Полное решение**
 
-1. Have they bought a new house yet? They haven’t bought a new house yet.
-2. Have the children built a house yet? They haven’t built a house yet.
-3. Has the painter finished the picture yet? He hasn’t finished the picture yet.
-4. Has the baby fallen asleep yet? The baby hasn’t fallen asleep yet.
-5. Has winter begun yet? Winter hasn’t begun yet.
+1. Have they bought a new house yet? They haven't bought a new house yet.
+2. Have the children built a house yet? They haven't built a house yet.
+3. Has the painter finished the picture yet? He hasn't finished the picture yet.
+4. Has the baby fallen asleep yet? The baby hasn't fallen asleep yet.
+5. Has winter begun yet? Winter hasn't begun yet.
 
 <a id="exercise-83-4"></a>
 
@@ -17894,25 +17894,25 @@ She has already made dinner. (to cook) She isn’t still cooking.
 
 Вставьте still, already или yet.
 
-1. It’s cold. Winter has ......................... come.
-2. It hasn’t stopped snowing ........................ . It’s ......................... snowing.
-3. I haven’t met my parents-in-law ........................ . I’m ......................... going to meet them.
+1. It's cold. Winter has ......................... come.
+2. It hasn't stopped snowing ........................ . It's ......................... snowing.
+3. I haven't met my parents-in-law ........................ . I'm ......................... going to meet them.
 4. Have you spoken to the manager ......................... ? — No, not ........................ .
-5. He isn’t ......................... waiting. He has ......................... left.
-6. They haven’t got a letter ......................... . They ......................... expect it.
-7. We have ......................... sent them an invitation. But we haven’t got an answer ..................... .
-8. They aren’t ......................... on holiday. They have ......................... returned.
+5. He isn't ......................... waiting. He has ......................... left.
+6. They haven't got a letter ......................... . They ......................... expect it.
+7. We have ......................... sent them an invitation. But we haven't got an answer ..................... .
+8. They aren't ......................... on holiday. They have ......................... returned.
 
 **Полное решение**
 
-1. It’s cold. Winter has already come.
-2. It hasn’t stopped snowing yet. It’s still snowing.
-3. I haven’t met my parents-in-law yet. I’m still going to meet them.
+1. It's cold. Winter has already come.
+2. It hasn't stopped snowing yet. It's still snowing.
+3. I haven't met my parents-in-law yet. I'm still going to meet them.
 4. Have you spoken to the manager yet? — No, not yet.
-5. He isn’t still waiting. He has already left.
-6. They haven’t got a letter yet. They still expect it.
-7. We have already sent them an invitation. But we haven’t got an answer yet.
-8. They aren’t still on holiday. They have already returned.
+5. He isn't still waiting. He has already left.
+6. They haven't got a letter yet. They still expect it.
+7. We have already sent them an invitation. But we haven't got an answer yet.
+8. They aren't still on holiday. They have already returned.
 
 <a id="exercise-83-5"></a>
 
@@ -17937,15 +17937,15 @@ She has already made dinner. (to cook) She isn’t still cooking.
 
 **Полное решение**
 
-1. She hasn’t washed (her face) yet.
-2. Michael isn’t a pupil yet. He still goes to a kindergarten.
-3. The boy is still writing the translation. He hasn’t written it yet.
-4. Are they still waiting for him? Hasn’t he come yet?
-5. They have already made it up. They aren’t quarrelling any longer.
-6. Are you ready already?! — Yes, I’m ready.
+1. She hasn't washed (her face) yet.
+2. Michael isn't a pupil yet. He still goes to a kindergarten.
+3. The boy is still writing the translation. He hasn't written it yet.
+4. Are they still waiting for him? Hasn't he come yet?
+5. They have already made it up. They aren't quarrelling any longer.
+6. Are you ready already?! — Yes, I'm ready.
 7. Have you painted the house yet? — Not yet. We are still painting it.
 8. Is he at home yet? — No, he is still working.
-9. He is still unemployed. He hasn’t found a job yet.
+9. He is still unemployed. He hasn't found a job yet.
 10. He has already written the test but he is still doing the checking up.
 
 <a id="unit-84"></a>
@@ -17960,7 +17960,7 @@ She has already made dinner. (to cook) She isn’t still cooking.
 
 |  |  |
 | --- | --- |
-| I’m also busy. | He has also come. |
+| I'm also busy. | He has also come. |
 | We were also hungry. | I also know Steve. I can also do it. |
 
 2. Too употребляется в утвердительных и вопросительных предложениях и всегда ставится в конец предложения.
@@ -17973,11 +17973,11 @@ Too также может выступать как краткое подтве�
 | --- | --- |
 | I want to go there. — Me too. | — Я тоже. |
 
-3. Either употребляется в отрицательных предложениях и ставится в конце предложения. I don’t know him either.
+3. Either употребляется в отрицательных предложениях и ставится в конце предложения. I don't know him either.
 
-He can’t do it either.
+He can't do it either.
 
-She hasn’t spoken to him either.
+She hasn't spoken to him either.
 
 4. Конструкция
 
@@ -18003,7 +18003,7 @@ She hasn’t spoken to him either.
 
 |  |  |
 | --- | --- |
-| I am not busy. — Neither is Ellen. He doesn't know anything. — Nether do we. Он ничего не знает. И мы тоже. They haven’t come yet. — Neither has Ann. Они еще не пришли. И Анна тоже. | Я не занят. И Елена тоже. |
+| I am not busy. — Neither is Ellen. He doesn't know anything. — Nether do we. Он ничего не знает. И мы тоже. They haven't come yet. — Neither has Ann. Они еще не пришли. И Анна тоже. | Я не занят. И Елена тоже. |
 
 <a id="exercise-84-1"></a>
 
@@ -18027,7 +18027,7 @@ He will help you too. He will also help you.
 
 **Часть b)**
 
-I can also do it.. I can’t do it either.
+I can also do it.. I can't do it either.
 
 1. They are also friends. .............................................................................................................
 2. I also like pop music. ..............................................................................................................
@@ -18047,11 +18047,11 @@ I can also do it.. I can’t do it either.
 
 **Часть b)**
 
-1. They aren’t friends either.
-2. I don’t like pop music either.
-3. The Bones haven’t moved to a new flat either.
-4. You shouldn’t ask him about it either.
-5. I didn’t plant any trees last year either.
+1. They aren't friends either.
+2. I don't like pop music either.
+3. The Bones haven't moved to a new flat either.
+4. You shouldn't ask him about it either.
+5. I didn't plant any trees last year either.
 
 <a id="exercise-84-2"></a>
 
@@ -18064,24 +18064,24 @@ I can also do it.. I can’t do it either.
 Заполните пропуски словами too, also, either.
 
 1. This bag is ............................................. expensive.
-2. This student isn’t clever ......................................... .
+2. This student isn't clever ......................................... .
 3. I met him yesterday ............................................... .
-4. My friend didn’t know the answer ........................... .
+4. My friend didn't know the answer ........................... .
 5. He has .............................................. changed a lot.
 6. He will come to the airport ..................................... .
-7. They won’t agree with us ....................................... .
-8. There isn’t any news for us .................................... .
+7. They won't agree with us ....................................... .
+8. There isn't any news for us .................................... .
 
 **Полное решение**
 
 1. This bag is also expensive.
-2. This student isn’t clever either.
+2. This student isn't clever either.
 3. I met him yesterday too.
-4. My friend didn’t know the answer either.
+4. My friend didn't know the answer either.
 5. He has also changed a lot.
 6. He will come to the airport too.
-7. They won’t agree with us either.
-8. There isn’t any news for us either.
+7. They won't agree with us either.
+8. There isn't any news for us either.
 
 <a id="exercise-84-3"></a>
 
@@ -18092,25 +18092,25 @@ I can also do it.. I can’t do it either.
 **Задание**
 
 Дайте краткие подтверждения к предложениям.  
-Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
+Ann's clothes are nice. (Amy's) So are Amy's clothes.
 
-1. I won’t have time for it on Friday. (*Kate*) ..................................................................................
-2. My child is clever. (*Mrs. Black’s child*) ....................................................................................
+1. I won't have time for it on Friday. (*Kate*) ..................................................................................
+2. My child is clever. (*Mrs. Black's child*) ....................................................................................
 3. Kate has a nice voice. (*Clare*) .................................................................................................
-4. John hasn’t finished the work yet. (*his friends*) ........................................................................
+4. John hasn't finished the work yet. (*his friends*) ........................................................................
 5. My parents travelled a lot when they were young. (*the Wests*) ...................................................
-6. They aren’t ready. (*I*) .............................................................................................................
-7. I’ve just had breakfast. (*my husband*) .....................................................................................
-8. I’ll go to Brazil in spring. (*he*) ..................................................................................................
-9. Don can’t speak French. (*David*) ............................................................................................
-10. I didn’t enjoy the party. (*we*) ...................................................................................................
-11. Steve was watching TV at 8 o’clock yesterday. (*we*) .................................................................
-12. You can’t explain it. (*I*) ...........................................................................................................
+6. They aren't ready. (*I*) .............................................................................................................
+7. I've just had breakfast. (*my husband*) .....................................................................................
+8. I'll go to Brazil in spring. (*he*) ..................................................................................................
+9. Don can't speak French. (*David*) ............................................................................................
+10. I didn't enjoy the party. (*we*) ...................................................................................................
+11. Steve was watching TV at 8 o'clock yesterday. (*we*) .................................................................
+12. You can't explain it. (*I*) ...........................................................................................................
 
 **Полное решение**
 
 1. Neither will Kate.
-2. So is Mrs. Black’s child.
+2. So is Mrs. Black's child.
 3. So does Clare.
 4. Neither have his friends.
 5. So did the Wests.
@@ -18147,18 +18147,18 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 **Полное решение**
 
-1. We don’t know the truth either.
-2. I don’t know this man. Neither does my friend.
+1. We don't know the truth either.
+2. I don't know this man. Neither does my friend.
 3. They will also be glad. (They will be glad too.)
 4. I have to get up early. — So do we.
 5. This bag is expensive. — So is that one.
 6. My child also finished school last year. (My child finished school last year too.)
 7. I was born in Moscow. — So were my parents.
-8. I’ve been here since morning. — So has she.
+8. I've been here since morning. — So has she.
 9. Diana has never met him either.
-10. My parents weren’t at home at 5 o’clock yesterday. — Neither were mine.
-11. We didn’t ask him for help either.
-12. I can’t understand this sentence. — Neither can my sister.
+10. My parents weren't at home at 5 o'clock yesterday. — Neither were mine.
+11. We didn't ask him for help either.
+12. I can't understand this sentence. — Neither can my sister.
 
 <a id="appendix"></a>
 
@@ -18816,7 +18816,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. the Tate Gallery
 
-6. St. James’s Park / St. James’s Palace
+6. St. James's Park / St. James's Palace
 
 7. the Science Museum
 
@@ -19362,7 +19362,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. I saw cats playing with mice.
 
-3. I’ve never won prizes.
+3. I've never won prizes.
 
 4. Do you know these ladies?
 
@@ -19378,7 +19378,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. I like these players.
 
-11. I don’t have ashtrays.
+11. I don't have ashtrays.
 
 12. Have you ever talked to Frenchmen?
 
@@ -19476,7 +19476,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. The police are looking for him.
 
-2. What’s the matter with his feet?
+2. What's the matter with his feet?
 
 3. This is bad advice.
 
@@ -19484,15 +19484,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. This information is dated.
 
-6. This cat doesn’t catch mice.
+6. This cat doesn't catch mice.
 
-7. Her hair isn’t very long.
+7. Her hair isn't very long.
 
 8. The goods are spoilt.
 
 9. This is good news.
 
-10. Where is the money? — It’s in the wallet.
+10. Where is the money? — It's in the wallet.
 
 11. These people are Germans.
 
@@ -19510,7 +19510,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. He had two sons-in-law.
 
-6. I don’t like rainy weather.
+6. I don't like rainy weather.
 
 7. Where are the scissors?
 
@@ -19604,7 +19604,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. There is little petrol in the tank.
 
-3. I’ll help you if I have a few minutes.
+3. I'll help you if I have a few minutes.
 
 4. I have very much news.
 
@@ -19638,51 +19638,51 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. the back of the car
 
-3. these children’s parents
+3. these children's parents
 
 4. the middle of the page
 
-5. the effect of James’s speech
+5. the effect of James's speech
 
-6. my cousin’s house
+6. my cousin's house
 
-7. women’s clothes
+7. women's clothes
 
 8. the idea of the article
 
-9. This woman’s story
+9. This woman's story
 
-10. the Wests’ friends
+10. the Wests' friends
 
 ##### 2
 
 1. the centre of Moscow
 
-2. The team’s results / the results of the team
+2. The team's results / the results of the team
 
-3. These doctors’ practice
+3. These doctors' practice
 
-4. last year’s holiday
+4. last year's holiday
 
-5. Yesterday’s visitor
+5. Yesterday's visitor
 
 6. the rules of the game
 
-7. this country’s economy / the economy of this country
+7. this country's economy / the economy of this country
 
-8. These passengers’ seats
+8. These passengers' seats
 
-9. these people’s demands
+9. these people's demands
 
-10. my sister-in-law’s books
+10. my sister-in-law's books
 
-11. John and Sharon’s children
+11. John and Sharon's children
 
-12. these newspapermen’s questions
+12. these newspapermen's questions
 
-13. my children’s toys
+13. my children's toys
 
-14. Martin’s and Carol’s papers
+14. Martin's and Carol's papers
 
 <a id="key-14-2"></a>
 
@@ -19690,51 +19690,51 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. These professors’ lectures are interesting.
+1. These professors' lectures are interesting.
 
-2. These policemen’s wages are rather high.
+2. These policemen's wages are rather high.
 
 3. Let me see the engine of the car.
 
-4. I didn’t like the end of the story.
+4. I didn't like the end of the story.
 
-5. I like these children’s pictures.
+5. I like these children's pictures.
 
-6. The shop’s manager (the manager of the shop) wants to see you.
+6. The shop's manager (the manager of the shop) wants to see you.
 
-7. I didn’t like the expression of her face.
+7. I didn't like the expression of her face.
 
 8. The visitors of the hotel gathered on the ground floor.
 
 9. This is the umbrella of the woman sitting at that table.
 
-10. I liked Carol’s and Sue’s answers.
+10. I liked Carol's and Sue's answers.
 
 ##### 2
 
 1. Do you know the cause of the accident?
 
-2. This girl’s new dress is beautiful.
+2. This girl's new dress is beautiful.
 
-3. Yesterday’s newspaper is on the table.
+3. Yesterday's newspaper is on the table.
 
-4. Do you know these people’s addresses?
+4. Do you know these people's addresses?
 
-5. The Smiths’ garden is the most beautiful in the town.
+5. The Smiths' garden is the most beautiful in the town.
 
 6. The leaves of this tree are yellow.
 
 7. I missed the beginning of the performance.
 
-8. Don’t miss tomorrow’s lesson.
+8. Don't miss tomorrow's lesson.
 
-9. Where are these students’ papers?
+9. Where are these students' papers?
 
-10. He spoke about last year’s failure.
+10. He spoke about last year's failure.
 
-11. A mile’s distance is not a very long distance.
+11. A mile's distance is not a very long distance.
 
-12. Ted and Bill’s room is cosy.
+12. Ted and Bill's room is cosy.
 
 <a id="keys-unit-15"></a>
 
@@ -19746,73 +19746,73 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. these engineers’ work
+1. these engineers' work
 
-2. my sisters’ clothes
+2. my sisters' clothes
 
-3. these women’s secrets
+3. these women's secrets
 
-4. these countries’ economies
+4. these countries' economies
 
-5. my friends’ advice
+5. my friends' advice
 
-6. his teachers’ questions
+6. his teachers' questions
 
-7. these men’s wives
+7. these men's wives
 
-8. my children’s toothbrushes
+8. my children's toothbrushes
 
-9. these cities’ mayors or the mayors of these cities
+9. these cities' mayors or the mayors of these cities
 
-10. the wool of these sheep or these sheep’s wool
+10. the wool of these sheep or these sheep's wool
 
 ##### 2
 
-1. these scientists’ progress
+1. these scientists' progress
 
-2. her pupils’ knowledge
+2. her pupils' knowledge
 
-3. these birds’ nests or the nests of these birds
+3. these birds' nests or the nests of these birds
 
 4. the tops of the mountains
 
-5. these sportsmen’s coaches
+5. these sportsmen's coaches
 
-6. these presidents’ aircraft
+6. these presidents' aircraft
 
-7. these farmers’ geese
+7. these farmers' geese
 
 8. the pages of the books
 
 9. the smell of cigars
 
-10. the Lees’ cottage
+10. the Lees' cottage
 
 <a id="key-15-2"></a>
 
 #### 15.2
 
-1. the postman’s mistake
+1. the postman's mistake
 
-2. The country’s president (the president of the country)
+2. The country's president (the president of the country)
 
-3. the guests’ arrival
+3. the guests' arrival
 
-4. the team’s play (the play of the team)
+4. the team's play (the play of the team)
 
 5. The advertisement of the soap.
 
 6. the sound of the piano
 
-7. the students’ progress
+7. the students' progress
 
 8. the price of the furniture
 
 9. the smell of the dish
 
-10. children’s wear
+10. children's wear
 
-11. the author’s name
+11. the author's name
 
 <a id="key-15-3"></a>
 
@@ -19846,7 +19846,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. My mother-in-law has a lot of sisters.
 
-2. My mother-in-law’s sisters live in another town.
+2. My mother-in-law's sisters live in another town.
 
 3. The police have a lot of proofs.
 
@@ -19856,7 +19856,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. The roofs of these houses are flat.
 
-7. These are my friends’ photos.
+7. These are my friends' photos.
 
 8. Have you got a map of the world?
 
@@ -19866,29 +19866,29 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 2
 
-1. This is those Englishmen’s luggage.
+1. This is those Englishmen's luggage.
 
 2. I have a lot of news.
 
-3. I’ll get in touch with you in a few days.
+3. I'll get in touch with you in a few days.
 
-4. Why are your brother’s clothes wet? Let him dry them.
+4. Why are your brother's clothes wet? Let him dry them.
 
 5. All these watches are expensive.
 
-6. I didn’t like these policemen’s questions.
+6. I didn't like these policemen's questions.
 
 7. Physics is a very difficult subject.
 
 8. This is easy work.
 
-9. I don’t like these passers-by’s faces.
+9. I don't like these passers-by's faces.
 
-10. Do you know the results of yesterday’s matches?
+10. Do you know the results of yesterday's matches?
 
 ##### 3
 
-1. He gave me much (a lot of) advice but I don’t want to take it.
+1. He gave me much (a lot of) advice but I don't want to take it.
 
 2. The covers of these books are nice.
 
@@ -19896,35 +19896,35 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. How many German books do you have? — Very few.
 
-5. I don’t eat many sweets.
+5. I don't eat many sweets.
 
-6. I don’t understand the meaning of this word.
+6. I don't understand the meaning of this word.
 
-7. I don’t need much information about this firm.
+7. I don't need much information about this firm.
 
-8. I like these girls’ jeans.
+8. I like these girls' jeans.
 
-9. Her children’s hair is long and beautiful.
+9. Her children's hair is long and beautiful.
 
-10. It was doctor Brown’s mistake.
+10. It was doctor Brown's mistake.
 
 11. You need a little patience.
 
-12. There are very many flowers in the Smiths’ garden.
+12. There are very many flowers in the Smiths' garden.
 
-13. John and Alice’s children are very nice.
+13. John and Alice's children are very nice.
 
 14. The result of the experiment was satisfactory.
 
-15. I didn’t get the idea of this article.
+15. I didn't get the idea of this article.
 
 ##### 4
 
-1. I like these children’s questions.
+1. I like these children's questions.
 
-2. I don’t know these women’s names.
+2. I don't know these women's names.
 
-3. These are men’s gloves.
+3. These are men's gloves.
 
 4. The team had little luck last year.
 
@@ -19932,17 +19932,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. There is little light here. Take a seat at the window.
 
-7. You needn’t take many clothes.
+7. You needn't take many clothes.
 
 8. He says he has few warm clothes.
 
 9. Take the money and give it to Ted.
 
-10. My feet are cold. Let’s go home.
+10. My feet are cold. Let's go home.
 
 11. Bad news makes people unhappy.
 
-12. He doesn’t eat much fruit.
+12. He doesn't eat much fruit.
 
 13. Knowledge is a strong weapon.
 
@@ -19950,11 +19950,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 15. Mathematics is an exact science.
 
-16. Have you seen today’s newspaper?
+16. Have you seen today's newspaper?
 
-17. Nick’s and Susan’s watches are fast.
+17. Nick's and Susan's watches are fast.
 
-18. These sportsmen’s coach says they are fit.
+18. These sportsmen's coach says they are fit.
 
 19. My sons-in-law are very clever.
 
@@ -19970,7 +19970,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. She is my girlfriend. I love her.
 
-2. We saw Mark but he didn’t see us.
+2. We saw Mark but he didn't see us.
 
 3. I told them to come.
 
@@ -19984,7 +19984,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. We are great friends.
 
-9. I haven’t seen them today.
+9. I haven't seen them today.
 
 10. They have invited us to the cinema.
 
@@ -20052,9 +20052,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. Their children are students and ours are pupils.
 
-9. I’ve answered your questions. Why don’t you want to answer mine?
+9. I've answered your questions. Why don't you want to answer mine?
 
-10. Give this book to them. It’s theirs.
+10. Give this book to them. It's theirs.
 
 <a id="keys-unit-17"></a>
 
@@ -20116,7 +20116,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. Steve himself told me about it.
 
-2. Concentrate and you’ll remember everything yourself.
+2. Concentrate and you'll remember everything yourself.
 
 3. Let me introduce myself.
 
@@ -20132,17 +20132,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. We translated the article ourselves.
 
-10. I’ll speak to the manager myself.
+10. I'll speak to the manager myself.
 
 11. They saw this information in the newspaper themselves.
 
 12. The president himself expressed his gratitude to them.
 
-13. She herself didn’t like the man.
+13. She herself didn't like the man.
 
 14. Try to relax and not to think about anything.
 
-15. It’s good when one feels young long.
+15. It's good when one feels young long.
 
 16. One must be responsible for oneself.
 
@@ -20206,23 +20206,23 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. Some people always have their rest at the seaside.
 
-2. Can I have some paper? — Unfortunately, I don’t have any paper.
+2. Can I have some paper? — Unfortunately, I don't have any paper.
 
 3. Some of his books are interesting.
 
-4. I can’t give you any advice.
+4. I can't give you any advice.
 
 5. The mother said the girl could choose any toy.
 
 6. None of them could come.
 
-7. I don’t want any juice. I want some water.
+7. I don't want any juice. I want some water.
 
 8. Can any of you drive?
 
 9. Come any time you like.
 
-10. I’m sure any boy would like to learn to play football.
+10. I'm sure any boy would like to learn to play football.
 
 11. There are no chairs here. Bring some chairs please.
 
@@ -20236,7 +20236,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Do you think any of them will be able to help us?
 
-3. I don’t see any reasons for such behaviour.
+3. I don't see any reasons for such behaviour.
 
 4. He used to have friends but now he has no friends.
 
@@ -20250,7 +20250,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. Are there any letters for me?
 
-10. There is no information for you. (There isn’t any information for you)
+10. There is no information for you. (There isn't any information for you)
 
 11. You can use any of these dictionaries.
 
@@ -20324,23 +20324,23 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. Is there anybody in the office? — Yes, somebody is waiting for you.
 
-2. There was something so strange in his words that I didn’t understand anything.
+2. There was something so strange in his words that I didn't understand anything.
 
 3. To know everything is to know nothing.
 
-4. I couldn’t find him anywhere and was getting worried.
+4. I couldn't find him anywhere and was getting worried.
 
 5. He says he has been everywhere and knows everything.
 
-6. Everybody agrees with you. We’ll do anything you tell us to do.
+6. Everybody agrees with you. We'll do anything you tell us to do.
 
 7. Nobody has heard anything about it.
 
-8. Does anybody know where he lives? — He lives somewhere here but I don’t know exactly where he lives.
+8. Does anybody know where he lives? — He lives somewhere here but I don't know exactly where he lives.
 
-9. You can ask anybody. They will tell you I’m right.
+9. You can ask anybody. They will tell you I'm right.
 
-10. He wanted to tell her something special but couldn’t think of anything.
+10. He wanted to tell her something special but couldn't think of anything.
 
 11. They may be anywhere. Unfortunately nobody knows where they are.
 
@@ -20408,17 +20408,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 20.2
 
-1. I’ve read only three of these books but I’ll certainly read the others.
+1. I've read only three of these books but I'll certainly read the others.
 
 2. Please, bring another two chairs.
 
 3. Tom and Robert are angry with each other.
 
-4. I don’t have any other (another) explanation.
+4. I don't have any other (another) explanation.
 
 5. She reads only love stories. Any other books seem boring to her.
 
-6. You’ve done only two exercises. How about the others?
+6. You've done only two exercises. How about the others?
 
 7. How many other questions is he going to ask?
 
@@ -20428,7 +20428,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. My other relatives live in another city.
 
-11. Some people like to give presents, others don’t.
+11. Some people like to give presents, others don't.
 
 12. Where is the other shoe?
 
@@ -20436,7 +20436,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 14. Can I have another apple?
 
-15. I don’t see any other mistakes here.
+15. I don't see any other mistakes here.
 
 <a id="keys-unit-21"></a>
 
@@ -20470,7 +20470,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. You can rent either flat. You can rent either of them.
 
-5. I don’t know either woman. I don’t know either of them.
+5. I don't know either woman. I don't know either of them.
 
 6. You can use either PC. You can use either of them.
 
@@ -20528,9 +20528,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 13. I can find neither your keys nor mine.
 
-14. She didn’t buy the dress because it was either expensive or too small for her.
+14. She didn't buy the dress because it was either expensive or too small for her.
 
-15. I’ll see him neither today nor tomorrow.
+15. I'll see him neither today nor tomorrow.
 
 <a id="keys-unit-22"></a>
 
@@ -20558,11 +20558,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. We can cope with the task ourselves.
 
-10. I don’t have any plans for the weekend.
+10. I don't have any plans for the weekend.
 
 11. Nobody can help him in this situation.
 
-12. We keep in touch with one of my cousins but I haven’t heard about the other one lately.
+12. We keep in touch with one of my cousins but I haven't heard about the other one lately.
 
 13. RIGHT
 
@@ -20584,7 +20584,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 22. RIGHT
 
-23. I haven’t got any news yet.
+23. I haven't got any news yet.
 
 24. Neither his children nor he wants to stay there.
 
@@ -20602,7 +20602,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 31. He is arriving either on Friday or on Saturday.
 
-32. It’s their business. Don’t interfere.
+32. It's their business. Don't interfere.
 
 33. The question is so easy. Anybody can answer it.
 
@@ -20624,7 +20624,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 42. They looked at each other but said nothing.
 
-43. I don’t feel well enough to leave the house.
+43. I don't feel well enough to leave the house.
 
 44. RIGHT
 
@@ -20636,7 +20636,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. He felt bad and wanted to stay at home.
 
-3. I’m afraid anything can happen.
+3. I'm afraid anything can happen.
 
 4. Neither his parents nor he smokes.
 
@@ -20654,7 +20654,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. They are both on holiday and neither of them will come before Sunday.
 
-12. Let’s play another game.
+12. Let's play another game.
 
 13. His computer is very good. Mine is not that good.
 
@@ -20674,13 +20674,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 21. There was nobody in the house.
 
-22. Their house is very big. Ours isn’t that big.
+22. Their house is very big. Ours isn't that big.
 
 23. Go anywhere you like.
 
 24. Some men shave every day, other men (others) think it is unnecessary.
 
-25. Everybody is present, aren’t they?
+25. Everybody is present, aren't they?
 
 26. You can invite anybody.
 
@@ -20688,17 +20688,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 28. I wanted to see three films on Saturday but saw none.
 
-29. I couldn’t make a sandwich. I had no bread.
+29. I couldn't make a sandwich. I had no bread.
 
 30. What did you do yesterday? — Nothing special.
 
 31. How long have you known each other?
 
-32. If anybody phones, tell them I’ll come in half an hour.
+32. If anybody phones, tell them I'll come in half an hour.
 
 33. Where is the other glove?
 
-34. I’ll take the suit to the dry cleaner’s myself.
+34. I'll take the suit to the dry cleaner's myself.
 
 35. Did you meet anybody last week? — Nobody.
 
@@ -20706,7 +20706,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 37. I need another three days to collect all the information.
 
-38. We’ll pay for ourselves.
+38. We'll pay for ourselves.
 
 39. Neither he nor I am busy. We both can help you.
 
@@ -20788,21 +20788,21 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 23.3
 
-1. He is a really famous architect. It’s strange that you don’t know his name.
+1. He is a really famous architect. It's strange that you don't know his name.
 
-2. These flowers smell sweet and heavy. (These flowers have a sweet and heavy smell.) It’s impossible to sleep in the room.
+2. These flowers smell sweet and heavy. (These flowers have a sweet and heavy smell.) It's impossible to sleep in the room.
 
 3. She is so tired that she can hardly move. In my opinion, she feels very bad. She looks pale.
 
 4. The trip was well organized and we had a good time.
 
-5. It’s pleasant to deal with friendly people.
+5. It's pleasant to deal with friendly people.
 
 6. She is an unusually good assistant. She works hard and fast.
 
-7. This magazine comes out daily. (This is a daily magazine.) It’s always beautifully illustrated.
+7. This magazine comes out daily. (This is a daily magazine.) It's always beautifully illustrated.
 
-8. She looked at me happily and said, “It’s real luck!”
+8. She looked at me happily and said, “It's real luck!”
 
 9. His words “We should act fast but carefully” sounded unexpected.
 
@@ -20810,7 +20810,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. She often chats with her friends in a lively manner. It seems to me she is always in a good mood.
 
-12. Your son works carelessly, that’s why he makes a lot of mistakes.
+12. Your son works carelessly, that's why he makes a lot of mistakes.
 
 <a id="keys-unit-24"></a>
 
@@ -20958,25 +20958,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 24.6
 
-1. This book isn’t as boring as I expected.
+1. This book isn't as boring as I expected.
 
-2. He isn’t as stupid as he can seem.
+2. He isn't as stupid as he can seem.
 
-3. Mary and Charles don’t have as many children as Rachel and Steve.
+3. Mary and Charles don't have as many children as Rachel and Steve.
 
-4. His answer at the exam wasn’t as good as his friend’s.
+4. His answer at the exam wasn't as good as his friend's.
 
-5. This test isn’t as short as that.
+5. This test isn't as short as that.
 
-6. My brother isn’t as young as he looks.
+6. My brother isn't as young as he looks.
 
-7. Kate’s room isn’t as large as her sister’s.
+7. Kate's room isn't as large as her sister's.
 
-8. This information isn’t as useless as that.
+8. This information isn't as useless as that.
 
-9. She doesn’t spend as much time on cooking as her mother.
+9. She doesn't spend as much time on cooking as her mother.
 
-10. The Mercedes isn’t as cheap as the Ford.
+10. The Mercedes isn't as cheap as the Ford.
 
 <a id="key-24-7"></a>
 
@@ -21050,15 +21050,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. She always buys only the most expensive clothes. — But they are also the best, aren’t they?
+1. She always buys only the most expensive clothes. — But they are also the best, aren't they?
 
-2. Which way to the beach is shorter: through the forest or through the field? The way through the field takes longer (more time), and besides it’s much hotter in the field than in the forest.
+2. Which way to the beach is shorter: through the forest or through the field? The way through the field takes longer (more time), and besides it's much hotter in the field than in the forest.
 
 3. The less time I have, the more nervous I get.
 
 4. This is one of the funniest episodes in the film.
 
-5. Today’s homework isn’t as difficult as yesterday’s.
+5. Today's homework isn't as difficult as yesterday's.
 
 6. This actor is much more talented than his partner.
 
@@ -21072,11 +21072,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 2
 
-1. Is this exercise as large as that? — No, it’s shorter, but much more difficult.
+1. Is this exercise as large as that? — No, it's shorter, but much more difficult.
 
 2. This is one of the oldest and smallest towns in Europe. Streets there are much narrower than in modern cities.
 
-3. There is less information in this newspaper than in that one. It’s not as interesting as that one.
+3. There is less information in this newspaper than in that one. It's not as interesting as that one.
 
 4. Is it the worst news or is there any still worse?
 
@@ -21088,9 +21088,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. Which is better: to teach or to study?
 
-9. Are you busier now than in the morning? — No, I don’t have as many things to do as in the morning.
+9. Are you busier now than in the morning? — No, I don't have as many things to do as in the morning.
 
-10. This is one of the most beautiful songs of this singer. It’s my favourite one.
+10. This is one of the most beautiful songs of this singer. It's my favourite one.
 
 <a id="keys-unit-25"></a>
 
@@ -21160,13 +21160,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. My wife has an elder brother. He is much older than her (than she is).
 
-6. His latest article is on the same topic again, isn’t it?
+6. His latest article is on the same topic again, isn't it?
 
 7. Is the secretary in the next room? — Yes, she is.
 
 8. I like both Kevin and Phillip. The former is very polite and the latter is very handsome.
 
-9. I don’t know which theatre in Moscow is the oldest. And you?
+9. I don't know which theatre in Moscow is the oldest. And you?
 
 10. He wants to enter another university to get further education.
 
@@ -21178,9 +21178,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. Is there any other hospital nearer to the house than this one? — No, the others are much farther (further).
 
-4. My friend isn’t older than me (than I am).
+4. My friend isn't older than me (than I am).
 
-5. This writer’s latest play is quite popular with readers.
+5. This writer's latest play is quite popular with readers.
 
 6. Was it the last time you saw him?
 
@@ -21254,15 +21254,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. He writes French as badly as he speaks it.
 
-4. The earlier you get up, the more easily you’ll work.
+4. The earlier you get up, the more easily you'll work.
 
 5. I expect it least of all.
 
-6. She doesn’t treat people as patiently as I’d like her to.
+6. She doesn't treat people as patiently as I'd like her to.
 
-7. My room is much more beautifully decorated for the holiday than my parents’ room.
+7. My room is much more beautifully decorated for the holiday than my parents' room.
 
-8. You can’t draw as well as Walt. He draws best of all. (He draws better than anyone else.)
+8. You can't draw as well as Walt. He draws best of all. (He draws better than anyone else.)
 
 9. He usually listens to the teacher more attentively than the others.
 
@@ -21288,7 +21288,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. He is three years older than you.
 
-6. I tried hard but couldn’t do anything.
+6. I tried hard but couldn't do anything.
 
 7. He spoke more politely than usual.
 
@@ -21302,9 +21302,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. He knows the lesson better than you.
 
-2. It’s nice of you!
+2. It's nice of you!
 
-3. I’m awfully sorry!
+3. I'm awfully sorry!
 
 4. He smiled at me in a friendly way.
 
@@ -21322,7 +21322,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. Is it really such a well-paid job?
 
-12. It’s much farther than that.
+12. It's much farther than that.
 
 13. The dish smells nice. What is it?
 
@@ -21394,9 +21394,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. Which is more useful: to walk or to jog?
 
-6. I feel better now but it’s still hard for me to work for a long time.
+6. I feel better now but it's still hard for me to work for a long time.
 
-7. You must speak to people more politely, otherwise they’ll think that you are badly brought up.
+7. You must speak to people more politely, otherwise they'll think that you are badly brought up.
 
 8. This is one of the stuffiest rooms in the office. I get awfully tired here.
 
@@ -21410,7 +21410,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Children like singing but often do it badly.
 
-3. Though this flat is smaller than mine, it’s more comfortable and besides it’s surprisingly cheap.
+3. Though this flat is smaller than mine, it's more comfortable and besides it's surprisingly cheap.
 
 4. What do you think further events will be?
 
@@ -21422,19 +21422,19 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. Both Ann and Kate are beautiful girls. The latter is married.
 
-9. Is he a late-riser? — No, he gets up early, earlier than the rest of the family. He believes it’s more practical and convenient.
+9. Is he a late-riser? — No, he gets up early, earlier than the rest of the family. He believes it's more practical and convenient.
 
 10. The less advice she gives you, the better. Her advice is as useless as her help.
 
-11. Let’s discuss the next question. — Let’s do it later. I have a terrible headache.
+11. Let's discuss the next question. — Let's do it later. I have a terrible headache.
 
 12. This is the most serious problem. We must discuss it as thoroughly as possible.
 
-13. The fruit salad tastes wonderful / delicious, but it seems to me that it’s better to put fewer apples there.
+13. The fruit salad tastes wonderful / delicious, but it seems to me that it's better to put fewer apples there.
 
-14. If you practise daily, you’ll speak more quickly and more correctly.
+14. If you practise daily, you'll speak more quickly and more correctly.
 
-15. Even if you are in a bad mood, you should treat clients in a friendlier way, you mustn’t be so rude.
+15. Even if you are in a bad mood, you should treat clients in a friendlier way, you mustn't be so rude.
 
 <a id="keys-unit-28"></a>
 
@@ -21472,7 +21472,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. She listens to the news on the radio every morning.
 
-6. Tom does morning exercises in his room at seven o’clock.
+6. Tom does morning exercises in his room at seven o'clock.
 
 7. Her Dad smokes a lot both at home and at work.
 
@@ -21480,7 +21480,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 28.3
 
-1. We discussed the problem in detail at Nick’s place in the evening.
+1. We discussed the problem in detail at Nick's place in the evening.
 
 2. She went home unexpectedly after that.
 
@@ -21496,7 +21496,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. The children always play noisily behind the house before supper.
 
-9. They came to the party together at about nine o’clock.
+9. They came to the party together at about nine o'clock.
 
 10. She left for London secretly at night.
 
@@ -21510,7 +21510,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. They always take a walk before going to bed.
 
-4. She doesn’t usually behave so impatiently.
+4. She doesn't usually behave so impatiently.
 
 5. He sometimes talks nonsense.
 
@@ -21520,9 +21520,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. We have seldom got much spare time.
 
-9. We don’t often see each other nowadays.
+9. We don't often see each other nowadays.
 
-10. I’m probably wrong.
+10. I'm probably wrong.
 
 11. She usually gets good marks.
 
@@ -21616,7 +21616,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. He learns English words thoroughly every day.
 
-11. I’d like to buy elegant new Italian leather shoes.
+11. I'd like to buy elegant new Italian leather shoes.
 
 12. He also plays chess very well.
 
@@ -21648,7 +21648,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. I like your new red woolen sweater.
 
-10. Exercises are sometimes very difficult, aren’t they?
+10. Exercises are sometimes very difficult, aren't they?
 
 11. They spend weekends in the country in summer.
 
@@ -21668,25 +21668,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 29.1
 
-1. Does Tom have a large country-house? Tom doesn’t have a large country-house.
+1. Does Tom have a large country-house? Tom doesn't have a large country-house.
 
-2. Do they usually have lunch at one o’clock? They don’t usually have lunch at one o’clock.
+2. Do they usually have lunch at one o'clock? They don't usually have lunch at one o'clock.
 
-3. Has Mary got two brothers? Mary hasn’t got two brothers.
+3. Has Mary got two brothers? Mary hasn't got two brothers.
 
-4. Do you have a shower every morning? I don’t have a shower every morning.
+4. Do you have a shower every morning? I don't have a shower every morning.
 
-5. Have Helen and John got a three-room flat? Helen and John haven’t got a three-room flat.
+5. Have Helen and John got a three-room flat? Helen and John haven't got a three-room flat.
 
-6. Has little Ben got a bicycle? Little Ben hasn’t got a bicycle.
+6. Has little Ben got a bicycle? Little Ben hasn't got a bicycle.
 
-7. Does Kate always have tea for breakfast? Kate doesn’t always have tea for breakfast.
+7. Does Kate always have tea for breakfast? Kate doesn't always have tea for breakfast.
 
-8. Does your Mum usually have a holiday in summer? My Mum doesn’t usually have a holiday in summer.
+8. Does your Mum usually have a holiday in summer? My Mum doesn't usually have a holiday in summer.
 
-9. Has the child got coloured pencils? The child hasn’t got coloured pencils.
+9. Has the child got coloured pencils? The child hasn't got coloured pencils.
 
-10. Does George have a family of his own? George doesn’t have a family of his own.
+10. Does George have a family of his own? George doesn't have a family of his own.
 
 <a id="key-29-2"></a>
 
@@ -21696,27 +21696,27 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. had
 
-3. doesn’t have (hasn’t got)
+3. doesn't have (hasn't got)
 
 4. do you have
 
-5. won’t have
+5. won't have
 
 6. have
 
-7. didn’t have
+7. didn't have
 
-8. haven’t got (don’t have)
+8. haven't got (don't have)
 
 9. having
 
-10. don’t have (haven’t got)
+10. don't have (haven't got)
 
 11. will have
 
 12. Does their daughter have ... ? (Has their daughter got ... ?)
 
-13. didn’t have
+13. didn't have
 
 14. has (has got)
 
@@ -21728,45 +21728,45 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. I didn’t have any drink at lunch as I have a terrible headache.
+1. I didn't have any drink at lunch as I have a terrible headache.
 
 2. Have you got a camera? Let me take a picture of you.
 
-3. I won’t have my birthday party as I’m leaving.
+3. I won't have my birthday party as I'm leaving.
 
 4. Has Tom got a large family? (Does Tom have a large family?) — Yes, he has (has got) a brother and two sisters.
 
-5. I can’t get Kate on the phone. — I had a chat with her only yesterday.
+5. I can't get Kate on the phone. — I had a chat with her only yesterday.
 
-6. Mr. Brown is very busy, he doesn’t have (hasn’t got) time to speak to you now.
+6. Mr. Brown is very busy, he doesn't have (hasn't got) time to speak to you now.
 
 7. Did you have a good walk yesterday? — Oh yes, the weather was beautiful.
 
 8. Do you have many classes on Wednesday? — Three or four lectures usually.
 
-9. She had no plants at home and I didn’t like it.
+9. She had no plants at home and I didn't like it.
 
-10. There is no fresh bread in this shop. Let’s go to another one.
+10. There is no fresh bread in this shop. Let's go to another one.
 
 ##### 2
 
-1. Have you got (Do you have) a room of your own in your new flat? — Oh, yes I have, and it’s quite large.
+1. Have you got (Do you have) a room of your own in your new flat? — Oh, yes I have, and it's quite large.
 
 2. Where can I find Mr. Pitt? — He is out. He is having a business lunch with a client.
 
-3. If we have a party on Saturday, the guests won’t leave early. They won’t have to get up early on Sunday.
+3. If we have a party on Saturday, the guests won't leave early. They won't have to get up early on Sunday.
 
 4. Do you have (Have you got) a brother or a sister? — I have an elder brother.
 
-5. I didn’t have time even for a cup of coffee this morning. That’s why I’m so sleepy.
+5. I didn't have time even for a cup of coffee this morning. That's why I'm so sleepy.
 
 6. Did you have a good flight? — Yes, thanks.
 
-7. I don’t have the slightest idea what you are talking about.
+7. I don't have the slightest idea what you are talking about.
 
-8. What’s the matter? You’re so excited! — I’m having my first date tonight.
+8. What's the matter? You're so excited! — I'm having my first date tonight.
 
-9. Haven’t you ever had a toothache?
+9. Haven't you ever had a toothache?
 
 10. Mark was just having his last cigarette before going to bed when suddenly there was a knock at the door.
 
@@ -21794,9 +21794,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. Would Jane like to spend a holiday abroad?
 
-9. Do Paul’s friends agree with him?
+9. Do Paul's friends agree with him?
 
-10. Has Irene’s husband got an expensive car?
+10. Has Irene's husband got an expensive car?
 
 <a id="key-30-2"></a>
 
@@ -21850,65 +21850,65 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 30.4
 
-1. No, I’m not.
+1. No, I'm not.
 
-2. No, she doesn’t.
+2. No, she doesn't.
 
-3. No, he isn’t.
+3. No, he isn't.
 
-4. No, I wouldn’t.
+4. No, I wouldn't.
 
-5. No, they don’t.
+5. No, they don't.
 
-6. No, I haven’t.
+6. No, I haven't.
 
-7. No, it isn’t.
+7. No, it isn't.
 
-8. No, she doesn’t.
+8. No, she doesn't.
 
-9. No, you aren’t.
+9. No, you aren't.
 
-10. No, they wouldn’t.
+10. No, they wouldn't.
 
 <a id="key-30-5"></a>
 
 #### 30.5
 
-1. Isn’t he here yet?
+1. Isn't he here yet?
 
-2. Doesn’t he know English?
+2. Doesn't he know English?
 
-3. Don’t they live together?
+3. Don't they live together?
 
-4. Doesn’t he have an elder brother?
+4. Doesn't he have an elder brother?
 
-5. Aren’t you a student now?
+5. Aren't you a student now?
 
-6. Hasn’t she got any?
+6. Hasn't she got any?
 
-7. Don’t you know the rules?
+7. Don't you know the rules?
 
-8. Aren’t they yours?
+8. Aren't they yours?
 
-9. Doesn’t he have a headache?
+9. Doesn't he have a headache?
 
-10. Doesn’t your wife cook well?
+10. Doesn't your wife cook well?
 
 <a id="key-30-6"></a>
 
 #### 30.6
 
-1. No, it isn’t.
+1. No, it isn't.
 
-2. No, I don’t.
+2. No, I don't.
 
 3. But they are.
 
-4. No, they aren’t.
+4. No, they aren't.
 
 5. Yes, he does. (But he does.)
 
-6. No, she isn’t.
+6. No, she isn't.
 
 7. But I do. (Of course, I do.)
 
@@ -21916,31 +21916,31 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. But I am.
 
-10. No, he doesn’t.
+10. No, he doesn't.
 
 <a id="key-30-7"></a>
 
 #### 30.7
 
-1. Don’t you know the rule? — No, I don’t.
+1. Don't you know the rule? — No, I don't.
 
-2. Have you got this book? — No, I haven’t.
+2. Have you got this book? — No, I haven't.
 
-3. Don’t you like this music? — But I do.
+3. Don't you like this music? — But I do.
 
-4. Isn’t David your friend? — Of course, he is.
+4. Isn't David your friend? — Of course, he is.
 
 5. Do you agree with me? — Yes, I do.
 
-6. Don’t you have spare time at all? — But I do.
+6. Don't you have spare time at all? — But I do.
 
-7. Aren’t you the manager? — No, I am not.
+7. Aren't you the manager? — No, I am not.
 
 8. Do you remember this song? — Yes, I do.
 
-9. Doesn’t he play the guitar? — No, he doesn’t.
+9. Doesn't he play the guitar? — No, he doesn't.
 
-10. Isn’t he at home? — Yes, he is. (But he is.)
+10. Isn't he at home? — Yes, he is. (But he is.)
 
 <a id="key-30-8"></a>
 
@@ -21976,17 +21976,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Do you have plans for the future? — Yes, I want to be a doctor.
 
-3. Doesn’t he live here? — No, he doesn’t.
+3. Doesn't he live here? — No, he doesn't.
 
 4. Are they happy together? — I think they are.
 
-5. Would you like to come at five or at six? — I’d like to come after six.
+5. Would you like to come at five or at six? — I'd like to come after six.
 
-6. Hasn’t he got a car? — Yes, he has. He is a good driver.
+6. Hasn't he got a car? — Yes, he has. He is a good driver.
 
 7. Do you go to the country in summer? — Yes, we do.
 
-8. Is your brother married? — Not yet. (No, he isn’t.)
+8. Is your brother married? — Not yet. (No, he isn't.)
 
 9. Do they get up early or late? — Quite early, at seven.
 
@@ -21996,27 +21996,27 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. Am I late? — Yes, you are a little.
 
-2. Would you like to meet my friend? — Don’t I know her?
+2. Would you like to meet my friend? — Don't I know her?
 
 3. Does your Dad go to work by car or by underground? — By underground.
 
 4. Does your sister speak Spanish? — No, she learns German.
 
-5. Doesn’t your mother help you? — But she does.
+5. Doesn't your mother help you? — But she does.
 
 6. Are you ill? — Yes, I feel unwell (bad).
 
 7. Does he or do his parents want to move to another city (town)? — His parents do.
 
-8. Is he present at the lesson? — No, he isn’t. He is ill.
+8. Is he present at the lesson? — No, he isn't. He is ill.
 
-9. Do her relatives have a country-house? — As far as I know, they don’t.
+9. Do her relatives have a country-house? — As far as I know, they don't.
 
-10. Isn’t he your boss? — Yes, he is.
+10. Isn't he your boss? — Yes, he is.
 
 ##### 3
 
-1. Is it your or your sister’s dress?
+1. Is it your or your sister's dress?
 
 2. Have you got (Do you have) any questions? — No, thanks, everything is clear.
 
@@ -22024,13 +22024,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. Does he study languages or history?
 
-5. Am I wrong? — I’m afraid you are.
+5. Am I wrong? — I'm afraid you are.
 
 6. Do you have tea or coffee for breakfast? — I prefer tea.
 
 7. Are you and Nick friends? — Yes, we are great friends.
 
-8. Doesn’t he have any relatives at all? — As far as I know, he doesn’t.
+8. Doesn't he have any relatives at all? — As far as I know, he doesn't.
 
 9. Is your brother interested in history?
 
@@ -22046,9 +22046,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. ... were you?
 
-2. ... can’t he?
+2. ... can't he?
 
-3. ... isn’t she?
+3. ... isn't she?
 
 4. ... do you?
 
@@ -22056,9 +22056,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. ... shall we?
 
-7. ... haven’t they?
+7. ... haven't they?
 
-8. ... aren’t they?
+8. ... aren't they?
 
 9. ... did she?
 
@@ -22068,9 +22068,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 12. ... do they?
 
-13. ... don’t they?
+13. ... don't they?
 
-14. ... aren’t I?
+14. ... aren't I?
 
 15. ... can he?
 
@@ -22078,17 +22078,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 17. ... does she?
 
-18. ... don’t they?
+18. ... don't they?
 
-19. ... don’t we?
+19. ... don't we?
 
 20. ... was he?
 
-21. ... aren’t you?
+21. ... aren't you?
 
-22. ... don’t I?
+22. ... don't I?
 
-23. ... doesn’t she?
+23. ... doesn't she?
 
 24. ... will you?
 
@@ -22096,7 +22096,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 31.2
 
-1. No, I’m not.
+1. No, I'm not.
 
 2. Yes, they do.
 
@@ -22104,17 +22104,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. Yes, they do.
 
-5. No, she doesn’t.
+5. No, she doesn't.
 
 <a id="key-31-3"></a>
 
 #### 31.3
 
-1. No, she doesn’t.
+1. No, she doesn't.
 
 2. But they can.
 
-3. No, he isn’t.
+3. No, he isn't.
 
 4. Yes, we have.
 
@@ -22124,25 +22124,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 31.4
 
-1. You can’t promise me anything, can you? — No, I can’t.
+1. You can't promise me anything, can you? — No, I can't.
 
-2. The weather is nice today, isn’t it? — Yes, it is.
+2. The weather is nice today, isn't it? — Yes, it is.
 
-3. Don’t be so impatient, will you?
+3. Don't be so impatient, will you?
 
-4. They’ve got a large TV set, haven’t they? — Yes, they have.
+4. They've got a large TV set, haven't they? — Yes, they have.
 
-5. We had a good time yesterday, didn’t we?
+5. We had a good time yesterday, didn't we?
 
-6. Everybody is pleased, aren’t they? — I think they are.
+6. Everybody is pleased, aren't they? — I think they are.
 
-7. He is absent today, isn’t he? — No, he isn’t. He is present.
+7. He is absent today, isn't he? — No, he isn't. He is present.
 
-8. I’m right, aren’t I? — I think you aren’t.
+8. I'm right, aren't I? — I think you aren't.
 
-9. Let’s ask him for advice, shall we?
+9. Let's ask him for advice, shall we?
 
-10. She doesn’t cook very well, does she? — Why? But she does.
+10. She doesn't cook very well, does she? — Why? But she does.
 
 <a id="keys-unit-32"></a>
 
@@ -22154,7 +22154,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. How do you make this cake?
 
-2. Why aren’t the children in bed yet?
+2. Why aren't the children in bed yet?
 
 3. Where does Mr. Brown work?
 
@@ -22168,7 +22168,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. How many are you in the family?
 
-9. Where is the chemist’s?
+9. Where is the chemist's?
 
 10. What does this word mean?
 
@@ -22198,7 +22198,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. Who do Mr. and Mrs. Foster often go out with?
 
-7. What does Anna’s daughter dream of?
+7. What does Anna's daughter dream of?
 
 8. What is Robert interested in?
 
@@ -22302,7 +22302,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. How long does it take to get by bicycle from your house to the park?
 
-9. How long does it take to get by underground from your house to your friend’s place?
+9. How long does it take to get by underground from your house to your friend's place?
 
 10. How long does it take to get by car from your place to the airport?
 
@@ -22350,7 +22350,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. How much work have you got today?
 
-8. What does Frank’s Mum look like?
+8. What does Frank's Mum look like?
 
 9. How do you want to help him?
 
@@ -22368,7 +22368,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. Who is that woman? — This is Mrs. Arnold. She is your new teacher.
 
-6. When is your sister’s birthday?
+6. When is your sister's birthday?
 
 7. How long does it take to get from here to the theatre?
 
@@ -22392,7 +22392,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. What is this building famous for?
 
-7. What does your sister’s husband look like?
+7. What does your sister's husband look like?
 
 8. How many brothers and sisters does she have?
 
@@ -22446,7 +22446,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. What is in her bag?
 
-5. What kind of job has Nick’s cousin got?
+5. What kind of job has Nick's cousin got?
 
 6. Whose friends are fond of sports?
 
@@ -22476,7 +22476,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. Which of these writers is well-known? — I think, both are.
 
-4. Whose brother is married to Ann? — Maggy’s brother is.
+4. Whose brother is married to Ann? — Maggy's brother is.
 
 5. What do you want (need)?
 
@@ -22512,33 +22512,33 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 34.2
 
-1. I don’t know why they are late.
+1. I don't know why they are late.
 
 2. Do you know how long it takes to get there?
 
-3. I don’t remember when the train arrives.
+3. I don't remember when the train arrives.
 
 4. Do you know where Emm is?
 
-5. I don’t know what it means.
+5. I don't know what it means.
 
 <a id="key-34-3"></a>
 
 #### 34.3
 
-1. I don’t know if they are well-read.
+1. I don't know if they are well-read.
 
-2. I know where George’s mother works.
+2. I know where George's mother works.
 
-3. I wonder why he doesn’t do his work properly.
+3. I wonder why he doesn't do his work properly.
 
-4. Do you know if Kate has got Nick’s address?
+4. Do you know if Kate has got Nick's address?
 
-5. I don’t know how many children the Turners have.
+5. I don't know how many children the Turners have.
 
 6. Can you tell me when the lesson begins?
 
-7. I don’t remember which of them is older.
+7. I don't remember which of them is older.
 
 8. Do you know if he is a professional sportsman?
 
@@ -22560,15 +22560,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. Tell me what I must do.
 
-6. I don’t know when they begin work.
+6. I don't know when they begin work.
 
 7. Do you know if he has this book?
 
 8. I wonder how much such a house costs.
 
-9. I don’t remember how long it takes to get to Berlin.
+9. I don't remember how long it takes to get to Berlin.
 
-10. I don’t know if she is really a good doctor.
+10. I don't know if she is really a good doctor.
 
 <a id="keys-unit-35"></a>
 
@@ -22610,7 +22610,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. Whose book do you think it is?
 
-5. How much time do you think we’ve got?
+5. How much time do you think we've got?
 
 6. Who do you think she would like to ask for help?
 
@@ -22648,7 +22648,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. Do you think she plays the piano well?
 
-12. Do you think I’m right?
+12. Do you think I'm right?
 
 13. What do you think he is?
 
@@ -22700,7 +22700,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. What are you good at?
 
-2. Don’t you remember me?
+2. Don't you remember me?
 
 3. Are Kate and Mary at home?
 
@@ -22710,11 +22710,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. Do they want to go to the seaside?
 
-7. How old is Robert and Brenda’s son?
+7. How old is Robert and Brenda's son?
 
 8. Does she know about it?
 
-9. What’s the time?
+9. What's the time?
 
 10. Is it time to go?
 
@@ -22746,19 +22746,19 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 36.4
 
-1. I’m older than you, aren’t I?
+1. I'm older than you, aren't I?
 
 2. Do you or does your brother help your mother to do the shopping?
 
 3. Do you agree with me?
 
-4. Yes, he does. / No, he doesn’t.
+4. Yes, he does. / No, he doesn't.
 
 5. What does this expression mean?
 
 6. How long does it take to get to Australia?
 
-7. Let’s wash the car together, shall we?
+7. Let's wash the car together, shall we?
 
 8. Does she still have a cold?
 
@@ -22786,9 +22786,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. Do you know how many classes Chris has (got) today?
 
-4. I don’t know who can help us.
+4. I don't know who can help us.
 
-5. I can’t remember whether Sam’s sister is younger or older than him.
+5. I can't remember whether Sam's sister is younger or older than him.
 
 <a id="key-36-6"></a>
 
@@ -22800,7 +22800,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Is the weather sunny or rainy today?
 
-3. Don’t say it again, will you?
+3. Don't say it again, will you?
 
 4. How many families live on this floor? — As far as I know, three do.
 
@@ -22808,9 +22808,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. What is your new assistant like? — He is very responsible and attentive.
 
-7. Don’t you know his name? — No, I see him for the first time.
+7. Don't you know his name? — No, I see him for the first time.
 
-8. Let’s visit him, shall we?
+8. Let's visit him, shall we?
 
 9. I wonder if he is doing well in his studies.
 
@@ -22826,17 +22826,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. What does the baby want? — He is thirsty.
 
-5. They haven’t got any children yet, have they? — No, they haven’t.
+5. They haven't got any children yet, have they? — No, they haven't.
 
-6. Do you think the underground station is far from here? — No, it’s quite near.
+6. Do you think the underground station is far from here? — No, it's quite near.
 
 7. Who would you like to dance with?
 
-8. What colour is your baby’s hair?
+8. What colour is your baby's hair?
 
 9. I wonder which of them is right.
 
-10. Now I’m too thin, aren’t I?
+10. Now I'm too thin, aren't I?
 
 11. What makes you laugh so much every time you see him?
 
@@ -22860,15 +22860,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. there are
 
-3. there weren’t
+3. there weren't
 
 4. will there be
 
-5. there won’t be
+5. there won't be
 
 6. was there
 
-7. there wasn’t
+7. there wasn't
 
 8. will there be
 
@@ -22890,17 +22890,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 37.2
 
-1. No, they aren’t.
+1. No, they aren't.
 
-2. No, there aren’t.
+2. No, there aren't.
 
 3. Yes, they were.
 
 4. Yes, there were.
 
-5. No, they weren’t.
+5. No, they weren't.
 
-6. No, there weren’t.
+6. No, there weren't.
 
 7. Yes, they are.
 
@@ -22924,13 +22924,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. Is there a car park anywhere here? — Yes, there is. It is behind that house.
 
-8. How many stamps will there be in your collection if you buy this one? — There won’t be many.
+8. How many stamps will there be in your collection if you buy this one? — There won't be many.
 
 9. The dictionary is on the shelf. Take it. — But there are two dictionaries on the shelf. Which one shall I take?
 
-10. Are there any Italian dishes on the menu? — Unfortunately, there aren’t.
+10. Are there any Italian dishes on the menu? — Unfortunately, there aren't.
 
-11. There isn’t much information about Brazil in this book.
+11. There isn't much information about Brazil in this book.
 
 12. Are there any interesting articles in this newspaper? — Yes, there is a very interesting article on page three.
 
@@ -22938,13 +22938,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 14. Why are there so many plates on the table? Are we having any guests to dinner?
 
-15. There wasn’t enough paint and I couldn’t finish my work.
+15. There wasn't enough paint and I couldn't finish my work.
 
 16. What is there in your room? — There is a bed, a wardrobe and some other furniture there.
 
-17. There isn’t enough cloth here to make a long dress.
+17. There isn't enough cloth here to make a long dress.
 
-18. There won’t be any further discussion. (There will be no further discussion).
+18. There won't be any further discussion. (There will be no further discussion).
 
 19. How much fuel is there in the tank? — There is enough fuel there.
 
@@ -23126,15 +23126,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 39.3
 
-1. Snow doesn’t melt in winter. It melts in spring.
+1. Snow doesn't melt in winter. It melts in spring.
 
-2. Dolphins don’t live in forests. They live in seas and oceans.
+2. Dolphins don't live in forests. They live in seas and oceans.
 
-3. The Sun doesn’t go round the Earth. The Earth goes round the Sun.
+3. The Sun doesn't go round the Earth. The Earth goes round the Sun.
 
-4. Spring doesn’t come after autumn. It comes after winter.
+4. Spring doesn't come after autumn. It comes after winter.
 
-5. The Japanese don’t live in the South. They live in the East.
+5. The Japanese don't live in the South. They live in the East.
 
 <a id="key-39-4"></a>
 
@@ -23168,15 +23168,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 40.1
 
-1. isn’t studying; is listening
+1. isn't studying; is listening
 
-2. aren’t working; are walking
+2. aren't working; are walking
 
-3. isn’t giving; is watching
+3. isn't giving; is watching
 
 4. am not driving; am lying
 
-5. isn’t writing; are having
+5. isn't writing; are having
 
 <a id="key-40-2"></a>
 
@@ -23186,9 +23186,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. I am practising English grammar.
 
-3. My teacher is (isn’t) listening to me.
+3. My teacher is (isn't) listening to me.
 
-4. Leaves are (aren’t) falling from trees.
+4. Leaves are (aren't) falling from trees.
 
 5. I am not watching TV.
 
@@ -23196,9 +23196,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. I am thinking hard.
 
-8. My classmates are doing this exercise too. / My classmates aren’t doing this exercise.
+8. My classmates are doing this exercise too. / My classmates aren't doing this exercise.
 
-9. It is (isn’t) raining heavily.
+9. It is (isn't) raining heavily.
 
 10. I am not having tea with my friends.
 
@@ -23214,13 +23214,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. are always coming
 
-5. is returning; isn’t
+5. is returning; isn't
 
-6. isn’t looking for
+6. isn't looking for
 
 7. are they working at; are making
 
-8. am moving; aren’t doing
+8. am moving; aren't doing
 
 9. is spending; is he staying?
 
@@ -23236,9 +23236,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. are you waiting; are going
 
-2. don’t understand; listen; say; aren’t listening
+2. don't understand; listen; say; aren't listening
 
-3. are you doing; am waiting; don’t you know; doesn’t work
+3. are you doing; am waiting; don't you know; doesn't work
 
 4. are looking; belongs; are just exhibiting
 
@@ -23248,7 +23248,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. is still thinking
 
-8. are smoking; don’t you know; smoke
+8. are smoking; don't you know; smoke
 
 9. are tasting; tastes
 
@@ -23260,7 +23260,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 13. are you putting; look; match
 
-14. are reading; don’t believe; see
+14. are reading; don't believe; see
 
 15. are having; are talking
 
@@ -23268,31 +23268,31 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 41.2
 
-1. What are you doing tonight? — Nothing special. Why? — Look, I’m going to a concert and I have a spare ticket. Would you like to come? — With pleasure!
+1. What are you doing tonight? — Nothing special. Why? — Look, I'm going to a concert and I have a spare ticket. Would you like to come? — With pleasure!
 
 2. You are always closing windows! How can you work in such a stuffy room? — But I feel cold!
 
-3. What are you cooking? It smells so delicious! — It’s a secret. I’m trying a new recipe.
+3. What are you cooking? It smells so delicious! — It's a secret. I'm trying a new recipe.
 
-4. What do you think this man needs? — I don’t (can’t) understand. He is making gestures but he isn’t saying a word.
+4. What do you think this man needs? — I don't (can't) understand. He is making gestures but he isn't saying a word.
 
-5. Why are you looking through the book? Are you looking for anything? — I’m not looking it through, I’m reading it. — Do you always read so fast (quickly)?
+5. Why are you looking through the book? Are you looking for anything? — I'm not looking it through, I'm reading it. — Do you always read so fast (quickly)?
 
-6. I usually work on Friday but this Friday is a holiday, that’s why I’m walking in the park.
+6. I usually work on Friday but this Friday is a holiday, that's why I'm walking in the park.
 
-7. You are wet all over! Is it still raining? — It is, and it’s getting colder and colder.
+7. You are wet all over! Is it still raining? — It is, and it's getting colder and colder.
 
-8. I’m seeing my editor tomorrow. — Are you working at a new book? — Yes, I am, and he wants me to sign a new contract.
+8. I'm seeing my editor tomorrow. — Are you working at a new book? — Yes, I am, and he wants me to sign a new contract.
 
 9. I wonder if it ever snows in Brazil.
 
 10. I love this song! But this is some new version. Who is singing?
 
-11. Do you believe me now? — No, I don’t. It still seems to me that you are lying to me.
+11. Do you believe me now? — No, I don't. It still seems to me that you are lying to me.
 
 12. Are you going to the theatre again? — What do you mean by “again”? I really go to the theatre quite often but why does it surprise you?
 
-13. Why are you having dinner so early? It’s only six o’clock!
+13. Why are you having dinner so early? It's only six o'clock!
 
 <a id="keys-unit-42"></a>
 
@@ -23302,7 +23302,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 42.1
 
-1. won’t refuse
+1. won't refuse
 
 2. will celebrate
 
@@ -23320,7 +23320,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. will agree; knows
 
-2. won’t recognize; wear
+2. won't recognize; wear
 
 3. will be; see
 
@@ -23332,7 +23332,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. will be
 
-8. won’t continue; calm down
+8. won't continue; calm down
 
 9. will return; finish
 
@@ -23352,9 +23352,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 42.3
 
-1. He won’t pass the exam unless you help him to prepare for it.
+1. He won't pass the exam unless you help him to prepare for it.
 
-2. As soon as the guests are here, we’ll tell them the news.
+2. As soon as the guests are here, we'll tell them the news.
 
 3. When will you know the results? — When the teacher checks our papers.
 
@@ -23362,31 +23362,31 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. Before the child goes to sleep, his Mum will bathe him.
 
-6. In case he isn’t at home, I’ll call on him later.
+6. In case he isn't at home, I'll call on him later.
 
 7. I have no idea when the next meeting will take place.
 
-8. After the film is over we’ll go for a walk.
+8. After the film is over we'll go for a walk.
 
-9. If the weather is good, we’ll go to the beach.
+9. If the weather is good, we'll go to the beach.
 
 10. I hope that while I am asleep (am sleeping) the temperature will fall down.
 
 11. Please, find out if they will go to the theatre with us.
 
-12. I won’t buy anything until I save a little money.
+12. I won't buy anything until I save a little money.
 
 13. He says that when he returns from his holiday he will give a party.
 
-14. I’ll let you know as soon as everything is ready.
+14. I'll let you know as soon as everything is ready.
 
-15. While it rains (is raining) I’ll read or watch TV.
+15. While it rains (is raining) I'll read or watch TV.
 
-16. I’ll wait until you return.
+16. I'll wait until you return.
 
-17. I’m not sure if he will write to me but if he writes, I’ll certainly answer.
+17. I'm not sure if he will write to me but if he writes, I'll certainly answer.
 
-18. It seems to me that if we go on holiday together we’ll have a good time.
+18. It seems to me that if we go on holiday together we'll have a good time.
 
 <a id="keys-unit-43"></a>
 
@@ -23428,17 +23428,17 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 43.2
 
-1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove anything to them.
+1. I'm afraid they won't believe us. — Let them do what they want. I'm not going to prove anything to them.
 
-2. I think I’ll buy this book as a present for my friend. I’m going to her birthday party tomorrow.
+2. I think I'll buy this book as a present for my friend. I'm going to her birthday party tomorrow.
 
-3. When does the film start? — At 5. — I won’t be able to go then. My classes finish only at 6.
+3. When does the film start? — At 5. — I won't be able to go then. My classes finish only at 6.
 
-4. They are leaving by the 8 o’clock train. Then they’ll be at the seaside already in the afternoon.
+4. They are leaving by the 8 o'clock train. Then they'll be at the seaside already in the afternoon.
 
 5. In summer days will become longer and nights will become shorter.
 
-6. Don’t forget your umbrella. It’s going to rain.
+6. Don't forget your umbrella. It's going to rain.
 
 7. Mary is bringing her new boy-friend to the party. — Really? Do you think he will like our company?
 
@@ -23458,21 +23458,21 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. I had classes till three yesterday.
 
-2. My mother went (didn’t go) shopping after work yesterday.
+2. My mother went (didn't go) shopping after work yesterday.
 
-3. My friend phoned (didn’t phone) me last night.
+3. My friend phoned (didn't phone) me last night.
 
-4. I got up (didn’t get up) early yesterday morning.
+4. I got up (didn't get up) early yesterday morning.
 
 5. It was my day off.
 
-6. I saw (didn’t see) a film at the cinema yesterday.
+6. I saw (didn't see) a film at the cinema yesterday.
 
-7. My mother made (didn’t make) a delicious dinner yesterday.
+7. My mother made (didn't make) a delicious dinner yesterday.
 
-8. My friend invited (didn’t invite) me to a party yesterday.
+8. My friend invited (didn't invite) me to a party yesterday.
 
-9. There was an interesting show on TV yesterday. / There wasn’t any interesting show on TV yesterday.
+9. There was an interesting show on TV yesterday. / There wasn't any interesting show on TV yesterday.
 
 10. My parents planned their holiday yesterday.
 
@@ -23492,9 +23492,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. What was the weather like on Sunday?
 
-7. How long did it take you to read that article in yesterday’s newspaper?
+7. How long did it take you to read that article in yesterday's newspaper?
 
-8. What was there in the criminal’s bag?
+8. What was there in the criminal's bag?
 
 9. Did you speak to Mr. Nickson on Tuesday?
 
@@ -23510,13 +23510,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. How many rooms were there in your old flat?
 
-4. It was my friend’s birthday the other day and she gave a wonderful party.
+4. It was my friend's birthday the other day and she gave a wonderful party.
 
-5. Why didn’t you tell me the truth at once?
+5. Why didn't you tell me the truth at once?
 
-6. I didn’t see him yesterday. — He wasn’t at work the day before yesterday either.
+6. I didn't see him yesterday. — He wasn't at work the day before yesterday either.
 
-7. Nick, you were absent last time. Were you ill? — Yes, I didn’t feel well. (Yes, I felt bad.)
+7. Nick, you were absent last time. Were you ill? — Yes, I didn't feel well. (Yes, I felt bad.)
 
 8. I used to read this book in English. I remember it was quite interesting.
 
@@ -23532,25 +23532,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. This is the most difficult exam I’ve ever taken.
+1. This is the most difficult exam I've ever taken.
 
-2. This is the most wonderful present I’ve ever got.
+2. This is the most wonderful present I've ever got.
 
-3. This is the funniest joke I’ve ever heard.
+3. This is the funniest joke I've ever heard.
 
-4. This is the most hard-working person I’ve ever met.
+4. This is the most hard-working person I've ever met.
 
-5. This is the best friend I’ve ever had.
+5. This is the best friend I've ever had.
 
 ##### 2
 
-1. — Have you ever tried speaking Chinese? — No, I’ve never tried speaking Chinese.
+1. — Have you ever tried speaking Chinese? — No, I've never tried speaking Chinese.
 
-2. — Have you ever driven a car? — Yes, I’ve driven a car several times.
+2. — Have you ever driven a car? — Yes, I've driven a car several times.
 
 3. — Have you ever broken your arm? — Yes, I have once broken my arm.
 
-4. — Have you ever got letters from abroad? — No, I’ve never got letters from abroad.
+4. — Have you ever got letters from abroad? — No, I've never got letters from abroad.
 
 5. — Have you ever learnt poems by heart? — Yes, I have learnt poems by heart many times.
 
@@ -23558,23 +23558,23 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. — Have you ever been to the Historic Museum? — Yes, I have been to the Historic Museum once.
 
-2. — Have you ever been to Australia? — No, I’ve never been to Australia.
+2. — Have you ever been to Australia? — No, I've never been to Australia.
 
-3. — Have you ever been to the Zoo? — Yes, I’ve been to the Zoo three times.
+3. — Have you ever been to the Zoo? — Yes, I've been to the Zoo three times.
 
-4. — Have you ever been to a birthday party? — Yes, I’ve been to birthday parties many times.
+4. — Have you ever been to a birthday party? — Yes, I've been to birthday parties many times.
 
-5. — Have you ever been to the Bolshoy Theatre? — No, I’ve never been to the Bolshoy Theatre.
+5. — Have you ever been to the Bolshoy Theatre? — No, I've never been to the Bolshoy Theatre.
 
 ##### 4
 
-1. It’s the second time I’ve consulted this doctor.
+1. It's the second time I've consulted this doctor.
 
-2. It’s not the first time you’ve made this mistake.
+2. It's not the first time you've made this mistake.
 
 3. Is it the first time she has lied to you?
 
-4. It’s the third time the child has fallen ill this year.
+4. It's the third time the child has fallen ill this year.
 
 5. Is it the first time they have helped you?
 
@@ -23582,29 +23582,29 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 45.2
 
-1. No, I haven’t learnt all of them yet.
+1. No, I haven't learnt all of them yet.
 
-2. Yes, I’ve already done lots of them.
+2. Yes, I've already done lots of them.
 
-3. Yes, I’ve already answered them.
+3. Yes, I've already answered them.
 
-4. No, I haven’t learnt everything so far.
+4. No, I haven't learnt everything so far.
 
-5. Yes, I’ve just finished it.
+5. Yes, I've just finished it.
 
 <a id="key-45-3"></a>
 
 #### 45.3
 
-1. My mother has done the shopping today. / My mother hasn’t done any shopping today.
+1. My mother has done the shopping today. / My mother hasn't done any shopping today.
 
-2. I’ve read an exciting book this summer. / I haven’t read any exciting book this summer.
+2. I've read an exciting book this summer. / I haven't read any exciting book this summer.
 
 3. My friend has caught cold this month.
 
-4. I’ve visited my grandparents this week.
+4. I've visited my grandparents this week.
 
-5. I’ve made some progress in English this year. / I haven’t made any progress in English this year.
+5. I've made some progress in English this year. / I haven't made any progress in English this year.
 
 <a id="key-45-4"></a>
 
@@ -23616,7 +23616,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. have argued
 
-3. have heard; haven’t read
+3. have heard; haven't read
 
 4. have already finished
 
@@ -23624,9 +23624,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. have ever had
 
-7. have been; haven’t even watched
+7. have been; haven't even watched
 
-8. hasn’t woken up
+8. hasn't woken up
 
 9. have never seen
 
@@ -23636,7 +23636,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. have spoken
 
-2. haven’t eaten
+2. haven't eaten
 
 3. Have you been; have been
 
@@ -23644,13 +23644,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. has left
 
-6. haven’t you got
+6. haven't you got
 
 7. have bought
 
 8. have already told
 
-9. haven’t cleared up
+9. haven't cleared up
 
 10. have you had
 
@@ -23684,19 +23684,19 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Have you done your homework yet?
 
-3. This is the fourth time you’ve asked me the same question.
+3. This is the fourth time you've asked me the same question.
 
-4. I’ve just taken this book from the library.
+4. I've just taken this book from the library.
 
-5. I’ve met him only once.
+5. I've met him only once.
 
 6. He has never got a bad mark.
 
 7. Has Mary written the letter yet?
 
-8. I’m very tired today.
+8. I'm very tired today.
 
-9. I’ve had a hard day today.
+9. I've had a hard day today.
 
 10. How many times have you seen this film?
 
@@ -23706,21 +23706,21 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. I’ve never been to this shop before.
+1. I've never been to this shop before.
 
-2. This is the most beautiful melody I’ve ever heard.
+2. This is the most beautiful melody I've ever heard.
 
-3. Have you had breakfast yet? — No, I’m just going to do it. I’ve just got up.
+3. Have you had breakfast yet? — No, I'm just going to do it. I've just got up.
 
-4. Why haven’t they repaired the car yet?
+4. Why haven't they repaired the car yet?
 
-5. I’ve called him twice, but he is out (he isn’t at home).
+5. I've called him twice, but he is out (he isn't at home).
 
 6. Have you read papers today? — No, not yet.
 
-7. They’ve already moved but I haven’t visited them yet.
+7. They've already moved but I haven't visited them yet.
 
-8. Here is your shirt. I’ve washed it.
+8. Here is your shirt. I've washed it.
 
 9. This is the fifth pair of shoes she has bought this month. — Why does she need so many?
 
@@ -23728,25 +23728,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 2
 
-1. Have you ever hitchhiked? — No, I haven’t. Have you?
+1. Have you ever hitchhiked? — No, I haven't. Have you?
 
-2. Is it the first time you’ve planted these flowers?
+2. Is it the first time you've planted these flowers?
 
-3. I haven’t had any rest this summer.
+3. I haven't had any rest this summer.
 
-4. You’ve come at last! Where have you been?
+4. You've come at last! Where have you been?
 
-5. This is the hardest work I’ve ever had to do.
+5. This is the hardest work I've ever had to do.
 
-6. What has happened? (What’s the matter?) You are so pale!
+6. What has happened? (What's the matter?) You are so pale!
 
-7. It’s not the first time the cat has torn my curtains! — Have you tried punishing it?
+7. It's not the first time the cat has torn my curtains! — Have you tried punishing it?
 
-8. Why haven’t you ever (Why have you never) told me about it?
+8. Why haven't you ever (Why have you never) told me about it?
 
-9. Have you ever been to the north of the country? — Yes, I’ve been on excursions there several times.
+9. Have you ever been to the north of the country? — Yes, I've been on excursions there several times.
 
-10. It’s very late and the children haven’t come back (returned) so far. I’m very worried.
+10. It's very late and the children haven't come back (returned) so far. I'm very worried.
 
 <a id="keys-unit-46"></a>
 
@@ -23764,7 +23764,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. My Granny has been ill lately.
 
-5. I have learnt useful things recently. / I haven’t learnt any useful things recently.
+5. I have learnt useful things recently. / I haven't learnt any useful things recently.
 
 <a id="key-46-2"></a>
 
@@ -23794,47 +23794,47 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 46.3
 
-1. I haven’t been to the cinema for several months.
+1. I haven't been to the cinema for several months.
 
-2. I haven’t travelled by plane since last summer.
+2. I haven't travelled by plane since last summer.
 
-3. I haven’t seen my classmates since I left school.
+3. I haven't seen my classmates since I left school.
 
-4. I haven’t written letters for many years.
+4. I haven't written letters for many years.
 
-5. I haven’t spoken to Mary since we quarrelled.
+5. I haven't spoken to Mary since we quarrelled.
 
-6. I haven’t given parties for a month.
+6. I haven't given parties for a month.
 
-7. I haven’t heard from Tom for the last few days.
+7. I haven't heard from Tom for the last few days.
 
-8. I haven’t gone for a walk since last weekend.
+8. I haven't gone for a walk since last weekend.
 
-9. I haven’t bought flowers for ages.
+9. I haven't bought flowers for ages.
 
-10. I haven’t phoned my friend since Monday.
+10. I haven't phoned my friend since Monday.
 
 <a id="key-46-4"></a>
 
 #### 46.4
 
-1. She hasn’t taken her temperature since morning.
+1. She hasn't taken her temperature since morning.
 
-2. I haven’t ridden a bicycle for about ten years.
+2. I haven't ridden a bicycle for about ten years.
 
-3. Pete hasn’t visited us since May.
+3. Pete hasn't visited us since May.
 
 4. She has been in London since Saturday.
 
 5. Rachel and Simon have been married for five years.
 
-6. I haven’t consulted the doctor for three weeks.
+6. I haven't consulted the doctor for three weeks.
 
-7. We haven’t got letters from Tom since autumn.
+7. We haven't got letters from Tom since autumn.
 
-8. We haven’t been to the seaside for two years.
+8. We haven't been to the seaside for two years.
 
-9. We haven’t had English classes since our teacher fell ill.
+9. We haven't had English classes since our teacher fell ill.
 
 10. He has been in prison since 1980.
 
@@ -23884,9 +23884,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. The children have changed a lot lately.
 
-5. Mr. Brown hasn’t been at work since last week.
+5. Mr. Brown hasn't been at work since last week.
 
-6. Mr. Brown hasn’t been at work for the last week.
+6. Mr. Brown hasn't been at work for the last week.
 
 7. How long have you owned this flat?
 
@@ -23894,7 +23894,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. Alice has been our secretary for the last several years.
 
-10. They’ve been in Paris since Tuesday.
+10. They've been in Paris since Tuesday.
 
 <a id="key-46-7"></a>
 
@@ -23902,31 +23902,31 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. I’ve known Richard for a long time. We’ve been neighbours for five years already.
+1. I've known Richard for a long time. We've been neighbours for five years already.
 
-2. I haven’t seen you for ages! How are you?
+2. I haven't seen you for ages! How are you?
 
-3. We haven’t met since 1986. I’m afraid I won’t recognize her.
+3. We haven't met since 1986. I'm afraid I won't recognize her.
 
 4. What countries have you visited lately?
 
-5. Mrs. Dent is badly ill. She’s been in hospital for two weeks already.
+5. Mrs. Dent is badly ill. She's been in hospital for two weeks already.
 
-6. I’ve been very busy in the last few days but now I can have a rest.
+6. I've been very busy in the last few days but now I can have a rest.
 
-7. I haven’t gone to the country since I started working here.
+7. I haven't gone to the country since I started working here.
 
 8. How long have you been friends with Helen? — Oh, since our childhood.
 
-9. We’ve been in London for several days already. We’ve already seen lots of things!
+9. We've been in London for several days already. We've already seen lots of things!
 
-10. He left in winter and I haven’t seen him since.
+10. He left in winter and I haven't seen him since.
 
 ##### 2
 
 1. He has behaved in a very strange way lately. I wonder what has happened.
 
-2. How long have you had this picture? I haven’t seen it before.
+2. How long have you had this picture? I haven't seen it before.
 
 3. Mum has been very nervous since she learnt the news.
 
@@ -23936,13 +23936,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. Since when have you lived here?
 
-7. I haven’t asked her for help since we quarrelled.
+7. I haven't asked her for help since we quarrelled.
 
-8. On Monday the weather got worse and my Grandpa hasn’t been out ever since.
+8. On Monday the weather got worse and my Grandpa hasn't been out ever since.
 
 9. How many times has he written to you since he left?
 
-10. Frank keeps fit. He hasn’t fallen ill for many years.
+10. Frank keeps fit. He hasn't fallen ill for many years.
 
 <a id="keys-unit-47"></a>
 
@@ -23958,13 +23958,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. The children have been playing here for the last two hours.
 
-4. Yes, I’ve been dieting lately.
+4. Yes, I've been dieting lately.
 
-5. I’ve been doing the housework since morning.
+5. I've been doing the housework since morning.
 
-6. Not yet, but I’ve been thinking about the problem since you told me about it.
+6. Not yet, but I've been thinking about the problem since you told me about it.
 
-7. Oh, I’m not sure. I’ve been listening to it for half an hour.
+7. Oh, I'm not sure. I've been listening to it for half an hour.
 
 <a id="key-47-2"></a>
 
@@ -23996,9 +23996,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. How long have you been learning this poem?
 
-5. The child has been crying since his mother left for work. I don’t know what to do.
+5. The child has been crying since his mother left for work. I don't know what to do.
 
-6. This flower (plant) hasn’t grown since the weather changed.
+6. This flower (plant) hasn't grown since the weather changed.
 
 7. What have you been doing lately?
 
@@ -24010,13 +24010,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. Since when have you been working here?
 
-12. I haven’t used this dictionary lately.
+12. I haven't used this dictionary lately.
 
-13. Who has been using my dictionary? Why isn’t it in its place?
+13. Who has been using my dictionary? Why isn't it in its place?
 
 14. Why have you been making this salad so long? — There are very many ingredients in it.
 
-15. My sister has been lying in the sun too long, that’s why her skin looks so red.
+15. My sister has been lying in the sun too long, that's why her skin looks so red.
 
 <a id="keys-unit-48"></a>
 
@@ -24054,21 +24054,21 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 48.2
 
-1. This elderly lady has been choosing a present so long! — Hasn’t she chosen anything yet?
+1. This elderly lady has been choosing a present so long! — Hasn't she chosen anything yet?
 
-2. I’ve been waiting for Frank’s call since 3 o’clock but he hasn’t called so far.
+2. I've been waiting for Frank's call since 3 o'clock but he hasn't called so far.
 
-3. — I’m very pleased with our new baby-sitter. — How long has she been working for you?
+3. — I'm very pleased with our new baby-sitter. — How long has she been working for you?
 
-4. I’ve known my neighbours for ages. They are nice people.
+4. I've known my neighbours for ages. They are nice people.
 
 5. Alice has been very absent-minded lately. Do you know what has happened to her?
 
-6. We haven’t spoken to each other since we quarrelled.
+6. We haven't spoken to each other since we quarrelled.
 
-7. Nick has been saving (money) for a new player since he saw the advertisement, but he hasn’t saved enough so far.
+7. Nick has been saving (money) for a new player since he saw the advertisement, but he hasn't saved enough so far.
 
-8. I’ve wanted to buy a new computer for a very long time.
+8. I've wanted to buy a new computer for a very long time.
 
 9. Have you taken part in any competitions lately?
 
@@ -24078,7 +24078,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 12. How many classes have you missed this month?
 
-13. We’ve raised this question many times but we haven’t discussed it lately.
+13. We've raised this question many times but we haven't discussed it lately.
 
 14. She has been buying lots of new things since she got married. Her husband is rich.
 
@@ -24094,9 +24094,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. hasn’t spoken; returned
+1. hasn't spoken; returned
 
-2. didn’t speak; returned
+2. didn't speak; returned
 
 3. has been cooking
 
@@ -24162,7 +24162,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. have you been; Have you been eavesdropping?
 
-9. haven’t met
+9. haven't met
 
 10. did you spend
 
@@ -24172,15 +24172,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. ... and he didn’t tell me anything about it.
+1. ... and he didn't tell me anything about it.
 
 2. I found this coin in our garden.
 
-3. It’s the first time I’ve seen him.
+3. It's the first time I've seen him.
 
 4. RIGHT
 
-5. I haven’t been married so far.
+5. I haven't been married so far.
 
 6. Did you hear the bell ringing?
 
@@ -24196,7 +24196,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. I already heard this legend when I was on an excursion in Italy.
 
-2. I’ve already been to this theatre.
+2. I've already been to this theatre.
 
 3. Have you had lunch yet?
 
@@ -24204,7 +24204,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. He has been very friendly since we helped him.
 
-6. It’s a week since she made a new dress.
+6. It's a week since she made a new dress.
 
 7. He left by the first train this morning.
 
@@ -24216,13 +24216,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 3
 
-1. I’ve done (I’ve been doing) nothing for the last two days.
+1. I've done (I've been doing) nothing for the last two days.
 
 2. He won ten gold medals.
 
 3. RIGHT
 
-4. I’ve heard this joke several times.
+4. I've heard this joke several times.
 
 5. He has been concealing the truth from us all this time!
 
@@ -24232,7 +24232,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. Why did you say it?
 
-9. I haven’t seen Tom for two years.
+9. I haven't seen Tom for two years.
 
 10. Everybody enjoyed it.
 
@@ -24242,7 +24242,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. I’ve consulted another doctor today. — And what did he advise you?
+1. I've consulted another doctor today. — And what did he advise you?
 
 2. I already was on this excursion two years ago.
 
@@ -24254,9 +24254,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. There has been no other news about this accident in the last few days.
 
-7. We’ve been friends for a long time. — When did you meet? (When did you get acquainted?)
+7. We've been friends for a long time. — When did you meet? (When did you get acquainted?)
 
-8. Have you ever been abroad? — Yes, I’ve been there many times. Last year my husband and I went to Italy.
+8. Have you ever been abroad? — Yes, I've been there many times. Last year my husband and I went to Italy.
 
 9. Do you know how many battles Napoleon won?
 
@@ -24268,21 +24268,21 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. How many guests have you invited? — Fifteen. But perhaps not everybody will be able to come.
 
-3. Since my parents left I’ve been missing them badly.
+3. Since my parents left I've been missing them badly.
 
 4. Have you ever heard about this singer? — Yes, I have. She is very famous. I have once heard her concert on the radio. — What did she sing?
 
-5. This is the third bad mark that you’ve got in English. What’s the matter? What did you get it for?
+5. This is the third bad mark that you've got in English. What's the matter? What did you get it for?
 
 6. How long did you sleep today? — About six hours.
 
-7. It’s twelve years since she graduated from the University.
+7. It's twelve years since she graduated from the University.
 
-8. It’s the most incredible story that has happened to me.
+8. It's the most incredible story that has happened to me.
 
 9. They have been arguing for a long time.
 
-10. They quarrelled long ago. — Haven’t they made it up yet?
+10. They quarrelled long ago. — Haven't they made it up yet?
 
 ##### 3
 
@@ -24298,13 +24298,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. Was it the Canadians who invented hockey? (Did the Canadians invent hockey?)
 
-7. I’ve tried to see this film twice, but each time I fell asleep in the first half an hour. I can’t understand why it got the first prize at the contest.
+7. I've tried to see this film twice, but each time I fell asleep in the first half an hour. I can't understand why it got the first prize at the contest.
 
 8. Did you come long ago? How long have you been waiting for me?
 
-9. Pete hasn’t called me since we met at Kate’s birthday party. — But he has been in hospital for more than a month! — Why? What has happened?
+9. Pete hasn't called me since we met at Kate's birthday party. — But he has been in hospital for more than a month! — Why? What has happened?
 
-10. I’ve been here for fifteen minutes already. You haven’t been late before! — I’m sorry but it’s not my fault. I got stuck in a traffic jam.
+10. I've been here for fifteen minutes already. You haven't been late before! — I'm sorry but it's not my fault. I got stuck in a traffic jam.
 
 <a id="keys-unit-50"></a>
 
@@ -24318,9 +24318,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. At 8 yesterday my Mother was making breakfast.
 
-3. At 1 o’clock yesterday my friends were having classes at school (at the Institute).
+3. At 1 o'clock yesterday my friends were having classes at school (at the Institute).
 
-4. At 9 o’clock last night my Dad was watching the news program on TV.
+4. At 9 o'clock last night my Dad was watching the news program on TV.
 
 5. From 3 till 5 on Sunday I was preparing my homework.
 
@@ -24356,7 +24356,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 12. was she wearing
 
-13. Weren’t you waiting
+13. Weren't you waiting
 
 14. was playing
 
@@ -24368,9 +24368,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. Mr. Dowly was coming two days later. The whole family were carefully preparing for his arrival.
 
-2. I woke up at 8 o’clock. Mum was having breakfast at that time and Dad was leaving for work.
+2. I woke up at 8 o'clock. Mum was having breakfast at that time and Dad was leaving for work.
 
-3. Where were you at 4 o’clock? — I was walking my dog.
+3. Where were you at 4 o'clock? — I was walking my dog.
 
 4. It was impossible to talk with him. He was constantly repeating the same thing in different words!
 
@@ -24390,11 +24390,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. saw; was enjoying; sat smiling
 
-3. didn’t you open; didn’t hear
+3. didn't you open; didn't hear
 
 4. broke; was doing
 
-5. was having; didn’t get; did you want; was calling; was coming
+5. was having; didn't get; did you want; was calling; was coming
 
 6. found; was looking
 
@@ -24408,11 +24408,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. knew; was happening
 
-12. didn’t mean; was just speaking
+12. didn't mean; was just speaking
 
 13. arrived; was; was playing; were dancing; noticed
 
-14. asked; didn’t answer; was tasting
+14. asked; didn't answer; was tasting
 
 15. did you do; found; called
 
@@ -24420,7 +24420,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 51.2
 
-1. Didn’t anybody notice anything? — No, everybody was watching TV and heard nothing suspicious (didn’t hear anything suspicious).
+1. Didn't anybody notice anything? — No, everybody was watching TV and heard nothing suspicious (didn't hear anything suspicious).
 
 2. When the alarm-clock rang he turned it off and got up.
 
@@ -24428,9 +24428,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. I was thinking over our plan when I had a wonderful idea.
 
-5. When we were listening to the news we didn’t know yet what it meant.
+5. When we were listening to the news we didn't know yet what it meant.
 
-6. I didn’t understand a word. They were talking (speaking) very quickly.
+6. I didn't understand a word. They were talking (speaking) very quickly.
 
 7. While he was speaking everybody was listening to him attentively.
 
@@ -24444,13 +24444,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 12. It was getting cold and we returned to town.
 
-13. It doesn’t matter what exactly I was doing at 5 o’clock. — But still? — I was having a date.
+13. It doesn't matter what exactly I was doing at 5 o'clock. — But still? — I was having a date.
 
 14. She cried / was crying all night. — And what were you doing at that time? — I sat thinking how to help her.
 
 15. I was so tired that I slept for 10 hours!
 
-16. I saw him at the railway station last. He was looking for something in his bag and was obviously very nervous as he couldn’t find what he needed at that moment. — Do you remember what he was wearing?
+16. I saw him at the railway station last. He was looking for something in his bag and was obviously very nervous as he couldn't find what he needed at that moment. — Do you remember what he was wearing?
 
 17. On Saturday the Browns were moving to a new flat and we called to say Good-bye to them.
 
@@ -24472,7 +24472,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. The train had already left when I arrived.
 
-5. We hadn’t seen each other since 1990.
+5. We hadn't seen each other since 1990.
 
 <a id="key-52-2"></a>
 
@@ -24482,7 +24482,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. had brought
 
-3. hadn’t announced
+3. hadn't announced
 
 4. had tried
 
@@ -24504,7 +24504,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 13. had ever got
 
-14. hadn’t spoken
+14. hadn't spoken
 
 15. had achieved
 
@@ -24522,11 +24522,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. By the time she was 28 she had made a wonderful career.
 
-3. When Mike’s parents returned his friends had already left.
+3. When Mike's parents returned his friends had already left.
 
 4. Everything was very interesting for the child. He had never been to the Zoo before.
 
-5. I didn’t expect him to come in time. He had been late twice already.
+5. I didn't expect him to come in time. He had been late twice already.
 
 6. It was just the present I had wanted to get for a long time.
 
@@ -24534,7 +24534,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. He arrived at the station, bought a ticket and called his wife as he had promised.
 
-9. They didn’t know what to tell each other. They hadn’t met since they divorced.
+9. They didn't know what to tell each other. They hadn't met since they divorced.
 
 10. Everything was new for Alice. It was the first time she had been out of town.
 
@@ -24548,9 +24548,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. didn’t learn; got
+1. didn't learn; got
 
-2. got; hadn’t learnt
+2. got; hadn't learnt
 
 3. had known; got
 
@@ -24580,9 +24580,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. left; had got; saw
 
-6. made; needed; looked; hadn’t forgotten / had made; needed; was looking; hadn’t forgotten
+6. made; needed; looked; hadn't forgotten / had made; needed; was looking; hadn't forgotten
 
-7. forgot; was making; didn’t buy; needed
+7. forgot; was making; didn't buy; needed
 
 8. spoke; apologized
 
@@ -24610,7 +24610,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 9. moved; lived
 
-10. hurt; was getting; didn’t break
+10. hurt; was getting; didn't break
 
 ##### 4
 
@@ -24630,9 +24630,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. was; had drunk; came
 
-9. needed; called; called; answered; were you; was sleeping; didn’t wake; had taken
+9. needed; called; called; answered; were you; was sleeping; didn't wake; had taken
 
-10. had spent; was suffering; wanted; went; walked; didn’t help; was; had she started; rang; got
+10. had spent; was suffering; wanted; went; walked; didn't help; was; had she started; rang; got
 
 <a id="key-53-2"></a>
 
@@ -24672,7 +24672,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. We already wanted to call the police when Mr. Thompson brought our children home.
 
-6. She forgot her friend’s address and couldn’t find the house.
+6. She forgot her friend's address and couldn't find the house.
 
 7. RIGHT
 
@@ -24732,21 +24732,21 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. The children were very excited. Everybody had read the book and was discussing it.
 
-5. He felt that somebody was following him but he didn’t turn around.
+5. He felt that somebody was following him but he didn't turn around.
 
 6. We watched the film for about half an hour. — And then? — Then we turned off the TV set because the film was boring.
 
-7. By 5 o’clock she had prepared everything and (had) laid the table.
+7. By 5 o'clock she had prepared everything and (had) laid the table.
 
 8. Everything was ready and she was waiting for the guests.
 
 9. It stopped raining and we went for a walk.
 
-10. It hadn’t stopped raining when we went for a walk.
+10. It hadn't stopped raining when we went for a walk.
 
 ##### 3
 
-1. She was having a real rest. She hadn’t even read a newspaper since her holidays started.
+1. She was having a real rest. She hadn't even read a newspaper since her holidays started.
 
 2. He was very happy as he had won first prize in the competition.
 
@@ -24762,7 +24762,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. We were already leaving when he caught up with us and asked us to stay.
 
-9. Was she still working in the garden at that time? — I don’t know. I didn’t see her.
+9. Was she still working in the garden at that time? — I don't know. I didn't see her.
 
 10. I had warned Dick many times before I finally punished him.
 
@@ -24792,7 +24792,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. had the Smallwoods been looking
 
-3. hadn’t decided; had been discussing
+3. hadn't decided; had been discussing
 
 4. had been working
 
@@ -24802,7 +24802,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. had been following
 
-8. hadn’t eaten
+8. hadn't eaten
 
 9. had been hiding
 
@@ -24812,7 +24812,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 54.3
 
-1. When Kate came we’d been discussing the news for half an hour already.
+1. When Kate came we'd been discussing the news for half an hour already.
 
 2. Was the car waiting for you when the train arrived? — Oh yes, but the driver was very nervous because the train was late and he had been waiting for me for a long time.
 
@@ -24920,7 +24920,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-have been studying; don’t know; say; are; know; puzzle; are; don’t know; was thinking; read; had died; was; was; knew; interested; gave
+have been studying; don't know; say; are; know; puzzle; are; don't know; was thinking; read; had died; was; was; knew; interested; gave
 
 ##### 2
 
@@ -24928,11 +24928,11 @@ was waiting; put; knelt; began; were burning; have you been; gave; gave; gave; h
 
 ##### 3
 
-had finished; arrived; met; was; hadn’t seen; kissed; took; are; smiled; have been; have lost
+had finished; arrived; met; was; hadn't seen; kissed; took; are; smiled; have been; have lost
 
 ##### 4
 
-have you left; want; looked; didn’t understand; looked; are; made; Have you ever painted?; wanted; was; made; said; began; have been going; went; were playing; didn’t you tell; preferred; have come; will do; starts; begin; was
+have you left; want; looked; didn't understand; looked; are; made; Have you ever painted?; wanted; was; made; said; began; have been going; went; were playing; didn't you tell; preferred; have come; will do; starts; begin; was
 
 ##### 5
 
@@ -24948,7 +24948,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 2. Have you seen him here before? — Yes, I have. — When was he here last?
 
-3. By the time she was to return the book to the library she hadn’t finished it yet. — And what did she do?
+3. By the time she was to return the book to the library she hadn't finished it yet. — And what did she do?
 
 4. She watched TV looking through a magazine.
 
@@ -24956,7 +24956,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 6. It was the first time she had listened to that opera. — Where did she get the tickets?
 
-7. She had been using that medicine for a month but she didn’t feel better.
+7. She had been using that medicine for a month but she didn't feel better.
 
 8. Hardly had they got married when they divorced.
 
@@ -24976,15 +24976,15 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 5. She got a terrible headache while she was listening to the lecture.
 
-6. How long has it been raining? — Since about 12 o’clock.
+6. How long has it been raining? — Since about 12 o'clock.
 
-7. Tom thinks that even if he brings all of us home, his Mum won’t get angry.
+7. Tom thinks that even if he brings all of us home, his Mum won't get angry.
 
-8. Does the program begin at 7 o’clock in the evening?
+8. Does the program begin at 7 o'clock in the evening?
 
 9. By the time he was 30 he already had two professions and had changed several jobs.
 
-10. I haven’t gone out since I broke my leg.
+10. I haven't gone out since I broke my leg.
 
 ##### 3
 
@@ -25000,11 +25000,11 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 6. You are always speaking at the top of your voice!
 
-7. She looked at her watch. It was already late and her son hadn’t come back yet.
+7. She looked at her watch. It was already late and her son hadn't come back yet.
 
-8. I haven’t been very busy lately and that’s why I’ve been reading a lot.
+8. I haven't been very busy lately and that's why I've been reading a lot.
 
-9. Until I repair the car we won’t go anywhere.
+9. Until I repair the car we won't go anywhere.
 
 10. She had a rest for a fortnight and returned to work.
 
@@ -25012,17 +25012,17 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 1. The children had done their homework and were playing. They had been playing for about two hours.
 
-2. By the end of the week the police had stopped the investigation though they hadn’t found the criminal.
+2. By the end of the week the police had stopped the investigation though they hadn't found the criminal.
 
 3. She combed her hair and looked in the mirror.
 
-4. We’ve been looking for our kitten ever since it got lost.
+4. We've been looking for our kitten ever since it got lost.
 
 5. Call me in case you have problems.
 
 6. When I was approaching the stop, the passengers were already getting on the bus.
 
-7. I have no idea what my wife was doing at that time. She was out. (She wasn’t at home.)
+7. I have no idea what my wife was doing at that time. She was out. (She wasn't at home.)
 
 8. Kate planted a flower and put it on the window sill. The next day it died as she had forgotten to water it.
 
@@ -25044,13 +25044,13 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 6. How did the children behave?
 
-7. I’ve been thinking over their offer for several days but I haven’t made up my mind to accept it yet.
+7. I've been thinking over their offer for several days but I haven't made up my mind to accept it yet.
 
-8. You are making this bad mistake again! Why haven’t you learnt the rule so far?
+8. You are making this bad mistake again! Why haven't you learnt the rule so far?
 
 9. I was going to tell them about my new job but they already knew everything and were just discussing it when I came. — Who had told them?
 
-10. This is the most difficult decision I’ve ever made.
+10. This is the most difficult decision I've ever made.
 
 <a id="keys-unit-56"></a>
 
@@ -25062,15 +25062,15 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 ##### 1
 
-1. My brother says that I’m always spending hours in the bathroom.
+1. My brother says that I'm always spending hours in the bathroom.
 
-2. Brian says that he has never been to England but he’d like to go there.
+2. Brian says that he has never been to England but he'd like to go there.
 
 3. Rachel tells Tim that he must help her with the shopping today.
 
-4. The teacher tells the student that he (she) wasn’t attentive enough.
+4. The teacher tells the student that he (she) wasn't attentive enough.
 
-5. My friends say that they were waiting for me at the cinema at 5 o’clock.
+5. My friends say that they were waiting for me at the cinema at 5 o'clock.
 
 ##### 2
 
@@ -25086,11 +25086,11 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 ##### 3
 
-1. Nick’s parents wonder how he met Helen.
+1. Nick's parents wonder how he met Helen.
 
 2. The teacher asks which of the pupils can translate this sentence. (The teacher asks the pupils which of them can translate this sentence.)
 
-3. I ask Ned what Alice’s elder brother looks like.
+3. I ask Ned what Alice's elder brother looks like.
 
 4. Mum asks me where I have been all this time.
 
@@ -25116,7 +25116,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 1. My doctor advises me not to take this medicine.
 
-2. David says that he has seen this film but he didn’t like it.
+2. David says that he has seen this film but he didn't like it.
 
 3. They wonder what else Mr. Brown said.
 
@@ -25146,7 +25146,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 5. This woman wonders where you used to live.
 
-6. Our neighbours say that if we don’t come to their party they will be hurt.
+6. Our neighbours say that if we don't come to their party they will be hurt.
 
 7. My brother asks me not to be angry with him.
 
@@ -25194,7 +25194,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 2. She said that her Mum had never travelled by plane.
 
-3. Jane complained that she hadn’t seen Patsy for ages.
+3. Jane complained that she hadn't seen Patsy for ages.
 
 4. My coach admitted that I had been working really hard lately.
 
@@ -25208,7 +25208,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 3. John asked if I had enjoyed my holiday the previous year.
 
-4. Jane asked where I had been the day before and added that she hadn’t been able to find me.
+4. Jane asked where I had been the day before and added that she hadn't been able to find me.
 
 5. The book said that Einstein invented the theory of relativity.
 
@@ -25216,7 +25216,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 1. The boy asked what I (we) had been laughing at when he entered.
 
-2. The woman said that she hadn’t heard anything because the music had been playing quite loudly.
+2. The woman said that she hadn't heard anything because the music had been playing quite loudly.
 
 3. Mrs. Gray said that her daughter had been still sleeping at that time.
 
@@ -25230,17 +25230,17 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 2. She said that if anything happened to her I would have to look after her children.
 
-3. The lawyer said that he wouldn’t help me until I told him all the truth.
+3. The lawyer said that he wouldn't help me until I told him all the truth.
 
-4. She complained that they wouldn’t have that subject the following year.
+4. She complained that they wouldn't have that subject the following year.
 
 5. My Mum wondered if I would stay there long.
 
 ##### 7
 
-1. The woman insisted that I wouldn’t make the child obey if I shouted at him.
+1. The woman insisted that I wouldn't make the child obey if I shouted at him.
 
-2. Mary said that she was so sleepy that she couldn’t think clearly then.
+2. Mary said that she was so sleepy that she couldn't think clearly then.
 
 3. The police inspector asked me how many times I had got letters from Lady Fox.
 
@@ -25254,19 +25254,19 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 8. Mum asked who would stay with the baby while I worked.
 
-9. The girl admitted that she hadn’t had such a good time since she fell ill.
+9. The girl admitted that she hadn't had such a good time since she fell ill.
 
 10. My brother asked why I had had to get up so early that day.
 
-11. The woman argued that she hadn’t been going to steal the pen at all and that she had just been looking at it.
+11. The woman argued that she hadn't been going to steal the pen at all and that she had just been looking at it.
 
 12. The teacher said that Peter I won the war with the Swedes.
 
-13. I asked my boss what he meant because I hadn’t quite got him.
+13. I asked my boss what he meant because I hadn't quite got him.
 
-14. Joan said that she had been surprised and hadn’t known what to say.
+14. Joan said that she had been surprised and hadn't known what to say.
 
-15. The teacher complained that I had been wasting time again and hadn’t done anything.
+15. The teacher complained that I had been wasting time again and hadn't done anything.
 
 16. Mr. Smiley advised me to speak to that young man. He thought that he knew more than he was saying.
 
@@ -25274,7 +25274,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 18. The principal angrily asked whose fault it was and told me to answer at once.
 
-19. Fred was sorry he hadn’t stopped to speak to me the day before. He explained that he had been in a great hurry.
+19. Fred was sorry he hadn't stopped to speak to me the day before. He explained that he had been in a great hurry.
 
 20. Jerry said proudly that his sister was a journalist and had interviewed many famous people.
 
@@ -25284,7 +25284,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 23. The lecturer said that Jupiter is the largest planet in the Solar system.
 
-24. Mrs. Barney said that she had paid attention to the boy’s behaviour long before and added that she thought it was strange.
+24. Mrs. Barney said that she had paid attention to the boy's behaviour long before and added that she thought it was strange.
 
 25. Our servant said that my sister was sleeping in her room and added that she had asked not to disturb her.
 
@@ -25294,7 +25294,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 1. The man asked, “What are you doing here so late?”
 
-2. The doctor said, “Don’t worry. Your child will be all right.”
+2. The doctor said, “Don't worry. Your child will be all right.”
 
 3. Nick said to his sister, “Turn down the volume of the music. I have a bad headache.”
 
@@ -25302,13 +25302,13 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 5. Meeting me in the park my Dad wondered, “How long have you been walking here?”
 
-6. The teacher said, “Charles, if you don’t tell me the truth, I’ll have to call your parents.”
+6. The teacher said, “Charles, if you don't tell me the truth, I'll have to call your parents.”
 
 7. My friend wondered, “How do you get on with your mother-in-law?”
 
-8. My Granny said, “Though I have seen these photos hundreds of times, it’s a pleasure for me to look them through again.”
+8. My Granny said, “Though I have seen these photos hundreds of times, it's a pleasure for me to look them through again.”
 
-9. The tennis coach said, “Your brother is too young. He’ll be able to join the sports club only next year.”
+9. The tennis coach said, “Your brother is too young. He'll be able to join the sports club only next year.”
 
 10. Mother asked Kate, “Is this the boy you got acquainted with last year?”
 
@@ -25330,7 +25330,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 7. does he say
 
-8. didn’t tell
+8. didn't tell
 
 9. am saying
 
@@ -25352,7 +25352,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 5. Ned said that he had never spoken to me as it was the first time he had seen me.
 
-6. My friend said that he had returned two days before but he hadn’t had time to call before.
+6. My friend said that he had returned two days before but he hadn't had time to call before.
 
 7. The guide explained to us that we would be able to get into the museum only after the restoration was over.
 
@@ -25364,15 +25364,15 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 ##### 2
 
-1. Mother said that she had been sleeping when the telephone rang and she hadn’t managed to answer it.
+1. Mother said that she had been sleeping when the telephone rang and she hadn't managed to answer it.
 
-2. I apologized and said that I couldn’t speak at that moment (then) and asked to call back later.
+2. I apologized and said that I couldn't speak at that moment (then) and asked to call back later.
 
 3. Mary said that she had been to Italy a year before but if she had a chance she would certainly go there once again.
 
 4. The child said that he was hungry and asked when we would have lunch.
 
-5. He recommended not following Mr. Gray’s advice as it was not always useful.
+5. He recommended not following Mr. Gray's advice as it was not always useful.
 
 6. I wondered if Helen and Pete had been travelling so much and they said they had.
 
@@ -25384,7 +25384,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 10. He was sorry he was late and said that the traffic was heavy and he had got stuck in a traffic jam.
 
-11. She said that she didn’t know how it had happened and couldn’t say anything.
+11. She said that she didn't know how it had happened and couldn't say anything.
 
 12. My friends wondered whose child it was and why he was at my place.
 
@@ -25392,7 +25392,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 14. Bob warned me not to tell Harold about it even if he threatened me.
 
-15. I asked my brother if he knew how long Jess and Caroline had been married but he answered that he didn’t.
+15. I asked my brother if he knew how long Jess and Caroline had been married but he answered that he didn't.
 
 <a id="keys-unit-58"></a>
 
@@ -25406,19 +25406,19 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 1. was; had expected; gave up; found; had made
 
-2. had I entered; came; was; was; had seen; didn’t know; was still asking; telling
+2. had I entered; came; was; was; had seen; didn't know; was still asking; telling
 
 3. had; would lead; decided
 
-4. was; hadn’t warned; had wasted
+4. was; hadn't warned; had wasted
 
-5. was; rang; had already arrived; wasn’t expecting
+5. was; rang; had already arrived; wasn't expecting
 
 6. turned out; had been making; had been
 
 7. was looking; had made; was; wanted; had
 
-8. realized; was; didn’t use; would regret
+8. realized; was; didn't use; would regret
 
 9. had; had done; was; had planned
 
@@ -25428,27 +25428,27 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 1. turned off; had been listening; went; thought; was; turned out; had dialled
 
-2. was; couldn’t; was crying
+2. was; couldn't; was crying
 
-3. liked; had read; seemed; thought; wouldn’t like; would remain
+3. liked; had read; seemed; thought; wouldn't like; would remain
 
-4. was enjoying; sounded; had heard; was; didn’t know; was
+4. was enjoying; sounded; had heard; was; didn't know; was
 
-5. was wearing; suited; looked; hadn’t seen
+5. was wearing; suited; looked; hadn't seen
 
-6. was having; had been working; rang; changed; didn’t want; had hoped; would disturb
+6. was having; had been working; rang; changed; didn't want; had hoped; would disturb
 
 7. pointed out; is getting
 
 8. doubted; would do; wanted
 
-9. didn’t trust; was; would show; would see; was
+9. didn't trust; was; would show; would see; was
 
-10. had; was going on; pretended; didn’t notice; weren’t paying
+10. had; was going on; pretended; didn't notice; weren't paying
 
 11. built
 
-12. had found; looked; realized; could; didn’t throw
+12. had found; looked; realized; could; didn't throw
 
 13. looked; had expected; was; had imagined; reminded; can
 
@@ -25482,19 +25482,19 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 1. He understood that if his wife found out what he had done she would never forgive him.
 
-2. Rick had been concealing the truth for so many years that it was difficult for him to confess now. He himself already didn’t remember why he hadn’t done it at once.
+2. Rick had been concealing the truth for so many years that it was difficult for him to confess now. He himself already didn't remember why he hadn't done it at once.
 
-3. He didn’t go to the party because he avoided meeting Megan. He didn’t want her to see how ashamed he was for the fact that he had been rude to her.
+3. He didn't go to the party because he avoided meeting Megan. He didn't want her to see how ashamed he was for the fact that he had been rude to her.
 
-4. By the expression of my secretary’s face I guessed who was calling her. She was speaking in a low voice so that nobody would understand what she was talking about.
+4. By the expression of my secretary's face I guessed who was calling her. She was speaking in a low voice so that nobody would understand what she was talking about.
 
-5. Obviously the man didn’t understand that everybody was laughing at him as he went on behaving as before.
+5. Obviously the man didn't understand that everybody was laughing at him as he went on behaving as before.
 
-6. There was something mysterious in the newcomer’s name because though it seemed simple to everybody nobody remembered it.
+6. There was something mysterious in the newcomer's name because though it seemed simple to everybody nobody remembered it.
 
 7. The policemen wondered how the criminal had managed to escape from prison and where he had been hiding so long. They were sure that somebody was helping him.
 
-8. The child was crying and Liz couldn’t calm him down. It wasn’t clear to her what the matter was and she was afraid that she had done something wrong.
+8. The child was crying and Liz couldn't calm him down. It wasn't clear to her what the matter was and she was afraid that she had done something wrong.
 
 9. The only thing everybody was talking about was the accident that had happened (had taken place) the day before. People discussed the details trying to guess what the consequences would be.
 
@@ -25518,7 +25518,7 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 #### 59.1
 
-1. Nick says that it’s time to go.
+1. Nick says that it's time to go.
 
 2. Michael wondered what my brother looked like.
 
@@ -25528,7 +25528,7 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 5. The man said that he had seen the accident.
 
-6. The teacher said that if we didn’t study hard we would have problems at the exam.
+6. The teacher said that if we didn't study hard we would have problems at the exam.
 
 7. Myra asked why I had lied to her.
 
@@ -25536,7 +25536,7 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 9. Mother told Maude to clean her room.
 
-10. My little son was very surprised when he read that the cuckoo lays its eggs in other birds’ nests.
+10. My little son was very surprised when he read that the cuckoo lays its eggs in other birds' nests.
 
 11. It turned out that everybody had learnt about it long before.
 
@@ -25546,7 +25546,7 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 14. Roger asked me not to touch that picture.
 
-15. My parents wondered why I hadn’t called the day before.
+15. My parents wondered why I hadn't called the day before.
 
 <a id="key-59-2"></a>
 
@@ -25554,11 +25554,11 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 ##### 1
 
-have taken; Did you have; was; did you say; asked; said; had been; is; was; told; had got; asked; stayed; was; left; was going; don’t have; got on; had come; bought; got out; took; was driving; loved; had been saving; was; told; had fixed; repaired; was; stopped; got; offered; went; stopped; was; said; had taken; was doing; was; had; moved on; don’t know; didn’t want; washed; got; came up; were; worked
+have taken; Did you have; was; did you say; asked; said; had been; is; was; told; had got; asked; stayed; was; left; was going; don't have; got on; had come; bought; got out; took; was driving; loved; had been saving; was; told; had fixed; repaired; was; stopped; got; offered; went; stopped; was; said; had taken; was doing; was; had; moved on; don't know; didn't want; washed; got; came up; were; worked
 
 ##### 2
 
-did; would stop; thought; would make; are; knew; would break down; stuck out; saw; were all lunching; was; noticed; was drinking; was shaking; was; came; made; thought; pretended; was; had ever tasted; was; got; would never have; took; offered; told; would have; told; was expecting; fancied; didn’t have; took; had made up; found; hadn’t touched; would make; is; swear; got; saw; knew; had been; had gone; was actually panting; finished; is; imagined; had happened; said
+did; would stop; thought; would make; are; knew; would break down; stuck out; saw; were all lunching; was; noticed; was drinking; was shaking; was; came; made; thought; pretended; was; had ever tasted; was; got; would never have; took; offered; told; would have; told; was expecting; fancied; didn't have; took; had made up; found; hadn't touched; would make; is; swear; got; saw; knew; had been; had gone; was actually panting; finished; is; imagined; had happened; said
 
 <a id="key-59-3"></a>
 
@@ -25566,15 +25566,15 @@ did; would stop; thought; would make; are; knew; would break down; stuck out; sa
 
 ##### 1
 
-One day Jimmy ran away from home when his father and step-mother had beaten him again. He didn’t know where he was going. Finally he found himself in a street he had never been to before. He got frightened and started to cry. He sat in the street for quite a long time. It was already getting dark when two boys came up to him and asked what had happened and why he was crying. At first Jimmy was afraid of them as it was the first time he had seen them. But then he told them his story. They felt sorry for Jimmy. They realized that the boy wouldn’t survive if they left him alone. The boys told Jimmy not to cry and promised to help him.
+One day Jimmy ran away from home when his father and step-mother had beaten him again. He didn't know where he was going. Finally he found himself in a street he had never been to before. He got frightened and started to cry. He sat in the street for quite a long time. It was already getting dark when two boys came up to him and asked what had happened and why he was crying. At first Jimmy was afraid of them as it was the first time he had seen them. But then he told them his story. They felt sorry for Jimmy. They realized that the boy wouldn't survive if they left him alone. The boys told Jimmy not to cry and promised to help him.
 
 ##### 2
 
-It turned out that Mr. Hopkins was a robber and he had been using Jimmy for his crimes all that time. Jimmy had been thinking what to do since he realized it. He remembered that a friend in need is a friend indeed and went to Rip. Rip was afraid that when Jimmy came to the police policemen would arrest him as he had taken part in many robberies by that time and policemen knew that somebody helped Hopkins. The boys sat thinking what to do when Rip’s master came and asked what they were doing there so late.
+It turned out that Mr. Hopkins was a robber and he had been using Jimmy for his crimes all that time. Jimmy had been thinking what to do since he realized it. He remembered that a friend in need is a friend indeed and went to Rip. Rip was afraid that when Jimmy came to the police policemen would arrest him as he had taken part in many robberies by that time and policemen knew that somebody helped Hopkins. The boys sat thinking what to do when Rip's master came and asked what they were doing there so late.
 
 ##### 3
 
-Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out. Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn’t know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job. At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn’t even imagine where they were really sending the boy and what would happen to him there.
+Mrs. Winkship and her niece Martha couldn't help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out. Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn't know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job. At first Uncle Belcher didn't want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn't even imagine where they were really sending the boy and what would happen to him there.
 
 <a id="keys-unit-60"></a>
 
@@ -25614,11 +25614,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 3. Why was the truth concealed?
 
-4. My brother’s car is still being repaired.
+4. My brother's car is still being repaired.
 
 5. It turned out that a new show had been organized by Mary.
 
-6. Such important documents won’t be left at the office.
+6. Such important documents won't be left at the office.
 
 7. How many times has the mincer been used since it was bought?
 
@@ -25626,7 +25626,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 9. Something is broken every time the dishes are washed by my daughter.
 
-10. The children weren’t made to help her in the garden.
+10. The children weren't made to help her in the garden.
 
 <a id="key-60-2"></a>
 
@@ -25634,7 +25634,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 1
 
-1. The new theatre hasn’t been built yet, has it?
+1. The new theatre hasn't been built yet, has it?
 
 2. When will your book be published?
 
@@ -25648,7 +25648,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. Whose report is being discussed now?
 
-8. Nick hasn’t been seen for quite a long time.
+8. Nick hasn't been seen for quite a long time.
 
 9. Fruit is eaten before meals.
 
@@ -25662,15 +25662,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 3. It was said specially for you.
 
-4. He won’t be cured if he doesn’t go to hospital.
+4. He won't be cured if he doesn't go to hospital.
 
 5. This cake is cooked easily.
 
-6. It didn’t seem to me! — But were you really being followed?
+6. It didn't seem to me! — But were you really being followed?
 
 7. Not a minute was wasted. All the necessary preparations were made.
 
-8. The car isn’t being painted. It’s already being dried.
+8. The car isn't being painted. It's already being dried.
 
 9. Had the name been chosen by the time the child was born?
 
@@ -25690,25 +25690,25 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. Our new English teacher was introduced to us by the principal.
 
-3. Haven’t all the most important details been agreed on yet?
+3. Haven't all the most important details been agreed on yet?
 
-4. We’ll certainly be shown her new picture. Her new picture will certainly be shown to us.
+4. We'll certainly be shown her new picture. Her new picture will certainly be shown to us.
 
 5. It is reported that a dangerous criminal is missing.
 
 6. Was anything new explained to you by the teacher at the lesson?
 
-7. Even a birthday card wasn’t sent to me by her! I wasn’t even sent a birthday card by her!
+7. Even a birthday card wasn't sent to me by her! I wasn't even sent a birthday card by her!
 
-8. By 5 o’clock the winner hadn’t been announced by the committee yet.
+8. By 5 o'clock the winner hadn't been announced by the committee yet.
 
 9. These recommendations are always given to students by Professor Brand. Students are always given these recommendations by Professor Brand.
 
-10. His jokes are never laughed at because they aren’t funny.
+10. His jokes are never laughed at because they aren't funny.
 
 ##### 2
 
-1. Don’t disturb him. A very important letter is being dictated by him to his secretary.
+1. Don't disturb him. A very important letter is being dictated by him to his secretary.
 
 2. The accident was being described by her to passers-by when the police arrived.
 
@@ -25748,11 +25748,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. I was promised that my suggestion would be thought over.
 
-8. The task was repeated to the pupils several times but some of them still didn’t understand it.
+8. The task was repeated to the pupils several times but some of them still didn't understand it.
 
 9. What film was shown to the children yesterday? What film were the children shown yesterday?
 
-10. It’s reported that the visit will be paid at the beginning of the month.
+10. It's reported that the visit will be paid at the beginning of the month.
 
 ##### 2
 
@@ -25812,7 +25812,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. What was being explained to you when the principal entered?
 
-3. He was seen to leave the building at 8 o’clock.
+3. He was seen to leave the building at 8 o'clock.
 
 4. RIGHT
 
@@ -25836,19 +25836,19 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. is being redecorated
 
-2. isn’t finished
+2. isn't finished
 
-3. hadn’t been solved; had been discussed
+3. hadn't been solved; had been discussed
 
-4. Why hasn’t this information ever been used?
+4. Why hasn't this information ever been used?
 
-5. aren’t worn
+5. aren't worn
 
-6. won’t be paid any attention to
+6. won't be paid any attention to
 
 7. was being listened to
 
-8. wasn’t introduced
+8. wasn't introduced
 
 9. are given
 
@@ -25858,7 +25858,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. has been offered
 
-2. was told; hadn’t been considered; would be informed
+2. was told; hadn't been considered; would be informed
 
 3. is being rehearsed; have been invited
 
@@ -25882,69 +25882,69 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 1
 
-1. If we are taught another foreign language next year, I’ll choose English. It is spoken in many countries.
+1. If we are taught another foreign language next year, I'll choose English. It is spoken in many countries.
 
 2. Who told you that he had been robbed? He was badly beaten but nothing was stolen.
 
 3. I switched on the TV set. Some old film was being shown.
 
-4. It turned out that he hadn’t been invited to the party, as his telephone number hadn’t been found.
+4. It turned out that he hadn't been invited to the party, as his telephone number hadn't been found.
 
-5. What was given to you as a birthday present? — Nothing. I haven’t been congratulated so far.
+5. What was given to you as a birthday present? — Nothing. I haven't been congratulated so far.
 
-6. It was explained to us that this sad event was never discussed in the family and that’s why our questions wouldn’t be answered.
+6. It was explained to us that this sad event was never discussed in the family and that's why our questions wouldn't be answered.
 
 7. Your dress is being ironed. Will you wait a minute, please?
 
 8. It seems to me this is a trifle incident. Why do you think it will be spoken about?
 
-9. Instructions were just dictated to me. — Wasn’t it explained to you what it was all for?
+9. Instructions were just dictated to me. — Wasn't it explained to you what it was all for?
 
-10. Nick wondered what day the meeting had been put off to and why he hadn’t been told about it.
+10. Nick wondered what day the meeting had been put off to and why he hadn't been told about it.
 
 ##### 2
 
-1. When will the next speaker be listened to? — I don’t know. He hasn’t come yet. He is being waited for by everybody.
+1. When will the next speaker be listened to? — I don't know. He hasn't come yet. He is being waited for by everybody.
 
-2. I’ve never been offered anything like this before. I don’t know what to do.
+2. I've never been offered anything like this before. I don't know what to do.
 
-3. Nobody will believe you. You’ll be just laughed at.
+3. Nobody will believe you. You'll be just laughed at.
 
 4. Nothing is repeated twice at her lessons. Pupils understand her explanations very well.
 
 5. Why have the documents been looked through so long? Is anything wrong?
 
-6. Why can’t you understand such a simple thing? How many times has it been explained to you?
+6. Why can't you understand such a simple thing? How many times has it been explained to you?
 
-7. If she is promised defence by the police she’ll say who the crime was committed by.
+7. If she is promised defence by the police she'll say who the crime was committed by.
 
 8. What was recommended to you by the doctor?
 
 9. By that time five patients had been operated on.
 
-10. The letter was written in a hurry, that’s why it was difficult to read it.
+10. The letter was written in a hurry, that's why it was difficult to read it.
 
 ##### 3
 
-1. You’ll be told when your car will be sold. You’ll be sent a letter.
+1. You'll be told when your car will be sold. You'll be sent a letter.
 
-2. Though Mr. Smith had been described to me I couldn’t recognize him until we were introduced to each other.
+2. Though Mr. Smith had been described to me I couldn't recognize him until we were introduced to each other.
 
 3. Has our flight been announced yet?
 
 4. It was clear that such a beautiful thing would be bought very soon. Any money would be paid for it.
 
-5. I didn’t get whose name was being mentioned. I just guessed that somebody was being sent for.
+5. I didn't get whose name was being mentioned. I just guessed that somebody was being sent for.
 
-6. Our help was received with gratitude but actually it wasn’t needed.
+6. Our help was received with gratitude but actually it wasn't needed.
 
-7. He should be given time to think. Such decisions can’t be taken at once.
+7. He should be given time to think. Such decisions can't be taken at once.
 
 8. Everything had been arranged long before the meeting. Why was the plan suddenly changed?
 
-9. If the injection isn’t made within an hour, the patient may die.
+9. If the injection isn't made within an hour, the patient may die.
 
-10. Don’t enter! A rehearsal is being held.
+10. Don't enter! A rehearsal is being held.
 
 <a id="keys-unit-63"></a>
 
@@ -25954,13 +25954,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 63.1
 
-1. wouldn’t behave
+1. wouldn't behave
 
 2. came
 
 3. would join
 
-4. wouldn’t fall
+4. wouldn't fall
 
 5. could
 
@@ -25968,23 +25968,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. would feel
 
-8. didn’t have
+8. didn't have
 
-9. didn’t interrupt
+9. didn't interrupt
 
-10. wouldn’t sell
+10. wouldn't sell
 
 <a id="key-63-2"></a>
 
 #### 63.2
 
-1. wouldn’t have quarrelled
+1. wouldn't have quarrelled
 
-2. hadn’t thrown away
+2. hadn't thrown away
 
-3. hadn’t had
+3. hadn't had
 
-4. wouldn’t have lost
+4. wouldn't have lost
 
 5. would have helped
 
@@ -25992,7 +25992,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. had called
 
-8. wouldn’t have refused
+8. wouldn't have refused
 
 9. would have explained
 
@@ -26002,11 +26002,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 63.3
 
-1. If he loved her she wouldn’t be unhappy.
+1. If he loved her she wouldn't be unhappy.
 
-2. If he hadn’t told her he loved her she wouldn’t have been so happy.
+2. If he hadn't told her he loved her she wouldn't have been so happy.
 
-3. If the weather hadn’t been so bad Glen wouldn’t have stayed at home.
+3. If the weather hadn't been so bad Glen wouldn't have stayed at home.
 
 4. If Molly knew him well she would trust him.
 
@@ -26014,11 +26014,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 6. If the coffee had been tasty I would have drunk it.
 
-7. The child wouldn’t have learned the poem quickly if it hadn’t been so easy.
+7. The child wouldn't have learned the poem quickly if it hadn't been so easy.
 
-8. I wouldn’t read much if I didn’t want to know much.
+8. I wouldn't read much if I didn't want to know much.
 
-9. I wouldn’t have taken the cat home if it hadn’t looked unhappy.
+9. I wouldn't have taken the cat home if it hadn't looked unhappy.
 
 10. I would watch TV if I had much time.
 
@@ -26028,23 +26028,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. If I were you I would have gone there.
 
-2. If I were you I wouldn’t have eaten much.
+2. If I were you I wouldn't have eaten much.
 
 3. If I were you I would learn English.
 
-4. If I were you I wouldn’t always trust people.
+4. If I were you I wouldn't always trust people.
 
-5. If I were you I wouldn’t have told him the truth.
+5. If I were you I wouldn't have told him the truth.
 
 6. If I were you I would have bought that bag.
 
-7. If I were you I wouldn’t smoke much.
+7. If I were you I wouldn't smoke much.
 
 8. If I were you I would eat a lot of fruit.
 
 9. If I were you I would have had a holiday last year.
 
-10. If I were you I wouldn’t be angry with him.
+10. If I were you I wouldn't be angry with him.
 
 <a id="key-63-5"></a>
 
@@ -26052,15 +26052,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 1
 
-1. If Richard weren’t nervous he wouldn’t have shouted at his child.
+1. If Richard weren't nervous he wouldn't have shouted at his child.
 
-2. If Bill weren’t economical he wouldn’t have saved so much money.
+2. If Bill weren't economical he wouldn't have saved so much money.
 
-3. If Bess weren’t bad-tempered she wouldn’t have quarrelled with her husband.
+3. If Bess weren't bad-tempered she wouldn't have quarrelled with her husband.
 
-4. If my chief weren’t loyal he wouldn’t have given me a day off.
+4. If my chief weren't loyal he wouldn't have given me a day off.
 
-5. If my mother weren’t kind she wouldn’t have forgiven me.
+5. If my mother weren't kind she wouldn't have forgiven me.
 
 ##### 2
 
@@ -26068,11 +26068,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. If Katherine had cleaned her coat she would be able to put it on.
 
-3. If Adam had taken the umbrella he wouldn’t be wet through now.
+3. If Adam had taken the umbrella he wouldn't be wet through now.
 
-4. If this man hadn’t broken into a house he wouldn’t be in prison now.
+4. If this man hadn't broken into a house he wouldn't be in prison now.
 
-5. If I had bought a bottle of water I wouldn’t be thirsty now.
+5. If I had bought a bottle of water I wouldn't be thirsty now.
 
 <a id="key-63-6"></a>
 
@@ -26080,51 +26080,51 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 1
 
-1. If you had taken the pills you wouldn’t feel bad now.
+1. If you had taken the pills you wouldn't feel bad now.
 
-2. If I had cleaned the room yesterday I wouldn’t have to do it now.
+2. If I had cleaned the room yesterday I wouldn't have to do it now.
 
-3. If the film weren’t interesting I wouldn’t have seen it twice.
+3. If the film weren't interesting I wouldn't have seen it twice.
 
-4. If he weren’t a good lawyer he wouldn’t have earned so much money.
+4. If he weren't a good lawyer he wouldn't have earned so much money.
 
-5. If he had given up smoking he wouldn’t feel bad.
+5. If he had given up smoking he wouldn't feel bad.
 
-6. If Tom had eaten something he wouldn’t be hungry.
+6. If Tom had eaten something he wouldn't be hungry.
 
-7. If you had taken a taxi you wouldn’t be late.
+7. If you had taken a taxi you wouldn't be late.
 
-8. If I weren’t afraid of flying I would have gone there by plane.
+8. If I weren't afraid of flying I would have gone there by plane.
 
-9. If my radio-set worked I would have listened to the 7 o’clock news.
+9. If my radio-set worked I would have listened to the 7 o'clock news.
 
-10. If the bag weren’t cheap I wouldn’t have bought it.
+10. If the bag weren't cheap I wouldn't have bought it.
 
 ##### 2
 
 1. But for the frost we would go skating.
 
-2. But for the map I wouldn’t have found the place.
+2. But for the map I wouldn't have found the place.
 
-3. But for his advice I wouldn’t know what to do.
+3. But for his advice I wouldn't know what to do.
 
 4. But for the price I would have bought the car.
 
-5. But for the alarm-clock I wouldn’t have woken up.
+5. But for the alarm-clock I wouldn't have woken up.
 
-6. But for his words I wouldn’t be upset.
+6. But for his words I wouldn't be upset.
 
 <a id="key-63-7"></a>
 
 #### 63.7
 
-1. If you had been late we would have left without you. It’s good you came in time.
+1. If you had been late we would have left without you. It's good you came in time.
 
 2. I would have finished the work long ago if he had helped me.
 
-3. I would treat him better if he hadn’t told me a lie.
+3. I would treat him better if he hadn't told me a lie.
 
-4. But for the fog the flight wouldn’t have been delayed.
+4. But for the fog the flight wouldn't have been delayed.
 
 5. If I were you I would discuss this question with everybody.
 
@@ -26138,23 +26138,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 10. If he had felt like staying with us last week he would have stayed.
 
-11. I would visit Jane today if I hadn’t fallen ill.
+11. I would visit Jane today if I hadn't fallen ill.
 
-12. But for him I wouldn’t know what is going on.
+12. But for him I wouldn't know what is going on.
 
-13. If I were you I wouldn’t make the child learn this poem by heart.
+13. If I were you I wouldn't make the child learn this poem by heart.
 
-14. If the book weren’t so expensive I would have bought it yesterday.
+14. If the book weren't so expensive I would have bought it yesterday.
 
 15. What would you do if you missed the train?
 
-16. He said that if his leg didn’t hurt he would play with us.
+16. He said that if his leg didn't hurt he would play with us.
 
-17. I didn’t apologize. What would you have done if you were me?
+17. I didn't apologize. What would you have done if you were me?
 
-18. If you had bought a ticket you wouldn’t have been fined.
+18. If you had bought a ticket you wouldn't have been fined.
 
-19. Your child wouldn’t have got a bad mark if you paid more attention to him.
+19. Your child wouldn't have got a bad mark if you paid more attention to him.
 
 20. Molly said that if she were Tim she would wear a hat.
 
@@ -26164,23 +26164,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 23. The child said that if Mother had bought him that toy he would be happy.
 
-24. I would go for a swim if it weren’t so cold.
+24. I would go for a swim if it weren't so cold.
 
-25. If I were you I wouldn’t allow my son to cross the street alone.
+25. If I were you I wouldn't allow my son to cross the street alone.
 
-26. I wouldn’t have been late yesterday if I hadn’t been caught in a traffic jam.
+26. I wouldn't have been late yesterday if I hadn't been caught in a traffic jam.
 
-27. But for the heat the flowers wouldn’t have faded.
+27. But for the heat the flowers wouldn't have faded.
 
 28. If I were you I would have given up smoking long ago and jogged in the morning.
 
 29. Mr. Cain would have given you promotion long ago if you were more responsible.
 
-30. I wouldn’t be in a rush if they weren’t waiting for me.
+30. I wouldn't be in a rush if they weren't waiting for me.
 
-31. If you hadn’t missed the lecture you wouldn’t be asking me about it now.
+31. If you hadn't missed the lecture you wouldn't be asking me about it now.
 
-32. She said she would sit for little Chris if she weren’t ill.
+32. She said she would sit for little Chris if she weren't ill.
 
 33. What would you do if you had a million dollars?
 
@@ -26194,11 +26194,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 64.1
 
-1. He wishes I weren’t often late for work.
+1. He wishes I weren't often late for work.
 
 2. I wish it were ( was) my car.
 
-3. I wish the day weren’t (wasn’t) gloomy.
+3. I wish the day weren't (wasn't) gloomy.
 
 4. I wish I had a house of my own.
 
@@ -26210,15 +26210,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 64.2
 
-1. I wish I hadn’t bought it.
+1. I wish I hadn't bought it.
 
-2. I wish he hadn’t got married.
+2. I wish he hadn't got married.
 
 3. I wish I had heard him singing.
 
 4. I wish she had been pleased with my work.
 
-5. I wish I hadn’t eaten too much for dinner.
+5. I wish I hadn't eaten too much for dinner.
 
 6. He wishes he had spelt it correctly.
 
@@ -26250,23 +26250,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 64.4
 
-1. I wish my friend and I didn’t quarrel so often.
+1. I wish my friend and I didn't quarrel so often.
 
-2. I wish he hadn’t changed that much.
+2. I wish he hadn't changed that much.
 
 3. I wish I knew his address.
 
 4. I wish the police had caught the criminals.
 
-5. I wish you didn’t spend so much money. / I wish you wouldn’t spend so much money.
+5. I wish you didn't spend so much money. / I wish you wouldn't spend so much money.
 
 6. I wish I could drive.
 
 7. I wish somebody had met him at the airport.
 
-8. I wish the car hadn’t broken down. We could go there by car.
+8. I wish the car hadn't broken down. We could go there by car.
 
-9. I wish he wouldn’t change his plans so often. / I wish he didn’t change his plans so often.
+9. I wish he wouldn't change his plans so often. / I wish he didn't change his plans so often.
 
 10. I wish you had revised this rule.
 
@@ -26306,25 +26306,25 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 65.3
 
-1. If I had found treasure I wouldn’t have handed it over to the authorities.
+1. If I had found treasure I wouldn't have handed it over to the authorities.
 
-2. If I had inherited a large sum of money I wouldn’t have bought a house.
+2. If I had inherited a large sum of money I wouldn't have bought a house.
 
-3. If I were Mrs. Brown I wouldn’t always tell people what to do.
+3. If I were Mrs. Brown I wouldn't always tell people what to do.
 
 4. If I had gone to the seaside I would have swum in the sea.
 
 5. If I were you I would go in for sports.
 
-6. If I had written a novel I wouldn’t have burnt it.
+6. If I had written a novel I wouldn't have burnt it.
 
-7. If I were him I wouldn’t miss lectures often.
+7. If I were him I wouldn't miss lectures often.
 
-8. If I had bought a picture I wouldn’t have sold it.
+8. If I had bought a picture I wouldn't have sold it.
 
 9. If I were him I would try to understand the problem.
 
-10. If I were him I wouldn’t smoke much.
+10. If I were him I wouldn't smoke much.
 
 <a id="key-65-4"></a>
 
@@ -26346,9 +26346,9 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. I wish I had gone to another restaurant.
 
-2. I wish I hadn’t ridden so fast.
+2. I wish I hadn't ridden so fast.
 
-3. I wish I hadn’t switched on the TV-set.
+3. I wish I hadn't switched on the TV-set.
 
 4. I wish I had chosen another colour.
 
@@ -26362,33 +26362,33 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. But for the rain I would go for a walk.
 
-2. If I had an umbrella I wouldn’t be wet.
+2. If I had an umbrella I wouldn't be wet.
 
 3. If I were rich I would have stopped at the Ritz.
 
 4. I wish I knew something about gardening.
 
-5. I wish it weren’t noisy.
+5. I wish it weren't noisy.
 
-6. I wish the bus wasn’t overcrowded.
+6. I wish the bus wasn't overcrowded.
 
 7. But for the mistake the team would have won.
 
-8. If he hadn’t failed the exam he wouldn’t be upset.
+8. If he hadn't failed the exam he wouldn't be upset.
 
-9. If it hadn’t been slippery he wouldn’t have broken his leg.
+9. If it hadn't been slippery he wouldn't have broken his leg.
 
 10. I wish I had won the first prize.
 
-11. But for the headache I wouldn’t have left the party early.
+11. But for the headache I wouldn't have left the party early.
 
 12. I wish I trusted him.
 
-13. If it were dark we wouldn’t find the way.
+13. If it were dark we wouldn't find the way.
 
-14. But for the heavy snowfall the flight wouldn’t have been cancelled.
+14. But for the heavy snowfall the flight wouldn't have been cancelled.
 
-15. If he learned all rules he wouldn’t make mistakes.
+15. If he learned all rules he wouldn't make mistakes.
 
 <a id="key-65-6"></a>
 
@@ -26398,15 +26398,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. If I were hungry I would eat something.
 
-3. You wouldn’t feel so bad now if you hadn’t eaten so much for dinner.
+3. You wouldn't feel so bad now if you hadn't eaten so much for dinner.
 
-4. If you had been more careful yesterday you wouldn’t be in trouble today.
+4. If you had been more careful yesterday you wouldn't be in trouble today.
 
-5. I wish it weren’t winter.
+5. I wish it weren't winter.
 
 6. If I knew where he is I would tell you.
 
-7. But for him she wouldn’t have found a job.
+7. But for him she wouldn't have found a job.
 
 8. I would play tennis if I liked it.
 
@@ -26420,55 +26420,55 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 13. But for your help I would be in trouble.
 
-14. I wish he weren’t (wasn’t) so lazy.
+14. I wish he weren't (wasn't) so lazy.
 
 15. If she liked dogs she would have bought one long ago.
 
-16. If you didn’t smoke here I wouldn’t have a headache.
+16. If you didn't smoke here I wouldn't have a headache.
 
 17. If I were you I would have bought that tie.
 
-18. I wish they hadn’t lost the game.
+18. I wish they hadn't lost the game.
 
-19. If he didn’t know French he wouldn’t have translated this story.
+19. If he didn't know French he wouldn't have translated this story.
 
 20. She said that if it were easy she would do it.
 
-21. I wish you hadn’t thrown away the letter.
+21. I wish you hadn't thrown away the letter.
 
 22. I wish she had read this book.
 
 23. If he lived not far from me I would have visited him long ago.
 
-24. I wish you hadn’t been angry with me.
+24. I wish you hadn't been angry with me.
 
 25. But for his help I would be late.
 
-26. If he weren’t bad-tempered today, he wouldn’t be so rude.
+26. If he weren't bad-tempered today, he wouldn't be so rude.
 
 27. I wish you would revise all the rules for the exam.
 
-28. I wish I didn’t have to wake up so early every day.
+28. I wish I didn't have to wake up so early every day.
 
 29. I wish you had asked him to join the excursion.
 
-30. But for his advice I wouldn’t have known what to do.
+30. But for his advice I wouldn't have known what to do.
 
 31. But for the strong frost we could go skiing.
 
-32. I would have met him yesterday if I hadn’t been held up at work.
+32. I would have met him yesterday if I hadn't been held up at work.
 
 33. Where would you have gone last summer if you had had a chance?
 
 34. What would you do if you were the headmaster?
 
-35. If I were him I wouldn’t have considered the question yesterday.
+35. If I were him I wouldn't have considered the question yesterday.
 
-36. If you had bought a present last week, you wouldn’t be nervous now.
+36. If you had bought a present last week, you wouldn't be nervous now.
 
-37. She would have asked you yesterday if she weren’t so shy.
+37. She would have asked you yesterday if she weren't so shy.
 
-38. I wish you hadn’t missed so many classes. Your answer would have been better.
+38. I wish you hadn't missed so many classes. Your answer would have been better.
 
 39. I wish he were more persistent. He would have had his way long ago.
 
@@ -26484,17 +26484,17 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. Can (could) you close the window
 
-2. You can’t park here
+2. You can't park here
 
 3. I could ride a bicycle
 
-4. She can’t swim
+4. She can't swim
 
-5. couldn’t phone him
+5. couldn't phone him
 
-6. can’t trust
+6. can't trust
 
-7. couldn’t wait for us
+7. couldn't wait for us
 
 8. Can you understand him
 
@@ -26502,13 +26502,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 66.2
 
-1. can’t, will be able to (I’ll be able to)
+1. can't, will be able to (I'll be able to)
 
-2. couldn’t, can
+2. couldn't, can
 
 3. been able to
 
-4. couldn’t, will be able to (I’ll be able to)
+4. couldn't, will be able to (I'll be able to)
 
 5. be able to
 
@@ -26522,21 +26522,21 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 66.3
 
-1. I didn’t manage to pass the exam because I wasn’t prepared well enough.
+1. I didn't manage to pass the exam because I wasn't prepared well enough.
 
-2. The children couldn’t break the vase. They weren’t at home.
+2. The children couldn't break the vase. They weren't at home.
 
-3. I couldn’t argue with her.
+3. I couldn't argue with her.
 
-4. I tried not to argue with her but didn’t manage to.
+4. I tried not to argue with her but didn't manage to.
 
 5. Could you do it without my help?
 
 6. How did you manage to do it without my help?
 
-7. The children didn’t manage to repeat the word because it was difficult.
+7. The children didn't manage to repeat the word because it was difficult.
 
-8. I could repeat everything again but I didn’t want to.
+8. I could repeat everything again but I didn't want to.
 
 <a id="key-66-4"></a>
 
@@ -26544,19 +26544,19 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. Can (could) I ask you a question?
 
-2. I won’t be able to come in time.
+2. I won't be able to come in time.
 
-3. Ted wasn’t able to read (didn’t manage to read) the word.
+3. Ted wasn't able to read (didn't manage to read) the word.
 
-4. I couldn’t believe it.
+4. I couldn't believe it.
 
 5. The child must be able to eat by himself.
 
-6. She hasn’t been able to work well lately.
+6. She hasn't been able to work well lately.
 
 7. I will be able to buy (can buy) something for supper.
 
-8. She can’t ride.
+8. She can't ride.
 
 9. Who will be able to answer (can answer) the question?
 
@@ -26602,29 +26602,29 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 67.2
 
-1. They can’t have bought this house.
+1. They can't have bought this house.
 
-2. He can’t have failed you last week.
+2. He can't have failed you last week.
 
-3. He can’t be a good student.
+3. He can't be a good student.
 
-4. She can’t have gone by plane last year.
+4. She can't have gone by plane last year.
 
-5. He can’t be telling a lie now.
+5. He can't be telling a lie now.
 
-6. It can’t have rained half an hour ago.
+6. It can't have rained half an hour ago.
 
-7. They can’t be playing football now.
+7. They can't be playing football now.
 
-8. She can’t have been working the whole day.
+8. She can't have been working the whole day.
 
-9. They can’t have been swimming all this time.
+9. They can't have been swimming all this time.
 
-10. He can’t be washing his car.
+10. He can't be washing his car.
 
-11. He can’t have failed to give up smoking.
+11. He can't have failed to give up smoking.
 
-12. She can’t have failed to understand you.
+12. She can't have failed to understand you.
 
 <a id="key-67-3"></a>
 
@@ -26632,33 +26632,33 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. Can he be talking on the phone?
 
-2. She can’t have failed to come yesterday.
+2. She can't have failed to come yesterday.
 
-3. The child can’t be hungry.
+3. The child can't be hungry.
 
 4. Can she have been making dinner for three hours already?
 
 5. Can he have failed to tell you about it?
 
-6. The Swifts can’t have failed to send a letter.
+6. The Swifts can't have failed to send a letter.
 
 7. Can he have been playing the piano since morning?
 
-8. They can’t have been deciding the question since morning.
+8. They can't have been deciding the question since morning.
 
 9. Can they still be taking exams?
 
 10. Can Steve have been riding his bicycle since morning?
 
-11. Caroline can’t have lost the match.
+11. Caroline can't have lost the match.
 
-12. He can’t have failed to help you.
+12. He can't have failed to help you.
 
 13. Can Sharon still be washing the windows?
 
-14. Mr. Clark can’t have missed the meeting.
+14. Mr. Clark can't have missed the meeting.
 
-15. Don and Kate can’t have failed to get married.
+15. Don and Kate can't have failed to get married.
 
 <a id="keys-unit-68"></a>
 
@@ -26706,11 +26706,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. had to
 
-8. mustn’t
+8. mustn't
 
 9. had to
 
-10. didn’t have to
+10. didn't have to
 
 11. was
 
@@ -26718,7 +26718,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 13. had to
 
-14. mustn’t
+14. mustn't
 
 15. will have to
 
@@ -26730,13 +26730,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. I think you must do all the work yourself.
 
-3. I’ll have to meet him again.
+3. I'll have to meet him again.
 
 4. She insisted and I had to agree.
 
 5. As we had agreed he was to call for me in the evening.
 
-6. You mustn’t pay attention to his remarks. He is an impolite person.
+6. You mustn't pay attention to his remarks. He is an impolite person.
 
 7. He looked unhappy and Deborah had to forgive him.
 
@@ -26748,13 +26748,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 11. Now he is to be in California and in a week in Colorado.
 
-12. You mustn’t laugh at what he is saying. It’s sensible.
+12. You mustn't laugh at what he is saying. It's sensible.
 
 13. “Where am I to put the suitcase?” the taxi driver asked Miss Cain.
 
 14. Will you have to go there again?
 
-15. You mustn’t wash this sweater in hot water.
+15. You mustn't wash this sweater in hot water.
 
 <a id="keys-unit-69"></a>
 
@@ -27010,65 +27010,65 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### a)
 
-1. You needn’t worry.
+1. You needn't worry.
 
-2. You needn’t repeat anything.
+2. You needn't repeat anything.
 
-3. You needn’t remember it.
+3. You needn't remember it.
 
-4. He needn’t take pills.
+4. He needn't take pills.
 
-5. You needn’t wash it.
+5. You needn't wash it.
 
 ##### b)
 
-1. You needn’t have translated it.
+1. You needn't have translated it.
 
-2. You needn’t have gone by taxi.
+2. You needn't have gone by taxi.
 
-3. You needn’t have booked a room at this hotel.
+3. You needn't have booked a room at this hotel.
 
-4. You needn’t have bought one.
+4. You needn't have bought one.
 
-5. You needn’t have phoned him.
+5. You needn't have phoned him.
 
 <a id="key-72-2"></a>
 
 #### 72.2
 
-1. You needn’t ask him for help. I’ll help you.
+1. You needn't ask him for help. I'll help you.
 
-2. She needn’t pay the bill. Her husband has paid it.
+2. She needn't pay the bill. Her husband has paid it.
 
-3. The weather is wonderful. You needn’t have taken the umbrella.
+3. The weather is wonderful. You needn't have taken the umbrella.
 
-4. I didn’t have to meet with him because Ann had agreed to do it for me.
+4. I didn't have to meet with him because Ann had agreed to do it for me.
 
-5. The child needn’t put on his hat. It’s warm.
+5. The child needn't put on his hat. It's warm.
 
-6. I’ll have to wake up early tomorrow. I’m to meet him at 7.
+6. I'll have to wake up early tomorrow. I'm to meet him at 7.
 
-7. You needn’t have bought a bicycle. I could give you mine.
+7. You needn't have bought a bicycle. I could give you mine.
 
-8. I didn’t have to explain anything to him. He knew everything himself.
+8. I didn't have to explain anything to him. He knew everything himself.
 
-9. You needn’t have looked for a taxi. I’ve called a taxi.
+9. You needn't have looked for a taxi. I've called a taxi.
 
-10. I’ll have to take the tourists to the hotel.
+10. I'll have to take the tourists to the hotel.
 
-11. David said that I needn’t have brought those books. He has them.
+11. David said that I needn't have brought those books. He has them.
 
-12. You needn’t do the shopping. I’ve bought everything.
+12. You needn't do the shopping. I've bought everything.
 
-13. Shall we write any exercises? — No, you needn’t. Learn the words.
+13. Shall we write any exercises? — No, you needn't. Learn the words.
 
 14. She will have to wait.
 
-15. Shall I lock the door? — No, you needn’t. Father will come soon.
+15. Shall I lock the door? — No, you needn't. Father will come soon.
 
-16. You needn’t have taken so many warm clothes. It’s warm here in October.
+16. You needn't have taken so many warm clothes. It's warm here in October.
 
-17. I didn’t have to take a lot of warm clothes because I knew it was warm there in October.
+17. I didn't have to take a lot of warm clothes because I knew it was warm there in October.
 
 <a id="keys-unit-73"></a>
 
@@ -27082,15 +27082,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. should revise
 
-3. shouldn’t believe
+3. shouldn't believe
 
-4. shouldn’t miss
+4. shouldn't miss
 
 5. should paint
 
-6. shouldn’t return
+6. shouldn't return
 
-7. shouldn’t use
+7. shouldn't use
 
 8. should forgive
 
@@ -27100,15 +27100,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. should have taken
 
-2. shouldn’t have read
+2. shouldn't have read
 
 3. should have gone
 
-4. shouldn’t have listened
+4. shouldn't have listened
 
 5. should have got married
 
-6. shouldn’t have eaten
+6. shouldn't have eaten
 
 7. should have come
 
@@ -27118,35 +27118,35 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 73.3
 
-1. You shouldn’t have bought these shoes.
+1. You shouldn't have bought these shoes.
 
 2. You should have waited for him.
 
 3. We should be more attentive to him.
 
-4. You shouldn’t have been late.
+4. You shouldn't have been late.
 
-5. You shouldn’t ask them for money.
+5. You shouldn't ask them for money.
 
-6. You shouldn’t have left so early.
+6. You shouldn't have left so early.
 
 7. We should have chosen another present.
 
-8. I didn’t have to go to the meeting because it had been cancelled.
+8. I didn't have to go to the meeting because it had been cancelled.
 
-9. You needn’t have come. The meeting has been cancelled.
+9. You needn't have come. The meeting has been cancelled.
 
-10. You shouldn’t have come. Nobody expected you.
+10. You shouldn't have come. Nobody expected you.
 
-11. You shouldn’t have kept them waiting.
+11. You shouldn't have kept them waiting.
 
 12. You should have explained everything to him.
 
-13. You shouldn’t argue with him.
+13. You shouldn't argue with him.
 
 14. You should work more.
 
-15. You shouldn’t laugh at him.
+15. You shouldn't laugh at him.
 
 <a id="keys-unit-74"></a>
 
@@ -27168,31 +27168,31 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 5. Will have to
 
-6. mustn’t
+6. mustn't
 
 7. have to
 
 8. may
 
-9. shouldn’t
+9. shouldn't
 
-10. needn’t
+10. needn't
 
-11. didn’t manage to
+11. didn't manage to
 
 12. could
 
-13. shouldn’t
+13. shouldn't
 
-14. needn’t
+14. needn't
 
-15. shouldn’t
+15. shouldn't
 
-16. needn’t
+16. needn't
 
 17. may not
 
-18. needn’t
+18. needn't
 
 19. were to
 
@@ -27202,7 +27202,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. must have had
 
-2. can’t have gone
+2. can't have gone
 
 3. can have forgotten
 
@@ -27212,17 +27212,17 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 6. might have decided
 
-7. can’t be staying
+7. can't be staying
 
 8. can he be studying
 
 9. should have painted
 
-10. needn’t have bothered
+10. needn't have bothered
 
 11. may have got acquainted
 
-12. can’t have quarrelled
+12. can't have quarrelled
 
 13. must have arrived
 
@@ -27230,15 +27230,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 15. had to make
 
-16. needn’t have come
+16. needn't have come
 
-17. didn’t have to make
+17. didn't have to make
 
-18. shouldn’t have left
+18. shouldn't have left
 
-19. can’t have left
+19. can't have left
 
-20. shouldn’t have quarrelled
+20. shouldn't have quarrelled
 
 <a id="key-74-2"></a>
 
@@ -27252,11 +27252,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 3. You must water the plants twice a week.
 
-4. You shouldn’t be so talkative.
+4. You shouldn't be so talkative.
 
 5. You must be a very romantic man.
 
-6. He can’t be serious about it.
+6. He can't be serious about it.
 
 7. You should have been more friendly.
 
@@ -27278,11 +27278,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 5. It may have been raining since morning there.
 
-6. He can’t have changed so much.
+6. He can't have changed so much.
 
 7. Can he have been looking for a job all this time?
 
-8. He can’t be skiing now.
+8. He can't be skiing now.
 
 9. You must be joking.
 
@@ -27292,7 +27292,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. Can he have been playing football all this time?
 
-2. You’ll have to take a bus.
+2. You'll have to take a bus.
 
 3. I have to wear glasses.
 
@@ -27306,7 +27306,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 8. He was to play against Swift.
 
-9. I needn’t take much luggage.
+9. I needn't take much luggage.
 
 10. He must have been working on the farm since childhood.
 
@@ -27314,23 +27314,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. He must have failed to warn her.
 
-2. He won’t be able to climb the tree.
+2. He won't be able to climb the tree.
 
 3. You will have to bring a ladder.
 
 4. You should forget about it.
 
-5. You can’t leave him now.
+5. You can't leave him now.
 
 6. You may not enter without knocking.
 
-7. They can’t have failed to warn him.
+7. They can't have failed to warn him.
 
-8. I’m afraid I won’t be able to help you.
+8. I'm afraid I won't be able to help you.
 
 9. May I use this box?
 
-10. Shall I give you a lift? — No, you needn’t.
+10. Shall I give you a lift? — No, you needn't.
 
 ##### 5
 
@@ -27338,7 +27338,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. Will you help me, please?
 
-3. He may have tried to get in touch with you but didn’t manage to.
+3. He may have tried to get in touch with you but didn't manage to.
 
 4. He must have been hurt by your words.
 
@@ -27346,13 +27346,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 6. You are unlikely to talk to him in the near future.
 
-7. He can’t have failed to attend the conference.
+7. He can't have failed to attend the conference.
 
 8. Can he have been involved in this robbery?
 
 9. He may be playing computer games.
 
-10. They can’t have been talking all this time.
+10. They can't have been talking all this time.
 
 <a id="keys-unit-75"></a>
 
@@ -27378,11 +27378,11 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 8. Giving advice is simple.
 
-9. Taking other people’s advice is not always clever.
+9. Taking other people's advice is not always clever.
 
 10. Having much luggage is inconvenient.
 
-11. Following the man wasn’t easy.
+11. Following the man wasn't easy.
 
 12. Speaking before a large audience made him nervous.
 
@@ -27396,7 +27396,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 3. He was tired of being asked questions.
 
-4. I’m looking forward to being shown the place.
+4. I'm looking forward to being shown the place.
 
 5. The manager objects to the work being done now.
 
@@ -27410,7 +27410,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 10. Why do you object to being shown the letter?
 
-11. I don’t mind being left alone.
+11. I don't mind being left alone.
 
 12. He objected to being forced to do it.
 
@@ -27418,13 +27418,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 75.3
 
-1. We don’t mind her coming later.
+1. We don't mind her coming later.
 
-2. I don’t mind helping him.
+2. I don't mind helping him.
 
-3. I don’t mind their visiting me.
+3. I don't mind their visiting me.
 
-4. I don’t mind your turning on the volume.
+4. I don't mind your turning on the volume.
 
 5. Do you mind my turning on the TV-set?
 
@@ -27434,9 +27434,9 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 8. Do you mind my telling them about the plan?
 
-9. I don’t mind her taking the papers.
+9. I don't mind her taking the papers.
 
-10. I don’t mind their playing together.
+10. I don't mind their playing together.
 
 <a id="keys-unit-76"></a>
 
@@ -27448,13 +27448,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. I am fond of swimming in cold water.
 
-2. It’s no use speaking to him.
+2. It's no use speaking to him.
 
 3. He has a habit of interrupting people.
 
 4. He denies seeing Jack on Friday.
 
-5. I can’t imagine living without music.
+5. I can't imagine living without music.
 
 6. He keeps talking.
 
@@ -27464,7 +27464,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 9. She keeps repeating the same thing.
 
-10. It’s no use phoning him.
+10. It's no use phoning him.
 
 11. I enjoy playing tennis on Sunday.
 
@@ -27502,19 +27502,19 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 76.3
 
-1. ... she couldn’t help shouting.
+1. ... she couldn't help shouting.
 
-2. ... I couldn’t help being angry.
+2. ... I couldn't help being angry.
 
-3. ... I can’t help telling him the truth.
+3. ... I can't help telling him the truth.
 
-4. ... she couldn’t help smiling.
+4. ... she couldn't help smiling.
 
-5. ... she couldn’t help tearing it.
+5. ... she couldn't help tearing it.
 
-6. ... couldn’t help putting it on at once.
+6. ... couldn't help putting it on at once.
 
-7. ... couldn’t help buying it.
+7. ... couldn't help buying it.
 
 <a id="key-76-4"></a>
 
@@ -27562,7 +27562,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 6. The man sat down without taking off his hat.
 
-7. It’s difficult to sit for a long time without moving.
+7. It's difficult to sit for a long time without moving.
 
 8. The child played with his toys without paying attention to what was going on.
 
@@ -27574,17 +27574,17 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. I insist on phoning him at once.
 
-3. What’s the use of going there?
+3. What's the use of going there?
 
-4. I’m fond of eating at restaurants.
+4. I'm fond of eating at restaurants.
 
 5. We are looking forward to meeting him.
 
 6. Mark is incapable of hurting the child.
 
-7. I’ve given up riding my bike in the park.
+7. I've given up riding my bike in the park.
 
-8. I don’t object to going by plane.
+8. I don't object to going by plane.
 
 9. Susan is tired of staying here.
 
@@ -27600,7 +27600,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 3. He went on speaking.
 
-4. I wouldn’t like to go on arguing.
+4. I wouldn't like to go on arguing.
 
 5. He went on swimming.
 
@@ -27626,7 +27626,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. Being happy is very good.
 
-2. I don’t mind (I don’t object to) being criticized.
+2. I don't mind (I don't object to) being criticized.
 
 3. He is busy talking on the phone.
 
@@ -27638,7 +27638,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. He went on writing without looking at us.
 
-8. I’m fond of playing tennis.
+8. I'm fond of playing tennis.
 
 9. This information needs checking.
 
@@ -27646,7 +27646,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 2
 
-1. I don’t feel like going out.
+1. I don't feel like going out.
 
 2. On coming home he rang his parents at once.
 
@@ -27660,21 +27660,21 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. I object to being spoken to like this.
 
-8. What’s the use of discussing it now?
+8. What's the use of discussing it now?
 
-9. I’m looking forward to being introduced to this man.
+9. I'm looking forward to being introduced to this man.
 
 10. This programme is worth seeing.
 
 ##### 3
 
-1. I’m not used to being told what to do.
+1. I'm not used to being told what to do.
 
 2. His manner of eating annoys everybody.
 
-3. I don’t mind (don’t object to) his phoning me.
+3. I don't mind (don't object to) his phoning me.
 
-4. I’m tired of her being displeased with everything.
+4. I'm tired of her being displeased with everything.
 
 5. He denies going there.
 
@@ -27682,7 +27682,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. He has achieved a lot by working hard.
 
-8. I’m fond of listening to music.
+8. I'm fond of listening to music.
 
 9. He has given up looking for a job in this town.
 
@@ -27696,9 +27696,9 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 3. The burglars got into the house by breaking the window.
 
-4. I’m used to living in a big city.
+4. I'm used to living in a big city.
 
-5. I’m afraid of her doing it in any case.
+5. I'm afraid of her doing it in any case.
 
 6. Do you mind (object to) our joining you?
 
@@ -27706,9 +27706,9 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 8. Do you feel like moving to another place?
 
-9. It’s no use worrying now.
+9. It's no use worrying now.
 
-10. It’s not worth taking a taxi.
+10. It's not worth taking a taxi.
 
 <a id="keys-unit-77"></a>
 
@@ -27888,7 +27888,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 5. She has had a new dress made.
 
-6. He must have this article translated but he doesn’t know any German.
+6. He must have this article translated but he doesn't know any German.
 
 7. It was the third question for us to decide.
 
@@ -27978,21 +27978,21 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 79.3
 
-1. I used to drink a lot of coffee but now I don’t.
+1. I used to drink a lot of coffee but now I don't.
 
-2. Don’t forget to switch off the light when you are leaving.
+2. Don't forget to switch off the light when you are leaving.
 
 3. I remember paying this bill.
 
 4. I tried to get him on the phone yesterday but I failed. Try doing it in the evening.
 
-5. I’m used to reading newspapers in the morning.
+5. I'm used to reading newspapers in the morning.
 
-6. You won’t regret having a rest there.
+6. You won't regret having a rest there.
 
-7. The lecturer doesn’t allow missing classes.
+7. The lecturer doesn't allow missing classes.
 
-8. The teacher doesn’t allow the children to miss classes.
+8. The teacher doesn't allow the children to miss classes.
 
 9. He stopped to read the announcement.
 
@@ -28054,13 +28054,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. Not having found the necessary papers he felt angry.
 
-3. Not having read the book he couldn’t discuss it.
+3. Not having read the book he couldn't discuss it.
 
 4. Not having taken a decision they turned to him for help.
 
 5. Having made dinner she decided to have a rest.
 
-6. Not having bought tickets he couldn’t join them.
+6. Not having bought tickets he couldn't join them.
 
 7. Having broken his car he had to go by bus.
 
@@ -28088,7 +28088,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 8. Being reconstructed the house was empty.
 
-9. Not having been told the truth he didn’t know how to act.
+9. Not having been told the truth he didn't know how to act.
 
 <a id="keys-unit-81"></a>
 
@@ -28180,15 +28180,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 1
 
-1. I’m looking forward to going to the theatre.
+1. I'm looking forward to going to the theatre.
 
 2. Jane saw Paul buy some flowers.
 
-3. I don’t mind waiting for you.
+3. I don't mind waiting for you.
 
 4. I remember turning off the light when I was leaving.
 
-5. I’m capable of earning my own living.
+5. I'm capable of earning my own living.
 
 6. I saw him crossing the street at the red light.
 
@@ -28202,7 +28202,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### 2
 
-1. You can’t make an omelette without breaking eggs.
+1. You can't make an omelette without breaking eggs.
 
 2. Imagine staying at an expensive hotel.
 
@@ -28212,21 +28212,21 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 5. The play is worth seeing.
 
-6. I don’t feel like going to the disco.
+6. I don't feel like going to the disco.
 
 7. Make him answer the question.
 
-8. It’s no use giving him any advice.
+8. It's no use giving him any advice.
 
-9. I couldn’t help overhearing what you said.
+9. I couldn't help overhearing what you said.
 
 10. I noticed her pick up something and put it into her pocket.
 
 11. I advised him to apply for the job.
 
-12. I’ve arranged for you to meet the president.
+12. I've arranged for you to meet the president.
 
-13. He doesn’t seem to have recovered after the illness.
+13. He doesn't seem to have recovered after the illness.
 
 14. Do you remember locking the door?
 
@@ -28310,7 +28310,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. I want you to wait for me after classes.
 
-2. I didn’t expect him to forget about your birthday.
+2. I didn't expect him to forget about your birthday.
 
 3. He refused to have a smoke because he had given up smoking.
 
@@ -28324,7 +28324,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 8. I hear you speak English.
 
-9. I couldn’t help asking him to stay.
+9. I couldn't help asking him to stay.
 
 10. The teacher made the boy do the exercise again.
 
@@ -28338,9 +28338,9 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 4. I heard a car pass.
 
-5. I saw that he didn’t feel well.
+5. I saw that he didn't feel well.
 
-6. I don’t allow smoking here. I’m tired of reminding you about it.
+6. I don't allow smoking here. I'm tired of reminding you about it.
 
 7. I saw how you looked at him.
 
@@ -28348,21 +28348,21 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 9. At last she has given up telling me what to do.
 
-10. I don’t let the child walk alone.
+10. I don't let the child walk alone.
 
 ##### 3
 
 1. He seems to be a good specialist. I advise you to hire him.
 
-2. I’m used to living alone.
+2. I'm used to living alone.
 
 3. Everybody knew him to be a good doctor.
 
-4. The car needs washing. Don’t forget to do it.
+4. The car needs washing. Don't forget to do it.
 
 5. I expect him to understand our problems.
 
-6. She can’t afford to stay here long.
+6. She can't afford to stay here long.
 
 7. The children were looking forward to going to the seaside.
 
@@ -28370,13 +28370,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 9. He likes laughing at other people.
 
-10. I didn’t like George’s manner of speaking to the client.
+10. I didn't like George's manner of speaking to the client.
 
 11. There are different ways of making a child be polite.
 
 12. We saw her leave the room.
 
-13. Stop worrying. I’ve arranged for you to see a good doctor.
+13. Stop worrying. I've arranged for you to see a good doctor.
 
 14. I heard him asking this question.
 
@@ -28394,13 +28394,13 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 2. They are still discussing it.
 
-3. He hasn’t gone to bed yet.
+3. He hasn't gone to bed yet.
 
-4. He hasn’t caught any fish yet.
+4. He hasn't caught any fish yet.
 
 5. He is still playing computer games.
 
-6. He hasn’t sold it yet.
+6. He hasn't sold it yet.
 
 <a id="key-83-2"></a>
 
@@ -28414,7 +28414,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 4. She has already done the washing up.
 
-5. She isn’t still thinking.
+5. She isn't still thinking.
 
 6. He has already fallen down.
 
@@ -28422,15 +28422,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 83.3
 
-1. Have they bought a new house yet? They haven’t bought a new house yet.
+1. Have they bought a new house yet? They haven't bought a new house yet.
 
-2. Have the children built a house yet? They haven’t built a house yet.
+2. Have the children built a house yet? They haven't built a house yet.
 
-3. Has the painter finished the picture yet? He hasn’t finished the picture yet.
+3. Has the painter finished the picture yet? He hasn't finished the picture yet.
 
-4. Has the baby fallen asleep yet? The baby hasn’t fallen asleep yet.
+4. Has the baby fallen asleep yet? The baby hasn't fallen asleep yet.
 
-5. Has winter begun yet? Winter hasn’t begun yet.
+5. Has winter begun yet? Winter hasn't begun yet.
 
 <a id="key-83-4"></a>
 
@@ -28456,23 +28456,23 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 83.5
 
-1. She hasn’t washed (her face) yet.
+1. She hasn't washed (her face) yet.
 
-2. Michael isn’t a pupil yet. He still goes to a kindergarten.
+2. Michael isn't a pupil yet. He still goes to a kindergarten.
 
-3. The boy is still writing the translation. He hasn’t written it yet.
+3. The boy is still writing the translation. He hasn't written it yet.
 
-4. Are they still waiting for him? Hasn’t he come yet?
+4. Are they still waiting for him? Hasn't he come yet?
 
-5. They have already made it up. They aren’t quarrelling any longer.
+5. They have already made it up. They aren't quarrelling any longer.
 
-6. Are you ready already?! — Yes, I’m ready.
+6. Are you ready already?! — Yes, I'm ready.
 
 7. Have you painted the house yet? — Not yet. We are still painting it.
 
 8. Is he at home yet? — No, he is still working.
 
-9. He is still unemployed. He hasn’t found a job yet.
+9. He is still unemployed. He hasn't found a job yet.
 
 10. He has already written the test but he is still doing the checking up.
 
@@ -28498,15 +28498,15 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 ##### b)
 
-1. They aren’t friends either.
+1. They aren't friends either.
 
-2. I don’t like pop music either.
+2. I don't like pop music either.
 
-3. The Bones haven’t moved to a new flat either.
+3. The Bones haven't moved to a new flat either.
 
-4. You shouldn’t ask him about it either.
+4. You shouldn't ask him about it either.
 
-5. I didn’t plant any trees last year either.
+5. I didn't plant any trees last year either.
 
 <a id="key-84-2"></a>
 
@@ -28534,7 +28534,7 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 1. Neither will Kate.
 
-2. So is Mrs. Black’s child.
+2. So is Mrs. Black's child.
 
 3. So does Clare.
 
@@ -28560,9 +28560,9 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 #### 84.4
 
-1. We don’t know the truth either.
+1. We don't know the truth either.
 
-2. I don’t know this man. Neither does my friend.
+2. I don't know this man. Neither does my friend.
 
 3. They will also be glad. (They will be glad too.)
 
@@ -28574,12 +28574,12 @@ Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling
 
 7. I was born in Moscow. — So were my parents.
 
-8. I’ve been here since morning. — So has she.
+8. I've been here since morning. — So has she.
 
 9. Diana has never met him either.
 
-10. My parents weren’t at home at 5 o’clock yesterday. — Neither were mine.
+10. My parents weren't at home at 5 o'clock yesterday. — Neither were mine.
 
-11. We didn’t ask him for help either.
+11. We didn't ask him for help either.
 
-12. I can’t understand this sentence. — Neither can my sister.
+12. I can't understand this sentence. — Neither can my sister.
