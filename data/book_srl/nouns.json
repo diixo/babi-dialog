@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "nouns": {
+    "book": {
+      "singular": "book",
+      "plural": "books",
+      "article": "a",
+      "countable": true
+    },
+    "letter": {
+      "singular": "letter",
+      "plural": "letters",
+      "article": "a",
+      "countable": true
+    },
+    "novel": {
+      "singular": "novel",
+      "plural": "novels",
+      "article": "a",
+      "countable": true
+    },
+    "story": {
+      "singular": "story",
+      "plural": "stories",
+      "article": "a",
+      "countable": true
+    },
+    "report": {
+      "singular": "report",
+      "plural": "reports",
+      "article": "a",
+      "countable": true
+    },
+    "email": {
+      "singular": "email",
+      "plural": "emails",
+      "article": "an",
+      "countable": true
+    },
+    "apple": {
+      "singular": "apple",
+      "plural": "apples",
+      "article": "an",
+      "countable": true
+    },
+    "orange": {
+      "singular": "orange",
+      "plural": "oranges",
+      "article": "an",
+      "countable": true
+    },
+    "cup": {
+      "singular": "cup",
+      "plural": "cups",
+      "article": "a",
+      "countable": true
+    },
+    "chair": {
+      "singular": "chair",
+      "plural": "chairs",
+      "article": "a",
+      "countable": true
+    },
+    "table": {
+      "singular": "table",
+      "plural": "tables",
+      "article": "a",
+      "countable": true
+    },
+    "pen": {
+      "singular": "pen",
+      "plural": "pens",
+      "article": "a",
+      "countable": true
+    },
+    "car": {
+      "singular": "car",
+      "plural": "cars",
+      "article": "a",
+      "countable": true
+    },
+    "house": {
+      "singular": "house",
+      "plural": "houses",
+      "article": "a",
+      "countable": true
+    },
+    "window": {
+      "singular": "window",
+      "plural": "windows",
+      "article": "a",
+      "countable": true
+    },
+    "picture": {
+      "singular": "picture",
+      "plural": "pictures",
+      "article": "a",
+      "countable": true
+    },
+    "bag": {
+      "singular": "bag",
+      "plural": "bags",
+      "article": "a",
+      "countable": true
+    },
+    "umbrella": {
+      "singular": "umbrella",
+      "plural": "umbrellas",
+      "article": "an",
+      "countable": true
+    },
+    "dog": {
+      "singular": "dog",
+      "plural": "dogs",
+      "article": "a",
+      "countable": true
+    },
+    "cat": {
+      "singular": "cat",
+      "plural": "cats",
+      "article": "a",
+      "countable": true
+    },
+    "child": {
+      "singular": "child",
+      "plural": "children",
+      "article": "a",
+      "countable": true
+    },
+    "man": {
+      "singular": "man",
+      "plural": "men",
+      "article": "a",
+      "countable": true
+    },
+    "woman": {
+      "singular": "woman",
+      "plural": "women",
+      "article": "a",
+      "countable": true
+    },
+    "tooth": {
+      "singular": "tooth",
+      "plural": "teeth",
+      "article": "a",
+      "countable": true
+    },
+    "foot": {
+      "singular": "foot",
+      "plural": "feet",
+      "article": "a",
+      "countable": true
+    },
+    "mouse": {
+      "singular": "mouse",
+      "plural": "mice",
+      "article": "a",
+      "countable": true
+    },
+    "sheep": {
+      "singular": "sheep",
+      "plural": "sheep",
+      "article": "a",
+      "countable": true
+    },
+    "knife": {
+      "singular": "knife",
+      "plural": "knives",
+      "article": "a",
+      "countable": true
+    },
+    "leaf": {
+      "singular": "leaf",
+      "plural": "leaves",
+      "article": "a",
+      "countable": true
+    },
+    "box": {
+      "singular": "box",
+      "plural": "boxes",
+      "article": "a",
+      "countable": true
+    },
+    "city": {
+      "singular": "city",
+      "plural": "cities",
+      "article": "a",
+      "countable": true
+    },
+    "friend": {
+      "singular": "friend",
+      "plural": "friends",
+      "article": "a",
+      "countable": true
+    },
+    "idea": {
+      "singular": "idea",
+      "plural": "ideas",
+      "article": "an",
+      "countable": true
+    },
+    "water": {
+      "singular": "water",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "tea": {
+      "singular": "tea",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "coffee": {
+      "singular": "coffee",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "rice": {
+      "singular": "rice",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "soup": {
+      "singular": "soup",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "advice": {
+      "singular": "advice",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "information": {
+      "singular": "information",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "news": {
+      "singular": "news",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "money": {
+      "singular": "money",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "furniture": {
+      "singular": "furniture",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "luggage": {
+      "singular": "luggage",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "homework": {
+      "singular": "homework",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "music": {
+      "singular": "music",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "bread": {
+      "singular": "bread",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "snow": {
+      "singular": "snow",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "work": {
+      "singular": "work",
+      "plural": "",
+      "article": "",
+      "countable": false
+    },
+    "time": {
+      "singular": "time",
+      "plural": "",
+      "article": "",
+      "countable": false
+    }
+  },
+  "people": {
+    "mary": {
+      "name": "Mary",
+      "entity": "mary",
+      "subject": "Mary",
+      "pronoun": "she",
+      "pronoun_cap": "She",
+      "object": "her",
+      "possessive": "her",
+      "absolute": "hers",
+      "reflexive": "herself"
+    },
+    "john": {
+      "name": "John",
+      "entity": "john",
+      "subject": "John",
+      "pronoun": "he",
+      "pronoun_cap": "He",
+      "object": "him",
+      "possessive": "his",
+      "absolute": "his",
+      "reflexive": "himself"
+    },
+    "anna": {
+      "name": "Anna",
+      "entity": "anna",
+      "subject": "Anna",
+      "pronoun": "she",
+      "pronoun_cap": "She",
+      "object": "her",
+      "possessive": "her",
+      "absolute": "hers",
+      "reflexive": "herself"
+    },
+    "tom": {
+      "name": "Tom",
+      "entity": "tom",
+      "subject": "Tom",
+      "pronoun": "he",
+      "pronoun_cap": "He",
+      "object": "him",
+      "possessive": "his",
+      "absolute": "his",
+      "reflexive": "himself"
+    }
+  }
+}

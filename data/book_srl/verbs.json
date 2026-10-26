@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "verbs": {
+    "read": {
+      "lemma": "read",
+      "present3": "reads",
+      "past": "read",
+      "participle": "read",
+      "gerund": "reading",
+      "objects": [
+        "book",
+        "novel",
+        "story",
+        "report",
+        "email",
+        "letter"
+      ]
+    },
+    "write": {
+      "lemma": "write",
+      "present3": "writes",
+      "past": "wrote",
+      "participle": "written",
+      "gerund": "writing",
+      "objects": [
+        "book",
+        "novel",
+        "story",
+        "report",
+        "email",
+        "letter"
+      ]
+    },
+    "buy": {
+      "lemma": "buy",
+      "present3": "buys",
+      "past": "bought",
+      "participle": "bought",
+      "gerund": "buying",
+      "objects": [
+        "book",
+        "apple",
+        "orange",
+        "car",
+        "house",
+        "pen",
+        "bag",
+        "umbrella"
+      ]
+    },
+    "eat": {
+      "lemma": "eat",
+      "present3": "eats",
+      "past": "ate",
+      "participle": "eaten",
+      "gerund": "eating",
+      "objects": [
+        "apple",
+        "orange",
+        "rice",
+        "soup",
+        "bread"
+      ]
+    },
+    "drink": {
+      "lemma": "drink",
+      "present3": "drinks",
+      "past": "drank",
+      "participle": "drunk",
+      "gerund": "drinking",
+      "objects": [
+        "water",
+        "tea",
+        "coffee"
+      ]
+    },
+    "open": {
+      "lemma": "open",
+      "present3": "opens",
+      "past": "opened",
+      "participle": "opened",
+      "gerund": "opening",
+      "objects": [
+        "book",
+        "window",
+        "box",
+        "bag"
+      ]
+    },
+    "close": {
+      "lemma": "close",
+      "present3": "closes",
+      "past": "closed",
+      "participle": "closed",
+      "gerund": "closing",
+      "objects": [
+        "book",
+        "window",
+        "box",
+        "bag"
+      ]
+    },
+    "clean": {
+      "lemma": "clean",
+      "present3": "cleans",
+      "past": "cleaned",
+      "participle": "cleaned",
+      "gerund": "cleaning",
+      "objects": [
+        "car",
+        "house",
+        "window",
+        "table"
+      ]
+    },
+    "repair": {
+      "lemma": "repair",
+      "present3": "repairs",
+      "past": "repaired",
+      "participle": "repaired",
+      "gerund": "repairing",
+      "objects": [
+        "car",
+        "chair",
+        "table"
+      ]
+    },
+    "work": {
+      "lemma": "work",
+      "present3": "works",
+      "past": "worked",
+      "participle": "worked",
+      "gerund": "working",
+      "objects": []
+    },
+    "live": {
+      "lemma": "live",
+      "present3": "lives",
+      "past": "lived",
+      "participle": "lived",
+      "gerund": "living",
+      "objects": []
+    },
+    "play": {
+      "lemma": "play",
+      "present3": "plays",
+      "past": "played",
+      "participle": "played",
+      "gerund": "playing",
+      "objects": [
+        "music"
+      ]
+    },
+    "learn": {
+      "lemma": "learn",
+      "present3": "learns",
+      "past": "learned",
+      "participle": "learned",
+      "gerund": "learning",
+      "objects": []
+    },
+    "finish": {
+      "lemma": "finish",
+      "present3": "finishes",
+      "past": "finished",
+      "participle": "finished",
+      "gerund": "finishing",
+      "objects": [
+        "book",
+        "report",
+        "homework"
+      ]
+    },
+    "visit": {
+      "lemma": "visit",
+      "present3": "visits",
+      "past": "visited",
+      "participle": "visited",
+      "gerund": "visiting",
+      "objects": [
+        "city",
+        "friend"
+      ]
+    },
+    "go": {
+      "lemma": "go",
+      "present3": "goes",
+      "past": "went",
+      "participle": "gone",
+      "gerund": "going",
+      "objects": []
+    },
+    "come": {
+      "lemma": "come",
+      "present3": "comes",
+      "past": "came",
+      "participle": "come",
+      "gerund": "coming",
+      "objects": []
+    },
+    "leave": {
+      "lemma": "leave",
+      "present3": "leaves",
+      "past": "left",
+      "participle": "left",
+      "gerund": "leaving",
+      "objects": [
+        "house",
+        "city"
+      ]
+    },
+    "give": {
+      "lemma": "give",
+      "present3": "gives",
+      "past": "gave",
+      "participle": "given",
+      "gerund": "giving",
+      "objects": [
+        "book",
+        "pen",
+        "advice",
+        "information"
+      ]
+    },
+    "tell": {
+      "lemma": "tell",
+      "present3": "tells",
+      "past": "told",
+      "participle": "told",
+      "gerund": "telling",
+      "objects": [
+        "story"
+      ]
+    },
+    "ask": {
+      "lemma": "ask",
+      "present3": "asks",
+      "past": "asked",
+      "participle": "asked",
+      "gerund": "asking",
+      "objects": []
+    },
+    "say": {
+      "lemma": "say",
+      "present3": "says",
+      "past": "said",
+      "participle": "said",
+      "gerund": "saying",
+      "objects": []
+    },
+    "want": {
+      "lemma": "want",
+      "present3": "wants",
+      "past": "wanted",
+      "participle": "wanted",
+      "gerund": "wanting",
+      "objects": [
+        "book",
+        "water"
+      ]
+    },
+    "know": {
+      "lemma": "know",
+      "present3": "knows",
+      "past": "knew",
+      "participle": "known",
+      "gerund": "knowing",
+      "objects": []
+    },
+    "think": {
+      "lemma": "think",
+      "present3": "thinks",
+      "past": "thought",
+      "participle": "thought",
+      "gerund": "thinking",
+      "objects": []
+    },
+    "meet": {
+      "lemma": "meet",
+      "present3": "meets",
+      "past": "met",
+      "participle": "met",
+      "gerund": "meeting",
+      "objects": [
+        "friend"
+      ]
+    },
+    "help": {
+      "lemma": "help",
+      "present3": "helps",
+      "past": "helped",
+      "participle": "helped",
+      "gerund": "helping",
+      "objects": [
+        "child",
+        "friend"
+      ]
+    },
+    "wait": {
+      "lemma": "wait",
+      "present3": "waits",
+      "past": "waited",
+      "participle": "waited",
+      "gerund": "waiting",
+      "objects": []
+    },
+    "listen": {
+      "lemma": "listen",
+      "present3": "listens",
+      "past": "listened",
+      "participle": "listened",
+      "gerund": "listening",
+      "objects": [
+        "music"
+      ]
+    },
+    "teach": {
+      "lemma": "teach",
+      "present3": "teaches",
+      "past": "taught",
+      "participle": "taught",
+      "gerund": "teaching",
+      "objects": []
+    },
+    "make": {
+      "lemma": "make",
+      "present3": "makes",
+      "past": "made",
+      "participle": "made",
+      "gerund": "making",
+      "objects": [
+        "tea",
+        "coffee",
+        "soup"
+      ]
+    },
+    "let": {
+      "lemma": "let",
+      "present3": "lets",
+      "past": "let",
+      "participle": "let",
+      "gerund": "letting",
+      "objects": []
+    },
+    "see": {
+      "lemma": "see",
+      "present3": "sees",
+      "past": "saw",
+      "participle": "seen",
+      "gerund": "seeing",
+      "objects": [
+        "child",
+        "friend",
+        "dog",
+        "cat"
+      ]
+    },
+    "hear": {
+      "lemma": "hear",
+      "present3": "hears",
+      "past": "heard",
+      "participle": "heard",
+      "gerund": "hearing",
+      "objects": [
+        "music"
+      ]
+    },
+    "remember": {
+      "lemma": "remember",
+      "present3": "remembers",
+      "past": "remembered",
+      "participle": "remembered",
+      "gerund": "remembering",
+      "objects": []
+    },
+    "forget": {
+      "lemma": "forget",
+      "present3": "forgets",
+      "past": "forgot",
+      "participle": "forgotten",
+      "gerund": "forgetting",
+      "objects": []
+    },
+    "stop": {
+      "lemma": "stop",
+      "present3": "stops",
+      "past": "stopped",
+      "participle": "stopped",
+      "gerund": "stopping",
+      "objects": []
+    },
+    "try": {
+      "lemma": "try",
+      "present3": "tries",
+      "past": "tried",
+      "participle": "tried",
+      "gerund": "trying",
+      "objects": []
+    },
+    "enjoy": {
+      "lemma": "enjoy",
+      "present3": "enjoys",
+      "past": "enjoyed",
+      "participle": "enjoyed",
+      "gerund": "enjoying",
+      "objects": [
+        "music"
+      ]
+    },
+    "like": {
+      "lemma": "like",
+      "present3": "likes",
+      "past": "liked",
+      "participle": "liked",
+      "gerund": "liking",
+      "objects": [
+        "book",
+        "music",
+        "coffee"
+      ]
+    },
+    "need": {
+      "lemma": "need",
+      "present3": "needs",
+      "past": "needed",
+      "participle": "needed",
+      "gerund": "needing",
+      "objects": [
+        "water",
+        "advice"
+      ]
+    },
+    "have": {
+      "lemma": "have",
+      "present3": "has",
+      "past": "had",
+      "participle": "had",
+      "gerund": "having",
+      "objects": [
+        "book",
+        "car",
+        "time"
+      ]
+    },
+    "be": {
+      "lemma": "be",
+      "present3": "is",
+      "past": "was",
+      "participle": "been",
+      "gerund": "being",
+      "objects": []
+    },
+    "do": {
+      "lemma": "do",
+      "present3": "does",
+      "past": "did",
+      "participle": "done",
+      "gerund": "doing",
+      "objects": [
+        "homework",
+        "work"
+      ]
+    },
+    "sleep": {
+      "lemma": "sleep",
+      "present3": "sleeps",
+      "past": "slept",
+      "participle": "slept",
+      "gerund": "sleeping",
+      "objects": []
+    },
+    "run": {
+      "lemma": "run",
+      "present3": "runs",
+      "past": "ran",
+      "participle": "run",
+      "gerund": "running",
+      "objects": []
+    },
+    "swim": {
+      "lemma": "swim",
+      "present3": "swims",
+      "past": "swam",
+      "participle": "swum",
+      "gerund": "swimming",
+      "objects": []
+    },
+    "speak": {
+      "lemma": "speak",
+      "present3": "speaks",
+      "past": "spoke",
+      "participle": "spoken",
+      "gerund": "speaking",
+      "objects": []
+    },
+    "arrive": {
+      "lemma": "arrive",
+      "present3": "arrives",
+      "past": "arrived",
+      "participle": "arrived",
+      "gerund": "arriving",
+      "objects": []
+    },
+    "lose": {
+      "lemma": "lose",
+      "present3": "loses",
+      "past": "lost",
+      "participle": "lost",
+      "gerund": "losing",
+      "objects": [
+        "book",
+        "pen"
+      ]
+    },
+    "bring": {
+      "lemma": "bring",
+      "present3": "brings",
+      "past": "brought",
+      "participle": "brought",
+      "gerund": "bringing",
+      "objects": [
+        "book",
+        "pen"
+      ]
+    },
+    "send": {
+      "lemma": "send",
+      "present3": "sends",
+      "past": "sent",
+      "participle": "sent",
+      "gerund": "sending",
+      "objects": [
+        "letter",
+        "email"
+      ]
+    },
+    "wash": {
+      "lemma": "wash",
+      "present3": "washes",
+      "past": "washed",
+      "participle": "washed",
+      "gerund": "washing",
+      "objects": [
+        "car"
+      ]
+    },
+    "paint": {
+      "lemma": "paint",
+      "present3": "paints",
+      "past": "painted",
+      "participle": "painted",
+      "gerund": "painting",
+      "objects": [
+        "house",
+        "picture"
+      ]
+    },
+    "grow": {
+      "lemma": "grow",
+      "present3": "grows",
+      "past": "grew",
+      "participle": "grown",
+      "gerund": "growing",
+      "objects": []
+    },
+    "become": {
+      "lemma": "become",
+      "present3": "becomes",
+      "past": "became",
+      "participle": "become",
+      "gerund": "becoming",
+      "objects": []
+    }
+  }
+}
