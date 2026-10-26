@@ -2,7 +2,7 @@
 
 **Авторы:** Е. В. Зверховская, Е. Ф. Косиченко. **Издание:** 2-е, исправленное. БХВ-Петербург, 2014. ISBN 978-5-9775-3303-4.
 
-Источник: [English-Grammar.pdf](English-Grammar.pdf). Сохранены учебные разделы, правила, примеры, задания и приложение. Ответы из ключей размещены под соответствующими упражнениями и развёрнуты в полные предложения или тексты. Задания на чтение снабжены транскрипцией. Рекламные страницы издательства и повторный отдельный раздел ключей не дублируются.
+Источник: [English-Grammar.pdf](English-Grammar.pdf). Сохранены учебные разделы, правила, примеры, задания и приложение. Ответы из ключей размещены под соответствующими упражнениями и развёрнуты в полные предложения или тексты. Задания на чтение снабжены транскрипцией. Оригинальный раздел ключей приведён в конце файла. Рекламные страницы издательства не дублируются.
 
 Номера страниц ниже — печатные номера книги; номер страницы PDF на единицу больше. Курсивом и полужирным сохранены выделения, существенные для заданий. В упражнениях о личном опыте приведены примерные ответы. Варианты в скобках допустимы; для заполнения пропусков выбран один согласованный вариант. Обнаруженные ошибки и расхождения в ключах отмечены возле соответствующих упражнений.
 
@@ -205,6 +205,8 @@
 - [Приложение: неправильные глаголы](#appendix)
 
 - [Редакторские замечания](#editorial-notes)
+
+- [Ключи к упражнениям](#answer-keys)
 
 ## От авторов
 
@@ -18299,3 +18301,10319 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 - [Упражнение 78.3](#exercise-78-3): Печатные ключи меняют смысл исходных отрицательных ситуаций. Решения исправлены с помощью not + adjective + enough + infinitive: not cheap enough, not large enough и т. д.
 
 Упражнения 39.1 и 44.1: транскрипция восстановлена в Unicode IPA, поскольку фонетические символы исходного PDF извлекаются с потерями. В решениях исправлены явные технические опечатки и развёрнуты сокращённые ключи; исходные неверные предложения в заданиях на исправление ошибок оставлены для сравнения. В приложении исправлено bear — bore — borne в значении «выносить трудности»; born употребляется в значении рождения.
+
+<a id="answer-keys"></a>
+
+## КЛЮЧИ К УПРАЖНЕНИЯМ
+
+Оригинальные ключи из книги, страницы 224–299. Сохранены формулировки и нумерация печатного раздела.
+
+<a id="keys-unit-1"></a>
+
+### UNIT 1
+
+<a id="key-1-1"></a>
+
+#### 1.1
+
+1. a, the
+
+2. a, the
+
+3. a, a, the
+
+4. an, the, a
+
+5. the
+
+6. the, the
+
+7. an, the
+
+8. a, the
+
+9. the
+
+10. an, the
+
+11. an
+
+12. the
+
+13. the, a, the, a
+
+14. a, the
+
+15. the
+
+<a id="key-1-2"></a>
+
+#### 1.2
+
+##### 1
+
+1. the
+
+2. the
+
+3. –
+
+4. the
+
+5. –
+
+6. the
+
+7. –, –
+
+8. –
+
+9. –
+
+##### 2
+
+1. –
+
+2. –, a, –, –
+
+3. –, the
+
+4. the
+
+5. a
+
+6. a, the, the
+
+7. the
+
+8. the, –
+
+9. the, the, the
+
+10. the, the
+
+11. –, the
+
+12. the
+
+13. the,
+
+14. a, a
+
+15. the, the
+
+16. the
+
+<a id="keys-unit-2"></a>
+
+### UNIT 2
+
+<a id="key-2-1"></a>
+
+#### 2.1
+
+##### 1
+
+1. the, –
+
+2. the
+
+3. a
+
+4. –, the
+
+5. the, the, the
+
+6. the
+
+7. the, the
+
+8. the, –
+
+9. –
+
+10. –
+
+##### 2
+
+1. the
+
+2. the
+
+3. the
+
+4. the
+
+5. a
+
+6. the, –
+
+7. an
+
+8. the, the
+
+9. the
+
+10. the, the, the
+
+##### 3
+
+1. a
+
+2. a, the
+
+3. the, the
+
+4. the, a, a
+
+5. a, the
+
+6. the
+
+7. –, the
+
+8. the
+
+9. the, the, the,
+
+10. the, the
+
+##### 4
+
+1. the, the
+
+2. an, the
+
+3. the, –
+
+4. the, the
+
+5. the, –
+
+6. the, the, –
+
+7. the, the
+
+8. a, the, the
+
+9. the, the, the
+
+10. the, the, the
+
+11. the, –, –
+
+<a id="keys-unit-3"></a>
+
+### UNIT 3
+
+<a id="key-3-1"></a>
+
+#### 3.1
+
+##### 1
+
+1. the, –
+
+2. –
+
+3. –
+
+4. –, the
+
+5. –
+
+6. the, a, –
+
+7. –,–
+
+8. –, –
+
+9. –, the
+
+10. the, –
+
+##### 2
+
+1. –, a
+
+2. –
+
+3. the
+
+4. the, –
+
+5. an
+
+6. –
+
+7. the , –, –
+
+8. the, –
+
+9. the
+
+10. –, –, –
+
+##### 3
+
+1. a, an
+
+2. –
+
+3. –
+
+4. –, –, the, the, the
+
+5. a, –
+
+6. –
+
+7. –, –, –
+
+8. the, a, –
+
+9. the, –
+
+10. –, –
+
+##### 4
+
+1. –, a
+
+2. –, the
+
+3. –, –
+
+4. –
+
+5. –, –
+
+6. –, –
+
+7. –, –
+
+8. –
+
+9. the, –
+
+10. the, –
+
+<a id="keys-unit-4"></a>
+
+### UNIT 4
+
+<a id="key-4-1"></a>
+
+#### 4.1
+
+1. the, a
+
+2. the, a
+
+3. the
+
+4. the
+
+5. the, –
+
+6. the, –
+
+7. the, –
+
+8. a, the
+
+9. –, the
+
+10. the, the, a
+
+11. the, the, the
+
+12. –, –
+
+13. a, –, –, the
+
+14. the, –
+
+<a id="key-4-2"></a>
+
+#### 4.2
+
+##### 1
+
+1. The camel
+
+2. The crocodile
+
+3. The kangaroo
+
+4. The mouse
+
+5. The dog
+
+6. The cow
+
+##### 2
+
+1. The sick
+
+2. The poor
+
+3. The unemployed
+
+4. The old
+
+5. The homeless
+
+6. The young
+
+##### 3
+
+1. The Brazilians
+
+2. The Canadians
+
+3. The French
+
+4. The Australians
+
+5. The Mexicans
+
+6. The Chinese
+
+<a id="keys-unit-5"></a>
+
+### UNIT 5
+
+<a id="key-5-1"></a>
+
+#### 5.1
+
+1. –
+
+2. the, –, –, –
+
+3. –
+
+4. the
+
+5. –
+
+6. the, –
+
+7. –
+
+8. –, –, the
+
+9. the
+
+10. the, –, –
+
+11. –
+
+12. the
+
+<a id="key-5-2"></a>
+
+#### 5.2
+
+1. The English Channel
+
+2. Europe
+
+3. The Mississippi
+
+4. Germany
+
+5. The North Sea
+
+6. North America
+
+7. Everest
+
+8. The Pacific Ocean
+
+9. The Volga
+
+10. Lake Baikal
+
+11. The Urals
+
+12. Asia
+
+<a id="key-5-3"></a>
+
+#### 5.3
+
+1. –, the
+
+2. –, the
+
+3. the, –, –, –, –
+
+4. the, the
+
+5. the
+
+6. –, the
+
+7. the
+
+8. the
+
+9. the, –, –
+
+10. –, the, –
+
+11. a, –, a
+
+12. an, –
+
+<a id="keys-unit-6"></a>
+
+### UNIT 6
+
+<a id="key-6-1"></a>
+
+#### 6.1
+
+1. the
+
+2. –
+
+3. –, –
+
+4. –, the
+
+5. the
+
+6. –, –
+
+7. –, the
+
+8. the, the
+
+9. the
+
+10. the, –
+
+11. –, –
+
+12. the
+
+<a id="key-6-2"></a>
+
+#### 6.2
+
+1. the Savoy
+
+2. Wednesday, Lincoln International Airport
+
+3. Talbot Square
+
+4. the Capitol
+
+5. the Tate Gallery
+
+6. St. James’s Park / St. James’s Palace
+
+7. the Science Museum
+
+8. the Mansion House
+
+9. the Today
+
+10. the Statue of Liberty.
+
+<a id="key-6-3"></a>
+
+#### 6.3
+
+1. The Independent
+
+2. The Houses of Parliament
+
+3. Cambridge University
+
+4. The Ritz
+
+5. The Bank of England
+
+6. Westminster Abbey
+
+7. The British Museum
+
+8. The Mall
+
+9. Fleet Street
+
+10. The Albert Hall
+
+11. The Tower of London
+
+12. Victoria Station
+
+<a id="keys-unit-7"></a>
+
+### UNIT 7
+
+<a id="key-7-1"></a>
+
+#### 7.1
+
+##### 1
+
+1. the
+
+2. a
+
+3. a
+
+4. the, a
+
+5. a
+
+6. the
+
+7. a
+
+8. the
+
+9. a
+
+10. the
+
+##### 2
+
+1. the
+
+2. the
+
+3. the
+
+4. a, a
+
+5. an
+
+6. the
+
+7. a
+
+8. the
+
+9. a
+
+10. a
+
+<a id="key-7-2"></a>
+
+#### 7.2
+
+1. the daughter of a scientist
+
+2. a distance of twenty miles
+
+3. a glass of juice
+
+4. a man of culture
+
+5. a book of interest
+
+6. a girl of thirteen
+
+7. the collar of the shirt
+
+8. the position of a manager
+
+9. a sense of duty
+
+10. the development of science
+
+11. the bottom of the page
+
+12. a dress of silk
+
+13. The face of the man
+
+14. the front of the house
+
+15. the results of the exam
+
+<a id="keys-unit-8"></a>
+
+### UNIT 8
+
+<a id="key-8-1"></a>
+
+#### 8.1
+
+1. yesterday evening
+
+2. tomorrow afternoon
+
+3. Monday morning
+
+4. Sunday evening
+
+5. for breakfast
+
+6. a light or a heavy breakfast
+
+7. make dinner
+
+8. a late supper
+
+9. in the morning
+
+10. last night
+
+11. to supper
+
+12. for the summer
+
+13. late spring
+
+14. autumn
+
+15. in winter
+
+16. last winter
+
+<a id="key-8-2"></a>
+
+#### 8.2
+
+1. during the day
+
+2. for the summer
+
+3. in spring
+
+4. late afternoon
+
+5. a cold evening
+
+6. a heavy breakfast
+
+7. the dinner
+
+8. midday
+
+9. the evening
+
+10. during the morning
+
+11. The lunch
+
+12. through the night
+
+13. a rainy summer
+
+14. Late summer
+
+<a id="key-8-3"></a>
+
+#### 8.3
+
+1. a, –
+
+2. a
+
+3. a
+
+4. –, –
+
+5. the
+
+6. –, the
+
+7. the
+
+8. (the) winter
+
+9. –, the
+
+10. –, the
+
+11. –
+
+12. a
+
+13. the, the
+
+14. –
+
+<a id="keys-unit-9"></a>
+
+### UNIT 9
+
+<a id="key-9-1"></a>
+
+#### 9.1
+
+1. town
+
+2. prison
+
+3. home
+
+4. work
+
+5. hospital
+
+6. sea
+
+7. church
+
+8. school, college
+
+9. bed
+
+10. prison
+
+11. school
+
+12. hospital
+
+13. work
+
+14. bed
+
+<a id="key-9-2"></a>
+
+#### 9.2
+
+##### 1
+
+1. –
+
+2. –
+
+3. the
+
+4. –
+
+5. the
+
+6. the
+
+7. the
+
+8. a
+
+9. –
+
+10. the
+
+11. a
+
+12. –
+
+13. the
+
+##### 2
+
+1. a, the
+
+2. –
+
+3. the
+
+4. –
+
+5. the
+
+6. –
+
+7. an, the
+
+8. a
+
+9. a
+
+10. a
+
+11. –
+
+12. –
+
+<a id="keys-unit-10"></a>
+
+### UNIT 10
+
+<a id="key-10-1"></a>
+
+#### 10.1
+
+##### 1
+
+1. a
+
+2. –
+
+3. the, –
+
+4. –, –
+
+5. –, the
+
+6. a, the
+
+7. –, –
+
+8. –, the
+
+9. the
+
+10. the
+
+##### 2
+
+1. the, the
+
+2. –, –
+
+3. the, a, –
+
+4. –, the
+
+5. a
+
+6. –, the, the, –
+
+7. a, the, the
+
+8. the, –
+
+9. –
+
+10. the, an
+
+##### 3
+
+1. –, the
+
+2. the, –
+
+3. the, the
+
+4. a, the, the
+
+5. a, –
+
+6. a, a
+
+7. the, the
+
+8. –, –
+
+9. the, the
+
+10. –, –
+
+##### 4
+
+1. –
+
+2. the
+
+3. the, a, the
+
+4. a, a
+
+5. the, –, –
+
+6. –, –
+
+7. the, the
+
+8. –, the
+
+9. the, the
+
+10. –, –, an
+
+##### 5
+
+1. –, –
+
+2. the, the
+
+3. –, a, the, –
+
+4. the, the
+
+5. the, the
+
+6. the, the
+
+7. –, –
+
+8. the, the
+
+9. – , the
+
+10. –, –, –
+
+<a id="key-10-2"></a>
+
+#### 10.2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| --- | --- | --- | --- | --- | --- | --- |
+| – | – | – | – | the | the | the |
+| – | the | a | the | the | the | – |
+| a | – | a | the | the | – | – |
+| a | – | – | – | the | the | – |
+| – | the | – | the | the | – | – |
+| the | the | the | the | the | – | the |
+| the | the | the | – | the | the | the |
+| –(the) | – | the | – | the | – | – |
+| an | – | the | – | a | – | the |
+| the | a | the | the | – | – | the |
+| – | the | – | the | – | the | – |
+| a | – | – | the | – | – |  |
+| the | – | the | – | – | – |  |
+| the | the | a | – | – | – |  |
+| the | – | a | – | the | – |  |
+| a | – | the | – | the | – |  |
+| a | the | the | – |  | – |  |
+| the | the | the | – |  |  |  |
+| a | the | the | – |  |  |  |
+| the | – | the | – |  |  |  |
+| a | – | the | – |  |  |  |
+| the | – | a |  |  |  |  |
+| the | the | the |  |  |  |  |
+| – | – |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| the | a |  |  |  |  |  |
+| – | the |  |  |  |  |  |
+| a | a |  |  |  |  |  |
+| a | a |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| an | a |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| a | the |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| – | the |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| the | – |  |  |  |  |  |
+| the | the |  |  |  |  |  |
+| the | – |  |  |  |  |  |
+| the |  |  |  |  |  |  |
+
+<a id="keys-unit-11"></a>
+
+### UNIT 11
+
+<a id="key-11-1"></a>
+
+#### 11.1
+
+1. those shelves
+
+2. these matches
+
+3. those buses
+
+4. my gloves
+
+5. his photos
+
+6. my studies
+
+7. her brothers-in-law
+
+8. those taxis
+
+9. her radios
+
+10. these watches
+
+11. these passers-by
+
+12. these children
+
+13. those sheep
+
+14. these policemen
+
+15. his toys
+
+16. my teeth
+
+17. her chiefs
+
+18. these potatoes
+
+19. those roses
+
+20. these paths
+
+<a id="key-11-2"></a>
+
+#### 11.2
+
+1. These aircraft are new.
+
+2. I saw cats playing with mice.
+
+3. I’ve never won prizes.
+
+4. Do you know these ladies?
+
+5. These are tall trees.
+
+6. I need boxes.
+
+7. We are going to visit these countries.
+
+8. She has grandchildren.
+
+9. These men are thieves.
+
+10. I like these players.
+
+11. I don’t have ashtrays.
+
+12. Have you ever talked to Frenchmen?
+
+13. There are swimming pools in our town.
+
+14. He likes his teachers.
+
+<a id="key-11-3"></a>
+
+#### 11.3
+
+1. proofs
+
+2. cities
+
+3. roofs
+
+4. students
+
+5. knives
+
+6. geese
+
+7. deer
+
+8. shelves
+
+9. lorries
+
+10. plays
+
+11. Irishmen
+
+12. feet
+
+13. pianos
+
+14. eyes
+
+15. umbrellas
+
+<a id="keys-unit-12"></a>
+
+### UNIT 12
+
+<a id="key-12-1"></a>
+
+#### 12.1
+
+##### 1
+
+1. these are
+
+2. is
+
+3. these, want
+
+4. are
+
+5. travels
+
+6. is
+
+7. consists
+
+8. leaves
+
+9. is
+
+10. likes
+
+##### 2
+
+1. advice
+
+2. this is a
+
+3. this is
+
+4. interesting
+
+5. these are
+
+6. brings
+
+7. fine
+
+8. have
+
+9. new
+
+10. a bad
+
+<a id="key-12-2"></a>
+
+#### 12.2
+
+##### 1
+
+1. The police are looking for him.
+
+2. What’s the matter with his feet?
+
+3. This is bad advice.
+
+4. His wages are rather high.
+
+5. This information is dated.
+
+6. This cat doesn’t catch mice.
+
+7. Her hair isn’t very long.
+
+8. The goods are spoilt.
+
+9. This is good news.
+
+10. Where is the money? — It’s in the wallet.
+
+11. These people are Germans.
+
+12. Why are your clothes on the floor? Put them in the wardrobe.
+
+##### 2
+
+1. Physics is his favourite subject.
+
+2. Your progress gives me pleasure.
+
+3. These children are still little.
+
+4. This is terrible furniture.
+
+5. He had two sons-in-law.
+
+6. I don’t like rainy weather.
+
+7. Where are the scissors?
+
+8. This is heavy luggage.
+
+9. These are dirty clothes.
+
+10. The police know everything.
+
+11. My watch is a bit fast.
+
+12. His advice is always good.
+
+<a id="keys-unit-13"></a>
+
+### UNIT 13
+
+<a id="key-13-1"></a>
+
+#### 13.1
+
+##### 1
+
+1. much
+
+2. a lot of
+
+3. much
+
+4. many
+
+5. a lot of
+
+6. many
+
+7. much
+
+8. much
+
+9. a lot of
+
+10. many
+
+11. many
+
+12. much
+
+13. a lot of
+
+14. much
+
+15. much
+
+##### 2
+
+1. little
+
+2. a few
+
+3. few
+
+4. a little
+
+5. a few
+
+6. few
+
+7. little
+
+8. a little
+
+9. few
+
+10. a little
+
+11. few
+
+12. a little
+
+13. little
+
+14. a little
+
+15. a few
+
+<a id="key-13-2"></a>
+
+#### 13.2
+
+1. He gave me a lot of good advice.
+
+2. There is little petrol in the tank.
+
+3. I’ll help you if I have a few minutes.
+
+4. I have very much news.
+
+5. Bill has few good clothes and Ted has many.
+
+6. I have a little money. I can lend you some.
+
+7. I have little information about this company.
+
+8. There are a lot of deer in this forest.
+
+9. Little knowledge is a dangerous thing.
+
+10. Shall I put a little sugar in your tea?
+
+11. He drinks too much coffee.
+
+12. In the shop there were a few watches Susan liked, so it was difficult for her to make a choice.
+
+<a id="keys-unit-14"></a>
+
+### UNIT 14
+
+<a id="key-14-1"></a>
+
+#### 14.1
+
+##### 1
+
+1. the parents of the girl playing with my child
+
+2. the back of the car
+
+3. these children’s parents
+
+4. the middle of the page
+
+5. the effect of James’(s) speech
+
+6. my cousin’s house
+
+7. women’s clothes
+
+8. the idea of the article
+
+9. This woman’s story
+
+10. the Wests’ friends
+
+##### 2
+
+1. Moscow’s center / the centre of Moscow
+
+2. The team’s results / the results of the team
+
+3. These doctors’ practice
+
+4. last year’s holiday
+
+5. Yesterday’s visitor
+
+6. the rules of the game
+
+7. this country’s economy / the economy of this country
+
+8. These passengers’ seats
+
+9. these people’s demands
+
+10. my sister-in-law’s books
+
+11. John and Sharon’s children
+
+12. these newspapermen’s question
+
+13. my children’s toys
+
+14. Martin’s and Carol’s papers
+
+<a id="key-14-2"></a>
+
+#### 14.2
+
+##### 1
+
+1. These professors’ lectures are interesting.
+
+2. These policemen’s wages are rather high.
+
+3. Let me see the engine of the car.
+
+4. I didn’t like the end of the story.
+
+5. I like these children’s pictures.
+
+6. The shop’s manager (the manager of the shop) wants to see you.
+
+7. I didn’t like the expression of her face.
+
+8. The visitors of the hotel gathered on the ground floor.
+
+9. This is the umbrella of the woman sitting at that table.
+
+10. I liked Carol’s and Sue’s answers.
+
+##### 2
+
+1. Do you know the cause of the accident?
+
+2. This girl’s new dress is beautiful.
+
+3. Yesterday’s newspaper is on the table.
+
+4. Do you know these people’s addresses?
+
+5. The Smiths’ garden is the most beautiful in the town.
+
+6. The leaves of this tree are yellow.
+
+7. I missed the beginning of the performance.
+
+8. Don’t miss tomorrow’s lesson.
+
+9. Where are these students’ papers?
+
+10. He spoke about last year’s failure.
+
+11. A mile’s distance is not a very long distance.
+
+12. Ted and Bill’s room is cosy.
+
+<a id="keys-unit-15"></a>
+
+### UNIT 15
+
+<a id="key-15-1"></a>
+
+#### 15.1
+
+##### 1
+
+1. these engineers’ work
+
+2. my sisters’ clothes
+
+3. these women’s secrets
+
+4. these countries’ economies
+
+5. my friends’ advice
+
+6. his teachers’ questions
+
+7. these men’s wives
+
+8. my children’s toothbrushes
+
+9. these cities’ mayors or the mayors of these cities
+
+10. the wool of these sheep or these sheep’s wool
+
+##### 2
+
+1. these scientists’ progress
+
+2. her pupils’ knowledge
+
+3. these birds’ nests or the nests of these birds
+
+4. the tops of the mountains
+
+5. these sportsmen’s coaches
+
+6. these presidents’ aircraft
+
+7. these farmers’ geese
+
+8. the pages of the books
+
+9. the smell of cigars
+
+10. the Lees’ cottage
+
+<a id="key-15-2"></a>
+
+#### 15.2
+
+1. the postman’s mistake
+
+2. The country’s president (the president of the country)
+
+3. the guests’ arrival
+
+4. the team’s play (the play of the team)
+
+5. The advertisement of the soap.
+
+6. the sound of the piano
+
+7. the students’ progress
+
+8. the price of the furniture
+
+9. the smell of the dish
+
+10. children’s wear
+
+11. the author’s name
+
+<a id="key-15-3"></a>
+
+#### 15.3
+
+1. How many, very few
+
+2. How much, very little
+
+3. How many, very few
+
+4. How many, very few
+
+5. How much, very little
+
+6. How much, very little
+
+7. How many, very few
+
+8. How much, very little
+
+9. How many, very few
+
+10. How many, very few
+
+<a id="key-15-4"></a>
+
+#### 15.4
+
+##### 1
+
+1. My mother-in-law has a lot of sisters.
+
+2. My mother-in-law’s sisters live in another town.
+
+3. The police have a lot of proofs.
+
+4. Take these skis.
+
+5. The face of this watch is unusual.
+
+6. The roofs of these houses are flat.
+
+7. These are my friends’ photos.
+
+8. Have you got a map of the world?
+
+9. He has two bad teeth.
+
+10. I enjoy walking in good weather.
+
+##### 2
+
+1. This is those Englishmen’s luggage.
+
+2. I have a lot of news.
+
+3. I’ll get in touch with you in a few days.
+
+4. Why are your brother’s clothes wet? Let him dry them.
+
+5. All these watches are expensive.
+
+6. I didn’t like these policemen’s questions.
+
+7. Physics is a very difficult subject.
+
+8. This is easy work.
+
+9. I don’t like these passers-by’s faces.
+
+10. Do you know the results of yesterday’s matches?
+
+##### 3
+
+1. He gave me much (a lot of) advice but I don’t want to take it.
+
+2. The covers of these books are nice.
+
+3. How much free time does he have? — Very little.
+
+4. How many German books do you have? — Very few.
+
+5. I don’t eat many sweets.
+
+6. I don’t understand the meaning of this word.
+
+7. I don’t need much information about this firm.
+
+8. I like these girls’ jeans.
+
+9. Her children’s hair is long and beautiful.
+
+10. It was doctor Brown’s mistake.
+
+11. You need a little patience.
+
+12. There are very many flowers in the Smiths’ garden.
+
+13. John and Alice’s children are very nice.
+
+14. The result of the experiment was satisfactory.
+
+15. I didn’t get the idea of this article.
+
+##### 4
+
+1. I like these children’s questions.
+
+2. I don’t know these women’s names.
+
+3. These are men’s gloves.
+
+4. The team had little luck last year.
+
+5. They know few English words.
+
+6. There is little light here. Take a seat at the window.
+
+7. You needn’t take many clothes.
+
+8. He says he has few warm clothes.
+
+9. Take the money and give it to Ted.
+
+10. My feet are cold. Let’s go home.
+
+11. Bad news makes people unhappy.
+
+12. He doesn’t eat much fruit.
+
+13. Knowledge is a strong weapon.
+
+14. The child has never seen sheep before.
+
+15. Mathematics is an exact science.
+
+16. Have you seen today’s newspaper?
+
+17. Nick’s and Susan’s watches are fast.
+
+18. These sportsmen’s coach says they are fit.
+
+19. My sons-in-law are very clever.
+
+20. How many sentences have you translated? — Very few.
+
+<a id="keys-unit-16"></a>
+
+### UNIT 16
+
+<a id="key-16-1"></a>
+
+#### 16.1
+
+1. She is my girlfriend. I love her.
+
+2. We saw Mark but he didn’t see us.
+
+3. I told them to come.
+
+4. They liked the cat and bought it.
+
+5. Why are they on the table? Put them on the shelf.
+
+6. Listen how lovely it is singing.
+
+7. You are late again.
+
+8. We are great friends.
+
+9. I haven’t seen them today.
+
+10. They have invited us to the cinema.
+
+<a id="key-16-2"></a>
+
+#### 16.2
+
+1. his
+
+2. ours
+
+3. hers
+
+4. theirs
+
+5. mine.
+
+6. yours
+
+<a id="key-16-3"></a>
+
+#### 16.3
+
+1. your
+
+2. us
+
+3. his
+
+4. you, I
+
+5. my, yours
+
+6. his, mine
+
+7. you, it
+
+8. you, him, us (me)
+
+9. his
+
+10. them, their
+
+11. our, you, us, it
+
+12. his, hers
+
+<a id="key-16-4"></a>
+
+#### 16.4
+
+1. She gave me her umbrella.
+
+2. He opened his eyes and looked at us.
+
+3. Have you told him about it?
+
+4. My bag is black, hers is brown.
+
+5. These are not her keys but his.
+
+6. They are good people. I like them.
+
+7. Look at the cat. Its tail is so beautiful!
+
+8. Their children are students and ours are pupils.
+
+9. I’ve answered your questions. Why don’t you want to answer mine?
+
+10. Give this book to them. It’s theirs.
+
+<a id="keys-unit-17"></a>
+
+### UNIT 17
+
+<a id="key-17-1"></a>
+
+#### 17.1
+
+1. express himself
+
+2. hurt herself
+
+3. enjoy yourself
+
+4. cut myself
+
+5. introduce yourself
+
+6. dry themselves
+
+7. found ourselves
+
+8. burn oneself
+
+9. behave yourselves
+
+<a id="key-17-2"></a>
+
+#### 17.2
+
+1. himself
+
+2. myself, me
+
+3. –
+
+4. themselves
+
+5. –, –
+
+6. yourself
+
+7. –, myself
+
+8. you
+
+9. herself
+
+10. them
+
+11. itself
+
+12. himself, –
+
+<a id="key-17-3"></a>
+
+#### 17.3
+
+1. Steve himself told me about it.
+
+2. Concentrate and you’ll remember everything yourself.
+
+3. Let me introduce myself.
+
+4. Did you enjoy yourself (yourselves) yesterday?
+
+5. Why does the child behave so badly?
+
+6. Jane looked at herself in the mirror.
+
+7. I earn my living myself.
+
+8. They bought the books for themselves.
+
+9. We translated the article ourselves.
+
+10. I’ll speak to the manager myself.
+
+11. They saw this information in the newspaper themselves.
+
+12. The president himself expressed his gratitude to them.
+
+13. She herself didn’t like the man.
+
+14. Try to relax and not to think about anything.
+
+15. It’s good when one feels young long.
+
+16. One must be responsible for oneself.
+
+<a id="keys-unit-18"></a>
+
+### UNIT 18
+
+<a id="key-18-1"></a>
+
+#### 18.1
+
+##### 1
+
+1. any, some
+
+2. any, none
+
+3. any
+
+4. any, some
+
+5. no
+
+6. any, no
+
+7. any, none
+
+8. any
+
+9. some, no
+
+10. no
+
+##### 2
+
+1. any, some
+
+2. any
+
+3. some
+
+4. any, some
+
+5. any
+
+6. some, no
+
+7. none
+
+8. some
+
+9. any
+
+10. some, any
+
+<a id="key-18-2"></a>
+
+#### 18.2
+
+##### 1
+
+1. Some people always have their rest at the seaside.
+
+2. Can I have some paper? — Unfortunately, I don’t have any paper.
+
+3. Some of his books are interesting.
+
+4. I can’t give you any advice.
+
+5. The mother said the girl could choose any toy.
+
+6. None of them could come.
+
+7. I don’t want any juice. I want some water.
+
+8. Can any of you drive?
+
+9. Come any time you like.
+
+10. I’m sure any boy would like to learn to play football.
+
+11. There are no chairs here. Bring some chairs please.
+
+12. He has no proof.
+
+13. In some classrooms there is no black board.
+
+##### 2
+
+1. Do any of you know his telephone number?
+
+2. Do you think any of them will be able to help us?
+
+3. I don’t see any reasons for such be haviour.
+
+4. He used to have friends but now he has no friends.
+
+5. You can stay at any hotel in this district.
+
+6. There are no films better than this one. (There aren’t any films…)
+
+7. Have you ever met any famous people?
+
+8. Some buildings in this town are very old.
+
+9. Are there any letters for me?
+
+10. There is no information for you. (There isn’t any information for you)
+
+11. You can use any of these dictionaries.
+
+12. Would you like some ice-cream?
+
+<a id="keys-unit-19"></a>
+
+### UNIT 19
+
+<a id="key-19-1"></a>
+
+#### 19.1
+
+##### 1
+
+1. everybody
+
+2. anybody
+
+3. nobody
+
+4. anybody, everybody
+
+5. anybody
+
+6. somebody
+
+7. somebody
+
+8. nobody
+
+##### 2
+
+1. everything
+
+2. anything
+
+3. anything
+
+4. everything
+
+5. something
+
+6. nothing
+
+7. something, anything
+
+8. nothing
+
+##### 3
+
+1. everywhere
+
+2. everywhere
+
+3. nowhere
+
+4. anywhere, somewhere
+
+5. anywhere
+
+6. nowhere
+
+7. somewhere
+
+8. anywhere
+
+<a id="key-19-2"></a>
+
+#### 19.2
+
+1. Is there anybody in the office? — Yes, somebody is waiting for you.
+
+2. There was something so strange in his words that I didn’t understand anything.
+
+3. To know everything is to know nothing.
+
+4. I couldn’t find him anywhere and was getting worried.
+
+5. He says he has been everywhere and knows everything.
+
+6. Everybody agrees with you. We’ll do anything you tell us to do.
+
+7. Nobody has heard anything about it.
+
+8. Does anybody know where he lives? — He lives somewhere here but I don’t know exactly where he lives.
+
+9. You can ask anybody. They will tell you I’m right.
+
+10. He wanted to tell her something special but couldn’t think of anything.
+
+11. They may be anywhere. Unfortunately nobody knows where they are.
+
+12. Who told you that you can do anything you like?
+
+13. Nothing seemed important to him.
+
+14. Do you have anything to do?
+
+15. Our city is beautiful. There are flowers every where here in summer.
+
+<a id="keys-unit-20"></a>
+
+### UNIT 20
+
+<a id="key-20-1"></a>
+
+#### 20.1
+
+##### 1
+
+1. the other
+
+2. another
+
+3. other
+
+4. the others
+
+5. another
+
+6. other
+
+7. another
+
+8. the others
+
+9. other
+
+10. the other
+
+##### 2
+
+1. other
+
+2. each other (one another)
+
+3. each other
+
+4. the others
+
+5. other
+
+6. others
+
+7. others
+
+8. other
+
+9. the others
+
+10. the other
+
+11. another
+
+12. each other (one another)
+
+<a id="key-20-2"></a>
+
+#### 20.2
+
+1. I’ve read only three of these books but I’ll certainly read the others.
+
+2. Please, bring another two chairs.
+
+3. Tom and Robert are angry with each other.
+
+4. I don’t have any other (another) explanation.
+
+5. She reads only love stories. Any other books seem boring to her.
+
+6. You’ve done only two exercises. How about the others?
+
+7. How many other questions is he going to ask?
+
+8. He has published three articles this year. How many others does he want to publish?
+
+9. The room was full of boxes, old clothes, and other unnecessary things.
+
+10. My other relatives live in another city.
+
+11. Some people like to give presents, others don’t.
+
+12. Where is the other shoe?
+
+13. The other guests will soon come.
+
+14. Can I have another apple?
+
+15. I don’t see any other mistakes here.
+
+<a id="keys-unit-21"></a>
+
+### UNIT 21
+
+<a id="key-21-1"></a>
+
+#### 21.1
+
+1. Neither.
+
+2. Both.
+
+3. Both.
+
+4. Either.
+
+5. Neither.
+
+6. Either.
+
+<a id="key-21-2"></a>
+
+#### 21.2
+
+1. Both men are drivers. Both of them are drivers.
+
+2. Neither student is good. Neither of them is good.
+
+3. Both glasses are empty. Both of them are empty.
+
+4. You can rent either flat. You can rent either of them.
+
+5. I don’t know either woman. I don’t know either of them.
+
+6. You can use either PC. You can use either of them.
+
+<a id="key-21-3"></a>
+
+#### 21.3
+
+1. Neither Fred nor George can drive.
+
+2. Ellen was born either in June or in July.
+
+3. Both he and his friend study law.
+
+4. I forgave neither Steve nor Pete.
+
+5. Either his niece or his nephew lives in Italy.
+
+6. Either Ted or Fred will give you a lift.
+
+7. Neither the pill nor the mixture helps.
+
+8. Both my son and my daughter are clever children.
+
+9. I know both his address and his telephone number.
+
+10. Neither I nor my friend likes detective stories.
+
+<a id="key-21-4"></a>
+
+#### 21.4
+
+1. Neither my brother nor I am married.
+
+2. I like both pictures.
+
+3. Do you need a blue pen or a black pen? – Either will do.
+
+4. He will go there either by train or by plane.
+
+5. I can neither swim nor skate.
+
+6. Do you know her brother or her husband? – Neither.
+
+7. Neither armchair is comfortable.
+
+8. Neither of us smokes.
+
+9. Either of them will show you the way.
+
+10. Either his wife or his parents are selling the car.
+
+11. Both of them are interested in history.
+
+12. Both James and Sam collect stamps.
+
+13. I can find neither your keys nor mine.
+
+14. She didn’t buy the dress because it was either expensive or too small for her.
+
+15. I’ll see him neither today nor tomorrow.
+
+<a id="keys-unit-22"></a>
+
+### UNIT 22
+
+<a id="key-22-1"></a>
+
+#### 22.1
+
+##### 1
+
+1. We asked them to stay with us.
+
+2. This is not my bag. That one is mine.
+
+3. Have you read any articles on the problem?
+
+4. RIGHT
+
+5. May I have another slice of bread? I always eat much bread.
+
+6. Let her put on her hat.
+
+7. Can they really do it themselves?
+
+8. Go to the bathroom and wash your hands and the face.
+
+9. We can cope with the task ourselves.
+
+10. I don’t have any plans for the weekend.
+
+##### 2
+
+1. Nobody can help him in this situation.
+
+2. We keep in touch with one of my cousins but I haven’t heard about the other one lately.
+
+3. RIGHT
+
+4. RIGHT
+
+5. None of my fellow students failed the exam.
+
+6. Children, behave yourselves!
+
+7. Shall I phone Alice or Judy? — Either.
+
+8. He studies Literature, History and many other subjects.
+
+9. You can ask any of us to help.
+
+10. Ours is a lonely street.
+
+##### 3
+
+1. If everybody is here tell them to take their seats.
+
+2. RIGHT
+
+3. I haven’t got any news yet.
+
+4. Neither his children nor he wants to stay there.
+
+5. Why have you come alone? How about the others?
+
+6. It was difficult for her to concentrate on the text.
+
+7. Everybody seems to know him here.
+
+8. Some people believed the article others said it was nonsense.
+
+9. None of them remembered about my birthday.
+
+10. Would you like the blue or the green blouse? — Either.
+
+##### 4
+
+1. He is arriving either on Friday or on Saturday.
+
+2. It’s their business. Don’t interfere.
+
+3. The question is so easy. Anybody can answer it.
+
+4. RIGHT
+
+5. Steve, are you going to take this book with you?
+
+6. Will you invite Steve or Roger? — Neither.
+
+7. The child is big enough to dress himself.
+
+8. She announced she would stay with us another three days.
+
+9. Both his car and mine are in the garage.
+
+10. None of his teachers are (is) satisfied with his work.
+
+11. He likes to speak about himself.
+
+12. They looked at each other but said nothing.
+
+13. I don’t feel well enough to leave the house.
+
+14. RIGHT
+
+<a id="key-22-2"></a>
+
+#### 22.2
+
+##### 1
+
+1. I had no money, so I had to borrow some.
+
+2. He felt bad and wanted to stay at home.
+
+3. I’m afraid anything can happen.
+
+4. Neither his patents nor he smokes.
+
+5. Scientists from Germany, Russia, and many other countries attended the conference.
+
+6. There is nothing strange about it.
+
+7. Have you read at least one of these books? — None.
+
+8. I need another week to make a decision.
+
+9. Would you like to eat something?
+
+10. Did they paint the house themselves?
+
+##### 2
+
+1. They are both on holiday and neither of them will come before Sunday.
+
+2. Let’s play another game.
+
+3. His computer is very good. Mine is not that good.
+
+4. I asked two people how to get there but neither of them knew the way.
+
+5. She got upset over something unimportant.
+
+6. Some people read newspapers, others listen to news.
+
+7. Neither my children nor his son likes this teacher.
+
+8. If there are any new words in the text look them up in a dictionary.
+
+9. Any bus will take you there.
+
+10. Other pictures by this painter are not interesting.
+
+##### 3
+
+1. There was nobody in the house.
+
+2. Their house is very big. Ours isn’t that big.
+
+3. Go anywhere you like.
+
+4. Some men shave every day, other men (others) think it is unnecessary.
+
+5. Everybody is present, aren’t they?
+
+6. You can invite anybody.
+
+7. He speaks both Spanish and French well.
+
+8. I wanted to see three films on Saturday but saw none.
+
+9. I couldn’t make a sandwich. I had no bread.
+
+10. What did you do yesterday? — Nothing special.
+
+##### 4
+
+1. How long have you known each other?
+
+2. If anybody phones, tell them I’ll come in half an hour.
+
+3. Where is the other glove?
+
+4. I’ll take the suit to the dry cleaner’s myself.
+
+5. Did you meet anybody last week? — Nobody.
+
+6. Both my friend and I have been learning English for two years but neither of us can speak well yet.
+
+7. I need another three days to collect all the information.
+
+8. We’ll pay for ourselves.
+
+9. Neither he nor I am busy. We both can help you.
+
+10. Where are the others? Shall we wait for them?
+
+11. How many other dictionaries do you need?
+
+12. Nothing could stop him.
+
+13. Has any of you been to Spain?
+
+14. I painted the house myself.
+
+15. Either his friends or he himself has (have) seen this film.
+
+<a id="keys-unit-23"></a>
+
+### UNIT 23
+
+<a id="key-23-1"></a>
+
+#### 23.1
+
+1. good
+
+2. fast
+
+3. well-dressed
+
+4. bitter
+
+5. hard
+
+6. easily
+
+7. badly-planned
+
+8. pale
+
+9. unexpectedly
+
+10. clear
+
+11. quiet
+
+12. late
+
+13. well
+
+14. perfect
+
+15. badly
+
+<a id="key-23-2"></a>
+
+#### 23.2
+
+1. bad; hardly
+
+2. beautifully; really good
+
+3. fluently; accurate
+
+4. good; impatient
+
+5. wonderful; nice
+
+6. absolutely; real
+
+7. surprisingly; quickly
+
+8. different; well
+
+9. good; hard
+
+10. slow; attentively
+
+<a id="key-23-3"></a>
+
+#### 23.3
+
+1. Не is a really famous architect. It’s strange that you don’t know his name (... that his name is unknown to you.)
+
+2. These flowers smell sweet and heavy. (These flowers have a sweet and heavy smell.) It’s impossible to sleep in the room.
+
+3. She is so tired that she can hardly move. In my opinion, she feels very bad. She looks pale.
+
+4. The trip was well organized and we had a good time.
+
+5. It’s pleasant to deal with friendly people.
+
+6. She is an unusually good assistant. She works hard and fast.
+
+7. This magazine comes out daily. (This is a daily magazine.) It’s always beautifully illustrated.
+
+8. She looked at me happily and said, “It’s real luck!”
+
+9. His words “We should act fast but carefully” sounded unexpected.
+
+10. One can hardly say that her English is good. She knows it badly.
+
+11. She often chats with her friends in a lively manner. It seems to me she is always in a good mood.
+
+12. Your son works carelessly, that’s why he makes a lot of mistakes.
+
+<a id="keys-unit-24"></a>
+
+### UNIT 24
+
+<a id="key-24-1"></a>
+
+#### 24.1
+
+1. nicer — the nicest
+
+2. cheaper — the cheapest
+
+3. more expensive — the most expensive
+
+4. worse — the worst
+
+5. hollower — the hollowest
+
+6. luckier — the luckiest
+
+7. more wonderful — the most wonderful
+
+8. shyer — the shyest
+
+9. crueller — the cruellest
+
+10. more attractive — the most attractive
+
+11. more pleasant — the most pleasant
+
+12. lower — the lowest
+
+13. busier — the busiest
+
+14. less — the least
+
+15. more quiet — the most queit
+
+16. more interesting — the most interesting
+
+17. lighter — the lightest
+
+18. better — the best
+
+19. more surprising — the most surprising
+
+20. fewer — the fewest
+
+21. more convenient — the most convenient
+
+22. larger — the largest
+
+23. neater — the neatest
+
+24. simpler — the simplest
+
+25. more intelligent — the most intelligent
+
+26. more — the most
+
+27. bitterer — the bitterest
+
+28. smaller — the smallest
+
+29. more boring — the most boring
+
+30. heavier — the heaviest
+
+<a id="key-24-2"></a>
+
+#### 24.2
+
+1. Mark is shorter than Sam.
+
+2. Mark has fewer children than Sam.
+
+3. Sam has a larger flat than Mark.
+
+4. Mark earns less money than Sam.
+
+5. Sam is more handsome than Mark.
+
+6. Sam speaks more languages than Mark.
+
+7. Mark is less practical than Sam.
+
+8. Sam is a better driver than Mark.
+
+9. Mark is more experienced than Sam.
+
+<a id="key-24-3"></a>
+
+#### 24.3
+
+1. You know more than her (... than she does).
+
+2. They are older than him (... than he is).
+
+3. She is a better singer than me (... than I am).
+
+4. He has less spare time than us (... than we have).
+
+5. I read more interesting books than them (... than they do).
+
+<a id="key-24-4"></a>
+
+#### 24.4
+
+1. The plane is much faster than the train.
+
+2. Northern Ireland is far smaller than Australia.
+
+3. Are dogs much cleverer than cats?
+
+4. Diamonds are far more expensive than rubies.
+
+5. Discos are much noisier than cinemas.
+
+6. Is speaking a foreign language much more useful than reading it?
+
+7. The Mediterranean is far warmer than the Baltic Sea.
+
+8. Football is much more dangerous than golf.
+
+9. Are married women much happier than single women?
+
+10. Brazilian shoes are much better than Russian shoes.
+
+<a id="key-24-5"></a>
+
+#### 24.5
+
+1. I believe this composition is as bad as that.
+
+2. I believe this flat is as comfortable as that.
+
+3. I believe this plan is as effective as that.
+
+4. I believe this textbook is as good as that
+
+5. I believe this dress is as colourful as that.
+
+<a id="key-24-6"></a>
+
+#### 24.6
+
+1. This book isn’t as boring as I expected.
+
+2. He isn’t as stupid as he can seem.
+
+3. Mary and Charles don’t have as many children as Rachel and Steve.
+
+4. His answer at the exam wasn’t as good as his friend’s.
+
+5. This test isn’t as short as that.
+
+6. My brother isn’t as young as he looks.
+
+7. Kate’s room isn’t as large as her sister’s.
+
+8. This information isn’t as useless as that.
+
+9. She doesn’t spend as much time on cooking as her mother.
+
+10. The Mercedes isn’t as cheap as the Ford.
+
+<a id="key-24-7"></a>
+
+#### 24.7
+
+1. This is the most exciting book in his collection.
+
+2. This is the highest mountain in the world.
+
+3. He is the noisiest person at the party.
+
+4. She is the best doctor I know.
+
+5. This is the most beautiful park in the city.
+
+<a id="key-24-8"></a>
+
+#### 24.8
+
+1. This is one of the oldest cathedrals in the country.
+
+2. This is one of the worst experiences in my life.
+
+3. He is one of the most successful businessmen in this company.
+
+4. This is one of the most powerful machines at the plant.
+
+5. Monday is always one of the busiest days of the week.
+
+<a id="key-24-9"></a>
+
+#### 24.9
+
+1. The train is faster than the coach but the plane is the fastest.
+
+2. Canada is bigger than the USA but Russia is the biggest.
+
+3. German is more difficult than Spanish but Vietnamese is the most difficult.
+
+4. Oranges are sweeter than mandarins but strawberries are the sweetest.
+
+5. Detective stories are more frightening than biography novels but thrillers are the most frightening.
+
+<a id="key-24-10"></a>
+
+#### 24.10
+
+1. The more responsible you are, the fewer problems you get.
+
+2. The more popular the person is, the less spare time he has.
+
+3. The more cigarettes you smoke, the worse it is for your health.
+
+4. The more modern the car (is), the more expensive it is.
+
+5. The taller the person is, the thinner he usually is.
+
+6. The harder your work is, the more tired you feel.
+
+7. The more nervous you are, the more mistakes you make.
+
+8. The larger the house (is), the more difficult it is to keep it tidy.
+
+9. The longer the flight (is), the hungrier you feel.
+
+10. The better dictionary you use, the better your knowledge is.
+
+<a id="key-24-11"></a>
+
+#### 24.11
+
+##### 1
+
+1. She always buys only the most expensive clothes. — But they are also the best, aren’t they?
+
+2. Which way to the beach is shorter: through the forest or through the field? The way through the field takes longer (more time), and besides it’s much hotter in the field than in the forest.
+
+3. The less time I have, the more nervous I get.
+
+4. This is one of the funniest episodes in the film.
+
+5. Today’s homework isn’t as difficult as yesterday’s.
+
+6. This actor is much more talented than his partner.
+
+7. What discovery do you think is the most important and famous in the world?
+
+8. My younger son makes fewer mistakes in dictations than the others. His teacher says he is one of the most hard-working and cleverest pupils in the class.
+
+9. The more work you have, the less time you have for your family.
+
+10. Nick is much lazier than his friend Charles, though he is more gifted.
+
+##### 2
+
+1. Is this exercise as large as that? — No, it’s shorter, but much more difficult.
+
+2. This is one of the oldest and smallest towns in Europe. Streets there are much narrower than in modern cities.
+
+3. There is less information in this newspaper than in that one. It’s not as interesting as that one.
+
+4. Is it the worst news or is there any still worse?
+
+5. The longer the report (is), the less interesting it is to listen to it
+
+6. This summer is much hotter than the previous one. — It is, and there are fewer rains than last year.
+
+7. Is Jack as old as Paul? — Yes, he is, but he is taller and seems much stronger than Paul.
+
+8. Which is better: to teach or to study?
+
+9. Are you busier now than in the morning? — No, I don’t have as many things to do as in the morning.
+
+10. This is one of the most beautiful songs of this singer. It’s my favourite one.
+
+<a id="keys-unit-25"></a>
+
+### UNIT 25
+
+<a id="key-25-1"></a>
+
+#### 25.1
+
+##### 1
+
+1. elder
+
+2. further
+
+3. nearer
+
+4. the oldest
+
+5. the nearest; farther (further); the next
+
+6. the latter
+
+7. the next
+
+8. the oldest
+
+9. the latest
+
+10. older
+
+##### 2
+
+1. the last
+
+2. elder
+
+3. the farthest (the furthest); the nearest; farther (further)
+
+4. the eldest
+
+5. later
+
+6. further
+
+7. the latter
+
+8. the latest
+
+9. older
+
+10. the next
+
+<a id="key-25-2"></a>
+
+#### 25.2
+
+##### 1
+
+1. The last question at the exam is often the most difficult.
+
+2. The next stop is yours.
+
+3. Could you call a bit later, please? He is busy now.
+
+4. The nearest cinema is a ten-minute walk from here.
+
+5. My wife has an elder brother. He is much older than her (than she is).
+
+6. His latest article is on the same topic again, isn’t it?
+
+7. Is the secretary in the next room? — Yes, she is.
+
+8. I like both Kevin and Phillip. The former is very polite and the latter is very handsome.
+
+9. I don’t know which theatre in Moscow is the oldest. And you?
+
+10. He wants to enter another university to get further education.
+
+##### 2
+
+1. The later you come, the worse.
+
+2. William is the eldest of the three brothers.
+
+3. Is there any other hospital nearer to the house than this one? — No, the others are much farther (further).
+
+4. My friend isn’t older than me (than I am).
+
+5. This writer’s latest play is quite popular with readers.
+
+6. Was it the last time you saw him?
+
+7. The teacher asked the student the question several times but the latter was silent.
+
+8. The next time you come bring your sister.
+
+9. Is your cousin older than you? — Yes, she is three years older than me (than I am).
+
+10. My house is the farthest (the furthest) from the stop.
+
+<a id="keys-unit-26"></a>
+
+### UNIT 26
+
+<a id="key-26-1"></a>
+
+#### 26.1
+
+1. the farther
+
+2. more slowly
+
+3. fastest
+
+4. well
+
+5. more impatiently and (more) nervously
+
+6. badly
+
+7. the earlier; the sooner
+
+8. more politely
+
+9. most gently
+
+10. harder
+
+<a id="key-26-2"></a>
+
+#### 26.2
+
+1. well
+
+2. most calmly
+
+3. angrier
+
+4. more delicious
+
+5. the less carefully; the worse
+
+6. safer
+
+7. quickly; easily
+
+8. best
+
+9. more pleasant
+
+10. the most widely-used
+
+<a id="key-26-3"></a>
+
+#### 26.3
+
+1. Those who shout most loudly (of all) are often not the cleverest.
+
+2. She laughs somewhat strangely. — She does, but her brother laughs even more strangely.
+
+3. He writes French as badly as he speaks it.
+
+4. The earlier you get up, the more easily you’ll work.
+
+5. I expect it least of all.
+
+6. She doesn’t treat people as patiently as I’d like her to.
+
+7. My room is much more beautifully decorated for the holiday than my parents’ room.
+
+8. You can’t draw as well as Walt. He draws best of all. (He draws better than anyone else.)
+
+9. He usually listens to the teacher more attentively than the others.
+
+10. The harder he works, the worse he sleeps.
+
+<a id="keys-unit-27"></a>
+
+### UNIT 27
+
+<a id="key-27-1"></a>
+
+#### 27.1
+
+##### 1
+
+1. This is one of the most interesting programs on TV.
+
+2. The less you know, the better.
+
+3. Pat is taller than me / than I am.
+
+4. Mike is not as quick as Paul.
+
+5. He is three years older than you.
+
+6. I tried hard but couldn’t do anything.
+
+7. He spoke more politely than usual.
+
+8. Their house is as modern as ours.
+
+9. Let me know if you need further help.
+
+10. Brian is the eldest brother.
+
+##### 2
+
+1. He knows the lesson better than you.
+
+2. It’s nice of you!
+
+3. I’m awfully sorry!
+
+4. He smiled at me in a friendly way.
+
+5. The operation was more painful than I expected.
+
+6. She sings best of all.
+
+7. Is your sister older than you?
+
+8. She receives as many letters as him.
+
+9. Is it a real sapphire?
+
+10. She looked nervously out of the window.
+
+11. Be quieter!
+
+12. It’s much farther than that.
+
+13. The dish smells nice.
+
+14. I still feel bad.
+
+15. He speaks good English.
+
+<a id="key-27-2"></a>
+
+#### 27.2
+
+1. more ... than
+
+2. the
+
+3. as (so) ... as
+
+4. the more ... the
+
+5. much (far) more ... than
+
+<a id="key-27-3"></a>
+
+#### 27.3
+
+1. as warmly as
+
+2. the most frequent
+
+3. incredibly; one of the most popular
+
+4. more brightly
+
+5. more dangerous
+
+6. best; last
+
+7. good; more fluently and clearly than
+
+8. more heavily than; as strong as
+
+9. the most complicated
+
+10. the harder; the more successful
+
+11. worst; the least interesting
+
+12. more pleasant than
+
+13. as indistinctly as
+
+14. the slowest; the longer; the more impatient
+
+15. more happily than; less difficult than
+
+<a id="key-27-4"></a>
+
+#### 27.4
+
+##### 1
+
+1. He copes with the work worst of all. He is the laziest student.
+
+2. This writer is not as well-known as that but his latest work is a great success.
+
+3. This is a really difficult exercise. The others are much easier than this one.
+
+4. The shorter the poem (is), the easier it is to learn it.
+
+5. Which is more useful: to walk or to jog?
+
+6. I feel better now but it’s still hard for me to work for a long time.
+
+7. You must speak to people more politely, otherwise they’ll think that you are badly brought up.
+
+8. This is one of the stuffiest rooms in the office. I get awfully tired here.
+
+9. Your task is to make as few mistakes as possible, but to finish as quickly as possible.
+
+10. I can hardly catch up with you. Do you always walk so fast?
+
+##### 2
+
+1. I wonder if there is anyone luckier than you are?
+
+2. Children like singing but often do it badly.
+
+3. Though this flat is smaller than mine, it’s more comfortable and besides it’s surprisingly cheap.
+
+4. What do you think further events will be?
+
+5. The nearer the office to the house, the less time the way takes.
+
+6. My elder brother has two children. His son is two years older than his daughter.
+
+7. Everybody admires her. Whatever she does, she does it wonderfully / perfectly, best of all (better than anyone else).
+
+8. Both Ann and Kate are beautiful girls. The latter is married.
+
+9. Is he a late-riser? — No, he gets up early, earlier than the rest of the family. He believes it’s more practical and convenient.
+
+10. The less advice she gives you, the better. Her advice is as useless as her help.
+
+11. Let’s discuss the next question. — Let’s do it later. I have a terrible headache.
+
+12. This is the most serious problem. We must discuss it as thoroughly as possible.
+
+13. The fruit salad tastes wonderful / delicious, but it seems to me that it’s better to put fewer apples there.
+
+14. If you practise daily, you’ll speak more quickly and more correctly.
+
+15. Even if you are in a bad mood, you should treat clients in a friendlier way, you mustn’t be so rude.
+
+<a id="keys-unit-28"></a>
+
+### UNIT 28
+
+<a id="key-28-1"></a>
+
+#### 28.1
+
+1. She eats half a pound of sweets every day.
+
+2. The children are playing ball in the yard.
+
+3. They grow fruits and vegetables in the garden.
+
+4. My friends have a large house in the country.
+
+5. I left my pen in the classroom.
+
+6. He writes a lot of letters every day.
+
+7. They give parties every Friday.
+
+<a id="key-28-2"></a>
+
+#### 28.2
+
+1. Henry and Joy play chess together every other day.
+
+2. Peter made some bad mistakes in his Russian test yesterday.
+
+3. We saw the Turners at the cinema last night.
+
+4. The chairman raised the question at the meeting several times.
+
+5. She listens to the news on the radio every morning.
+
+6. Tom does morning exercises in his room at seven o’clock.
+
+7. Her Dad smokes a lot both at home and at work.
+
+<a id="key-28-3"></a>
+
+#### 28.3
+
+1. We discussed the problem in detail at Nick’s place in the evening.
+
+2. She went home unexpectedly after that.
+
+3. He explained it to her carefully during their meeting at lunch.
+
+4. Peter prefers to work alone in his study in the morning.
+
+5. He arrived home safely at the weekend.
+
+6. My mother-in-law works hard in the garden all summer.
+
+7. He wrote something quickly on a piece of paper after their conversation.
+
+8. The children always play noisily behind the house before supper.
+
+9. They came to the party together at about nine o’clock.
+
+10. She left for London secretly at night.
+
+<a id="key-28-4"></a>
+
+#### 28.4
+
+1. He can never do anything in time.
+
+2. Mike is definitely the cleverest student.
+
+3. They always take a walk before going to bed.
+
+4. She doesn’t usually behave so impatiently.
+
+5. He sometimes talks nonsense.
+
+6. They are also great friends.
+
+7. You must never say it again.
+
+8. We have seldom got much spare time.
+
+9. We don’t often see each other nowadays.
+
+10. I’m probably wrong.
+
+11. She usually gets good marks.
+
+12. My friend can also play the piano.
+
+13. She sometimes does extraordinary things.
+
+14. The weather in England is never the same two days running.
+
+15. Children must always go to bed in time.
+
+<a id="key-28-5"></a>
+
+#### 28.5
+
+1. delicious French strawberry ice-cream
+
+2. a wonderful bright Persian silk carpet
+
+3. a tall slim young girl
+
+4. a beautiful old Indian legend
+
+5. a charming tiny Swiss gold wrist watch
+
+6. an ordinary green school bag
+
+7. an unusual new brown Italian leather belt
+
+8. a good light cold supper
+
+9. a pretty small round tanned face
+
+10. a popular thick old English school dictionary
+
+11. a convenient new black plastic organizer
+
+12. massive light-brown Malaysian wooden chairs
+
+13. a big new white German washing machine
+
+14. a well-known old Russian ballet
+
+15. a fantastic tall ancient dim Italian mirror
+
+<a id="key-28-6"></a>
+
+#### 28.6
+
+##### 1
+
+1. RIGHT
+
+2. He planned the murder carefully beforehand.
+
+3. They went on a picnic with the Smiths on Sunday.
+
+4. You must also know it.
+
+5. RIGHT
+
+6. RIGHT
+
+7. He is a handsome tall young man.
+
+8. They grow aromatic big yellow garden flowers.
+
+9. RIGHT
+
+10. He knew nothing then.
+
+##### 2
+
+1. She is sometimes too talkative.
+
+2. She goes shopping with pleasure on Sunday.
+
+3. They met on board a ship in summer.
+
+4. She is a sociable young French girl.
+
+5. RIGHT
+
+6. Tom is hardly nervous.
+
+7. RIGHT
+
+8. They spend almost every weekend in the country.
+
+9. RIGHT
+
+10. He learns English words thoroughly every day.
+
+11. I’d like to buy elegant new Italian leather shoes.
+
+12. He also plays chess very well.
+
+13. RIGHT
+
+14. The boss had to go somewhere unexpectedly after lunch.
+
+15. RIGHT
+
+<a id="key-28-7"></a>
+
+#### 28.7
+
+##### 1
+
+1. I like this soft French flower body lotion very much.
+
+2. She works best in the morning.
+
+3. These flowers smell strong in the evening.
+
+4. Do you always come to work in time?
+
+5. We must buy big new bookshelves.
+
+6. She has a lot of big and small bright soft toys.
+
+7. He usually returns home early.
+
+8. Would you like to go to the cinema with me on Sunday?
+
+9. I like your new red woolen sweater.
+
+10. Exercises are sometimes very difficult, aren’t they?
+
+11. They spend weekends in the country in summer.
+
+12. She seldom buys perfume.
+
+13. Our train arrives in St. Petersburg early in the morning.
+
+14. She also spends a lot of time on her studies.
+
+15. He answered very badly at the exam the day before yesterday.
+
+<a id="keys-unit-29"></a>
+
+### UNIT 29
+
+<a id="key-29-1"></a>
+
+#### 29.1
+
+##### 1
+
+1. Does Tom have a large country-house? Tom doesn’t have a large country-house.
+
+2. Do they usually have lunch at one o’clock? They don’t usually have lunch at one o’clock.
+
+3. Has Mary got two brothers? Mary hasn’t got two brothers.
+
+4. Do you have a shower every morning? I don’t have a shower every morning.
+
+5. Have Helen and John got a three-room flat? Helen and John haven’t got a three-room flat.
+
+6. Has little Ben got a bicycle? Little Ben hasn’t got a bicycle.
+
+7. Does Kate always have tea for breakfast? Kate doesn’t always have tea for breakfast.
+
+8. Does your Mum usually have a holiday in summer? My Mum doesn’t usually have a holiday in summer.
+
+9. Has the child got coloured pencils? The child hasn’t got coloured pencils.
+
+10. Does George have a family of his own? George doesn’t have a family of his own.
+
+<a id="key-29-2"></a>
+
+#### 29.2
+
+1. Does she have ... ? (Has she got ... ?)
+
+2. had
+
+3. doesn’t have (hasn’t got)
+
+4. do you have
+
+5. won’t have
+
+6. have
+
+7. didn’t have
+
+8. haven’t got (don’t have)
+
+9. having
+
+10. don’t have (haven’t got)
+
+11. will have
+
+12. Does their daughter have ... ? (Has their daughter got ... ?)
+
+13. didn’t have
+
+14. has (has got)
+
+15. Did you have ... ?
+
+<a id="key-29-3"></a>
+
+#### 29.3
+
+##### 1
+
+1. I didn’t have any drink at lunch as I have a terrible headache.
+
+2. Have you got a camera? Let me take a picture of you.
+
+3. I won’t have my birthday party as I’m leaving.
+
+4. Has Tom got a large family? (Does Tom have a large family?) — Yes, he has (has got) a brother and two sisters.
+
+5. I can’t get Kate on the phone. — I had a chat with her only yesterday.
+
+6. Mr. Brown is very busy, he doesn’t have (hasn’t got) time to speak to you now.
+
+7. Did you have a good walk yesterday? — Oh yes, the weather was beautiful.
+
+8. Do you have many classes on Wednesday? — Three or four lectures usually.
+
+9. She had no plants at home and I didn’t like it.
+
+10. There is no fresh bread in this shop. Let’s go to another one.
+
+##### 2
+
+1. Have you got (Do you have) a room of your own in your new flat? — Oh, yes I have, and it’s quite large.
+
+2. Where can I find Mr. Pitt? — He is out. He is having a business lunch with a client.
+
+3. If we have a party on Saturday, the guests won’t leave early.They won’t have to get up early on Sunday.
+
+4. Do you have (Have you got) a brother or a sister? — I have an elder brother.
+
+5. I didn’t have time even for a cup of coffee this morning. That’s why I’m so sleepy.
+
+6. Did you have a good flight? — Yes, thanks.
+
+7. I don’t have the slightest idea what you are talking about.
+
+8. What’s the matter? You’re so excited! — I’m having my first date tonight.
+
+9. Haven’t you ever had a toothache?
+
+10. Mark was just having his last cigarette before going to bed when suddenly there was a knock at the door.
+
+<a id="keys-unit-30"></a>
+
+### UNIT 30
+
+<a id="key-30-1"></a>
+
+#### 30.1
+
+1. Are John and Jill married?
+
+2. Would you like to go for a walk?
+
+3. Is Victor sometimes late for classes?
+
+4. Does Alice know the language very well?
+
+5. Do the brothers watch TV every evening?
+
+6. Does Rachel have very many friends in Paris?
+
+7. Is her elder brother a second-year student?
+
+8. Would Jane like to spend a holiday abroad?
+
+9. Do Paul’s friends agree with him?
+
+10. Has Irene’s husband got an expensive car?
+
+<a id="key-30-2"></a>
+
+#### 30.2
+
+1. Does
+
+2. Do
+
+3. Is
+
+4. Would
+
+5. Are
+
+6. Has
+
+7. Are
+
+8. Does
+
+9. Am
+
+10. Do
+
+<a id="key-30-3"></a>
+
+#### 30.3
+
+1. Yes, I would.
+
+2. Yes, he is.
+
+3. Yes, I am.
+
+4. Yes, she does.
+
+5. Yes, I have.
+
+6. Yes, they do.
+
+7. Yes, he is.
+
+8. Yes, he does.
+
+9. Yes, I would.
+
+10. Yes, they are.
+
+<a id="key-30-4"></a>
+
+#### 30.4
+
+1. No, I’m not.
+
+2. No, she doesn’t.
+
+3. No, he isn’t.
+
+4. No, I wouldn’t.
+
+5. No, they don’t.
+
+6. No, I haven’t.
+
+7. No, it isn’t.
+
+8. No, she doesn’t.
+
+9. No, you aren’t.
+
+10. No, they wouldn’t.
+
+<a id="key-30-5"></a>
+
+#### 30.5
+
+1. Isn’t he here yet?
+
+2. Doesn’t he know English?
+
+3. Don’t they live together?
+
+4. Doesn’t he have an elder brother?
+
+5. Aren’t you a student now?
+
+6. Hasn’t she got any?
+
+7. Don’t you know the rules?
+
+8. Aren’t they yours?
+
+9. Doesn’t he have a headache?
+
+10. Doesn’t your wife cook well?
+
+<a id="key-30-6"></a>
+
+#### 30.6
+
+1. No, it isn’t.
+
+2. No, I don’t.
+
+3. But they are.
+
+4. No, they aren’t.
+
+5. Yes, he does. (But he does.)
+
+6. No, she isn’t.
+
+7. But I do. (Of course, I do.)
+
+8. Yes, I have.
+
+9. But I am.
+
+10. No, he doesn’t.
+
+<a id="key-30-7"></a>
+
+#### 30.7
+
+1. Don’t you know the rule? — No, I don’t.
+
+2. Have you got this book? — No, I haven’t.
+
+3. Don’t you like this music? — But I do.
+
+4. Isn’t David your friend? — Of course, he is.
+
+5. Do you agree with me? — Yes, I do.
+
+6. Don’t you have spare time at all? — But I do.
+
+7. Aren’t you the manager? — No, I am not.
+
+8. Do you remember this song? — Yes, I do.
+
+9. Doesn’t he play the guitar? — No, he doesn’t.
+
+10. Isn’t he at home? — Yes, he is. (But he is.)
+
+<a id="key-30-8"></a>
+
+#### 30.8
+
+1. Does he or his friend have a very interesting book?
+
+2. Are they in Spain or in France now?
+
+3. Does your Dad read newspapers in the evening or in the morning?
+
+4. Does Jane like apple or orange juice?
+
+5. Is the box light or heavy?
+
+6. Have you or has your friend got two children?
+
+7. Are you sometimes or often late for classes?
+
+8. Does John make few or many mistakes in his tests?
+
+9. Is Helen their cousin or their niece?
+
+10. Is Robert or are his friends fond of reading?
+
+<a id="key-30-9"></a>
+
+#### 30.9
+
+##### 1
+
+1. Do you work late? — No, I finish at six.
+
+2. Do you have plans for the future? — Yes, I want to be a doctor.
+
+3. Doesn’t he live here? — No, he doesn’t.
+
+4. Are they happy together? — I think they are.
+
+5. Would you like to come at five or at six? — I’d like to come after six.
+
+6. Hasn’t he got a car? — Yes, he has. He is a good driver.
+
+7. Do you go to the country in summer? — Yes, we do.
+
+8. Is your brother married? — Not yet. (No, he isn’t.)
+
+9. Do they get up early or late? — Quite early, at seven.
+
+10. Do you play chess? — Yes, I do.
+
+##### 2
+
+1. Am I late? — Yes, you are a little.
+
+2. Would you like to meet my friend? — Don’t I know her?
+
+3. Does your Dad go to work by car or by underground? — By underground.
+
+4. Does your sister speak Spanish? — No, she learns German.
+
+5. Doesn’t your mother help you? — But she does.
+
+6. Are you ill? — Yes, I feel unwell (bad).
+
+7. Does he or do his parents want to move to another city (town)? — His parents do.
+
+8. Is he present at the lesson? — No, he isn’t. He is ill.
+
+9. Do her relatives have a country-house? — As far as I know, they don’t.
+
+10. Isn’t he your boss? — Yes, he is.
+
+##### 3
+
+1. Is it your or your sister’s dress?
+
+2. Have you got (Do you have) any questions? — No, thanks, everything is clear.
+
+3. Are you hungry? — Yes, I am.
+
+4. Does he study languages or history?
+
+5. Am I wrong? — I’m afraid you are.
+
+6. Do you have tea or coffee for breakfast? — I prefer tea.
+
+7. Are you and Nick friends? — Yes, we are great friends.
+
+8. Doesn’t he have any relatives at all? — As far as I know, he doesn’t.
+
+9. Is your brother interested in history?
+
+10. Do you or does your mother make breakfast? — Usually my Mum does.
+
+<a id="keys-unit-31"></a>
+
+### UNIT 31
+
+<a id="key-31-1"></a>
+
+#### 31.1
+
+1. ... were you?
+
+2. ... can’t he?
+
+3. ... isn’t she?
+
+4. ... do you?
+
+5. ... am I?
+
+6. ... shall we?
+
+7. ... haven’t they?
+
+8. ... aren’t they?
+
+9. ... did she?
+
+10. ... will you?
+
+11. ... are we?
+
+12. ... do they?
+
+13. ... don’t they?
+
+14. ... aren’t I?
+
+15. ... can he?
+
+16. ... will you?
+
+17. ... does she?
+
+18. ... don’t they?
+
+19. ... don’t we?
+
+20. ... was he?
+
+21. ... aren’t you?
+
+22. ... don’t I?
+
+23. ... doesn’t she?
+
+24. ... will you?
+
+<a id="key-31-2"></a>
+
+#### 31.2
+
+1. No, I’m not.
+
+2. Yes, they do.
+
+3. Yes, he is.
+
+4. Yes, they do.
+
+5. No, she doesn’t.
+
+<a id="key-31-3"></a>
+
+#### 31.3
+
+1. No, she doesn’t.
+
+2. But they can.
+
+3. No, he isn’t.
+
+4. Yes, we have.
+
+5. But you are.
+
+<a id="key-31-4"></a>
+
+#### 31.4
+
+1. You can’t promise me anything, can you? — No, I can’t.
+
+2. The weather is nice today, isn’t it? — Yes, it is.
+
+3. Don’t be so impatient, will you?
+
+4. They’ve got a large TV set, haven’t they? — Yes, they have.
+
+5. We had a good time yesterday, didn’t we?
+
+6. Everybody is pleased, aren’t they? — I think they are.
+
+7. He is absent today, isn’t he? — No, he isn’t. He is present.
+
+8. I’m right, aren’t I? — I think you aren’t.
+
+9. Let’s ask him for advice, shall we?
+
+10. She doesn’t cook very well, does she? — Why? But she does.
+
+<a id="keys-unit-32"></a>
+
+### UNIT 32
+
+<a id="key-32-1"></a>
+
+#### 32.1
+
+1. How do you make this cake?
+
+2. Why aren’t the children in bed yet?
+
+3. Where does Mr. Brown work?
+
+4. How long does this film last?
+
+5. When does the manager have time for a short rest?
+
+6. What have you got in this parcel?
+
+7. Who does the teacher want to answer this question?
+
+8. How many are you in the family?
+
+9. Where is the chemist’s?
+
+10. What does this word mean?
+
+11. How often do your children go for a walk in this park?
+
+12. Why does he get so many bad marks?
+
+13. Where would your daughter like to study?
+
+14. What does his son want to be?
+
+15. When do you have lunch?
+
+<a id="key-32-2"></a>
+
+#### 32.2
+
+1. Who does Kate usually have dinner with?
+
+2. Who does Tom never think of?
+
+3. Who must you apologize to?
+
+4. Who is Vera waiting for?
+
+5. What does Nick like to listen to?
+
+6. Who do Mr. and Mrs. Foster often go out with?
+
+7. What does Anna’s daughter dream of?
+
+8. What is Robert interested in?
+
+9. Who does she never smile at?
+
+10. What are you looking for?
+
+11. What is this book about?
+
+12. Who does Rachel write letters to?
+
+13. Who is this novel written by?
+
+14. What are you looking forward to?
+
+15. What do you always thank people for?
+
+<a id="key-32-3"></a>
+
+#### 32.3
+
+##### 1
+
+1. What does Mr. Smith want?
+
+2. When do food shops in London close early?
+
+3. What does George pay much money for?
+
+4. How does Mr. Bennett get to work?
+
+5. Where does William want to take his family this summer?
+
+6. How does Mary always do her work?
+
+7. How much sugar do you need to make this cake?
+
+8. Whose book is it?
+
+9. What / What game do the boys often play in the evening?
+
+10. When / What time does Mr. Brown usually have lunch?
+
+##### 2
+
+1. Where does Robert learn French?
+
+2. How many children does your sister have?
+
+3. Who would you like to come to your birthday party?
+
+4. How long does it usually take you to clean the flat?
+
+5. Which bag do you like most of all?
+
+6. Why is he absent from the lesson?
+
+7. Who do you go out on Sunday with?
+
+8. Whose exercise-books are these?
+
+9. How many pages a day does Nick read?
+
+10. What kind of jam have you got?
+
+<a id="key-32-4"></a>
+
+#### 32.4
+
+##### 1
+
+1. Who is that man (gentleman)?
+
+2. What is he?
+
+##### 2
+
+1. What is her husband?
+
+2. What is he like?
+
+3. And what does he look like?
+
+<a id="key-32-5"></a>
+
+#### 32.5
+
+1. How long does it take to get by train from Moscow to St. Petersburg?
+
+2. How long does it take to get on foot from your house to the nearest shop?
+
+3. How long does it take to get by plane from Moscow to London?
+
+4. How long does it take to get by car from your country house to Moscow?
+
+5. How long does it take to get by plane from Glasgow to Edinburgh?
+
+6. How long does it take to get by bus from your house to the nearest underground station?
+
+7. How long does it take to get by train from France to England?
+
+8. How long does it take to get by bicycle from your house to the park?
+
+9. How long does it take to get by underground from your house to your friend’s place?
+
+10. How long does it take to get by car from your place to the airport?
+
+<a id="key-32-6"></a>
+
+#### 32.6
+
+1. How long does it take you to do your homework? — It takes me about two or three hours to do it.
+
+2. How long does it take to learn to drive? — It takes about three months to learn to drive.
+
+3. How long does it take your mother to do the shopping? — It takes her about an hour and a half to do the shopping.
+
+4. How long does it take your father to read a newspaper? — It takes him about half an hour to read it.
+
+5. How long does it take your friend to get to your place? — It takes her about forty minutes to get to my place.
+
+6. How long does it take your Granny to make a birthday cake? — It takes her about two hours to make it.
+
+7. How long does it take your parents to redecorate their flat? — It takes them about a month to do it.
+
+8. How long does it take to study to be a teacher in your country? — It takes five years to study to be a teacher in my country.
+
+9. How long does it take you to read a hundred pages? — It takes me about an hour to read a hundred pages.
+
+10. How long does it take you to clean your room? — It takes me about twenty minutes to clean my room.
+
+<a id="key-32-7"></a>
+
+#### 32.7
+
+##### 1
+
+1. What is your Dad?
+
+2. How much time does it take you to prepare everything necessary?
+
+3. Where does your niece study?
+
+4. What language would you like to study?
+
+5. Who is this letter from?
+
+6. What are you tired of?
+
+7. How much work have you got today?
+
+8. What does Frank’s Mum look like?
+
+9. How do you want to help him?
+
+10. Why is she late?
+
+##### 2
+
+1. Whose children are these?
+
+2. How many are they in the family?
+
+3. Where is your new student from?
+
+4. What is your cousin like?
+
+5. Who is that woman? — This is Mrs. Arnold. She is your new teacher.
+
+6. When is your sister’s birthday?
+
+7. How long does it take to get from here to the theatre?
+
+8. Which of your sisters is Tom in love with?
+
+9. Where do they usually go in summer?
+
+10. What do you need his telephone number for?
+
+##### 3
+
+1. What questions have you got (do you have)?
+
+2. What kind of present would you like for your birthday?
+
+3. How much does this computer cost?
+
+4. Where do his parents live?
+
+5. Who does he want to see?
+
+6. What is this building famous for?
+
+7. What does your sister’s husband look like?
+
+8. How many brothers and sisters does she have?
+
+9. Who do you always wait here for at this time?
+
+10. What does this word mean?
+
+<a id="keys-unit-33"></a>
+
+### UNIT 33
+
+<a id="key-33-1"></a>
+
+#### 33.1
+
+1. Who comes home from school at about four? — The children do.
+
+2. Whose friend is very fond of playing tennis? — My friend is.
+
+3. Which bag is a nice colour? — This bag is.
+
+4. Who has got many friends? — Tom has.
+
+5. Which of you wants to know more about it? — All of us do.
+
+6. What costs 200? — The coat does.
+
+7. Who is a hairdresser? — Kate is.
+
+8. What kind of stories may be very intriguing? — Detective stories may.
+
+9. Who wants him to become a doctor? — His parents do.
+
+10. Which of them is a teacher? — Both of them are.
+
+11. Whose latest book is a great success? — His book is.
+
+12. Who would like to visit Paris? — Sandy would.
+
+13. Who is a stranger here? — I am.
+
+<a id="key-33-2"></a>
+
+#### 33.2
+
+1. Who knows the answer to this question?
+
+2. Whose Mum makes delicious cakes?
+
+3. What would you like to buy?
+
+4. What is in her bag?
+
+5. What kind of job has Nick’s cousin got?
+
+6. Whose friends are fond of sports?
+
+7. Which of us is responsible for it?
+
+8. What do you have for me?
+
+9. Who do you often see at the bus stop?
+
+10. Who always does his homework in time?
+
+11. What does Luke always do in time?
+
+12. Who would like you to go on holiday with her?
+
+13. Which bag is more expensive?
+
+14. What is very hard?
+
+<a id="key-33-3"></a>
+
+#### 33.3
+
+1. Who does your friend like?
+
+2. Who likes your friend?
+
+3. Which of these writers is well-known? — I think, both are.
+
+4. Whose brother is married to Ann? — Maggy’s brother is.
+
+5. What do you want (need)?
+
+6. What happened to you yesterday?
+
+7. Which student has an excellent mark? — Walter does.
+
+8. Who would you like to invite to your birthday party?
+
+9. Who in your family has breakfast early? — My Dad does.
+
+10. Which of them knows you? — These two girls do.
+
+<a id="keys-unit-34"></a>
+
+### UNIT 34
+
+<a id="key-34-1"></a>
+
+#### 34.1
+
+1. Do you know if (whether) the theatre is far from the underground station?
+
+2. Do you know if Sam has an elder sister?
+
+3. Do you know if they have got a country-house?
+
+4. Do you know if their children go to school yet?
+
+5. Do you know if Frank and Eve are married?
+
+<a id="key-34-2"></a>
+
+#### 34.2
+
+1. I don’t know why they are late.
+
+2. Do you know how long it takes to get there?
+
+3. I don’t remember when the train arrives.
+
+4. Do you know where Emm is?
+
+5. I don’t know what it means.
+
+<a id="key-34-3"></a>
+
+#### 34.3
+
+1. I don’t know if they are well-read.
+
+2. I know where George’s mother works.
+
+3. I wonder why he doesn’t do his work properly.
+
+4. Do you know if Kate has got Nick’s address?
+
+5. I don’t know how many children the Turners have.
+
+6. Can you tell me when the lesson begins?
+
+7. I don’t remember which of them is older.
+
+8. Do you know if he is a professional sportsman?
+
+9. I wonder if they have any problems with their car.
+
+10. I know who he wants to marry.
+
+<a id="key-34-4"></a>
+
+#### 34.4
+
+1. Could you tell me where the library is?
+
+2. Do you remember when the film begins?
+
+3. Do you know why they quarrel so often?
+
+4. I wonder if he remembers about my birthday.
+
+5. Tell me what I must do.
+
+6. I don’t know when they begin work.
+
+7. Do you know if he has this book?
+
+8. I wonder how much such a house costs.
+
+9. I don’t remember how long it takes to get to Berlin.
+
+10. I don’t know if she is really a good doctor.
+
+<a id="keys-unit-35"></a>
+
+### UNIT 35
+
+<a id="key-35-1"></a>
+
+#### 35.1
+
+##### 1
+
+1. Do you think they are great friends?
+
+2. Do you think her daughter helps her about the house?
+
+3. Do you think they often go out together?
+
+4. Do you think he is keen on art?
+
+5. Do you think they have got much experience?
+
+6. Do you think I am late?
+
+7. Do you think Mr. Brown has a family of his own?
+
+8. Do you think he would like to see this picture?
+
+9. Do you think the problem is serious?
+
+10. Do you think they need our help?
+
+##### 2
+
+1. What do you think his sister looks like?
+
+2. How long do you think it takes him to do the home-task?
+
+3. Why do you think the children are so excited?
+
+4. Whose book do you think it is?
+
+5. How much time do you think we’ve got?
+
+6. Who do you think she would like to ask for help?
+
+7. When do you think her husband returns from work?
+
+8. How many rooms do you think they have in their house?
+
+9. Where do you think the children are?
+
+10. What do you think his wife is?
+
+<a id="key-35-2"></a>
+
+#### 35.2
+
+1. What do you think they are afraid of?
+
+2. Do you think this computer is good?
+
+3. Which of them do you think knows English better?
+
+4. What do you think he is like?
+
+5. Who do you think this woman is?
+
+6. Do you think they are in love with each other?
+
+7. Do you think he has got a car?
+
+8. How long do you think it takes to get to the centre?
+
+9. Where do you think these people are from?
+
+10. Why do you think she is upset?
+
+11. Do you think she plays the piano well?
+
+12. Do you think I’m right?
+
+13. What do you think he is?
+
+14. Whose idea do you think it is?
+
+15. Where do you think they would like to go for their vacation?
+
+<a id="keys-unit-36"></a>
+
+### UNIT 36
+
+<a id="key-36-1"></a>
+
+#### 36.1
+
+1. How long
+
+2. What kind of
+
+3. What
+
+4. Whose
+
+5. What
+
+6. What
+
+7. Where
+
+8. Which
+
+9. Who
+
+10. Who
+
+11. How many
+
+12. When
+
+13. How
+
+14. Why
+
+15. What
+
+<a id="key-36-2"></a>
+
+#### 36.2
+
+1. What are you good at?
+
+2. Don’t you remember me?
+
+3. Are Kate and Mary at home?
+
+4. What does Sarah look like?
+
+5. Who is that girl?
+
+6. Do they want to go to the seaside?
+
+7. How old is Robert and Brenda’s son?
+
+8. Does she know about it?
+
+9. What’s the time?
+
+10. Is it time to go?
+
+<a id="key-36-3"></a>
+
+#### 36.3
+
+1. How much time do you think it takes?
+
+2. When do you think is the next plane to New York?
+
+3. Why do you think she is worried?
+
+4. Which book do you think is his?
+
+5. What do you think shows that something is wrong?
+
+6. How long do you think it can take him to find everything out?
+
+7. Where do you think they are?
+
+8. Who do you think is wrong?
+
+9. What do you think she is?
+
+10. Whose papers do you think these are?
+
+<a id="key-36-4"></a>
+
+#### 36.4
+
+1. I’m older than you, aren’t I?
+
+2. Do you or does your brother help your mother to do the shopping?
+
+3. Do you agree with me?
+
+4. Yes, he does. / No, he doesn’t.
+
+5. What does this expression mean?
+
+6. How long does it take to get to Australia?
+
+7. Let’s wash the car together, shall we?
+
+8. Does she still have a cold?
+
+9. Who takes you to school?
+
+10. Do you think she will like my present?
+
+11. Tell me where your new friend lives.
+
+12. They never get bad marks, do they?
+
+13. Has he got much money?
+
+14. What does his wife look like?
+
+15. Buy some bread, will you?
+
+<a id="key-36-5"></a>
+
+#### 36.5
+
+1. Could you tell me where Green Street is?
+
+2. I wonder if / whether David knows a foreign language.
+
+3. Do you know how many classes Chris has (got) today?
+
+4. I don’t know who can help us.
+
+5. I can’t remember if / whether Sam’s sister is younger or older than him.
+
+<a id="key-36-6"></a>
+
+#### 36.6
+
+##### 1
+
+1. Where do you think he can be?
+
+2. Is the weather sunny or rainy today?
+
+3. Don’t say it again, will you?
+
+4. How many families live on this floor? — As far as I know, three do.
+
+5. Do you know how much this picture costs?
+
+6. What is your new assistant like? — He is very responsible and attentive.
+
+7. Don’t you know his name? — No, I see him for the first time.
+
+8. Let’s visit him, shall we?
+
+9. I wonder if he is doing well in his studies.
+
+10. Whose money is it? Why is it here?
+
+##### 2
+
+1. How long does it take to read this book?
+
+2. Which of the teachers has the most interesting lesson? — Mrs. Slater does.
+
+3. Ask them what he is.
+
+4. What does the baby want? — He is thirsty.
+
+5. They haven’t got any children yet, have they? — No, they haven’t.
+
+6. Do you think the underground station is far from here? — No, it’s quite near.
+
+7. Who would you like to dance with?
+
+8. What colour is your baby’s hair?
+
+9. I wonder which of them is right.
+
+10. Now I’m too thin, aren’t I?
+
+11. What makes you laugh so much every time you see him?
+
+12. What do you prefer to eat meat with?
+
+13. What does your new English teacher look like?
+
+14. What do you think she would like to get as a present for her birthday?
+
+15. Who needs help? — We do.
+
+<a id="keys-unit-37"></a>
+
+### UNIT 37
+
+<a id="key-37-1"></a>
+
+#### 37.1
+
+1. there will be
+
+2. there are
+
+3. there weren’t
+
+4. will there be
+
+5. there won’t be
+
+6. was there
+
+7. there wasn’t
+
+8. will there be
+
+9. were there
+
+10. there are
+
+11. there was
+
+12. will there be, there won’t
+
+13. is there, there is
+
+14. were there
+
+15. there was
+
+<a id="key-37-2"></a>
+
+#### 37.2
+
+1. No, they aren’t.
+
+2. No, there aren’t.
+
+3. Yes, they were.
+
+4. Yes, there were.
+
+5. No, they weren’t.
+
+6. No, there weren’t.
+
+7. Yes, they are.
+
+8. Yes, there are.
+
+<a id="key-37-3"></a>
+
+#### 37.3
+
+##### 1
+
+1. There is one new house and a lot of old houses in this street.
+
+2. There were a lot of people at the bus stop. They were waiting for the bus.
+
+3. There was too little money in my purse.
+
+4. There will be an interesting programme on TV on Thursday.
+
+5. Is the traffic in this street always heavy?
+
+6. There was nothing in the box. It was empty.
+
+7. Is there a car park anywhere here? — Yes, there is. It is behind that house.
+
+8. How many stamps will there be in your collection if you buy this one? — There won’t be many.
+
+9. The dictionary is on the shelf. Take it. — But there are two dictionaries on the shelf. Which one shall I take?
+
+10. Are there any Italian dishes on the menu? — Unfortunately, there aren’t.
+
+##### 2
+
+1. There isn’t much information about Brazil in this book.
+
+2. Are there any interesting articles in this newspaper? — Yes, there is a very interesting article on page three.
+
+3. Where is your telephone? — The telephone is in the living-room. You may use it.
+
+4. Why are there so many plates on the table? Are we having any guests to dinner?
+
+5. There wasn’t enough paint and I couldn’t finish my work.
+
+6. What is there in your room? — There is a bed, a wardrobe and some other furniture there.
+
+7. There isn’t enough cloth here to make a long dress.
+
+8. There won’t be any further discussion. (There will be no further discussion).
+
+9. How much fuel is there in the tank? — There is enough fuel there.
+
+10. Are they tourists? — Yes, they are. There are always a lot of tourists here in May.
+
+<a id="keys-unit-38"></a>
+
+### UNIT 38
+
+<a id="key-38-1"></a>
+
+#### 38.1
+
+##### a)
+
+1. so
+
+2. so
+
+3. such
+
+4. so
+
+5. so
+
+6. such
+
+7. so
+
+8. such
+
+9. how
+
+10. how
+
+11. what
+
+12. how
+
+13. what
+
+14. how
+
+15. what
+
+16. what
+
+##### b)
+
+1. such
+
+2. such a
+
+3. what a
+
+4. what
+
+5. such a
+
+6. what a
+
+7. what
+
+8. such
+
+9. what
+
+10. such
+
+11. so
+
+12. how
+
+13. how
+
+14. so
+
+15. how
+
+16. so
+
+17. so
+
+18. how
+
+19. so
+
+20. how
+
+##### c)
+
+1. what a
+
+2. how
+
+3. such a
+
+4. how
+
+5. such
+
+6. how
+
+7. what
+
+8. such an
+
+9. so
+
+10. how
+
+11. what a
+
+12. how
+
+<a id="key-38-2"></a>
+
+#### 38.2
+
+1. What a bad plan it is!
+
+2. He is so nervous!
+
+3. She has such beautiful hair!
+
+4. How happy they are!
+
+5. He looked so sadly at me!
+
+6. What hot coffee it is!
+
+7. This is such important news!
+
+8. How cheaply he sold the house!
+
+9. The situation is so difficult!
+
+10. What useful advice it is!
+
+11. How easily he coped with the task!
+
+12. This is such important information!
+
+<a id="keys-unit-39"></a>
+
+### UNIT 39
+
+<a id="key-39-1"></a>
+
+#### 39.1
+
+[lʊks], [ˈdresiz], [ˈoʊpnz], [a:sks], [plænz], [filz], [kaʊnts], [si:mz], [ˈfiniʃiz], [heits], [pæks], [ˈkɒpiz], [ˈvizits], [ˈti:tʃiz], [filz], [ˈkləʊziz], [faindz], [ˈa:nsəz], [ˈfetʃiz], [kraiz], [lu:ziz]
+
+<a id="key-39-2"></a>
+
+#### 39.2
+
+1. Nick wants to study German.
+
+2. Mary refuses to help us.
+
+3. My child studies hard.
+
+4. This student speaks English fluently.
+
+5. She knows the right answer.
+
+6. My friend always tells the truth.
+
+7. This plane flies from London to Madrid.
+
+8. His father makes a lot of money.
+
+9. This book gives a lot of information.
+
+10. Mr. Brown teaches History.
+
+<a id="key-39-3"></a>
+
+#### 39.3
+
+1. Snow doesn’t melt in winter. It melts in spring.
+
+2. Dolphins don’t live in forests. They live in seas and oceans.
+
+3. The Sun doesn’t go round the Earth. The Earth goes round the Sun.
+
+4. Spring doesn’t come after autumn. It comes after winter.
+
+5. The Japanese don’t live in the South. They live in the East.
+
+<a id="key-39-4"></a>
+
+#### 39.4
+
+1. — Do you get up early? — Yes, I usually (always, often) get up early. / No, I never (seldom) get up early.
+
+2. — Does your friend phone you on his (her) day off? — Yes, he (she) sometimes (usually, always, often) phones me on his (her) day off. — No, he (she) never (seldom) phones ...
+
+3. — Do you help your mother to do the shopping? — Yes, I always (often, usually, sometimes) help my mother to do the shopping. — No, I seldom (never) help ...
+
+4. — Do your parents go on holiday together? — Yes, they often (always, usually) go on holiday together. — No, they never (seldom) go ...
+
+5. — Does your father go fishing at the weekend? — Yes, he sometimes (often) goes fishing at the weekend. — No, he never goes ...
+
+6. — Do you quarrel with your friends? — Yes, I sometimes (often) quarrel with my friends. — No, I never (seldom) quarrel with my friends.
+
+7. — Do you visit your grandparents? — Yes, I sometimes (often) visit my grandparents. / No, I seldom (never) visit ...
+
+8. — Does your mother cook delicious dinners? — Yes, she often (usually, sometimes, always) cooks delicious dinners. — No, she never (seldom) cooks...
+
+9. — Does your friend help you with your homework? — Yes, he often (sometimes, usually, always) helps me with my homework. — No, he never (seldom) helps ...
+
+10. — Do you have nightmares? — Yes, I sometimes (often) have nightmares. — No, I never (seldom) have nightmares.
+
+<a id="keys-unit-40"></a>
+
+### UNIT 40
+
+<a id="key-40-1"></a>
+
+#### 40.1
+
+1. isn’t studying; is listening
+
+2. aren’t working; are walking
+
+3. isn’t giving; is watching
+
+4. am not driving; am lying
+
+5. isn’t writing; are having
+
+<a id="key-40-2"></a>
+
+#### 40.2
+
+1. I am not waiting for a bus.
+
+2. I am practising English grammar.
+
+3. My teacher is (isn’t) listening to me.
+
+4. Leaves are (aren’t) falling from trees.
+
+5. I am not watching TV.
+
+6. I am sitting on a chair.
+
+7. I am thinking hard.
+
+8. My classmates are doing this exercise too. / My classmates aren’t doing this exercise.
+
+9. It is (isn’t) raining heavily.
+
+10. I am not having tea with my friends.
+
+<a id="key-40-3"></a>
+
+#### 40.3
+
+1. are you wearing; am going
+
+2. are sleeping
+
+3. am preparing
+
+4. are always coming
+
+5. is returning ... , isn’t she?
+
+6. isn’t looking
+
+7. are they working at; are making
+
+8. am moving; aren’t doing
+
+9. is spending; is he staying?
+
+10. are you leaving?; is still considering
+
+<a id="keys-unit-41"></a>
+
+### UNIT 41
+
+<a id="key-41-1"></a>
+
+#### 41.1
+
+1. are you waiting; are going
+
+2. don’t understand; listen; say; aren’t listening
+
+3. are you doing; am waiting; don’t you know; doesn’t work
+
+4. are looking; belongs; are just exhibiting
+
+5. is constantly throwing; puts
+
+6. do you see; does it say
+
+7. is still thinking
+
+8. are smoking; don’t you know; smoke
+
+9. are tasting; tastes
+
+10. is having; returns
+
+11. need; has; is hardly breathing
+
+12. is coming; do you know; calls
+
+13. are you putting; look; match
+
+14. are reading; don’t believe; see
+
+15. are having; are talking
+
+<a id="key-41-2"></a>
+
+#### 41.2
+
+1. What are you doing tonight? — Nothing special. Why? — Look, I’m going to a concert and I have a spare ticket. Would you like to come? — With pleasure!
+
+2. You are always closing windows! How can you work in such a stuffy room? — But I feel cold!
+
+3. What are you cooking? It smells so delicious! — It’s a secret. I’m trying a new recipe.
+
+4. What do you think this man needs? — I don’t (can’t) understand. He is making gestures but he isn’t saying a word.
+
+5. Why are you looking through the book? Are you looking for anything? — I’m not looking it through, I’m reading it. — Do you always read so fast (quickly)?
+
+6. I usually work on Friday but this Friday is a holiday, that’s why I’m walking in the park.
+
+7. You are wet all over! Is it still raining? — It is, and it’s getting colder and colder.
+
+8. I’m seeing my editor tomorrow. — Are you working at a new book? — Yes, I am, and he wants me to sign a new contract.
+
+9. I wonder if it ever snows in Brazil.
+
+10. I love this song! But this is some new version. Who is singing?
+
+11. Do you believe me now? — No, I don’t. It still seems to me that you are lying to me.
+
+12. Are you going to the theatre again? — What do you mean by “again”? I really go to the theatre quite often but why does it surprise you?
+
+13. Why are you having dinner so early? It’s only six o’clock!
+
+<a id="keys-unit-42"></a>
+
+### UNIT 42
+
+<a id="key-42-1"></a>
+
+#### 42.1
+
+1. won’t refuse
+
+2. will celebrate
+
+3. will he show
+
+4. will be
+
+5. will never forget
+
+6. will there be
+
+<a id="key-42-2"></a>
+
+#### 42.2
+
+1. will agree; knows
+
+2. won’t recognize; wear
+
+3. will be; see
+
+4. apologize; will feel
+
+5. will recover
+
+6. will lay; dress
+
+7. will be
+
+8. won’t continue; calm down
+
+9. will return; finish
+
+10. have
+
+11. see; will be
+
+12. will be; comes
+
+13. will catch; leaves
+
+14. will try; will publish
+
+15. is; will call
+
+<a id="key-42-3"></a>
+
+#### 42.3
+
+1. He won’t pass the exam unless you help him to prepare for it.
+
+2. As soon as the guests are here, we’ll tell them the news.
+
+3. When will you know the results? — When the teacher checks our papers.
+
+4. I wonder if John will join us when we tell him about the trip.
+
+5. Before the child goes to sleep, his Mum will bathe him.
+
+6. In case he isn’t at home, I’ll call on him later.
+
+7. I have no idea when the next meeting will take place.
+
+8. After the film is over we’ll go for a walk.
+
+9. If the weather is good, we’ll go to the beach.
+
+10. I hope that while I am asleep (am sleeping) the temperature will fall down.
+
+11. Please, find out if they will go to the theatre with us.
+
+12. I won’t buy anything until I save a little money.
+
+13. He says that when he returns from his holiday he will give a party.
+
+14. I’ll let you know as soon as everything is ready.
+
+15. While it rains (is raining) I’ll read or watch TV.
+
+16. I’ll wait until you return.
+
+17. I’m not sure if he will write to me but if he writes, I’ll certainly answer.
+
+18. It seems to me that if we go on holiday together we’ll have a good time.
+
+<a id="keys-unit-43"></a>
+
+### UNIT 43
+
+<a id="key-43-1"></a>
+
+#### 43.1
+
+1. 2
+
+2. 1
+
+3. 3
+
+4. 2
+
+5. 2
+
+6. 1
+
+7. 1
+
+8. 3
+
+9. 2
+
+10. 3
+
+11. 1
+
+12. 3
+
+13. 2
+
+14. 3
+
+<a id="key-43-2"></a>
+
+#### 43.2
+
+1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove them anything.
+
+2. I think I’ll buy this book as a present for my friend. I’m going to her birthday party tomorrow.
+
+3. When does the film start? — At 5. — I won’t be able to go then. My classes finish only at 6.
+
+4. They are leaving by the 8 o’clock train. Then they’ll be at the seaside already in the afternoon.
+
+5. In summer days will become longer and nights will become shorter.
+
+6. Don’t forget your umbrella. It’s going to rain.
+
+7. Mary is bringing her new boy-friend to the party. — Really? Do you think he will like our company?
+
+<a id="keys-unit-44"></a>
+
+### UNIT 44
+
+<a id="key-44-1"></a>
+
+#### 44.1
+
+[kriˈeitid], [mist], [ˈstʌdid], [fild], [lʊkt], [ˈfeintid], [wɒʃt], [ˈa:nsəd], [fəʊnd], [ˈvizitid], [ˈsi:md], [kləʊzd], [ˈəʊpənd], [ˈheitid], [laikt], [diˈvaidid], [ˈfitid], [iksˈpleind], [kraid], [tʌtʃt], [steid]
+
+<a id="key-44-2"></a>
+
+#### 44.2
+
+1. I had (didn’t have) classes till three yesterday.
+
+2. My mother went (didn’t go) shopping after work yesterday.
+
+3. My friend phoned (didn’t phone) me last night.
+
+4. I got up (didn’t get up) early yesterday morning.
+
+5. It was (wasn’t) my day off.
+
+6. I saw (didn’t see) a film at the cinema yesterday.
+
+7. My mother made (didn’t make) a delicious dinner yesterday.
+
+8. My friend invited (didn’t invite) me to a party yesterday.
+
+9. There was an interesting show on TV yesterday. / There wasn’t any interesting show on TV yesterday.
+
+10. My parents planned their holiday yesterday.
+
+<a id="key-44-3"></a>
+
+#### 44.3
+
+1. How many times did Lucy call you last week?
+
+2. When was he born?
+
+3. Who did you write a letter in the morning?
+
+4. Who broke that cup the other day?
+
+5. Where did they go for the weekend?
+
+6. What was the weather like on Sunday?
+
+7. How long did it take you to read that article in yesterday’s newspaper?
+
+8. What was there in the criminal’s bag?
+
+9. Did you speak to Mr. Nickson on Tuesday?
+
+10. Who did Nelly dance with at the party?
+
+<a id="key-44-4"></a>
+
+#### 44.4
+
+1. We met (got acquainted) five years ago.
+
+2. When did he leave?
+
+3. How many rooms were there in your old flat?
+
+4. It was my friend’s birthday the other day and she gave a wonderful party.
+
+5. Why didn’t you tell me the truth at once?
+
+6. I didn’t see him yesterday. — He wasn’t at work the day before yesterday either.
+
+7. Nick, you were absent last time. Were you ill? — Yes, I didn’t feel well. (Yes, I felt bad.)
+
+8. I used to read this book in English. I remember it was quite interesting.
+
+9. When were you in the country last? — It was very long ago.
+
+<a id="keys-unit-45"></a>
+
+### UNIT 45
+
+<a id="key-45-1"></a>
+
+#### 45.1
+
+##### 1
+
+1. This is the most difficult exam I’ve ever taken.
+
+2. This is the most wonderful present I’ve ever got.
+
+3. This is the funniest joke I’ve ever heard.
+
+4. This is the most hard-working person I’ve ever met.
+
+5. This is the best friend I’ve ever had.
+
+##### 2
+
+1. — Have you ever tried speaking Chinese? — No, I’ve never tried speaking Chinese.
+
+2. — Have you ever driven a car? — Yes, I’ve driven a car several times.
+
+3. — Have you ever broken your arm? — Yes, I have once broken my arm.
+
+4. — Have you ever got letters from abroad? — No, I’ve never got letters from abroad.
+
+5. — Have you ever learnt poems by heart? — Yes, I have learnt poems by heart many times.
+
+##### 3
+
+1. — Have you ever been to the Historic Museum? — Yes, I have been to the Historic Museum once.
+
+2. — Have you ever been to Australia? — No, I’ve never been to Australia.
+
+3. — Have you ever been to the Zoo? — Yes, I’ve been to the Zoo three times.
+
+4. — Have you ever been to a birthday party? — Yes, I’ve been to birthday parties many times.
+
+5. — Have you ever been to the Bolshoy Theatre? — No, I’ve never been to the Bolshoy Theatre.
+
+##### 4
+
+1. It’s the second time I’ve consulted this doctor.
+
+2. It’s not the first time you’ve made this mistake.
+
+3. Is it the first time she has lied to you?
+
+4. It’s the third time the child has fallen ill this year.
+
+5. Is it the first time they have helped you?
+
+<a id="key-45-2"></a>
+
+#### 45.2
+
+1. No, I haven’t learnt all of them yet.
+
+2. Yes, I’ve already done lots of them.
+
+3. Yes, I’ve already answered them.
+
+4. No, I haven’t learnt everything so far.
+
+5. Yes, I’ve just finished it.
+
+<a id="key-45-3"></a>
+
+#### 45.3
+
+1. My mother has done the shopping today. / My mother hasn’t done any shopping today.
+
+2. I’ve read an exciting book this summer. / I haven’t read any exciting book this summer.
+
+3. My friend has / hasn’t caught cold this month.
+
+4. I’ve / haven’t visited my grandparents this week.
+
+5. I’ve made some progress in English this year. / I haven’t made any progress in English this year.
+
+<a id="key-45-4"></a>
+
+#### 45.4
+
+##### 1
+
+1. Have you ever been
+
+2. have argued
+
+3. have heard; haven’t read
+
+4. have already finished
+
+5. have you been; have been
+
+6. have ever had
+
+7. have been; haven’t even watched
+
+8. hasn’t woken up
+
+9. have never seen
+
+10. have just heard
+
+##### 2
+
+1. have spoken
+
+2. haven’t eaten
+
+3. Have you been; have been
+
+4. have sold
+
+5. has left
+
+6. haven’t you got
+
+7. have bought
+
+8. have already told
+
+9. haven’t cleared up
+
+10. have you had
+
+##### 3
+
+1. have you ever been
+
+2. has happened; have lost
+
+3. has got; has never been
+
+4. have taken
+
+5. have just explained
+
+6. have drunk
+
+7. Has your Dad returned
+
+8. has ever had
+
+9. has grown
+
+10. Have you prepared
+
+<a id="key-45-5"></a>
+
+#### 45.5
+
+1. Have you ever been to the Tretyakov Gallery?
+
+2. Have you done your homework yet?
+
+3. This is the fourth time you’ve asked me the same question.
+
+4. I’ve just taken this book from the library.
+
+5. I’ve met him only once.
+
+6. He has never got a bad mark.
+
+7. Has Mary written the letter yet?
+
+8. I’m very tired today.
+
+9. I’ve had a hard day today.
+
+10. How many times have you seen this film?
+
+<a id="key-45-6"></a>
+
+#### 45.6
+
+##### 1
+
+1. I’ve never been to this shop before.
+
+2. This is the most beautiful melody I’ve ever heard.
+
+3. Have you had breakfast yet? — No, I’m just going to do it. I’ve just got up.
+
+4. Why haven’t they repaired the car yet?
+
+5. I’ve called him twice, but he is out (he isn’t at home).
+
+6. Have you read papers today? — No, not yet.
+
+7. They’ve already moved but I haven’t visited them yet.
+
+8. Here is your shirt. I’ve washed it.
+
+9. This is the fifth pair of shoes she has bought this month. — Why does she need so many?
+
+10. How many times have you checked this document? There are very many misprints in it.
+
+##### 2
+
+1. Have you ever hitchhiked? — No, I haven’t. Have you?
+
+2. Is it the first time you’ve planted these flowers?
+
+3. I haven’t had any rest this summer.
+
+4. You’ve come at last! Where have you been?
+
+5. This is the hardest work I’ve ever had to do.
+
+6. What has happened? (What’s the matter?) You are so pale!
+
+7. It’s not the first time the cat has torn my curtains! — Have you tried punishing it?
+
+8. Why haven’t you ever (Why have you never) told me about it?
+
+9. Have you ever been to the north of the country? — Yes, I’ve been on excursions there several times.
+
+10. It’s very late and the children haven’t come back (returned) so far. I’m very worried.
+
+<a id="keys-unit-46"></a>
+
+### UNIT 46
+
+<a id="key-46-1"></a>
+
+#### 46.1
+
+1. I have (haven’t) been very busy lately.
+
+2. My Dad has (hasn’t) had problems at work recently.
+
+3. My friend has (hasn’t) made progress in English lately.
+
+4. My Granny has (hasn’t) been ill lately.
+
+5. I have learnt useful things recently. / I haven’t learnt any useful things recently.
+
+<a id="key-46-2"></a>
+
+#### 46.2
+
+1. How long has he had a cold?
+
+2. How long has she been in love with him?
+
+3. How long have you known it?
+
+4. How long have they had it?
+
+5. How long has he been on holiday?
+
+6. How long has he been your boss?
+
+7. How long have you heard them?
+
+8. How long have you seen it?
+
+9. How long has she had it?
+
+10. How long has he been at home?
+
+<a id="key-46-3"></a>
+
+#### 46.3
+
+1. I haven’t been to the cinema for several months.
+
+2. I haven’t travelled by plane since last summer.
+
+3. I haven’t seen my classmates since I left school.
+
+4. I haven’t written letters for many years.
+
+5. I haven’t spoken to Mary since we quarrelled.
+
+6. I haven’t given parties for a month.
+
+7. I haven’t heard from Tom for the last few days.
+
+8. I haven’t gone for a walk since last weekend.
+
+9. I haven’t bought flowers for ages.
+
+10. I haven’t phoned my friend since Monday.
+
+<a id="key-46-4"></a>
+
+#### 46.4
+
+1. She hasn’t taken her temperature since morning.
+
+2. I haven’t ridden a bicycle for about ten years.
+
+3. Pete hasn’t visited us since May.
+
+4. She has been in London since Saturday.
+
+5. Rachel and Simon have been married for five years.
+
+6. I haven’t consulted the doctor for three weeks.
+
+7. We haven’t got letters from Tom since autumn.
+
+8. We haven’t been to the seaside for two years.
+
+9. We haven’t had English classes since our teacher fell ill.
+
+10. He has been in prison since 1980.
+
+<a id="key-46-5"></a>
+
+#### 46.5
+
+1. since
+
+2. for
+
+3. for
+
+4. since
+
+5. for
+
+6. since
+
+7. since
+
+8. for
+
+9. since
+
+10. for
+
+11. for
+
+12. since
+
+13. since
+
+14. since
+
+15. for
+
+<a id="key-46-6"></a>
+
+#### 46.6
+
+1. I have known Ben since my childhood.
+
+2. Since when have you started to work?
+
+3. George has been the best student since he entered the University.
+
+4. The children have changed a lot lately.
+
+5. Mr. Brown hasn’t been at work since last week.
+
+6. Mr. Brown hasn’t been at work for the last week.
+
+7. How long have you owned this flat?
+
+8. I have taken part in some competitions recently.
+
+9. Alice has been our secretary for the last several years.
+
+10. They’ve been in Paris since Tuesday.
+
+<a id="key-46-7"></a>
+
+#### 46.7
+
+##### 1
+
+1. I’ve known Richard for a long time. We’ve been neighbours for five years already.
+
+2. I haven’t seen you for ages! How are you?
+
+3. We haven’t met since 1986. I’m afraid I won’t recognize her.
+
+4. What countries have you visited lately?
+
+5. Mrs. Dent is badly ill. She’s been in hospital for two weeks already.
+
+6. I’ve been very busy in the last few days but now I can have a rest.
+
+7. I haven’t gone to the country since I started working here.
+
+8. How long have you been friends with Helen? — Oh, since our childhood.
+
+9. We’ve been in London for several days already. We’ve already seen lots of things!
+
+10. He left in winter and I haven’t seen him since.
+
+##### 2
+
+1. He has behaved in a very strange way lately. I wonder what has happened.
+
+2. How long have you had this picture? I haven’t seen it before.
+
+3. Mum has been very nervous since she learnt the news.
+
+4. This man has been here for half an hour already. Is he waiting for somebody?
+
+5. Why have you bought so many books lately?
+
+6. Since when have you lived here?
+
+7. I haven’t asked her for help since we quarrelled.
+
+8. On Monday the weather got worse and my Grandpa hasn’t been out ever since.
+
+9. How many times has he written to you since he left?
+
+10. Frank keeps fit. He hasn’t fallen ill for many years.
+
+<a id="keys-unit-47"></a>
+
+### UNIT 47
+
+<a id="key-47-1"></a>
+
+#### 47.1
+
+1. They have been arguing and quarrelling for at least an hour.
+
+2. She has been suffering from a headache all day.
+
+3. The children have been playing here for the last two hours.
+
+4. Yes, I’ve been dieting lately.
+
+5. I’ve been doing the housework since morning.
+
+6. Not yet, but I’ve been thinking about the problem since you told me about it.
+
+7. Oh, I’m not sure, I’ve been listening to it for half an hour ...
+
+<a id="key-47-2"></a>
+
+#### 47.2
+
+1. How long has she been waiting for me?
+
+2. How long have they been watching TV?
+
+3. How long have they been walking there?
+
+4. How long has she been cleaning it?
+
+5. How long has he been doing it?
+
+6. How long has he been having dinner?
+
+7. How long have they been talking?
+
+<a id="key-47-3"></a>
+
+#### 47.3
+
+1. They have been discussing some question for an hour already. Is it really so important?
+
+2. Where is Sam? — He is in the room. He has been doing his homework since he returned from school.
+
+3. Mary has been practising the piano a lot lately. She is having a concert tomorrow.
+
+4. How long have you been learning this poem?
+
+5. The child has been crying since his mother left for work. I don’t know what to do.
+
+6. This flower (plant) hasn’t grown since the weather changed.
+
+7. What have you been doing lately?
+
+8. My brother is in Australia now. He has been travelling for a whole month.
+
+9. Have you been waiting for me long? — No, for about five minutes.
+
+10. Our neighbours have been shouting at each other all morning. I wonder what the matter is.
+
+11. Since when have you been working here?
+
+12. I haven’t used this dictionary lately.
+
+13. Who has been using my dictionary? Why isn’t it in its place?
+
+14. Why have you been making this salad so long? — There are very many ingredients in it.
+
+15. My sister has been lying in the sun too long, that’s why her skin looks so red.
+
+<a id="keys-unit-48"></a>
+
+### UNIT 48
+
+<a id="key-48-1"></a>
+
+#### 48.1
+
+1. has been eating; has she eaten
+
+2. have you been doing; have been revising; have you revised
+
+3. have heard
+
+4. have been painting
+
+5. have cooked
+
+6. have been reading; have read
+
+7. has been having a rest
+
+8. have been walking
+
+9. has made; has been working
+
+10. have known
+
+11. has been; has been raining
+
+12. has your sister been thinking; has she decided
+
+<a id="key-48-2"></a>
+
+#### 48.2
+
+1. This elderly lady has been choosing a present so long! — Hasn’t she chosen anything yet?
+
+2. I’ve been waiting for Frank’s call since 3 o’clock but he hasn’t called so far.
+
+3. — I’m very pleased with our new baby-sitter. — How long has she been working for you?
+
+4. I’ve known my neighbours for ages. They are nice people.
+
+5. Alice has been very absent-minded lately. Do you know what has happened to her?
+
+6. We haven’t spoken to each other since we quarrelled.
+
+7. Nick has been saving (money) for a new player since he saw the advertisement, but he hasn’t saved enough so far.
+
+8. I’ve wanted to buy a new computer for a very long time.
+
+9. Have you taken part in any competitions lately?
+
+10. My brother has been listening to loud music all day! — And what have you been doing all this time?
+
+11. He has had this disease since his childhood but he has been getting worse in the last few days.
+
+12. How many classes have you missed this month?
+
+13. We’ve raised this question many times but we haven’t discussed it lately.
+
+14. She has been buying lots of new things since she got married. Her husband is rich.
+
+15. It seems to me, Dick has been smoking more than usual lately. He has already smoked ten cigarettes since morning.
+
+<a id="keys-unit-49"></a>
+
+### UNIT 49
+
+<a id="key-49-1"></a>
+
+#### 49.1
+
+##### 1
+
+1. hasn’t spoken; returned
+
+2. didn’t speak; returned
+
+3. has been cooking
+
+4. cooked; had; left
+
+5. have already bought
+
+6. already bought
+
+7. have known
+
+8. knew
+
+9. did you send
+
+10. have you sent
+
+11. have read
+
+12. read
+
+13. did you stay
+
+14. have you been staying
+
+##### 2
+
+1. did you sleep; had
+
+2. did you take
+
+3. has spent; refused
+
+4. saw
+
+5. has travelled; got
+
+6. have just passed; did you prepare
+
+7. did he take part
+
+8. did you get; have been looking
+
+9. was
+
+10. got up
+
+##### 3
+
+1. were
+
+2. have you walked; took; did you walk
+
+3. did your first family party go; was; have improved
+
+4. studied; gave; left; has heard
+
+5. has been telling
+
+6. did she tell
+
+7. composed
+
+8. have you been; Have you been eavesdropping?
+
+9. haven’t met
+
+10. did you spend
+
+<a id="key-49-2"></a>
+
+#### 49.2
+
+##### 1
+
+1. ... and he didn’t tell me anything about it.
+
+2. I found this coin in our garden.
+
+3. It’s the first time I’ve seen him.
+
+4. RIGHT
+
+5. I haven’t been married so far.
+
+6. Did you hear the bell ringing?
+
+7. RIGHT
+
+8. They divorced long ago.
+
+9. RIGHT
+
+10. RIGHT
+
+##### 2
+
+1. I already heard this legend when I was on an excursion in Italy.
+
+2. I’ve already been to this theatre.
+
+3. Have you had lunch so far?
+
+4. RIGHT
+
+5. He has been very friendly since we helped him.
+
+6. It’s a week since she made a new dress.
+
+7. He left by the first train this morning.
+
+8. RIGHT
+
+9. RIGHT
+
+10. Since when have you been his assistant?
+
+##### 3
+
+1. I’ve done (I’ve been doing) nothing for the last two days.
+
+2. He won ten gold medals.
+
+3. RIGHT
+
+4. I’ve heard this joke several times.
+
+5. He has been concealing the truth from us all this time!
+
+6. How long have you been growing flowers?
+
+7. RIGHT
+
+8. Why did you say it?
+
+9. I haven’t seen Tom for two years.
+
+10. Everybody enjoyed it.
+
+<a id="key-49-3"></a>
+
+#### 49.3
+
+##### 1
+
+1. I’ve consulted another doctor today. — And what did he advise you?
+
+2. I already was on this excursion two years ago.
+
+3. Who invented the computer?
+
+4. I returned home not long ago. — Have you had dinner yet?
+
+5. What did you write about in the composition?
+
+6. There have been no other news about this accident in the last few days.
+
+7. We’ve been friends for a long time. — When did you meet? (When did you get acquainted?)
+
+8. Have you ever been abroad? — Yes, I’ve been there many times. Last year my husband and I went to Italy.
+
+9. Do you know how many battles Napoleon won?
+
+10. How long have you been working here?
+
+##### 2
+
+1. How long ago did you start working here?
+
+2. How many guests have you invited? — Fifteen. But perhaps not everybody will be able to come.
+
+3. Since my parents left I’ve been missing them badly.
+
+4. Have you ever heard about this singer? — Yes, I have. She is very famous. I have once heard her concert on the radio. — What did she sing?
+
+5. This is the third bad mark that you’ve got in English. What’s the matter? What did you get it for?
+
+6. How long did you sleep today? — About six hours.
+
+7. It’s twelve years since she graduated from the University.
+
+8. It’s the most incredible story that has happened to me.
+
+9. They have been arguing for a long time.
+
+10. They quarrelled long ago. — Haven’t they made it up yet?
+
+##### 3
+
+1. Mr. Spark has left. — Where did he go?
+
+2. He thought something over for about half an hour then he dressed quickly and left.
+
+3. How much did you pay for this picture?
+
+4. She has been on holiday since Monday. — What did she take a holiday in autumn for?
+
+5. He used to travel a lot and he has been writing books about various countries since then.
+
+6. Was it the Canadians who invented hockey? (Did the Canadians invent hockey?)
+
+7. I’ve tried to see this film twice, but each time I fell asleep in the first half an hour. I can’t understand why it got the first prize at the contest.
+
+8. Did you come long ago? How long have you been waiting for me?
+
+9. Pete hasn’t called me since we met at Kate’s birthday party. — But he has been in hospital for more than a month! — Why? What has happened?
+
+10. I’ve been here for fifteen minutes already. You haven’t been late before! — I’m sorry but it’s not my fault. I got stuck in a traffic jam.
+
+<a id="keys-unit-50"></a>
+
+### UNIT 50
+
+<a id="key-50-1"></a>
+
+#### 50.1
+
+1. At this time yesterday I was / wasn’t walking in the park.
+
+2. At 8 yesterday my Mother was / wasn’t making breakfast.
+
+3. At 1 o’clock yesterday my friends were / weren’t having classes at school (at the Institute).
+
+4. At 9 o’clock last night my Dad was / wasn’t watching the news program on TV.
+
+5. From 3 till 5 on Sunday I was / wasn’t preparing my homework.
+
+6. From 10 till 11 on Saturday my Mum and I were / weren’t cleaning the flat.
+
+7. At this time on Tuesday I was / wasn’t playing with my younger brother (sister).
+
+<a id="key-50-2"></a>
+
+#### 50.2
+
+1. were driving
+
+2. were talking
+
+3. was always chewing
+
+4. was the music playing
+
+5. was blowing; was drizzling
+
+6. was doing; were sleeping
+
+7. was really enjoying
+
+8. was running; was burning
+
+9. was going
+
+10. was constantly biting
+
+11. was listening; was saying
+
+12. was she wearing
+
+13. Weren’t you waiting
+
+14. was playing
+
+15. was leaving
+
+<a id="key-50-3"></a>
+
+#### 50.3
+
+1. Mr. Dowly was coming two days later. The whole family were carefully preparing for his arrival.
+
+2. I woke up at 8 o’clock. Mum was having breakfast at that time and Dad was leaving for work.
+
+3. Where were you at 4 o’clock? — I was walking my dog.
+
+4. It was impossible to talk with him. He was constantly repeating the same thing in different words!
+
+5. The Detective wants to know what we were doing from 8 till 10 last night. — As far as I remember, you were doing crossword puzzles and I was knitting.
+
+6. At this time just two days ago I was skiing in the country!
+
+<a id="keys-unit-51"></a>
+
+### UNIT 51
+
+<a id="key-51-1"></a>
+
+#### 51.1
+
+1. hurt; fell
+
+2. saw; was enjoying; sat smiling
+
+3. didn’t you open; didn’t hear
+
+4. broke; was doing
+
+5. was having; didn’t get; did you want; was calling; was coming
+
+6. found; was looking
+
+7. looked; made
+
+8. discussed
+
+9. was always fidgeting; told; stuck
+
+10. were working; had; called
+
+11. knew; was happening
+
+12. didn’t mean; was just speaking
+
+13. arrived; was; was playing; were dancing; noticed
+
+14. asked; didn’t answer; was tasting
+
+15. did you do; found; called
+
+<a id="key-51-2"></a>
+
+#### 51.2
+
+1. Didn’t anybody notice anything? — No, everybody was watching TV and heard nothing suspicious (didn’t hear anything suspicious).
+
+2. When the alarm-clock rang he turned it off and got up.
+
+3. All morning he lay in bed doing nothing.
+
+4. I was thinking over our plan when I had a wonderful idea.
+
+5. When we were listening to the news we didn’t know yet what it meant.
+
+6. I didn’t understand a word. They were talking (speaking) very quickly.
+
+7. While he was speaking everybody was listening to him attentively.
+
+8. It was very noisy in the hall. Our neighbours were celebrating something.
+
+9. When he returned we discussed the plan in detail.
+
+10. He spoke on the phone about three minutes then gave the receiver to me.
+
+11. She was constantly looking in the mirror! It was getting on my nerves more and more!
+
+12. It was getting cold and we returned to town.
+
+13. It doesn’t matter what exactly I was doing at 5 o’clock. — But still? — I was having a date.
+
+14. She cried / was crying all night. — And what were you doing at that time? — I sat thinking how to help her.
+
+15. I was so tired that I slept for 10 hours!
+
+16. I saw him at the railway station last. He was looking for something in his bag and was obviously very nervous as he couldn’t find what he needed at that moment. — Do you remember what he was wearing?
+
+17. On Saturday the Browns were moving to a new flat and we called to say Good-bye to them.
+
+18. The children were looking forward to the beginning of the party. Everybody was discussing the presents they wanted to get.
+
+<a id="keys-unit-52"></a>
+
+### UNIT 52
+
+<a id="key-52-1"></a>
+
+#### 52.1
+
+1. They had studied all the necessary material by the end of the term.
+
+2. By the time he was thirty-five he had visited 12 countries.
+
+3. They had been married for 10 years.
+
+4. The train had already left when I arrived.
+
+5. We hadn’t seen each other since 1990.
+
+<a id="key-52-2"></a>
+
+#### 52.2
+
+1. had never been
+
+2. had brought
+
+3. hadn’t announced
+
+4. had tried
+
+5. had broken
+
+6. had done
+
+7. had been
+
+8. had lied
+
+9. had been
+
+10. had discussed
+
+11. had bought
+
+12. had already escaped
+
+13. had ever got
+
+14. hadn’t spoken
+
+15. had achieved
+
+16. had got
+
+17. had just returned
+
+18. had smoked
+
+<a id="key-52-3"></a>
+
+#### 52.3
+
+1. By the end of the month they had spent all their money.
+
+2. By the time she was 28 she had made a wonderful career.
+
+3. When Mike’s parents returned his friends had already left.
+
+4. Everything was very interesting for the child. He had never been to the Zoo before.
+
+5. I didn’t expect him to come in time. He had been late twice already.
+
+6. It was just the present I had wanted to get for a long time.
+
+7. By the time the rain started (By the time it started raining) they had already repaired the car.
+
+8. He arrived at the station, bought a ticket and called his wife as he had promised.
+
+9. They didn’t know what to tell each other. They hadn’t met since they divorced.
+
+10. Everything was new for Alice. It was the first time she had been out of town.
+
+<a id="keys-unit-53"></a>
+
+### UNIT 53
+
+<a id="key-53-1"></a>
+
+#### 53.1
+
+##### 1
+
+1. didn’t learn; got
+
+2. got; hadn’t learnt
+
+3. had known; got
+
+4. knew; got
+
+5. gave; opened
+
+6. had hardly exchanged; arrived
+
+7. arrived; had already given; were opening; were; was
+
+8. walked
+
+9. saw; was walking
+
+10. had walked; was going; saw
+
+##### 2
+
+1. had done; was listening
+
+2. was; was; could
+
+3. was; had got; could
+
+4. was; left; was getting
+
+5. left; had got; saw
+
+6. made; needed; looked; hadn’t forgotten / had made; needed; was looking; hadn’t forgotten
+
+7. forgot; was making; didn’t buy; needed
+
+8. spoke; apologized
+
+9. apologized; had spoken
+
+10. met; had come; was asking; recognized; came
+
+##### 3
+
+1. met; invited
+
+2. had she shut; rang
+
+3. called; was buying
+
+4. met; was; had
+
+5. had written; was
+
+6. had the children begun; quarrelled
+
+7. entered; dropped; had taken
+
+8. caught; had; had stolen
+
+9. moved; lived
+
+10. hurt; was getting; didn’t break
+
+##### 4
+
+1. had scarcely crossed; changed
+
+2. was; listened; left
+
+3. did Joan look; had quarrelled
+
+4. had; went
+
+5. was; was; knew; had read; had
+
+6. agreed; had asked; found; had refused
+
+7. had; were looking; had seen
+
+8. was; had drunk; came
+
+9. needed; called; called; answered; were you; was sleeping; didn’t wake; had taken
+
+10. had spent; was suffering; wanted; went; walked; didn’t help; was; had she started; rang; got
+
+<a id="key-53-2"></a>
+
+#### 53.2
+
+##### 1
+
+1. It was the first time they had travelled by ship.
+
+2. Hardly had I turned around when ...
+
+3. Though the sun had come out it was still snowing.
+
+4. RIGHT
+
+5. She burnt her tongue when she was tasting the soup.
+
+6. By the time the doctor came the patient was already dead.
+
+7. He had finished his book by December last year.
+
+8. RIGHT
+
+9. When Sue came into the room the baby had been awake for a quarter of an hour.
+
+10. Alice stayed with her grandmother for a fortnight and returned home.
+
+##### 2
+
+1. RIGHT
+
+2. Charles was leaving on Saturday so we came to say good-bye to him.
+
+3. By the time she cleaned the flat she was very tired.
+
+4. How long did you stay in London?
+
+5. We already wanted to call the police when Mr. Thompson brought our children home.
+
+6. She forgot her friend’s address and couldn’t find the house.
+
+7. RIGHT
+
+8. Sam had taken a shower and was unpacking his things when somebody knocked at the door.
+
+9. RIGHT
+
+10. What did you do when you woke up?
+
+<a id="key-53-3"></a>
+
+#### 53.3
+
+##### 1
+
+1. When Kate came we were discussing the news.
+
+2. When we were discussing the news Kate came.
+
+3. When Kate was leaving we were still discussing the news.
+
+4. When Kate left we discussed the news for some more time.
+
+5. When Kate came we discussed the news.
+
+6. By the time Kate came we had already discussed the news.
+
+7. When Kate came we already knew the news.
+
+8. When Kate came we had known that news for a long time.
+
+9. When Kate came we discussed the news and had tea.
+
+10. When Kate came we discussed the news having tea.
+
+11. When Kate came we had already discussed the news and were having tea.
+
+12. Hardly had we discussed the news when Kate came.
+
+13. When Kate came she told us what she had heard about that news.
+
+14. What did you discuss when Kate came?
+
+15. What were you discussing when Kate came?
+
+16. Had you discussed anything by the time Kate came?
+
+17. Did you know anything by the time Kate came?
+
+##### 2
+
+1. Hardly had we had dinner when the hostess offered us tea.
+
+2. By the time she was 30 she had danced all the classical parts and was already a famous ballet dancer.
+
+3. When she woke up it was already light, morning had come.
+
+4. The children were very excited. Everybody had read the book and was discussing it.
+
+5. He felt that somebody was following him but he didn’t turn around.
+
+6. We watched the film for about half an hour. — And then? — Then we turned off the TV set because the film was boring.
+
+7. By 5 o’clock she had prepared everything and (had) laid the table.
+
+8. Everything was ready and she was waiting for the guests.
+
+9. It stopped raining and we went for a walk.
+
+10. It hadn’t stopped raining when we went for a walk.
+
+##### 3
+
+1. She was having a real rest. She hadn’t even read a newspaper since her holidays started.
+
+2. He was very happy as he had won first prize in the competition.
+
+3. I was late. The teacher was already explaining a new rule.
+
+4. I was late. The teacher had already explained a new rule and everybody was doing an exercise.
+
+5. When we asked him for help the problem had existed (we had had the problem) for a long time.
+
+6. No sooner had we entered the hall than the light went out and the film started.
+
+7. I had known Maggie for about five years when I met her brother.
+
+8. We were already leaving when he caught up with us and asked us to stay.
+
+9. Was she still working in the garden at that time? — I don’t know. I didn’t see her.
+
+10. I had warned Dick many times before I finally punished him.
+
+<a id="keys-unit-54"></a>
+
+### UNIT 54
+
+<a id="key-54-1"></a>
+
+#### 54.1
+
+1. We had been driving for two hours when the accident happened.
+
+2. After the baby had been crying for almost an hour he finally fell asleep.
+
+3. The man who had been walking in front of me all the way suddenly fell down.
+
+4. Ann had been taking the medicine for several weeks before she really felt better.
+
+5. There was a sweet smell in the room because she had been cooking biscuits all morning.
+
+<a id="key-54-2"></a>
+
+#### 54.2
+
+1. had been watching
+
+2. had the Smallwoods been looking
+
+3. hadn’t decided; had been discussing
+
+4. had been working
+
+5. had called
+
+6. had been asking; had asked
+
+7. had been following
+
+8. hadn’t eaten
+
+9. had been hiding
+
+10. had put on
+
+<a id="key-54-3"></a>
+
+#### 54.3
+
+1. When Kate came we’d been discussing the news for half an hour already.
+
+2. Was the car waiting for you when the train arrived? — Oh yes, but the driver was very nervous because the train was late and he had been waiting for me for a long time.
+
+3. The children looked cheerful. They had been skiing all morning.
+
+4. She was tired because she had been studying hard since morning. She had learnt half of the necessary material.
+
+5. We had been rehearsing the play for about a month when Jack fell ill. — And how long did you look for another actor? — Just a few days.
+
+6. By the time the firemen arrived, the house had smelt of smoke for a long time.
+
+7. They painted the house for two hours.
+
+8. They had been painting the house for two hours when it suddenly began raining.
+
+9. They painted the house for two hours, but then the rain began and spoilt everything.
+
+10. When they were painting the house, it suddenly began raining.
+
+11. When they had painted the house, it suddenly began raining.
+
+12. They had already painted the house twice when it suddenly began raining.
+
+13. They had painted the house and were having dinner when it suddenly began raining.
+
+14. The house they had been painting so long was burnt down at night.
+
+<a id="keys-unit-55"></a>
+
+### UNIT 55
+
+<a id="key-55-1"></a>
+
+#### 55.1
+
+##### 1
+
+1. 1
+
+2. 3
+
+3. 2
+
+4. 3
+
+5. 1
+
+6. 1
+
+7. 2
+
+8. 3
+
+9. 3
+
+10. 1
+
+##### 2
+
+1. 2
+
+2. 1
+
+3. 2
+
+4. 2
+
+5. 3
+
+6. 3
+
+7. 1
+
+8. 2
+
+9. 1
+
+10. 1
+
+##### 3
+
+1. 3
+
+2. 2
+
+3. 2
+
+4. 3
+
+5. 1
+
+6. 1
+
+7. 2
+
+8. 1
+
+9. 3
+
+10. 3
+
+<a id="key-55-2"></a>
+
+#### 55.2
+
+##### 1
+
+have been studying; don’t know; say; are; know; puzzle; are; don’t know; was thinking; read; had died; was; was; knew; interested; gave.
+
+##### 2
+
+was waiting; put; knelt; began; were burning; have you been; gave; gave; gave; have you been; is
+
+##### 3
+
+had finished; arrived; met; was; hadn’t seen; kissed; took; are; smiled; have been; have lost
+
+##### 4
+
+have you left; want; looked; didn’t understand; looked; are; made; Have you ever painted?; wanted; was; made; said; began; have been going; went; were playing; didn’t you tell; preferred; have come; will do; starts; begin; was
+
+##### 5
+
+had been; was walking; have never shown; turned; followed; cost; took; were; did Betty have; cried; found; cost; paid; were leaving; cast; had vanished
+
+<a id="key-55-3"></a>
+
+#### 55.3
+
+##### 1
+
+1. I used to see him here quite often.
+
+2. Have you seen him here before? — Yes, I have. — When was he here last?
+
+3. By the time she was to return the book to the library she hadn’t finished it yet. — And what did she do?
+
+4. She watched TV looking through a magazine.
+
+5. Did everybody like the performance?
+
+6. It was the first time she had listened to that opera. — Where did she get the tickets?
+
+7. She had been using that medicine for a month but she didn’t feel better.
+
+8. Hardly had they got married when they divorced.
+
+9. Have you ever been to a disco? — Yes, I have. I was there many times when I was a teenager.
+
+10. She had got a letter and was reading it.
+
+##### 2
+
+1. Have you been on holiday long?
+
+2. Were you in hospital long? (Did you stay in hospital long?)
+
+3. Did you recognize each other at once? — Sure, we had met many times.
+
+4. Why are you smelling the flower again? — It smells so nice!
+
+5. She got a terrible headache while she was listening to the lecture.
+
+6. How long has it been raining? — Since about 12 o’clock.
+
+7. Tom thinks that even if he brings all of us home, his Mum won’t get angry.
+
+8. Does the program begin at 7 o’clock in the evening?
+
+9. By the time he was 30 he already had two professions and had changed several jobs.
+
+10. I haven’t gone out since I broke my leg.
+
+##### 3
+
+1. They have been discussing this problem for a long time.
+
+2. They discussed this problem long ago.
+
+3. This house was ours for 5 years.
+
+4. This house has been ours for 5 years.
+
+5. Our neighbours were having a very noisy party and we called the police.
+
+6. You are always speaking at the top of your voice!
+
+7. She looked at her watch. It was already late and her son hadn’t come back yet.
+
+8. I haven’t been very busy lately and that’s why I’ve been reading a lot.
+
+9. Until I repair the car we won’t go anywhere.
+
+10. She had a rest for a fortnight and returned to work.
+
+##### 4
+
+1. The children had done their homework and were playing. They had been playing for about two hours.
+
+2. By the end of the week the police had stopped the investigation though they hadn’t found the criminal.
+
+3. She combed her hair and looked in the mirror.
+
+4. We’ve been looking for our kitten ever since it got lost.
+
+5. Call me in case you have problems.
+
+6. When I was approaching the stop, the passengers were already getting on the bus.
+
+7. I have no idea what my wife was doing at that time. She was out. (She wasn’t at home.)
+
+8. Kate planted a flower and put it on the window sill. The next day it died as she had forgotten to water it.
+
+9. The clients wonder when they will get an answer to their question.
+
+10. He used to be the worst student in the group. But now everything has changed.
+
+##### 5
+
+1. She had read a lot of articles before she found a suitable one.
+
+2. She read a lot of articles and found a suitable one.
+
+3. Mrs. Grace has put on a lot of weight as she has been eating too much in the last few days.
+
+4. I learnt fantastic news the other day.
+
+5. I needed a present for Helen as I was going to her birthday party at the weekend.
+
+6. How did the children behave?
+
+7. I’ve been thinking over their offer for several days but I haven’t made up my mind to accept it yet.
+
+8. You are making this bad mistake again! Why haven’t you learnt the rule so far?
+
+9. I was going to tell them about my new job but they already knew everything and were just discussing it when I came. — Who had told them?
+
+10. This is the most difficult decision I’ve ever made.
+
+<a id="keys-unit-56"></a>
+
+### UNIT 56
+
+<a id="key-56-1"></a>
+
+#### 56.1
+
+##### 1
+
+1. My brother says that I’m always spending hours in the bathroom.
+
+2. Brian says that he has never been to England but he’d like to go there.
+
+3. Rachel tells Tim that he must help her with the shopping today.
+
+4. The teacher tells the student that he (she) wasn’t attentive enough.
+
+5. My friends say that they were waiting for me at the cinema at 5 o’clock.
+
+##### 2
+
+1. I ask my sister if / whether she got bad marks at school.
+
+2. Mary asks her parents if / whether they are going to the country on Saturday.
+
+3. Little Sam wonders if / whether I have brought a new toy for him.
+
+4. Dad asks Lucy if / whether she understands everything in this subject.
+
+5. My friend asks if / whether my brother can really play the violin.
+
+##### 3
+
+1. Nick’s parents wonder how he met Helen.
+
+2. The teacher asks which of the pupils can translate this sentence. (The teacher asks the pupils which of them can translate this sentence.)
+
+3. I ask Ned what Alice’s elder brother looks like.
+
+4. Mum asks me where I have been all this time.
+
+5. The man asks the boy why he is crying.
+
+##### 4
+
+1. Mum advises to call the doctor at once.
+
+2. My husband tells me never to touch this button.
+
+3. The teacher asks the children not to make so much noise.
+
+4. The sick child asks Mum to give him something tasty.
+
+5. I tell my child not to speak to people in such a way.
+
+<a id="key-56-2"></a>
+
+#### 56.2
+
+##### 1
+
+1. My doctor advises not to take this medicine.
+
+2. David says that he has seen this film but he didn’t like it.
+
+3. They wonder what else Mr. Brown said.
+
+4. Mum asks me to clean my room once a week.
+
+5. Kate asks if the others know about the changes in the plan.
+
+6. Mr. Black says that he was going home at that time and saw everything.
+
+7. My little sister says that she will be a doctor.
+
+8. The teacher always asks why we are late.
+
+9. I wonder who is responsible for this work.
+
+10. Susan asks when your brother was born.
+
+##### 2
+
+1. My parents often remind me not to ask strangers for anything.
+
+2. Mrs. Setliff asks if you are thirsty.
+
+3. My son says that he needs a computer.
+
+4. The speaker says that he knows what he is speaking about.
+
+5. This woman wonders where you used to live.
+
+6. Our neighbours say that if we don’t come to their party they will be hurt.
+
+7. My brother asks me not to be angry with him.
+
+8. When we meet he always asks how I am.
+
+9. My Mum always wonders who I went to the cinema with.
+
+10. Nick asks if we are free on Saturday night.
+
+<a id="keys-unit-57"></a>
+
+### UNIT 57
+
+<a id="key-57-1"></a>
+
+#### 57.1
+
+##### 1
+
+1. She exclaimed that it was a wonderful view.
+
+2. Ann wondered if I agreed that clothes make the man.
+
+3. Dick said that his sister starred in the new play.
+
+4. Mrs. Crow said that her neighbours were vegetarians.
+
+5. My friend asked what my new house was like.
+
+##### 2
+
+1. Mrs. Pitt announced that her daughter was going to have a baby.
+
+2. I asked why he was looking for a new job.
+
+3. Pete said that he was taking his final exams the following month.
+
+4. The old man wondered if I was doing it on purpose.
+
+5. The teacher asked who was making that awful noise.
+
+##### 3
+
+1. The examiner asked how long I had been learning English.
+
+2. She said that her Mum had never travelled by plane.
+
+3. Jane complained that she hadn’t seen Patsy for ages.
+
+4. My coach admitted that I had been working really hard lately.
+
+5. Raymond asked if I had heard the news.
+
+##### 4
+
+1. Laura said that it had been a wonderful party.
+
+2. Mr. Dent said that his son had graduated from Oxford University three years before.
+
+3. John asked if I had enjoyed my holiday the previous year.
+
+4. Jane asked where I had been the day before and added that she hadn’t been able to find me.
+
+5. The book said that Einstein invented the theory of relativity.
+
+##### 5
+
+1. The boy asked what I (we) had been laughing at when he entered.
+
+2. The woman said that she hadn’t heard anything because the music had been playing quite loudly.
+
+3. Mrs. Gray said that her daughter had been still sleeping at that time.
+
+4. Dad asked if I had been playing tennis at 5 as usual.
+
+5. The taxi driver said that the man had been leaving for St. Petersburg and asked to take him to the station.
+
+##### 6
+
+1. Mary promised that she would call me the following day. (Mary promised to call ...)
+
+2. She said that if anything happened to her I would have to look after her children.
+
+3. The lawyer said that he wouldn’t help me until I told him all the truth.
+
+4. She complained that they wouldn’t have that subject the following year.
+
+5. My Mum wondered if I would stay there long.
+
+##### 7
+
+1. The woman insisted that I wouldn’t make the child obey if I shouted at him.
+
+2. Mary said that she was so sleepy that she couldn’t think clearly then.
+
+3. The police inspector asked me how many times I had got letters from Lady Fox.
+
+4. My mother-in-law asked me who had given me the recipe and added that it was very good.
+
+5. The pupil answered that Paris is the capital of France.
+
+6. Dad told me not to show the dog that I was afraid.
+
+7. Nick asked what I was doing the next day and suggested going for a walk. I said that I could go right away and that I would be ready in five minutes.
+
+8. Mum asked who would stay with the baby while I worked.
+
+9. The girl admitted that she hadn’t had such a good time since she fell ill.
+
+10. My brother asked why I had had to get up so early that day.
+
+11. The woman argued that she hadn’t been going to steal the pen at all and that she had just been looking at it.
+
+12. The teacher said that Peter I won the war with the Swedes.
+
+13. I asked my boss what he meant because I hadn’t quite got him.
+
+14. Joan said that she had been surprised and hadn’t known what to say.
+
+15. The teacher complained that I had been wasting time again and hadn’t done anything.
+
+16. Mr. Smiley advised me to speak to that young man. He thought that he knew more than he was saying.
+
+17. Diana wondered what I would do if I failed my exam.
+
+18. The principal said angrily to tell him at once whose fault it was.
+
+19. Fred was sorry he hadn’t stopped to speak to me the day before. He explained that he had been in a great hurry.
+
+20. Jerry said proudly that his sister was a journalist and had interviewed many famous people.
+
+21. I asked Ann if Tim was her brother or her cousin.
+
+22. Brian wondered what would come of our plan.
+
+23. The lecturer said that Jupiter is the largest planet in the Solar system.
+
+24. Mrs. Barney said that she had paid attention to the boy’s behaviour long before and added that she thought it was strange.
+
+25. Our servant said that my sister was sleeping in her room and added that she had asked not to disturb her.
+
+<a id="key-57-2"></a>
+
+#### 57.2
+
+1. The man asked, “What are you doing here so late?”
+
+2. The doctor said, “Don’t worry. Your child will be all right.”
+
+3. Nick said to his sister, “Turn down the volume of the music. I have a bad headache.”
+
+4. Mary said, “I saw Max yesterday.”
+
+5. Meeting me in the park my Dad wondered, “How long have you been walking here?”
+
+6. The teacher said, “Charles, if you don’t tell me the truth, I’ll have to call your parents.”
+
+7. My friend wondered, “How do you get on with your mother-in-law?”
+
+8. My Granny said, “Though I have seen these photos hundreds of times, it’s a pleasure for me to look them through again.”
+
+9. The tennis coach said, “Your brother is too young. He’ll be able to join the sports club only next year.”
+
+10. Mother asked Kate, “Is this the boy you got acquainted with last year?”
+
+<a id="key-57-3"></a>
+
+#### 57.3
+
+1. say
+
+2. told
+
+3. said
+
+4. have just said
+
+5. tell
+
+6. to tell
+
+7. does he say
+
+8. didn’t tell
+
+9. am saying
+
+10. says; say
+
+<a id="key-57-4"></a>
+
+#### 57.4
+
+##### 1
+
+1. I wondered why there were always so many flowers in her house.
+
+2. Frank asked what I preferred: opera or ballet, and if I often went to the theatre.
+
+3. The secretary answered that Mr. Clark would return only an hour later and advised me not to wait for him.
+
+4. The policemen asked how long Mr. Smithers had been renting the room in our house and what we thought about him.
+
+5. Ned said that he had never spoken to me as it was the first time he had seen me.
+
+6. My friend said that he had returned two days before but he hadn’t had time to call before.
+
+7. The guide explained to us that we would be able to get into the museum only after the restoration was over.
+
+8. Mother asked at once what was going on there.
+
+9. The teacher pointed at the map and said that Everest is the highest mountain in the world.
+
+10. The young man explained that he had been working abroad for the last two years.
+
+##### 2
+
+1. Mother said that she had been sleeping when the telephone rang and she hadn’t managed to answer it.
+
+2. I apologized and said that I couldn’t speak at that moment (then) and asked to call back later.
+
+3. Mary said that she had been to Italy a year before but if she had a chance she would certainly go there once again.
+
+4. The child said that he was hungry and asked when we would have lunch.
+
+5. He recommended not to follow Mr. Gray’s advice as it was not always useful.
+
+6. I wondered if Helen and Pete had been travelling so much and they said they had.
+
+7. Charlie explained what all those questions meant.
+
+8. He said that he was leaving but he promised to come the following week.
+
+9. We asked when the results of the experiment would be known.
+
+10. He was sorry he was late and said that the traffic was heavy and he had got stuck in a traffic jam.
+
+11. She said that she didn’t know how it had happened and couldn’t say anything.
+
+12. My friends wondered whose child it was and why he was at my place.
+
+13. The pupils answered all together that five times five is twenty-five.
+
+14. Bob warned me not to tell Harold about it even if he threatened me.
+
+15. I asked my brother if he knew how long Jess and Caroline had been married but he answered that he didn’t.
+
+<a id="keys-unit-58"></a>
+
+### UNIT 58
+
+<a id="key-58-1"></a>
+
+#### 58.1
+
+##### 1
+
+1. was; had expected; gave up; found; had made
+
+2. had I entered; came; was; was; had seen; didn’t know; was still asking; telling
+
+3. had; would lead; decided
+
+4. was; hadn’t warned; had wasted
+
+5. was surprised; rang; had already arrived; wasn’t expecting
+
+6. turned out; had been making; had been
+
+7. was looking; had made; was; wanted; had
+
+8. realized; was; didn’t use; would regret
+
+9. had; had done; was; had planned
+
+10. hoped; would take; had read; is
+
+##### 2
+
+1. turned off; had been listening; went; thought; was; turned out; had dialled
+
+2. was; couldn’t; was crying
+
+3. liked; had read; seemed; thought; wouldn’t like; would remain
+
+4. was enjoying; sounded; had heard; was; didn’t know; was
+
+5. was wearing; suited; looked; hadn’t seen
+
+6. was having; had been working; rang; changed; didn’t want; had hoped; would disturb
+
+7. pointed out; is getting
+
+8. doubted; would do; wanted
+
+9. didn’t trust; was; would show; would see; was
+
+10. had; was going on; didn’t notice; weren’t paying
+
+11. read; built
+
+12. had found; looked; realized; could; didn’t throw
+
+13. looked; had expected; was; had imagined; reminded; can
+
+14. began; saw; had always been looking after; were
+
+15. threw away; would come in; was; had been storing
+
+<a id="key-58-2"></a>
+
+#### 58.2
+
+##### 1
+
+was; had chosen; chose; seemed; stood
+
+##### 2
+
+had given; was supervising; turned on; reduced; sat; knew; enjoyed; came; had; thought; decided; was; could; had made; began; began; was; reminded; progressed; tried; dimmed; sat; tried
+
+##### 3
+
+came; went; worked; had; had had; was speaking; had chosen; swung; shook; turned; reduced
+
+##### 4
+
+came; turned off; went; came; was; took; changed; joined; had just turned on; announced; left; went; was; was; wandered; listened; was; stopped; said; added; slammed; began; Did you hear; was eating; said; was still going on
+
+<a id="key-58-3"></a>
+
+#### 58.3
+
+1. He understood that if his wife found out what he had done she would never forgive him.
+
+2. Rick had been concealing the truth for so many years that it was difficult for him to confess now. He himself already didn’t remember why he hadn’t done it at once.
+
+3. He didn’t go to the party because he avoided meeting Megan. He didn’t want her to see how ashamed he was for the fact that he had been rude to her.
+
+4. By the expression of my secretary’s face I guessed who was calling her. She was speaking in a low voice so that nobody would understand what she was talking about.
+
+5. Obviously the man didn’t understand that everybody was laughing at him as he went on behaving as before.
+
+6. There was something mysterious in the newcomer’s name because though it seemed simple to everybody nobody remembered it.
+
+7. The policemen wondered how the criminal had managed to escape from prison and where he had been hiding so long. They were sure that somebody was helping him.
+
+8. The child was crying and Liz couldn’t calm him down. It wasn’t clear to her what the matter was and she was afraid that she had done something wrong.
+
+9. The only thing everybody was talking about was the accident that had happened (had taken place) the day before. People discussed the details trying to guess what the consequences would be.
+
+10. Mr. Deal was sure that when people read his book he would certainly become famous and popular.
+
+11. Chris was surprised that nobody was meeting him as he had informed about the day of his arrival long before.
+
+12. Everybody realized what Mrs. Cartright meant but pretended that everything was all right and nothing strange was happening (was going on).
+
+13. The programme was quite interesting. I learnt, for example, that in 1666 the Great Fire destroyed two thirds of London.
+
+14. Rachel wrote to us about everything she had found out and now we had an idea who had been doing what before her arrival and also what was going on in the house at that time.
+
+15. It was impossible to believe that such a quiet and friendly man was in fact a rascal because of whom so many people had died.
+
+<a id="keys-unit-59"></a>
+
+### UNIT 59
+
+<a id="key-59-1"></a>
+
+#### 59.1
+
+1. Nick says that it’s time to go.
+
+2. Michael wondered what my brother looked like.
+
+3. My Dad says that he will help me.
+
+4. The children said that they were ready for the competition.
+
+5. The man said that he had seen the accident.
+
+6. The teacher said that if we didn’t study hard we would have problems at the exam.
+
+7. Myra asked why I had lied to her.
+
+8. Laura said to me (told me) that her brother was coming to see her.
+
+9. Mother told Maude to clean her room.
+
+10. My little son was very surprised when he read that the cuckoo lays its eggs in other birds’ nests.
+
+11. It turned out that everybody had learnt about it long before.
+
+12. I asked who was looking after his garden while he was in hospital.
+
+13. He said his neighbours would return the next week.
+
+14. Roger asked me not to touch that picture.
+
+15. My parents wondered why I hadn’t called the day before.
+
+<a id="key-59-2"></a>
+
+#### 59.2
+
+##### 1
+
+have taken; Did you have; was; did you say; asked; said; had been; is; was; told; had got; asked; stayed; was; left; was going; don’t have; got on; had come; bought; got out; took; was driving; loved; had been saving; was; told; had fixed; repaired; was; stopped; go; offered; went; stopped; was; said; had taken; was doing; was; had; moved on; don’t know; didn’t want; washed; got; came up; were; worked.
+
+##### 2
+
+did; would stop; thought; would make; are; knew; would break down; stuck; saw; were all lunching; was; noticed; was drinking; was shaking; was; came; made; thought; pretended; was; had ever tasted; was; got; would never have; took; offered; told; would have; told; was expecting; fancied; didn’t have; took; had made up; found; hadn’t touched; would make; is; swear; got; saw; knew; had been; had gone; was actually panting; finished; is; imagined; had happened; said.
+
+<a id="key-59-3"></a>
+
+#### 59.3
+
+##### 1
+
+One day Jimmy ran away from home when his father and step-mother had beaten him again. He didn’t know where he was going. Finally he found himself in a street he had never been to before. He got frightened and started to cry. He sat in the street for quite a long time. It was already getting dark when two boys came up to him and asked what had happened and why he was crying. At first Jimmy was afraid of them as it was the first time he had seen them. But then he told them his story. They felt sorry for Jimmy. They realized that the boy wouldn’t survive if they left him alone. The boys told Jimmy not to cry and promised to help him.
+
+##### 2
+
+It turned out that Mr. Hopkins was a robber and he had been using Jimmy for his crimes all that time. Jimmy had been thinking what to do since he realized it. He remembered that a friend in need is a friend indeed and went to Rip. Rip was afraid that when Jimmy came to the police policemen would arrest him as he had taken part in many robberies by that time and policemen knew that somebody helped Hopkins. The boys sat thinking what to do when Rip’s master came and asked what they were doing there so late.
+
+##### 3
+
+Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out.
+
+Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn’t know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job.
+
+At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn’t even imagine where they were really sending the boy and what would happen to him there.
+
+<a id="keys-unit-60"></a>
+
+### UNIT 60
+
+<a id="key-60-1"></a>
+
+#### 60.1
+
+##### 1
+
+1. This dish is loved by everybody.
+
+2. Has all the necessary information been collected?
+
+3. Such an ugly picture will never be bought.
+
+4. This criminal was caught a year ago.
+
+5. A patient was being examined when I came.
+
+6. The children were frightened by the noise.
+
+7. All the money had been spent by the end of our vacation.
+
+8. Will prices be raised again?
+
+9. New flowers are being grown by our neighbours this year.
+
+10. This word is used in several meanings.
+
+##### 2
+
+1. What was said about the exam?
+
+2. No way out has been found yet.
+
+3. Why was the truth concealed?
+
+4. My brother’s car is still being repaired.
+
+5. It turned out that a new show had been organized by Mary.
+
+6. Such important documents won’t be left at the office.
+
+7. How many times has the mincer been used since it was bought?
+
+8. Did you know that you were being watched?
+
+9. Something is broken every time the dishes are washed by my daughter.
+
+10. The children weren’t made to help her in the garden.
+
+<a id="key-60-2"></a>
+
+#### 60.2
+
+##### 1
+
+1. The new theatre hasn’t been built yet, has it?
+
+2. When will your book be published?
+
+3. Such cards are usually sent on birthdays.
+
+4. The same melody was being played when I returned from work.
+
+5. Were your things packed in time? — Yes, they were, thank you.
+
+6. The house was in perfect order. Everything had been put in its place, the floor had been cleaned and the curtains had been washed.
+
+7. Whose report is being discussed now?
+
+8. Nick hasn’t been seen for quite a long time.
+
+9. Fruit is eaten before meals.
+
+10. We got to the theatre as the tickets had been booked long before.
+
+##### 2
+
+1. Be quiet! Important news is being reported.
+
+2. How long has this flat been redecorated?
+
+3. It was said specially for you.
+
+4. He won’t be cured if he doesn’t go to hospital.
+
+5. This cake is cooked easily.
+
+6. It didn’t seem to me! — But were you really being followed?
+
+7. Not a minute was wasted. All the necessary preparations were made.
+
+8. The car isn’t being painted. It’s already being dried.
+
+9. Had the name been chosen by the time the child was born?
+
+10. I was afraid that the mistake would be noticed all the same.
+
+<a id="keys-unit-61"></a>
+
+### UNIT 61
+
+<a id="key-61-1"></a>
+
+#### 61.1
+
+##### 1
+
+1. The ring was sold to some lady yesterday.
+
+2. Our new English teacher was introduced to us by the principal.
+
+3. Haven’t all the most important details been agreed on yet?
+
+4. We’ll certainly be shown her new picture. Her new picture will certainly be shown to us.
+
+5. It is reported that a dangerous criminal is missing.
+
+6. Was anything new explained to you by the teacher at the lesson?
+
+7. Even a birthday card wasn’t sent to me by her! I wasn’t even sent a birthday card by her!
+
+8. By 5 o’clock the winner hadn’t been announced by the committee yet.
+
+9. These recommendations are always given to students by Professor Brand. Students are always given these recommendations by Professor Brand.
+
+10. His jokes are never laughed at because they aren’t funny.
+
+##### 2
+
+1. Don’t disturb him. A very important letter is being dictated by him to his secretary.
+
+2. The accident was being described by her to passers-by when the police arrived.
+
+3. I have been waited for for a quarter of an hour already.
+
+4. What is being looked for?
+
+5. I was offered help by a stranger when I fell down in the street. Help was offered to me by a stranger when I fell down in the street.
+
+6. When was this book written?
+
+7. He speaks in such a low voice that he is never listened to.
+
+8. A new car is being bought by Mr. Brown.
+
+9. Every woman is pleased when she is paid a compliment. Every woman is pleased when a compliment is paid to her.
+
+10. Nothing new has been bought lately.
+
+<a id="key-61-2"></a>
+
+#### 61.2
+
+##### 1
+
+1. Just an extract from his new novel was read to me but I got interested at once.
+
+2. His reports are always listened to with great attention.
+
+3. Was it explained to you how to get to the theatre?
+
+4. Has the telegram been sent to him yet? Has he been sent a telegram yet?
+
+5. Why had this fact been mentioned twice by the end of the conversation?
+
+6. Our tests are being looked through now. — And when will the marks be announced?
+
+7. I was promised that my suggestion would be thought over.
+
+8. The task was repeated to the pupils several times but some of them still didn’t understand it.
+
+9. What film was shown to the children yesterday? What film were the children shown yesterday?
+
+10. It’s reported that the visit will be paid at the beginning of the month.
+
+##### 2
+
+1. When I came my favourite song was being sung on the radio.
+
+2. Are you sure that you were told all the truth? Are you sure that all the truth was told to you?
+
+3. Is this the musical that is being so much spoken about now?
+
+4. How did you like the party you had been invited to by the Smiths?
+
+5. Who was this doctor recommended to you by?
+
+6. What is this book devoted to?
+
+7. Neither advantages nor disadvantages of this method were explained to us.
+
+8. Do you know what has been laughed at so long?
+
+9. The news was reported to the president at once.
+
+10. Where was he being waited for at that time?
+
+<a id="keys-unit-62"></a>
+
+### UNIT 62
+
+<a id="key-62-1"></a>
+
+#### 62.1
+
+##### 1
+
+1. It is being tuned now.
+
+2. When will the picture be finished?
+
+3. RIGHT
+
+4. The plan we agreed on looked perfect.
+
+5. It was recommended to them to call the police.
+
+6. The documents are being looked through.
+
+7. RIGHT
+
+8. RIGHT
+
+9. Who was the book written by?
+
+10. The message was written with a pencil.
+
+##### 2
+
+1. The question has been discussed for two hours already.
+
+2. What was being explained to you when the principal entered?
+
+3. He was seen to leave the building at 8 o’clock.
+
+4. RIGHT
+
+5. She was told to go home at once.
+
+6. This event has been much spoken about lately.
+
+7. RIGHT
+
+8. RIGHT
+
+9. New shoes were bought for the child yesterday.
+
+10. A good-night tale is always read to the children by their Granny.
+
+<a id="key-62-2"></a>
+
+#### 62.2
+
+##### 1
+
+1. is being redecorated
+
+2. isn’t finished
+
+3. hadn’t been solved; had been discussed
+
+4. Why hasn’t this information been ever used?
+
+5. aren’t worn
+
+6. won’t be paid any attention to
+
+7. was being listened to
+
+8. wasn’t introduced
+
+9. are given
+
+10. was devoted; had been killed
+
+##### 2
+
+1. has been offered
+
+2. hadn’t been considered; would be informed
+
+3. is being rehearsed; have been invited
+
+4. had been made fun of
+
+5. had been mentioned
+
+6. were checked; would be found
+
+7. have been kept
+
+8. has been studied; is being done
+
+9. has been talked about
+
+10. would be looked after; had been promised
+
+<a id="key-62-3"></a>
+
+#### 62.3
+
+##### 1
+
+1. If we are taught another foreign language next year, I’ll choose English. It is spoken in many countries.
+
+2. Who told you that he had been robbed? He was badly beaten but nothing was stolen.
+
+3. I switched on the TV set. Some old film was being shown.
+
+4. It turned out that he hadn’t been invited to the party, as his telephone number hadn’t been found.
+
+5. What was given to you as a birthday present? — Nothing. I haven’t been congratulated so far.
+
+6. It was explained to us that this sad event was never discussed in the family and that’s why our questions wouldn’t be answered.
+
+7. Your dress is being ironed. Will you wait a minute, please?
+
+8. It seems to me this is a trifle incident. Why do you think it will be spoken about?
+
+9. Instructions were just dictated to me. — Wasn’t it explained to you what it was all for?
+
+10. Nick wondered what day the meeting had been put off and why he hadn’t ben told about it.
+
+##### 2
+
+1. When will the next speaker be listened to? — I don’t know. He hasn’t come yet. He is being waited for by everybody.
+
+2. I’ve never been offered anything like this before. I don’t know what to do.
+
+3. Nobody will believe you. You’ll be just laughed at.
+
+4. Nothing is repeated twice at her lessons. Pupils understand her explanations very well.
+
+5. Why have the documents been looked through so long? Is anything wrong?
+
+6. Why can’t you understand such a simple thing? How many times has it been explained to you?
+
+7. If she is promised defence by the police she’ll say who the crime was committed by.
+
+8. What was recommended to you by the doctor?
+
+9. By that time five patients had been operated on.
+
+10. The letter was written in a hurry, that’s why it was difficult to read it.
+
+##### 3
+
+1. You’ll be told when your car will be sold. You’ll be sent a letter.
+
+2. Though Mr. Smith had been described to me I couldn’t recognize him until we were introduced to each other.
+
+3. Has our flight been announced yet?
+
+4. It was clear that such a beautiful thing would be bought very soon. Any money would be paid for it.
+
+5. I didn’t get whose name was being mentioned. I just guessed that somebody was being sent for.
+
+6. Our help was received with gratitude but actually it wasn’t needed.
+
+7. He should be given time to think. Such decisions can’t be taken at once.
+
+8. Everything had been arranged long before the meeting. Why was the plan suddenly changed?
+
+9. If the injection isn’t made within an hour, the patient may die.
+
+10. Don’t enter! A rehearsal is being held.
+
+<a id="keys-unit-63"></a>
+
+### UNIT 63
+
+<a id="key-63-1"></a>
+
+#### 63.1
+
+1. wouldn’t behave
+
+2. came
+
+3. would join
+
+4. wouldn’t fall
+
+5. could
+
+6. were
+
+7. would feel
+
+8. didn’t have
+
+9. didn’t interrupt
+
+10. wouldn’t sell
+
+<a id="key-63-2"></a>
+
+#### 63.2
+
+1. wouldn’t have quarrelled
+
+2. hadn’t thrown away
+
+3. hadn’t had
+
+4. wouldn’t have lost
+
+5. would have helped
+
+6. had met
+
+7. had called
+
+8. wouldn’t have refused
+
+9. would have explained
+
+10. had asked
+
+<a id="key-63-3"></a>
+
+#### 63.3
+
+1. If he loved her she wouldn’t be unhappy.
+
+2. If he hadn’t told her he loved her she wouldn’t have been so happy.
+
+3. If the weather hadn’t been so bad Glen wouldn’t have stayed at home.
+
+4. If Molly knew him well she would trust him.
+
+5. If he had known the subject well he would have argued.
+
+6. If the coffee had been tasty I would have drunk it.
+
+7. The child wouldn’t have learned the poem quickly if it hadn’t been so easy.
+
+8. I wouldn’t read much if I didn’t want to know much.
+
+9. I wouldn’t have taken the cat home if it hadn’t looked unhappy.
+
+10. I would watch TV if I had much time.
+
+<a id="key-63-4"></a>
+
+#### 63.4
+
+1. If I were you I would have gone there.
+
+2. If I were you I wouldn’t have eaten much.
+
+3. If I were you I would learn English.
+
+4. If I were you I wouldn’t always trust people.
+
+5. If I were you I wouldn’t have told him the truth.
+
+6. If I were you I would have bought that bag.
+
+7. If I were you I wouldn’t smoke much.
+
+8. If I were you I would eat a lot of fruit.
+
+9. If I were you I would have had a holiday last year.
+
+10. If I were you I wouldn’t be angry with him.
+
+<a id="key-63-5"></a>
+
+#### 63.5
+
+##### 1
+
+1. If Richard weren’t nervous he wouldn’t have shouted at his child.
+
+2. If Bill weren’t economical he wouldn’t have saved so much money.
+
+3. If Bess weren’t bad-tempered she wouldn’t have quarrelled with her husband.
+
+4. If my chief weren’t loyal he wouldn’t have given me a day off.
+
+5. If my mother weren’t kind she wouldn’t have forgiven me.
+
+##### 2
+
+1. If Steve had saved enough money he would be able to go on holiday.
+
+2. If Katherine had cleaned her coat she would be able to put it on.
+
+3. If Adam had taken the umbrella he wouldn’t be wet through now.
+
+4. If this man hadn’t broken into a house he wouldn’t be in prison now.
+
+5. If I had bought a bottle of water I wouldn’t be thirsty now.
+
+<a id="key-63-6"></a>
+
+#### 63.6
+
+##### 1
+
+1. If you had taken the pills you wouldn’t feel bad now.
+
+2. If I had cleaned the room yesterday I wouldn’t have to do it now.
+
+3. If the film weren’t interesting I wouldn’t have seen it twice.
+
+4. If he weren’t a good lawyer he wouldn’t have earned so much money.
+
+5. If he had given up smoking he wouldn’t feel bad.
+
+6. If Tom had eaten something he wouldn’t be hungry.
+
+7. If you had taken a taxi you wouldn’t be late.
+
+8. If I weren’t afraid of flying I would have gone there by plane.
+
+9. If my radio-set worked I would have listened to the 7 o’clock news.
+
+10. If the bag weren’t cheap I wouldn’t have bought it.
+
+##### 2
+
+1. But for the frost we would go skating.
+
+2. But for the map I wouldn’t have found the place.
+
+3. But for his advice I wouldn’t know what to do.
+
+4. But for the price I would have bought the car.
+
+5. But for the alarm-clock I wouldn’t have woken up.
+
+6. But for his words I wouldn’t be upset.
+
+<a id="key-63-7"></a>
+
+#### 63.7
+
+1. If you were late we would leave without you. It’s good you came in time.
+
+2. I would have finished the work long ago if he had helped me.
+
+3. I would treat him better if he hadn’t told me a lie.
+
+4. But for the fog the flight wouldn’t have been delayed.
+
+5. If I were you I would discuss this question with everybody.
+
+6. If Steve were an honest man he would have told us the truth long ago.
+
+7. If he were a more experienced driver there would have been no accident.
+
+8. If I were you I would have phoned him long ago.
+
+9. If I had money I would lend you the necessary sum.
+
+10. If he had felt like staying with us last week he would have stayed.
+
+11. I would visit Jane today if I hadn’t fallen ill.
+
+12. But for him I wouldn’t know what is gong on.
+
+13. If I were you I wouldn’t make the child learn this poem by heart.
+
+14. If the book weren’t so expensive I would have bought it yesterday.
+
+15. What would you do if you missed the train?
+
+16. He said that if his leg didn’t hurt he would play with us.
+
+17. I didn’t apologize. What would you have done if you were me?
+
+18. If you had bought a ticket you wouldn’t have been fined.
+
+19. Your child wouldn’t have got a bad mark if you paid more attention to him.
+
+20. Molly said that if she were Tim she would wear a hat.
+
+21. If you had bought those shoes you could put them on now.
+
+22. If I were her I would try to do it again.
+
+23. The child said that if Mother had bought him that toy he would be happy.
+
+24. I would go for a swim if it weren’t so cold.
+
+25. If I were you I wouldn’t allow the child cross the street alone.
+
+26. I wouldn’t have been late yesterday if I hadn’t been caught in a traffic jam.
+
+27. But for the heat the flowers wouldn’t have faded.
+
+28. If I were you I would have given up smoking long ago and jogged in the morning.
+
+29. Mr. Cain would have given you promotion long ago if you were more responsible.
+
+30. I wouldn’t be in a rush if they weren’t waiting for me.
+
+31. If you hadn’t missed the lecture you wouldn’t be asking me about it now.
+
+32. She said she would sit for little Chris if she weren’t ill.
+
+33. What would you do if you had a million dollars?
+
+34. But for his arrival I would meet you today.
+
+<a id="keys-unit-64"></a>
+
+### UNIT 64
+
+<a id="key-64-1"></a>
+
+#### 64.1
+
+1. He wishes I weren’t often late for work.
+
+2. I wish it were ( was) my car.
+
+3. I wish the day weren’t (wasn’t) gloomy.
+
+4. I wish I had a house of my own.
+
+5. Paul wishes his wife were a good cook.
+
+6. He wishes he spoke German better.
+
+<a id="key-64-2"></a>
+
+#### 64.2
+
+1. I wish I hadn’t bought it.
+
+2. I wish he hadn’t got married.
+
+3. I wish I had heard him singing.
+
+4. I wish she had been pleased with my work.
+
+5. I wish I hadn’t eaten too much for dinner.
+
+6. He wishes he had spelt it correctly.
+
+<a id="key-64-3"></a>
+
+#### 64.3
+
+1. I wish I had left it open.
+
+2. I wish I went on holiday.
+
+3. I wish he had told me the truth.
+
+4. I wish it were cheaper.
+
+5. I wish it had been a sunny day.
+
+6. I wish I had let it grow.
+
+7. I wish I had drunk coffee.
+
+8. I wish the train was fast.
+
+9. I wish we were friends.
+
+10. I wish I had been active.
+
+<a id="key-64-4"></a>
+
+#### 64.4
+
+1. I wish my friend and I didn’t quarrel so often.
+
+2. I wish he hadn’t changed that much.
+
+3. I wish I knew his address.
+
+4. I wish the police had caught the criminals.
+
+5. I wish you didn’t spend so much money. / I wish you wouldn’t spend so much money.
+
+6. I wish I could drive.
+
+7. I wish somebody had met him at the airport.
+
+8. I wish the car hadn’t broken down. We could go there by car.
+
+9. I wish he wouldn’t change his plans so often. / I wish he didn’t change his plans so often.
+
+10. I wish you had revised this rule.
+
+<a id="keys-unit-65"></a>
+
+### UNIT 65
+
+<a id="key-65-1"></a>
+
+#### 65.1
+
+1. If I had a talent for writing I would write a book.
+
+2. If I had more money I would buy a new car.
+
+3. If I were in love I would get married.
+
+4. If I saw a hat (that) I like I would buy it.
+
+5. If my friend were in trouble I would help him.
+
+<a id="key-65-2"></a>
+
+#### 65.2
+
+1. If they had asked me to stay I would have left all the same.
+
+2. If yesterday had been my birthday I would have given a party.
+
+3. If he had asked me to dinner last week I would have gone.
+
+4. If he had told me a lie yesterday I would have believed him.
+
+5. If they had arrived on Tuesday I would have met them.
+
+<a id="key-65-3"></a>
+
+#### 65.3
+
+1. If I had found treasure I wouldn’t have handed it over to the authorities.
+
+2. If I had inherited a large some of money I wouldn’t have bought a house.
+
+3. If I were Mrs. Brown I wouldn’t always tell people what to do.
+
+4. If I had gone to the seaside I would have swum in the sea.
+
+5. If I were you I would go in for sports.
+
+6. If I had written a novel I wouldn’t have burnt it.
+
+7. If I were him I wouldn’t miss lectures often.
+
+8. If I had bought a picture I wouldn’t have sold it.
+
+9. If I were him I would try to understand the problem.
+
+10. If I were him I wouldn’t smoke much.
+
+<a id="key-65-4"></a>
+
+#### 65.4
+
+##### 1
+
+1. I wish I had more friends.
+
+2. I wish I could afford a new TV-set.
+
+3. I wish she took better care of it.
+
+4. I wish I could take pictures.
+
+5. I wish I were a model.
+
+##### 2
+
+1. I wish I had gone to another restaurant.
+
+2. I wish I hadn’t ridden so fast.
+
+3. I wish I hadn’t switched on the TV-set.
+
+4. I wish I had chosen another colour.
+
+5. I wish I had learnt the rules better.
+
+6. I wish I had washed it yesterday.
+
+<a id="key-65-5"></a>
+
+#### 65.5
+
+1. But for the rain I would go for a walk.
+
+2. If I had an umbrella I wouldn’t be wet.
+
+3. If I were rich I would have stopped at the Ritz.
+
+4. I wish I knew something about gardening.
+
+5. I wish it weren’t noisy.
+
+6. I wish the bus wasn’t overcrowded.
+
+7. But for the mistake the team would have won.
+
+8. If he hadn’t failed the exam he wouldn’t be upset.
+
+9. If it hadn’t been slippery he wouldn’t have broken his leg.
+
+10. I wish I had won the first prize.
+
+11. But for the headache I wouldn’t have left the party early.
+
+12. I wish I trusted him.
+
+13. If it were dark we wouldn’t find the way.
+
+14. But for the heavy snowfall the flight wouldn’t have been cancelled.
+
+15. If he learned all rules he wouldn’t make mistakes.
+
+<a id="key-65-6"></a>
+
+#### 65.6
+
+1. I wish I knew his name.
+
+2. If I were hungry I would eat something.
+
+3. You wouldn’t feel so bad now if you hadn’t eaten so much for dinner.
+
+4. If you had been more careful yesterday you wouldn’t be in trouble today.
+
+5. I wish it weren’t winter.
+
+6. If I knew where he is I would tell you.
+
+7. But for him she wouldn’t have found a job.
+
+8. I would play tennis if I liked it.
+
+9. If I were you I would try to understand him.
+
+10. I wish I could swim.
+
+11. If he read more he would know more.
+
+12. He said that if he knew this song he would sing it now.
+
+13. But for your help I would be in trouble.
+
+14. I wish he weren’t (wasn’t) so lazy.
+
+15. If she liked dogs she would have bought one long ago.
+
+16. If you didn’t smoke here I wouldn’t have a headache.
+
+17. If I were you I would have bought that tie.
+
+18. I wish they hadn’t lost the game.
+
+19. If he didn’t know French he wouldn’t have translated this story.
+
+20. She said that if it were easy she would do it.
+
+21. I wish you hadn’t thrown away the letter.
+
+22. I wish she had read this book.
+
+23. If he lived not far from me I would have visited him long ago.
+
+24. I wish you hadn’t been angry with me.
+
+25. But for his help I would be late.
+
+26. If he weren’t bad-tempered today, he wouldn’t be so rude.
+
+27. I wish you revised all the rules for the exam.
+
+28. I wish I didn’t have to wake up so early every day.
+
+29. I wish you had asked him to join the excursion.
+
+30. But for his advice I wouldn’t have known what to do.
+
+31. But for the strong frost we could go skiing.
+
+32. I would have met him yesterday if I hadn’t been held up at work.
+
+33. Where would you have gone last summer if you had had a chance?
+
+34. What would you do if you were the headmaster?
+
+35. If I were him I wouldn’t have considered the question yesterday.
+
+36. If you had bought a present last week, you wouldn’t be nervous now.
+
+37. She would have asked you yesterday if she weren’t so shy.
+
+38. I wish you hadn’t missed so many classes. Your answer would have been better.
+
+39. I wish he were more persistent. He would have had his way long ago.
+
+40. What would you do if you had more time?
+
+<a id="keys-unit-66"></a>
+
+### UNIT 66
+
+<a id="key-66-1"></a>
+
+#### 66.1
+
+1. Can (could) you close the window
+
+2. You can’t park here
+
+3. I could ride a bicycle
+
+4. She can’t swim
+
+5. сouldn’t phone him
+
+6. can’t trust
+
+7. couldn’t wait for us
+
+8. Can you understand him
+
+<a id="key-66-2"></a>
+
+#### 66.2
+
+1. can’t, will be able to (I’ll be able to)
+
+2. couldn’t, can
+
+3. been able to
+
+4. couldn’t, will be able to (I’ll be able to)
+
+5. be able to
+
+6. can
+
+7. will you be able to
+
+8. Could you
+
+<a id="key-66-3"></a>
+
+#### 66.3
+
+1. I didn’t manage to pass the exam because I wasn’t prepared well enough.
+
+2. The children couldn’t break the vase. They weren’t at home.
+
+3. I couldn’t argue with her.
+
+4. I tried not to argue with her but didn’t manage to.
+
+5. Could you do it without my help?
+
+6. How did you manage to do it without my help?
+
+7. The children didn’t manage to repeat the word because it was difficult.
+
+8. I could repeat everything again but I didn’t want to.
+
+<a id="key-66-4"></a>
+
+#### 66.4
+
+1. Can (could) I ask you a question?
+
+2. I won’t be able to come in time.
+
+3. Ted wasn’t able to read (didn’t manage to read) the word.
+
+4. I couldn’t believe it.
+
+5. The child must be able to eat himself.
+
+6. She hasn’t been able to work well lately.
+
+7. I will be able to buy (can buy) something for supper.
+
+8. She can’t ride.
+
+9. Who will be able to answer (can answer) the question?
+
+10. I have never been able to argue with him.
+
+11. How long have you been able to swim?
+
+12. How did you manage to fix the radio?
+
+<a id="keys-unit-67"></a>
+
+### UNIT 67
+
+<a id="key-67-1"></a>
+
+#### 67.1
+
+1. Can she have done the work yet?
+
+2. Can he have said it yesterday?
+
+3. Can they be at home?
+
+4. Can you have read it yet?
+
+5. Can they have been living here long?
+
+6. Can she have typed it yet?
+
+7. Can he be sleeping now?
+
+8. Can he know it?
+
+9. Can he have been watching TV all this time?
+
+10. Can he be walking now?
+
+11. Can he have failed to learn the poem?
+
+12. Can she have failed to give you a present for your birthday?
+
+<a id="key-67-2"></a>
+
+#### 67.2
+
+1. They can’t have bought this house.
+
+2. He can’t have failed you last week.
+
+3. He can’t be a good student.
+
+4. She can’t have gone by plane last year.
+
+5. He can’t be telling a lie now.
+
+6. It can’t have rained half an hour ago.
+
+7. They can’t be playing football now.
+
+8. She can’t have been working the whole day.
+
+9. They can’t have been swimming all this time.
+
+10. He can’t be washing his car.
+
+11. He can’t have failed to give up smoking.
+
+12. She can’t have failed to understand you.
+
+<a id="key-67-3"></a>
+
+#### 67.3
+
+1. Can he be talking on the phone?
+
+2. She can’t have failed to come yesterday.
+
+3. The child can’t be hungry.
+
+4. Can she have been making dinner for three hours already?
+
+5. Can he have failed to tell you about it?
+
+6. The Swifts can’t have failed to send a letter.
+
+7. Can he have been playing the piano since morning?
+
+8. They can’t have been deciding the question since morning.
+
+9. Can they still be taking exams?
+
+10. Can Steve have been riding his bicycle since morning?
+
+11. Caroline can’t have lost the match.
+
+12. He can’t have failed to help you.
+
+13. Can Sharon still be washing the windows?
+
+14. Mr. Clark can’t have missed the meeting.
+
+15. Don and Kate can’t have failed to get married.
+
+<a id="keys-unit-68"></a>
+
+### UNIT 68
+
+<a id="key-68-1"></a>
+
+#### 68.1
+
+1. must
+
+2. had to
+
+3. must
+
+4. will have to
+
+5. had to
+
+6. must
+
+7. had to
+
+8. will have to
+
+9. had to
+
+10. will have to
+
+<a id="key-68-2"></a>
+
+#### 68.2
+
+1. was to
+
+2. must
+
+3. must
+
+4. had to
+
+5. are to
+
+6. was to
+
+7. had to
+
+8. mustn’t
+
+9. had to
+
+10. didn’t have to
+
+11. was
+
+12. am I to
+
+13. had to
+
+14. mustn’t
+
+15. will have to
+
+<a id="key-68-3"></a>
+
+#### 68.3
+
+1. He is to come in ten minutes.
+
+2. I think you must do all the work yourself.
+
+3. I’ll have to meet him again.
+
+4. She insisted and I had to agree.
+
+5. As we had agreed he was to call for me in the evening.
+
+6. You mustn’t pay attention to his remarks. He is an impolite person.
+
+7. He looked unhappy and Deborah had to forgive him.
+
+8. What am I to do when the guests come?
+
+9. He phoned us and we had to invite him.
+
+10. This is a wonderful story. You must publish it.
+
+11. Now he is to be in California and in a week in Colorado.
+
+12. You mustn’t laugh at what he is saying. It’s sensible.
+
+13. “Where am I to put the suitcase?” the taxi driver asked Miss Cain.
+
+14. Will you have to go there again?
+
+15. You mustn’t wash this sweater in hot water.
+
+<a id="keys-unit-69"></a>
+
+### UNIT 69
+
+<a id="key-69-1"></a>
+
+#### 69.1
+
+1. She must have looked ill.
+
+2. He must be tired.
+
+3. She must have been riding a bicycle for two hours.
+
+4. Barbara must be talking on the phone.
+
+5. He must have been studying malaria for ten years.
+
+6. He must have failed to do his homework yesterday.
+
+7. They must be watching TV.
+
+8. They must be in love.
+
+9. She must be making dinner.
+
+10. She must have been working in the garden since morning.
+
+<a id="key-69-2"></a>
+
+#### 69.2
+
+##### 1
+
+1. We had to take a taxi.
+
+2. He must have taken a taxi.
+
+3. He must have told them the truth.
+
+4. He had to tell them the truth.
+
+5. He had to sell his car.
+
+6. He must have sold his car.
+
+7. He is unlikely to come to the party.
+
+8. They are unlikely to win tomorrow.
+
+9. He is likely to write to you.
+
+10. The weather is likely to change.
+
+11. They are likely to go on holiday one of these days.
+
+12. She is unlikely to invite Steve.
+
+##### 2
+
+1. He must have never been here before.
+
+2. She must have asked him for help.
+
+3. We must have been waiting for a bus for half an hour.
+
+4. They are unlikely to buy such an expensive house.
+
+5. You must be very lazy.
+
+6. He must have failed to buy her a present.
+
+7. They have quarrelled. She must be crying somewhere.
+
+8. He must have missed the train.
+
+9. He must have failed to see this film.
+
+10. The children must be having dinner now.
+
+11. I had to make a speech.
+
+12. They are likely to go to Africa.
+
+13. They must have been quarrelling for an hour already.
+
+14. She must have failed to make a good dinner.
+
+15. Steve must be writing exercises.
+
+<a id="keys-unit-70"></a>
+
+### UNIT 70
+
+<a id="key-70-1"></a>
+
+#### 70.1
+
+1. May I have a day off?
+
+2. May I speak to the pilot?
+
+3. May I use the telephone?
+
+4. May I have your car?
+
+5. May I have another room?
+
+<a id="key-70-2"></a>
+
+#### 70.2
+
+1. You may not take dogs to the restaurant.
+
+2. Children under 7 may not enter unless they are with an adult.
+
+3. Alcoholic drinks may not be sold to people under 18.
+
+4. Students may not smoke in the classrooms.
+
+5. You may not enter wearing a hat.
+
+<a id="key-70-3"></a>
+
+#### 70.3
+
+1. She might have bought something for supper.
+
+2. He might be more polite.
+
+3. They might have painted the fence.
+
+4. He might have helped them.
+
+5. She might be in time.
+
+<a id="key-70-4"></a>
+
+#### 70.4
+
+1. May I ask you a question?
+
+2. If you are on holiday you may go to Australia.
+
+3. You might have bought flowers yesterday.
+
+4. You might get up earlier.
+
+5. You may leave your luggage here.
+
+6. You may not speak loudly here.
+
+7. May I wait for Nick at the office?
+
+8. You may keep the book till Tuesday.
+
+9. You might have warned me beforehand.
+
+10. You might do it more quickly.
+
+11. You may stay with us when you come to London.
+
+12. You might ask us to come in.
+
+<a id="keys-unit-71"></a>
+
+### UNIT 71
+
+<a id="key-71-1"></a>
+
+#### 71.1
+
+1. She may have quarrelled with her boyfriend.
+
+2. He may be busy.
+
+3. He may have been waiting for you all this time.
+
+4. She may have missed the train.
+
+5. He may have been staying with his friends all this time.
+
+6. He may not have had dinner.
+
+7. They may be dancing now.
+
+8. Tom may have invited them.
+
+9. He may be having a rest now.
+
+10. She may have been working in the library since morning.
+
+<a id="key-71-2"></a>
+
+#### 71.2
+
+1. She may be angry.
+
+2. Can he be washing his car?
+
+3. Can he have returned?
+
+4. He may be playing tennis.
+
+5. He may have been working in the garden all this time.
+
+6. Can she have been wearing these shoes for five years?
+
+7. He may have misunderstood you.
+
+8. Can he have lost his job?
+
+9. Can she be badly ill?
+
+10. They may have been discussing the plan since morning.
+
+<a id="key-71-3"></a>
+
+#### 71.3
+
+1. He may have bought a new watch.
+
+2. She may have been doing the shopping all this time.
+
+3. She may have found a new job.
+
+4. Can they have moved?
+
+5. The children may be bathing.
+
+6. He may have lost his wallet.
+
+7. She may not want to see you.
+
+8. He may not know where to go.
+
+9. Can anything have happened?
+
+10. The teacher may be looking through the papers now.
+
+11. He may not have explained to her what to do.
+
+12. Can he have failed to explain to her what to do?
+
+<a id="keys-unit-72"></a>
+
+### UNIT 72
+
+<a id="key-72-1"></a>
+
+#### 72.1
+
+##### 1
+
+1. You needn’t worry.
+
+2. You needn’t repeat anything.
+
+3. You needn’t remember it.
+
+4. He needn’t take pills.
+
+5. You needn’t wash it.
+
+##### 2
+
+1. You needn’t have translated it.
+
+2. You needn’t have gone by taxi.
+
+3. You needn’t have booked a room at this hotel.
+
+4. You needn’t have bought one.
+
+5. You needn’t have phoned him.
+
+<a id="key-72-2"></a>
+
+#### 72.2
+
+1. You needn’t ask him for help. I’ll help you.
+
+2. She needn’t pay the bill. Her husband has paid it.
+
+3. The weather is wonderful. You needn’t have taken the umbrella.
+
+4. I didn’t have to meet with him because Ann had agreed to do it for me.
+
+5. The child needn’t put on his hat. It’s warm.
+
+6. I’ll have to wake up early tomorrow. I’m to meet him at 7.
+
+7. You needn’t have bought a bicycle. I could give you mine.
+
+8. I didn’t have to explain anything to him. He knew everything himself.
+
+9. You needn’t have looked for a taxi. I’ve called a taxi.
+
+10. I’ll have to take the tourists to the hotel.
+
+11. David said that I needn’t have brought those books. He has them.
+
+12. You needn’t do the shopping. I’ve bought everything.
+
+13. Shall we write any exercises? — No, you needn’t. Learn the words.
+
+14. She will have to wait.
+
+15. Shall I lock the door? — No, you needn’t. Father will come soon.
+
+16. You needn’t have taken so many warm clothes. It’s warm here in October.
+
+17. I didn’t have to take a lot of warm clothes because I knew it was warm there in October.
+
+<a id="keys-unit-73"></a>
+
+### UNIT 73
+
+<a id="key-73-1"></a>
+
+#### 73.1
+
+1. should help
+
+2. should revise
+
+3. shouldn’t believe
+
+4. shouldn’t miss
+
+5. should paint
+
+6. shouldn’t return
+
+7. shouldn’t use
+
+8. should forgive
+
+<a id="key-73-2"></a>
+
+#### 73.2
+
+1. should have taken
+
+2. shouldn’t have read
+
+3. should have gone
+
+4. shouldn’t have listened
+
+5. should have got married
+
+6. shouldn’t have eaten
+
+7. should have come
+
+8. should have seen
+
+<a id="key-73-3"></a>
+
+#### 73.3
+
+1. You shouldn’t have bought these shoes.
+
+2. You should have waited for him.
+
+3. We should be more attentive to him.
+
+4. You shouldn’t have been late.
+
+5. You shouldn’t ask them for money.
+
+6. You shouldn’t have left so early.
+
+7. We should have chosen another present.
+
+8. I didn’t have to go to the meeting because it had been cancelled.
+
+9. You needn’t have come. The meeting has been cancelled.
+
+10. You shouldn’t have come. Nobody expected you.
+
+11. You shouldn’t have kept them waiting.
+
+12. You should have explained everything to him.
+
+13. You shouldn’t argue with him.
+
+14. You should work more.
+
+15. You shouldn’t laugh at him.
+
+<a id="keys-unit-74"></a>
+
+### UNIT 74
+
+<a id="key-74-1"></a>
+
+#### 74.1
+
+##### 1
+
+1. was to
+
+2. had to
+
+3. must
+
+4. Will you be able
+
+5. Will have to
+
+6. mustn’t
+
+7. have to
+
+8. may
+
+9. shouldn’t
+
+10. needn’t
+
+11. didn’t manage to
+
+12. could
+
+13. shouldn’t
+
+14. needn’t
+
+15. shouldn’t
+
+16. needn’t
+
+17. may not
+
+18. needn’t
+
+19. were to
+
+20. had to
+
+##### 2
+
+1. must have had
+
+2. can’t have gone
+
+3. can have forgotten
+
+4. may be on holiday, may be skiing
+
+5. must have melted
+
+6. might have decided
+
+7. can’t be staying
+
+8. can he be studying
+
+9. should have painted
+
+10. needn’t have bothered
+
+11. may have got acquainted
+
+12. can’t have quarrelled
+
+13. must have arrived
+
+14. must have got hurt
+
+15. had to make
+
+16. needn’t have come
+
+17. didn’t have to make
+
+18. shouldn’t have left
+
+19. can’t have left
+
+20. shouldn’t have quarrelled
+
+<a id="key-74-2"></a>
+
+#### 74.2
+
+##### 1
+
+1. I think I should go to bed early.
+
+2. Paris is a beautiful city. You must see it.
+
+3. You must water the plants twice a week.
+
+4. You shouldn’t be so talkative.
+
+5. You must be a very romantic man.
+
+6. He can’t be serious about it.
+
+7. You should have been more friendly.
+
+8. Can he have many friends?
+
+9. She may be unemployed.
+
+10. You might get on better with him.
+
+##### 2
+
+1. You might have come home earlier.
+
+2. They may be on holiday.
+
+3. Can they have been in love all this time?
+
+4. He must have been taking a shower for half an hour.
+
+5. It may have been raining since morning there.
+
+6. He can’t have changed so much.
+
+7. Can he have been looking for a job all this time?
+
+8. He can’t be skiing now.
+
+9. You must be joking.
+
+10. She may be taking a bath.
+
+##### 3
+
+1. Can he have been playing football all this time?
+
+2. You’ll have to take a bus.
+
+3. I have to wear glasses.
+
+4. May I introduce my wife to you?
+
+5. Can I help you?
+
+6. You are to translate 20 pages by the evening.
+
+7. You must obey the police.
+
+8. He was to play against Swift.
+
+9. I needn’t take much luggage.
+
+10. He must have been working on the farm since childhood.
+
+##### 4
+
+1. He must have failed to warn her.
+
+2. He won’t be able to climb the tree.
+
+3. You will have to bring a ladder.
+
+4. You should forget about it.
+
+5. You can’t leave him now.
+
+6. You may not enter without knocking.
+
+7. They can’t have failed to warn him.
+
+8. I’m afraid I won’t be able to help you.
+
+9. May I use this box?
+
+10. Shall I give you a lift? — No, you needn’t.
+
+##### 5
+
+1. I would like to be able to cook as well as you do.
+
+2. Will you help me, please.
+
+3. He may have tried to get in touch with you but didn’t manage to.
+
+4. He must have been hurt by your words.
+
+5. He must have been doing his best all this time to achieve success.
+
+6. You are unlikely to talk to him in the near future.
+
+7. He can’t have failed to attend the conference.
+
+8. Can he have been involved in this robbery?
+
+9. He may be playing computer games.
+
+10. They can’t have been talking all this time.
+
+<a id="keys-unit-75"></a>
+
+### UNIT 75
+
+<a id="key-75-1"></a>
+
+#### 75.1
+
+1. Sleeping on the floor is so uncomfortable.
+
+2. Meeting old friends is great.
+
+3. Speaking in a loud voice is impolite.
+
+4. Thinking is always useful.
+
+5. Cleaning the flat is boring.
+
+6. Teaching is interesting.
+
+7. Travelling to other countries is exciting.
+
+8. Giving advice is simple.
+
+9. Taking other people’s advice is not always clever.
+
+10. Having much luggage is inconvenient.
+
+11. Following the man wasn’t easy.
+
+12. Speaking before a large audience made him nervous.
+
+<a id="key-75-2"></a>
+
+#### 75.2
+
+1. I avoid being visited by strangers.
+
+2. I remember being asked for help.
+
+3. He was tired of being asked questions.
+
+4. I’m looking forward to being shown the place.
+
+5. The manager objects to the work being done now.
+
+6. They insist on being let in.
+
+7. I avoid being asked for help.
+
+8. Do you mind being told how to do it?
+
+9. Why are you afraid of being asked questions?
+
+10. Why do you object to being shown the letter?
+
+11. I don’t mind being left alone.
+
+12. He objected to being forced to do it.
+
+<a id="key-75-3"></a>
+
+#### 75.3
+
+1. We don’t mind her coming later.
+
+2. I don’t mind helping him.
+
+3. I don’t mind their visiting me.
+
+4. I don’t mind your turning on the volume.
+
+5. Do you mind my turning on the TV-set?
+
+6. Do you mind switching off the light?
+
+7. Do you mind her talking to him?
+
+8. Do you mind my telling them about the plan?
+
+9. I don’t mind her taking the papers.
+
+10. I don’t mind their playing together.
+
+<a id="keys-unit-76"></a>
+
+### UNIT 76
+
+<a id="key-76-1"></a>
+
+#### 76.1
+
+1. I am fond of swimming in cold water.
+
+2. It’s no use speaking to him.
+
+3. He has a habit of interrupting people.
+
+4. He denies seeing Jack on Friday.
+
+5. I can’t imagine living without music.
+
+6. He keeps talking.
+
+7. Imagine living in a big house.
+
+8. The man denies stealing anything.
+
+9. She keeps repeating the same thing.
+
+10. It’s no use phoning him.
+
+11. I enjoy playing tennis on Sunday.
+
+12. I avoid meeting him.
+
+13. There are many ways of learning a foreign language.
+
+14. He is in the habit of listening to loud music.
+
+<a id="key-76-2"></a>
+
+#### 76.2
+
+1. On saying that she turned red.
+
+2. Read the instruction before opening the box.
+
+3. On coming to London I decided to call on my friend.
+
+4. After taking a decision he felt better.
+
+5. On entering the room he greeted everybody.
+
+6. Read the book before seeing the film.
+
+7. On leaving the house he took a taxi.
+
+8. After doing his morning exercises he took a shower.
+
+9. On arriving at the airport he checked in.
+
+10. On buying a ticket he got on the train.
+
+<a id="key-76-3"></a>
+
+#### 76.3
+
+1. ... she couldn’t help shouting.
+
+2. ... I couldn’t help being angry.
+
+3. ... I can’t help telling him the truth.
+
+4. ... she couldn’t help smiling.
+
+5. ... she couldn’t help tearing it.
+
+6. ... couldn’t help putting it on at once.
+
+7. ... couldn’t help buying it.
+
+<a id="key-76-4"></a>
+
+#### 76.4
+
+1. It needs repairing
+
+2. It needs discussing.
+
+3. It needs dry cleaning.
+
+4. They need drying.
+
+5. It needs doing.
+
+6. It needs finishing.
+
+<a id="key-76-5"></a>
+
+#### 76.5
+
+1. The book is worth reading.
+
+2. The film is worth seeing.
+
+3. The question is worth discussing.
+
+4. The subject is worth studying.
+
+5. The country is worth visiting.
+
+<a id="key-76-6"></a>
+
+#### 76.6
+
+1. He left without saying anything.
+
+2. She entered without greeting anybody.
+
+3. He sat down without asking permission.
+
+4. She spoke without turning her head.
+
+5. He listened carefully without interrupting me.
+
+6. The man sat down without taking off his hat.
+
+7. It’s difficult to sit for a long time without moving.
+
+8. The child played with his toys without paying attention to what was going on.
+
+<a id="key-76-7"></a>
+
+#### 76.7
+
+1. Steve dreams of having a house in the country.
+
+2. I insist on phoning him at once.
+
+3. What’s the use of going there?
+
+4. I’m fond of eating at restaurants.
+
+5. We are looking forward to meeting him.
+
+6. Mark is incapable of hurting the child.
+
+7. I’ve given up riding my bike in the park.
+
+8. I don’t object to going by plane.
+
+9. Susan is tired of staying here.
+
+10. Barbara is fond of playing tennis.
+
+<a id="key-76-8"></a>
+
+#### 76.8
+
+1. He went on translating the text.
+
+2. He went on driving.
+
+3. He went on speaking.
+
+4. I wouldn’t like to go on arguing.
+
+5. He went on swimming.
+
+<a id="key-76-9"></a>
+
+#### 76.9
+
+1. He is used to reading in bed.
+
+2. They are used to eating late.
+
+3. Jack is used to entering the room without knocking.
+
+4. He is used to looking up all words in a dictionary.
+
+5. Winifred is used to telling lies.
+
+<a id="key-76-10"></a>
+
+#### 76.10
+
+##### 1
+
+1. Being happy is very good.
+
+2. I don’t mind (I don’t object to) being criticized.
+
+3. He is busy talking on the phone.
+
+4. She avoids meeting me.
+
+5. The child is looking forward to going to the Zoo.
+
+6. Why do you insist on her returning?
+
+7. He went on writing without looking at us.
+
+8. I’m fond of playing tennis.
+
+9. This information needs checking.
+
+10. There are different ways of explaining to him that he is wrong.
+
+##### 2
+
+1. I don’t feel like going out.
+
+2. On coming home he rang his parents at once.
+
+3. Unfortunately he is incapable of remembering so many words at once.
+
+4. Can she have given up dancing?
+
+5. He took these papers without asking permission.
+
+6. Speaking to him is very interesting.
+
+7. I object to being spoken to like this.
+
+8. What’s the use of discussing it now?
+
+9. I’m looking forward to being introduced to this man.
+
+10. This programme is worth seeing.
+
+##### 3
+
+1. I’m not used to being told what to do.
+
+2. His manner of eating annoys everybody.
+
+3. I don’t mind (don’t object to) his phoning me.
+
+4. I’m tired of her being displeased with everything.
+
+5. He denies going there.
+
+6. He left the hall without waiting for the performance to end.
+
+7. He has achieved a lot by working hard.
+
+8. I’m fond of listening to music.
+
+9. He has given up looking for a job in this town.
+
+10. The grass needs cutting.
+
+##### 4
+
+1. Are you interested in getting this job?
+
+2. Before using this fan read the instruction.
+
+3. The burglars got into the house by breaking the window.
+
+4. I’m used to living in a big city.
+
+5. I’m afraid of her doing it in any case.
+
+6. Do you mind (object to) our joining you?
+
+7. She insisted on paying for the purchases.
+
+8. Do you feel like moving to another place?
+
+9. It’s no use worrying now.
+
+10. It’s not worth taking a taxi.
+
+<a id="keys-unit-77"></a>
+
+### UNIT 77
+
+<a id="key-77-1"></a>
+
+#### 77.1
+
+##### 1
+
+1. She seems to have completed the work.
+
+2. They appear to know nothing.
+
+3. She claims to have seen him yesterday.
+
+4. The child pretends to be sleeping.
+
+5. Jack pretends to have understood the task very well.
+
+6. He appears to be very clever.
+
+7. He claims to be able to speak English.
+
+8. You seem to have had your hair cut.
+
+9. She claims to have lost the papers.
+
+10. They seem to be listening to music.
+
+##### 2
+
+1. He pretends to be working hard.
+
+2. She seems to be a good manager.
+
+3. It appeared to be a funny story.
+
+4. He seems to be telling the truth.
+
+5. She claims to have sold it for fifty pounds.
+
+6. The letters seem to have been signed.
+
+7. Everybody appeared to be ready.
+
+8. The boy pretended to be crying.
+
+9. The book seems to be translated into almost all languages.
+
+10. They claim not to understand anything.
+
+<a id="key-77-2"></a>
+
+#### 77.2
+
+##### 1
+
+1. to stay
+
+2. to do
+
+3. spend
+
+4. to skate
+
+5. go
+
+6. to help
+
+7. go
+
+8. to visit
+
+9. to come
+
+10. have a look
+
+##### 2
+
+1. to smoke
+
+2. help
+
+3. clean
+
+4. to get
+
+5. go
+
+6. to learn
+
+7. to work
+
+8. to visit
+
+9. not to answer
+
+10. to pay
+
+<a id="keys-unit-78"></a>
+
+### UNIT 78
+
+<a id="key-78-1"></a>
+
+#### 78.1
+
+1. There are a lot of things for you to wash.
+
+2. This is an interesting film for a child to see.
+
+3. This is an interesting subject to study.
+
+4. They had a lot of things to discuss.
+
+5. Judy was the last to learn about it.
+
+6. There are other facts to prove this theory.
+
+7. There is some news for you to know.
+
+8. Frank was the first to tell his father the pleasant news.
+
+9. He has a friend to ask for advice.
+
+10. There are some papers to type.
+
+11. I have some money to invest.
+
+12. This is the material to revise.
+
+13. He was the second to get to the finishing line.
+
+14. These are the things for him to repair.
+
+<a id="key-78-2"></a>
+
+#### 78.2
+
+1. The weather is too bad for us to go to the country.
+
+2. The article is too difficult for him to translate.
+
+3. The day is too hot to stay in town.
+
+4. The dress is too expensive to wear every day.
+
+5. The mountain is too high for you to climb.
+
+<a id="key-78-3"></a>
+
+#### 78.3
+
+1. The rule was difficult enough for the child to understand.
+
+2. The car is expensive enough for me to buy.
+
+3. The house is small enough for such a big family to live in.
+
+4. The shoes are tight enough for the child to wear.
+
+5. The passage is difficult enough to learn by heart.
+
+<a id="key-78-4"></a>
+
+#### 78.4
+
+1. I must have my watch (clock) repaired (fixed).
+
+2. She must have her overcoat cleaned.
+
+3. He was the first to arrive.
+
+4. She was the last to do the work.
+
+5. She has had a new dress made.
+
+6. He must have this article translated but he doesn’t know any German.
+
+7. It was the third question for us to decide.
+
+8. I must have my boots polished.
+
+9. Have you had your hair cut?
+
+10. Has she had her jacket cleaned?
+
+11. When did the Smiths have their house redecorated?
+
+12. Have you had a new dress made yet?
+
+<a id="keys-unit-79"></a>
+
+### UNIT 79
+
+<a id="key-79-1"></a>
+
+#### 79.1
+
+1. to do
+
+2. to living
+
+3. to explain
+
+4. shouting
+
+5. to talk
+
+6. having
+
+7. to send
+
+8. to drinking
+
+9. to speak
+
+10. speaking
+
+11. to show
+
+12. to read
+
+13. to open
+
+14. chewing
+
+15. to drive
+
+<a id="key-79-2"></a>
+
+#### 79.2
+
+1. asking
+
+2. to pick up
+
+3. talking
+
+4. to meet
+
+5. taking
+
+6. to go
+
+7. to pay attention
+
+8. ignoring
+
+9. punishing
+
+10. working
+
+11. to wait
+
+12. to tell
+
+13. to explain
+
+14. to eat
+
+15. staying in bed
+
+<a id="key-79-3"></a>
+
+#### 79.3
+
+1. I used to drink a lot of coffee but now I don’t.
+
+2. Don’t forget to switch off the light when you are leaving.
+
+3. I remember paying this bill.
+
+4. I tried to get him on the phone yesterday but I failed. Try doing it in the evening.
+
+5. I’m used to reading newspapers in the morning.
+
+6. You won’t regret having a rest there.
+
+7. The lecturer doesn’t allow missing classes.
+
+8. The teacher doesn’t allow the children to miss classes.
+
+9. He stopped to read the announcement.
+
+10. Stop whispering.
+
+<a id="keys-unit-80"></a>
+
+### UNIT 80
+
+<a id="key-80-1"></a>
+
+#### 80.1
+
+1. The man sitting at the window is waiting for you.
+
+2. Being a rich man he could buy the car.
+
+3. Being ill she had to stay at home.
+
+4. Being proud of her son she often spoke about him.
+
+5. What is the name of the man talking to Jack?
+
+6. Being late he took a taxi.
+
+7. The crying child looked unhappy.
+
+8. At last I found the missing page.
+
+9. Being interested in the subject he read a lot of books about it.
+
+<a id="key-80-2"></a>
+
+#### 80.2
+
+1. He took the broken camera and threw it away.
+
+2. He was looking at the pictures drawn by the child.
+
+3. The forgotten thing was fresh in her memory.
+
+4. They are looking for some hidden treasure.
+
+5. The lit lanterns showed them the way.
+
+6. The shot bird fell down.
+
+7. He likes to wear worn-out clothes.
+
+8. He saw a note written in a hurry.
+
+9. He looked through the composition written by the child.
+
+<a id="key-80-3"></a>
+
+#### 80.3
+
+1. Having left the luggage at the airport I went to the restaurant.
+
+2. Not having found the necessary papers he felt angry.
+
+3. Not having read the book he couldn’t discuss it.
+
+4. Not having taken a decision they turned to him for help.
+
+5. Having made dinner she decided to have a rest.
+
+6. Not having bought tickets he couldn’t join them.
+
+7. Having broken his car he had to go by bus.
+
+8. Having finished the article he went to bed.
+
+9. Having given up smoking he felt better.
+
+<a id="key-80-4"></a>
+
+#### 80.4
+
+1. Not having been introduced to the other guests he felt a stranger.
+
+2. Being looked at she felt confused.
+
+3. Having been taught good manners he was admired by everybody.
+
+4. The clothes sold here are expensive.
+
+5. The broken cup was of no use.
+
+6. Not having been asked to come in he felt hurt.
+
+7. Having been kept without water for a long time the flowers faded.
+
+8. Being reconstructed the house was empty.
+
+9. Not having been told the truth he didn’t know how to act.
+
+<a id="keys-unit-81"></a>
+
+### UNIT 81
+
+<a id="key-81-1"></a>
+
+#### 81.1
+
+1. you to open
+
+2. him to do the shopping
+
+3. them to arrive
+
+4. her to smile
+
+5. him to behave
+
+<a id="key-81-2"></a>
+
+#### 81.2
+
+1. him come in
+
+2. him tell the truth
+
+3. me read
+
+4. him learn
+
+5. her translate
+
+<a id="key-81-3"></a>
+
+#### 81.3
+
+1. him jogging
+
+2. them playing
+
+3. her shivering
+
+4. them laughing
+
+5. her leaving
+
+<a id="key-81-4"></a>
+
+#### 81.4
+
+1. him enter
+
+2. him say
+
+3. her take
+
+4. him throw
+
+5. something fall down
+
+<a id="key-81-5"></a>
+
+#### 81.5
+
+1. I heard him playing the piano.
+
+2. Have you ever heard how he plays the violin?
+
+3. I hear James has passed his last exam.
+
+4. Have you ever seen how she holds a pen?
+
+5. I saw her writing something.
+
+6. The mother saw that there was something wrong with her son.
+
+7. I saw him take something from the table.
+
+8. We heard him shout something to us.
+
+<a id="keys-unit-82"></a>
+
+### UNIT 82
+
+<a id="key-82-1"></a>
+
+#### 82.1
+
+##### 1
+
+1. I’m looking forward to going to the theatre.
+
+2. Jane saw Paul buy some flowers.
+
+3. I don’t mind waiting for you.
+
+4. I remember turning off the light when I was leaving.
+
+5. I’m capable of earning my own living.
+
+6. I saw him crossing the street at the red light.
+
+7. I forgot to remind him of the meeting.
+
+8. I enjoy having dinners in a restaurant.
+
+9. Try to avoid making him angry.
+
+10. Did you hear the child reading well?
+
+##### 2
+
+1. You can’t make an omelette without breaking eggs.
+
+2. Imagine staying at an expensive hotel.
+
+3. I heard him open the door and come into the room.
+
+4. I know it to be a nice place to have a rest.
+
+5. The play is worth seeing.
+
+6. I don’t feel like going to the disco.
+
+7. Make him answer the question.
+
+8. It’s no use advising him anything.
+
+9. I couldn’t help overhearing what you said.
+
+10. I noticed her pick up something and put it into her pocket.
+
+11. I advised him to apply for the job.
+
+12. I’ve arranged for you to meet the president.
+
+13. He doesn’t seem to have recovered after the illness.
+
+14. Do you remember locking the door?
+
+15. I heard the bell ringing.
+
+<a id="key-82-2"></a>
+
+#### 82.2
+
+##### 1
+
+1. to come
+
+2. to leave
+
+3. to take
+
+4. RIGHT
+
+5. to park
+
+6. RIGHT
+
+7. to receive
+
+8. to show, to do
+
+9. to pay, to pay
+
+10. working
+
+##### 2
+
+1. RIGHT
+
+2. keeping
+
+3. go
+
+4. RIGHT
+
+5. beating
+
+6. walking, go
+
+7. to go
+
+8. being robbed
+
+9. have
+
+10. RIGHT
+
+##### 3
+
+1. spending, living
+
+2. arguing, of seeing
+
+3. RIGHT
+
+4. remembering
+
+5. working
+
+6. to come, RIGHT
+
+7. to call, to do
+
+8. arriving, to find
+
+9. cleaning, take
+
+10. paying
+
+<a id="key-82-3"></a>
+
+#### 82.3
+
+##### 1
+
+1. I want you to wait for me after classes.
+
+2. I didn’t expect him to forget about your birthday.
+
+3. He refused to have a smoke because he had given up smoking.
+
+4. The baby-sitter had told the children to play in the yard and sat watching them playing.
+
+5. I saw the sun rising.
+
+6. Stop shouting. I forbid you to shout.
+
+7. I heard them speaking English.
+
+8. I hear you speak English.
+
+9. I couldn’t help asking him to stay.
+
+10. The teacher made the boy do the exercise again.
+
+##### 2
+
+1. He felt the doctor touch the injured leg.
+
+2. I watched Mike trying to teach the child to skate.
+
+3. She wants the guests to come in time.
+
+4. I heard a car pass.
+
+5. I saw that he didn’t feel well.
+
+6. I don’t allow smoking here. I’m tired of reminding you about it.
+
+7. I saw how you looked at him.
+
+8. He made me get up early.
+
+9. At last she has given up telling me what to do.
+
+10. I don’t let the child walk alone.
+
+##### 3
+
+1. He seems to be a good specialist. I advise you to hire him.
+
+2. I’m used to living alone.
+
+3. Everybody knew him to be a good doctor.
+
+4. The car needs washing. Don’t forget to do it.
+
+5. I expect him to understand our problems.
+
+6. She can’t afford to stay here long.
+
+7. The children were looking forward to going to the seaside.
+
+8. I noticed Jack hit Bill.
+
+9. He likes laughing at other people.
+
+10. I didn’t like George’s manner of speaking to the client.
+
+11. There are different ways of making a child be polite.
+
+12. We saw her leave the room.
+
+13. Stop worrying. I’ve arranged for you to see a good doctor.
+
+14. I heard him asking this question.
+
+15. I insist on your refusing their idea.
+
+<a id="keys-unit-83"></a>
+
+### UNIT 83
+
+<a id="key-83-1"></a>
+
+#### 83.1
+
+1. They are still sitting at the table.
+
+2. They are still discussing it.
+
+3. He hasn’t gone to bed yet.
+
+4. He hasn’t caught any fish yet.
+
+5. He is still playing computer games.
+
+6. He hasn’t sold it yet.
+
+<a id="key-83-2"></a>
+
+#### 83.2
+
+1. She has already gone for a walk.
+
+2. He is still collecting information.
+
+3. They have already left.
+
+4. She has already done the washing up.
+
+5. He isn’t still thinking.
+
+6. He has already fallen down.
+
+<a id="key-83-3"></a>
+
+#### 83.3
+
+1. Have they bought a new house yet? They haven’t bought a new house yet.
+
+2. Have the children built a house yet? They haven’t built a house yet.
+
+3. Has the painter finished the picture yet? He hasn’t finished the picture yet.
+
+4. Has the baby fallen asleep yet? The baby hasn’t fallen asleep yet.
+
+5. Has winter begun yet? Winter hasn’t begun yet.
+
+<a id="key-83-4"></a>
+
+#### 83.4
+
+1. already
+
+2. yet, still
+
+3. yet, still
+
+4. yet, yet
+
+5. still, already
+
+6. yet, still
+
+7. already, yet
+
+8. still, already
+
+<a id="key-83-5"></a>
+
+#### 83.5
+
+1. She hasn’t washed (her face) yet.
+
+2. Michael isn’t a pupil yet. He still goes to a kindergarten.
+
+3. The boy is still writing the translation. He hasn’t written it yet.
+
+4. Are they still waiting for him? Hasn’t he come yet?
+
+5. They have already made it up. They aren’t quarrelling any longer.
+
+6. Are you ready already?! — Yes, I’m ready.
+
+7. Have you painted the house yet? — Not yet. We are still painting it.
+
+8. Is he at home yet? — No, he is still working.
+
+9. He is still unemployed. He hasn’t found a job yet.
+
+10. He has already written the test but he is still doing the checking up.
+
+<a id="keys-unit-84"></a>
+
+### UNIT 84
+
+<a id="key-84-1"></a>
+
+#### 84.1
+
+##### a)
+
+1. Margaret can also drive a car.
+
+2. They also live in a new house.
+
+3. They are also very nice people.
+
+4. Steve has also spent a lot of money.
+
+5. There are also some letters for him.
+
+##### b)
+
+1. They aren’t friends either.
+
+2. I don’t like pop music either.
+
+3. The Bones haven’t moved to a new flat either.
+
+4. You shouldn’t ask him about it either.
+
+5. I didn’t plant any trees last year either.
+
+<a id="key-84-2"></a>
+
+#### 84.2
+
+1. also
+
+2. either
+
+3. too
+
+4. either
+
+5. also
+
+6. too
+
+7. either
+
+8. either
+
+<a id="key-84-3"></a>
+
+#### 84.3
+
+1. Neither will Kate.
+
+2. So is Mrs. Black’s child.
+
+3. So does Clare.
+
+4. Neither have his friends.
+
+5. So did the Wests.
+
+6. Neither am I.
+
+7. So has my husband.
+
+8. So will he.
+
+9. Neither can David.
+
+10. Neither did we.
+
+11. So were we.
+
+12. Neither can I.
+
+<a id="key-84-4"></a>
+
+#### 84.4
+
+1. We don’t know the truth either.
+
+2. I don’t know this man. Neither does my friend.
+
+3. They will also be glad. (They will be glad too.)
+
+4. I have to get up early. — So do we.
+
+5. This bag is expensive. — So is that one.
+
+6. My child also finished school last year. (My child finished school last year too.)
+
+7. I was born in Moscow. — So were my parents.
+
+8. I’ve been here since morning. — So has she.
+
+9. Diana has never met him either.
+
+10. My parents weren’t at home at 5 o’clock yesterday. — Neither were mine.
+
+11. We didn’t ask him for help either.
+
+12. I can’t understand this sentence. — Neither can my sister.
