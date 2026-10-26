@@ -378,13 +378,13 @@ I have a dog. The dog is big. He asked me several questions. The questions were 
 4. The papers you need are on the table.
 5. He has a long name and I can never remember it.
 6. There is a mistake in the sentence. Correct the mistake.
-7. Can you tell me where the station is.
+7. Can you tell me where the station is?
 8. Who is the driver of this car? You can’t park cars here.
 9. The keys to the exercises you are doing now are on the next page.
 10. Do you remember the name of the street where we bought this washing machine?
 11. He says he needs new glasses. But the glasses they sell here are very expensive.
 12. Remember to take the jacket to the cleaner’s.
-13. They say the, party was a success.
+13. They say the party was a success.
 14. Let’s take a photograph of Nick and July. They are a nice couple.
 15. I’m going to the airport. The plane leaves in two hours.
 16. I liked the presents I received on my birthday.
@@ -800,7 +800,7 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 5. The violet is my wife’s favourite flower. I always give her violets.
 6. The telephone was invented by Bell. Nowadays almost all people have telephones.
 7. The airplane is the most popular means of transport because airplanes fly very quickly.
-8. I want to buy a new computer. The com puter I have is very slow.
+8. I want to buy a new computer. The computer I have is very slow.
 9. Nowadays life is impossible without the computer.
 10. In English the verb usually follows the noun in a positive sentence.
 11. The governments of the world should take care of the sick and the poor.
@@ -875,7 +875,7 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 2. The Canadians speak French and English.
 3. The French speak French.
 4. The Australians speak English.
-5. The Mexicans speak Mexican.
+5. The Mexicans speak Spanish.
 6. The Chinese speak Chinese.
 
 <a id="unit-5"></a>
@@ -1043,7 +1043,7 @@ Urals
 6. I’ve heard much about General Miles. The general is a well-known person.
 7. When are the Greens moving to their new flat?
 8. This story is written by the famous English writer W. S. Maugham.
-9. The Gibraltar separates Europe from Africa.
+9. The Strait of Gibraltar separates Europe from Africa.
 10. Newcastle is a large city in the north-east of England.
 11. You must see a doctor. Doctor Ballisat is a good doctor.
 12. Do you have an aunt? — Yes, I do. Aunt Mary always visits us in June.
@@ -1506,7 +1506,7 @@ At night / at dawn — We decided to leave at dawn.
 7. The dinner she made was wonderful.
 8. He appeared before midday.
 9. He spent the evening with his parents.
-10. She phoned several times during the morning?
+10. She phoned several times during the morning.
 11. The lunch was awful. I didn’t expect it to be so bad.
 12. They danced all through the night.
 13. I remember it was a rainy summer.
@@ -1649,7 +1649,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 10. They say that a very dangerous criminal escaped from prison yesterday.
 11. He was a sick boy and often missed school.
 12. I’m quite well and don’t want to stay in hospital any more.
-13. He spent the day from 9 a. M. To 6 p. M. At work.
+13. He spent the day from 9 a.m. to 6 p.m. at work.
 14. It’s time to get up. Are you going to spend the whole day in bed?
 
 <a id="exercise-9-2"></a>
@@ -1858,7 +1858,7 @@ work, prison, hospital, school, college, home, bed, church, town, sea.
 
 1. What sunny weather we are having today!
 2. Where are they staying? — At the President Hotel.
-3. The Wests have bought a villa on the Hawaii.
+3. The Wests have bought a villa on Hawaii.
 4. Could you ask for a coke and a sandwich?
 5. The Netherlands border on Germany and Belgium.
 6. He studies science and I’m interested in history.
@@ -1924,7 +1924,7 @@ Opposite ....... Houses of ....... Parliament stands ....... Westminster Abbey. 
 
 **Часть 1**
 
-I remember it very well. I was poor then and often didn’t have money for bread. I had a friend. He was a poor writer too. Once we needed three dollars. We had to have the money by the evening. I didn’t know where to go and where to get – Three dollars. For an hour I was walking along the streets of Washington. At last I came to a big hotel. I went into the hall of the hotel and sat down on the sofa to have a rest. Suddenly a beautiful small dog ran into the hall. It was a nice dog and I began to play with it. I was playing with the dog when a man came into the hall. I knew the man at once. It was General Miles. He saw the dog and liked it at once. “Do you want to sell it?” the general asked me. “ three dollars,” I answered. “ a price of three dollars is too little for such a dog. Do you want more?” he said. I didn’t, so he took the dog and went to the elevator. Ten minutes later an old man came into the hall. He was looking for something. “Are you looking for a dog, sir?” I asked. “Yes,” said the old man. I promised the old man to find the dog for three dollars and went to General Miles’s room. The general had to return the dog and of course I returned him the money. But the old man paid me the three dollars I had earned. (After W. S. Maugham).
+I remember it very well. I was poor then and often didn’t have money for bread. I had a friend. He was a poor writer too. Once we needed three dollars. We had to have the money by the evening. I didn’t know where to go and where to get three dollars. For an hour I was walking along the streets of Washington. At last I came to a big hotel. I went into the hall of the hotel and sat down on the sofa to have a rest. Suddenly a beautiful small dog ran into the hall. It was a nice dog and I began to play with it. I was playing with the dog when a man came into the hall. I knew the man at once. It was General Miles. He saw the dog and liked it at once. “Do you want to sell it?” the general asked me. “Three dollars,” I answered. “A price of three dollars is too little for such a dog. Do you want more?” he said. I didn’t, so he took the dog and went to the elevator. Ten minutes later an old man came into the hall. He was looking for something. “Are you looking for a dog, sir?” I asked. “Yes,” said the old man. I promised the old man to find the dog for three dollars and went to General Miles’s room. The general had to return the dog and of course I returned him the money. But the old man paid me the three dollars I had earned. (After W. S. Maugham).
 
 **Часть 2**
 
@@ -1936,7 +1936,7 @@ I’ve lived in Barfield for a long time. I have a job in London so I travel to 
 
 **Часть 4**
 
-Fleet Street is famous as the home of the nation’s newspapers, but in fact only two of them — The Daily Express and the Daily Telegraph are still in Fleet Street. However, people still say “ Fleet Street” to mean “ the press”. The British are the nation of newspaper readers. Many of them have daily papers delivered to their homes in time for breakfast. British newspapers can be divided into two groups: quality and popular. Quality newspapers cover home and foreign news thoughtfully while popular newspapers like shocking popular stories as well as some news.
+Fleet Street is famous as the home of the nation’s newspapers, but in fact only two of them — the Daily Express and the Daily Telegraph are still in Fleet Street. However, people still say “Fleet Street” to mean “the press”. The British are the nation of newspaper readers. Many of them have daily papers delivered to their homes in time for breakfast. British newspapers can be divided into two groups: quality and popular. Quality newspapers cover home and foreign news thoughtfully while popular newspapers like shocking popular stories as well as some news.
 
 **Часть 5**
 
@@ -1948,7 +1948,7 @@ The West End is the name given to the area of central London north from the Mall
 
 **Часть 7**
 
-Opposite the Houses of Parliament stands Westminster Abbey. From Norman times British monarchs have been crowned there and since the 13th century they have been buried there. Piccadilly Circus is the centre of nightlife in the West End. It is usually the top of everybody’s list of things to see London.
+Opposite the Houses of Parliament stands Westminster Abbey. From Norman times British monarchs have been crowned there and since the 13th century they have been buried there. Piccadilly Circus is the centre of nightlife in the West End. It is usually the top of everybody’s list of things to see in London.
 
 ## Существительные
 
@@ -2481,7 +2481,7 @@ few / a few или little / a little
 8. I have a little knowledge of the subject and can prove my point of view.
 9. Somehow he has very few English books.
 10. He had a little time and stopped to talk to his friend.
-11. Why are there so few flowers in you garden?
+11. Why are there so few flowers in your garden?
 12. The child has made a little progress and speaks English better.
 13. The child left little soup in his plate, he had eaten almost the whole of it.
 14. Give the cat a little fish every day. It’s necessary for him.
@@ -2872,16 +2872,16 @@ How much coffee have you drunk? Very little.
 
 **Полное решение**
 
-1. How many, very few cups of coffee have you drunk?
-2. How much, very little wine is there in the bottle?
-3. How many, very few cigarettes do you smoke a day?
-4. How many, very few people will come?
-5. How much, very little luggage do you have?
-6. How much, very little ice cream has he eaten?
-7. How many, very few days did you spend on it?
-8. How much, very little meat does the dog need?
-9. How many, very few oxen does the farmer have?
-10. How many, very few subjects does he study?
+1. How many cups of coffee have you drunk? — Very few.
+2. How much wine is there in the bottle? — Very little.
+3. How many cigarettes do you smoke a day? — Very few.
+4. How many people will come? — Very few.
+5. How much luggage do you have? — Very little.
+6. How much ice cream has he eaten? — Very little.
+7. How many days did you spend on it? — Very few.
+8. How much meat does the dog need? — Very little.
+9. How many oxen does the farmer have? — Very few.
+10. How many subjects does he study? — Very few.
 
 <a id="exercise-15-4"></a>
 
@@ -3003,7 +3003,7 @@ How much coffee have you drunk? Very little.
 11. You need a little patience.
 12. There are very many flowers in the Smiths’ garden.
 13. John and Alice’s children are very nice.
-14. The result of the experiment was satisfac tory.
+14. The result of the experiment was satisfactory.
 15. I didn’t get the idea of this article.
 
 **Часть 4**
@@ -3310,7 +3310,7 @@ It’s only your fault. Blame yourself.
 6. It’s rather cold. Let them dry themselves well when they get out of the water.
 7. We followed the direction and finally found ourselves near Pete’s house.
 8. It’s dangerous to play with matches. One can burn oneself.
-9. Children, please behave yourselves Don’t make so much noise.
+9. Children, please behave yourselves. Don’t make so much noise.
 
 <a id="exercise-17-2"></a>
 
@@ -3344,7 +3344,7 @@ It’s only your fault. Blame yourself.
 5. We met only yesterday. She felt fine. Can she have fallen ill?
 6. You should phone her yourself.
 7. I tried to concentrate and find the mistake myself.
-8. Are you going to take your children to the sea-side with you.
+8. Are you going to take your children to the sea-side with you?
 9. In fact her name is Alexandra but she calls herself Al.
 10. They didn’t go to Ann’s party. She didn’t invite them.
 11. The woman is kindness itself.
@@ -3586,13 +3586,13 @@ It’s only your fault. Blame yourself.
 10. I’m sure any boy would like to learn to play football.
 11. There are no chairs here. Bring some chairs please.
 12. He has no proof.
-13. In some classrooms there is no black board.
+13. In some classrooms there is no blackboard.
 
 **Часть 2**
 
 1. Do any of you know his telephone number?
 2. Do you think any of them will be able to help us?
-3. I don’t see any reasons for such be haviour.
+3. I don’t see any reasons for such behaviour.
 4. He used to have friends but now he has no friends.
 5. You can stay at any hotel in this district.
 6. There are no films better than this one.
@@ -3763,11 +3763,11 @@ If anybody calls me tell them I’m out and put down their name and address. Eve
 8. Does anybody know where he lives? — He lives somewhere here but I don’t know exactly where he lives.
 9. You can ask anybody. They will tell you I’m right.
 10. He wanted to tell her something special but couldn’t think of anything.
-11. They may be anywhere. Unfortunately nobo dy knows where they are.
+11. They may be anywhere. Unfortunately nobody knows where they are.
 12. Who told you that you can do anything you like?
 13. Nothing seemed important to him.
 14. Do you have anything to do?
-15. Our city is beautiful. There are flowers every where here in summer.
+15. Our city is beautiful. There are flowers everywhere here in summer.
 
 <a id="unit-20"></a>
 
@@ -3959,7 +3959,7 @@ other, another, the other, others, the others, each other, one another.
 1. I’ve read only three of these books but I’ll certainly read the others.
 2. Please, bring another two chairs.
 3. Tom and Robert are angry with each other.
-4. I don’t have any other (another) expla nation.
+4. I don’t have any other (another) explanation.
 5. She reads only love stories. Any other books seem boring to her.
 6. You’ve done only two exercises. How about the others?
 7. How many other questions is he going to ask?
@@ -4247,7 +4247,7 @@ Her is the red car. Hers is the red car. .......................................
 5. May I have another slice of bread? I always eat much bread.
 6. Let her put on her hat.
 7. Can they really do it themselves?
-8. Go to the bathroom and wash your hands and the face.
+8. Go to the bathroom and wash your hands and face.
 9. We can cope with the task ourselves.
 10. I don’t have any plans for the weekend.
 11. Nobody can help him in this situation.
@@ -4346,7 +4346,7 @@ Her is the red car. Hers is the red car. .......................................
 1. I had no money, so I had to borrow some.
 2. He felt bad and wanted to stay at home.
 3. I’m afraid anything can happen.
-4. Neither his patents nor he smokes.
+4. Neither his parents nor he smokes.
 5. Scientists from Germany, Russia, and many other countries attended the conference.
 6. There is nothing strange about it.
 7. Have you read at least one of these books? — None.
@@ -4697,7 +4697,7 @@ The more beautiful the picture, the more pleasant it is to look at it. Чем к
 12. lower — the lowest
 13. busier — the busiest
 14. less — the least
-15. more quiet — the most queit
+15. more quiet — the most quiet
 16. more interesting — the most interesting
 17. lighter — the lightest
 18. better — the best
@@ -5341,7 +5341,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 
 **Полное решение**
 
-1. He is as well- educated as his boss.
+1. He is as well-educated as his boss.
 2. The people who win arguments are usually the ones who can speak most calmly.
 3. In such cases I get angrier than my mother.
 4. This cake tastes far more delicious than that one.
@@ -5350,7 +5350,7 @@ He can run much (quick) than me. He can run much more quickly than me.
 7. He learns languages as quickly and easily as his sister.
 8. You must do your best to help them.
 9. It’s more pleasant to spend summer in the country than in town.
-10. Is this really the most widely -used method?
+10. Is this really the most widely-used method?
 
 <a id="exercise-26-3"></a>
 
@@ -5526,7 +5526,7 @@ The black dress is far more expensive than the blue one.
 
 1. Why didn’t he greet me as warmly as the others?
 2. He is the most frequent visitor here.
-3. Is he really so incredibly famous? — Oh yes, he is one of the most popular singer nowadays.
+3. Is he really so incredibly famous? — Oh yes, he is one of the most popular singers nowadays.
 4. That won’t suit her. She prefers to wear much more brightly coloured clothes.
 5. Which is more dangerous: tennis or horse-riding?
 6. He laughs best who laughs last.
@@ -6180,7 +6180,7 @@ He hasn’t got three children.
 
 1. Have you got (Do you have) a room of your own in your new flat? — Oh, yes I have, and it’s quite large.
 2. Where can I find Mr. Pitt? — He is out. He is having a business lunch with a client.
-3. If we have a party on Saturday, the guests won’t leave early.They won’t have to get up early on Sunday.
+3. If we have a party on Saturday, the guests won’t leave early. They won’t have to get up early on Sunday.
 4. Do you have (Have you got) a brother or a sister? — I have an elder brother.
 5. I didn’t have time even for a cup of coffee this morning. That’s why I’m so sleepy.
 6. Did you have a good flight? — Yes, thanks.
@@ -7040,7 +7040,7 @@ I often take a walk in the park. Where do you often take a walk?
 7. How much sugar do you need to make this cake?
 8. Whose book is it?
 9. What game do the boys often play in the evening?
-10. When does Mr. Brown usually have lunch?
+10. When does Mrs. Brown usually have lunch?
 
 **Часть 2**
 
@@ -7891,7 +7891,7 @@ The author of this book is Agatha Christie. Who do you think the author of this 
 **Полное решение**
 
 1. How much time do you think it takes?
-2. When do you think is the next plane to New York?
+2. When do you think the next plane to New York is?
 3. Why do you think she is worried?
 4. Which book do you think is his?
 5. What do you think shows that something is wrong?
@@ -8150,7 +8150,7 @@ There are a lot of pictures on the walls in her room.
 9. How many mistakes were there in his last test?
 10. There are a lot of clothes in the wardrobe. Choose anything you like.
 11. There was no work for him yesterday. He had nothing to do.
-12. Will there be, there won’t any classes on Friday? No, there won’t. It’s a holiday.
+12. Will there be any classes on Friday? No, there won’t. It’s a holiday.
 13. Is there anything in this box? Let’s have a look. There is a pair of shoes and two dresses.
 14. Were there many guests at the hotel when you stayed there?
 15. There was enough food for all of us and we had a nice lunch.
@@ -8185,7 +8185,7 @@ Are there many questions you would like to ask? — No, there aren’t. Just one
 5. Were they on holiday last month? — No, they weren’t. They are having a holiday next month.
 6. Were there many people in the doctor’s waiting room? — No, there weren’t. I was alone.
 7. Are your friends nice people? — Yes, they are. They are the best people I’ve ever seen.
-8. Are there any flowers in their garden? — Yes, there are They are fond of flowers.
+8. Are there any flowers in their garden? — Yes, there are. They are fond of flowers.
 
 <a id="exercise-37-3"></a>
 
@@ -8826,8 +8826,8 @@ She ................................... (to shop). But today she isn’t typing.
 2. It’s so quiet in the house! Where are the children? — They are sleeping.
 3. Let’s have a break and go out to lunch together. — I’m sorry, I can’t. I am preparing a very important project.
 4. You are always coming late. Don’t you realize it’s not polite to keep people waiting?
-5. Jane is returning. From her holiday tomorrow, isn’t she? She? — Oh, yes, we are going to meet her at the station.
-6. As far as I know, he isn’t looking a new job. So he is unlikely to be interested in your offer.
+5. Jane is returning from her holiday tomorrow, isn’t she? — Oh, yes, we are going to meet her at the station.
+6. As far as I know, he isn’t looking for a new job. So he is unlikely to be interested in your offer.
 7. What are they working at at the moment? — I have no idea, but it seems to be something special. They are making more and more experiments every day.
 8. I am moving to a new flat at the weekend. Perhaps you can help me if you aren’t doing anything special.
 9. He is spending just a few days in Paris. — And where is he staying?
@@ -9209,7 +9209,7 @@ Future Indefinite обозначает действие или последов�
 12. I’m looking forward to seeing my daughter. — When ............ she ............ back from the summer camp?
 
    Варианты: 1) is ............ going to come; 2) will ............ come; 3) is ............ coming.
-13. If you ............ Jack, tell him to call me. — O. K. Why? — It’s a secret. — Come on! ............ you ............ him something I shouldn’t know?
+13. If you ............ Jack, tell him to call me. — OK. Why? — It’s a secret. — Come on! ............ you ............ him something I shouldn’t know?
 
    Варианты: 1) see; will ............ tell; 2) see; are ............ going to tell; 3) will see; will ............ tell.
 14. Oh, the bus is so slow! I hope we ............ late.
@@ -9230,7 +9230,7 @@ Future Indefinite обозначает действие или последов�
 10. I’m hungry. — Me too. I will make some sandwiches.
 11. Why are you taking out this old sewing machine? — I am going to remake this dress. It’s too big for me now.
 12. I’m looking forward to seeing my daughter. — When is she coming back from the summer camp?
-13. If you see Jack, tell him to call me. — O. K. Why? — It’s a secret. — Come on! are you going to tell him something I shouldn’t know?
+13. If you see Jack, tell him to call me. — OK. Why? — It’s a secret. — Come on! Are you going to tell him something I shouldn’t know?
 14. Oh, the bus is so slow! I hope we won’t be late.
 
 <a id="exercise-43-2"></a>
@@ -9253,7 +9253,7 @@ Future Indefinite обозначает действие или последов�
 
 **Полное решение**
 
-1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove them anything.
+1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove anything to them.
 2. I think I’ll buy this book as a present for my friend. I’m going to her birthday party tomorrow.
 3. When does the film start? — At 5. — I won’t be able to go then. My classes finish only at 6.
 4. They are leaving by the 8 o’clock train. Then they’ll be at the seaside already in the afternoon.
@@ -9423,7 +9423,7 @@ He gave me a vase as a present. What did he give you as a present?
 
 1. How many times did Lucy call you last week?
 2. When was he born?
-3. Who did you write a letter in the morning?
+3. Who did you write a letter to in the morning?
 4. Who broke that cup the other day?
 5. Where did they go for the weekend?
 6. What was the weather like on Sunday?
@@ -9735,13 +9735,13 @@ any interesting film this month.
 **Часть 3**
 
 1. Have you ever been to the circus? — Sure, and I’d like to go again.
-2. 2. What has happened? — I have lost my purse with all the money!
+2. What has happened? — I have lost my purse with all the money!
 3. Is it the second time your brother has got married? — Why? He has never been married before.
 4. You have taken too many pictures! There’s no place for all of them in the photo album.
 5. I have just explained everything to you. What else do you want?
 6. It’s the third glass of beer you have drunk today. Isn’t it enough?
 7. Has your Dad returned from his business trip yet? — He is coming this evening.
-8. This is the most dangerous, accident my brother has ever had.
+8. This is the most dangerous accident my brother has ever had.
 9. The plant has grown too large. I’m afraid I’ll have to cut it.
 10. Have you prepared everything for the party? — Yes, almost everything is ready.
 
@@ -10104,7 +10104,7 @@ It’s a month since I ate ice-cream. I haven’t eaten ice-cream for a month.
 **Полное решение**
 
 1. I have known Ben since my childhood.
-2. Since when have you started to work?
+2. Since when have you been working?
 3. George has been the best student since he entered the University.
 4. The children have changed a lot lately.
 5. Mr. Brown hasn’t been at work since last week.
@@ -10391,7 +10391,7 @@ Present Perfect или Present Perfect Continuous.
 4. — Oh, there’s paint in your hair! — I have been painting the ceiling in my room.
 5. How long did it take you to make such a wonderful dinner? You have cooked so many dishes!
 6. The book is so interesting! I have been reading for three hours. I have read almost all of it.
-7. Mum has been having a rest a rest in her room since she returned from work. Don’t disturb her.
+7. Mum has been having a rest in her room since she returned from work. Don’t disturb her.
 8. — You’re breathing with difficulty! What’s the matter? — I have been walking very fast.
 9. — Nick has made real progress lately. — Oh, yes, he has been working hard this term.
 10. — I have known Mr. Jackson for so many years!
@@ -10662,7 +10662,7 @@ I’ve heard the news the other day. — I heard the news the other day.
 
 1. I already heard this legend when I was on an excursion in Italy.
 2. I’ve already been to this theatre.
-3. Have you had lunch so far?
+3. Have you had lunch yet?
 4. We spoke on the phone for about an hour yesterday.
 5. He has been very friendly since we helped him.
 6. It’s a week since she made a new dress.
@@ -10742,7 +10742,7 @@ I’ve heard the news the other day. — I heard the news the other day.
 3. Who invented the computer?
 4. I returned home not long ago. — Have you had dinner yet?
 5. What did you write about in the composition?
-6. There have been no other news about this accident in the last few days.
+6. There has been no other news about this accident in the last few days.
 7. We’ve been friends for a long time. — When did you meet? (When did you get acquainted?)
 8. Have you ever been abroad? — Yes, I’ve been there many times. Last year my husband and I went to Italy.
 9. Do you know how many battles Napoleon won?
@@ -11316,7 +11316,7 @@ Past Indefinite или Past Continuous.
 3. I had known Sam for about two years when he got married.
 4. I knew Sam and Rachel when they got married.
 5. We gave the children their presents and they opened the parcels at once.
-6. We had hardly exchanged our New Year presents when the first guests. Arrived.
+6. We had hardly exchanged our New Year presents when the first guests arrived.
 7. When the first guests arrived we had already given the children their presents and they were opening the parcels. They were eager to see what was inside.
 8. I walked in the park for about an hour the other day.
 9. I saw a fight when I was walking in the park the other day.
@@ -11873,11 +11873,11 @@ It was settled. Frank, with her usual decisiveness, walked out as soon as she ha
 
 **Часть 4**
 
-“Then, what in God’s name have you left her for?” “I want to paint.” I looked at him for quite a long time. I didn’t understand. I thought he was mad. It must be remembered that I was very young, and I looked upon him as a middle-aged man. “But you are forty.” “That’s what made me think it was high time to begin.” “ Have you ever painted? “ “I rather wanted to be a painter when I was a boy, but my father made me go into business because he said there was no money in art. I began to paint a bit a year ago. For the last year I have been going to some classes at night.” “Was that where you went when Mrs. Strickland thought you were playing bridge at your club?” “That’s it.” “Why didn’t you tell her?” “I preferred to keep it to myself.” “Can you paint?” “Not yet. But I shall. That’s why I have come over here. I couldn’t get what I wanted in London. Perhaps I can here.” “Do you think it’s likely that a man will do any good when he starts at your age? Most men begin painting at eighteen.” “I can learn quicker that I could when I was eighteen.” After W. S. Maugham “The Moon and Sixpence”
+“Then, what in God’s name have you left her for?” “I want to paint.” I looked at him for quite a long time. I didn’t understand. I thought he was mad. It must be remembered that I was very young, and I looked upon him as a middle-aged man. “But you are forty.” “That’s what made me think it was high time to begin.” “Have you ever painted?” “I rather wanted to be a painter when I was a boy, but my father made me go into business because he said there was no money in art. I began to paint a bit a year ago. For the last year I have been going to some classes at night.” “Was that where you went when Mrs. Strickland thought you were playing bridge at your club?” “That’s it.” “Why didn’t you tell her?” “I preferred to keep it to myself.” “Can you paint?” “Not yet. But I shall. That’s why I have come over here. I couldn’t get what I wanted in London. Perhaps I can here.” “Do you think it’s likely that a man will do any good when he starts at your age? Most men begin painting at eighteen.” “I can learn quicker than I could when I was eighteen.” After W. S. Maugham “The Moon and Sixpence”
 
 **Часть 5**
 
-One morning when he had been in Rhodes a little over a week, he happened to be coming upstairs as Betty was walking along the passage. “You have never shown me your room, Betty,” he said. “Oh, come in and have a look now. It’s rather nice.” She turned back and he followed her in. It was over the drawing- room and nearly as large. It was furnished in the Italian style. The bed was Venetian and beautifully painted. “That’s a couch of rather imposing dimensions for a widow lady,” he said facetiously. “It’s enormous, isn’t it? But it was so lovely, I had to buy it. It cost a fortune.” His eye took in the bed-table by the side. There were two or three books on it, a box of cigarettes, and on an ash-tray a briar pipe. Funny! What on earth did Betty have a pipe by her bed for?” “Do look at this. Isn’t the painting marvellous? I almost cried when I found it.” “I suppose that cost a fortune too.” “I daren’t tell you what I paid.” When they were leaving the room he cast another glance at the bed-table. The pipe had vanished. After W. S. Maugham “The Human Element”
+One morning when he had been in Rhodes a little over a week, he happened to be coming upstairs as Betty was walking along the passage. “You have never shown me your room, Betty,” he said. “Oh, come in and have a look now. It’s rather nice.” She turned back and he followed her in. It was over the drawing-room and nearly as large. It was furnished in the Italian style. The bed was Venetian and beautifully painted. “That’s a couch of rather imposing dimensions for a widow lady,” he said facetiously. “It’s enormous, isn’t it? But it was so lovely, I had to buy it. It cost a fortune.” His eye took in the bed-table by the side. There were two or three books on it, a box of cigarettes, and on an ash-tray a briar pipe. Funny! What on earth did Betty have a pipe by her bed for?” “Do look at this. Isn’t the painting marvellous? I almost cried when I found it.” “I suppose that cost a fortune too.” “I daren’t tell you what I paid.” When they were leaving the room he cast another glance at the bed-table. The pipe had vanished. After W. S. Maugham “The Human Element”
 
 <a id="exercise-55-3"></a>
 
@@ -12131,7 +12131,7 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 
 **Часть 4**
 
-1. Mum advises to call the doctor at once.
+1. Mum advises me to call the doctor at once.
 2. My husband tells me never to touch this button.
 3. The teacher asks the children not to make so much noise.
 4. The sick child asks Mum to give him something tasty.
@@ -12177,7 +12177,7 @@ My Granny often says to me, “Don’t be lazy.” My Granny often tells me not 
 
 **Часть 1**
 
-1. My doctor advises not to take this medicine.
+1. My doctor advises me not to take this medicine.
 2. David says that he has seen this film but he didn’t like it.
 3. They wonder what else Mr. Brown said.
 4. Mum asks me to clean my room once a week.
@@ -12355,7 +12355,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 2. The woman said that she hadn’t heard anything because the music had been playing quite loudly.
 3. Mrs. Gray said that her daughter had been still sleeping at that time.
 4. Dad asked if I had been playing tennis at 5 as usual.
-5. The taxi driver said that the man had been leaving for St. Petersburg and asked to take him to the station.
+5. The taxi driver said that the man had been leaving for St. Petersburg and had asked him to take him to the station.
 
 **Часть 6**
 
@@ -12384,7 +12384,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 15. The teacher complained that I had been wasting time again and hadn’t done anything.
 16. Mr. Smiley advised me to speak to that young man. He thought that he knew more than he was saying.
 17. Diana wondered what I would do if I failed my exam.
-18. The principal said angrily to tell him at once whose fault it was.
+18. The principal angrily asked whose fault it was and told me to answer at once.
 19. Fred was sorry he hadn’t stopped to speak to me the day before. He explained that he had been in a great hurry.
 20. Jerry said proudly that his sister was a journalist and had interviewed many famous people.
 21. I asked Ann if Tim was her brother or her cousin.
@@ -12523,7 +12523,7 @@ My brother said, “I met Chris when I was walking along the street.” My broth
 2. I apologized and said that I couldn’t speak at that moment (then) and asked to call back later.
 3. Mary said that she had been to Italy a year before but if she had a chance she would certainly go there once again.
 4. The child said that he was hungry and asked when we would have lunch.
-5. He recommended not to follow Mr. Gray’s advice as it was not always useful.
+5. He recommended not following Mr. Gray’s advice as it was not always useful.
 6. I wondered if Helen and Pete had been travelling so much and they said they had.
 7. Charlie explained what all those questions meant.
 8. He said that he was leaving but he promised to come the following week.
@@ -12636,11 +12636,11 @@ The guide said that Buckingham Palace is the London residence of the British Que
 8. I doubted that Mr. Stevens would do what we wanted to ask him for.
 9. I didn’t trust Sam and was sure that sooner or later he would show his true attitude to us and then everybody would see that I was right.
 10. The Tysons had an impression that something strange was going on in the room but they pretended they didn’t notice it or at least weren’t paying attention to it.
-11. I read in a reference book that the ancient Egyptians read; built pyramids over the tombs of dead kings and queens.
+11. I read in a reference book that the ancient Egyptians built pyramids over the tombs of dead kings and queens.
 12. The book she had found looked very old. She realized that it could be valuable, that’s why she didn’t throw it away.
 13. Brian looked totally different from the man I had expected to see. In fact I was disappointed because I had imagined a stronger and a more handsome man. But my friend reminded me that appearance can be deceiving.
 14. She began to cry when she saw that the flowers she had always been looking after so carefully were dead.
-15. Mrs. Crap threw away anything hoping that this or that thing would come in handy. As a result her flat was full of unnecessary old things she had been storing for ages.
+15. Mrs. Crap never threw away anything hoping that this or that thing would come in handy. As a result her flat was full of unnecessary old things she had been storing for ages.
 
 <a id="exercise-58-2"></a>
 
@@ -12685,7 +12685,7 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 **Часть 4**
 
-“Her children came home from school then and she turned off the radio and went to the nursery. When Jim came home that night, he was tired, and he took a bath and changed his clothes. Then he joined Irene in the living room. He had just turned on the radio when the maid announced dinner, so he left it on, and he and Irene went to the table. Jim was too tired to make even a pretense of sociability, and there was nothing about the dinner to hold Irene’s interest, so her attention wandered from the food to the deposits of silver polish on the candlesticks and from there to the music in the other room. She listened for a few moments to a Chopin prelude and then was surprised to hear a man’s voice break in. “For Christ’s sake, Kathy,” he said, “do you always have to play the piano when I get home?” The music stopped abruptly. “It’s the only chance I have,” a woman said. “I’m at the office all day.” “So am I,” the man said. He added something obscene about an upright piano, and slammed the door. The passionate and melancholy music began again. “ Did you hear that?” Irene asked. “What?” Jim was eating his dessert. “The radio. A man said something while the music was still going on.” After John Cheever “The Enormous Radio”
+“Her children came home from school then and she turned off the radio and went to the nursery. When Jim came home that night, he was tired, and he took a bath and changed his clothes. Then he joined Irene in the living room. He had just turned on the radio when the maid announced dinner, so he left it on, and he and Irene went to the table. Jim was too tired to make even a pretense of sociability, and there was nothing about the dinner to hold Irene’s interest, so her attention wandered from the food to the deposits of silver polish on the candlesticks and from there to the music in the other room. She listened for a few moments to a Chopin prelude and then was surprised to hear a man’s voice break in. “For Christ’s sake, Kathy,” he said, “do you always have to play the piano when I get home?” The music stopped abruptly. “It’s the only chance I have,” a woman said. “I’m at the office all day.” “So am I,” the man said. He added something obscene about an upright piano, and slammed the door. The passionate and melancholy music began again. “Did you hear that?” Irene asked. “What?” Jim was eating his dessert. “The radio. A man said something while the music was still going on.” After John Cheever “The Enormous Radio”
 
 <a id="exercise-58-3"></a>
 
@@ -12725,7 +12725,7 @@ The guide said that Buckingham Palace is the London residence of the British Que
 8. The child was crying and Liz couldn’t calm him down. It wasn’t clear to her what the matter was and she was afraid that she had done something wrong.
 9. The only thing everybody was talking about was the accident that had happened (had taken place) the day before. People discussed the details trying to guess what the consequences would be.
 10. Mr. Deal was sure that when people read his book he would certainly become famous and popular.
-11. Chris was surprised that nobody was meeting him as he had informed about the day of his arrival long before.
+11. Chris was surprised that nobody was meeting him as he had informed them of the date of his arrival long before.
 12. Everybody realized what Mrs. Cartright meant but pretended that everything was all right and nothing strange was happening (was going on).
 13. The programme was quite interesting. I learnt, for example, that in 1666 the Great Fire destroyed two thirds of London.
 14. Rachel wrote to us about everything she had found out and now we had an idea who had been doing what before her arrival and also what was going on in the house at that time.
@@ -12804,11 +12804,11 @@ The guide said that Buckingham Palace is the London residence of the British Que
 
 **Часть 1**
 
-“We’re very glad to have you here, Mr. Gorin,” Professor Fox said gently. “This year we have taken only one assistant. Did you have a pleasant summer, Mr. Gorin?” “A pleasant summer?” Erik was silent for the time of two long breaths. “No, sir,” he said. “What did you say?” Fox asked out of surprise. “I said that the summer had been pretty awful,” Erik said once more. “All I can say is I’m glad it is over,” Eric went on. “You see I was absolutely broke when Professor Hollingworth told me that I had got the appointment here. He asked me to spend the summer with him and his family. But I couldn’t see myself sponging on him for all that time, so I stayed there for two weeks. It was wonderful there. But at the end of two weeks, I left them saying I was going East to visit a cousin. I don’t have any cousin, but I got on the train because the whole Hollingworth family had come to the station to see me off. On the train I bought a ticket for the next town. I got out there and took a lift on the highway. That fellow was driving his car to Cleveland to sell it there. He loved the car, because you see he had been saving so long to buy it. He was sad all the way and told me over and over how he had fixed this part and repaired that one. But he was out of work and had to sell the car. When we stopped for gas, I go into conversation with the owner of the station. He offered me a job for a place to eat and sleep. I was supposed to help him in repairs and service. One day I went into town and a fellow stopped me. He was almost crazy because he said I had taken his job. He used to make thirty a week and I was doing the work for practically nothing. He was married and had a family, so I moved on. I don’t know whether he ever got the job back, but I know I didn’t want it any more. Then I washed dishes for a while in a cafe, and when I got to New York, I came up here at once but you were still away on your vacation. For two weeks until yesterday I worked in a bathhouse at an open air pool.” After Mitchell Wilson “Live with Lightning”
+“We’re very glad to have you here, Mr. Gorin,” Professor Fox said gently. “This year we have taken only one assistant. Did you have a pleasant summer, Mr. Gorin?” “A pleasant summer?” Erik was silent for the time of two long breaths. “No, sir,” he said. “What did you say?” Fox asked out of surprise. “I said that the summer had been pretty awful,” Erik said once more. “All I can say is I’m glad it is over,” Eric went on. “You see I was absolutely broke when Professor Hollingworth told me that I had got the appointment here. He asked me to spend the summer with him and his family. But I couldn’t see myself sponging on him for all that time, so I stayed there for two weeks. It was wonderful there. But at the end of two weeks, I left them saying I was going East to visit a cousin. I don’t have any cousin, but I got on the train because the whole Hollingworth family had come to the station to see me off. On the train I bought a ticket for the next town. I got out there and took a lift on the highway. That fellow was driving his car to Cleveland to sell it there. He loved the car, because you see he had been saving so long to buy it. He was sad all the way and told me over and over how he had fixed this part and repaired that one. But he was out of work and had to sell the car. When we stopped for gas, I got into conversation with the owner of the station. He offered me a job for a place to eat and sleep. I was supposed to help him in repairs and service. One day I went into town and a fellow stopped me. He was almost crazy because he said I had taken his job. He used to make thirty a week and I was doing the work for practically nothing. He was married and had a family, so I moved on. I don’t know whether he ever got the job back, but I know I didn’t want it any more. Then I washed dishes for a while in a cafe, and when I got to New York, I came up here at once but you were still away on your vacation. For two weeks until yesterday I worked in a bathhouse at an open air pool.” After Mitchell Wilson “Live with Lightning”
 
 **Часть 2**
 
-“All right, if you want the truth you can have it. I did it and I’d do it again. I told you I would stop at nothing to prevent Sophie from marrying Larry. He thought he would make a new woman out of her. What fools men are! I knew that sooner or later she would break down. It stuck a mile. You saw yourself when we were all lunching together at the Ritz how jittery she was. I noticed you looking at her when she was drinking her coffee; her hand was shaking so, she was afraid to take the cup with one hand. The idea came to me when Uncle Elliott made all that fuss about that damned Polish liqueur. I thought it beastly, but I pretended it was the most wonderful stuff I had ever tasted. I was certain that if she got a chance she would never have the strength to resist. That’s why I took her to the dress show. That’s why I offered to make her a present of her wedding dress. That day, when she was going to have the last fitting I told Antoine I would have the zubrovka after lunch and then I told him I was expecting a lady and to ask her to wait and offer her some coffee and to leave the liqueur in case she fancied a glass. I did take Joan to the dentist’s, but of course we didn’t have an appointment and he couldn’t see us, so I took her to a newsreel. I had made up my mind that if I found Sophie hadn’t touched the stuff I would make the best of things and try to be friends with her. That is true, I swear it. But when I got home and saw the bottle I knew I had been right. She had gone.” Isabel was actually panting when she finished. “That is more or less what I imagined had happened,» I said.” After W. S. Maugham “The Razor’s Edge”
+“All right, if you want the truth you can have it. I did it and I’d do it again. I told you I would stop at nothing to prevent Sophie from marrying Larry. He thought he would make a new woman out of her. What fools men are! I knew that sooner or later she would break down. It stuck out a mile. You saw yourself when we were all lunching together at the Ritz how jittery she was. I noticed you looking at her when she was drinking her coffee; her hand was shaking so, she was afraid to take the cup with one hand. The idea came to me when Uncle Elliott made all that fuss about that damned Polish liqueur. I thought it beastly, but I pretended it was the most wonderful stuff I had ever tasted. I was certain that if she got a chance she would never have the strength to resist. That’s why I took her to the dress show. That’s why I offered to make her a present of her wedding dress. That day, when she was going to have the last fitting I told Antoine I would have the zubrovka after lunch and then I told him I was expecting a lady and to ask her to wait and offer her some coffee and to leave the liqueur in case she fancied a glass. I did take Joan to the dentist’s, but of course we didn’t have an appointment and he couldn’t see us, so I took her to a newsreel. I had made up my mind that if I found Sophie hadn’t touched the stuff I would make the best of things and try to be friends with her. That is true, I swear it. But when I got home and saw the bottle I knew I had been right. She had gone.” Isabel was actually panting when she finished. “That is more or less what I imagined had happened,” I said. After W. S. Maugham “The Razor’s Edge”
 
 <a id="exercise-59-3"></a>
 
@@ -13421,7 +13421,7 @@ Why wasn’t I sent for at once? RIGHT .........................................
 7. Your dress is being ironed. Will you wait a minute, please?
 8. It seems to me this is a trifle incident. Why do you think it will be spoken about?
 9. Instructions were just dictated to me. — Wasn’t it explained to you what it was all for?
-10. Nick wondered what day the meeting had been put off and why he hadn’t ben told about it.
+10. Nick wondered what day the meeting had been put off to and why he hadn’t been told about it.
 
 **Часть 2**
 
@@ -13838,7 +13838,7 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 
 **Полное решение**
 
-1. If you were late we would leave without you. It’s good you came in time.
+1. If you had been late we would have left without you. It’s good you came in time.
 2. I would have finished the work long ago if he had helped me.
 3. I would treat him better if he hadn’t told me a lie.
 4. But for the fog the flight wouldn’t have been delayed.
@@ -13849,7 +13849,7 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 9. If I had money I would lend you the necessary sum.
 10. If he had felt like staying with us last week he would have stayed.
 11. I would visit Jane today if I hadn’t fallen ill.
-12. But for him I wouldn’t know what is gong on.
+12. But for him I wouldn’t know what is going on.
 13. If I were you I wouldn’t make the child learn this poem by heart.
 14. If the book weren’t so expensive I would have bought it yesterday.
 15. What would you do if you missed the train?
@@ -13862,7 +13862,7 @@ There is a good film on TV today. I won’t go with you. But for the film I woul
 22. If I were her I would try to do it again.
 23. The child said that if Mother had bought him that toy he would be happy.
 24. I would go for a swim if it weren’t so cold.
-25. If I were you I wouldn’t allow the child cross the street alone.
+25. If I were you I wouldn’t allow my son to cross the street alone.
 26. I wouldn’t have been late yesterday if I hadn’t been caught in a traffic jam.
 27. But for the heat the flowers wouldn’t have faded.
 28. If I were you I would have given up smoking long ago and jogged in the morning.
@@ -14141,7 +14141,7 @@ Tom hit Jack and Jack hit him back. If I were Jack I wouldn’t have hit Tom bac
 **Полное решение**
 
 1. If I had found treasure I wouldn’t have handed it over to the authorities.
-2. If I had inherited a large some of money I wouldn’t have bought a house.
+2. If I had inherited a large sum of money I wouldn’t have bought a house.
 3. If I were Mrs. Brown I wouldn’t always tell people what to do.
 4. If I had gone to the seaside I would have swum in the sea.
 5. If I were you I would go in for sports.
@@ -14324,7 +14324,7 @@ I don’t like this mirror. (buy) I wish I hadn’t bought it.
 24. I wish you hadn’t been angry with me.
 25. But for his help I would be late.
 26. If he weren’t bad-tempered today, he wouldn’t be so rude.
-27. I wish you revised all the rules for the exam.
+27. I wish you would revise all the rules for the exam.
 28. I wish I didn’t have to wake up so early every day.
 29. I wish you had asked him to join the excursion.
 30. But for his advice I wouldn’t have known what to do.
@@ -14459,7 +14459,7 @@ Can you show me the way? I’m a stranger here.
 4. I couldn’t cook a month ago but I’m taking a course and next month I will be able to cook.
 5. She might be able to baby-sit but I’m not sure of that.
 6. Can I help you? Do you need help?
-7. Will you be able to you do the shopping in the evening? The fridge is empty.
+7. Will you be able to do the shopping in the evening? The fridge is empty.
 8. Could you skate when you were six?
 
 <a id="exercise-66-3"></a>
@@ -14521,7 +14521,7 @@ Can you show me the way? I’m a stranger here.
 2. I won’t be able to come in time.
 3. Ted wasn’t able to read (didn’t manage to read) the word.
 4. I couldn’t believe it.
-5. The child must be able to eat himself.
+5. The child must be able to eat by himself.
 6. She hasn’t been able to work well lately.
 7. I will be able to buy (can buy) something for supper.
 8. She can’t ride.
@@ -14855,7 +14855,7 @@ He doesn’t know French. (he, translate the text) He can’t have translated th
 1. As we had agreed I was to meet him at 7.
 2. I know I must do the work myself. It’s my duty.
 3. Susan says I must drive her to the station. She thinks it’s my duty.
-4. The baby -sitter was ill and Ellen had to look after the child herself.
+4. The baby-sitter was ill and Ellen had to look after the child herself.
 5. “You are to look after the children properly, feed them and take them for a walk,” Mrs. Swift said to the baby-sitter.
 6. The guide was to meet the group and take them to the hotel yesterday.
 7. The children didn’t understand the rule and the teacher had to explain it again.
@@ -15948,7 +15948,7 @@ You look awful. You should have gone to bed earlier.
 **Часть 5**
 
 1. I would like to be able to cook as well as you do.
-2. Will you help me, please.
+2. Will you help me, please?
 3. He may have tried to get in touch with you but didn’t manage to.
 4. He must have been hurt by your words.
 5. He must have been doing his best all this time to achieve success.
@@ -16609,7 +16609,9 @@ Perfect Continuous | Active | Passive |
 | He is happy to have been invited | Он рад, что его пригласили на вечер. |
 | to the party. | (предшествие) |
 
-Если глаголы to make, to let употреблены в действительном залоге, то за ними следует инфинитив без частицы to. Если глаголы to make и to let употреблены в страдательном залоге, то за ними следует инфинитив с частицей to.
+После **make** и **let** в действительном залоге используется инфинитив без **to**: *They made him wait; they let him go.* В страдательном залоге **make** требует **to**: *He was made to wait.* Для разрешения вместо пассивной конструкции с **let** употребляется **be allowed to**: *He was allowed to go.*
+
+> Поправка к печатному правилу: правило о страдательном залоге ошибочно распространялось на **let**. См. [Cambridge Grammar: Let, let’s](https://dictionary.cambridge.org/grammar/british-grammar/let-let-s). Сочетания вроде *be let in* имеют другую конструкцию и остаются допустимыми.
 
 |  |  |
 | --- | --- |
@@ -16738,7 +16740,7 @@ It seems to me he is reading. He seems to be reading now.
 5. I can’t make the child go to bed.
 6. They agreed to help us.
 7. I’d rather go to the cinema.
-8. I was let to visit the sick man.
+8. I was allowed to visit the sick man.
 9. Tell him to come at once.
 10. Let him have a look at the photo.
 
@@ -17058,7 +17060,7 @@ adjective + enough + infinitive.
 3. I remember talking to him. He is an interesting man.
 4. Remember to meet him at the station.
 5. He lives in the suburbs and he is used to taking a train to go to work and back.
-6. When I lived in the suburbs I used. To go by train to work and back.
+6. When I lived in the suburbs I used to go by train to work and back.
 7. I tried not to pay attention to what he was saying but it was impossible.
 8. — I can’t stand his presence any more. — Try ignoring all his remarks.
 9. She regrets punishing the child. She thinks it wasn’t his fault.
@@ -17547,7 +17549,7 @@ The child was sleeping. The mother watched him. The mother watched the child sle
 5. The play is worth seeing.
 6. I don’t feel like going to the disco.
 7. Make him answer the question.
-8. It’s no use advising him anything.
+8. It’s no use giving him any advice.
 9. I couldn’t help overhearing what you said.
 10. I noticed her pick up something and put it into her pocket.
 11. I advised him to apply for the job.
@@ -17853,7 +17855,7 @@ She has already made dinner. (to cook) She isn’t still cooking.
 2. He is still collecting information.
 3. They have already left.
 4. She has already done the washing up.
-5. He isn’t still thinking.
+5. She isn’t still thinking.
 6. He has already fallen down.
 
 <a id="exercise-83-3"></a>
@@ -18264,7 +18266,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ## Редакторские замечания
 
-Учебные формулировки теоретической части сохранены. Это конверсия конкретного издания, поэтому отдельные формулировки могут быть упрощёнными, а реалии — историческими. Выявленные ошибки в упражнениях и ключах исправлены в решениях; существенные исправления перечислены ниже.
+Учебные формулировки теоретической части в основном сохранены; ошибочное правило о let в уроке 77 исправлено с пояснением. Это конверсия конкретного издания, поэтому отдельные формулировки могут быть упрощёнными, а реалии — историческими. Выявленные ошибки в упражнениях и ключах исправлены в решениях; существенные исправления перечислены ниже.
 
 - [Упражнение 1.2](#exercise-1-2): В ключах к части 1 пропущен ответ к первому пункту. Здесь восстановлено соответствие всех десяти ответов. В части 2, пункте 9, удалён лишний артикль из ключа.
 
