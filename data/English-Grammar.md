@@ -2,7 +2,7 @@
 
 **Авторы:** Е. В. Зверховская, Е. Ф. Косиченко. **Издание:** 2-е, исправленное. БХВ-Петербург, 2014. ISBN 978-5-9775-3303-4.
 
-Источник: [English-Grammar.pdf](English-Grammar.pdf). Сохранены учебные разделы, правила, примеры, задания и приложение. Ответы из ключей размещены под соответствующими упражнениями и развёрнуты в полные предложения или тексты. Задания на чтение снабжены транскрипцией. Оригинальный раздел ключей приведён в конце файла. Рекламные страницы издательства не дублируются.
+Источник: [English-Grammar.pdf](English-Grammar.pdf). Сохранены учебные разделы, правила, примеры, задания и приложение. Ответы из ключей размещены под соответствующими упражнениями и развёрнуты в полные предложения или тексты. Задания на чтение снабжены транскрипцией. Раздел ключей приведён в конце файла. Рекламные страницы издательства не дублируются.
 
 Номера страниц ниже — печатные номера книги; номер страницы PDF на единицу больше. Курсивом и полужирным сохранены выделения, существенные для заданий. В упражнениях о личном опыте приведены примерные ответы. Варианты в скобках допустимы; для заполнения пропусков выбран один согласованный вариант. Обнаруженные ошибки и расхождения в ключах отмечены возле соответствующих упражнений.
 
@@ -785,7 +785,7 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 5. ....... violet is my wife’s favourite flower. I always give her ....... violets.
 6. ....... telephone was invented by Bell. Nowadays almost all people have ....... telephones.
 7. ....... airplane is the most popular means of transport because ....... airplanes fly very quickly.
-8. I want to buy ....... new computer. ....... com puter I have is very slow.
+8. I want to buy ....... new computer. ....... computer I have is very slow.
 9. Nowadays ....... life is impossible without ....... computer.
 10. In English ....... verb usually follows ....... noun in ....... positive sentence.
 11. ....... governments of the world should take care of ....... sick and ....... poor.
@@ -848,7 +848,7 @@ The Germans, the Russians, the Brazilians, the French, etc. Do you think the Eng
 2. ..................... speak French and English.
 3. ..................... speak French.
 4. ..................... speak English.
-5. ..................... speak Mexican.
+5. ..................... speak Spanish.
 6. ..................... speak Chinese.
 
 **Полное решение**
@@ -1030,7 +1030,7 @@ Urals
 6. I’ve heard much about ....... General Miles. ....... general is a well-known person.
 7. When are ....... Greens moving to their new flat?
 8. This story is written by ....... famous English writer W. S. Maugham.
-9. ....... Gibraltar separates ....... Europe from ....... Africa.
+9. ....... Strait of Gibraltar separates ....... Europe from ....... Africa.
 10. ....... Newcastle is a large city in ....... north-east of ....... England.
 11. You must see ....... doctor. ....... Doctor Ballisat is ....... good doctor.
 12. Do you have ....... aunt? — Yes, I do. ....... Aunt Mary always visits us in June.
@@ -2445,7 +2445,7 @@ few / a few или little / a little
 8. I have ....... knowledge of the subject and can prove my point of view.
 9. Somehow he has very ....... English books.
 10. He had ....... time and stopped to talk to his friend.
-11. Why are there so ....... flowers in you garden?
+11. Why are there so ....... flowers in your garden?
 12. The child has made ....... progress and speaks English better.
 13. The child left ....... soup in his plate, he had eaten almost the whole of it.
 14. Give the cat ....... fish every day. It’s necessary for him.
@@ -4771,7 +4771,7 @@ He isn’t very intelligent. You are more intelligent than him (... than he is).
 1. You know more than she does.
 2. They are older than he is.
 3. She is a better singer than I am.
-4. He has less spare time than we have.
+4. He has more spare time than we have.
 5. I read more interesting books than they do.
 
 <a id="exercise-24-4"></a>
@@ -5510,7 +5510,7 @@ The black dress is far more expensive than the blue one.
 
 1. Why didn’t he greet me (*warm* / *warmly*) the others? ..............................................................
 2. He is (*frequent* / *frequently*) visitor here. ..................................................................................
-3. Is he really so (*incredible* / *incredibly*) famous? — Oh yes, he is (*popular* / *popularly*) singer nowadays. .............................................................................................................................
+3. Is he really so (*incredible* / *incredibly*) famous? — Oh yes, he is (*popular* / *popularly*) singers nowadays. .............................................................................................................................
 4. That won’t suit her. She prefers to wear much (*bright* / *brightly*) coloured clothes. .................... ..............................................................................................................................................
 5. Which is (*dangerous* / *dangerously*): tennis or horse-riding? ....................................................
 6. He laughs (*good* / *well*) who laughs (*late* / *lately*). ....................................................................
@@ -7533,7 +7533,7 @@ Is Jack at school? Do you know if (whether) Jack is at school?
 
 1. Do you know if (whether) the theatre is far from the underground station?
 2. Do you know if Sam has an elder sister?
-3. Do you know if they have got a countryhouse?
+3. Do you know if they have got a country-house?
 4. Do you know if their children go to school yet?
 5. Do you know if Frank and Eve are married?
 
@@ -10430,7 +10430,7 @@ Present Perfect или Present Perfect Continuous.
 
 1. This elderly lady has been choosing a present so long! — Hasn’t she chosen anything yet?
 2. I’ve been waiting for Frank’s call since 3 o’clock but he hasn’t called so far.
-3. — I’m very pleased with our new babysitter. — How long has she been working for you?
+3. — I’m very pleased with our new baby-sitter. — How long has she been working for you?
 4. I’ve known my neighbours for ages. They are nice people.
 5. Alice has been very absent-minded lately. Do you know what has happened to her?
 6. We haven’t spoken to each other since we quarrelled.
@@ -14450,7 +14450,7 @@ Can you show me the way? I’m a stranger here.
 4. I ................... cook a month ago but I’m taking a course and next month I ....................to cook.
 5. She might .................... baby-sit but I’m not sure of that.
 6. .................... I help you? Do you need help?
-7. ....................you do the shopping in the evening? The fridge is empty.
+7. ....................you .................... do the shopping in the evening? The fridge is empty.
 8. .................... skate when you were six?
 
 **Полное решение**
@@ -16714,7 +16714,7 @@ It seems to me he is reading. He seems to be reading now.
 5. I can’t make the child .................................... (*go*) to bed.
 6. They agreed ..................................................... (*help*) us.
 7. I’d rather ............................................ (*go*) to the cinema.
-8. I was let ............................................ (*visit*) the sick man.
+8. I was allowed ............................................ (*visit*) the sick man.
 9. Tell him ................................................... (*come*) at once.
 10. Let him .................................. (*have a look*) at the photo.
 
@@ -18306,7 +18306,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ## КЛЮЧИ К УПРАЖНЕНИЯМ
 
-Оригинальные ключи из книги, страницы 224–299. Сохранены формулировки и нумерация печатного раздела.
+Страницы 224–299 книги.
 
 <a id="keys-unit-1"></a>
 
@@ -18352,23 +18352,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-1. the
+1. –
 
 2. the
 
-3. –
+3. the
 
-4. the
+4. –
 
-5. –
+5. the
 
-6. the
+6. –
 
-7. –, –
+7. the
 
-8. –
+8. –, –
 
 9. –
+
+10. –
 
 ##### 2
 
@@ -18388,7 +18390,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. the, –
 
-9. the, the, the
+9. the, the
 
 10. the, the
 
@@ -18396,7 +18398,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 12. the
 
-13. the,
+13. the
 
 14. a, a
 
@@ -18474,7 +18476,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. the
 
-9. the, the, the,
+9. the, the, the
 
 10. the, the
 
@@ -18860,8 +18862,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 7.1
 
-##### 1
-
 1. the
 
 2. a
@@ -18882,7 +18882,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. the
 
-##### 2
+<a id="key-7-2"></a>
+
+#### 7.2
 
 1. the
 
@@ -18904,11 +18906,11 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. a
 
-<a id="key-7-2"></a>
+<a id="key-7-3"></a>
 
-#### 7.2
+#### 7.3
 
-1. the daughter of a scientist
+1. a scientist. She is the daughter of a scientist.
 
 2. a distance of twenty miles
 
@@ -19082,8 +19084,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 9.2
 
-##### 1
-
 1. –
 
 2. –
@@ -19110,7 +19110,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 13. the
 
-##### 2
+<a id="key-9-3"></a>
+
+#### 9.3
 
 1. a, the
 
@@ -19216,7 +19218,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. the
 
-3. the, a, the
+3. the, a, –
 
 4. a, a
 
@@ -19267,7 +19269,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 | – | the | – | the | the | – | – |
 | the | the | the | the | the | – | the |
 | the | the | the | – | the | the | the |
-| –(the) | – | the | – | the | – | – |
+| – | – | the | – | the | – | – |
 | an | – | the | – | a | – | the |
 | the | a | the | the | – | – | the |
 | – | the | – | the | – | the | – |
@@ -19283,25 +19285,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 | a | – | the | – |  |  |  |
 | the | – | a |  |  |  |  |
 | the | the | the |  |  |  |  |
-| – | – |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| the | a |  |  |  |  |  |
-| – | the |  |  |  |  |  |
-| a | a |  |  |  |  |  |
-| a | a |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| an | a |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| a | the |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| – | the |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| the | – |  |  |  |  |  |
-| the | the |  |  |  |  |  |
-| the | – |  |  |  |  |  |
+| – | – | – |  |  |  |  |
+| the |  | the |  |  |  |  |
+| the |  | a |  |  |  |  |
+| – |  | the |  |  |  |  |
+| a |  | a |  |  |  |  |
+| a |  | a |  |  |  |  |
+| the |  | the |  |  |  |  |
+| the |  | the |  |  |  |  |
+| an |  | a |  |  |  |  |
+| the |  | the |  |  |  |  |
+| a |  | the |  |  |  |  |
+| the |  | the |  |  |  |  |
+| the |  | the |  |  |  |  |
+| the |  | the |  |  |  |  |
+| – |  | the |  |  |  |  |
+| the |  | the |  |  |  |  |
+| the |  | – |  |  |  |  |
+| the |  | the |  |  |  |  |
+| the |  | – |  |  |  |  |
 | the |  |  |  |  |  |  |
 
 <a id="keys-unit-11"></a>
@@ -19426,8 +19428,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 12.1
 
-##### 1
-
 1. these are
 
 2. is
@@ -19448,27 +19448,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. likes
 
-##### 2
+11. advice
 
-1. advice
+12. this is a
 
-2. this is a
+13. this is
 
-3. this is
+14. interesting
 
-4. interesting
+15. these are
 
-5. these are
+16. brings
 
-6. brings
+17. fine
 
-7. fine
+18. have
 
-8. have
+19. new
 
-9. new
-
-10. a bad
+20. a bad
 
 <a id="key-12-2"></a>
 
@@ -19644,7 +19642,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. the middle of the page
 
-5. the effect of James’(s) speech
+5. the effect of James’s speech
 
 6. my cousin’s house
 
@@ -19658,7 +19656,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 2
 
-1. Moscow’s center / the centre of Moscow
+1. the centre of Moscow
 
 2. The team’s results / the results of the team
 
@@ -19680,7 +19678,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. John and Sharon’s children
 
-12. these newspapermen’s question
+12. these newspapermen’s questions
 
 13. my children’s toys
 
@@ -20230,7 +20228,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 12. He has no proof.
 
-13. In some classrooms there is no black board.
+13. In some classrooms there is no blackboard.
 
 ##### 2
 
@@ -20238,13 +20236,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Do you think any of them will be able to help us?
 
-3. I don’t see any reasons for such be haviour.
+3. I don’t see any reasons for such behaviour.
 
 4. He used to have friends but now he has no friends.
 
 5. You can stay at any hotel in this district.
 
-6. There are no films better than this one. (There aren’t any films…)
+6. There are no films better than this one.
 
 7. Have you ever met any famous people?
 
@@ -20352,7 +20350,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 14. Do you have anything to do?
 
-15. Our city is beautiful. There are flowers every where here in summer.
+15. Our city is beautiful. There are flowers everywhere here in summer.
 
 <a id="keys-unit-20"></a>
 
@@ -20361,8 +20359,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 <a id="key-20-1"></a>
 
 #### 20.1
-
-##### 1
 
 1. the other
 
@@ -20384,31 +20380,29 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. the other
 
-##### 2
-
-1. other
-
-2. each other (one another)
-
-3. each other
-
-4. the others
-
-5. other
-
-6. others
-
-7. others
-
-8. other
-
-9. the others
-
-10. the other
-
-11. another
+11. other
 
 12. each other (one another)
+
+13. each other
+
+14. the others
+
+15. other
+
+16. others
+
+17. others
+
+18. other
+
+19. the others
+
+20. the other
+
+21. another
+
+22. each other (one another)
 
 <a id="key-20-2"></a>
 
@@ -20546,8 +20540,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 22.1
 
-##### 1
-
 1. We asked them to stay with us.
 
 2. This is not my bag. That one is mine.
@@ -20562,91 +20554,83 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. Can they really do it themselves?
 
-8. Go to the bathroom and wash your hands and the face.
+8. Go to the bathroom and wash your hands and face.
 
 9. We can cope with the task ourselves.
 
 10. I don’t have any plans for the weekend.
 
-##### 2
+11. Nobody can help him in this situation.
 
-1. Nobody can help him in this situation.
+12. We keep in touch with one of my cousins but I haven’t heard about the other one lately.
 
-2. We keep in touch with one of my cousins but I haven’t heard about the other one lately.
-
-3. RIGHT
-
-4. RIGHT
-
-5. None of my fellow students failed the exam.
-
-6. Children, behave yourselves!
-
-7. Shall I phone Alice or Judy? — Either.
-
-8. He studies Literature, History and many other subjects.
-
-9. You can ask any of us to help.
-
-10. Ours is a lonely street.
-
-##### 3
-
-1. If everybody is here tell them to take their seats.
-
-2. RIGHT
-
-3. I haven’t got any news yet.
-
-4. Neither his children nor he wants to stay there.
-
-5. Why have you come alone? How about the others?
-
-6. It was difficult for her to concentrate on the text.
-
-7. Everybody seems to know him here.
-
-8. Some people believed the article others said it was nonsense.
-
-9. None of them remembered about my birthday.
-
-10. Would you like the blue or the green blouse? — Either.
-
-##### 4
-
-1. He is arriving either on Friday or on Saturday.
-
-2. It’s their business. Don’t interfere.
-
-3. The question is so easy. Anybody can answer it.
-
-4. RIGHT
-
-5. Steve, are you going to take this book with you?
-
-6. Will you invite Steve or Roger? — Neither.
-
-7. The child is big enough to dress himself.
-
-8. She announced she would stay with us another three days.
-
-9. Both his car and mine are in the garage.
-
-10. None of his teachers are (is) satisfied with his work.
-
-11. He likes to speak about himself.
-
-12. They looked at each other but said nothing.
-
-13. I don’t feel well enough to leave the house.
+13. RIGHT
 
 14. RIGHT
+
+15. None of my fellow students failed the exam.
+
+16. Children, behave yourselves!
+
+17. Shall I phone Alice or Judy? — Either.
+
+18. He studies Literature, History and many other subjects.
+
+19. You can ask any of us to help.
+
+20. Ours is a lonely street.
+
+21. If everybody is here tell them to take their seats.
+
+22. RIGHT
+
+23. I haven’t got any news yet.
+
+24. Neither his children nor he wants to stay there.
+
+25. Why have you come alone? How about the others?
+
+26. It was difficult for her to concentrate on the text.
+
+27. Everybody seems to know him here.
+
+28. Some people believed the article others said it was nonsense.
+
+29. None of them remembered about my birthday.
+
+30. Would you like the blue or the green blouse? — Either.
+
+31. He is arriving either on Friday or on Saturday.
+
+32. It’s their business. Don’t interfere.
+
+33. The question is so easy. Anybody can answer it.
+
+34. RIGHT
+
+35. Steve, are you going to take this book with you?
+
+36. Will you invite Steve or Roger? — Neither.
+
+37. The child is big enough to dress himself.
+
+38. She announced she would stay with us another three days.
+
+39. Both his car and mine are in the garage.
+
+40. None of his teachers are (is) satisfied with his work.
+
+41. He likes to speak about himself.
+
+42. They looked at each other but said nothing.
+
+43. I don’t feel well enough to leave the house.
+
+44. RIGHT
 
 <a id="key-22-2"></a>
 
 #### 22.2
-
-##### 1
 
 1. I had no money, so I had to borrow some.
 
@@ -20654,7 +20638,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 3. I’m afraid anything can happen.
 
-4. Neither his patents nor he smokes.
+4. Neither his parents nor he smokes.
 
 5. Scientists from Germany, Russia, and many other countries attended the conference.
 
@@ -20668,81 +20652,75 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. Did they paint the house themselves?
 
-##### 2
+11. They are both on holiday and neither of them will come before Sunday.
 
-1. They are both on holiday and neither of them will come before Sunday.
+12. Let’s play another game.
 
-2. Let’s play another game.
+13. His computer is very good. Mine is not that good.
 
-3. His computer is very good. Mine is not that good.
+14. I asked two people how to get there but neither of them knew the way.
 
-4. I asked two people how to get there but neither of them knew the way.
+15. She got upset over something unimportant.
 
-5. She got upset over something unimportant.
+16. Some people read newspapers, others listen to news.
 
-6. Some people read newspapers, others listen to news.
+17. Neither my children nor his son likes this teacher.
 
-7. Neither my children nor his son likes this teacher.
+18. If there are any new words in the text look them up in a dictionary.
 
-8. If there are any new words in the text look them up in a dictionary.
+19. Any bus will take you there.
 
-9. Any bus will take you there.
+20. Other pictures by this painter are not interesting.
 
-10. Other pictures by this painter are not interesting.
+21. There was nobody in the house.
 
-##### 3
+22. Their house is very big. Ours isn’t that big.
 
-1. There was nobody in the house.
+23. Go anywhere you like.
 
-2. Their house is very big. Ours isn’t that big.
+24. Some men shave every day, other men (others) think it is unnecessary.
 
-3. Go anywhere you like.
+25. Everybody is present, aren’t they?
 
-4. Some men shave every day, other men (others) think it is unnecessary.
+26. You can invite anybody.
 
-5. Everybody is present, aren’t they?
+27. He speaks both Spanish and French well.
 
-6. You can invite anybody.
+28. I wanted to see three films on Saturday but saw none.
 
-7. He speaks both Spanish and French well.
+29. I couldn’t make a sandwich. I had no bread.
 
-8. I wanted to see three films on Saturday but saw none.
+30. What did you do yesterday? — Nothing special.
 
-9. I couldn’t make a sandwich. I had no bread.
+31. How long have you known each other?
 
-10. What did you do yesterday? — Nothing special.
+32. If anybody phones, tell them I’ll come in half an hour.
 
-##### 4
+33. Where is the other glove?
 
-1. How long have you known each other?
+34. I’ll take the suit to the dry cleaner’s myself.
 
-2. If anybody phones, tell them I’ll come in half an hour.
+35. Did you meet anybody last week? — Nobody.
 
-3. Where is the other glove?
+36. Both my friend and I have been learning English for two years but neither of us can speak well yet.
 
-4. I’ll take the suit to the dry cleaner’s myself.
+37. I need another three days to collect all the information.
 
-5. Did you meet anybody last week? — Nobody.
+38. We’ll pay for ourselves.
 
-6. Both my friend and I have been learning English for two years but neither of us can speak well yet.
+39. Neither he nor I am busy. We both can help you.
 
-7. I need another three days to collect all the information.
+40. Where are the others? Shall we wait for them?
 
-8. We’ll pay for ourselves.
+41. How many other dictionaries do you need?
 
-9. Neither he nor I am busy. We both can help you.
+42. Nothing could stop him.
 
-10. Where are the others? Shall we wait for them?
+43. Has any of you been to Spain?
 
-11. How many other dictionaries do you need?
+44. I painted the house myself.
 
-12. Nothing could stop him.
-
-13. Has any of you been to Spain?
-
-14. I painted the house myself.
-
-15. Either his friends or he himself has (have) seen this film.
+45. Either his friends or he himself has (have) seen this film.
 
 <a id="keys-unit-23"></a>
 
@@ -20810,7 +20788,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 23.3
 
-1. Не is a really famous architect. It’s strange that you don’t know his name (... that his name is unknown to you.)
+1. He is a really famous architect. It’s strange that you don’t know his name.
 
 2. These flowers smell sweet and heavy. (These flowers have a sweet and heavy smell.) It’s impossible to sleep in the room.
 
@@ -20870,7 +20848,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 14. less — the least
 
-15. more quiet — the most queit
+15. more quiet — the most quiet
 
 16. more interesting — the most interesting
 
@@ -20928,15 +20906,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 24.3
 
-1. You know more than her (... than she does).
+1. You know more than she does.
 
-2. They are older than him (... than he is).
+2. They are older than he is.
 
-3. She is a better singer than me (... than I am).
+3. She is a better singer than I am.
 
-4. He has less spare time than us (... than we have).
+4. He has more spare time than we have.
 
-5. I read more interesting books than them (... than they do).
+5. I read more interesting books than they do.
 
 <a id="key-24-4"></a>
 
@@ -21134,7 +21112,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. the nearest; farther (further); the next
 
-6. the latter
+6. the latter; next
 
 7. the next
 
@@ -21150,7 +21128,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. elder
 
-3. the farthest (the furthest); the nearest; farther (further)
+3. the farthest (the furthest); farther (further)
 
 4. the eldest
 
@@ -21160,7 +21138,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 7. the latter
 
-8. the latest
+8. the latest; last
 
 9. older
 
@@ -21304,7 +21282,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. The less you know, the better.
 
-3. Pat is taller than me / than I am.
+3. Pat is taller than I am.
 
 4. Mike is not as quick as Paul.
 
@@ -21342,15 +21320,15 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. She looked nervously out of the window.
 
-11. Be quieter!
+11. Is it really such a well-paid job?
 
 12. It’s much farther than that.
 
-13. The dish smells nice.
+13. The dish smells nice. What is it?
 
 14. I still feel bad.
 
-15. He speaks good English.
+15. He speaks English well.
 
 <a id="key-27-2"></a>
 
@@ -21652,8 +21630,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 28.7
 
-##### 1
-
 1. I like this soft French flower body lotion very much.
 
 2. She works best in the morning.
@@ -21691,8 +21667,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 <a id="key-29-1"></a>
 
 #### 29.1
-
-##### 1
 
 1. Does Tom have a large country-house? Tom doesn’t have a large country-house.
 
@@ -21780,7 +21754,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. Where can I find Mr. Pitt? — He is out. He is having a business lunch with a client.
 
-3. If we have a party on Saturday, the guests won’t leave early.They won’t have to get up early on Sunday.
+3. If we have a party on Saturday, the guests won’t leave early. They won’t have to get up early on Sunday.
 
 4. Do you have (Have you got) a brother or a sister? — I have an elder brother.
 
@@ -22264,9 +22238,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 8. Whose book is it?
 
-9. What / What game do the boys often play in the evening?
+9. What game do the boys often play in the evening?
 
-10. When / What time does Mr. Brown usually have lunch?
+10. When does Mrs. Brown usually have lunch?
 
 ##### 2
 
@@ -22750,7 +22724,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. How much time do you think it takes?
 
-2. When do you think is the next plane to New York?
+2. When do you think the next plane to New York is?
 
 3. Why do you think she is worried?
 
@@ -22814,7 +22788,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. I don’t know who can help us.
 
-5. I can’t remember if / whether Sam’s sister is younger or older than him.
+5. I can’t remember whether Sam’s sister is younger or older than him.
 
 <a id="key-36-6"></a>
 
@@ -22904,7 +22878,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 11. there was
 
-12. will there be, there won’t
+12. will there be
 
 13. is there, there is
 
@@ -22936,8 +22910,6 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 37.3
 
-##### 1
-
 1. There is one new house and a lot of old houses in this street.
 
 2. There were a lot of people at the bus stop. They were waiting for the bus.
@@ -22958,27 +22930,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 10. Are there any Italian dishes on the menu? — Unfortunately, there aren’t.
 
-##### 2
+11. There isn’t much information about Brazil in this book.
 
-1. There isn’t much information about Brazil in this book.
+12. Are there any interesting articles in this newspaper? — Yes, there is a very interesting article on page three.
 
-2. Are there any interesting articles in this newspaper? — Yes, there is a very interesting article on page three.
+13. Where is your telephone? — The telephone is in the living-room. You may use it.
 
-3. Where is your telephone? — The telephone is in the living-room. You may use it.
+14. Why are there so many plates on the table? Are we having any guests to dinner?
 
-4. Why are there so many plates on the table? Are we having any guests to dinner?
+15. There wasn’t enough paint and I couldn’t finish my work.
 
-5. There wasn’t enough paint and I couldn’t finish my work.
+16. What is there in your room? — There is a bed, a wardrobe and some other furniture there.
 
-6. What is there in your room? — There is a bed, a wardrobe and some other furniture there.
+17. There isn’t enough cloth here to make a long dress.
 
-7. There isn’t enough cloth here to make a long dress.
+18. There won’t be any further discussion. (There will be no further discussion).
 
-8. There won’t be any further discussion. (There will be no further discussion).
+19. How much fuel is there in the tank? — There is enough fuel there.
 
-9. How much fuel is there in the tank? — There is enough fuel there.
-
-10. Are they tourists? — Yes, they are. There are always a lot of tourists here in May.
+20. Are they tourists? — Yes, they are. There are always a lot of tourists here in May.
 
 <a id="keys-unit-38"></a>
 
@@ -23126,7 +23096,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 39.1
 
-[lʊks], [ˈdresiz], [ˈoʊpnz], [a:sks], [plænz], [filz], [kaʊnts], [si:mz], [ˈfiniʃiz], [heits], [pæks], [ˈkɒpiz], [ˈvizits], [ˈti:tʃiz], [filz], [ˈkləʊziz], [faindz], [ˈa:nsəz], [ˈfetʃiz], [kraiz], [lu:ziz]
+[lʊks], [ˈdresɪz], [ˈəʊpənz], [ɑːsks], [plænz], [fiːlz], [kaʊnts], [siːmz], [ˈfɪnɪʃɪz], [heɪts], [pæks], [ˈkɒpiz], [ˈvɪzɪts], [ˈtiːtʃɪz], [fɪlz], [ˈkləʊzɪz], [faɪndz], [ˈɑːnsəz], [ˈfetʃɪz], [kraɪz], [ˈluːzɪz]
 
 <a id="key-39-2"></a>
 
@@ -23170,25 +23140,25 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 39.4
 
-1. — Do you get up early? — Yes, I usually (always, often) get up early. / No, I never (seldom) get up early.
+1. Do you get up early? — Yes, I usually get up early.
 
-2. — Does your friend phone you on his (her) day off? — Yes, he (she) sometimes (usually, always, often) phones me on his (her) day off. — No, he (she) never (seldom) phones ...
+2. Does your friend phone you on his day off? — Yes, he sometimes phones me on his day off.
 
-3. — Do you help your mother to do the shopping? — Yes, I always (often, usually, sometimes) help my mother to do the shopping. — No, I seldom (never) help ...
+3. Do you help your mother to do the shopping? — Yes, I always help my mother to do the shopping.
 
-4. — Do your parents go on holiday together? — Yes, they often (always, usually) go on holiday together. — No, they never (seldom) go ...
+4. Do your parents go on holiday together? — Yes, they often go on holiday together.
 
-5. — Does your father go fishing at the weekend? — Yes, he sometimes (often) goes fishing at the weekend. — No, he never goes ...
+5. Does your father go fishing at the weekend? — Yes, he sometimes goes fishing at the weekend.
 
-6. — Do you quarrel with your friends? — Yes, I sometimes (often) quarrel with my friends. — No, I never (seldom) quarrel with my friends.
+6. Do you quarrel with your friends? — No, I seldom quarrel with my friends.
 
-7. — Do you visit your grandparents? — Yes, I sometimes (often) visit my grandparents. / No, I seldom (never) visit ...
+7. Do you visit your grandparents? — Yes, I often visit my grandparents.
 
-8. — Does your mother cook delicious dinners? — Yes, she often (usually, sometimes, always) cooks delicious dinners. — No, she never (seldom) cooks...
+8. Does your mother cook delicious dinners? — Yes, she usually cooks delicious dinners.
 
-9. — Does your friend help you with your homework? — Yes, he often (sometimes, usually, always) helps me with my homework. — No, he never (seldom) helps ...
+9. Does your friend help you with your homework? — Yes, he often helps me with my homework.
 
-10. — Do you have nightmares? — Yes, I sometimes (often) have nightmares. — No, I never (seldom) have nightmares.
+10. Do you have nightmares? — No, I never have nightmares.
 
 <a id="keys-unit-40"></a>
 
@@ -23244,9 +23214,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. are always coming
 
-5. is returning ... , isn’t she?
+5. is returning; isn’t
 
-6. isn’t looking
+6. isn’t looking for
 
 7. are they working at; are making
 
@@ -23458,7 +23428,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 43.2
 
-1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove them anything.
+1. I’m afraid they won’t believe us. — Let them do what they want. I’m not going to prove anything to them.
 
 2. I think I’ll buy this book as a present for my friend. I’m going to her birthday party tomorrow.
 
@@ -23480,13 +23450,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 44.1
 
-[kriˈeitid], [mist], [ˈstʌdid], [fild], [lʊkt], [ˈfeintid], [wɒʃt], [ˈa:nsəd], [fəʊnd], [ˈvizitid], [ˈsi:md], [kləʊzd], [ˈəʊpənd], [ˈheitid], [laikt], [diˈvaidid], [ˈfitid], [iksˈpleind], [kraid], [tʌtʃt], [steid]
+[kriˈeɪtɪd], [mɪst], [ˈstʌdid], [fɪld], [lʊkt], [ˈfeɪntɪd], [wɒʃt], [ˈɑːnsəd], [fəʊnd], [ˈvɪzɪtɪd], [siːmd], [kləʊzd], [ˈəʊpənd], [ˈheɪtɪd], [laɪkt], [dɪˈvaɪdɪd], [ˈfɪtɪd], [ɪkˈspleɪnd], [kraɪd], [tʌtʃt], [steɪd]
 
 <a id="key-44-2"></a>
 
 #### 44.2
 
-1. I had (didn’t have) classes till three yesterday.
+1. I had classes till three yesterday.
 
 2. My mother went (didn’t go) shopping after work yesterday.
 
@@ -23494,7 +23464,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 4. I got up (didn’t get up) early yesterday morning.
 
-5. It was (wasn’t) my day off.
+5. It was my day off.
 
 6. I saw (didn’t see) a film at the cinema yesterday.
 
@@ -23514,7 +23484,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. When was he born?
 
-3. Who did you write a letter in the morning?
+3. Who did you write a letter to in the morning?
 
 4. Who broke that cup the other day?
 
@@ -23630,9 +23600,9 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. I’ve read an exciting book this summer. / I haven’t read any exciting book this summer.
 
-3. My friend has / hasn’t caught cold this month.
+3. My friend has caught cold this month.
 
-4. I’ve / haven’t visited my grandparents this week.
+4. I’ve visited my grandparents this week.
 
 5. I’ve made some progress in English this year. / I haven’t made any progress in English this year.
 
@@ -23786,13 +23756,13 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 46.1
 
-1. I have (haven’t) been very busy lately.
+1. I have been very busy lately.
 
-2. My Dad has (hasn’t) had problems at work recently.
+2. My Dad has had problems at work recently.
 
-3. My friend has (hasn’t) made progress in English lately.
+3. My friend has made progress in English lately.
 
-4. My Granny has (hasn’t) been ill lately.
+4. My Granny has been ill lately.
 
 5. I have learnt useful things recently. / I haven’t learnt any useful things recently.
 
@@ -23908,7 +23878,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 1. I have known Ben since my childhood.
 
-2. Since when have you started to work?
+2. Since when have you been working?
 
 3. George has been the best student since he entered the University.
 
@@ -23994,7 +23964,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. Not yet, but I’ve been thinking about the problem since you told me about it.
 
-7. Oh, I’m not sure, I’ve been listening to it for half an hour ...
+7. Oh, I’m not sure. I’ve been listening to it for half an hour.
 
 <a id="key-47-2"></a>
 
@@ -24068,7 +24038,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 6. have been reading; have read
 
-7. has been having a rest
+7. has been having
 
 8. have been walking
 
@@ -24228,7 +24198,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 2. I’ve already been to this theatre.
 
-3. Have you had lunch so far?
+3. Have you had lunch yet?
 
 4. RIGHT
 
@@ -24282,7 +24252,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 5. What did you write about in the composition?
 
-6. There have been no other news about this accident in the last few days.
+6. There has been no other news about this accident in the last few days.
 
 7. We’ve been friends for a long time. — When did you meet? (When did you get acquainted?)
 
@@ -24344,19 +24314,19 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 #### 50.1
 
-1. At this time yesterday I was / wasn’t walking in the park.
+1. At this time yesterday I was walking in the park.
 
-2. At 8 yesterday my Mother was / wasn’t making breakfast.
+2. At 8 yesterday my Mother was making breakfast.
 
-3. At 1 o’clock yesterday my friends were / weren’t having classes at school (at the Institute).
+3. At 1 o’clock yesterday my friends were having classes at school (at the Institute).
 
-4. At 9 o’clock last night my Dad was / wasn’t watching the news program on TV.
+4. At 9 o’clock last night my Dad was watching the news program on TV.
 
-5. From 3 till 5 on Sunday I was / wasn’t preparing my homework.
+5. From 3 till 5 on Sunday I was preparing my homework.
 
-6. From 10 till 11 on Saturday my Mum and I were / weren’t cleaning the flat.
+6. From 10 till 11 on Saturday my Mum and I were cleaning the flat.
 
-7. At this time on Tuesday I was / wasn’t playing with my younger brother (sister).
+7. At this time on Tuesday I was playing with my younger brother (sister).
 
 <a id="key-50-2"></a>
 
@@ -24950,7 +24920,7 @@ Ann’s clothes are nice. (Amy’s) So are Amy’s clothes.
 
 ##### 1
 
-have been studying; don’t know; say; are; know; puzzle; are; don’t know; was thinking; read; had died; was; was; knew; interested; gave.
+have been studying; don’t know; say; are; know; puzzle; are; don’t know; was thinking; read; had died; was; was; knew; interested; gave
 
 ##### 2
 
@@ -25128,7 +25098,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 ##### 4
 
-1. Mum advises to call the doctor at once.
+1. Mum advises me to call the doctor at once.
 
 2. My husband tells me never to touch this button.
 
@@ -25144,7 +25114,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 ##### 1
 
-1. My doctor advises not to take this medicine.
+1. My doctor advises me not to take this medicine.
 
 2. David says that he has seen this film but he didn’t like it.
 
@@ -25252,11 +25222,11 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 4. Dad asked if I had been playing tennis at 5 as usual.
 
-5. The taxi driver said that the man had been leaving for St. Petersburg and asked to take him to the station.
+5. The taxi driver said that the man had been leaving for St. Petersburg and had asked him to take him to the station.
 
 ##### 6
 
-1. Mary promised that she would call me the following day. (Mary promised to call ...)
+1. Mary promised that she would call me the following day.
 
 2. She said that if anything happened to her I would have to look after her children.
 
@@ -25302,7 +25272,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 17. Diana wondered what I would do if I failed my exam.
 
-18. The principal said angrily to tell him at once whose fault it was.
+18. The principal angrily asked whose fault it was and told me to answer at once.
 
 19. Fred was sorry he hadn’t stopped to speak to me the day before. He explained that he had been in a great hurry.
 
@@ -25402,7 +25372,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 4. The child said that he was hungry and asked when we would have lunch.
 
-5. He recommended not to follow Mr. Gray’s advice as it was not always useful.
+5. He recommended not following Mr. Gray’s advice as it was not always useful.
 
 6. I wondered if Helen and Pete had been travelling so much and they said they had.
 
@@ -25442,7 +25412,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 4. was; hadn’t warned; had wasted
 
-5. was surprised; rang; had already arrived; wasn’t expecting
+5. was; rang; had already arrived; wasn’t expecting
 
 6. turned out; had been making; had been
 
@@ -25474,9 +25444,9 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 9. didn’t trust; was; would show; would see; was
 
-10. had; was going on; didn’t notice; weren’t paying
+10. had; was going on; pretended; didn’t notice; weren’t paying
 
-11. read; built
+11. built
 
 12. had found; looked; realized; could; didn’t throw
 
@@ -25484,7 +25454,7 @@ had been; was walking; have never shown; turned; followed; cost; took; were; did
 
 14. began; saw; had always been looking after; were
 
-15. threw away; would come in; was; had been storing
+15. never threw away; would come in; was; had been storing
 
 <a id="key-58-2"></a>
 
@@ -25530,7 +25500,7 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 10. Mr. Deal was sure that when people read his book he would certainly become famous and popular.
 
-11. Chris was surprised that nobody was meeting him as he had informed about the day of his arrival long before.
+11. Chris was surprised that nobody was meeting him as he had informed them of the date of his arrival long before.
 
 12. Everybody realized what Mrs. Cartright meant but pretended that everything was all right and nothing strange was happening (was going on).
 
@@ -25584,11 +25554,11 @@ came; turned off; went; came; was; took; changed; joined; had just turned on; an
 
 ##### 1
 
-have taken; Did you have; was; did you say; asked; said; had been; is; was; told; had got; asked; stayed; was; left; was going; don’t have; got on; had come; bought; got out; took; was driving; loved; had been saving; was; told; had fixed; repaired; was; stopped; go; offered; went; stopped; was; said; had taken; was doing; was; had; moved on; don’t know; didn’t want; washed; got; came up; were; worked.
+have taken; Did you have; was; did you say; asked; said; had been; is; was; told; had got; asked; stayed; was; left; was going; don’t have; got on; had come; bought; got out; took; was driving; loved; had been saving; was; told; had fixed; repaired; was; stopped; got; offered; went; stopped; was; said; had taken; was doing; was; had; moved on; don’t know; didn’t want; washed; got; came up; were; worked
 
 ##### 2
 
-did; would stop; thought; would make; are; knew; would break down; stuck; saw; were all lunching; was; noticed; was drinking; was shaking; was; came; made; thought; pretended; was; had ever tasted; was; got; would never have; took; offered; told; would have; told; was expecting; fancied; didn’t have; took; had made up; found; hadn’t touched; would make; is; swear; got; saw; knew; had been; had gone; was actually panting; finished; is; imagined; had happened; said.
+did; would stop; thought; would make; are; knew; would break down; stuck out; saw; were all lunching; was; noticed; was drinking; was shaking; was; came; made; thought; pretended; was; had ever tasted; was; got; would never have; took; offered; told; would have; told; was expecting; fancied; didn’t have; took; had made up; found; hadn’t touched; would make; is; swear; got; saw; knew; had been; had gone; was actually panting; finished; is; imagined; had happened; said
 
 <a id="key-59-3"></a>
 
@@ -25604,11 +25574,7 @@ It turned out that Mr. Hopkins was a robber and he had been using Jimmy for his 
 
 ##### 3
 
-Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out.
-
-Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn’t know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job.
-
-At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn’t even imagine where they were really sending the boy and what would happen to him there.
+Mrs. Winkship and her niece Martha couldn’t help crying when Jimmy was telling them how he had been living and what he had been doing all that time. They decided that the boy would stay with them until they found a way out. Several days passed and Martha remembered that Uncle Belcher had said once that he needed an assistant. She didn’t know for sure what he did but she thought that Jimmy who had gone through so much would cope with any job. At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big but the women persuaded him to take Jimmy. They couldn’t even imagine where they were really sending the boy and what would happen to him there.
 
 <a id="keys-unit-60"></a>
 
@@ -25874,7 +25840,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 3. hadn’t been solved; had been discussed
 
-4. Why hasn’t this information been ever used?
+4. Why hasn’t this information ever been used?
 
 5. aren’t worn
 
@@ -25892,7 +25858,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 1. has been offered
 
-2. hadn’t been considered; would be informed
+2. was told; hadn’t been considered; would be informed
 
 3. is being rehearsed; have been invited
 
@@ -25934,7 +25900,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 9. Instructions were just dictated to me. — Wasn’t it explained to you what it was all for?
 
-10. Nick wondered what day the meeting had been put off and why he hadn’t ben told about it.
+10. Nick wondered what day the meeting had been put off to and why he hadn’t been told about it.
 
 ##### 2
 
@@ -26152,7 +26118,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 #### 63.7
 
-1. If you were late we would leave without you. It’s good you came in time.
+1. If you had been late we would have left without you. It’s good you came in time.
 
 2. I would have finished the work long ago if he had helped me.
 
@@ -26174,7 +26140,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 11. I would visit Jane today if I hadn’t fallen ill.
 
-12. But for him I wouldn’t know what is gong on.
+12. But for him I wouldn’t know what is going on.
 
 13. If I were you I wouldn’t make the child learn this poem by heart.
 
@@ -26200,7 +26166,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 24. I would go for a swim if it weren’t so cold.
 
-25. If I were you I wouldn’t allow the child cross the street alone.
+25. If I were you I wouldn’t allow my son to cross the street alone.
 
 26. I wouldn’t have been late yesterday if I hadn’t been caught in a traffic jam.
 
@@ -26342,7 +26308,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 1. If I had found treasure I wouldn’t have handed it over to the authorities.
 
-2. If I had inherited a large some of money I wouldn’t have bought a house.
+2. If I had inherited a large sum of money I wouldn’t have bought a house.
 
 3. If I were Mrs. Brown I wouldn’t always tell people what to do.
 
@@ -26480,7 +26446,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 26. If he weren’t bad-tempered today, he wouldn’t be so rude.
 
-27. I wish you revised all the rules for the exam.
+27. I wish you would revise all the rules for the exam.
 
 28. I wish I didn’t have to wake up so early every day.
 
@@ -26524,7 +26490,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 4. She can’t swim
 
-5. сouldn’t phone him
+5. couldn’t phone him
 
 6. can’t trust
 
@@ -26548,7 +26514,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 6. can
 
-7. will you be able to
+7. will; be able to
 
 8. Could you
 
@@ -26584,7 +26550,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 4. I couldn’t believe it.
 
-5. The child must be able to eat himself.
+5. The child must be able to eat by himself.
 
 6. She hasn’t been able to work well lately.
 
@@ -27042,7 +27008,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 #### 72.1
 
-##### 1
+##### a)
 
 1. You needn’t worry.
 
@@ -27054,7 +27020,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 5. You needn’t wash it.
 
-##### 2
+##### b)
 
 1. You needn’t have translated it.
 
@@ -27370,7 +27336,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 1. I would like to be able to cook as well as you do.
 
-2. Will you help me, please.
+2. Will you help me, please?
 
 3. He may have tried to get in touch with you but didn’t manage to.
 
@@ -27898,15 +27864,15 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 #### 78.3
 
-1. The rule was difficult enough for the child to understand.
+1. The rule was not easy enough for the child to understand without difficulty.
 
-2. The car is expensive enough for me to buy.
+2. The car is not cheap enough for me to buy.
 
-3. The house is small enough for such a big family to live in.
+3. The house is not large enough for such a big family to live in.
 
-4. The shoes are tight enough for the child to wear.
+4. The shoes are not loose enough for the child to wear.
 
-5. The passage is difficult enough to learn by heart.
+5. The passage is not easy enough to learn by heart.
 
 <a id="key-78-4"></a>
 
@@ -28250,7 +28216,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 7. Make him answer the question.
 
-8. It’s no use advising him anything.
+8. It’s no use giving him any advice.
 
 9. I couldn’t help overhearing what you said.
 
@@ -28448,7 +28414,7 @@ At first Uncle Belcher didn’t want to take Jimmy. He said the boy was too big 
 
 4. She has already done the washing up.
 
-5. He isn’t still thinking.
+5. She isn’t still thinking.
 
 6. He has already fallen down.
 
