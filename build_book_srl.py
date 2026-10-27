@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Deterministic, book-grounded SRL examples in numbered, tab-separated bAbI format.
+"""Build deterministic SRL data from manually annotated original book passages.
 
-Each of the 84 units has its own callable generator. Text and annotations are
-instantiated together from reviewed templates; this is not an NLP parser.
-Only the Python standard library is required.
+Each of the 84 units has its own callable generator. Book mode requires complete
+manual review of every passage in the selected lessons. The independent synthetic
+template library remains available with --source templates. Standard library only.
 """
 from __future__ import annotations
 
@@ -105,7 +105,7 @@ def validate_example(example: Example) -> None:
         if text[-1] not in '.?!':
             raise ValueError(f'{example.template_id}: sentence has no final punctuation')
         predicates = sentence.get('predicates', [])
-        if not predicates:
+        if not predicates and sentence.get('features',{}).get('clause_type') not in ('ellipsis','vocative'):
             raise ValueError(f'{example.template_id}: sentence {number} has no predicates')
         for index, event in enumerate(predicates, 1):
             predicate = event.get('text', '')
@@ -329,7 +329,7 @@ def render(example: Example) -> str:
                 qa(f'{field} of {scope}?', event[field], refs)
             local_predicates.append(pred)
     qa('sentence count?', len(example.sentences), sentence_lines)
-    qa('predicate count?', len(predicate_lines), predicate_lines)
+    qa('predicate count?', len(predicate_lines), predicate_lines or sentence_lines)
     result = '\n'.join(f'{n} {line}' for n, line in enumerate(rows, 1))+'\n\n'
     validate_story(result)
     return result
@@ -410,6 +410,7 @@ def build(library: Library, out: Path | None, units=None, mode='both', per_unit=
             for unit, stories in by_unit.items():
                 (target / f'unit_{unit:02d}.txt').write_text(''.join(dict.fromkeys(stories)), encoding='utf-8', newline='\n')
     return {'splits': stats, 'units': {u: len(set(v)) for u, v in by_unit.items()},
+            'sentences': sum(len(e.sentences) for e, _ in examples.values()),
             'unique_examples': len(examples), 'families': len({root(e.family) for e, _ in examples.values()})}
 
 
@@ -426,6 +427,16 @@ def parse_units(value: str) -> list[int]:
     return sorted(result)
 
 
+def format_units(units) -> str:
+    ranges = []
+    for unit in sorted(set(units)):
+        if ranges and unit == ranges[-1][1] + 1:
+            ranges[-1][1] = unit
+        else:
+            ranges.append([unit, unit])
+    return ','.join(str(a) if a == b else f'{a}-{b}' for a, b in ranges) or 'none'
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--book', type=Path, default=DEFAULT_BOOK)
@@ -435,14 +446,16 @@ def main(argv=None) -> int:
     parser.add_argument('--sync-book', action='store_true', help='Inventory all book passages without adding semantic labels')
     parser.add_argument('--coverage', action='store_true', help='Show manual annotation coverage without writing a dataset')
     parser.add_argument('--out', type=Path, default=DEFAULT_OUT)
-    parser.add_argument('--units', default='1-84', help='For example: 1,16,39-44')
+    parser.add_argument('--units', help='For example: 1,16,39-44. Default: fully reviewed units '
+                        'for book generation, all units for templates and listings. '
+                        'An explicit selection requires complete annotation.')
     parser.add_argument('--mode', choices=('single', 'multi', 'both'), default='both')
     parser.add_argument('--per-unit', action='store_true', help='Also write units/unit_01.txt, etc.')
     parser.add_argument('--list', action='store_true', help='List unit generators without writing files')
     parser.add_argument('--validate-only', action='store_true', help='Check every selected instantiation without writing files')
     args = parser.parse_args(argv)
     try:
-        selected = parse_units(args.units)
+        selected = parse_units(args.units) if args.units is not None else None
         if args.sync_book or args.source == 'book' or args.coverage:
             from book_srl_corpus import CorpusLibrary, CORPUS_NAME, synchronize
             if args.sync_book:
@@ -450,6 +463,8 @@ def main(argv=None) -> int:
             library = CorpusLibrary(args.library,args.book)
         else:
             library = Library(args.library, args.book)
+        if selected is None:
+            selected = sorted(library.units)
         if args.coverage or args.sync_book:
             coverage = library.coverage(selected)
             for unit, counts in coverage.items():
@@ -466,18 +481,38 @@ def main(argv=None) -> int:
                     c = library.coverage([unit])[unit]
                     count = f'{c["checked"]}/{c["passages"]} book passages checked'
                 print(f'{unit:02d}: {library.units[unit]["title"]} ({count})')
-        elif args.validate_only:
-            if args.source == 'book':
-                library.require_complete(selected)
-            stats = build(library, None, selected, args.mode)
+            return 0
+        if args.source == 'book':
+            coverage = library.coverage()
+            ready = [u for u, c in coverage.items() if c['pending'] == 0]
+            pending = [u for u, c in coverage.items() if c['pending']]
+            if args.units is None:
+                if not ready:
+                    raise ValueError('No book units are fully reviewed yet. '
+                                     'Use --coverage to inspect manual annotation progress.')
+                selected = ready
+            library.require_complete(selected)
+            print(f'Book coverage: {len(ready)}/{len(library.units)} units fully reviewed. '
+                  f'Selected units: {format_units(selected)}.')
+            if pending:
+                count = sum(coverage[u]['pending'] for u in pending)
+                print(f'Partial book corpus: units {format_units(pending)} still have '
+                      f'{count} unreviewed passages and are not included. '
+                      'Use --coverage for details.')
+        stats = build(library, None if args.validate_only else args.out,
+                      selected, args.mode, args.per_unit)
+        if args.validate_only and args.source == 'templates':
             print(f'Validated {stats["unique_examples"]} unique examples across '
                   f'{sum(bool(n) for n in stats["units"].values())}/{len(selected)} selected units')
-        else:
-            if args.source == 'book':
-                library.require_complete(selected)
-            stats = build(library, args.out, selected, args.mode, args.per_unit)
+        elif not args.validate_only:
             for split, counts in stats['splits'].items():
                 print(f'{args.out / (split+".txt")}: {counts["stories"]} stories, {counts["qa"]} QA')
+        if args.source == 'book':
+            label = 'Validated book dataset' if args.validate_only else 'Book dataset'
+            print(f'{label}: {sum(bool(n) for n in stats["units"].values())}/{len(library.units)} book units; '
+                  f'{stats["families"]} source groups; {stats["unique_examples"]} unique stories; '
+                  f'{stats["sentences"]} annotated sentences in those stories')
+        elif not args.validate_only:
             print(f'{sum(bool(n) for n in stats["units"].values())}/{len(stats["units"])} units; '
                   f'{stats["families"]} template families; '
                   f'{stats["unique_examples"]} unique examples')

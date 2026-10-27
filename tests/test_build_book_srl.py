@@ -220,7 +220,7 @@ class BookSRLTests(unittest.TestCase):
             out = Path(folder)/'unused'
             for flag in ('--list', '--validate-only'):
                 with contextlib.redirect_stdout(io.StringIO()) as output:
-                    self.assertEqual(book.main([flag, '--units', '1,16,39-44', '--out', str(out)]), 0)
+                    self.assertEqual(book.main([flag, '--source', 'templates', '--units', '1,16,39-44', '--out', str(out)]), 0)
                 self.assertTrue(output.getvalue())
                 self.assertFalse(out.exists())
         self.assertEqual(book.parse_units('1,16,39-41'), [1,16,39,40,41])
