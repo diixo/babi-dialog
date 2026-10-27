@@ -17,12 +17,58 @@ class CorpusTests(unittest.TestCase):
         cls.library = CorpusLibrary(book.DEFAULT_LIBRARY)
 
     def test_json_contains_only_english_sentences_with_manual_facts(self):
-        self.assertEqual(len(self.library.records), 844)
-        self.assertEqual(self.library.completed_units, list(range(1, 13)))
+        self.assertEqual(len(self.library.records), 8046)
+        self.assertEqual(self.library.completed_units, list(range(1, 85)))
         serialized = (book.DEFAULT_LIBRARY / CORPUS_NAME).read_text(encoding='utf-8')
         self.assertIsNone(re.search(r'[\u0400-\u04ff]', serialized))
         excluded = {'Waiter!', 'A ceiling.', 'A dress of silk.', 'A hospital.',
-                    'At the President Hotel.', 'Two coffees and a tea, please.'}
+                    'At the President Hotel.', 'Two coffees and a tea, please.',
+                    'None.', 'Not now.', 'Nowhere.', 'Anywhere.', 'How about the others?',
+                    'Either.', 'Neither.', 'Both.', 'And you?',
+                    'a tall slim young girl', 'delicious French strawberry ice-cream',
+                    'Tea, please.', 'Three or four lectures usually.', 'Yes, thanks.',
+                    'Not yet.', 'Quite early, at seven.', 'By underground.',
+                    'Why?', 'Oh, really?', 'Congratulations!', 'His secretary',
+                    'who that woman is', 'if / whether Mary speaks French',
+                    'Just two.', 'Not bad, thanks.', 'Just one in fact.',
+                    'What a funny accent!', 'What difficult work!', 'What dirty clothes!',
+                    'he speaks', 'she kisses', 'to make — making',
+                    'A friend of mine.', 'No wonder.', 'Nothing special.',
+                    'With pleasure!', 'When the teacher checks our papers.',
+                    'What wonderful news!', 'Me too.', 'At 5.', 'No, sorry.',
+                    'to copy — copied', 'created', 'the longest poem — to learn',
+                    "I've just took this book from the library.",
+                    'He hasn\'t never got a bad mark.',
+                    'Oh, for five years already!', 'Oh, since our childhood.',
+                    'No, for about five minutes.', 'Oh, for several days.',
+                    'For about two hours.', 'Fifteen.', 'About six hours.',
+                    'for a long time', 'long ago', 'have (has) been',
+                    'I know Ben since my childhood.', "I've heard the news the other day.",
+                    'We asked they to stay with us.', 'Her is the red car.',
+                    'By the time he was 35.', 'Funny!', 'A lady.', 'At eighteen.',
+                    'He had been finished his book by December last year.',
+                    "Nick tells that it's time to go.", 'Myra asked why had I lied to her.',
+                    'Mother told Maude that she clean her room.', 'A pleasant summer?',
+                    'The radio.', 'What?', 'Present Indefinite', 'was (were) done',
+                    'Oh, dear!', 'Sorry!', 'Nothing.', 'I wish ...', 'If I were.',
+                    'Has the baby be fed yet?', 'When will be the picture finished?',
+                    'The question has been being discussed for two hours already.',
+                    'The message was written by a pencil.', 'take pills; write a book',
+                    'can be doing', 'must have done', 'to be (un)likely to',
+                    'Can (could) I ask you a question?', 'He asks the stewardess:',
+                    'Children under 16 ... to see the film.',
+                    'may (might) be doing', 'need not (needn\'t)', 'having been done',
+                    'interviewing', 'being interviewed', 'What do you think',
+                    'No, you', "You should't go there alone.",
+                    'We could sent you the answer by post.',
+                    'to be used to doing', 'to have something done', 'having been done',
+                    'the exhibition, to visit', 'be busy to do',
+                    'He is too week to walk.', 'He is happy to have been invited',
+                    'I must have my watch (clock) repaired (fixed).',
+                    "I don't mind (I don't object to) being criticized.",
+                    'No, not yet.', 'Nether do we.',
+                    'I hear (that) they have just moved to a new flat.',
+                    "She hasn't washed (her face) yet."}
         for record in self.library.records:
             self.assertEqual(set(record), {'id', 'unit', 'text', 'facts'})
             self.assertNotIn(record['text'], excluded)
