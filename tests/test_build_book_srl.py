@@ -6,7 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-import build_book_srl as book
+import book_srl_annotations as book
 
 
 class BookSRLTests(unittest.TestCase):

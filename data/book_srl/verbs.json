@@ -563,6 +563,14 @@
       "gerund": "growing",
       "objects": []
     },
+    "translate": {
+      "lemma": "translate",
+      "present3": "translates",
+      "past": "translated",
+      "participle": "translated",
+      "gerund": "translating",
+      "objects": ["book", "letter", "story"]
+    },
     "become": {
       "lemma": "become",
       "present3": "becomes",
