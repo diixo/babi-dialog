@@ -1,4 +1,6 @@
 from copy import deepcopy
+from contextlib import redirect_stderr, redirect_stdout
+import io
 import json
 from pathlib import Path
 import re
@@ -8,7 +10,6 @@ from unittest.mock import patch
 
 import build_book_srl as book
 from book_srl_corpus import CorpusLibrary, CORPUS_NAME
-from prepare_book_templates import prepare
 
 
 class CorpusTests(unittest.TestCase):
@@ -113,7 +114,8 @@ class CorpusTests(unittest.TestCase):
                 (directory / name).write_bytes((book.DEFAULT_LIBRARY / name).read_bytes())
             original = (directory / 'fact_templates.json').read_bytes()
             with patch.object(Path, 'open', json_only):
-                prepare(directory)
+                with redirect_stdout(io.StringIO()):
+                    book.main(['--library', str(directory), '--out', str(directory / 'out'), '--per-unit'])
                 actual = book.build(book.Library(directory), directory / 'out', per_unit=True)
             self.assertEqual(actual, expected)
             self.assertEqual(original, (directory / 'fact_templates.json').read_bytes())
@@ -131,7 +133,7 @@ class CorpusTests(unittest.TestCase):
             path.write_text(json.dumps(data), encoding='utf-8')
             original = (directory / 'fact_templates.json').read_bytes()
             with self.assertRaisesRegex(ValueError, 'manual facts'):
-                prepare(directory)
+                book.synchronize_templates(directory)
             self.assertEqual(original, (directory / 'fact_templates.json').read_bytes())
 
     def test_new_annotated_english_sentence_gets_a_fixed_template(self):
@@ -145,12 +147,143 @@ class CorpusTests(unittest.TestCase):
                 text='Mary reads.', predicate_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
                     intention='none', operation='none', object='none')]))
             path.write_text(json.dumps(data), encoding='utf-8')
-            prepare(directory)
+            with redirect_stdout(io.StringIO()):
+                book.main(['--library', str(directory), '--out', str(directory / 'out')])
             library = book.Library(directory)
             examples = {text:facts for _,text,facts in library.generate(1)}
             self.assertEqual(examples['Mary reads.'][0]['actor'], 'mary')
             template = next(t for t in library.units[1]['templates'] if t['id']=='manual-english-example')
             self.assertEqual(template['slots'], {})
+
+
+class UnifiedBuildTests(unittest.TestCase):
+    @staticmethod
+    def record(identifier='first', name='Mary', unit=1):
+        text=f'{name} reads.'
+        return dict(id=identifier, unit=unit, text=text,
+                    predicate_spans=[[[len(name)+1, len(text)-1]]],
+                    facts=[dict(actor=name, predicate='reads', action='read',
+                                intention='none', operation='none', object='none')])
+
+    @staticmethod
+    def write_json(path, value):
+        path.write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+    def fixture(self, directory):
+        record=self.record()
+        source=dict(schema_version=1, completed_units=[1], sentences=[record])
+        text='{person.word} reads.'
+        template=dict(id=record['id'], family='reading-family', text=text,
+                      slots={'person':'people'}, original={'person':'mary'}, constraints=[],
+                      facts=[dict(record['facts'][0], actor='{person.word}')],
+                      predicate_spans=[[[text.index('reads'), len(text)-1]]],
+                      source=dict(sentence=record['id'], unit=1, text=record['text']))
+        catalogue=dict(schema_version=1,
+                       coverage=dict(sentences=1, completed_units=[1], pending_units=list(range(2,85))),
+                       lessons=[dict(unit=u, templates=[template] if u==1 else []) for u in range(1,85)])
+        vocabulary=dict(schema_version=1, domains={'people':dict(rule='Singular subjects', values=[
+            dict(id='mary', word='Mary'), dict(id='nora', word='Nora')])})
+        for name,value in [('sentences.json',source), ('fact_templates.json',catalogue), ('slot_values.json',vocabulary)]:
+            self.write_json(directory/name, value)
+        return source,catalogue,vocabulary
+
+    @staticmethod
+    def run_cli(directory, *options):
+        with redirect_stdout(io.StringIO()) as output:
+            result=book.main(['--library',str(directory),'--out',str(directory/'out'),*options])
+        return result,output.getvalue()
+
+    def test_one_command_synchronizes_added_removed_sentences_and_preserves_variants(self):
+        with tempfile.TemporaryDirectory() as folder:
+            directory=Path(folder)
+            source,catalogue,_=self.fixture(directory)
+            original=deepcopy(catalogue['lessons'][0]['templates'][0])
+            removed=deepcopy(original)
+            removed['id']='removed'
+            catalogue['lessons'][0]['templates'].append(removed)
+            source['sentences'].append(self.record('new','Dan'))
+            self.write_json(directory/'sentences.json',source)
+            self.write_json(directory/'fact_templates.json',catalogue)
+            result,_=self.run_cli(directory,'--per-unit')
+            self.assertEqual(result,0)
+            library=book.Library(directory)
+            self.assertEqual(library.coverage['sentences'],2)
+            self.assertEqual(library.units[1]['templates'][0],original)
+            self.assertEqual([t['id'] for t in library.units[1]['templates']],['first','new'])
+            self.assertEqual(library.units[1]['templates'][1]['slots'],{})
+            text=(directory/'out/units/unit_01.txt').read_text(encoding='utf-8')
+            for sentence in ('Mary reads.','Nora reads.','Dan reads.'):
+                self.assertIn('1 User: '+sentence,text)
+            for split in ('train','valid','test'):
+                self.assertTrue((directory/'out'/f'{split}.txt').exists())
+
+    def test_missing_catalogue_is_created_by_the_same_build_command(self):
+        with tempfile.TemporaryDirectory() as folder:
+            directory=Path(folder)
+            self.fixture(directory)
+            (directory/'fact_templates.json').unlink()
+            self.assertEqual(self.run_cli(directory)[0],0)
+            library=book.Library(directory)
+            self.assertEqual(library.units[1]['templates'][0]['slots'],{})
+            self.assertEqual(book.build(library)['examples'],1)
+
+    def test_inspection_modes_synchronize_in_memory_without_writing(self):
+        for option in ('--validate-only','--coverage'):
+            for missing in (False,True):
+                with self.subTest(option=option,missing=missing), tempfile.TemporaryDirectory() as folder:
+                    directory=Path(folder)
+                    source,_,_=self.fixture(directory)
+                    source['sentences'].append(self.record('new','Dan'))
+                    self.write_json(directory/'sentences.json',source)
+                    path=directory/'fact_templates.json'
+                    if missing:path.unlink()
+                    before=None if missing else (path.read_bytes(),path.stat().st_mtime_ns)
+                    result,output=self.run_cli(directory,option)
+                    self.assertEqual(result,0)
+                    self.assertIn('2 sentence templates' if option=='--coverage' else '2 source sentence templates',output)
+                    self.assertFalse((directory/'out').exists())
+                    self.assertEqual(None if not path.exists() else (path.read_bytes(),path.stat().st_mtime_ns),before)
+
+    def test_invalid_sync_or_selection_preserves_catalogue_and_existing_outputs(self):
+        for problem in ('manual facts','duplicate','variant','conflict','selection'):
+            with self.subTest(problem=problem), tempfile.TemporaryDirectory() as folder:
+                directory=Path(folder)
+                source,catalogue,vocabulary=self.fixture(directory)
+                options=[]
+                if problem=='manual facts':source['sentences'][0]['facts'][0]['actor']='someone else'
+                elif problem=='duplicate':catalogue['lessons'][0]['templates'].append(deepcopy(catalogue['lessons'][0]['templates'][0]))
+                elif problem=='variant':
+                    vocabulary['domains']['people']['values'][1]['word']=''
+                    source['sentences'].append(self.record('second','Dan',unit=2))
+                    source['completed_units']=[1,2]
+                    options=['--units','2']
+                elif problem=='conflict':
+                    record=self.record('conflicting','Nora')
+                    record['facts'][0]['actor']='someone else'
+                    source['sentences'].append(record)
+                else:options=['--units','84']
+                for name,value in [('sentences.json',source), ('fact_templates.json',catalogue), ('slot_values.json',vocabulary)]:
+                    self.write_json(directory/name,value)
+                original=(directory/'fact_templates.json').read_bytes()
+                out=directory/'out';out.mkdir()
+                for split in ('train','valid','test'):(out/f'{split}.txt').write_text('existing '+split,encoding='utf-8')
+                with redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as error:
+                    self.run_cli(directory,*options)
+                self.assertEqual(error.exception.code,2)
+                self.assertEqual((directory/'fact_templates.json').read_bytes(),original)
+                for split in ('train','valid','test'):
+                    self.assertEqual((out/f'{split}.txt').read_text(encoding='utf-8'),'existing '+split)
+
+    def test_unchanged_build_does_not_rewrite_catalogue(self):
+        with tempfile.TemporaryDirectory() as folder:
+            directory=Path(folder);self.fixture(directory)
+            self.run_cli(directory)
+            path=directory/'fact_templates.json'
+            before=(path.read_bytes(),path.stat().st_mtime_ns)
+            outputs={p.name:p.read_bytes() for p in (directory/'out').glob('*.txt')}
+            self.run_cli(directory)
+            self.assertEqual((path.read_bytes(),path.stat().st_mtime_ns),before)
+            self.assertEqual({p.name:p.read_bytes() for p in (directory/'out').glob('*.txt')},outputs)
 
 
 if __name__ == '__main__':

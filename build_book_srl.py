@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Expand book sentence templates into single-utterance fact-extraction examples.
+"""Synchronize book templates and build single-utterance fact-extraction examples.
 
 Text and answers use the same bindings. There is no parser, random sampling,
 dialogue generation or automatic semantic annotation in the builder.
@@ -7,7 +7,9 @@ dialogue generation or automatic semantic annotation in the builder.
 from __future__ import annotations
 
 import argparse
+from copy import deepcopy
 from itertools import product
+import json
 from pathlib import Path
 import re
 
@@ -51,18 +53,21 @@ def render(text, facts):
 
 
 class Library:
-    def __init__(self, directory=DEFAULT_LIBRARY):
-        catalogue = read_json(Path(directory) / 'fact_templates.json')
+    def __init__(self, directory=DEFAULT_LIBRARY, *, catalogue=None, corpus=None):
+        if catalogue is None:
+            catalogue = read_json(Path(directory) / 'fact_templates.json')
         vocabulary = read_json(Path(directory) / 'slot_values.json')
         if catalogue.get('schema_version') != 1 or vocabulary.get('schema_version') != 1:
             raise ValueError('Unsupported template library version')
         self.domains = vocabulary['domains']
+        self.catalogue = catalogue
         self.coverage = catalogue['coverage']
-        corpus = CorpusLibrary(directory)
+        if corpus is None:
+            corpus = CorpusLibrary(directory)
         if (self.coverage['sentences'] != len(corpus.records)
                 or self.coverage['completed_units'] != corpus.completed_units
                 or self.coverage['pending_units'] != [u for u in range(1,85) if u not in corpus.completed_units]):
-            raise ValueError('Sentence catalogue changed; run prepare_book_templates.py')
+            raise ValueError('Sentence catalogue changed; run build_book_srl.py to synchronize it')
         self.units = {lesson['unit']: lesson for lesson in catalogue['lessons']}
         if len(catalogue['lessons']) != 84 or set(self.units) != set(range(1,85)):
             raise ValueError('The catalogue must account for all 84 lessons')
@@ -106,7 +111,7 @@ class Library:
                 if spans != source['predicate_spans']:
                     raise ValueError(f'{template["id"]}: template differs from the manual predicate spans')
         if seen != set(corpus.by_id):
-            raise ValueError('Every English sentence must have a template; run prepare_book_templates.py')
+            raise ValueError('Every English sentence must have a template; run build_book_srl.py to synchronize it')
 
     def template_domains(self, template):
         domains = {}
@@ -137,6 +142,41 @@ class Library:
                 facts = substitute(template['facts'], bindings)
                 validate_predicates(text, facts, spans, template['id'])
                 yield template['family'], text, facts
+
+
+def synchronize_templates(directory=DEFAULT_LIBRARY):
+    """Prepare and validate a synchronized library in memory, without writing.
+
+    Existing variable templates remain authoritative for their substitutions.
+    New annotated sentences receive fixed templates; removed sentences drop out.
+    Manual facts are checked against templates rather than silently overwritten.
+    """
+    directory = Path(directory)
+    corpus = CorpusLibrary(directory)
+    path = directory / 'fact_templates.json'
+    old = read_json(path) if path.exists() else {'lessons': []}
+    templates = {}
+    for lesson in old['lessons']:
+        for template in lesson['templates']:
+            if template['id'] in templates:
+                raise ValueError(f'Duplicate template: {template["id"]}')
+            templates[template['id']] = template
+    lessons = []
+    for unit, records in corpus.by_unit.items():
+        prepared = []
+        for record in records:
+            template = deepcopy(templates.get(record['id']))
+            if template is None:
+                template = dict(id=record['id'], family=record['id'], text=record['text'],
+                    slots={}, original={}, constraints=[], facts=deepcopy(record['facts']),
+                    predicate_spans=deepcopy(record['predicate_spans']))
+            template['source'] = dict(sentence=record['id'], unit=unit, text=record['text'])
+            prepared.append(template)
+        lessons.append(dict(unit=unit, templates=prepared))
+    catalogue = dict(schema_version=1, coverage=dict(sentences=len(corpus.records),
+        completed_units=corpus.completed_units,
+        pending_units=[u for u in range(1,85) if u not in corpus.completed_units]), lessons=lessons)
+    return Library(directory, catalogue=catalogue, corpus=corpus)
 
 
 def build(library, out=None, units=None, per_unit=False):
@@ -204,15 +244,24 @@ def main(argv=None):
     parser.add_argument('--validate-only', action='store_true')
     args = parser.parse_args(argv)
     try:
-        library = Library(args.library)
         selected = parse_units(args.units) if args.units else None
+        library = synchronize_templates(args.library)
         if args.coverage:
             for unit in selected or sorted(library.units):
                 state = 'ready' if unit in library.coverage['completed_units'] else 'not completed'
                 print(f'{unit:02d}: {len(library.units[unit]["templates"])} sentence templates; {state}')
             return 0
-        stats = build(library, None if args.validate_only else args.out, selected, args.per_unit)
+        # Check all ready lessons, including variants outside a requested subset,
+        # before saving either the synchronized catalogue or dataset files.
+        stats = build(library)
+        if selected is not None:
+            stats = build(library, units=selected)
         if not args.validate_only:
+            path = args.library / 'fact_templates.json'
+            content = (json.dumps(library.catalogue, ensure_ascii=False, indent=2)+'\n').encode('utf-8')
+            if not path.exists() or path.read_bytes() != content:
+                path.write_bytes(content)
+            stats = build(library, args.out, selected, args.per_unit)
             for name, count in stats['splits'].items():
                 print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
         print(f'{len(stats["units"])}/84 book units ({format_units(stats["units"])}); '
