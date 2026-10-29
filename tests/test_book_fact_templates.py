@@ -5,7 +5,6 @@ import tempfile
 import unittest
 
 import build_book_srl as book
-import book_srl_annotations as annotations
 from book_srl_corpus import CorpusLibrary
 
 
@@ -13,7 +12,7 @@ class FactTemplateTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.library = book.Library()
-        cls.corpus = CorpusLibrary(annotations.DEFAULT_LIBRARY)
+        cls.corpus = CorpusLibrary(book.DEFAULT_LIBRARY)
         cls.templates = [t for u in cls.library.units.values() for t in u['templates']]
         cls.examples = {text: facts for u in cls.corpus.completed_units
                         for _, text, facts in cls.library.generate(u)}
@@ -2421,8 +2420,8 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual(templates[first]['family'], templates[second]['family'])
 
     def test_invalid_binding_or_compatibility_is_rejected_on_loading(self):
-        catalogue = annotations.read_json(book.DEFAULT_LIBRARY / 'fact_templates.json')
-        vocab = annotations.read_json(book.DEFAULT_LIBRARY / 'slot_values.json')
+        catalogue = book.read_json(book.DEFAULT_LIBRARY / 'fact_templates.json')
+        vocab = book.read_json(book.DEFAULT_LIBRARY / 'slot_values.json')
         with tempfile.TemporaryDirectory() as folder:
             out = Path(folder)
             (out / 'slot_values.json').write_text(json.dumps(vocab), encoding='utf-8')

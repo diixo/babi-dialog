@@ -243,13 +243,80 @@ class UnifiedBuildTests(unittest.TestCase):
             self.assertEqual(library.units[1]['templates'][0]['slots'],{})
             self.assertEqual(book.build(library)['examples'],84)
 
-    def test_cli_accepts_only_library_and_output_options(self):
+    def test_annotation_flag_builds_both_complete_datasets_in_one_command(self):
+        with tempfile.TemporaryDirectory() as folder:
+            directory=Path(folder)
+            for name in ('sentences.json','fact_templates.json','slot_values.json',
+                         'nouns.json','verbs.json','templates.json'):
+                (directory/name).write_bytes((book.DEFAULT_LIBRARY/name).read_bytes())
+            catalogue=directory/'fact_templates.json'
+            before=(catalogue.read_bytes(),catalogue.stat().st_mtime_ns)
+            out=directory/'out'
+            with patch.object(book,'DEFAULT_LIBRARY',directory), patch.object(book,'DEFAULT_OUT',out):
+                with redirect_stdout(io.StringIO()) as output:
+                    self.assertEqual(book.main(['--annotate']),0)
+            self.assertEqual((catalogue.read_bytes(),catalogue.stat().st_mtime_ns),before)
+            self.assertIn('84/84 book units',output.getvalue())
+            self.assertEqual({p.name for p in out.iterdir()},
+                             {'train.txt','valid.txt','test.txt','annotations'})
+            self.assertEqual({p.name for p in (out/'annotations').iterdir()},
+                             {'train.txt','valid.txt','test.txt'})
+            for target,expected in ((out,12231),(out/'annotations',901)):
+                stories=[]
+                for split in ('train','valid','test'):
+                    content=(target/f'{split}.txt').read_text(encoding='utf-8')
+                    stories.extend(content.strip().split('\n\n'))
+                self.assertEqual(len(stories),expected)
+                self.assertTrue(all(story.startswith('1 User: ') for story in stories))
+                self.assertTrue(all('Assistant:' not in story for story in stories))
+
+    def test_annotation_flag_checks_both_libraries_before_writing_any_file(self):
+        for problem in ('book facts','annotation placeholder','missing annotation file','incomplete annotation lessons'):
+            with self.subTest(problem=problem), tempfile.TemporaryDirectory() as folder:
+                directory=Path(folder)
+                source,_,_=self.fixture(directory)
+                # A valid source addition would require a catalogue update on success.
+                source['sentences'].append(self.record('new','Dan'))
+                if problem=='book facts':
+                    source['sentences'][0]['facts'][0]['actor']='incorrect'
+                self.write_json(directory/'sentences.json',source)
+                for name in ('nouns.json','verbs.json','templates.json'):
+                    (directory/name).write_bytes((book.DEFAULT_LIBRARY/name).read_bytes())
+                if problem=='missing annotation file':
+                    (directory/'nouns.json').unlink()
+                elif problem in ('annotation placeholder','incomplete annotation lessons'):
+                    path=directory/'templates.json'
+                    data=book.read_json(path)
+                    if problem=='annotation placeholder':
+                        data['lessons'][-1]['templates'][0]['sentences'][0]['text']='{missing.field}.'
+                    else:
+                        data['lessons'].pop()
+                    self.write_json(path,data)
+                catalogue=directory/'fact_templates.json'
+                before=(catalogue.read_bytes(),catalogue.stat().st_mtime_ns)
+                out=directory/'out'
+                snapshots={}
+                for target in (out,out/'annotations'):
+                    target.mkdir(parents=True,exist_ok=True)
+                    for split in ('train','valid','test'):
+                        path=target/f'{split}.txt'
+                        path.write_text(f'existing {target.name} {split}',encoding='utf-8')
+                        snapshots[path.relative_to(out)]=path.read_bytes()
+                with redirect_stderr(io.StringIO()),self.assertRaises(SystemExit) as error:
+                    self.run_cli(directory,'--annotate')
+                self.assertEqual(error.exception.code,2)
+                self.assertEqual((catalogue.read_bytes(),catalogue.stat().st_mtime_ns),before)
+                self.assertEqual({p.relative_to(out):p.read_bytes() for p in out.rglob('*.txt')},snapshots)
+
+    def test_cli_accepts_library_output_and_annotation_options(self):
         with redirect_stdout(io.StringIO()) as output, self.assertRaises(SystemExit) as result:
             book.main(['--help'])
         self.assertEqual(result.exception.code,0)
         self.assertIn('--library',output.getvalue())
         self.assertIn('--out',output.getvalue())
-        for options in (['--units','1'],['--per-unit'],['--coverage'],['--validate-only']):
+        self.assertIn('--annotate',output.getvalue())
+        for options in (['--units','1'],['--per-unit'],['--coverage'],['--validate-only'],
+                        ['--mode','single'],['--list'],['--source','templates']):
             with self.subTest(options=options), tempfile.TemporaryDirectory() as folder:
                 directory=Path(folder)
                 with redirect_stderr(io.StringIO()) as error_output, self.assertRaises(SystemExit) as error:

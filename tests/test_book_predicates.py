@@ -4,7 +4,7 @@ import tempfile
 import unittest
 
 import build_book_srl as book
-from book_srl_annotations import substitute
+from build_book_srl import substitute
 from book_srl_corpus import CorpusLibrary
 from book_srl_predicates import expand_predicates, predicate_from_spans, validate_predicates
 

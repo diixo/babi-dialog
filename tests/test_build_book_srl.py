@@ -1,18 +1,16 @@
 from copy import deepcopy
 from dataclasses import replace
-import contextlib
-import io
 from pathlib import Path
 import tempfile
 import unittest
 
-import book_srl_annotations as book
+import build_book_srl as book
 
 
 class BookSRLTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.library = book.Library()
+        cls.library = book.AnnotationLibrary()
 
     def example(self, unit, text):
         return next(e for e in self.library.generate(unit) if e.text == text)
@@ -29,7 +27,7 @@ class BookSRLTests(unittest.TestCase):
                 for example in examples:
                     self.assertEqual(example.unit, unit)
                     self.assertIn(f'unit-{example.source_unit}', self.library.anchors)
-                    self.assertGreater(book.validate_story(book.render(example)), 0)
+                    self.assertGreater(book.validate_story(book.render_annotation(example)), 0)
 
     def test_irregular_forms_and_article_agreement(self):
         self.example(1, 'Mary bought an apple. The apple is on the table.')
@@ -93,7 +91,7 @@ class BookSRLTests(unittest.TestCase):
         event = example.sentences[1]['predicates'][0]
         self.assertEqual((event['roles']['subject'], event['roles']['actor']), ('she', 'mary'))
         self.assertEqual(event['context'], [1])
-        rows = book.render(example).strip().splitlines()
+        rows = book.render_annotation(example).strip().splitlines()
         prior = next(int(row.split(' ', 1)[0]) for row in rows if ' sentence 1?\t' in row)
         current = next(int(row.split(' ', 1)[0]) for row in rows if ' sentence 2?\t' in row)
         actor_rows = [row for row in rows if ' actor of predicate ' in row]
@@ -117,7 +115,7 @@ class BookSRLTests(unittest.TestCase):
         self.assertEqual((first['roles']['actor'], first['aspect']), ('mary', 'continuous'))
         self.assertEqual((second['roles']['actor'], second['aspect']), ('john', 'simple'))
         self.assertEqual(second['relation'], 'during')
-        story = book.render(example)
+        story = book.render_annotation(example)
         self.assertIn('actor of predicate 1 of sentence 1?\tmary\t', story)
         self.assertIn('actor of predicate 2 of sentence 1?\tjohn\t', story)
         self.assertIn('parent of predicate 2 of sentence 1?\tpredicate 1 of sentence 1\t', story)
@@ -130,13 +128,13 @@ class BookSRLTests(unittest.TestCase):
         for text, example in original.items():
             self.assertEqual(review[text].source_unit, 1)
             self.assertEqual(review[text].family, example.family)
-            self.assertEqual(book.render(review[text]), book.render(example))
+            self.assertEqual(book.render_annotation(review[text]), book.render_annotation(example))
 
     def test_reproducible_disjoint_splits_hold_out_whole_template_families(self):
         with tempfile.TemporaryDirectory() as folder:
             a, b = Path(folder)/'a', Path(folder)/'b'
-            stats = book.build(self.library, a, per_unit=True)
-            self.assertEqual(stats, book.build(self.library, b, per_unit=True))
+            stats = book.build_annotations(self.library, a)
+            self.assertEqual(stats, book.build_annotations(self.library, b))
             for path in a.rglob('*.txt'):
                 self.assertEqual(path.read_bytes(), (b/path.relative_to(a)).read_bytes())
             inputs = {}
@@ -152,17 +150,20 @@ class BookSRLTests(unittest.TestCase):
                 for example in self.library.generate(unit):
                     families.setdefault(example.family, set()).add(inputs[example.text])
             self.assertTrue(all(len(splits) == 1 for splits in families.values()))
-            self.assertEqual(len(list((a/'units').glob('unit_*.txt'))), 84)
+            self.assertEqual({p.name for p in a.iterdir()}, {'train.txt', 'valid.txt', 'test.txt'})
+            self.assertEqual(set(stats['units']), set(range(1, 85)))
+            self.assertTrue(all(stats['units'].values()))
+            self.assertEqual(stats['unique_examples'], 901)
+            self.assertEqual(stats['families'], 193)
+            self.assertEqual(stats['sentences'], 1333)
             self.assertEqual(stats['unique_examples'], len(inputs))
 
-    def test_mode_filtering_and_empty_filtered_units(self):
-        for mode in ('single', 'multi'):
-            for unit in self.library.units:
-                for example in self.library.generate(unit, mode):
-                    self.assertEqual(len(example.sentences) == 1, mode == 'single')
-            stats = book.build(self.library, None, mode=mode)
-            self.assertGreater(stats['unique_examples'], 0)
-        self.assertEqual(book.build(self.library, None, [84], 'single')['units'], {84: 0})
+    def test_generation_always_includes_single_and_multi_sentence_examples(self):
+        examples = [example for unit in self.library.units
+                    for example in self.library.generate(unit)]
+        self.assertTrue(any(len(example.sentences) == 1 for example in examples))
+        self.assertTrue(any(len(example.sentences) > 1 for example in examples))
+        self.assertGreater(book.build_annotations(self.library)['units'][84], 0)
 
     def test_invalid_library_does_not_overwrite_datasets(self):
         broken = deepcopy(self.library)
@@ -172,7 +173,7 @@ class BookSRLTests(unittest.TestCase):
             for split in ('train', 'valid', 'test'):
                 (out/f'{split}.txt').write_text('keep', encoding='utf-8')
             with self.assertRaisesRegex(ValueError, 'Unknown placeholder'):
-                book.build(broken, out)
+                book.build_annotations(broken, out)
             for path in out.iterdir():
                 self.assertEqual(path.read_text(encoding='utf-8'), 'keep')
 
@@ -183,15 +184,15 @@ class BookSRLTests(unittest.TestCase):
         duplicate['sentences'][0]['predicates'][0]['roles']['actor'] = 'wrong'
         broken.units[1]['templates'].append(duplicate)
         with self.assertRaisesRegex(ValueError, 'Conflicting annotations'):
-            book.build(broken, None, [1])
+            book.build_annotations(broken)
 
     def test_duplicate_inputs_join_families_in_one_split(self):
         library = deepcopy(self.library)
         duplicate = deepcopy(library.units[1]['templates'][1])
         duplicate['id'] = 'another_teacher_family'
         library.units[1]['templates'].append(duplicate)
-        before = book.build(self.library, None, [1])
-        after = book.build(library, None, [1])
+        before = book.build_annotations(self.library)
+        after = book.build_annotations(library)
         self.assertEqual(before['unique_examples'], after['unique_examples'])
         self.assertEqual(before['families'], after['families'])
 
@@ -201,7 +202,7 @@ class BookSRLTests(unittest.TestCase):
             sentences = deepcopy(example.sentences)
             sentences[1]['predicates'][0][field] = value
             with self.subTest(field=field), self.assertRaises(ValueError):
-                book.validate_example(replace(example, sentences=sentences))
+                book.validate_annotation_example(replace(example, sentences=sentences))
         with self.assertRaisesRegex(ValueError, 'evidence'):
             book.validate_story('1 User: Mary works.\n2 actor?\tmary\t3\n')
 
@@ -215,18 +216,6 @@ class BookSRLTests(unittest.TestCase):
             with self.subTest(placeholder=placeholder), self.assertRaises(ValueError):
                 book.substitute(placeholder, {'p': {'name': 'Mary'}})
 
-    def test_cli_lists_and_validates_without_creating_outputs(self):
-        with tempfile.TemporaryDirectory() as folder:
-            out = Path(folder)/'unused'
-            for flag in ('--list', '--validate-only'):
-                with contextlib.redirect_stdout(io.StringIO()) as output:
-                    self.assertEqual(book.main([flag, '--source', 'templates', '--units', '1,16,39-44', '--out', str(out)]), 0)
-                self.assertTrue(output.getvalue())
-                self.assertFalse(out.exists())
-        self.assertEqual(book.parse_units('1,16,39-41'), [1,16,39,40,41])
-        for value in ('0','85','3-1','1,','a','-2'):
-            with self.subTest(value=value), self.assertRaises(ValueError):
-                book.parse_units(value)
 
 
 if __name__ == '__main__':

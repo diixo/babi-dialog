@@ -8,7 +8,33 @@ from __future__ import annotations
 
 import re
 
-from book_srl_annotations import substitute
+from string import Formatter
+
+
+def substitute(value, bindings: dict):
+    """Resolve dictionary paths only; no eval, attribute access or format tricks."""
+    if isinstance(value, list):
+        return [substitute(v, bindings) for v in value]
+    if isinstance(value, dict):
+        return {k: substitute(v, bindings) for k, v in value.items()}
+    if not isinstance(value, str):
+        return value
+    output = []
+    for literal, field, spec, conversion in Formatter().parse(value):
+        output.append(literal)
+        if field is None:
+            continue
+        if spec or conversion or not re.fullmatch(r'[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)*', field):
+            raise ValueError(f'Unsupported placeholder: {field!r}')
+        resolved = bindings
+        for component in field.split('.'):
+            if not isinstance(resolved, dict) or component not in resolved:
+                raise ValueError(f'Unknown placeholder {{{field}}}')
+            resolved = resolved[component]
+        if not isinstance(resolved, (str, int)) or isinstance(resolved, bool):
+            raise ValueError(f'Placeholder {{{field}}} must resolve to text')
+        output.append(str(resolved))
+    return ''.join(output)
 
 
 def _prefix(label: str) -> str:

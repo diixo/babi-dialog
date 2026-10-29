@@ -8,14 +8,16 @@ from __future__ import annotations
 
 import argparse
 from copy import deepcopy
+from dataclasses import dataclass
+import hashlib
 from itertools import product
 import json
 from pathlib import Path
 import re
+from typing import Callable, Iterator
 
-from book_srl_annotations import read_json, substitute, split_for
-from book_srl_corpus import CorpusLibrary
-from book_srl_predicates import expand_predicates, validate_predicates
+from book_srl_corpus import CorpusLibrary, read_json
+from book_srl_predicates import expand_predicates, validate_predicates, substitute
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_LIBRARY = ROOT / 'data' / 'book_srl'
@@ -225,16 +227,359 @@ def build(library, out=None):
                                                for name, stories in splits.items()}}
 
 
+ANNOTATION_FIELDS = ('tense', 'aspect', 'voice', 'polarity', 'form', 'status')
+
+
+ANNOTATION_VALUES = {
+    'tense': {'present', 'past', 'future', 'nonfinite'},
+    'aspect': {'simple', 'continuous', 'perfect', 'perfect_continuous'},
+    'voice': {'active', 'passive'},
+    'polarity': {'positive', 'negative'},
+    'form': {'finite', 'infinitive', 'gerund', 'participle'},
+    'status': {'asserted', 'habitual', 'intended', 'questioned', 'hypothetical',
+               'reported', 'inferred', 'required', 'possible', 'counterfactual'},
+}
+
+
+@dataclass(frozen=True)
+class AnnotationExample:
+    unit: int
+    source_unit: int
+    template_id: str
+    rule: str
+    binding_id: str
+    sentences: tuple[dict, ...]
+
+    @property
+    def text(self) -> str:
+        return ' '.join(s['text'] for s in self.sentences)
+
+    @property
+    def family(self) -> str:
+        # Reviews and multi-sentence variants keep their originating family.
+        return self.template_id
+
+
+def validate_annotation_example(example: AnnotationExample) -> None:
+    if not example.sentences:
+        raise ValueError(f'{example.template_id}: no sentences')
+    for number, sentence in enumerate(example.sentences, 1):
+        text = sentence.get('text', '')
+        if not isinstance(text, str) or not text or any(c in text for c in '\t\n\r{}'):
+            raise ValueError(f'{example.template_id}: invalid sentence {text!r}')
+        if text[-1] not in '.?!':
+            raise ValueError(f'{example.template_id}: sentence has no final punctuation')
+        predicates = sentence.get('predicates', [])
+        if not predicates and sentence.get('features',{}).get('clause_type') not in ('ellipsis','vocative'):
+            raise ValueError(f'{example.template_id}: sentence {number} has no predicates')
+        for index, event in enumerate(predicates, 1):
+            predicate = event.get('text', '')
+            boundary = r'(?<!\w)' if isinstance(predicate, str) and predicate[:1].isalnum() else ''
+            if not isinstance(predicate, str) or not predicate or not re.search(boundary+re.escape(predicate)+r'(?!\w)', text, re.I):
+                raise ValueError(f'{example.template_id}: predicate {predicate!r} absent in {text!r}')
+            roles = event.get('roles', {})
+            for role in ('subject', 'actor', 'action', 'object'):
+                if not isinstance(roles.get(role), str) or not roles[role].strip():
+                    raise ValueError(f'{example.template_id}: missing role {role}')
+            for field in ANNOTATION_FIELDS:
+                if event.get(field) not in ANNOTATION_VALUES[field]:
+                    raise ValueError(f'{example.template_id}: invalid {field}: {event.get(field)!r}')
+            for ref in event.get('context', []):
+                if type(ref) is not int or not 1 <= ref < number:
+                    raise ValueError(f'{example.template_id}: context must reference an earlier sentence')
+            parent = event.get('parent')
+            if parent is not None and (type(parent) is not int or not 1 <= parent < index):
+                raise ValueError(f'{example.template_id}: parent must reference an earlier predicate')
+            if (parent is None) != ('relation' not in event):
+                raise ValueError(f'{example.template_id}: parent and relation must occur together')
+            if parent is not None and not re.fullmatch(r'[a-z][a-z0-9_]*', event['relation']):
+                raise ValueError(f'{example.template_id}: invalid predicate relation')
+        for group in [sentence.get('features', {}), *(e['roles'] for e in predicates)]:
+            for label, answer in group.items():
+                if not isinstance(answer, str) or not answer or any(c in answer for c in '\t\n\r{}'):
+                    raise ValueError(f'{example.template_id}: invalid annotation {label!r}: {answer!r}')
+                if not re.fullmatch(r'[a-z][a-z0-9_]*', label):
+                    raise ValueError(f'{example.template_id}: invalid label {label!r}')
+
+
+class AnnotationLibrary:
+    def __init__(self, directory: Path = DEFAULT_LIBRARY):
+        self.directory = Path(directory)
+        self.anchors = {f'unit-{unit}' for unit in range(1,85)}
+        nouns = read_json(self.directory / 'nouns.json')
+        verbs = read_json(self.directory / 'verbs.json')
+        catalogue = read_json(self.directory / 'templates.json')
+        self.lexicons = {'noun': nouns['nouns'], 'person': nouns['people'], 'verb': verbs['verbs']}
+        for kind, entries in self.lexicons.items():
+            if not isinstance(entries, dict) or not entries:
+                raise ValueError(f'Empty lexicon: {kind}')
+            for identifier, entry in entries.items():
+                if not isinstance(entry, dict):
+                    raise ValueError(f'Invalid entry: {kind}:{identifier}')
+                entry['id'] = identifier
+                if kind == 'noun':
+                    required = ('singular', 'plural', 'article', 'countable')
+                    if any(k not in entry for k in required):
+                        raise ValueError(f'Incomplete noun: {identifier}')
+                    if type(entry['countable']) is not bool or not entry['singular']:
+                        raise ValueError(f'Invalid noun: {identifier}')
+                    if entry['countable'] and not entry['plural']:
+                        raise ValueError(f'Countable noun needs a plural: {identifier}')
+                    if entry['countable'] and entry['article'] not in ('a', 'an'):
+                        raise ValueError(f'Countable noun needs a/an: {identifier}')
+                    if not entry['countable'] and (entry['article'] or entry['plural']):
+                        raise ValueError(f'Uncountable noun has count forms: {identifier}')
+                    entry['indefinite'] = (entry['article']+' '+entry['singular']).strip()
+                    entry['definite'] = 'the '+entry['singular']
+                elif kind == 'verb':
+                    if any(not entry.get(k) for k in ('lemma', 'present3', 'past', 'participle', 'gerund')):
+                        raise ValueError(f'Incomplete verb: {identifier}')
+                    if any(obj not in self.lexicons['noun'] for obj in entry.get('objects', [])):
+                        raise ValueError(f'Unknown compatible noun for {identifier}')
+        self.units = {}
+        self.templates = {}
+        for lesson in catalogue.get('lessons', []):
+            unit = lesson['unit']
+            if type(unit) is not int or unit in self.units or not 1 <= unit <= 84:
+                raise ValueError(f'Duplicate or unknown lesson: {unit}')
+            if not isinstance(lesson.get('title'), str) or not lesson['title'].strip():
+                raise ValueError(f'Missing JSON title for unit {unit}')
+            self.units[unit] = lesson
+            for template in lesson.get('templates', []):
+                tid = template['id']
+                if tid in self.templates:
+                    raise ValueError(f'Duplicate template: {tid}')
+                if not template.get('rule') or template.get('source') not in self.anchors:
+                    raise ValueError(f'{tid}: rule and valid source anchor are required')
+                if template['source'] != f'unit-{unit}':
+                    raise ValueError(f'{tid}: source must match its unit')
+                self.templates[tid] = (unit, template)
+        if set(self.units) != set(range(1, 85)):
+            raise ValueError('The catalogue must define a generator for every unit, 1–84')
+        for unit in self.units:
+            self.templates_for(unit)  # Reject empty/cyclic/unknown review references now.
+
+    def templates_for(self, unit: int, ancestors: tuple[int, ...] = ()) -> list[tuple[int, dict]]:
+        if unit not in self.units or unit in ancestors:
+            raise ValueError(f'Unknown or cyclic lesson reference: {ancestors + (unit,)}')
+        lesson = self.units[unit]
+        result = [(unit, t) for t in lesson.get('templates', [])]
+        for previous in lesson.get('review_units', []):
+            if previous >= unit:
+                raise ValueError(f'Unit {unit} may only review earlier units')
+            result.extend(self.templates_for(previous, ancestors + (unit,)))
+        result = list({t['id']: (origin, t) for origin, t in result}.values())
+        if not result:
+            raise ValueError(f'Unit {unit} has no templates')
+        return result
+
+    def bindings_for(self, template: dict) -> Iterator[tuple[str, dict]]:
+        slots = template.get('slots', {})
+        names = sorted(slots)
+        domains = []
+        for name in names:
+            entries = slots[name]
+            if not isinstance(entries, list) or not entries:
+                raise ValueError(f'{template["id"]}: empty slot {name}')
+            values = []
+            for entry in entries:
+                if isinstance(entry, str) and ':' in entry:
+                    kind, identifier = entry.split(':', 1)
+                    if kind not in self.lexicons or identifier not in self.lexicons[kind]:
+                        raise ValueError(f'{template["id"]}: unknown lexeme {entry}')
+                    value = self.lexicons[kind][identifier]
+                elif isinstance(entry, dict) and isinstance(entry.get('id'), str):
+                    value = entry
+                else:
+                    raise ValueError(f'{template["id"]}: invalid binding {entry!r}')
+                values.append(value)
+            if len({v['id'] for v in values}) != len(values):
+                raise ValueError(f'{template["id"]}: duplicate values in slot {name}')
+            domains.append(values)
+        count = 0
+        for combination in product(*domains):
+            bound = dict(zip(names, combination))
+            valid = True
+            for constraint in template.get('compatible', []):
+                verb_slot, noun_slot = constraint
+                if verb_slot not in bound or noun_slot not in bound:
+                    raise ValueError(f'{template["id"]}: constraint references unknown slots')
+                if bound[noun_slot]['id'] not in bound[verb_slot].get('objects', []):
+                    valid = False
+            if not valid:
+                continue
+            count += 1
+            yield ','.join(f'{name}={bound[name]["id"]}' for name in names) or 'fixed', bound
+        if not count:
+            raise ValueError(f'{template["id"]}: no compatible combinations')
+
+    def generate(self, unit: int) -> Iterator[AnnotationExample]:
+        for origin, template in self.templates_for(unit):
+            if template.get('combine', False) and len(template['sentences']) != 1:
+                raise ValueError(f'{template["id"]}: combine requires single-sentence templates')
+            instances = []
+            for key, bindings in self.bindings_for(template):
+                sentences = tuple(substitute(template['sentences'], bindings))
+                example = AnnotationExample(unit, origin, template['id'], template['rule'], key, sentences)
+                validate_annotation_example(example)
+                instances.append(example)
+                yield example
+            # Pair independent, explicitly named actors from the SAME template.
+            # Native multi-sentence templates keep their manually authored context.
+            if template.get('combine', False):
+                for left in instances:
+                    for right in instances:
+                        if left.binding_id >= right.binding_id:
+                            continue
+                        a = left.sentences[0]['predicates'][0]['roles']['actor']
+                        b = right.sentences[0]['predicates'][0]['roles']['actor']
+                        if a == b or a in ('unknown', 'user') or b in ('unknown', 'user'):
+                            continue
+                        combined = AnnotationExample(unit, origin, template['id'], template['rule'],
+                                           left.binding_id+'+'+right.binding_id,
+                                           left.sentences + right.sentences)
+                        validate_annotation_example(combined)
+                        yield combined
+
+    def generators(self) -> dict[int, Callable[[], Iterator[AnnotationExample]]]:
+        def make_generator(unit: int) -> Callable[[], Iterator[AnnotationExample]]:
+            def generate() -> Iterator[AnnotationExample]:
+                yield from self.generate(unit)
+            generate.__name__ = f'generate_unit_{unit:02d}'
+            rules = [t['rule'] for _, t in self.templates_for(unit)]
+            generate.__doc__ = self.units[unit]['title']+'\n'+'\n'.join(rules)
+            return generate
+        return {unit: make_generator(unit) for unit in sorted(self.units)}
+
+
+def render_annotation(example: AnnotationExample) -> str:
+    validate_annotation_example(example)
+    rows = ['User: '+example.text]
+    def qa(label, answer, refs):
+        refs = sorted(set(refs))
+        if not refs or not all(1 <= n <= len(rows) for n in refs):
+            raise ValueError('Invalid annotation references')
+        rows.append(f'{label}\t{answer}\t'+ ' '.join(map(str, refs)))
+        return len(rows)
+    sentence_lines = []
+    predicate_lines = []
+    for si, sentence in enumerate(example.sentences, 1):
+        line = qa(f'sentence {si}?', sentence['text'], [1])
+        sentence_lines.append(line)
+        for feature, value in sentence.get('features', {}).items():
+            qa(f'{feature} of sentence {si}?', value, [line])
+        local_predicates = []
+        for pi, event in enumerate(sentence['predicates'], 1):
+            scope = f'predicate {pi} of sentence {si}'
+            pred = qa(scope+'?', event['text'], [line])
+            predicate_lines.append(pred)
+            refs = [line, pred] + [sentence_lines[n-1] for n in event.get('context', [])]
+            if 'parent' in event:
+                refs.append(local_predicates[event['parent']-1])
+                qa(f'parent of {scope}?', f'predicate {event["parent"]} of sentence {si}', refs)
+                qa(f'relation of {scope}?', event['relation'], refs)
+            for role, value in event['roles'].items():
+                qa(f'{role} of {scope}?', value, refs)
+            for field in ANNOTATION_FIELDS:
+                qa(f'{field} of {scope}?', event[field], refs)
+            local_predicates.append(pred)
+    qa('sentence count?', len(example.sentences), sentence_lines)
+    qa('predicate count?', len(predicate_lines), predicate_lines or sentence_lines)
+    result = '\n'.join(f'{n} {line}' for n, line in enumerate(rows, 1))+'\n\n'
+    validate_story(result)
+    return result
+
+
+def validate_story(story: str) -> int:
+    rows = story.strip().splitlines()
+    if not rows or not rows[0].startswith('1 User: '):
+        raise ValueError('Story must start with a user utterance')
+    for number, row in enumerate(rows, 1):
+        if not row.startswith(f'{number} '):
+            raise ValueError(f'Invalid row number: {row}')
+        if number == 1:
+            if '\t' in row:
+                raise ValueError('User utterance contains a tab')
+            continue
+        pieces = row.partition(' ')[2].split('\t')
+        if len(pieces) != 3 or not pieces[0].endswith('?') or not pieces[1] or not pieces[2]:
+            raise ValueError(f'Invalid QA row: {row}')
+        if not all(r.isdigit() and 1 <= int(r) < number for r in pieces[2].split()):
+            raise ValueError(f'Invalid evidence references: {row}')
+    return len(rows)-1
+
+
+def split_for(family: str) -> str:
+    bucket = int.from_bytes(hashlib.sha256(family.encode('utf-8')).digest()[:8], 'big') % 100
+    return 'valid' if bucket < 10 else 'test' if bucket < 20 else 'train'
+
+
+def build_annotations(library, out=None):
+    """Expand the manually annotated synthetic templates for all 84 lessons."""
+    if set(library.units) != set(range(1, 85)):
+        raise ValueError('Annotation templates must cover all 84 lessons')
+    examples, parents = {}, {}
+    by_unit = {}
+
+    def root(family):
+        parents.setdefault(family, family)
+        while parents[family] != family:
+            parents[family] = parents[parents[family]]
+            family = parents[family]
+        return family
+
+    for unit in range(1, 85):
+        by_unit[unit] = set()
+        for example in library.generate(unit):
+            story = render_annotation(example)
+            key = ' '.join(example.text.casefold().split())
+            root(example.family)
+            if key in examples:
+                previous, old_story = examples[key]
+                if old_story != story:
+                    raise ValueError(f'Conflicting annotations for {example.text!r}: '
+                                     f'{previous.template_id}, {example.template_id}')
+                first, second = sorted((root(previous.family), root(example.family)))
+                parents[second] = first
+            else:
+                examples[key] = (example, story)
+            by_unit[unit].add(story)
+        if not by_unit[unit]:
+            raise ValueError(f'Unit {unit} has no annotation examples')
+    datasets = {name: [] for name in ('train', 'valid', 'test')}
+    for example, story in examples.values():
+        datasets[split_for(root(example.family))].append(story)
+    stats = {name: {'stories': len(stories), 'qa': sum(validate_story(s) for s in stories)}
+             for name, stories in datasets.items()}
+    if out is not None:
+        out = Path(out)
+        out.mkdir(parents=True, exist_ok=True)
+        for name, stories in datasets.items():
+            (out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
+    return {'splits': stats, 'units': {u: len(stories) for u, stories in by_unit.items()},
+            'sentences': sum(len(e.sentences) for e, _ in examples.values()),
+            'unique_examples': len(examples), 'families': len({root(e.family) for e, _ in examples.values()})}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--library', type=Path, default=DEFAULT_LIBRARY)
     parser.add_argument('--out', type=Path, default=DEFAULT_OUT)
+    parser.add_argument('--annotate', action='store_true',
+                        help='Also build the annotated synthetic templates in OUT/annotations')
     args = parser.parse_args(argv)
     try:
         library = synchronize_templates(args.library)
+        annotation_library = AnnotationLibrary(args.library) if args.annotate else None
         for unit in sorted(library.units):
             state = 'ready' if unit in library.coverage['completed_units'] else 'not completed'
-            print(f'{unit:02d}: {len(library.units[unit]["templates"])} sentence templates; {state}')
+            annotation_coverage = (f'; {len(annotation_library.templates_for(unit))} annotation templates'
+                                   if annotation_library is not None else '')
+            print(f'{unit:02d}: {len(library.units[unit]["templates"])} sentence templates; {state}'
+                  + annotation_coverage)
+        # Check the optional dataset too before either output can be overwritten.
+        if annotation_library is not None:
+            build_annotations(annotation_library)
         # build checks every lesson and variant before writing the dataset.
         stats = build(library, args.out)
         path = args.library / 'fact_templates.json'
@@ -245,6 +590,14 @@ def main(argv=None):
             print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
         print(f'{len(stats["units"])}/84 book units; '
               f'{stats["templates"]} source sentence templates; {stats["examples"]} unique generated sentences')
+        if annotation_library is not None:
+            annotation_out = args.out / 'annotations'
+            annotation_stats = build_annotations(annotation_library, annotation_out)
+            for name, count in annotation_stats['splits'].items():
+                print(f'{annotation_out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
+            print(f'{len(annotation_stats["units"])}/84 annotation units; '
+                  f'{annotation_stats["families"]} template families; '
+                  f'{annotation_stats["unique_examples"]} unique examples')
     except (ValueError, KeyError, TypeError, OSError) as error:
         parser.error(str(error))
     return 0

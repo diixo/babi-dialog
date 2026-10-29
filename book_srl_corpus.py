@@ -1,11 +1,28 @@
 """Read the English sentences and their facts from JSON; no book parser."""
+import json
 from pathlib import Path
 import re
 
-from book_srl_annotations import read_json
 from book_srl_predicates import validate_predicates
 
 CORPUS_NAME = 'sentences.json'
+
+
+def read_json(path: Path) -> dict:
+    def unique_keys(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError(f'{path}: duplicate JSON key {key!r}')
+            result[key] = value
+        return result
+    try:
+        data = json.loads(path.read_text(encoding='utf-8'), object_pairs_hook=unique_keys)
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError(f'Cannot read {path}: {error}') from error
+    if not isinstance(data, dict) or data.get('schema_version') != 1:
+        raise ValueError(f'{path}: expected schema_version 1')
+    return data
 
 
 class CorpusLibrary:
