@@ -115,8 +115,8 @@ class CorpusTests(unittest.TestCase):
             original = (directory / 'fact_templates.json').read_bytes()
             with patch.object(Path, 'open', json_only):
                 with redirect_stdout(io.StringIO()):
-                    book.main(['--library', str(directory), '--out', str(directory / 'out'), '--per-unit'])
-                actual = book.build(book.Library(directory), directory / 'out', per_unit=True)
+                    book.main(['--library', str(directory), '--out', str(directory / 'out')])
+                actual = book.build(book.Library(directory), directory / 'out')
             self.assertEqual(actual, expected)
             self.assertEqual(original, (directory / 'fact_templates.json').read_bytes())
             self.assertTrue((directory / 'out' / 'train.txt').exists())
@@ -171,16 +171,25 @@ class UnifiedBuildTests(unittest.TestCase):
 
     def fixture(self, directory):
         record=self.record()
-        source=dict(schema_version=1, completed_units=[1], sentences=[record])
+        records=[record]+[self.record(f'unit-{unit}',f'Reader {unit}',unit)
+                          for unit in range(2,85)]
+        source=dict(schema_version=1, completed_units=list(range(1,85)), sentences=records)
         text='{person.word} reads.'
         template=dict(id=record['id'], family='reading-family', text=text,
                       slots={'person':'people'}, original={'person':'mary'}, constraints=[],
                       facts=[dict(record['facts'][0], actor='{person.word}')],
                       predicate_spans=[[[text.index('reads'), len(text)-1]]],
                       source=dict(sentence=record['id'], unit=1, text=record['text']))
+        lessons=[dict(unit=1,templates=[template])]
+        for record in records[1:]:
+            fixed=dict(id=record['id'],family=record['id'],text=record['text'],
+                       slots={},original={},constraints=[],facts=deepcopy(record['facts']),
+                       predicate_spans=deepcopy(record['predicate_spans']),
+                       source=dict(sentence=record['id'],unit=record['unit'],text=record['text']))
+            lessons.append(dict(unit=record['unit'],templates=[fixed]))
         catalogue=dict(schema_version=1,
-                       coverage=dict(sentences=1, completed_units=[1], pending_units=list(range(2,85))),
-                       lessons=[dict(unit=u, templates=[template] if u==1 else []) for u in range(1,85)])
+                       coverage=dict(sentences=84,completed_units=list(range(1,85)),pending_units=[]),
+                       lessons=lessons)
         vocabulary=dict(schema_version=1, domains={'people':dict(rule='Singular subjects', values=[
             dict(id='mary', word='Mary'), dict(id='nora', word='Nora')])})
         for name,value in [('sentences.json',source), ('fact_templates.json',catalogue), ('slot_values.json',vocabulary)]:
@@ -204,18 +213,25 @@ class UnifiedBuildTests(unittest.TestCase):
             source['sentences'].append(self.record('new','Dan'))
             self.write_json(directory/'sentences.json',source)
             self.write_json(directory/'fact_templates.json',catalogue)
-            result,_=self.run_cli(directory,'--per-unit')
+            result,output=self.run_cli(directory)
             self.assertEqual(result,0)
             library=book.Library(directory)
-            self.assertEqual(library.coverage['sentences'],2)
+            self.assertEqual(library.coverage['sentences'],85)
             self.assertEqual(library.units[1]['templates'][0],original)
             self.assertEqual([t['id'] for t in library.units[1]['templates']],['first','new'])
             self.assertEqual(library.units[1]['templates'][1]['slots'],{})
-            text=(directory/'out/units/unit_01.txt').read_text(encoding='utf-8')
+            text=''.join((directory/'out'/f'{split}.txt').read_text(encoding='utf-8')
+                         for split in ('train','valid','test'))
             for sentence in ('Mary reads.','Nora reads.','Dan reads.'):
                 self.assertIn('1 User: '+sentence,text)
-            for split in ('train','valid','test'):
-                self.assertTrue((directory/'out'/f'{split}.txt').exists())
+            for record in source['sentences']:
+                self.assertIn('1 User: '+record['text'],text)
+            self.assertEqual({p.name for p in (directory/'out').iterdir()},
+                             {'train.txt','valid.txt','test.txt'})
+            for unit in range(1,85):
+                count=2 if unit==1 else 1
+                self.assertIn(f'{unit:02d}: {count} sentence templates; ready',output)
+            self.assertIn('84/84 book units',output)
 
     def test_missing_catalogue_is_created_by_the_same_build_command(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -225,50 +241,47 @@ class UnifiedBuildTests(unittest.TestCase):
             self.assertEqual(self.run_cli(directory)[0],0)
             library=book.Library(directory)
             self.assertEqual(library.units[1]['templates'][0]['slots'],{})
-            self.assertEqual(book.build(library)['examples'],1)
+            self.assertEqual(book.build(library)['examples'],84)
 
-    def test_inspection_modes_synchronize_in_memory_without_writing(self):
-        for option in ('--validate-only','--coverage'):
-            for missing in (False,True):
-                with self.subTest(option=option,missing=missing), tempfile.TemporaryDirectory() as folder:
-                    directory=Path(folder)
-                    source,_,_=self.fixture(directory)
-                    source['sentences'].append(self.record('new','Dan'))
-                    self.write_json(directory/'sentences.json',source)
-                    path=directory/'fact_templates.json'
-                    if missing:path.unlink()
-                    before=None if missing else (path.read_bytes(),path.stat().st_mtime_ns)
-                    result,output=self.run_cli(directory,option)
-                    self.assertEqual(result,0)
-                    self.assertIn('2 sentence templates' if option=='--coverage' else '2 source sentence templates',output)
-                    self.assertFalse((directory/'out').exists())
-                    self.assertEqual(None if not path.exists() else (path.read_bytes(),path.stat().st_mtime_ns),before)
+    def test_cli_accepts_only_library_and_output_options(self):
+        with redirect_stdout(io.StringIO()) as output, self.assertRaises(SystemExit) as result:
+            book.main(['--help'])
+        self.assertEqual(result.exception.code,0)
+        self.assertIn('--library',output.getvalue())
+        self.assertIn('--out',output.getvalue())
+        for options in (['--units','1'],['--per-unit'],['--coverage'],['--validate-only']):
+            with self.subTest(options=options), tempfile.TemporaryDirectory() as folder:
+                directory=Path(folder)
+                with redirect_stderr(io.StringIO()) as error_output, self.assertRaises(SystemExit) as error:
+                    self.run_cli(directory,*options)
+                self.assertEqual(error.exception.code,2)
+                self.assertIn('unrecognized arguments',error_output.getvalue())
+                self.assertNotIn(options[0],output.getvalue())
+                self.assertFalse(list(directory.iterdir()))
 
-    def test_invalid_sync_or_selection_preserves_catalogue_and_existing_outputs(self):
-        for problem in ('manual facts','duplicate','variant','conflict','selection'):
+    def test_invalid_sync_or_incomplete_corpus_preserves_catalogue_and_existing_outputs(self):
+        for problem in ('manual facts','duplicate','variant','conflict','incomplete','empty lesson'):
             with self.subTest(problem=problem), tempfile.TemporaryDirectory() as folder:
                 directory=Path(folder)
                 source,catalogue,vocabulary=self.fixture(directory)
-                options=[]
-                if problem=='manual facts':source['sentences'][0]['facts'][0]['actor']='someone else'
+                if problem=='manual facts':source['sentences'][-1]['facts'][0]['actor']='someone else'
                 elif problem=='duplicate':catalogue['lessons'][0]['templates'].append(deepcopy(catalogue['lessons'][0]['templates'][0]))
                 elif problem=='variant':
                     vocabulary['domains']['people']['values'][1]['word']=''
-                    source['sentences'].append(self.record('second','Dan',unit=2))
-                    source['completed_units']=[1,2]
-                    options=['--units','2']
                 elif problem=='conflict':
                     record=self.record('conflicting','Nora')
                     record['facts'][0]['actor']='someone else'
                     source['sentences'].append(record)
-                else:options=['--units','84']
+                else:
+                    source['completed_units'].remove(84)
+                    if problem=='empty lesson':source['sentences'].pop()
                 for name,value in [('sentences.json',source), ('fact_templates.json',catalogue), ('slot_values.json',vocabulary)]:
                     self.write_json(directory/name,value)
                 original=(directory/'fact_templates.json').read_bytes()
                 out=directory/'out';out.mkdir()
                 for split in ('train','valid','test'):(out/f'{split}.txt').write_text('existing '+split,encoding='utf-8')
                 with redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as error:
-                    self.run_cli(directory,*options)
+                    self.run_cli(directory)
                 self.assertEqual(error.exception.code,2)
                 self.assertEqual((directory/'fact_templates.json').read_bytes(),original)
                 for split in ('train','valid','test'):

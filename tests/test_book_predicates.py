@@ -368,7 +368,7 @@ class CorpusPredicateTests(unittest.TestCase):
             out = Path(directory)
             (out / 'train.txt').write_text('existing output', encoding='utf-8')
             with self.assertRaisesRegex(ValueError, 'Predicate'):
-                book.build(library, out, [24])
+                book.build(library, out)
             self.assertEqual((out / 'train.txt').read_text(encoding='utf-8'), 'existing output')
             self.assertFalse((out / 'valid.txt').exists())
 

@@ -92,10 +92,12 @@ class FactTemplateTests(unittest.TestCase):
     def test_repeated_builds_and_split_family_isolation(self):
         with tempfile.TemporaryDirectory() as folder:
             out = Path(folder)
-            first = book.build(self.library, out, per_unit=True)
+            first = book.build(self.library, out)
             data = {p.relative_to(out): p.read_bytes() for p in out.rglob('*.txt')}
-            self.assertEqual(book.build(self.library, out, per_unit=True), first)
+            self.assertEqual(book.build(self.library, out), first)
             self.assertEqual(data, {p.relative_to(out): p.read_bytes() for p in out.rglob('*.txt')})
+            self.assertEqual(set(data), {Path(f'{split}.txt') for split in ('train','valid','test')})
+            self.assertEqual(first['units'], list(range(1,85)))
             membership = {}
             for split in ('train', 'valid', 'test'):
                 for story in (out / (split + '.txt')).read_text(encoding='utf-8').strip().split('\n\n'):
@@ -116,27 +118,24 @@ class FactTemplateTests(unittest.TestCase):
             missing = deepcopy(self.library)
             missing.units[84]['templates'] = []
             with self.assertRaisesRegex(ValueError, 'no prepared templates'):
-                book.build(missing, out, [84])
+                book.build(missing, out)
             lib = deepcopy(self.library)
             duplicate = deepcopy(lib.units[1]['templates'][0])
             duplicate['family'] += '-conflict'
             duplicate['facts'][0]['actor'] = 'wrong'
             lib.units[1]['templates'].append(duplicate)
             with self.assertRaisesRegex(ValueError, 'Conflicting facts'):
-                book.build(lib, out, [1])
+                book.build(lib, out)
             self.assertEqual(path.read_text(encoding='utf-8'), 'existing')
             self.assertFalse((out / 'valid.txt').exists())
 
-    def test_default_build_excludes_partial_lessons_but_reports_their_pending_work(self):
+    def test_build_rejects_partial_lessons_instead_of_omitting_them(self):
         lib = deepcopy(self.library)
         pending = 84
         lib.coverage['completed_units'].remove(pending)
         lib.coverage['pending_units'] = [pending]
-        stats = book.build(lib)
-        self.assertNotIn(pending, stats['units'])
-        self.assertIn(pending, lib.coverage['pending_units'])
         with self.assertRaisesRegex(ValueError, 'incomplete'):
-            book.build(lib, units=[pending])
+            book.build(lib)
 
     def test_quantity_variants_respect_countability_and_keep_scarcity_positive(self):
         for text, amount in [('I have little money.', 'little'), ('I have a little money.', 'a little'),

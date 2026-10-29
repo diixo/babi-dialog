@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 import re
 
-from book_srl_annotations import read_json, substitute, split_for, parse_units, format_units
+from book_srl_annotations import read_json, substitute, split_for
 from book_srl_corpus import CorpusLibrary
 from book_srl_predicates import expand_predicates, validate_predicates
 
@@ -179,18 +179,14 @@ def synchronize_templates(directory=DEFAULT_LIBRARY):
     return Library(directory, catalogue=catalogue, corpus=corpus)
 
 
-def build(library, out=None, units=None, per_unit=False):
-    selected = sorted(units if units is not None else
-                      (u for u, lesson in library.units.items() if lesson['templates']
-                       and u in library.coverage['completed_units']))
-    if not selected:
-        raise ValueError('No prepared sentence templates')
-    for unit in selected:
+def build(library, out=None):
+    units = list(range(1, 85))
+    for unit in units:
         if unit not in library.units or not library.units[unit]['templates']:
-            raise ValueError(f'Unit {unit} has no prepared templates; see --coverage')
+            raise ValueError(f'Unit {unit} has no prepared templates')
         if unit not in library.coverage['completed_units']:
-            raise ValueError(f'Unit {unit} is still incomplete; see --coverage')
-    examples, parents, by_unit = {}, {}, {u: {} for u in selected}
+            raise ValueError(f'Unit {unit} is still incomplete')
+    examples, parents = {}, {}
 
     def root(family):
         parents.setdefault(family, family)
@@ -199,7 +195,7 @@ def build(library, out=None, units=None, per_unit=False):
             family = parents[family]
         return family
 
-    for unit in selected:
+    for unit in units:
         for family, text, facts in library.generate(unit):
             story = render(text, facts)
             key = ' '.join(text.casefold().split())
@@ -212,7 +208,6 @@ def build(library, out=None, units=None, per_unit=False):
                 parents[second] = first
             else:
                 examples[key] = (family, story, sum(len(f) for f in facts))
-            by_unit[unit][key] = story
     splits = {name: [] for name in ('train','valid','test')}
     qa = {name: 0 for name in splits}
     for family, story, count in examples.values():
@@ -225,11 +220,7 @@ def build(library, out=None, units=None, per_unit=False):
         out.mkdir(parents=True, exist_ok=True)
         for name, stories in splits.items():
             (out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
-        if per_unit:
-            (out / 'units').mkdir(exist_ok=True)
-            for unit, stories in by_unit.items():
-                (out / 'units' / f'unit_{unit:02d}.txt').write_text(''.join(stories.values()), encoding='utf-8', newline='\n')
-    return {'units': selected, 'templates': sum(len(library.units[u]['templates']) for u in selected),
+    return {'units': units, 'templates': sum(len(library.units[u]['templates']) for u in units),
             'examples': len(examples), 'splits': {name: {'stories': len(stories), 'qa': qa[name]}
                                                for name, stories in splits.items()}}
 
@@ -238,37 +229,22 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--library', type=Path, default=DEFAULT_LIBRARY)
     parser.add_argument('--out', type=Path, default=DEFAULT_OUT)
-    parser.add_argument('--units', help='Lesson numbers/ranges; default: prepared lessons')
-    parser.add_argument('--per-unit', action='store_true')
-    parser.add_argument('--coverage', action='store_true')
-    parser.add_argument('--validate-only', action='store_true')
     args = parser.parse_args(argv)
     try:
-        selected = parse_units(args.units) if args.units else None
         library = synchronize_templates(args.library)
-        if args.coverage:
-            for unit in selected or sorted(library.units):
-                state = 'ready' if unit in library.coverage['completed_units'] else 'not completed'
-                print(f'{unit:02d}: {len(library.units[unit]["templates"])} sentence templates; {state}')
-            return 0
-        # Check all ready lessons, including variants outside a requested subset,
-        # before saving either the synchronized catalogue or dataset files.
-        stats = build(library)
-        if selected is not None:
-            stats = build(library, units=selected)
-        if not args.validate_only:
-            path = args.library / 'fact_templates.json'
-            content = (json.dumps(library.catalogue, ensure_ascii=False, indent=2)+'\n').encode('utf-8')
-            if not path.exists() or path.read_bytes() != content:
-                path.write_bytes(content)
-            stats = build(library, args.out, selected, args.per_unit)
-            for name, count in stats['splits'].items():
-                print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
-        print(f'{len(stats["units"])}/84 book units ({format_units(stats["units"])}); '
+        for unit in sorted(library.units):
+            state = 'ready' if unit in library.coverage['completed_units'] else 'not completed'
+            print(f'{unit:02d}: {len(library.units[unit]["templates"])} sentence templates; {state}')
+        # build checks every lesson and variant before writing the dataset.
+        stats = build(library, args.out)
+        path = args.library / 'fact_templates.json'
+        content = (json.dumps(library.catalogue, ensure_ascii=False, indent=2)+'\n').encode('utf-8')
+        if not path.exists() or path.read_bytes() != content:
+            path.write_bytes(content)
+        for name, count in stats['splits'].items():
+            print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
+        print(f'{len(stats["units"])}/84 book units; '
               f'{stats["templates"]} source sentence templates; {stats["examples"]} unique generated sentences')
-        pending = library.coverage['pending_units']
-        if pending:
-            print(f'Lessons {format_units(pending)} still need English sentences and manual SRL templates.')
     except (ValueError, KeyError, TypeError, OSError) as error:
         parser.error(str(error))
     return 0
