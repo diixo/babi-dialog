@@ -79,7 +79,8 @@ class FactTemplateTests(unittest.TestCase):
         self.assertIn('action 1?\tsee\t1', output)
         self.assertIn('action 2?\tlike\t1', output)
         self.assertNotIn('Assistant:', output)
-        self.assertNotIn('predicate', output)
+        self.assertIn('predicate 1?\tsaw\t1', output)
+        self.assertIn('predicate 2?\tliked\t1', output)
         self.assertNotIn('next action?', output)
         for text, facts in self.examples.items():
             lines = book.render(text, facts).strip().splitlines()
@@ -1861,7 +1862,9 @@ class FactTemplateTests(unittest.TestCase):
     def test_gerund_subject_transformation_does_not_invent_a_speaker(self):
         original = self.examples["It's boring to clean the flat."]
         transformed = self.examples['Cleaning the flat is boring.']
-        self.assertEqual(original[0], transformed[0])
+        self.assertEqual({k:v for k,v in original[0].items() if k!='predicate'},
+                         {k:v for k,v in transformed[0].items() if k!='predicate'})
+        self.assertEqual((original[0]['predicate'], transformed[0]['predicate']), ("'s", 'is'))
         self.assertEqual((original[1]['verb_form'], transformed[1]['verb_form']), ('infinitive', 'gerund'))
         for fact in [original[1], transformed[1]]:
             self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['status']),

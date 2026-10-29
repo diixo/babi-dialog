@@ -6,7 +6,7 @@
 [sentences.json](data/book_srl/sentences.json), затем разворачивает разрешённые
 варианты шаблонов. Markdown и PDF книги для подготовки и сборки не нужны.
 Одна story содержит **одно исходное предложение или его допустимую вариацию**,
-затем вопросы `actor?`, `action?`, `intention?`, `operation?`, `object?`
+затем вопросы `actor?`, `predicate?`, `action?`, `intention?`, `operation?`, `object?`
 и дополнительные роли. Реплик ассистента и управления диалогом нет.
 
 ```shell
@@ -23,7 +23,8 @@ python build_book_srl.py --units 1-3 --out products-book-srl/selected
 позволяют указать другие каталоги.
 
 В `sentences.json` находятся **8 046 английских предложений из уроков 1–84**.
-Каждая запись содержит только `id`, `unit`, `text` и `facts`.
+Каждая запись содержит `id`, `unit`, `text`, `facts` и `predicate_spans`.
+Все **11 966 исходных фактов** имеют `predicate` и проверяемую привязку к тексту.
 Русских пояснений, заголовков, списков слов, заданий с пропусками, исходной
 Markdown-разметки и незавершённых фрагментов в этом файле нет. Отдельные
 обращения и именные фразы вроде `Waiter!` и `A ceiling.` исключены.
@@ -46,8 +47,9 @@ Markdown-разметки и незавершённых фрагментов в 
 Текст и ответы используют одни и те же подстановки. Например:
 
 ```text
-{actor_frame.word} {verb.word} an interesting {noun_1.word}.
+{actor_frame.word_subject}{actor_frame.word_auxiliary} {verb.word} an interesting {noun_1.word}.
 actor: {actor_frame.actor}
+predicate: {actor_frame.word_auxiliary} {verb.word}
 action: {verb.lemma}
 object: interesting {noun_1.word}
 ```
@@ -300,27 +302,63 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 ```text
 1 User: She's writing an interesting article.
 2 actor?	she	1
-3 action?	write	1
-4 intention?	none	1
-5 operation?	none	1
-6 object?	interesting article	1
-7 tense?	present	1
-8 aspect?	continuous	1
-9 voice?	active	1
-10 polarity?	positive	1
-11 status?	asserted	1
+3 predicate?	's writing	1
+4 action?	write	1
+5 intention?	none	1
+6 operation?	none	1
+7 object?	interesting article	1
+8 tense?	present	1
+9 aspect?	continuous	1
+10 voice?	active	1
+11 polarity?	positive	1
+12 status?	asserted	1
 ```
 
 Если внутри предложения несколько действий, используются `actor 1?`,
-`action 1?`, `object 1?`, затем `actor 2?` и так далее. `I` обозначается как
+`predicate 1?`, `action 1?`, `object 1?`, затем `actor 2?` и так далее. `I` обозначается как
 `user`, `you` — `addressee`; неизвестное значение — `unknown`, отсутствие — `none`.
 Пассив сохраняет семантического исполнителя, а не выдаёт подлежащее за actor.
 У отдельного `Have you seen them?` объектом остаётся `them`: сведения из
 предыдущей story не подставляются. Связи внутри того же предложения сохраняются.
 
-`action` — действие в начальной форме. Текущее явно выраженное положительное
+`predicate` сохраняет глагольную группу из текста: исходное написание,
+вспомогательные глаголы, отрицание `not/n't/never`, инфинитивное `to` и частицы
+фразового глагола. Сокращения не раскрываются: `She's been sleeping` получает
+`'s been sleeping`. Подлежащее, объект и обычные наречия в группу не входят:
+`Have you seen them?` → `Have seen`, `has already written` → `has written`,
+`turned it off` → `turned off`. У `was sitting and watching` оба факта
+используют общий `was`: `was sitting` и `was watching`.
+
+`predicate_spans[i]` указывает фрагменты для `facts[i]`: пары `[start, end]`
+считают символы Python-строки с нуля, правая граница не включается.
+Фрагменты идут в порядке текста, соединяются одним пробелом и могут повторно
+использоваться разными фактами. В `Yes, he is, but he is taller…` первый `is`
+имеет границы `[8, 10]`, второй — `[19, 21]`. Привязки находятся вне `facts`
+и не превращаются в обучающие вопросы.
+
+У шаблона границы относятся к его строке `text`, включая placeholders.
+Граница не может разрезать placeholder; формы подлежащего и вспомогательного
+глагола при необходимости хранятся отдельными атрибутами слота. Сборщик
+пересчитывает позиции при подстановках и проверяет совпадение с `predicate`.
+Явно заданная необязательная часть может исчезнуть вместе с пустым значением
+слота. Поиск первого подходящего слова и автоматический разбор грамматики
+во время сборки не используются.
+
+При полностью пропущенном глаголе `predicate` равен `none`, список его
+фрагментов пуст: `The longer the flight…` не содержит `is`. Таких исходных
+фактов 31. Оставшийся вспомогательный глагол или маркер сохраняется:
+`So were we.` → `were` / `unknown`, `…I'd like her to.` → `to` / `treat`,
+если `treat` назван ранее в том же предложении. Сведения из соседней story
+не восстанавливаются.
+
+`action` — нормализованное действие, обычно начальная форма глагола.
+Фразовые глаголы сохраняют частицу: `turned off` → `turn off`,
+`hadn't phoned back` → `phone back`. Семантическая нормализация также допускает
+`There is…` → `exist` и `has got` → `have`.
+Текущее явно выраженное положительное
 намерение вроде `I want to give him a book.` сворачивается в `action=give`,
-`intention=give`, `operation=add`. Обычное сообщение о действии имеет
+`intention=give`, `operation=add`, `predicate=to give`: предикат относится
+к целевому действию. Обычное сообщение о действии имеет
 `intention=none`, `operation=none`. `operation` сохраняет смысл изменения
 набора намерений из `build_v4.py`, а не обозначает время действия.
 `tense`, `aspect`, `voice`, `polarity`, `status` описывают грамматику и статус

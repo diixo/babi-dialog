@@ -13,11 +13,12 @@ import re
 
 from book_srl_annotations import read_json, substitute, split_for, parse_units, format_units
 from book_srl_corpus import CorpusLibrary
+from book_srl_predicates import expand_predicates, validate_predicates
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_LIBRARY = ROOT / 'data' / 'book_srl'
 DEFAULT_OUT = ROOT / 'products-book-srl'
-CORE_FIELDS = ('actor', 'action', 'intention', 'operation', 'object')
+CORE_FIELDS = ('actor', 'predicate', 'action', 'intention', 'operation', 'object')
 OPERATIONS = {'none', 'add', 'remove', 'replace', 'keep', 'clear', 'complete'}
 
 
@@ -88,9 +89,11 @@ class Library:
                         raise ValueError(f'{template["id"]}: invalid compatible pair')
                 if not self.compatible(template, original):
                     raise ValueError(f'{template["id"]}: original bindings are incompatible')
-                text = substitute(template['text'], original)
+                text, spans, _ = expand_predicates(template['text'], original,
+                    template.get('predicate_spans'), template['id'])
                 facts = substitute(template['facts'], original)
                 validate(text, facts)
+                validate_predicates(text, facts, spans, template['id'])
                 if text != template['source']['text']:
                     raise ValueError(f'{template["id"]}: original sentence cannot be reconstructed')
                 if template['source']['unit'] != lesson['unit']:
@@ -100,6 +103,8 @@ class Library:
                     raise ValueError(f'{template["id"]}: unknown source sentence')
                 if text != source['text'] or facts != source['facts']:
                     raise ValueError(f'{template["id"]}: template differs from the English sentence or its manual facts')
+                if spans != source['predicate_spans']:
+                    raise ValueError(f'{template["id"]}: template differs from the manual predicate spans')
         if seen != set(corpus.by_id):
             raise ValueError('Every English sentence must have a template; run prepare_book_templates.py')
 
@@ -127,8 +132,10 @@ class Library:
                 bindings = dict(zip(names, values))
                 if not self.compatible(template, bindings):
                     continue
-                text = substitute(template['text'], bindings)
+                text, spans, _ = expand_predicates(template['text'], bindings,
+                    template['predicate_spans'], template['id'])
                 facts = substitute(template['facts'], bindings)
+                validate_predicates(text, facts, spans, template['id'])
                 yield template['family'], text, facts
 
 

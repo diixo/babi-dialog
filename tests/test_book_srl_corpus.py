@@ -70,7 +70,7 @@ class CorpusTests(unittest.TestCase):
                     'I hear (that) they have just moved to a new flat.',
                     "She hasn't washed (her face) yet."}
         for record in self.library.records:
-            self.assertEqual(set(record), {'id', 'unit', 'text', 'facts'})
+            self.assertEqual(set(record), {'id', 'unit', 'text', 'facts', 'predicate_spans'})
             self.assertNotIn(record['text'], excluded)
             self.assertNotIn('.......', record['text'])
             self.assertNotIn('<br>', record['text'])
@@ -142,7 +142,7 @@ class CorpusTests(unittest.TestCase):
             path = directory / CORPUS_NAME
             data = json.loads(path.read_text(encoding='utf-8'))
             data['sentences'].append(dict(id='manual-english-example', unit=1,
-                text='Mary reads.', facts=[dict(actor='mary', action='read',
+                text='Mary reads.', predicate_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
                     intention='none', operation='none', object='none')]))
             path.write_text(json.dumps(data), encoding='utf-8')
             prepare(directory)

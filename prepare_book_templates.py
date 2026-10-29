@@ -29,7 +29,8 @@ def prepare(directory=DEFAULT_LIBRARY):
             template = deepcopy(templates.get(record['id']))
             if template is None:
                 template = dict(id=record['id'],family=record['id'],text=record['text'],
-                    slots={},original={},constraints=[],facts=record['facts'])
+                    slots={},original={},constraints=[],facts=record['facts'],
+                    predicate_spans=record['predicate_spans'])
             template['source'] = dict(sentence=record['id'],unit=unit,text=record['text'])
             prepared.append(template)
         lessons.append(dict(unit=unit,templates=prepared))

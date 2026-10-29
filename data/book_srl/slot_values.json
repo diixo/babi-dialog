@@ -296,7 +296,9 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "word_subject": "I",
+          "word_auxiliary": "'m"
         },
         {
           "id": "you",
@@ -311,7 +313,9 @@
               "start": 19,
               "end": 25
             }
-          ]
+          ],
+          "word_subject": "You",
+          "word_auxiliary": "'re"
         },
         {
           "id": "he",
@@ -326,7 +330,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "word_subject": "He",
+          "word_auxiliary": "'s"
         },
         {
           "id": "she",
@@ -341,7 +347,9 @@
               "start": 236,
               "end": 241
             }
-          ]
+          ],
+          "word_subject": "She",
+          "word_auxiliary": "'s"
         },
         {
           "id": "we",
@@ -356,7 +364,9 @@
               "start": 0,
               "end": 5
             }
-          ]
+          ],
+          "word_subject": "We",
+          "word_auxiliary": "'re"
         }
       ]
     },
@@ -376,7 +386,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "I ",
+          "word_auxiliary": "have"
         },
         {
           "id": "you",
@@ -391,7 +403,9 @@
               "start": 8,
               "end": 16
             }
-          ]
+          ],
+          "word_subject": "You ",
+          "word_auxiliary": "have"
         },
         {
           "id": "he",
@@ -406,7 +420,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "He ",
+          "word_auxiliary": "has"
         },
         {
           "id": "she",
@@ -421,7 +437,9 @@
               "start": 34,
               "end": 41
             }
-          ]
+          ],
+          "word_subject": "She ",
+          "word_auxiliary": "has"
         },
         {
           "id": "we",
@@ -436,7 +454,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_subject": "We ",
+          "word_auxiliary": "have"
         },
         {
           "id": "they",
@@ -451,7 +471,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_subject": "They ",
+          "word_auxiliary": "have"
         }
       ]
     },
@@ -552,7 +574,9 @@
               "start": 0,
               "end": 5
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "see"
         },
         {
           "id": "you",
@@ -567,7 +591,9 @@
               "start": 40,
               "end": 47
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "see"
         },
         {
           "id": "we",
@@ -582,7 +608,9 @@
               "start": 23,
               "end": 29
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "see"
         }
       ]
     },
@@ -2185,7 +2213,9 @@
               "start": 20,
               "end": 26
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "like"
         },
         {
           "id": "you",
@@ -2200,7 +2230,9 @@
               "start": 7,
               "end": 15
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "like"
         },
         {
           "id": "he",
@@ -2215,7 +2247,9 @@
               "start": 41,
               "end": 49
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "likes"
         },
         {
           "id": "she",
@@ -2230,7 +2264,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "likes"
         },
         {
           "id": "we",
@@ -2245,7 +2281,9 @@
               "start": 126,
               "end": 133
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "like"
         },
         {
           "id": "they",
@@ -2260,7 +2298,9 @@
               "start": 6,
               "end": 15
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "like"
         }
       ]
     },
@@ -2523,7 +2563,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "word_subject": "I ",
+          "word_auxiliary": "am"
         },
         {
           "id": "you",
@@ -2538,7 +2580,9 @@
               "start": 34,
               "end": 41
             }
-          ]
+          ],
+          "word_subject": "You ",
+          "word_auxiliary": "are"
         },
         {
           "id": "he",
@@ -2553,7 +2597,9 @@
               "start": 13,
               "end": 18
             }
-          ]
+          ],
+          "word_subject": "He ",
+          "word_auxiliary": "is"
         },
         {
           "id": "she",
@@ -2568,7 +2614,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "She ",
+          "word_auxiliary": "is"
         },
         {
           "id": "we",
@@ -2583,7 +2631,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "We ",
+          "word_auxiliary": "are"
         },
         {
           "id": "they",
@@ -2598,7 +2648,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_subject": "They ",
+          "word_auxiliary": "are"
         }
       ]
     },
@@ -3281,7 +3333,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "need"
         },
         {
           "id": "you",
@@ -3296,7 +3350,9 @@
               "start": 13,
               "end": 21
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "need"
         },
         {
           "id": "he",
@@ -3311,7 +3367,9 @@
               "start": 8,
               "end": 16
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "needs"
         },
         {
           "id": "she",
@@ -3326,7 +3384,9 @@
               "start": 10,
               "end": 19
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "needs"
         },
         {
           "id": "we",
@@ -3341,7 +3401,9 @@
               "start": 15,
               "end": 22
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "need"
         },
         {
           "id": "they",
@@ -3356,7 +3418,9 @@
               "start": 3,
               "end": 12
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "need"
         }
       ]
     },
@@ -3499,7 +3563,9 @@
               "start": 0,
               "end": 5
             }
-          ]
+          ],
+          "title_part1": "Let",
+          "title_part2": "'s"
         }
       ]
     },
@@ -5294,7 +5360,9 @@
               "start": 16,
               "end": 20
             }
-          ]
+          ],
+          "word_subject": "I",
+          "word_auxiliary": "'ll"
         },
         {
           "id": "you",
@@ -5309,7 +5377,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "You",
+          "word_auxiliary": "'ll"
         },
         {
           "id": "he",
@@ -5324,7 +5394,9 @@
               "start": 0,
               "end": 5
             }
-          ]
+          ],
+          "word_subject": "He",
+          "word_auxiliary": "'ll"
         },
         {
           "id": "she",
@@ -5339,7 +5411,9 @@
               "start": 21,
               "end": 27
             }
-          ]
+          ],
+          "word_subject": "She",
+          "word_auxiliary": "'ll"
         },
         {
           "id": "we",
@@ -5354,7 +5428,9 @@
               "start": 0,
               "end": 5
             }
-          ]
+          ],
+          "word_subject": "We",
+          "word_auxiliary": "'ll"
         },
         {
           "id": "they",
@@ -5369,7 +5445,9 @@
               "start": 50,
               "end": 57
             }
-          ]
+          ],
+          "word_subject": "They",
+          "word_auxiliary": "'ll"
         }
       ]
     },
@@ -6101,7 +6179,9 @@
               "start": 8,
               "end": 14
             }
-          ]
+          ],
+          "word_subject": "I ",
+          "word_auxiliary": "will"
         },
         {
           "id": "you",
@@ -6116,7 +6196,9 @@
               "start": 200,
               "end": 208
             }
-          ]
+          ],
+          "word_subject": "You ",
+          "word_auxiliary": "will"
         },
         {
           "id": "he",
@@ -6131,7 +6213,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_subject": "He ",
+          "word_auxiliary": "will"
         },
         {
           "id": "she",
@@ -6146,7 +6230,9 @@
               "start": 13,
               "end": 21
             }
-          ]
+          ],
+          "word_subject": "She ",
+          "word_auxiliary": "will"
         },
         {
           "id": "we",
@@ -6161,7 +6247,9 @@
               "start": 42,
               "end": 49
             }
-          ]
+          ],
+          "word_subject": "We ",
+          "word_auxiliary": "will"
         },
         {
           "id": "they",
@@ -6176,7 +6264,9 @@
               "start": 21,
               "end": 30
             }
-          ]
+          ],
+          "word_subject": "They ",
+          "word_auxiliary": "will"
         }
       ]
     },
@@ -6660,7 +6750,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "grows"
         },
         {
           "id": "we",
@@ -6675,7 +6767,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "grow"
         },
         {
           "id": "they",
@@ -6690,7 +6784,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "grow"
         }
       ]
     },
@@ -7860,7 +7956,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "want"
         },
         {
           "id": "you",
@@ -7875,7 +7973,9 @@
               "start": 3,
               "end": 11
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "want"
         },
         {
           "id": "he",
@@ -7890,7 +7990,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "wants"
         },
         {
           "id": "she",
@@ -7905,7 +8007,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "wants"
         },
         {
           "id": "we",
@@ -7920,7 +8024,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "want"
         },
         {
           "id": "they",
@@ -7935,7 +8041,9 @@
               "start": 69,
               "end": 78
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "want"
         }
       ]
     },
@@ -10646,7 +10754,9 @@
               "start": 3,
               "end": 11
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "play"
         },
         {
           "id": "he",
@@ -10661,7 +10771,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "plays"
         },
         {
           "id": "she",
@@ -10676,7 +10788,9 @@
               "start": 13,
               "end": 22
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "plays"
         },
         {
           "id": "we",
@@ -10691,7 +10805,9 @@
               "start": 11,
               "end": 18
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "play"
         }
       ]
     },
@@ -12964,7 +13080,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "live"
         },
         {
           "id": "you",
@@ -12979,7 +13097,9 @@
               "start": 18,
               "end": 26
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "live"
         },
         {
           "id": "he",
@@ -12994,7 +13114,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "lives"
         },
         {
           "id": "she",
@@ -13009,7 +13131,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "lives"
         },
         {
           "id": "we",
@@ -13024,7 +13148,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "live"
         },
         {
           "id": "they",
@@ -13039,7 +13165,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "live"
         }
       ]
     },
@@ -14734,7 +14862,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "word_subject": "I",
+          "word_auxiliary": "'ve"
         },
         {
           "id": "you",
@@ -14749,7 +14879,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "You",
+          "word_auxiliary": "'ve"
         },
         {
           "id": "he",
@@ -14764,7 +14896,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "word_subject": "He",
+          "word_auxiliary": "'s"
         },
         {
           "id": "she",
@@ -14779,7 +14913,9 @@
               "start": 236,
               "end": 241
             }
-          ]
+          ],
+          "word_subject": "She",
+          "word_auxiliary": "'s"
         },
         {
           "id": "we",
@@ -14794,7 +14930,9 @@
               "start": 0,
               "end": 5
             }
-          ]
+          ],
+          "word_subject": "We",
+          "word_auxiliary": "'ve"
         },
         {
           "id": "they",
@@ -14809,7 +14947,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_subject": "They",
+          "word_auxiliary": "'ve"
         }
       ]
     },
@@ -18121,7 +18261,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "liked"
         },
         {
           "id": "he",
@@ -18136,7 +18278,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "liked"
         },
         {
           "id": "she",
@@ -18151,7 +18295,9 @@
               "start": 3,
               "end": 12
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "liked"
         },
         {
           "id": "they",
@@ -18166,7 +18312,9 @@
               "start": 0,
               "end": 10
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "liked"
         }
       ]
     },
@@ -19545,7 +19693,9 @@
               "start": 45,
               "end": 53
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "worked"
         },
         {
           "id": "he",
@@ -19560,7 +19710,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "worked"
         },
         {
           "id": "she",
@@ -19575,7 +19727,9 @@
               "start": 48,
               "end": 58
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "worked"
         },
         {
           "id": "we",
@@ -19590,7 +19744,9 @@
               "start": 0,
               "end": 9
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "worked"
         }
       ]
     },
@@ -21689,7 +21845,9 @@
               "start": 10,
               "end": 14
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "go"
         },
         {
           "id": "you",
@@ -21704,7 +21862,9 @@
               "start": 4,
               "end": 10
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "go"
         },
         {
           "id": "he",
@@ -21719,7 +21879,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "goes"
         },
         {
           "id": "she",
@@ -21734,7 +21896,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "goes"
         },
         {
           "id": "we",
@@ -21749,7 +21913,9 @@
               "start": 23,
               "end": 28
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "go"
         },
         {
           "id": "they",
@@ -21764,7 +21930,9 @@
               "start": 33,
               "end": 40
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "go"
         }
       ]
     },
@@ -23385,7 +23553,10 @@
               "start": 9,
               "end": 29
             }
-          ]
+          ],
+          "word_part1": "it",
+          "word_part2": "'s",
+          "word_part3": " a good hospital"
         }
       ]
     },
@@ -23971,7 +24142,9 @@
               "start": 30,
               "end": 35
             }
-          ]
+          ],
+          "word_subject": "I ",
+          "word_auxiliary": "was"
         },
         {
           "id": "you",
@@ -23986,7 +24159,9 @@
               "start": 6,
               "end": 14
             }
-          ]
+          ],
+          "word_subject": "You ",
+          "word_auxiliary": "were"
         },
         {
           "id": "he",
@@ -24001,7 +24176,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "He ",
+          "word_auxiliary": "was"
         },
         {
           "id": "she",
@@ -24016,7 +24193,9 @@
               "start": 30,
               "end": 37
             }
-          ]
+          ],
+          "word_subject": "She ",
+          "word_auxiliary": "was"
         },
         {
           "id": "we",
@@ -24031,7 +24210,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_subject": "We ",
+          "word_auxiliary": "were"
         },
         {
           "id": "they",
@@ -24046,7 +24227,9 @@
               "start": 84,
               "end": 93
             }
-          ]
+          ],
+          "word_subject": "They ",
+          "word_auxiliary": "were"
         }
       ]
     },
@@ -25198,7 +25381,9 @@
               "start": 0,
               "end": 10
             }
-          ]
+          ],
+          "word_part1": "I ",
+          "word_part2": "remember"
         },
         {
           "id": "you",
@@ -25213,7 +25398,9 @@
               "start": 3,
               "end": 15
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "remember"
         },
         {
           "id": "he",
@@ -25228,7 +25415,9 @@
               "start": 12,
               "end": 24
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "remembers"
         }
       ]
     },
@@ -25288,7 +25477,9 @@
               "start": 55,
               "end": 60
             }
-          ]
+          ],
+          "word_subject": "I ",
+          "word_auxiliary": "had"
         },
         {
           "id": "you",
@@ -25303,7 +25494,9 @@
               "start": 5,
               "end": 12
             }
-          ]
+          ],
+          "word_subject": "You ",
+          "word_auxiliary": "had"
         },
         {
           "id": "he",
@@ -25318,7 +25511,9 @@
               "start": 7,
               "end": 13
             }
-          ]
+          ],
+          "word_subject": "He ",
+          "word_auxiliary": "had"
         },
         {
           "id": "she",
@@ -25333,7 +25528,9 @@
               "start": 0,
               "end": 7
             }
-          ]
+          ],
+          "word_subject": "She ",
+          "word_auxiliary": "had"
         },
         {
           "id": "we",
@@ -25348,7 +25545,9 @@
               "start": 49,
               "end": 55
             }
-          ]
+          ],
+          "word_subject": "We ",
+          "word_auxiliary": "had"
         },
         {
           "id": "they",
@@ -25363,7 +25562,9 @@
               "start": 0,
               "end": 8
             }
-          ]
+          ],
+          "word_subject": "They ",
+          "word_auxiliary": "had"
         }
       ]
     },
@@ -29688,7 +29889,9 @@
               "start": 15,
               "end": 22
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "made"
         },
         {
           "id": "she",
@@ -29703,7 +29906,9 @@
               "start": 11,
               "end": 19
             }
-          ]
+          ],
+          "word_part1": "She ",
+          "word_part2": "made"
         },
         {
           "id": "they",
@@ -29718,7 +29923,9 @@
               "start": 36,
               "end": 45
             }
-          ]
+          ],
+          "word_part1": "They ",
+          "word_part2": "made"
         }
       ]
     },
@@ -29919,7 +30126,9 @@
               "start": 17,
               "end": 26
             }
-          ]
+          ],
+          "word_part1": "You ",
+          "word_part2": "write"
         },
         {
           "id": "he",
@@ -29934,7 +30143,9 @@
               "start": 21,
               "end": 30
             }
-          ]
+          ],
+          "word_part1": "He ",
+          "word_part2": "writes"
         },
         {
           "id": "we",
@@ -29949,7 +30160,9 @@
               "start": 6,
               "end": 14
             }
-          ]
+          ],
+          "word_part1": "We ",
+          "word_part2": "write"
         }
       ]
     },
@@ -30756,7 +30969,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "I ",
+          "word_auxiliary": "have"
         },
         {
           "id": "you",
@@ -30771,7 +30986,9 @@
               "start": 8,
               "end": 16
             }
-          ]
+          ],
+          "word_subject": "You ",
+          "word_auxiliary": "have"
         },
         {
           "id": "he",
@@ -30786,7 +31003,9 @@
               "start": 0,
               "end": 6
             }
-          ]
+          ],
+          "word_subject": "He ",
+          "word_auxiliary": "has"
         },
         {
           "id": "she",
@@ -30801,7 +31020,9 @@
               "start": 34,
               "end": 41
             }
-          ]
+          ],
+          "word_subject": "She ",
+          "word_auxiliary": "has"
         }
       ]
     },
@@ -35349,7 +35570,14 @@
               "start": 0,
               "end": 26
             }
-          ]
+          ],
+          "aux1": "Do",
+          "subject1": " you ",
+          "verbal_or": "or",
+          "middle": " ",
+          "aux2": "does",
+          "subject2": " your mother",
+          "predicate": "Do or does"
         },
         {
           "id": "he_parents",
@@ -35363,7 +35591,14 @@
               "start": 0,
               "end": 25
             }
-          ]
+          ],
+          "aux1": "Does",
+          "subject1": " he ",
+          "verbal_or": "or",
+          "middle": " ",
+          "aux2": "do",
+          "subject2": " his parents",
+          "predicate": "Does or do"
         },
         {
           "id": "he_friend",
@@ -35377,7 +35612,14 @@
               "start": 0,
               "end": 21
             }
-          ]
+          ],
+          "aux1": "Does",
+          "subject1": " he ",
+          "verbal_or": "",
+          "middle": "or ",
+          "aux2": "",
+          "subject2": "his friend",
+          "predicate": "Does"
         }
       ]
     },
@@ -36514,7 +36756,11 @@
               "start": 0,
               "end": 27
             }
-          ]
+          ],
+          "word_part1": "Do",
+          "word_part2": " you ",
+          "word_part3": "or does",
+          "word_part4": " your brother"
         },
         {
           "id": "he_parents",
@@ -36528,7 +36774,11 @@
               "start": 0,
               "end": 25
             }
-          ]
+          ],
+          "word_part1": "Does",
+          "word_part2": " he ",
+          "word_part3": "or do",
+          "word_part4": " his parents"
         }
       ]
     },
@@ -37313,7 +37563,11 @@
               "start": 0,
               "end": 1
             }
-          ]
+          ],
+          "will_short_subject": "I",
+          "will_short_auxiliary": "'ll",
+          "short_subject": "I",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "he",
@@ -37336,7 +37590,11 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "will_short_subject": "He",
+          "will_short_auxiliary": "'ll",
+          "short_subject": "He",
+          "short_auxiliary": "'s"
         },
         {
           "id": "she",
@@ -37359,7 +37617,11 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "will_short_subject": "She",
+          "will_short_auxiliary": "'ll",
+          "short_subject": "She",
+          "short_auxiliary": "'s"
         },
         {
           "id": "we",
@@ -37382,7 +37644,11 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "will_short_subject": "We",
+          "will_short_auxiliary": "'ll",
+          "short_subject": "We",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "they",
@@ -37405,7 +37671,11 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "will_short_subject": "They",
+          "will_short_auxiliary": "'ll",
+          "short_subject": "They",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "you",
@@ -37428,7 +37698,11 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "will_short_subject": "You",
+          "will_short_auxiliary": "'ll",
+          "short_subject": "You",
+          "short_auxiliary": "'ve"
         }
       ]
     },
@@ -38355,7 +38629,9 @@
               "start": 0,
               "end": 1
             }
-          ]
+          ],
+          "short_subject": "I",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "he",
@@ -38378,7 +38654,9 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "short_subject": "He",
+          "short_auxiliary": "'s"
         },
         {
           "id": "she",
@@ -38401,7 +38679,9 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "short_subject": "She",
+          "short_auxiliary": "'s"
         },
         {
           "id": "we",
@@ -38424,7 +38704,9 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "short_subject": "We",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "they",
@@ -38447,7 +38729,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "short_subject": "They",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "you",
@@ -38470,7 +38754,9 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "short_subject": "You",
+          "short_auxiliary": "'ve"
         },
         {
           "id": "mary",
@@ -38493,7 +38779,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "short_subject": "Mary ",
+          "short_auxiliary": "has"
         }
       ]
     },
@@ -41686,7 +41974,9 @@
               "end": 1
             }
           ],
-          "contracted_have": "I've"
+          "contracted_have": "I've",
+          "contracted_have_subject": "I",
+          "contracted_have_auxiliary": "'ve"
         },
         {
           "id": "he",
@@ -41707,7 +41997,9 @@
               "end": 2
             }
           ],
-          "contracted_have": "He's"
+          "contracted_have": "He's",
+          "contracted_have_subject": "He",
+          "contracted_have_auxiliary": "'s"
         },
         {
           "id": "she",
@@ -41728,7 +42020,9 @@
               "end": 3
             }
           ],
-          "contracted_have": "She's"
+          "contracted_have": "She's",
+          "contracted_have_subject": "She",
+          "contracted_have_auxiliary": "'s"
         },
         {
           "id": "they",
@@ -41749,7 +42043,9 @@
               "end": 4
             }
           ],
-          "contracted_have": "They've"
+          "contracted_have": "They've",
+          "contracted_have_subject": "They",
+          "contracted_have_auxiliary": "'ve"
         }
       ]
     },

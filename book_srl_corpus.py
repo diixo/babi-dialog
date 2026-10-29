@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 
 from book_srl_annotations import read_json
+from book_srl_predicates import validate_predicates
 
 CORPUS_NAME = 'sentences.json'
 
@@ -22,8 +23,8 @@ class CorpusLibrary:
         self.by_id = {}
         self.by_unit = {unit: [] for unit in range(1, 85)}
         for record in self.records:
-            if not isinstance(record, dict) or set(record) != {'id', 'unit', 'text', 'facts'}:
-                raise ValueError('Each sentence needs only id, unit, text and facts')
+            if not isinstance(record, dict) or set(record) != {'id', 'unit', 'text', 'facts', 'predicate_spans'}:
+                raise ValueError('Each sentence needs id, unit, text, facts and predicate_spans')
             identifier, unit, text = record['id'], record['unit'], record['text']
             if not isinstance(identifier, str) or not identifier or identifier in self.by_id:
                 raise ValueError(f'Duplicate or invalid sentence ID: {identifier!r}')
@@ -43,6 +44,7 @@ class CorpusLibrary:
                 if fact.get('clause_type') in ('ellipsis', 'vocative'):
                     raise ValueError(f'{identifier}: fragments do not belong in sentences.json')
             self.by_id[identifier] = record
+            validate_predicates(text, record['facts'], record['predicate_spans'], identifier)
             self.by_unit[unit].append(record)
         if any(not self.by_unit[unit] for unit in self.completed_units):
             raise ValueError('A completed lesson must contain sentences')
