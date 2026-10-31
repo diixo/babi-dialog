@@ -276,10 +276,13 @@ def build(library, out=None):
                 examples[key] = (family, story, validate_story(story), facts)
     splits = {name: [] for name in ('train','valid','test')}
     qa = {name: 0 for name in splits}
-    for family, story, count, _ in examples.values():
+    fragments = {name: {'single_fragment': 0, 'multi_fragment': 0} for name in splits}
+    for family, story, count, facts in examples.values():
         name = split_for(root(family))
         splits[name].append(story)
         qa[name] += count
+        category = 'single_fragment' if len(facts) == 1 else 'multi_fragment'
+        fragments[name][category] += 1
     # Everything is checked before touching existing outputs.
     if out is not None:
         out = Path(out)
@@ -287,7 +290,10 @@ def build(library, out=None):
         for name, stories in splits.items():
             (out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
     return {'units': units, 'templates': sum(len(library.units[u]['templates']) for u in units),
-            'examples': len(examples), 'splits': {name: {'stories': len(stories), 'qa': qa[name]}
+            'examples': len(examples),
+            'single_fragment': sum(count['single_fragment'] for count in fragments.values()),
+            'multi_fragment': sum(count['multi_fragment'] for count in fragments.values()),
+            'splits': {name: {'stories': len(stories), 'qa': qa[name], **fragments[name]}
                                                for name, stories in splits.items()}}
 
 
@@ -651,9 +657,14 @@ def main(argv=None):
         if not path.exists() or path.read_bytes() != content:
             path.write_bytes(content)
         for name, count in stats['splits'].items():
-            print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
+            print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA; '
+                  f'{count["single_fragment"]} single-fragment, {count["multi_fragment"]} multi-fragment')
         print(f'{len(stats["units"])}/84 book units; '
               f'{stats["templates"]} source sentence templates; {stats["examples"]} unique generated sentences')
+        print(f'Fragments: {stats["single_fragment"]} single-fragment '
+              f'({stats["single_fragment"] / stats["examples"]:.2%}), '
+              f'{stats["multi_fragment"]} multi-fragment '
+              f'({stats["multi_fragment"] / stats["examples"]:.2%})')
         if annotation_library is not None:
             annotation_out = args.out / 'annotations'
             annotation_stats = build_annotations(annotation_library, annotation_out)

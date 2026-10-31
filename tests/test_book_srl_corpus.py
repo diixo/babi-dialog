@@ -241,6 +241,7 @@ class UnifiedBuildTests(unittest.TestCase):
                 count=2 if unit==1 else 1
                 self.assertIn(f'{unit:02d}: {count} sentence templates; ready',output)
             self.assertIn('84/84 book units',output)
+            self.assertIn('Fragments: 86 single-fragment (100.00%), 0 multi-fragment (0.00%)',output)
 
     def test_missing_catalogue_is_created_by_the_same_build_command(self):
         with tempfile.TemporaryDirectory() as folder:

@@ -120,15 +120,28 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual(set(data), {Path(f'{split}.txt') for split in ('train','valid','test')})
             self.assertEqual(first['units'], list(range(1,85)))
             membership = {}
+            total_single = total_multi = 0
             for split in ('train', 'valid', 'test'):
                 stories = (out / (split + '.txt')).read_text(encoding='utf-8').strip().split('\n\n')
                 self.assertEqual(first['splits'][split]['stories'],len(stories))
                 self.assertEqual(first['splits'][split]['qa'],
                                  sum(len(story.splitlines())-1 for story in stories))
+                fragments = [sum(row.partition(' ')[2].split('\t',1)[0] == 'fragment?'
+                                 for row in story.splitlines()[1:]) for story in stories]
+                single = sum(count == 1 for count in fragments)
+                multi = sum(count > 1 for count in fragments)
+                self.assertEqual(single + multi,len(stories))
+                self.assertEqual(first['splits'][split]['single_fragment'],single)
+                self.assertEqual(first['splits'][split]['multi_fragment'],multi)
+                total_single += single
+                total_multi += multi
                 for story in stories:
                     text = story.splitlines()[0][8:]
                     self.assertNotIn(text, membership)
                     membership[text] = split
+            self.assertEqual(first['single_fragment'],total_single)
+            self.assertEqual(first['multi_fragment'],total_multi)
+            self.assertEqual(total_single + total_multi,first['examples'])
             families = {}
             for unit in first['units']:
                 for family, text, _, _ in self.library.generate(unit):
