@@ -266,6 +266,8 @@ class FragmentRenderTests(unittest.TestCase):
         for field,value in [
                 ('fragment_spans',[]),('fragment_spans',[[]]),
                 ('fragment_spans',[[[0,4],[5,10]]]),('fragment_spans',[[[0,99]]]),
+                ('fragment_spans',[[[0,4]]]),('fragment_spans',[[[1,10]]]),
+                ('fragment_spans',[[[0,9]]]),
                 ('verb_spans',[]),('verb_spans',[[]]),
                 ('verb_spans',[[[0,4]]]),('verb_spans',[[[5,99]]])]:
             broken=deepcopy(annotations)
@@ -288,6 +290,17 @@ class FragmentRenderTests(unittest.TestCase):
             self.assertIn(first['line'],first[field][1])
             self.assertEqual(second[field],(value,[1,second['line']]))
         self.assertEqual(second['actor'],('pens',[second['line']]))
+
+    def test_fragment_cannot_drop_its_phrasal_verb_particle(self):
+        text='Mary turned it off.'
+        facts=[self.fact('Mary','turned off','turn off',object='it')]
+        lexical=[span(text,'turned'),span(text,'off')]
+        annotations=dict(predicate_spans=[lexical],verb_spans=[lexical],
+                         fragment_spans=[[span(text,'Mary turned it off')]])
+        validate_fact_spans(text,facts,annotations)
+        annotations['fragment_spans']=[[span(text,'Mary turned it')]]
+        with self.assertRaises(ValueError):
+            validate_fact_spans(text,facts,annotations)
 
     def test_fact_fields_cannot_override_fragment_or_surface_verb(self):
         for field in ('fragment','verb'):
@@ -501,6 +514,86 @@ class CorpusPredicateTests(unittest.TestCase):
                 self.assertEqual(groups[index]['verb'][0],verb)
                 self.assertEqual(groups[index]['action'][0],action)
                 self.assertEqual(groups[index]['predicate'][0],self.examples[text][index]['predicate'])
+
+    def test_take_time_question_separates_duration_from_the_infinitive(self):
+        text='How much time does it take you to prepare everything necessary?'
+        first,second=self.fragment_groups(book.render(text,self.examples[text],self.annotations[text]))
+        self.assertEqual(first['fragment'][0],'How much time does it take you')
+        self.assertEqual(second['fragment'][0],'to prepare everything necessary')
+        self.assertEqual(first['actor'],('preparing everything necessary',[1,first['line']]))
+        self.assertEqual(second['actor'],('addressee',[1,second['line']]))
+        self.assertEqual(first['verb'],('take',[first['line']]))
+        self.assertEqual(second['verb'],('prepare',[second['line']]))
+        self.assertEqual(second['object'],('everything necessary',[second['line']]))
+
+    def test_take_time_infinitive_chains_remain_separate_in_all_variants(self):
+        checked=0
+        for text,facts in self.examples.items():
+            spans=self.annotations[text]
+            for index,fact in enumerate(facts):
+                if fact['action']!='take' or fact.get('object')!='time':
+                    continue
+                head_end=spans['predicate_spans'][index][-1][1]
+                children=sorted((i for i,f in enumerate(facts)
+                                 if f['tense']=='nonfinite' and f['predicate'].lower().startswith('to ')
+                                 and spans['predicate_spans'][i][0][0]>head_end),
+                                key=lambda i:spans['predicate_spans'][i][0][0])
+                if not children:
+                    continue
+                checked+=1
+                with self.subTest(text=text):
+                    previous_end=spans['fragment_spans'][index][0][1]
+                    for child in children:
+                        start,end=spans['fragment_spans'][child][0]
+                        self.assertLessEqual(previous_end,start)
+                        self.assertTrue(text[start:end].startswith('to '))
+                        previous_end=end
+        self.assertGreater(checked,0)
+        for text,expected in [
+                ('How long does it take to study to be a doctor?',
+                 ['How long does it take','to study','to be a doctor']),
+                ('It takes me about two or three hours to do it.',
+                 ['It takes me about two or three hours','to do it']),
+                ('How long does it take you to get to work?',
+                 ['How long does it take you','to get to work']),
+                ('It can take him a few days to find everything out.',
+                 ['It can take him a few days','to find everything out']),
+                ('Do you know how long it takes to get there?',
+                 ['Do you know','how long it takes','to get there'])]:
+            with self.subTest(text=text):
+                groups=self.fragment_groups(book.render(text,self.examples[text],self.annotations[text]))
+                self.assertEqual([g['fragment'][0] for g in groups],expected)
+
+    def test_audited_clause_boundaries_preserve_complete_local_phrases(self):
+        cases=[
+            ('u51-e2-02',
+             ['When the alarm-clock rang','he turned it off','got up']),
+            ('u58-e1-b09',
+             ["I didn't trust Sam",'was sure',
+              'that sooner or later he would show his true attitude to us',
+              'then everybody would see','that I was right']),
+            ('u75-e3-example-b',
+             ["I don't mind",'your phoning him']),
+            ('u75-e1-example',
+             ['Going there by car is very convenient','Going there by car'])]
+        for identifier,expected in cases:
+            with self.subTest(identifier=identifier):
+                record=self.corpus.by_id[identifier]
+                annotations={key:record[key] for key in
+                             ('predicate_spans','fragment_spans','verb_spans')}
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],annotations))
+                self.assertEqual([group['fragment'][0] for group in groups],expected)
+
+    def test_anaphoric_do_keeps_local_surface_and_contextual_action(self):
+        record=self.corpus.by_id['u27-e4-b02']
+        annotations={key:record[key] for key in
+                     ('predicate_spans','fragment_spans','verb_spans')}
+        first,second=self.fragment_groups(book.render(record['text'],record['facts'],annotations))
+        self.assertEqual([first['fragment'][0],second['fragment'][0]],
+                         ['Children like singing','often do it badly'])
+        self.assertEqual(second['predicate'],('do',[second['line']]))
+        self.assertEqual(second['verb'],('do',[second['line']]))
+        self.assertEqual(second['action'],('sing',[1,second['line']]))
 
     def test_phrasal_verb_surface_retains_particles_without_intervening_object(self):
         for identifier,index,verb,action in [

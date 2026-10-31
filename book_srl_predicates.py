@@ -114,6 +114,10 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
             if field == 'fragment_spans':
                 if len(selected) != 1:
                     raise ValueError(_prefix(field_label) + 'A fragment must be one nonempty source span')
+                start, end = selected[0]
+                if ((start and text[start - 1].isalnum() and text[start].isalnum())
+                        or (end < len(text) and text[end - 1].isalnum() and text[end].isalnum())):
+                    raise ValueError(_prefix(field_label) + 'A fragment boundary cannot split a word')
             else:
                 predicate = annotations['predicate_spans'][index]
                 if (not selected and facts[index]['predicate'].casefold()
@@ -122,6 +126,21 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
                 if any(not any(a <= start < end <= b for a, b in predicate)
                        for start, end in selected):
                     raise ValueError(_prefix(field_label) + 'A verb must come from its predicate spans')
+    for index, verb in enumerate(annotations['verb_spans']):
+        if not verb:
+            continue
+        start, end = annotations['fragment_spans'][index][0]
+        head_start, head_end = verb[0]
+        if start <= head_start < head_end <= end:
+            if any(not start <= a < b <= end for a, b in verb):
+                raise ValueError(_prefix(label)
+                                 + f'Fact {index + 1}: fragment excludes part of its verb')
+            continue
+        shared = any(i != index and other and other[0] == verb[0]
+                     for i, other in enumerate(annotations['verb_spans']))
+        if not shared:
+            raise ValueError(_prefix(label)
+                             + f'Fact {index + 1}: fragment excludes its unshared verb')
 
 
 def expand_predicates(template_text: str, bindings: dict, template_spans: list,
