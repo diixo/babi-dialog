@@ -35535,7 +35535,11 @@
               "start": 3,
               "end": 6
             }
-          ]
+          ],
+          "positive_prefix": "",
+          "positive_verb": "has",
+          "negative_prefix": "doesn't ",
+          "negative_verb": "have"
         },
         {
           "id": "got",
@@ -35551,7 +35555,11 @@
               "start": 4,
               "end": 11
             }
-          ]
+          ],
+          "positive_prefix": "has ",
+          "positive_verb": "got",
+          "negative_prefix": "hasn't ",
+          "negative_verb": "got"
         }
       ]
     },
@@ -35743,7 +35751,9 @@
               "start": 0,
               "end": 1
             }
-          ]
+          ],
+          "negative_verb": "am",
+          "negative_tail": " not"
         },
         {
           "id": "you",
@@ -35761,7 +35771,9 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "negative_verb": "aren't",
+          "negative_tail": ""
         },
         {
           "id": "he",
@@ -35779,7 +35791,9 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "negative_verb": "isn't",
+          "negative_tail": ""
         },
         {
           "id": "she",
@@ -35797,7 +35811,9 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "negative_verb": "isn't",
+          "negative_tail": ""
         },
         {
           "id": "we",
@@ -35815,7 +35831,9 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "negative_verb": "aren't",
+          "negative_tail": ""
         },
         {
           "id": "they",
@@ -35833,7 +35851,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "negative_verb": "aren't",
+          "negative_tail": ""
         }
       ]
     },
@@ -45047,7 +45067,9 @@
               "start": 0,
               "end": 1
             }
-          ]
+          ],
+          "negative_verb": "am",
+          "negative_tail": " not"
         },
         {
           "id": "he",
@@ -45074,7 +45096,9 @@
               "start": 0,
               "end": 2
             }
-          ]
+          ],
+          "negative_verb": "isn't",
+          "negative_tail": ""
         },
         {
           "id": "she",
@@ -45101,7 +45125,9 @@
               "start": 0,
               "end": 3
             }
-          ]
+          ],
+          "negative_verb": "isn't",
+          "negative_tail": ""
         },
         {
           "id": "they",
@@ -45128,7 +45154,9 @@
               "start": 0,
               "end": 4
             }
-          ]
+          ],
+          "negative_verb": "aren't",
+          "negative_tail": ""
         }
       ]
     },

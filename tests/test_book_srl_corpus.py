@@ -71,7 +71,7 @@ class CorpusTests(unittest.TestCase):
                     'I hear (that) they have just moved to a new flat.',
                     "She hasn't washed (her face) yet."}
         for record in self.library.records:
-            self.assertEqual(set(record), {'id', 'unit', 'text', 'facts', 'predicate_spans'})
+            self.assertEqual(set(record), {'id', 'unit', 'text', 'facts', 'predicate_spans', 'fragment_spans', 'verb_spans'})
             self.assertNotIn(record['text'], excluded)
             self.assertNotIn('.......', record['text'])
             self.assertNotIn('<br>', record['text'])
@@ -86,6 +86,8 @@ class CorpusTests(unittest.TestCase):
             lambda data: data['sentences'][0].update(text='I have ....... book.'),
             lambda data: data['sentences'][0].update(raw='original paragraph'),
             lambda data: data['sentences'][0].update(facts=[]),
+            lambda data: data['sentences'][0].pop('fragment_spans'),
+            lambda data: data['sentences'][0].update(verb_spans=[]),
             lambda data: data['sentences'][0].update(unit=85),
             lambda data: data['sentences'].append(deepcopy(data['sentences'][0])),
         ]
@@ -144,13 +146,14 @@ class CorpusTests(unittest.TestCase):
             path = directory / CORPUS_NAME
             data = json.loads(path.read_text(encoding='utf-8'))
             data['sentences'].append(dict(id='manual-english-example', unit=1,
-                text='Mary reads.', predicate_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
+                text='Mary reads.', predicate_spans=[[[5,10]]],
+                fragment_spans=[[[0,10]]], verb_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
                     intention='none', operation='none', object='none')]))
             path.write_text(json.dumps(data), encoding='utf-8')
             with redirect_stdout(io.StringIO()):
                 book.main(['--library', str(directory), '--out', str(directory / 'out')])
             library = book.Library(directory)
-            examples = {text:facts for _,text,facts in library.generate(1)}
+            examples = {text:facts for _,text,facts,_ in library.generate(1)}
             self.assertEqual(examples['Mary reads.'][0]['actor'], 'mary')
             template = next(t for t in library.units[1]['templates'] if t['id']=='manual-english-example')
             self.assertEqual(template['slots'], {})
@@ -162,6 +165,8 @@ class UnifiedBuildTests(unittest.TestCase):
         text=f'{name} reads.'
         return dict(id=identifier, unit=unit, text=text,
                     predicate_spans=[[[len(name)+1, len(text)-1]]],
+                    fragment_spans=[[[0,len(text)-1]]],
+                    verb_spans=[[[len(name)+1,len(text)-1]]],
                     facts=[dict(actor=name, predicate='reads', action='read',
                                 intention='none', operation='none', object='none')])
 
@@ -179,12 +184,16 @@ class UnifiedBuildTests(unittest.TestCase):
                       slots={'person':'people'}, original={'person':'mary'}, constraints=[],
                       facts=[dict(record['facts'][0], actor='{person.word}')],
                       predicate_spans=[[[text.index('reads'), len(text)-1]]],
+                      fragment_spans=[[[0,len(text)-1]]],
+                      verb_spans=[[[text.index('reads'),len(text)-1]]],
                       source=dict(sentence=record['id'], unit=1, text=record['text']))
         lessons=[dict(unit=1,templates=[template])]
         for record in records[1:]:
             fixed=dict(id=record['id'],family=record['id'],text=record['text'],
                        slots={},original={},constraints=[],facts=deepcopy(record['facts']),
                        predicate_spans=deepcopy(record['predicate_spans']),
+                       fragment_spans=deepcopy(record['fragment_spans']),
+                       verb_spans=deepcopy(record['verb_spans']),
                        source=dict(sentence=record['id'],unit=record['unit'],text=record['text']))
             lessons.append(dict(unit=record['unit'],templates=[fixed]))
         catalogue=dict(schema_version=1,
@@ -327,7 +336,8 @@ class UnifiedBuildTests(unittest.TestCase):
                 self.assertFalse(list(directory.iterdir()))
 
     def test_invalid_sync_or_incomplete_corpus_preserves_catalogue_and_existing_outputs(self):
-        for problem in ('manual facts','duplicate','variant','conflict','incomplete','empty lesson'):
+        for problem in ('manual facts','duplicate','variant','conflict','incomplete','empty lesson',
+                        'fragment evidence','verb evidence'):
             with self.subTest(problem=problem), tempfile.TemporaryDirectory() as folder:
                 directory=Path(folder)
                 source,catalogue,vocabulary=self.fixture(directory)
@@ -339,6 +349,10 @@ class UnifiedBuildTests(unittest.TestCase):
                     record=self.record('conflicting','Nora')
                     record['facts'][0]['actor']='someone else'
                     source['sentences'].append(record)
+                elif problem=='fragment evidence':
+                    catalogue['lessons'][0]['templates'][0]['fragment_spans']=[[[0,1]]]
+                elif problem=='verb evidence':
+                    source['sentences'][-1]['verb_spans']=[[[0,6]]]
                 else:
                     source['completed_units'].remove(84)
                     if problem=='empty lesson':source['sentences'].pop()

@@ -17,13 +17,27 @@ import re
 from typing import Callable, Iterator
 
 from book_srl_corpus import CorpusLibrary, read_json
-from book_srl_predicates import expand_predicates, validate_predicates, substitute
+from book_srl_predicates import (SPAN_FIELDS, expand_predicates, predicate_from_spans,
+                                 validate_fact_spans, substitute)
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_LIBRARY = ROOT / 'data' / 'book_srl'
 DEFAULT_OUT = ROOT / 'products-book-srl'
 CORE_FIELDS = ('actor', 'predicate', 'action', 'intention', 'operation', 'object')
 OPERATIONS = {'none', 'add', 'remove', 'replace', 'keep', 'clear', 'complete'}
+AUXILIARY_ACTIONS = {
+    'am': 'be', 'is': 'be', 'are': 'be', 'was': 'be', 'were': 'be',
+    'be': 'be', 'been': 'be', 'being': 'be', "'m": 'be', "'re": 'be',
+    "'s": 'be', 'do': 'do', 'does': 'do', 'did': 'do', 'done': 'do',
+    'have': 'have', 'has': 'have', 'had': 'have', "'ve": 'have',
+    'can': 'unknown', 'ca': 'unknown', 'could': 'unknown',
+    'will': 'unknown', 'wo': 'unknown', "'ll": 'unknown',
+    'would': 'unknown', "'d": 'unknown', 'shall': 'unknown',
+    'should': 'unknown', 'must': 'unknown', 'may': 'unknown', 'might': 'unknown',
+}
+CONTEXT_FIELDS = {'intention', 'operation', 'aspect', 'voice', 'polarity', 'status',
+                  'verb_form', 'form', 'participle_form', 'form_voice', 'degree',
+                  'syntactic_function', 'modality', 'modal_meaning', 'negation_scope'}
 
 
 def validate(text, facts):
@@ -34,6 +48,8 @@ def validate(text, facts):
     for fact in facts:
         if any(field not in fact for field in CORE_FIELDS):
             raise ValueError(f'Missing fact fields for {text!r}')
+        if {'fragment', 'verb'} & fact.keys():
+            raise ValueError('fragment and verb are derived from source spans, not fact fields')
         for field, value in fact.items():
             if not re.fullmatch(r'[a-z][a-z0-9_]*', field):
                 raise ValueError(f'Invalid fact field: {field!r}')
@@ -43,14 +59,54 @@ def validate(text, facts):
             raise ValueError(f'Invalid operation: {fact["operation"]!r}')
 
 
-def render(text, facts):
+def render(text, facts, annotations):
     validate(text, facts)
+    validate_fact_spans(text, facts, annotations)
     rows = ['User: ' + text]
-    for index, fact in enumerate(facts, 1):
-        suffix = f' {index}' if len(facts) > 1 else ''
-        fields = list(CORE_FIELDS) + [field for field in fact if field not in CORE_FIELDS]
+
+    def contained(spans, start, end):
+        return all(start <= a < b <= end for a, b in spans)
+
+    def present(value, fragment):
+        return bool(re.search(r'(?<!\w)' + re.escape(value) + r'(?!\w)', fragment, re.I))
+
+    for index, fact in enumerate(facts):
+        start, end = annotations['fragment_spans'][index][0]
+        fragment = text[start:end]
+        rows.append(f'fragment?\t{fragment}\t1')
+        fragment_line = len(rows)
+        verb = predicate_from_spans(text, annotations['verb_spans'][index])
+        fields = ['actor', 'predicate', 'verb', 'action', 'intention', 'operation', 'object']
+        fields += [field for field in fact if field not in fields and field != 'tense']
         for field in fields:
-            rows.append(f'{field.replace("_", " ")}{suffix}?\t{fact[field]}\t1')
+            value = verb if field == 'verb' else fact[field]
+            if value == 'none' and field not in ('predicate', 'verb'):
+                continue
+            # References outside the selected fragment stay attached to the
+            # complete input. Labels alone cannot establish local evidence.
+            local = (not text[:start].strip(' \t.,;:!?\"')
+                     and not text[end:].strip(' \t.,;:!?\"'))
+            if value == 'unknown':
+                local = True
+            elif field == 'predicate':
+                local = local or contained(annotations['predicate_spans'][index], start, end)
+            elif field == 'verb':
+                local = local or contained(annotations['verb_spans'][index], start, end)
+            elif field == 'action':
+                auxiliary = verb.casefold().replace('’', "'")
+                if auxiliary.endswith("n't"):
+                    auxiliary = auxiliary[:-3]
+                auxiliary_action = AUXILIARY_ACTIONS.get(auxiliary)
+                # Elliptical auxiliaries/to can stand for an action expressed
+                # elsewhere. Its normalized label needs that complete context.
+                local = local or (bool(annotations['verb_spans'][index])
+                    and contained(annotations['predicate_spans'][index], start, end)
+                    and (auxiliary_action is None or auxiliary_action == value))
+            elif field not in CONTEXT_FIELDS:
+                surface = {'user': 'I', 'addressee': 'you'}.get(value, value) if field == 'actor' else value
+                local = local or present(surface, fragment)
+            refs = str(fragment_line) if local else f'1 {fragment_line}'
+            rows.append(f'{field.replace("_", " ")}?\t{value}\t{refs}')
     return '\n'.join(f'{i} {row}' for i, row in enumerate(rows, 1)) + '\n\n'
 
 
@@ -96,11 +152,10 @@ class Library:
                         raise ValueError(f'{template["id"]}: invalid compatible pair')
                 if not self.compatible(template, original):
                     raise ValueError(f'{template["id"]}: original bindings are incompatible')
-                text, spans, _ = expand_predicates(template['text'], original,
-                    template.get('predicate_spans'), template['id'])
+                text, annotations = self.expand_spans(template, original)
                 facts = substitute(template['facts'], original)
                 validate(text, facts)
-                validate_predicates(text, facts, spans, template['id'])
+                validate_fact_spans(text, facts, annotations, template['id'])
                 if text != template['source']['text']:
                     raise ValueError(f'{template["id"]}: original sentence cannot be reconstructed')
                 if template['source']['unit'] != lesson['unit']:
@@ -110,8 +165,9 @@ class Library:
                     raise ValueError(f'{template["id"]}: unknown source sentence')
                 if text != source['text'] or facts != source['facts']:
                     raise ValueError(f'{template["id"]}: template differs from the English sentence or its manual facts')
-                if spans != source['predicate_spans']:
-                    raise ValueError(f'{template["id"]}: template differs from the manual predicate spans')
+                for field in SPAN_FIELDS:
+                    if annotations[field] != source[field]:
+                        raise ValueError(f'{template["id"]}: template differs from the manual {field}')
         if seen != set(corpus.by_id):
             raise ValueError('Every English sentence must have a template; run build_book_srl.py to synchronize it')
 
@@ -131,6 +187,15 @@ class Library:
         return all([bindings[name]['id'] for name in constraint['slots']] in constraint['pairs']
                    for constraint in template.get('constraints', []))
 
+    @staticmethod
+    def expand_spans(template, bindings):
+        annotations = {}
+        for field in SPAN_FIELDS:
+            text, spans, _ = expand_predicates(template['text'], bindings,
+                                               template.get(field), f'{template["id"]}: {field}')
+            annotations[field] = spans
+        return text, annotations
+
     def generate(self, unit):
         for template in self.units[unit]['templates']:
             domains = self.template_domains(template)
@@ -139,11 +204,10 @@ class Library:
                 bindings = dict(zip(names, values))
                 if not self.compatible(template, bindings):
                     continue
-                text, spans, _ = expand_predicates(template['text'], bindings,
-                    template['predicate_spans'], template['id'])
+                text, annotations = self.expand_spans(template, bindings)
                 facts = substitute(template['facts'], bindings)
-                validate_predicates(text, facts, spans, template['id'])
-                yield template['family'], text, facts
+                validate_fact_spans(text, facts, annotations, template['id'])
+                yield template['family'], text, facts, annotations
 
 
 def synchronize_templates(directory=DEFAULT_LIBRARY):
@@ -171,7 +235,7 @@ def synchronize_templates(directory=DEFAULT_LIBRARY):
             if template is None:
                 template = dict(id=record['id'], family=record['id'], text=record['text'],
                     slots={}, original={}, constraints=[], facts=deepcopy(record['facts']),
-                    predicate_spans=deepcopy(record['predicate_spans']))
+                    **{field: deepcopy(record[field]) for field in SPAN_FIELDS})
             template['source'] = dict(sentence=record['id'], unit=unit, text=record['text'])
             prepared.append(template)
         lessons.append(dict(unit=unit, templates=prepared))
@@ -198,21 +262,21 @@ def build(library, out=None):
         return family
 
     for unit in units:
-        for family, text, facts in library.generate(unit):
-            story = render(text, facts)
+        for family, text, facts, annotations in library.generate(unit):
+            story = render(text, facts, annotations)
             key = ' '.join(text.casefold().split())
             root(family)
             if key in examples:
-                previous_family, previous_story, _ = examples[key]
-                if previous_story != story:
+                previous_family, previous_story, _, previous_facts = examples[key]
+                if previous_story != story or previous_facts != facts:
                     raise ValueError(f'Conflicting facts for {text!r}: {previous_family}, {family}')
                 first, second = sorted((root(previous_family), root(family)))
                 parents[second] = first
             else:
-                examples[key] = (family, story, sum(len(f) for f in facts))
+                examples[key] = (family, story, validate_story(story), facts)
     splits = {name: [] for name in ('train','valid','test')}
     qa = {name: 0 for name in splits}
-    for family, story, count in examples.values():
+    for family, story, count, _ in examples.values():
         name = split_for(root(family))
         splits[name].append(story)
         qa[name] += count

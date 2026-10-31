@@ -1,5 +1,6 @@
 from copy import deepcopy
 import json
+import re
 from pathlib import Path
 import tempfile
 import unittest
@@ -15,7 +16,10 @@ class FactTemplateTests(unittest.TestCase):
         cls.corpus = CorpusLibrary(book.DEFAULT_LIBRARY)
         cls.templates = [t for u in cls.library.units.values() for t in u['templates']]
         cls.examples = {text: facts for u in cls.corpus.completed_units
-                        for _, text, facts in cls.library.generate(u)}
+                        for _, text, facts, _ in cls.library.generate(u)}
+
+        cls.annotations = {text: annotations for u in cls.corpus.completed_units
+                           for _, text, _, annotations in cls.library.generate(u)}
 
     def test_each_english_sentence_has_a_template_and_its_original_facts(self):
         expected = dict(self.corpus.by_id)
@@ -72,21 +76,39 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual(self.examples['Put them in the wardrobe.'][0]['object'], 'them')
         self.assertEqual(self.examples['He saw the dog and liked it at once.'][1]['object'], 'dog')
 
-    def test_flat_questions_keep_multiple_actions_separate(self):
+    def test_fragments_scope_unindexed_questions_and_preserve_whole_utterance(self):
         text = 'He saw the dog and liked it at once.'
-        output = book.render(text, self.examples[text])
-        self.assertIn('action 1?\tsee\t1', output)
-        self.assertIn('action 2?\tlike\t1', output)
+        output = book.render(text, self.examples[text], self.annotations[text])
+        self.assertIn('action?\tsee\t', output)
+        self.assertIn('action?\tlike\t', output)
         self.assertNotIn('Assistant:', output)
-        self.assertIn('predicate 1?\tsaw\t1', output)
-        self.assertIn('predicate 2?\tliked\t1', output)
+        self.assertIn('predicate?\tsaw\t', output)
+        self.assertIn('predicate?\tliked\t', output)
         self.assertNotIn('next action?', output)
         for text, facts in self.examples.items():
-            lines = book.render(text, facts).strip().splitlines()
+            lines = book.render(text, facts, self.annotations[text]).strip().splitlines()
             self.assertEqual(lines[0], '1 User: ' + text)
+            current_fragment = None
+            fragments = 0
             for index, line in enumerate(lines[1:], 2):
                 self.assertTrue(line.startswith(str(index) + ' '))
-                self.assertEqual(line.split('\t')[-1], '1')
+                question, answer, evidence = line.partition(' ')[2].split('\t')
+                refs = list(map(int,evidence.split()))
+                self.assertIsNone(re.search(r'\s\d+\?$',question),question)
+                self.assertNotEqual(question,'tense?')
+                if answer == 'none':
+                    self.assertIn(question,('predicate?','verb?'))
+                self.assertTrue(all(1 <= ref < index for ref in refs))
+                if question == 'fragment?':
+                    self.assertEqual(refs,[1])
+                    self.assertIn(answer,text)
+                    current_fragment = index
+                    fragments += 1
+                else:
+                    self.assertIsNotNone(current_fragment)
+                    self.assertIn(current_fragment,refs)
+                    self.assertTrue(set(refs) <= {1,current_fragment})
+            self.assertEqual(fragments,len(facts))
 
     def test_repeated_builds_and_split_family_isolation(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -99,13 +121,17 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual(first['units'], list(range(1,85)))
             membership = {}
             for split in ('train', 'valid', 'test'):
-                for story in (out / (split + '.txt')).read_text(encoding='utf-8').strip().split('\n\n'):
+                stories = (out / (split + '.txt')).read_text(encoding='utf-8').strip().split('\n\n')
+                self.assertEqual(first['splits'][split]['stories'],len(stories))
+                self.assertEqual(first['splits'][split]['qa'],
+                                 sum(len(story.splitlines())-1 for story in stories))
+                for story in stories:
                     text = story.splitlines()[0][8:]
                     self.assertNotIn(text, membership)
                     membership[text] = split
             families = {}
             for unit in first['units']:
-                for family, text, _ in self.library.generate(unit):
+                for family, text, _, _ in self.library.generate(unit):
                     families.setdefault(family, set()).add(membership[text])
             self.assertTrue(all(len(splits) == 1 for splits in families.values()))
 
@@ -217,8 +243,8 @@ class FactTemplateTests(unittest.TestCase):
         fact = self.examples['She likes to talk about herself.'][1]
         self.assertEqual((fact['actor'], fact['topic'], fact['reflexive']), ('she', 'she', 'yes'))
         self.assertEqual(self.examples['Behave yourself!'][0]['object'], 'addressee')
-        output = book.render('I hurt myself.', self.examples['I hurt myself.'])
-        self.assertIn('reflexive?\tyes\t1', output)
+        output = book.render('I hurt myself.', self.examples['I hurt myself.'], self.annotations['I hurt myself.'])
+        self.assertRegex(output, r'reflexive\?\tyes\t(?:1 )?2\n')
 
     def test_reflexive_bindings_change_the_subject_and_self_form_together(self):
         facts = self.examples['We burnt ourselves.']

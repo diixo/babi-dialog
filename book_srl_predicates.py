@@ -10,6 +10,8 @@ import re
 
 from string import Formatter
 
+SPAN_FIELDS = ('predicate_spans', 'fragment_spans', 'verb_spans')
+
 
 def substitute(value, bindings: dict):
     """Resolve dictionary paths only; no eval, attribute access or format tricks."""
@@ -95,6 +97,31 @@ def validate_predicates(text: str, facts: list, spans: list, label: str = '') ->
         if fact['predicate'] != predicate:
             raise ValueError(_prefix(fact_label)
                              + f'Predicate {fact["predicate"]!r} differs from its source spans {predicate!r}')
+
+
+def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = '') -> None:
+    """Check stored fragments and surface verbs without inferring new annotation."""
+    if not isinstance(annotations, dict):
+        raise ValueError(_prefix(label) + 'Missing fact spans')
+    validate_predicates(text, facts, annotations.get('predicate_spans'), label)
+    for field in ('fragment_spans', 'verb_spans'):
+        spans = annotations.get(field)
+        if not isinstance(spans, list) or len(spans) != len(facts):
+            raise ValueError(_prefix(label) + f'{field} must have one entry per fact')
+        for index, selected in enumerate(spans):
+            field_label = f'{label}: fact {index + 1}: {field}'
+            predicate_from_spans(text, selected, field_label)
+            if field == 'fragment_spans':
+                if len(selected) != 1:
+                    raise ValueError(_prefix(field_label) + 'A fragment must be one nonempty source span')
+            else:
+                predicate = annotations['predicate_spans'][index]
+                if (not selected and facts[index]['predicate'].casefold()
+                        not in ('none', 'to', 'not to', 'to not')):
+                    raise ValueError(_prefix(field_label) + 'A retained verb needs a source span')
+                if any(not any(a <= start < end <= b for a, b in predicate)
+                       for start, end in selected):
+                    raise ValueError(_prefix(field_label) + 'A verb must come from its predicate spans')
 
 
 def expand_predicates(template_text: str, bindings: dict, template_spans: list,

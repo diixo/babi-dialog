@@ -6,7 +6,7 @@ import unittest
 import build_book_srl as book
 from build_book_srl import substitute
 from book_srl_corpus import CorpusLibrary
-from book_srl_predicates import expand_predicates, predicate_from_spans, validate_predicates
+from book_srl_predicates import expand_predicates, predicate_from_spans, validate_predicates, validate_fact_spans
 
 
 def span(text, piece, start=0):
@@ -220,13 +220,112 @@ class PredicateTemplateTests(unittest.TestCase):
         self.assertEqual(anchors, [[[10, 12]]])
 
 
+class FragmentRenderTests(unittest.TestCase):
+    @staticmethod
+    def fact(actor,predicate,action,**roles):
+        return dict(actor=actor,predicate=predicate,action=action,intention='none',
+                    operation='none',object=roles.pop('object','none'),tense='past',**roles)
+
+    def test_multi_sentence_utterance_has_one_story_and_cross_fragment_evidence(self):
+        text='Mary opened the door. John closed it.'
+        facts=[self.fact('Mary','opened','open',object='door'),
+               self.fact('John','closed','close',object='door')]
+        annotations=dict(predicate_spans=[[span(text,'opened')],[span(text,'closed')]],
+                         verb_spans=[[span(text,'opened')],[span(text,'closed')]],
+                         fragment_spans=[[span(text,'Mary opened the door')],[span(text,'John closed it')]])
+        rendered=book.render(text,facts,annotations)
+        groups=CorpusPredicateTests.fragment_groups(rendered)
+        self.assertEqual(rendered.splitlines()[0],'1 User: '+text)
+        self.assertEqual(rendered.count('1 User:'),1)
+        self.assertEqual(len(rendered.strip().split('\n\n')),1)
+        self.assertEqual(groups[0]['actor'],('Mary',[groups[0]['line']]))
+        self.assertEqual(groups[1]['actor'],('John',[groups[1]['line']]))
+        self.assertEqual(groups[1]['object'],('door',[1,groups[1]['line']]))
+        self.assertNotIn('tense?',rendered)
+
+    def test_negated_compound_phrasal_verb_keeps_verb_form_particle_and_state(self):
+        text="He hadn't turned it off."
+        facts=[self.fact('he',"hadn't turned off",'turn off',object='it',
+                         aspect='perfect',polarity='negative')]
+        annotations=dict(predicate_spans=[[span(text,"hadn't turned"),span(text,'off')]],
+                         verb_spans=[[span(text,'turned'),span(text,'off')]],
+                         fragment_spans=[[[0,len(text)-1]]])
+        group=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))[0]
+        self.assertEqual(group['predicate'][0],"hadn't turned off")
+        self.assertEqual(group['verb'][0],'turned off')
+        self.assertEqual(group['action'][0],'turn off')
+        self.assertEqual(group['aspect'][0],'perfect')
+        self.assertEqual(group['polarity'][0],'negative')
+        self.assertNotIn('tense',group)
+
+    def test_frame_spans_reject_misalignment_or_fabricated_verb_evidence(self):
+        text='Mary reads.'
+        facts=[self.fact('Mary','reads','read')]
+        annotations=dict(predicate_spans=[[[5,10]]],fragment_spans=[[[0,10]]],verb_spans=[[[5,10]]])
+        validate_fact_spans(text,facts,annotations)
+        for field,value in [
+                ('fragment_spans',[]),('fragment_spans',[[]]),
+                ('fragment_spans',[[[0,4],[5,10]]]),('fragment_spans',[[[0,99]]]),
+                ('verb_spans',[]),('verb_spans',[[]]),
+                ('verb_spans',[[[0,4]]]),('verb_spans',[[[5,99]]])]:
+            broken=deepcopy(annotations)
+            broken[field]=value
+            with self.subTest(field=field,value=value),self.assertRaises(ValueError):
+                validate_fact_spans(text,facts,broken)
+
+    def test_shared_copula_outside_argument_fragment_uses_full_source_evidence(self):
+        text='There is a book and two pens on the table.'
+        facts=[self.fact('book','is','exist',location='table'),
+               self.fact('pens','is','exist',quantity='two',location='table')]
+        shared=span(text,'is')
+        annotations=dict(predicate_spans=[[shared],[shared]],verb_spans=[[shared],[shared]],
+                         fragment_spans=[[span(text,'There is a book')],
+                                         [span(text,'two pens on the table')]])
+        validate_fact_spans(text,facts,annotations)
+        first,second=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))
+        for field,value in [('predicate','is'),('verb','is'),('action','exist')]:
+            self.assertEqual(first[field][0],value)
+            self.assertIn(first['line'],first[field][1])
+            self.assertEqual(second[field],(value,[1,second['line']]))
+        self.assertEqual(second['actor'],('pens',[second['line']]))
+
+    def test_fact_fields_cannot_override_fragment_or_surface_verb(self):
+        for field in ('fragment','verb'):
+            fact=self.fact('Mary','reads','read')
+            fact[field]='invented'
+            with self.subTest(field=field),self.assertRaisesRegex(ValueError,'derived from source spans'):
+                book.validate('Mary reads.',[fact])
+
+    def test_frame_offsets_follow_subject_and_phrasal_verb_substitutions(self):
+        template='{subject.word} has {verb.word} it {verb.particle}.'
+        template_spans=dict(
+            predicate_spans=[[span(template,'has {verb.word}'),span(template,'{verb.particle}')]],
+            verb_spans=[[span(template,'{verb.word}'),span(template,'{verb.particle}')]],
+            fragment_spans=[[[0,len(template)-1]]])
+        for subject,word,particle,action in [('She','turned','off','turn off'),
+                                             ('The new manager','picked','up','pick up')]:
+            bindings=dict(subject=dict(word=subject),verb=dict(word=word,particle=particle))
+            annotations={key:expand_predicates(template,bindings,selected)[1]
+                         for key,selected in template_spans.items()}
+            text=substitute(template,bindings)
+            facts=[self.fact(subject,f'has {word} {particle}',action,object='it')]
+            with self.subTest(text=text):
+                groups=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))
+                self.assertEqual(groups[0]['fragment'][0],text[:-1])
+                self.assertEqual(groups[0]['verb'][0],f'{word} {particle}')
+                self.assertEqual(groups[0]['action'][0],action)
+
+
 class CorpusPredicateTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.library = book.Library()
         cls.corpus = CorpusLibrary(book.DEFAULT_LIBRARY)
         cls.examples = {text: facts for unit in cls.library.units
-                        for _, text, facts in cls.library.generate(unit)}
+                        for _, text, facts, _ in cls.library.generate(unit)}
+
+        cls.annotations = {text: annotations for unit in cls.library.units
+                           for _, text, _, annotations in cls.library.generate(unit)}
 
     def predicates(self, identifier):
         return [fact['predicate'] for fact in self.corpus.by_id[identifier]['facts']]
@@ -351,15 +450,110 @@ class CorpusPredicateTests(unittest.TestCase):
                 self.assertNotIn('  ', text)
                 self.assertNotIn('  ', facts[0]['predicate'])
 
-    def test_generated_qa_exposes_predicate_and_action_but_not_service_offsets(self):
+    @staticmethod
+    def fragment_groups(rendered):
+        groups = []
+        for row in rendered.strip().splitlines()[1:]:
+            number, _, body = row.partition(' ')
+            question, answer, refs = body.split('\t')
+            value = (answer, list(map(int,refs.split())))
+            if question == 'fragment?':
+                groups.append({'line': int(number), 'fragment': value})
+            else:
+                groups[-1][question[:-1]] = value
+        return groups
+
+    def test_generated_qa_scopes_identical_copulas_and_shared_roles_to_fragments(self):
         text = 'Yes, he is, but he is taller and seems much stronger than Paul.'
-        rendered = book.render(text, self.examples[text])
-        self.assertIn('predicate 1?\tis\t1\n', rendered)
-        self.assertIn('predicate 2?\tis\t1\n', rendered)
-        self.assertIn('predicate 3?\tseems\t1\n', rendered)
-        self.assertIn('action 1?\tbe\t1\n', rendered)
+        rendered = book.render(text, self.examples[text], self.annotations[text])
+        first,second,third = self.fragment_groups(rendered)
+        self.assertEqual([group['fragment'][0] for group in (first,second,third)],
+                         ['Yes, he is','he is taller','seems much stronger than Paul'])
+        self.assertEqual([group['predicate'][0] for group in (first,second,third)],
+                         ['is','is','seems'])
+        self.assertEqual([group['verb'][0] for group in (first,second,third)],
+                         ['is','is','seems'])
+        self.assertEqual([group['action'][0] for group in (first,second,third)],
+                         ['be','be','seem'])
+        self.assertEqual(first['complement'],('unknown',[first['line']]))
+        self.assertEqual(second['comparison'],('Paul',[1,second['line']]))
+        self.assertEqual(third['actor'],('he',[1,third['line']]))
+        self.assertEqual(third['comparison'],('Paul',[third['line']]))
+        self.assertEqual(third['intensity'],('much',[third['line']]))
+        for group in (first,second,third):
+            self.assertNotIn('tense',group)
+            self.assertNotIn('intention',group)
+            self.assertNotIn('operation',group)
+            self.assertNotIn('object',group)
+        self.assertEqual(len(rendered.strip().split('\n\n')),1)
         self.assertNotIn('spans', rendered)
         self.assertNotIn('offset', rendered)
+
+    def test_generated_verbs_pair_surface_forms_with_actions_in_complex_groups(self):
+        cases = [
+            ("She's been sleeping for two hours already.",0,'sleeping','sleep'),
+            ('Has all the necessary information been collected?',0,'collected','collect'),
+            ('Have you seen them?',0,'seen','see'),
+            ("I did it and I'd do it again.",1,'do','do')]
+        for text,index,verb,action in cases:
+            with self.subTest(text=text):
+                groups = self.fragment_groups(book.render(text,self.examples[text],self.annotations[text]))
+                self.assertEqual(groups[index]['verb'][0],verb)
+                self.assertEqual(groups[index]['action'][0],action)
+                self.assertEqual(groups[index]['predicate'][0],self.examples[text][index]['predicate'])
+
+    def test_phrasal_verb_surface_retains_particles_without_intervening_object(self):
+        for identifier,index,verb,action in [
+                ('u51-e2-02',1,'turned off','turn off'),
+                ('u65-e3-example',1,'hit back','hit back'),
+                ('u80-e3-example-task',0,'phoned back','phone back')]:
+            with self.subTest(identifier=identifier):
+                record = self.corpus.by_id[identifier]
+                groups = self.fragment_groups(book.render(record['text'],record['facts'],
+                    {key:record[key] for key in ('predicate_spans','fragment_spans','verb_spans')}))
+                self.assertEqual(groups[index]['verb'][0],verb)
+                self.assertEqual(groups[index]['action'][0],action)
+
+    def test_nested_fact_order_preserves_each_fragment_and_verb(self):
+        record = self.corpus.by_id['u01-33d261b01c56e2c9-1-v1-s1']
+        groups = self.fragment_groups(book.render(record['text'],record['facts'],
+            {key:record[key] for key in ('predicate_spans','fragment_spans','verb_spans')}))
+        self.assertEqual([group['verb'][0] for group in groups],['is','translating'])
+        self.assertIn('is rather difficult',groups[0]['fragment'][0])
+        self.assertIn('translating',groups[1]['fragment'][0])
+
+    def test_shared_auxiliary_keeps_full_predicate_and_source_evidence(self):
+        record = self.corpus.by_id['u42-t06']
+        groups = self.fragment_groups(book.render(record['text'],record['facts'],
+            {key:record[key] for key in ('predicate_spans','fragment_spans','verb_spans')}))
+        self.assertEqual([group['verb'][0] for group in groups],['arrive','leave','take'])
+        self.assertEqual([group['predicate'][0] for group in groups],
+                         ["'ll arrive","'ll leave","'ll take"])
+        for index,group in enumerate(groups):
+            outside = any(not any(a <= p and q <= b for a,b in record['fragment_spans'][index])
+                          for p,q in record['predicate_spans'][index])
+            if outside:
+                self.assertEqual(group['predicate'][1],[1,group['line']])
+
+    def test_elliptical_predicate_does_not_invent_a_surface_verb(self):
+        for identifier,index in [('u24-t06',0),('u26-e3-06',2)]:
+            with self.subTest(identifier=identifier):
+                record = self.corpus.by_id[identifier]
+                groups = self.fragment_groups(book.render(record['text'],record['facts'],
+                    {key:record[key] for key in ('predicate_spans','fragment_spans','verb_spans')}))
+                self.assertEqual(groups[index]['verb'][0],'none')
+                self.assertEqual(groups[index]['action'][0],record['facts'][index]['action'])
+
+    def test_ellipsis_and_inherited_negation_keep_context_evidence(self):
+        for identifier,index,field,value in [('u26-e3-06',2,'action','treat'),
+                                            ('u79-e3-07',1,'polarity','negative'),
+                                            ('u79-e3-07',1,'status','required')]:
+            with self.subTest(identifier=identifier,field=field):
+                record=self.corpus.by_id[identifier]
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],
+                    {key:record[key] for key in ('predicate_spans','fragment_spans','verb_spans')}))
+                group=groups[index]
+                self.assertEqual(group[field],(value,[1,group['line']]))
 
     def test_corrupted_template_predicate_fails_before_overwriting_outputs(self):
         library = deepcopy(self.library)
