@@ -302,6 +302,80 @@ class FragmentRenderTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_fact_spans(text,facts,annotations)
 
+    def test_fragment_boundaries_preserve_contractions_and_hyphenated_words(self):
+        for apostrophe in ("'",'\u2018','\u2019','\u02bc'):
+            text=f'He{apostrophe}s ready.'
+            verb=apostrophe+'s'
+            facts=[self.fact('he',verb,'be',complement='ready')]
+            annotations=dict(predicate_spans=[[span(text,verb)]],
+                             verb_spans=[[span(text,verb)]],
+                             fragment_spans=[[[0,len(text)-1]]])
+            with self.subTest(text=text):
+                validate_fact_spans(text,facts,annotations)
+                annotations['fragment_spans']=[[span(text,verb+' ready')]]
+                with self.assertRaisesRegex(ValueError,'split a word'):
+                    validate_fact_spans(text,facts,annotations)
+        for hyphen in ('-','\u2010','\u2011'):
+            text=f'He hired a well{hyphen}known actor.'
+            facts=[self.fact('he','hired','hire',object='actor')]
+            annotations=dict(predicate_spans=[[span(text,'hired')]],
+                             verb_spans=[[span(text,'hired')]],
+                             fragment_spans=[[[0,len(text)-1]]])
+            with self.subTest(text=text):
+                validate_fact_spans(text,facts,annotations)
+                annotations['fragment_spans']=[[span(text,'He hired a well')]]
+                with self.assertRaisesRegex(ValueError,'split a word'):
+                    validate_fact_spans(text,facts,annotations)
+
+    def test_shared_copula_requires_a_fragment_that_contains_it(self):
+        text='There is a book and two pens.'
+        facts=[self.fact('book','is','exist'),self.fact('pens','is','exist')]
+        shared=span(text,'is')
+        annotations=dict(predicate_spans=[[shared],[shared]],verb_spans=[[shared],[shared]],
+                         fragment_spans=[[span(text,'a book')],[span(text,'two pens')]])
+        with self.assertRaisesRegex(ValueError,'no fragment owner'):
+            validate_fact_spans(text,facts,annotations)
+
+    def test_shared_head_does_not_hide_an_orphan_phrasal_particle(self):
+        text='Mary looked up a word and John down the road.'
+        facts=[self.fact('Mary','looked up','look up',object='word'),
+               self.fact('John','looked down','look down',object='road')]
+        lexical=[[span(text,'looked'),span(text,'up')],
+                 [span(text,'looked'),span(text,'down')]]
+        annotations=dict(predicate_spans=lexical,verb_spans=lexical,
+                         fragment_spans=[[span(text,'Mary looked up a word')],
+                                         [span(text,'John down the road')]])
+        validate_fact_spans(text,facts,annotations)
+        annotations['fragment_spans'][1]=[span(text,'John')]
+        with self.assertRaisesRegex(ValueError,'no fragment owner'):
+            validate_fact_spans(text,facts,annotations)
+
+    def test_shared_auxiliary_is_owned_by_a_longer_parent_predicate(self):
+        text='They must learn the rules and observe them.'
+        facts=[self.fact('they','must learn','learn',object='rules'),
+               self.fact('they','must observe','observe',object='rules')]
+        annotations=dict(
+            predicate_spans=[[span(text,'must learn')],[span(text,'must'),span(text,'observe')]],
+            verb_spans=[[span(text,'learn')],[span(text,'observe')]],
+            fragment_spans=[[span(text,'They must learn the rules')],[span(text,'observe them')]])
+        validate_fact_spans(text,facts,annotations)
+        groups=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))
+        self.assertEqual(groups[1]['predicate'],('must observe',[1,groups[1]['line']]))
+        annotations['fragment_spans'][0]=[span(text,'learn the rules')]
+        with self.assertRaisesRegex(ValueError,'no fragment owner'):
+            validate_fact_spans(text,facts,annotations)
+
+    def test_fragment_cannot_lose_unshared_negation_or_auxiliary(self):
+        text='He has not finished.'
+        facts=[self.fact('he','has not finished','finish',polarity='negative')]
+        annotations=dict(predicate_spans=[[span(text,'has not finished')]],
+                         verb_spans=[[span(text,'finished')]],
+                         fragment_spans=[[span(text,'He has not finished')]])
+        validate_fact_spans(text,facts,annotations)
+        annotations['fragment_spans']=[[span(text,'finished')]]
+        with self.assertRaisesRegex(ValueError,'no fragment owner'):
+            validate_fact_spans(text,facts,annotations)
+
     def test_fact_fields_cannot_override_fragment_or_surface_verb(self):
         for field in ('fragment','verb'):
             fact=self.fact('Mary','reads','read')
@@ -594,6 +668,55 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertEqual(second['predicate'],('do',[second['line']]))
         self.assertEqual(second['verb'],('do',[second['line']]))
         self.assertEqual(second['action'],('sing',[1,second['line']]))
+
+    def test_enclosing_fragments_retain_interrupted_and_nonfinite_subjects(self):
+        cases=[
+            ('u04-851dcda78d78400f-1-v1-s2',
+             ['The computer I have is very slow','I have']),
+            ('u24-e5-example-a',
+             ['do you think','Which ballet do you think is better']),
+            ('u19-ex2-03',
+             ['To know everything is to know nothing','To know everything','to know nothing'])]
+        for identifier,expected in cases:
+            with self.subTest(identifier=identifier):
+                record=self.corpus.by_id[identifier]
+                annotations={key:record[key] for key in
+                             ('predicate_spans','fragment_spans','verb_spans')}
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],annotations))
+                self.assertEqual([group['fragment'][0] for group in groups],expected)
+
+    def test_single_fragment_retains_both_curly_quotes(self):
+        for identifier in ('u10-13e7c5c04caf4195-1-v1-s18',
+                           'u10-13e7c5c04caf4195-1-v1-s25'):
+            with self.subTest(identifier=identifier):
+                record=self.corpus.by_id[identifier]
+                annotations={key:record[key] for key in
+                             ('predicate_spans','fragment_spans','verb_spans')}
+                group=self.fragment_groups(book.render(record['text'],record['facts'],annotations))[0]
+                fragment=group['fragment'][0]
+                self.assertEqual(fragment,record['text'][:-1])
+                self.assertEqual(fragment.count('\u201c'),1)
+                self.assertEqual(fragment.count('\u201d'),1)
+
+    def test_repeated_infinitives_keep_their_distinct_parent_contexts(self):
+        record=self.corpus.by_id['u82-e2-a09']
+        annotations={key:record[key] for key in
+                     ('predicate_spans','fragment_spans','verb_spans')}
+        groups=self.fragment_groups(book.render(record['text'],record['facts'],annotations))
+        requested,refused=groups[1],groups[3]
+        self.assertEqual(requested['fragment'][0],'to pay the fine')
+        self.assertEqual(refused['fragment'][0],'to pay')
+        self.assertEqual(requested['status'],('required',[1,requested['line']]))
+        self.assertEqual(refused['status'],('unwanted',[1,refused['line']]))
+        self.assertEqual(requested['object'],('fine',[requested['line']]))
+        self.assertEqual(refused['object'],('fine',[1,refused['line']]))
+        text=record['text']
+        first=span(text,'to pay')
+        second=span(text,'to pay',first[1])
+        self.assertEqual(record['predicate_spans'][1],[first])
+        self.assertEqual(record['predicate_spans'][3],[second])
+        self.assertEqual(record['verb_spans'][1],[span(text,'pay')])
+        self.assertEqual(record['verb_spans'][3],[span(text,'pay',second[0])])
 
     def test_phrasal_verb_surface_retains_particles_without_intervening_object(self):
         for identifier,index,verb,action in [

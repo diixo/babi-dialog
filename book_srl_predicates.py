@@ -11,6 +11,7 @@ import re
 from string import Formatter
 
 SPAN_FIELDS = ('predicate_spans', 'fragment_spans', 'verb_spans')
+WORD = re.compile(r"[^\W_]+(?:['\u2018\u2019\u02bc\u2010\u2011-][^\W_]+)*")
 
 
 def substitute(value, bindings: dict):
@@ -104,6 +105,7 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
     if not isinstance(annotations, dict):
         raise ValueError(_prefix(label) + 'Missing fact spans')
     validate_predicates(text, facts, annotations.get('predicate_spans'), label)
+    words = [(match.start(), match.end()) for match in WORD.finditer(text)]
     for field in ('fragment_spans', 'verb_spans'):
         spans = annotations.get(field)
         if not isinstance(spans, list) or len(spans) != len(facts):
@@ -115,8 +117,7 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
                 if len(selected) != 1:
                     raise ValueError(_prefix(field_label) + 'A fragment must be one nonempty source span')
                 start, end = selected[0]
-                if ((start and text[start - 1].isalnum() and text[start].isalnum())
-                        or (end < len(text) and text[end - 1].isalnum() and text[end].isalnum())):
+                if any(a < start < b or a < end < b for a, b in words):
                     raise ValueError(_prefix(field_label) + 'A fragment boundary cannot split a word')
             else:
                 predicate = annotations['predicate_spans'][index]
@@ -126,6 +127,20 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
                 if any(not any(a <= start < end <= b for a, b in predicate)
                        for start, end in selected):
                     raise ValueError(_prefix(field_label) + 'A verb must come from its predicate spans')
+    for index, predicate in enumerate(annotations['predicate_spans']):
+        start, end = annotations['fragment_spans'][index][0]
+        for a, b in predicate:
+            if start <= a < b <= end:
+                continue
+            # Shared auxiliaries and particles still need a fragment that
+            # actually contains their source. A peer's longer predicate span
+            # may supply a shorter inherited piece, e.g. "must learn" / "must".
+            owned = any(fragment[0][0] <= a < b <= fragment[0][1]
+                        and any(p <= a < b <= q for p, q in annotations['predicate_spans'][other])
+                        for other, fragment in enumerate(annotations['fragment_spans']))
+            if not owned:
+                raise ValueError(_prefix(label)
+                                 + f'Fact {index + 1}: predicate piece has no fragment owner')
     for index, verb in enumerate(annotations['verb_spans']):
         if not verb:
             continue
