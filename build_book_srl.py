@@ -196,7 +196,7 @@ class Library:
             annotations[field] = spans
         return text, annotations
 
-    def generate(self, unit):
+    def variants(self, unit):
         for template in self.units[unit]['templates']:
             domains = self.template_domains(template)
             names = list(domains)
@@ -207,7 +207,106 @@ class Library:
                 text, annotations = self.expand_spans(template, bindings)
                 facts = substitute(template['facts'], bindings)
                 validate_fact_spans(text, facts, annotations, template['id'])
-                yield template['family'], text, facts, annotations
+                yield template, bindings, text, facts, annotations
+
+    def generate(self, unit):
+        for template, _, text, facts, annotations in self.variants(unit):
+            yield template['family'], text, facts, annotations
+
+
+def question_binding_key(bindings):
+    return json.dumps(bindings, sort_keys=True, ensure_ascii=False, separators=(',', ':'))
+
+
+class QuestionLibrary:
+    """Stored English reading questions; no question generation during a build."""
+    def __init__(self, directory, library, *, data=None):
+        data = read_json(Path(directory) / 'questions.json') if data is None else data
+        if data.get('schema_version') != 1:
+            raise ValueError('Unsupported questions schema version')
+        omitted = data.get('excluded_sentences', [])
+        if not isinstance(omitted, list):
+            raise ValueError('Excluded question sources must be a list')
+        excluded = {record['sentence_id']:record['text'] for record in omitted}
+        if len(excluded) != len(omitted):
+            raise ValueError('Excluded question sources must be unique sentence IDs')
+        records = {}
+        for record in data.get('questions', []):
+            identifier = record['sentence_id']
+            if identifier in records or identifier in excluded:
+                raise ValueError(f'Duplicate question source: {identifier}')
+            records[identifier] = record
+        expected = {t['id'] for u in library.units.values() for t in u['templates']}
+        if set(records) | set(excluded) != expected:
+            raise ValueError('questions.json must account for every source sentence')
+        self.source_count = len(records)
+        self.excluded_count = len(excluded)
+        self.by_text = {}
+        used = set()
+        variants = {}
+        for identifier, record in records.items():
+            choices = {}
+            for variant in record.get('variants', []):
+                key = question_binding_key(variant['bindings'])
+                if key in choices:
+                    raise ValueError(f'{identifier}: duplicate question bindings')
+                choices[key] = variant
+            variants[identifier] = choices
+        for unit in sorted(library.units):
+            for template, bindings, text, _, _ in library.variants(unit):
+                identifier = template['id']
+                if identifier in excluded:
+                    if {name:row['id'] for name,row in bindings.items()} == template['original'] and text != excluded[identifier]:
+                        raise ValueError(f'{identifier}: excluded source text changed; review its question coverage')
+                    continue
+                selected = {name:row['id'] for name,row in bindings.items()}
+                key = question_binding_key(selected)
+                if selected == template['original']:
+                    record = records[identifier]
+                else:
+                    if key not in variants[identifier]:
+                        raise ValueError(f'{identifier}: questions missing for bindings {selected}')
+                    record = variants[identifier][key]
+                    used.add((identifier, key))
+                if record.get('text') != text:
+                    raise ValueError(f'{identifier}: question source text changed; review questions.json')
+                pairs = record['questions']
+                validate_questions(pairs, identifier)
+                target = self.by_text.setdefault(' '.join(text.casefold().split()), {})
+                for pair in pairs:
+                    question, answer = pair['question'], pair['answer']
+                    if question in target and target[question] != answer:
+                        raise ValueError(f'{identifier}: conflicting answers for {question!r}')
+                    target[question] = answer
+        if used != {(identifier,key) for identifier,choices in variants.items() for key in choices}:
+            raise ValueError('questions.json contains unused or incompatible variant bindings')
+
+
+def validate_questions(pairs, label=''):
+    if not isinstance(pairs, list) or not pairs:
+        raise ValueError(f'{label}: expected at least one natural question')
+    seen = set()
+    for pair in pairs:
+        if not isinstance(pair, dict) or set(pair) != {'question', 'answer'}:
+            raise ValueError(f'{label}: a question needs question and answer strings')
+        question, answer = pair['question'], pair['answer']
+        for value in (question, answer):
+            if (not isinstance(value, str) or not value.strip() or value != value.strip()
+                    or re.search(r'[\r\n\t{}\u0400-\u04ff]', value)):
+                raise ValueError(f'{label}: invalid natural question or answer')
+        if not question.endswith('?') or question in seen:
+            raise ValueError(f'{label}: duplicate or unfinished natural question')
+        seen.add(question)
+
+
+def render_questions(text, pairs):
+    validate_questions(pairs)
+    rows = ['1 User: ' + text]
+    rows += [f'{index} {pair["question"]}\t{pair["answer"]}\t1'
+             for index, pair in enumerate(pairs, 2)]
+    story = '\n'.join(rows)+'\n\n'
+    validate_story(story)
+    return story
 
 
 def synchronize_templates(directory=DEFAULT_LIBRARY):
@@ -245,7 +344,7 @@ def synchronize_templates(directory=DEFAULT_LIBRARY):
     return Library(directory, catalogue=catalogue, corpus=corpus)
 
 
-def build(library, out=None):
+def build(library, out=None, questions=None):
     units = list(range(1, 85))
     for unit in units:
         if unit not in library.units or not library.units[unit]['templates']:
@@ -277,24 +376,41 @@ def build(library, out=None):
     splits = {name: [] for name in ('train','valid','test')}
     qa = {name: 0 for name in splits}
     fragments = {name: {'single_fragment': 0, 'multi_fragment': 0} for name in splits}
+    question_splits = {name: [] for name in splits}
     for family, story, count, facts in examples.values():
         name = split_for(root(family))
         splits[name].append(story)
         qa[name] += count
         category = 'single_fragment' if len(facts) == 1 else 'multi_fragment'
         fragments[name][category] += 1
+        if questions is not None:
+            text = story.splitlines()[0][8:]
+            pairs = questions.by_text.get(' '.join(text.casefold().split()))
+            if pairs:
+                question_splits[name].append(render_questions(text,
+                    [{'question':q, 'answer':a} for q,a in pairs.items()]))
     # Everything is checked before touching existing outputs.
     if out is not None:
         out = Path(out)
         out.mkdir(parents=True, exist_ok=True)
         for name, stories in splits.items():
             (out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
-    return {'units': units, 'templates': sum(len(library.units[u]['templates']) for u in units),
+        if questions is not None:
+            question_out = out / 'questions'
+            question_out.mkdir(parents=True, exist_ok=True)
+            for name, stories in question_splits.items():
+                (question_out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
+    stats = {'units': units, 'templates': sum(len(library.units[u]['templates']) for u in units),
             'examples': len(examples),
             'single_fragment': sum(count['single_fragment'] for count in fragments.values()),
             'multi_fragment': sum(count['multi_fragment'] for count in fragments.values()),
             'splits': {name: {'stories': len(stories), 'qa': qa[name], **fragments[name]}
                                                for name, stories in splits.items()}}
+    if questions is not None:
+        stats['questions'] = {name: {'stories':len(stories),
+                                    'qa':sum(validate_story(story) for story in stories)}
+                              for name,stories in question_splits.items()}
+    return stats
 
 
 ANNOTATION_FIELDS = ('tense', 'aspect', 'voice', 'polarity', 'form', 'status')
@@ -640,6 +756,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         library = synchronize_templates(args.library)
+        question_library = QuestionLibrary(args.library, library)
         annotation_library = AnnotationLibrary(args.library) if args.annotate else None
         for unit in sorted(library.units):
             state = 'ready' if unit in library.coverage['completed_units'] else 'not completed'
@@ -651,7 +768,7 @@ def main(argv=None):
         if annotation_library is not None:
             build_annotations(annotation_library)
         # build checks every lesson and variant before writing the dataset.
-        stats = build(library, args.out)
+        stats = build(library, args.out, questions=question_library)
         path = args.library / 'fact_templates.json'
         content = (json.dumps(library.catalogue, ensure_ascii=False, indent=2)+'\n').encode('utf-8')
         if not path.exists() or path.read_bytes() != content:
@@ -665,6 +782,11 @@ def main(argv=None):
               f'({stats["single_fragment"] / stats["examples"]:.2%}), '
               f'{stats["multi_fragment"]} multi-fragment '
               f'({stats["multi_fragment"] / stats["examples"]:.2%})')
+        print(f'Natural questions: {question_library.source_count} source examples; '
+              f'{question_library.excluded_count} interrogative examples excluded')
+        for name, count in stats['questions'].items():
+            print(f'{args.out / "questions" / (name+".txt")}: '
+                  f'{count["stories"]} stories, {count["qa"]} natural questions')
         if annotation_library is not None:
             annotation_out = args.out / 'annotations'
             annotation_stats = build_annotations(annotation_library, annotation_out)

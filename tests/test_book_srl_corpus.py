@@ -112,7 +112,7 @@ class CorpusTests(unittest.TestCase):
             return real_open(path, mode, *args, **kwargs)
         with tempfile.TemporaryDirectory() as folder:
             directory = Path(folder)
-            for name in ('sentences.json', 'fact_templates.json', 'slot_values.json'):
+            for name in ('sentences.json', 'fact_templates.json', 'slot_values.json', 'questions.json'):
                 (directory / name).write_bytes((book.DEFAULT_LIBRARY / name).read_bytes())
             original = (directory / 'fact_templates.json').read_bytes()
             with patch.object(Path, 'open', json_only):
@@ -122,7 +122,7 @@ class CorpusTests(unittest.TestCase):
             self.assertEqual(actual, expected)
             self.assertEqual(original, (directory / 'fact_templates.json').read_bytes())
             self.assertTrue((directory / 'out' / 'train.txt').exists())
-            self.assertEqual(set(reads), {'sentences.json', 'fact_templates.json', 'slot_values.json'})
+            self.assertEqual(set(reads), {'sentences.json', 'fact_templates.json', 'slot_values.json', 'questions.json'})
 
     def test_manual_fact_changes_cannot_silently_keep_outdated_template_answers(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -141,7 +141,7 @@ class CorpusTests(unittest.TestCase):
     def test_new_annotated_english_sentence_gets_a_fixed_template(self):
         with tempfile.TemporaryDirectory() as folder:
             directory = Path(folder)
-            for name in ('sentences.json', 'fact_templates.json', 'slot_values.json'):
+            for name in ('sentences.json', 'fact_templates.json', 'slot_values.json', 'questions.json'):
                 (directory / name).write_bytes((book.DEFAULT_LIBRARY / name).read_bytes())
             path = directory / CORPUS_NAME
             data = json.loads(path.read_text(encoding='utf-8'))
@@ -150,6 +150,10 @@ class CorpusTests(unittest.TestCase):
                 fragment_spans=[[[0,10]]], verb_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
                     intention='none', operation='none', object='none')]))
             path.write_text(json.dumps(data), encoding='utf-8')
+            questions=book.read_json(directory/'questions.json')
+            questions['questions'].append(dict(sentence_id='manual-english-example',text='Mary reads.',
+                questions=[dict(question='Who reads?',answer='Mary.')]))
+            (directory/'questions.json').write_text(json.dumps(questions),encoding='utf-8')
             with redirect_stdout(io.StringIO()):
                 book.main(['--library', str(directory), '--out', str(directory / 'out')])
             library = book.Library(directory)
@@ -203,7 +207,23 @@ class UnifiedBuildTests(unittest.TestCase):
             dict(id='mary', word='Mary'), dict(id='nora', word='Nora')])})
         for name,value in [('sentences.json',source), ('fact_templates.json',catalogue), ('slot_values.json',vocabulary)]:
             self.write_json(directory/name, value)
+        self.write_reading_questions(directory)
         return source,catalogue,vocabulary
+
+    def write_reading_questions(self,directory):
+        library=book.synchronize_templates(directory)
+        records={}
+        for unit in library.units:
+            for template,bindings,text,_,_ in library.variants(unit):
+                name=text.removesuffix(' reads.')
+                pairs=[dict(question='Who reads?',answer=name+'.'),
+                       dict(question=f'What does {name} do?',answer='Read.')]
+                record=records.setdefault(template['id'],dict(sentence_id=template['id']))
+                selected={k:v['id'] for k,v in bindings.items()}
+                if selected==template['original']: record.update(text=text,questions=pairs)
+                else: record.setdefault('variants',[]).append(dict(bindings=selected,text=text,questions=pairs))
+        self.write_json(directory/'questions.json',dict(schema_version=1,
+            excluded_sentences=[],questions=list(records.values())))
 
     @staticmethod
     def run_cli(directory, *options):
@@ -222,6 +242,7 @@ class UnifiedBuildTests(unittest.TestCase):
             source['sentences'].append(self.record('new','Dan'))
             self.write_json(directory/'sentences.json',source)
             self.write_json(directory/'fact_templates.json',catalogue)
+            self.write_reading_questions(directory)
             result,output=self.run_cli(directory)
             self.assertEqual(result,0)
             library=book.Library(directory)
@@ -236,7 +257,7 @@ class UnifiedBuildTests(unittest.TestCase):
             for record in source['sentences']:
                 self.assertIn('1 User: '+record['text'],text)
             self.assertEqual({p.name for p in (directory/'out').iterdir()},
-                             {'train.txt','valid.txt','test.txt'})
+                             {'train.txt','valid.txt','test.txt','questions'})
             for unit in range(1,85):
                 count=2 if unit==1 else 1
                 self.assertIn(f'{unit:02d}: {count} sentence templates; ready',output)
@@ -248,6 +269,7 @@ class UnifiedBuildTests(unittest.TestCase):
             directory=Path(folder)
             self.fixture(directory)
             (directory/'fact_templates.json').unlink()
+            self.write_reading_questions(directory)
             self.assertEqual(self.run_cli(directory)[0],0)
             library=book.Library(directory)
             self.assertEqual(library.units[1]['templates'][0]['slots'],{})
@@ -256,7 +278,7 @@ class UnifiedBuildTests(unittest.TestCase):
     def test_annotation_flag_builds_both_complete_datasets_in_one_command(self):
         with tempfile.TemporaryDirectory() as folder:
             directory=Path(folder)
-            for name in ('sentences.json','fact_templates.json','slot_values.json',
+            for name in ('sentences.json','fact_templates.json','slot_values.json','questions.json',
                          'nouns.json','verbs.json','templates.json'):
                 (directory/name).write_bytes((book.DEFAULT_LIBRARY/name).read_bytes())
             catalogue=directory/'fact_templates.json'
@@ -268,7 +290,7 @@ class UnifiedBuildTests(unittest.TestCase):
             self.assertEqual((catalogue.read_bytes(),catalogue.stat().st_mtime_ns),before)
             self.assertIn('84/84 book units',output.getvalue())
             self.assertEqual({p.name for p in out.iterdir()},
-                             {'train.txt','valid.txt','test.txt','annotations'})
+                             {'train.txt','valid.txt','test.txt','annotations','questions'})
             self.assertEqual({p.name for p in (out/'annotations').iterdir()},
                              {'train.txt','valid.txt','test.txt'})
             for target,expected in ((out,12231),(out/'annotations',901)):
@@ -290,6 +312,8 @@ class UnifiedBuildTests(unittest.TestCase):
                 if problem=='book facts':
                     source['sentences'][0]['facts'][0]['actor']='incorrect'
                 self.write_json(directory/'sentences.json',source)
+                if problem!='book facts':
+                    self.write_reading_questions(directory)
                 for name in ('nouns.json','verbs.json','templates.json'):
                     (directory/name).write_bytes((book.DEFAULT_LIBRARY/name).read_bytes())
                 if problem=='missing annotation file':
