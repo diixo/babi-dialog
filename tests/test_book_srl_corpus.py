@@ -71,7 +71,8 @@ class CorpusTests(unittest.TestCase):
                     'I hear (that) they have just moved to a new flat.',
                     "She hasn't washed (her face) yet."}
         for record in self.library.records:
-            self.assertEqual(set(record), {'id', 'unit', 'text', 'facts', 'predicate_spans', 'fragment_spans', 'verb_spans'})
+            self.assertEqual(set(record) - {'embedded_roles'},
+                             {'id', 'unit', 'text', 'facts', 'predicate_spans', 'fragment_spans', 'verb_spans'})
             self.assertNotIn(record['text'], excluded)
             self.assertNotIn('.......', record['text'])
             self.assertNotIn('<br>', record['text'])

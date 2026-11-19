@@ -160,6 +160,28 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
         if not shared:
             raise ValueError(_prefix(label)
                              + f'Fact {index + 1}: fragment excludes its unshared verb')
+    # These are reviewed links, not guesses based on matching verb strings.
+    # The full semantic values stay in facts; the compact output omits them
+    # only when another annotated fragment already represents that event.
+    embedded = annotations.get('embedded_roles', {})
+    if not isinstance(embedded, dict):
+        raise ValueError(_prefix(label) + 'embedded_roles must be a dictionary')
+    for source, roles in embedded.items():
+        if (not isinstance(source, str) or not source.isdecimal()
+                or str(int(source)) != source or not 0 <= int(source) < len(facts)
+                or not isinstance(roles, dict) or not roles):
+            raise ValueError(_prefix(label) + 'Invalid embedded_roles source')
+        index = int(source)
+        for role, targets in roles.items():
+            if (role not in ('content', 'object') or facts[index].get(role, 'none') in ('none', 'unknown')
+                    or not isinstance(targets, list) or not targets
+                    or any(type(target) is not int or not 0 <= target < len(facts)
+                           or target == index for target in targets)
+                    or len(set(targets)) != len(targets)):
+                raise ValueError(_prefix(label) + 'Invalid embedded_roles target or role')
+            if any(annotations['fragment_spans'][target] == annotations['fragment_spans'][index]
+                   for target in targets):
+                raise ValueError(_prefix(label) + 'An embedded role needs a separate fragment')
 
 
 def expand_predicates(template_text: str, bindings: dict, template_spans: list,

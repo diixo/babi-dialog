@@ -40,7 +40,9 @@ class CorpusLibrary:
         self.by_id = {}
         self.by_unit = {unit: [] for unit in range(1, 85)}
         for record in self.records:
-            if not isinstance(record, dict) or set(record) != {'id', 'unit', 'text', 'facts', *SPAN_FIELDS}:
+            required = {'id', 'unit', 'text', 'facts', *SPAN_FIELDS}
+            if (not isinstance(record, dict) or not required <= record.keys()
+                    or record.keys() - required - {'embedded_roles'}):
                 raise ValueError('Each sentence needs id, unit, text, facts and predicate/fragment/verb spans')
             identifier, unit, text = record['id'], record['unit'], record['text']
             if not isinstance(identifier, str) or not identifier or identifier in self.by_id:

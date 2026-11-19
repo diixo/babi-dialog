@@ -21,6 +21,14 @@ class FactTemplateTests(unittest.TestCase):
         cls.annotations = {text: annotations for u in cls.corpus.completed_units
                            for _, text, _, annotations in cls.library.generate(u)}
 
+    def test_template_event_links_must_match_the_reviewed_source(self):
+        catalogue=deepcopy(self.library.catalogue)
+        template=next(t for lesson in catalogue['lessons'] for t in lesson['templates']
+                      if t.get('embedded_roles'))
+        template.pop('embedded_roles')
+        with self.assertRaisesRegex(ValueError,'manual embedded_roles'):
+            book.Library(catalogue=catalogue,corpus=self.corpus)
+
     def test_each_english_sentence_has_a_template_and_its_original_facts(self):
         expected = dict(self.corpus.by_id)
         self.assertEqual(len(self.templates), len(expected))
@@ -162,6 +170,8 @@ class FactTemplateTests(unittest.TestCase):
                     self.assertIsNotNone(current_fragment)
                     self.assertIn(current_fragment,refs)
                     self.assertTrue(set(refs) <= {1,current_fragment})
+                    omitted=self.annotations[text].get('embedded_roles',{}).get(str(fragments-1),{})
+                    self.assertNotIn(question[:-1].replace(' ','_'),omitted)
             self.assertEqual(fragments,len(facts))
 
     def test_repeated_builds_and_split_family_isolation(self):

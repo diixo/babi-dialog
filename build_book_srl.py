@@ -38,6 +38,17 @@ AUXILIARY_ACTIONS = {
 CONTEXT_FIELDS = {'intention', 'operation', 'polarity', 'status',
                   'verb_form', 'form', 'participle_form', 'form_voice', 'degree',
                   'syntactic_function', 'modality', 'modal_meaning', 'negation_scope'}
+# An unknown answer can be licensed by a question word outside its fragment.
+QUESTION_CUES = {
+    'actor': r'who|whom|what|which', 'object': r'what|which|who|whom',
+    'recipient': r'who|whom', 'possessor': r'whose',
+    'complement': r'what|which|who|how', 'location': r'where',
+    'destination': r'where', 'source': r'where', 'time': r'when|what',
+    'duration': r'how', 'frequency': r'how', 'quantity': r'how',
+    'degree': r'how', 'manner': r'how', 'reason': r'why',
+    'target': r'what|which|who|whom', 'selection': r'what|which',
+    'origin': r'where', 'companion': r'who|whom', 'accompaniment': r'what|which',
+}
 
 
 def validate(text, facts):
@@ -79,7 +90,10 @@ def render(text, facts, annotations):
         fields = ['actor', 'predicate', 'verb', 'action', 'intention', 'operation', 'object']
         fields += [field for field in fact if field not in fields
                    and field not in ('tense', 'aspect', 'voice', 'beneficiary')]
+        embedded = annotations.get('embedded_roles', {}).get(str(index), {})
         for field in fields:
+            if field in embedded:
+                continue
             value = verb if field == 'verb' else fact[field]
             if value == 'none' and field not in ('predicate', 'verb'):
                 continue
@@ -88,7 +102,10 @@ def render(text, facts, annotations):
             local = (not text[:start].strip(' \t.,;:!?\"')
                      and not text[end:].strip(' \t.,;:!?\"'))
             if value == 'unknown':
-                local = True
+                cues = QUESTION_CUES.get(field)
+                local = not cues or not any(
+                    not start <= match.start() < match.end() <= end
+                    for match in re.finditer(r'\b(?:' + cues + r')\b', text, re.I))
             elif field == 'predicate':
                 local = local or contained(annotations['predicate_spans'][index], start, end)
             elif field == 'verb':
@@ -169,6 +186,8 @@ class Library:
                 for field in SPAN_FIELDS:
                     if annotations[field] != source[field]:
                         raise ValueError(f'{template["id"]}: template differs from the manual {field}')
+                if annotations.get('embedded_roles', {}) != source.get('embedded_roles', {}):
+                    raise ValueError(f'{template["id"]}: template differs from the manual embedded_roles')
         if seen != set(corpus.by_id):
             raise ValueError('Every English sentence must have a template; run build_book_srl.py to synchronize it')
 
@@ -195,6 +214,8 @@ class Library:
             text, spans, _ = expand_predicates(template['text'], bindings,
                                                template.get(field), f'{template["id"]}: {field}')
             annotations[field] = spans
+        if 'embedded_roles' in template:
+            annotations['embedded_roles'] = deepcopy(template['embedded_roles'])
         return text, annotations
 
     def variants(self, unit):
@@ -336,6 +357,8 @@ def synchronize_templates(directory=DEFAULT_LIBRARY):
                 template = dict(id=record['id'], family=record['id'], text=record['text'],
                     slots={}, original={}, constraints=[], facts=deepcopy(record['facts']),
                     **{field: deepcopy(record[field]) for field in SPAN_FIELDS})
+                if 'embedded_roles' in record:
+                    template['embedded_roles'] = deepcopy(record['embedded_roles'])
             template['source'] = dict(sentence=record['id'], unit=unit, text=record['text'])
             prepared.append(template)
         lessons.append(dict(unit=unit, templates=prepared))

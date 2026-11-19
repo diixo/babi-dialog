@@ -258,6 +258,37 @@ class FragmentRenderTests(unittest.TestCase):
         self.assertEqual(group['polarity'][0],'negative')
         self.assertNotIn('tense',group)
 
+    def test_embedded_links_are_explicit_and_cannot_hide_arbitrary_fields(self):
+        text='Mary wants to read.'
+        facts=[self.fact('Mary','wants','want',object='to read'),
+               self.fact('Mary','to read','read')]
+        annotations=dict(predicate_spans=[[span(text,'wants')],[span(text,'to read')]],
+                         verb_spans=[[span(text,'wants')],[span(text,'read')]],
+                         fragment_spans=[[span(text,'Mary wants')],[span(text,'to read')]])
+        # No guessing from verb overlap: the source must explicitly link the role.
+        before=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))
+        self.assertEqual(before[0]['object'][0],'to read')
+        annotations['embedded_roles']={'0':{'object':[1]}}
+        after=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))
+        self.assertNotIn('object',after[0])
+        self.assertEqual(after[1]['action'][0],'read')
+        self.assertEqual(facts[0]['object'],'to read')
+        for links in [[], {'2':{'object':[1]}}, {'00':{'object':[1]}},
+                      {'0':{}}, {'0':{'object':[]}}, {'0':{'object':[0]}},
+                      {'0':{'object':[2]}}, {'0':{'object':[True]}},
+                      {'0':{'object':[1,1]}}, {'0':{'actor':[1]}},
+                      {'0':{'content':[1]}}, {'1':{'object':[0]}}]:
+            broken=deepcopy(annotations)
+            broken['embedded_roles']=links
+            with self.subTest(links=links),self.assertRaisesRegex(ValueError,'embedded_roles'):
+                book.render(text,facts,broken)
+        annotations['fragment_spans'][1]=annotations['fragment_spans'][0]
+        annotations['predicate_spans'][1]=annotations['predicate_spans'][0]
+        annotations['verb_spans'][1]=annotations['verb_spans'][0]
+        facts[1]['predicate']='wants'
+        with self.assertRaisesRegex(ValueError,'separate fragment'):
+            book.render(text,facts,annotations)
+
     def test_frame_spans_reject_misalignment_or_fabricated_verb_evidence(self):
         text='Mary reads.'
         facts=[self.fact('Mary','reads','read')]
@@ -575,6 +606,67 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertEqual(len(rendered.strip().split('\n\n')),1)
         self.assertNotIn('spans', rendered)
         self.assertNotIn('offset', rendered)
+
+    def test_embedded_birthday_question_keeps_local_roles_and_external_evidence(self):
+        record=self.corpus.by_id['u36-e6-b14']
+        before=deepcopy(record)
+        first,second,third=self.fragment_groups(book.render(record['text'],record['facts'],record))
+        self.assertEqual([g['fragment'][0] for g in (first,second,third)],
+                         ['What do you think','she would like',
+                          'to get as a present for her birthday'])
+        self.assertNotIn('content',first)
+        self.assertNotIn('object',first)
+        self.assertNotIn('object',second)
+        self.assertEqual(third['actor'],('she',[1,third['line']]))
+        self.assertEqual(third['object'],('unknown',[1,third['line']]))
+        self.assertEqual(third['occasion'],('her birthday',[third['line']]))
+        self.assertEqual(record,before)
+
+    def test_event_projection_handles_contractions_phrasal_verbs_and_ellipsis(self):
+        for identifier,index,role,targets in [
+            ('u23-e2-06',0,'content',[1]),
+            ('u57-t05da',0,'content',[1]),
+            ('u51-e1-09b',0,'content',[1]),
+            ('u26-e3-06',1,'content',[2]),
+            ('u30-e8-example-task',2,'object',[3]),
+            ('u66-e3-08',1,'content',[2]),
+            ('u82-e2-a09',2,'content',[3]),
+        ]:
+            record=self.corpus.by_id[identifier]
+            with self.subTest(identifier=identifier):
+                self.assertEqual(record['embedded_roles'][str(index)][role],targets)
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+                self.assertNotIn(role,groups[index])
+                self.assertEqual(len(groups),len(record['facts']))
+                for target in targets:
+                    self.assertEqual(groups[target]['action'][0],record['facts'][target]['action'])
+
+    def test_nominal_objects_and_unrepresented_expectations_are_preserved(self):
+        for identifier,index,role in [
+            ('u03-51f1ad5153d5f411-1-v1-s1',0,'object'),
+            ('u19-ex1-b07a',0,'object'),
+            ('u55-e2-d20',0,'object'),
+            ('u24-e6-task01',1,'object'),
+            ('u27-e1-b05',1,'content'),
+            ('u20-ex1-03',2,'object'),
+            ('u07-fc5db3b97c2087ea-1-v1-s2',0,'content'),
+        ]:
+            record=self.corpus.by_id[identifier]
+            with self.subTest(identifier=identifier):
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+                self.assertEqual(groups[index][role][0],record['facts'][index][role])
+
+    def test_question_words_outside_the_fragment_support_unknown_answers(self):
+        for identifier,field in [('u35-e1-b02','duration'), ('u35-t03','reason'),
+                                 ('u35-t04','time'), ('u35-t05','quantity'),
+                                 ('u35-e1-b09','location'), ('u32-e2-05','target'),
+                                 ('u32-e7-a04','selection'), ('u35-e2-09','origin'),
+                                 ('u36-e6-b07','companion'), ('u36-e6-b12','accompaniment')]:
+            record=self.corpus.by_id[identifier]
+            groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+            group=next(g for g in groups if g.get(field,('none',))[0]=='unknown')
+            with self.subTest(identifier=identifier):
+                self.assertEqual(group[field],('unknown',[1,group['line']]))
 
     def test_generated_verbs_pair_surface_forms_with_actions_in_complex_groups(self):
         cases = [
