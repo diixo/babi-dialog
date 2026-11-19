@@ -141,7 +141,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertNotIn('next action?', output)
         for text, facts in self.examples.items():
             lines = book.render(text, facts, self.annotations[text]).strip().splitlines()
-            self.assertEqual(lines[0], '1 User: ' + text)
+            self.assertEqual(lines[0], '1 ' + text)
             current_fragment = None
             fragments = 0
             for index, line in enumerate(lines[1:], 2):
@@ -149,7 +149,7 @@ class FactTemplateTests(unittest.TestCase):
                 question, answer, evidence = line.partition(' ')[2].split('\t')
                 refs = list(map(int,evidence.split()))
                 self.assertIsNone(re.search(r'\s\d+\?$',question),question)
-                self.assertNotEqual(question,'tense?')
+                self.assertNotIn(question,('tense?','aspect?','voice?','beneficiary?'))
                 if answer == 'none':
                     self.assertIn(question,('predicate?','verb?'))
                 self.assertTrue(all(1 <= ref < index for ref in refs))
@@ -190,7 +190,7 @@ class FactTemplateTests(unittest.TestCase):
                 total_single += single
                 total_multi += multi
                 for story in stories:
-                    text = story.splitlines()[0][8:]
+                    text = story.splitlines()[0].partition(' ')[2]
                     self.assertNotIn(text, membership)
                     membership[text] = split
             self.assertEqual(first['single_fragment'],total_single)

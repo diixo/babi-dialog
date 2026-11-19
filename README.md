@@ -9,7 +9,8 @@ Markdown и PDF книги для сборки не нужны.
 Одна story содержит **одно исходное предложение или его допустимую вариацию**,
 затем блоки `fragment?` с вопросами `actor?`, `predicate?`, `verb?`, `action?`
 и дополнительными ролями. Вопросы идут без индексов и относятся к текущему
-фрагменту. Реплик ассистента и управления диалогом нет.
+фрагменту. Первая строка содержит номер `1` и исходный текст без префикса `User:`.
+Реплик ассистента и управления диалогом нет.
 
 ```shell
 python build_book_srl.py
@@ -89,7 +90,7 @@ Markdown-разметки и незавершённых фрагментов в 
 Пример отдельной выгрузки вопросов:
 
 ```text
-1 User: I'm reading an interesting book.
+1 I'm reading an interesting book.
 2 What are you reading?	An interesting book.	1
 3 What are you doing?	Reading an interesting book.	1
 ```
@@ -356,17 +357,15 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 Пример формата (между вопросом, ответом и номером опорной строки — табуляции):
 
 ```text
-1 User: She's writing an interesting article.
+1 She's writing an interesting article.
 2 fragment?	She's writing an interesting article	1
 3 actor?	she	2
 4 predicate?	's writing	2
 5 verb?	writing	2
 6 action?	write	2
 7 object?	interesting article	2
-8 aspect?	continuous	2
-9 voice?	active	2
-10 polarity?	positive	2
-11 status?	asserted	2
+8 polarity?	positive	2
+9 status?	asserted	2
 ```
 
 Каждый факт начинает новый блок `fragment?`; вопросы `actor?`, `predicate?`,
@@ -375,7 +374,8 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 Например, в `he is taller` сравнение с `Paul` требует полного исходного предложения.
 Внутри story нет пустых строк: всё предложение и его разбор образуют один
 обучающий пример. Пустая строка отделяет только следующую story.
-Вопросы `tense?` и роли со значением `none` не выводятся. Исключение —
+Вопросы `tense?`, `aspect?`, `voice?`, `beneficiary?` и роли со значением `none`
+не выводятся. Исключение —
 `predicate?` и `verb?`: `none` явно обозначает отсутствие глагола в тексте.
 Неизвестное значение сохраняется как `unknown`. `I` обозначается как
 `user`, `you` — `addressee`.
@@ -454,9 +454,10 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 к целевому действию. Обычное сообщение о действии имеет
 `intention=none`, `operation=none`. `operation` сохраняет смысл изменения
 набора намерений из `build_v4.py`, а не обозначает время действия.
-`aspect`, `voice`, `polarity`, `status` описывают грамматику и статус
-события независимо. `tense` хранится в исходной разметке, но не выводится
-в обучающие вопросы. Дополнительные поля включают `recipient`, `location`,
+`polarity` и `status` описывают полярность и статус события независимо.
+`tense`, `aspect`, `voice` и `beneficiary` хранятся в исходной разметке, но не выводятся
+в обучающие вопросы основного датасета. Глагольная форма сохраняется в `predicate`
+и `verb`. Дополнительные поля включают `recipient`, `location`,
 `time`, `duration`, `modality` и другие роли исходной разметки.
 
 Случайного выбора и добора до заданного размера нет: сборщик перебирает

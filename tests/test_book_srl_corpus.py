@@ -255,9 +255,9 @@ class UnifiedBuildTests(unittest.TestCase):
             text=''.join((directory/'out'/f'{split}.txt').read_text(encoding='utf-8')
                          for split in ('train','valid','test'))
             for sentence in ('Mary reads.','Nora reads.','Dan reads.'):
-                self.assertIn('1 User: '+sentence,text)
+                self.assertIn('1 '+sentence,text)
             for record in source['sentences']:
-                self.assertIn('1 User: '+record['text'],text)
+                self.assertIn('1 '+record['text'],text)
             self.assertEqual({p.name for p in (directory/'out').iterdir()},
                              {'train.txt','valid.txt','test.txt','questions'})
             for unit in range(1,85):
@@ -301,7 +301,8 @@ class UnifiedBuildTests(unittest.TestCase):
                     content=(target/f'{split}.txt').read_text(encoding='utf-8')
                     stories.extend(content.strip().split('\n\n'))
                 self.assertEqual(len(stories),expected)
-                self.assertTrue(all(story.startswith('1 User: ') for story in stories))
+                self.assertTrue(all(story.startswith('1 ') and not story.startswith('1 User: ')
+                                    for story in stories))
                 self.assertTrue(all('Assistant:' not in story for story in stories))
 
     def test_annotation_flag_checks_both_libraries_before_writing_any_file(self):

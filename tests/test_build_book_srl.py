@@ -142,7 +142,7 @@ class BookSRLTests(unittest.TestCase):
                 stories = (a/f'{split}.txt').read_text(encoding='utf-8').strip().split('\n\n')
                 self.assertTrue(stories)
                 for story in stories:
-                    text = story.splitlines()[0][8:]
+                    text = story.splitlines()[0].partition(' ')[2]
                     self.assertNotIn(text, inputs)
                     inputs[text] = split
             families = {}
@@ -204,7 +204,7 @@ class BookSRLTests(unittest.TestCase):
             with self.subTest(field=field), self.assertRaises(ValueError):
                 book.validate_annotation_example(replace(example, sentences=sentences))
         with self.assertRaisesRegex(ValueError, 'evidence'):
-            book.validate_story('1 User: Mary works.\n2 actor?\tmary\t3\n')
+            book.validate_story('1 Mary works.\n2 actor?\tmary\t3\n')
 
     def test_json_duplicates_and_format_expressions_are_rejected(self):
         with tempfile.TemporaryDirectory() as folder:

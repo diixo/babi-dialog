@@ -86,7 +86,7 @@ class NaturalQuestionTests(unittest.TestCase):
         pairs=[dict(question=q,answer=a) for q,a in self.answers(text).items()]
         story=book.render_questions(text,pairs)
         self.assertEqual(book.validate_story(story),len(pairs))
-        self.assertTrue(story.startswith('1 User: '+text+'\n'))
+        self.assertTrue(story.startswith('1 '+text+'\n'))
         self.assertIn('What are you reading?\tAn interesting book.\t1\n',story)
         self.assertNotIn('fragment?',story)
         self.assertNotIn('Assistant:',story)
@@ -113,7 +113,7 @@ class NaturalQuestionBuildTests(unittest.TestCase):
                     if not story: continue
                     self.assertEqual(membership[story.splitlines()[0]],split)
                     self.assertEqual(book.validate_story(story),2)
-            self.assertEqual(membership['1 User: Mary reads.'],membership['1 User: Nora reads.'])
+            self.assertEqual(membership['1 Mary reads.'],membership['1 Nora reads.'])
             self.assertIn('Natural questions: 84 source examples',output)
 
     def test_invalid_questions_do_not_overwrite_either_dataset(self):

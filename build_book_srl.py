@@ -35,7 +35,7 @@ AUXILIARY_ACTIONS = {
     'would': 'unknown', "'d": 'unknown', 'shall': 'unknown',
     'should': 'unknown', 'must': 'unknown', 'may': 'unknown', 'might': 'unknown',
 }
-CONTEXT_FIELDS = {'intention', 'operation', 'aspect', 'voice', 'polarity', 'status',
+CONTEXT_FIELDS = {'intention', 'operation', 'polarity', 'status',
                   'verb_form', 'form', 'participle_form', 'form_voice', 'degree',
                   'syntactic_function', 'modality', 'modal_meaning', 'negation_scope'}
 
@@ -62,7 +62,7 @@ def validate(text, facts):
 def render(text, facts, annotations):
     validate(text, facts)
     validate_fact_spans(text, facts, annotations)
-    rows = ['User: ' + text]
+    rows = [text]
 
     def contained(spans, start, end):
         return all(start <= a < b <= end for a, b in spans)
@@ -77,7 +77,8 @@ def render(text, facts, annotations):
         fragment_line = len(rows)
         verb = predicate_from_spans(text, annotations['verb_spans'][index])
         fields = ['actor', 'predicate', 'verb', 'action', 'intention', 'operation', 'object']
-        fields += [field for field in fact if field not in fields and field != 'tense']
+        fields += [field for field in fact if field not in fields
+                   and field not in ('tense', 'aspect', 'voice', 'beneficiary')]
         for field in fields:
             value = verb if field == 'verb' else fact[field]
             if value == 'none' and field not in ('predicate', 'verb'):
@@ -301,7 +302,7 @@ def validate_questions(pairs, label=''):
 
 def render_questions(text, pairs):
     validate_questions(pairs)
-    rows = ['1 User: ' + text]
+    rows = ['1 ' + text]
     rows += [f'{index} {pair["question"]}\t{pair["answer"]}\t1'
              for index, pair in enumerate(pairs, 2)]
     story = '\n'.join(rows)+'\n\n'
@@ -384,7 +385,7 @@ def build(library, out=None, questions=None):
         category = 'single_fragment' if len(facts) == 1 else 'multi_fragment'
         fragments[name][category] += 1
         if questions is not None:
-            text = story.splitlines()[0][8:]
+            text = story.splitlines()[0].partition(' ')[2]
             pairs = questions.by_text.get(' '.join(text.casefold().split()))
             if pairs:
                 question_splits[name].append(render_questions(text,
@@ -646,7 +647,7 @@ class AnnotationLibrary:
 
 def render_annotation(example: AnnotationExample) -> str:
     validate_annotation_example(example)
-    rows = ['User: '+example.text]
+    rows = [example.text]
     def qa(label, answer, refs):
         refs = sorted(set(refs))
         if not refs or not all(1 <= n <= len(rows) for n in refs):
@@ -684,14 +685,14 @@ def render_annotation(example: AnnotationExample) -> str:
 
 def validate_story(story: str) -> int:
     rows = story.strip().splitlines()
-    if not rows or not rows[0].startswith('1 User: '):
-        raise ValueError('Story must start with a user utterance')
+    if not rows or not rows[0].startswith('1 ') or not rows[0][2:].strip():
+        raise ValueError('Story must start with numbered source text')
     for number, row in enumerate(rows, 1):
         if not row.startswith(f'{number} '):
             raise ValueError(f'Invalid row number: {row}')
         if number == 1:
             if '\t' in row:
-                raise ValueError('User utterance contains a tab')
+                raise ValueError('Source text contains a tab')
             continue
         pieces = row.partition(' ')[2].split('\t')
         if len(pieces) != 3 or not pieces[0].endswith('?') or not pieces[1] or not pieces[2]:
