@@ -739,7 +739,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "cup",
@@ -784,7 +784,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "cups",
@@ -1009,7 +1009,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "water",
@@ -1730,7 +1730,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "beautiful garden",
@@ -2158,7 +2158,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "hotel",
@@ -3751,7 +3751,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "mistake",
@@ -5022,7 +5022,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "garden",
@@ -5150,7 +5150,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "door",
@@ -5239,7 +5239,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "theatre",
@@ -6698,7 +6698,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -7299,7 +7299,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "fly",
@@ -8467,7 +8467,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "comfortable armchair",
@@ -12082,7 +12082,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "fire",
@@ -12557,7 +12557,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything better than cold tea",
@@ -21180,7 +21180,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "many newspaper offices",
@@ -23003,7 +23003,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "something wrong",
@@ -28978,7 +28978,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "new school",
@@ -31633,7 +31633,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anybody",
@@ -32998,7 +32998,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "place like home",
@@ -39644,7 +39644,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "pictures of the robber",
@@ -41812,7 +41812,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "swimming pool",
@@ -42483,7 +42483,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "swimming pools",
@@ -46458,7 +46458,7 @@
         {
           "actor": "none",
           "predicate": "Was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "snow",
@@ -47173,7 +47173,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "snow",
@@ -47219,7 +47219,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "shops",
@@ -48290,7 +48290,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "news",
@@ -48361,7 +48361,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "people who know about it",
@@ -49043,7 +49043,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "flowers",
@@ -49478,7 +49478,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "petrol",
@@ -49859,7 +49859,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "deer",
@@ -50046,7 +50046,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "watches Susan liked",
@@ -53827,7 +53827,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "wine",
@@ -55981,7 +55981,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "flowers",
@@ -56387,7 +56387,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "light",
@@ -68759,7 +68759,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "letters",
@@ -68805,7 +68805,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "milk",
@@ -69172,7 +69172,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "nice apples",
@@ -69653,7 +69653,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "new houses",
@@ -69976,7 +69976,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "new students",
@@ -70066,7 +70066,7 @@
         {
           "actor": "none",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "fish",
@@ -70787,7 +70787,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "some",
@@ -70831,7 +70831,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "sentences you can't translate",
@@ -70999,7 +70999,7 @@
         {
           "actor": "none",
           "predicate": "Were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "any of your teachers",
@@ -71044,7 +71044,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "some",
@@ -71163,7 +71163,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "pictures",
@@ -72261,7 +72261,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "chairs",
@@ -72395,7 +72395,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "blackboard",
@@ -72743,7 +72743,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "films better than this one",
@@ -72884,7 +72884,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "information",
@@ -72929,7 +72929,7 @@
         {
           "actor": "none",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "information",
@@ -73302,7 +73302,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything to eat",
@@ -73421,7 +73421,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anybody",
@@ -75396,7 +75396,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "something",
@@ -75512,7 +75512,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything",
@@ -76758,7 +76758,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anybody",
@@ -76847,7 +76847,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "something so strange",
@@ -78213,7 +78213,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "flowers",
@@ -82104,7 +82104,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "dictionaries",
@@ -90769,7 +90769,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything strange about it",
@@ -91571,7 +91571,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "new words",
@@ -91748,7 +91748,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anybody",
@@ -108110,7 +108110,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "information",
@@ -108220,7 +108220,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "any still worse news",
@@ -108561,7 +108561,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "rains",
@@ -109437,7 +109437,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "later train",
@@ -111070,7 +111070,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "one more",
@@ -113000,7 +113000,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "other hospital",
@@ -120761,7 +120761,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anyone luckier than you",
@@ -133195,7 +133195,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "fresh bread",
@@ -134248,7 +134248,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "knock",
@@ -187988,7 +187988,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "picture",
@@ -188033,7 +188033,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "book",
@@ -188123,7 +188123,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "chair",
@@ -188168,7 +188168,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "milk",
@@ -188213,7 +188213,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "children",
@@ -188258,7 +188258,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "books",
@@ -188304,7 +188304,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "butter",
@@ -188350,7 +188350,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "book",
@@ -188365,7 +188365,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "pens",
@@ -188429,7 +188429,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "pens",
@@ -188444,7 +188444,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "book",
@@ -188508,7 +188508,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "butter",
@@ -188553,7 +188553,7 @@
         {
           "actor": "none",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "butter",
@@ -188599,7 +188599,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "hotels",
@@ -188644,7 +188644,7 @@
         {
           "actor": "none",
           "predicate": "aren't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "books",
@@ -188690,7 +188690,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "milk",
@@ -188736,7 +188736,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "books",
@@ -188782,7 +188782,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "letter",
@@ -188827,7 +188827,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "students",
@@ -188872,7 +188872,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "parking place",
@@ -188933,7 +188933,7 @@
         {
           "actor": "none",
           "predicate": "won't be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "questions",
@@ -189004,7 +189004,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "books",
@@ -189050,7 +189050,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "books",
@@ -189096,7 +189096,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "red pencils or green pencils",
@@ -189143,7 +189143,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "red pencils",
@@ -189188,7 +189188,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "pictures",
@@ -189234,7 +189234,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "good film",
@@ -189325,7 +189325,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "interesting stories",
@@ -189384,7 +189384,7 @@
         {
           "actor": "none",
           "predicate": "weren't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "people",
@@ -189448,7 +189448,7 @@
         {
           "actor": "none",
           "predicate": "Will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "people",
@@ -189498,7 +189498,7 @@
         {
           "actor": "none",
           "predicate": "won't be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "meeting",
@@ -189588,7 +189588,7 @@
         {
           "actor": "none",
           "predicate": "Was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anybody",
@@ -189665,7 +189665,7 @@
         {
           "actor": "none",
           "predicate": "wasn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything strange about him",
@@ -189710,7 +189710,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "students",
@@ -189761,7 +189761,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "mistakes",
@@ -189807,7 +189807,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "clothes",
@@ -189928,7 +189928,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "work",
@@ -190049,7 +190049,7 @@
         {
           "actor": "none",
           "predicate": "Will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "classes",
@@ -190144,7 +190144,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything",
@@ -190233,7 +190233,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "shoes",
@@ -190247,7 +190247,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "dresses",
@@ -190310,7 +190310,7 @@
         {
           "actor": "none",
           "predicate": "Were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "guests",
@@ -190389,7 +190389,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "food",
@@ -190559,7 +190559,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "questions",
@@ -190763,7 +190763,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "holidays",
@@ -190944,7 +190944,7 @@
         {
           "actor": "none",
           "predicate": "Were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "people present at the meeting",
@@ -191124,7 +191124,7 @@
         {
           "actor": "none",
           "predicate": "Were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "people",
@@ -191343,7 +191343,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "flowers",
@@ -191434,7 +191434,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "new house",
@@ -191449,7 +191449,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "old houses",
@@ -191513,7 +191513,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "people",
@@ -191604,7 +191604,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "money",
@@ -191650,7 +191650,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "interesting programme",
@@ -191742,7 +191742,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything",
@@ -191832,7 +191832,7 @@
         {
           "actor": "none",
           "predicate": "Is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "car park",
@@ -191922,7 +191922,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "stamps",
@@ -192004,7 +192004,7 @@
         {
           "actor": "none",
           "predicate": "won't be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -192138,7 +192138,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "dictionaries",
@@ -192234,7 +192234,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "Italian dishes",
@@ -192280,7 +192280,7 @@
         {
           "actor": "none",
           "predicate": "aren't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -192324,7 +192324,7 @@
         {
           "actor": "none",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "information",
@@ -192371,7 +192371,7 @@
         {
           "actor": "none",
           "predicate": "Are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "interesting articles",
@@ -192417,7 +192417,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "very interesting article",
@@ -192597,7 +192597,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "plates",
@@ -192694,7 +192694,7 @@
         {
           "actor": "none",
           "predicate": "wasn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "paint",
@@ -192771,7 +192771,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -192816,7 +192816,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "bed",
@@ -192830,7 +192830,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "wardrobe",
@@ -192844,7 +192844,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "other furniture",
@@ -192926,7 +192926,7 @@
         {
           "actor": "none",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "cloth",
@@ -193003,7 +193003,7 @@
         {
           "actor": "none",
           "predicate": "won't be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "further discussion",
@@ -193048,7 +193048,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "further discussion",
@@ -193092,7 +193092,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "fuel",
@@ -193138,7 +193138,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "fuel",
@@ -193229,7 +193229,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "tourists",
@@ -193277,7 +193277,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -193321,7 +193321,7 @@
         {
           "actor": "none",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -193365,7 +193365,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -193409,7 +193409,7 @@
         {
           "actor": "none",
           "predicate": "aren't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -193453,7 +193453,7 @@
         {
           "actor": "none",
           "predicate": "won't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -193632,7 +193632,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -193721,7 +193721,7 @@
         {
           "actor": "none",
           "predicate": "weren't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -207701,7 +207701,7 @@
         {
           "actor": "none",
           "predicate": "'s",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "something wrong",
@@ -212335,7 +212335,7 @@
         {
           "actor": "none",
           "predicate": "Will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "party",
@@ -212670,7 +212670,7 @@
         {
           "actor": "none",
           "predicate": "will be",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "heated discussion",
@@ -220113,7 +220113,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "interesting show",
@@ -220159,7 +220159,7 @@
         {
           "actor": "none",
           "predicate": "wasn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "interesting show",
@@ -221069,7 +221069,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "gun",
@@ -221114,7 +221114,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "unknown",
@@ -221490,7 +221490,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "rooms",
@@ -228876,7 +228876,7 @@
         {
           "actor": "none",
           "predicate": "'s",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "place",
@@ -230919,7 +230919,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "misprints",
@@ -242811,7 +242811,7 @@
         {
           "actor": "none",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "ingredients",
@@ -243636,7 +243636,7 @@
         {
           "actor": "none",
           "predicate": "'s",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "paint",
@@ -252273,7 +252273,7 @@
         {
           "actor": "none",
           "predicate": "has been",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "other news",
@@ -265459,7 +265459,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anybody",
@@ -281193,7 +281193,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "sweet smell",
@@ -281283,7 +281283,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "sweet smell",
@@ -288797,7 +288797,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "money",
@@ -290953,7 +290953,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "books",
@@ -290968,7 +290968,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "box of cigarettes",
@@ -290983,7 +290983,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "briar pipe",
@@ -321488,7 +321488,7 @@
         {
           "actor": "none",
           "predicate": "were",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "flowers",
@@ -331514,7 +331514,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "rustling",
@@ -332703,7 +332703,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "anything about the dinner",
@@ -334759,7 +334759,7 @@
         {
           "actor": "none",
           "predicate": "was",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "something mysterious",
@@ -356096,7 +356096,7 @@
         {
           "actor": "none",
           "predicate": "'s",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "something wrong",
@@ -372959,7 +372959,7 @@
         {
           "actor": "none",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "good film",
@@ -374542,7 +374542,7 @@
         {
           "actor": "none",
           "predicate": "would have been",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "accident",
@@ -441373,7 +441373,7 @@
         {
           "actor": "ways of doing it",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -444470,7 +444470,7 @@
         {
           "actor": "ways of learning a foreign language",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -454905,7 +454905,7 @@
         {
           "actor": "ways of explaining to him that he is wrong",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -464465,7 +464465,7 @@
         {
           "actor": "books",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -464543,7 +464543,7 @@
         {
           "actor": "books",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -464621,7 +464621,7 @@
         {
           "actor": "place",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -466117,7 +466117,7 @@
         {
           "actor": "things",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -466195,7 +466195,7 @@
         {
           "actor": "things",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -466867,7 +466867,7 @@
         {
           "actor": "other facts",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -466944,7 +466944,7 @@
         {
           "actor": "other facts",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -467021,7 +467021,7 @@
         {
           "actor": "news",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -467099,7 +467099,7 @@
         {
           "actor": "news",
           "predicate": "is",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -467459,7 +467459,7 @@
         {
           "actor": "papers",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -467537,7 +467537,7 @@
         {
           "actor": "papers",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -502062,7 +502062,7 @@
         {
           "actor": "ways of making a child be polite",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -508497,7 +508497,7 @@
         {
           "actor": "letters",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -508737,7 +508737,7 @@
         {
           "actor": "letters",
           "predicate": "are",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",
@@ -509630,7 +509630,7 @@
         {
           "actor": "news",
           "predicate": "isn't",
-          "action": "exist",
+          "action": "be",
           "intention": "none",
           "operation": "none",
           "object": "none",

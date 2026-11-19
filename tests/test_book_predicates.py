@@ -60,7 +60,7 @@ class PredicateSpanTests(unittest.TestCase):
 
     def test_surface_predicate_is_independent_of_normalized_action(self):
         for text, fact, piece in [
-                ('There is a book.', {'predicate': 'is', 'action': 'exist'}, 'is'),
+                ('There is a book.', {'predicate': 'is', 'action': 'be'}, 'is'),
                 ('So were we.', {'predicate': 'were', 'action': 'unknown'}, 'were')]:
             validate_predicates(text, [fact], [[span(text, piece)]])
 
@@ -308,15 +308,15 @@ class FragmentRenderTests(unittest.TestCase):
 
     def test_shared_copula_outside_argument_fragment_uses_full_source_evidence(self):
         text='There is a book and two pens on the table.'
-        facts=[self.fact('book','is','exist',location='table'),
-               self.fact('pens','is','exist',quantity='two',location='table')]
+        facts=[self.fact('book','is','be',location='table'),
+               self.fact('pens','is','be',quantity='two',location='table')]
         shared=span(text,'is')
         annotations=dict(predicate_spans=[[shared],[shared]],verb_spans=[[shared],[shared]],
                          fragment_spans=[[span(text,'There is a book')],
                                          [span(text,'two pens on the table')]])
         validate_fact_spans(text,facts,annotations)
         first,second=CorpusPredicateTests.fragment_groups(book.render(text,facts,annotations))
-        for field,value in [('predicate','is'),('verb','is'),('action','exist')]:
+        for field,value in [('predicate','is'),('verb','is'),('action','be')]:
             self.assertEqual(first[field][0],value)
             self.assertIn(first['line'],first[field][1])
             self.assertEqual(second[field],(value,[1,second['line']]))
@@ -360,7 +360,7 @@ class FragmentRenderTests(unittest.TestCase):
 
     def test_shared_copula_requires_a_fragment_that_contains_it(self):
         text='There is a book and two pens.'
-        facts=[self.fact('book','is','exist'),self.fact('pens','is','exist')]
+        facts=[self.fact('book','is','be'),self.fact('pens','is','be')]
         shared=span(text,'is')
         annotations=dict(predicate_spans=[[shared],[shared]],verb_spans=[[shared],[shared]],
                          fragment_spans=[[span(text,'a book')],[span(text,'two pens')]])

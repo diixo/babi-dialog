@@ -3178,7 +3178,7 @@
                   "roles": {
                     "subject": "there",
                     "actor": "none",
-                    "action": "exist",
+                    "action": "be",
                     "object": "{n.singular}",
                     "location": "on the table"
                   },
@@ -3215,7 +3215,7 @@
                   "roles": {
                     "subject": "there",
                     "actor": "none",
-                    "action": "exist",
+                    "action": "be",
                     "object": "{n.plural}",
                     "quantity": "two",
                     "location": "in the room"

@@ -187,7 +187,7 @@ object: interesting {noun_1.word}
 по перечисленным ограничениям.
 
 В уроках 36–40 `There is a book on the table.` получает `actor: none`,
-`action: exist`, `object: book`, а `The book is on the table.` — `actor: book`
+`action: be`, `object: book`, а `The book is on the table.` — `actor: book`
 и `action: be`. При перечислении предметов сохраняются отдельные количества,
 а форма `is/are` связана с первым существительным. Восклицательные предложения
 с `how/what` получают `clause_type: exclamative`, известный признак или способ
@@ -458,8 +458,8 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 
 `action` — нормализованное действие, обычно начальная форма глагола.
 Фразовые глаголы сохраняют частицу: `turned off` → `turn off`,
-`hadn't phoned back` → `phone back`. Семантическая нормализация также допускает
-`There is…` → `exist` и `has got` → `have`.
+`hadn't phoned back` → `phone back`. В `There is… / are… / has been…` начальная
+форма — `be`; в `has existed` — `exist`. `has got` нормализуется в `have`.
 Текущее явно выраженное положительное
 намерение вроде `I want to give him a book.` сворачивается в `action=give`,
 `intention=give`, `operation=add`, `predicate=to give`: предикат относится

@@ -736,13 +736,37 @@ class FactTemplateTests(unittest.TestCase):
     def test_existential_there_and_known_subject_location_are_distinct(self):
         exists = self.examples['There is a book on the table.'][0]
         located = self.examples['The book is on the table.'][0]
-        self.assertEqual((exists['actor'], exists['action'], exists['object']), ('none', 'exist', 'book'))
+        self.assertEqual((exists['actor'], exists['action'], exists['object']), ('none', 'be', 'book'))
         self.assertEqual((located['actor'], located['action'], located['object']), ('book', 'be', 'none'))
         self.assertEqual(exists['location'], located['location'])
         self.assertEqual(self.examples['Yes, there is.'][0]['object'], 'unknown')
         self.assertEqual(self.examples['There are interesting stories in it.'][0]['location'], 'in it')
         fact = self.examples['There will be a good film on TV tomorrow.'][0]
         self.assertEqual((fact['tense'], fact['time']), ('future', 'tomorrow'))
+
+    def test_existential_be_retains_its_lemma_in_all_forms_and_variants(self):
+        cases = [
+            ('There is a picture on the wall.', 'is'),
+            ('There are children in the yard.', 'are'),
+            ('Was there much snow last winter?', 'Was'),
+            ('There were no students in the hall.', 'were'),
+            ("There's something wrong with my dog.", "'s"),
+            ("There isn't any butter in the fridge.", "isn't"),
+            ('Will there be many people at the meeting?', 'Will be'),
+            ('There has been no other news about this accident in the last few days.', 'has been'),
+        ]
+        for text,predicate in cases:
+            with self.subTest(text=text):
+                self.assertEqual((self.examples[text][0]['predicate'],self.examples[text][0]['action']),
+                                 (predicate,'be'))
+        for text,facts in self.examples.items():
+            for fact in facts:
+                if fact['action']=='exist':
+                    self.assertRegex(fact['predicate'],r'\bexist(?:s|ed|ing)?\b',text)
+        self.assertEqual(self.examples['This problem has existed since the beginning of the century.'][0]['action'],
+                         'exist')
+        self.assertEqual(self.examples['When we asked him for help the problem had existed for a long time.'][1]['action'],
+                         'exist')
 
     def test_existential_coordination_binds_the_first_nouns_number(self):
         facts = self.examples['There is a dictionary and two pencils on the table.']

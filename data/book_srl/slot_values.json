@@ -984,7 +984,7 @@
           "id": "is",
           "word": "is",
           "title": "Is",
-          "lemma": "exist",
+          "lemma": "be",
           "evidence": [
             {
               "passage": "u01-12d345c05d21fe05-1",
@@ -1065,7 +1065,7 @@
           "id": "are",
           "word": "are",
           "title": "Are",
-          "lemma": "exist",
+          "lemma": "be",
           "evidence": [
             {
               "passage": "u01-3c9a8caa3b1b9daa-1",
@@ -27461,7 +27461,7 @@
           "id": "were",
           "word": "were",
           "title": "Were",
-          "lemma": "exist",
+          "lemma": "be",
           "evidence": [
             {
               "passage": "u01-c96c5888fa2a9a71-1",
