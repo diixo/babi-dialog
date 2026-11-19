@@ -817,9 +817,7 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "infinitive",
-                  "status": "intended",
-                  "parent": 1,
-                  "relation": "purpose"
+                  "status": "intended"
                 }
               ]
             }
@@ -7801,9 +7799,7 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "infinitive",
-                  "status": "intended",
-                  "parent": 1,
-                  "relation": "purpose"
+                  "status": "intended"
                 }
               ]
             }
@@ -8090,9 +8086,7 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "infinitive",
-                  "status": "intended",
-                  "parent": 1,
-                  "relation": "purpose"
+                  "status": "intended"
                 }
               ]
             }

@@ -76,6 +76,60 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual(self.examples['Put them in the wardrobe.'][0]['object'], 'them')
         self.assertEqual(self.examples['He saw the dog and liked it at once.'][1]['object'], 'dog')
 
+    def test_event_targets_use_objects_without_overwriting_existing_objects(self):
+        text = "Let's have a break and go out to lunch together."
+        facts = self.examples[text]
+        self.assertEqual([f['object'] for f in facts], ['break', 'lunch'])
+        story = book.render(text, facts, self.annotations[text])
+        self.assertIn('object?\tlunch\t', story)
+        self.assertNotIn('purpose?', story)
+        for text, expected in [
+            ('I want to give him a book as a present.', 'book'),
+            ('I want to give him an article as a present.', 'article'),
+            ('I can buy something for supper.', 'something'),
+            ('What did he give you as a present?', 'unknown'),
+        ]:
+            self.assertEqual(self.examples[text][0]['object'], expected)
+        self.assertEqual(self.examples['Who would she like to ask for help?'][1]['object'], 'unknown')
+        for facts in self.examples.values():
+            for fact in facts:
+                self.assertNotIn('purpose', fact)
+                self.assertNotEqual(fact.get('syntactic_function'), 'purpose')
+
+    def test_separate_activity_fragments_keep_negation_and_hypothetical_scope(self):
+        cases = [
+            ('She spends less time on cooking than her mother.', 'cook', 'habitual'),
+            ("She doesn't spend as much time on cooking as her mother.", 'cook', 'habitual'),
+            ('She goes shopping with pleasure on Sunday.', 'shop', 'habitual'),
+            ('Does your father go fishing at the weekend?', 'fish', 'hypothetical'),
+            ('Yes, he sometimes goes fishing at the weekend.', 'fish', 'habitual'),
+            ('My mother went shopping after work yesterday.', 'shop', 'reported'),
+            ("My mother didn't go shopping after work yesterday.", 'shop', 'hypothetical'),
+            ('But for the strong frost we could go skiing.', 'ski', 'counterfactual'),
+        ]
+        for text, action, status in cases:
+            with self.subTest(text=text):
+                parent, child = self.examples[text]
+                self.assertEqual((child['actor'], child['action'], child['status']),
+                                 (parent['actor'], action, status))
+                self.assertEqual((child['tense'], child['polarity']), ('nonfinite', 'positive'))
+                first, second = self.annotations[text]['fragment_spans']
+                self.assertLessEqual(first[0][1], second[0][0])
+                self.assertIn(child['predicate'], text[second[0][0]:second[0][1]])
+        text = "My mother didn't go shopping after work yesterday."
+        self.assertEqual(self.examples[text][0]['polarity'], 'negative')
+        self.assertEqual(self.examples[text][1]['time'], 'after work yesterday')
+        self.assertEqual(self.examples[cases[1][0]][0]['object'], 'time')
+
+    def test_preparation_properties_keep_their_complements(self):
+        for text, complement in [
+            ('They thought they were well-prepared for the exam.', 'well-prepared for the exam'),
+            ('The children said that they were ready for the competition.', 'ready for the competition'),
+        ]:
+            fact = self.examples[text][1]
+            self.assertEqual((fact['object'], fact['complement'], fact['status']),
+                             ('none', complement, 'reported'))
+
     def test_fragments_scope_unindexed_questions_and_preserve_whole_utterance(self):
         text = 'He saw the dog and liked it at once.'
         output = book.render(text, self.examples[text], self.annotations[text])
@@ -389,7 +443,7 @@ class FactTemplateTests(unittest.TestCase):
     def test_double_comparative_forms_keep_their_meaning_and_distribution(self):
         for text in ['The shop is farther along the road.', 'The shop is further along the road.']:
             self.assertEqual(self.examples[text][0]['attribute'], 'distance')
-        self.assertEqual(self.examples['For further information speak to the secretary.'][0]['purpose'],
+        self.assertEqual(self.examples['For further information speak to the secretary.'][0]['object'],
                          'further information')
         self.assertIn('My wife has an elder sister.', self.examples)
         self.assertIn('William is the eldest of the three brothers.', self.examples)
@@ -572,13 +626,15 @@ class FactTemplateTests(unittest.TestCase):
                            ('Who is Vera waiting for?', 'target'),
                            ('Who does Kate usually have dinner with?', 'companion'),
                            ('What is this book about?', 'topic'),
-                           ('What do you need his telephone number for?', 'purpose'),
                            ('Who is this letter from?', 'origin')]:
             fact = self.examples[text][0]
             self.assertEqual(fact[role], 'unknown')
             self.assertEqual(fact['status'], 'questioned')
         fact = self.examples['What do you always thank people for?'][0]
         self.assertEqual((fact['object'], fact['reason']), ('people', 'unknown'))
+        fact = self.examples['What do you need his telephone number for?'][0]
+        self.assertEqual((fact['object'], fact['status']), ('his telephone number', 'questioned'))
+        self.assertNotIn('purpose', fact)
 
     def test_person_description_questions_keep_occupation_character_and_appearance(self):
         for text, attribute in [('What is her husband?', 'occupation'),
@@ -1076,7 +1132,8 @@ class FactTemplateTests(unittest.TestCase):
                          ('everybody', 'not everybody', 'perhaps'))
         self.assertEqual(self.examples['Nobody has heard from him ever since.'][0]['actor'], 'anybody')
         fact = self.examples['How much did you pay for this picture?'][0]
-        self.assertEqual((fact['object'], fact['amount'], fact['purpose']), ('money', 'unknown', 'this picture'))
+        self.assertEqual((fact['object'], fact['amount']), ('money', 'unknown'))
+        self.assertNotIn('purpose', fact)
         fact = self.examples['He has been concealing the truth from us all this time!'][0]
         self.assertEqual(fact['target'], 'us')
         self.assertNotIn('source', fact)
@@ -2117,8 +2174,10 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples['He stopped reading.']
         self.assertEqual((facts[0]['object'], facts[1]['verb_form'], facts[1]['status']), ('reading', 'gerund', 'ceased'))
         facts = self.examples['He stopped to read an advertisement.']
-        self.assertEqual(facts[0]['purpose'], 'to read an advertisement')
-        self.assertEqual((facts[1]['syntactic_function'], facts[1]['status']), ('purpose', 'intended'))
+        self.assertEqual((facts[0]['action'], facts[0]['object']), ('stop', 'none'))
+        self.assertEqual((facts[1]['action'], facts[1]['object'], facts[1]['status']),
+                         ('read', 'advertisement', 'intended'))
+        self.assertNotIn('syntactic_function', facts[1])
         self.assertEqual(self.examples['Stop shouting.'][1]['status'], 'unwanted')
 
     def test_remember_and_regret_keep_retrospective_and_prospective_forms(self):
@@ -2204,7 +2263,8 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples['She must have her clock fixed.']
         self.assertEqual((facts[0]['object'], facts[1]['actor'], facts[1]['action'], facts[1]['causer']),
                          ('her clock', 'unknown', 'fix', 'she'))
-        self.assertEqual(self.examples['He stopped to read a note.'][0]['purpose'], 'to read a note')
+        facts = self.examples['He stopped to read a note.']
+        self.assertEqual((facts[0]['object'], facts[1]['object']), ('none', 'note'))
         self.assertNotIn('They seems to be sleeping now.', self.examples)
         self.assertNotIn('He stopped to read an note.', self.examples)
         facts = self.examples['I must have my watch repaired.']

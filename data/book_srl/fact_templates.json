@@ -129,7 +129,6 @@
               "operation": "add",
               "object": "{noun_1.word}",
               "recipient": "{recipient_5.word}",
-              "purpose": "{purpose_4.word}",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -43363,9 +43362,8 @@
               "action": "{action_3.lemma}",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "{purpose_6.word}",
               "destination": "{destination_8.word}",
-              "purpose": "{purpose_6.word}",
               "modality": "{modality_7.word}",
               "tense": "future",
               "aspect": "simple",
@@ -44765,10 +44763,9 @@
               "action": "{action_1.lemma}",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "{purpose_5.word}",
               "location": "{location_2.word}",
               "time": "{time_3.word}",
-              "purpose": "{purpose_5.word}",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -62491,7 +62488,6 @@
               "operation": "none",
               "object": "{noun.word}",
               "quantity": "much",
-              "purpose": "it",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -63521,7 +63517,6 @@
               "operation": "none",
               "object": "luck",
               "quantity": "a little",
-              "purpose": "to win",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -64010,7 +64005,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to talk to his friend",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -68739,7 +68733,6 @@
               "intention": "none",
               "operation": "none",
               "object": "company",
-              "purpose": "to increase the sales",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -69909,7 +69902,6 @@
               "operation": "none",
               "object": "days",
               "quantity": "unknown",
-              "purpose": "it",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -79829,7 +79821,6 @@
               "intention": "none",
               "operation": "none",
               "object": "them",
-              "purpose": "to fix their car",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -80017,7 +80008,6 @@
               "intention": "none",
               "operation": "none",
               "object": "us",
-              "purpose": "to solve it",
               "modality": "can",
               "tense": "present",
               "aspect": "simple",
@@ -80106,7 +80096,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to see his grandparents",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -80134,7 +80123,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to see her grandparents",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -81734,8 +81722,7 @@
               "action": "sit down",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "breakfast",
+              "object": "breakfast",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -93116,7 +93103,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to visit Paul in hospital",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -97638,7 +97624,6 @@
               "operation": "none",
               "object": "{duration.word}",
               "quantity": "another two",
-              "purpose": "to finish this work",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -111805,7 +111790,6 @@
               "intention": "none",
               "operation": "none",
               "object": "another week",
-              "purpose": "to make a decision",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -114138,7 +114122,6 @@
               "operation": "none",
               "object": "days",
               "quantity": "another three",
-              "purpose": "to collect all the information",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -126087,13 +126070,26 @@
               "operation": "none",
               "object": "time",
               "quantity": "less",
-              "purpose": "cooking",
               "comparison": "her mother",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
               "polarity": "positive",
               "status": "asserted"
+            },
+            {
+              "actor": "she",
+              "predicate": "cooking",
+              "action": "cook",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "habitual"
             }
           ],
           "source": {
@@ -126107,12 +126103,24 @@
                 4,
                 10
               ]
+            ],
+            [
+              [
+                24,
+                31
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                20
+              ]
+            ],
+            [
+              [
+                24,
                 47
               ]
             ]
@@ -126122,6 +126130,12 @@
               [
                 4,
                 10
+              ]
+            ],
+            [
+              [
+                24,
+                31
               ]
             ]
           ]
@@ -126737,13 +126751,26 @@
               "operation": "none",
               "object": "time",
               "quantity": "as much",
-              "purpose": "cooking",
               "comparison": "her mother",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
               "polarity": "negative",
               "status": "asserted"
+            },
+            {
+              "actor": "she",
+              "predicate": "cooking",
+              "action": "cook",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "habitual"
             }
           ],
           "source": {
@@ -126757,12 +126784,24 @@
                 4,
                 17
               ]
+            ],
+            [
+              [
+                34,
+                41
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                30
+              ]
+            ],
+            [
+              [
+                34,
                 55
               ]
             ]
@@ -126772,6 +126811,12 @@
               [
                 12,
                 17
+              ]
+            ],
+            [
+              [
+                34,
+                41
               ]
             ]
           ]
@@ -132714,9 +132759,8 @@
               "action": "speak",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "further information",
               "recipient": "secretary",
-              "purpose": "further information",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -135890,7 +135934,6 @@
               "operation": "none",
               "object": "none",
               "destination": "next station",
-              "purpose": "to change trains",
               "modality": "have to",
               "tense": "past",
               "aspect": "simple",
@@ -136823,7 +136866,6 @@
               "intention": "enter",
               "operation": "add",
               "object": "another university",
-              "purpose": "to get further education",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -138182,8 +138224,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "time": "sooner",
               "condition": "as you do it faster",
               "tense": "future",
@@ -139740,7 +139781,6 @@
               "operation": "none",
               "object": "your best",
               "modality": "must",
-              "purpose": "help them",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -152236,8 +152276,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "picnic",
+              "object": "picnic",
               "companion": "the Smiths",
               "time": "on Sunday",
               "tense": "past",
@@ -152721,7 +152760,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "shopping",
               "manner": "with pleasure",
               "time": "on Sunday",
               "tense": "present",
@@ -152729,6 +152767,22 @@
               "voice": "active",
               "polarity": "positive",
               "status": "asserted"
+            },
+            {
+              "actor": "she",
+              "predicate": "shopping",
+              "action": "shop",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "habitual",
+              "time": "on Sunday",
+              "manner": "with pleasure"
             }
           ],
           "source": {
@@ -152742,12 +152796,24 @@
                 4,
                 8
               ]
+            ],
+            [
+              [
+                9,
+                17
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                8
+              ]
+            ],
+            [
+              [
+                9,
                 41
               ]
             ]
@@ -152757,6 +152823,12 @@
               [
                 4,
                 8
+              ]
+            ],
+            [
+              [
+                9,
+                17
               ]
             ]
           ]
@@ -153425,7 +153497,6 @@
               "operation": "none",
               "object": "wonderful round Greek jewellery box",
               "recipient": "user",
-              "purpose": "present",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -154220,7 +154291,6 @@
               "operation": "none",
               "object": "time",
               "quantity": "a lot of",
-              "purpose": "her studies",
               "addition": "also",
               "tense": "present",
               "aspect": "simple",
@@ -157996,7 +158066,6 @@
               "operation": "none",
               "object": "time",
               "quantity": "enough",
-              "purpose": "do the shopping",
               "time": "yesterday",
               "tense": "past",
               "aspect": "simple",
@@ -159631,7 +159700,6 @@
               "operation": "none",
               "object": "time",
               "time": "now",
-              "purpose": "speak to you",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -159749,7 +159817,6 @@
               "operation": "none",
               "object": "time",
               "time": "now",
-              "purpose": "speak to you",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -160881,7 +160948,6 @@
               "intention": "none",
               "operation": "none",
               "object": "time",
-              "purpose": "even for a cup of coffee",
               "time": "this morning",
               "tense": "past",
               "aspect": "simple",
@@ -165199,8 +165265,7 @@
               "action": "go",
               "intention": "go",
               "operation": "add",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -165266,8 +165331,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -169465,7 +169529,6 @@
               "object": "none",
               "frequency": "often",
               "modality": "have to",
-              "purpose": "have dinner",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -169664,7 +169727,6 @@
               "operation": "none",
               "object": "money",
               "quantity": "enough",
-              "purpose": "buy this doll",
               "vocative": "Mummy",
               "tense": "present",
               "aspect": "simple",
@@ -175557,8 +175619,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "time": "now",
               "modality": "can",
               "tense": "present",
@@ -179127,7 +179188,6 @@
               "intention": "ask",
               "operation": "add",
               "object": "him",
-              "purpose": "advice",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -181937,7 +181997,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "be a doctor",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -182414,7 +182473,6 @@
               "intention": "none",
               "operation": "none",
               "object": "time",
-              "purpose": "short rest",
               "time": "unknown",
               "tense": "present",
               "aspect": "simple",
@@ -182779,8 +182837,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "location": "in this park",
               "frequency": "unknown",
               "tense": "present",
@@ -185315,7 +185372,6 @@
               "operation": "none",
               "object": "money",
               "quantity": "a lot of",
-              "purpose": "his flat",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -185369,7 +185425,6 @@
               "operation": "none",
               "object": "money",
               "quantity": "much",
-              "purpose": "unknown",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -185794,7 +185849,6 @@
               "operation": "none",
               "object": "sugar",
               "quantity": "a little",
-              "purpose": "make this cake",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -185879,7 +185933,6 @@
               "operation": "none",
               "object": "sugar",
               "quantity": "unknown",
-              "purpose": "make this cake",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -187748,7 +187801,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "speak to you",
               "tense": "present",
               "aspect": "continuous",
               "voice": "active",
@@ -193093,7 +193145,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "be a teacher",
               "location": "in your country",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -193216,7 +193267,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "be a teacher",
               "location": "in my country",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -194977,7 +195027,6 @@
               "intention": "none",
               "operation": "none",
               "object": "his telephone number",
-              "purpose": "unknown",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -200123,8 +200172,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "companion": "my sister",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -200209,8 +200257,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "companion": "her",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -211896,7 +211943,6 @@
               "intention": "none",
               "operation": "none",
               "object": "unknown",
-              "purpose": "help",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -211999,7 +212045,6 @@
               "intention": "none",
               "operation": "none",
               "object": "unknown",
-              "purpose": "help",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -214006,9 +214051,8 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "their vacation",
               "destination": "unknown",
-              "purpose": "their vacation",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -222848,7 +222892,6 @@
               "intention": "none",
               "operation": "none",
               "object": "unknown",
-              "purpose": "present",
               "occasion": "her birthday",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -228773,7 +228816,6 @@
               "object": "cloth",
               "quantity": "enough",
               "location": "here",
-              "purpose": "make a long dress",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -237532,8 +237574,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "manner": "together",
               "tense": "present",
               "aspect": "simple",
@@ -237590,8 +237631,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "manner": "together",
               "frequency": "often",
               "tense": "present",
@@ -237646,13 +237686,27 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "fishing",
               "time": "at the weekend",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
               "polarity": "positive",
               "status": "questioned"
+            },
+            {
+              "actor": "your father",
+              "predicate": "fishing",
+              "action": "fish",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "hypothetical",
+              "time": "at the weekend"
             }
           ],
           "source": {
@@ -237670,12 +237724,24 @@
                 17,
                 19
               ]
+            ],
+            [
+              [
+                20,
+                27
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                19
+              ]
+            ],
+            [
+              [
+                20,
                 42
               ]
             ]
@@ -237685,6 +237751,12 @@
               [
                 17,
                 19
+              ]
+            ],
+            [
+              [
+                20,
+                27
               ]
             ]
           ]
@@ -237704,7 +237776,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "fishing",
               "time": "at the weekend",
               "frequency": "sometimes",
               "tense": "present",
@@ -237712,6 +237783,22 @@
               "voice": "active",
               "polarity": "positive",
               "status": "asserted"
+            },
+            {
+              "actor": "he",
+              "predicate": "fishing",
+              "action": "fish",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "habitual",
+              "time": "at the weekend",
+              "frequency": "sometimes"
             }
           ],
           "source": {
@@ -237725,12 +237812,24 @@
                 18,
                 22
               ]
+            ],
+            [
+              [
+                23,
+                30
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                22
+              ]
+            ],
+            [
+              [
+                23,
                 45
               ]
             ]
@@ -237740,6 +237839,12 @@
               [
                 18,
                 22
+              ]
+            ],
+            [
+              [
+                23,
+                30
               ]
             ]
           ]
@@ -241563,8 +241668,7 @@
               "action": "go out",
               "intention": "go out",
               "operation": "add",
-              "object": "none",
-              "purpose": "lunch",
+              "object": "lunch",
               "manner": "together",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -250250,8 +250354,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "time": "until the rain stops",
               "tense": "future",
               "aspect": "simple",
@@ -251748,8 +251851,7 @@
               "action": "dress",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "party",
+              "object": "party",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -252740,8 +252842,7 @@
               "action": "prepare",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "exam",
+              "object": "exam",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -253090,8 +253191,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "sleep",
+              "object": "sleep",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -253360,8 +253460,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "time": "after the film is over",
               "tense": "future",
               "aspect": "simple",
@@ -254653,8 +254752,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "manner": "together",
               "tense": "present",
               "aspect": "simple",
@@ -255041,7 +255139,6 @@
               "intention": "make",
               "operation": "add",
               "object": "cake",
-              "purpose": "tea",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -257378,7 +257475,6 @@
               "intention": "none",
               "operation": "none",
               "object": "this book",
-              "purpose": "present",
               "beneficiary": "my friend",
               "tense": "future",
               "aspect": "simple",
@@ -258906,13 +259002,27 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "shopping",
               "time": "after work yesterday",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
               "polarity": "positive",
               "status": "asserted"
+            },
+            {
+              "actor": "my mother",
+              "predicate": "shopping",
+              "action": "shop",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "reported",
+              "time": "after work yesterday"
             }
           ],
           "source": {
@@ -258926,12 +259036,24 @@
                 10,
                 14
               ]
+            ],
+            [
+              [
+                15,
+                23
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                14
+              ]
+            ],
+            [
+              [
+                15,
                 44
               ]
             ]
@@ -258941,6 +259063,12 @@
               [
                 10,
                 14
+              ]
+            ],
+            [
+              [
+                15,
+                23
               ]
             ]
           ]
@@ -258960,13 +259088,27 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "shopping",
               "time": "after work yesterday",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
               "polarity": "negative",
               "status": "asserted"
+            },
+            {
+              "actor": "my mother",
+              "predicate": "shopping",
+              "action": "shop",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "hypothetical",
+              "time": "after work yesterday"
             }
           ],
           "source": {
@@ -258980,12 +259122,24 @@
                 10,
                 19
               ]
+            ],
+            [
+              [
+                20,
+                28
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                19
+              ]
+            ],
+            [
+              [
+                20,
                 49
               ]
             ]
@@ -258995,6 +259149,12 @@
               [
                 17,
                 19
+              ]
+            ],
+            [
+              [
+                20,
+                28
               ]
             ]
           ]
@@ -259780,7 +259940,6 @@
               "operation": "none",
               "object": "vase",
               "recipient": "user",
-              "purpose": "present",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -259834,7 +259993,6 @@
               "operation": "none",
               "object": "unknown",
               "recipient": "addressee",
-              "purpose": "present",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -262359,7 +262517,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to see you",
               "tense": "present",
               "aspect": "perfect",
               "voice": "active",
@@ -269324,8 +269481,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "time": "in August",
               "tense": "present",
               "aspect": "continuous",
@@ -269791,7 +269947,6 @@
               "intention": "none",
               "operation": "none",
               "object": "place",
-              "purpose": "all of them",
               "location": "in the photo album",
               "tense": "present",
               "aspect": "simple",
@@ -270438,7 +270593,6 @@
               "intention": "none",
               "operation": "none",
               "object": "everything",
-              "purpose": "party",
               "tense": "present",
               "aspect": "perfect",
               "voice": "active",
@@ -276624,8 +276778,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "time": "unknown",
               "recency": "last",
               "tense": "past",
@@ -276683,8 +276836,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "time": "since last weekend",
               "tense": "present",
               "aspect": "perfect",
@@ -286676,7 +286828,6 @@
               "intention": "none",
               "operation": "none",
               "object": "material",
-              "purpose": "my exam",
               "tense": "present",
               "aspect": "perfect_continuous",
               "voice": "active",
@@ -288629,7 +288780,6 @@
               "intention": "none",
               "operation": "none",
               "object": "money",
-              "purpose": "new player",
               "time": "since he saw the advertisement",
               "tense": "present",
               "aspect": "perfect_continuous",
@@ -288746,8 +288896,7 @@
               "action": "save",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "new player",
+              "object": "new player",
               "time": "since he saw the advertisement",
               "tense": "present",
               "aspect": "perfect_continuous",
@@ -292571,8 +292720,7 @@
               "action": "prepare",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "it",
+              "object": "it",
               "manner": "unknown",
               "tense": "past",
               "aspect": "simple",
@@ -293819,7 +293967,6 @@
               "intention": "none",
               "operation": "none",
               "object": "music",
-              "purpose": "this opera",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -295770,7 +295917,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to see my aunt",
               "time": "on Saturday",
               "tense": "past",
               "aspect": "simple",
@@ -298729,7 +298875,6 @@
               "operation": "none",
               "object": "money",
               "amount": "unknown",
-              "purpose": "this picture",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -298841,7 +298986,6 @@
               "operation": "none",
               "object": "holiday",
               "time": "in autumn",
-              "purpose": "unknown",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -303575,8 +303719,7 @@
               "action": "prepare",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "his arrival",
+              "object": "his arrival",
               "manner": "carefully",
               "tense": "past",
               "aspect": "continuous",
@@ -306182,7 +306325,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to tell you I was coming by the 7 o'clock train",
               "tense": "past",
               "aspect": "continuous",
               "voice": "active",
@@ -309726,7 +309868,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to say Good-bye to the Browns",
               "time": "on Saturday",
               "tense": "past",
               "aspect": "simple",
@@ -311164,8 +311305,7 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "complement": "well-prepared",
-              "purpose": "exam",
+              "complement": "well-prepared for the exam",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -312415,7 +312555,6 @@
               "intention": "none",
               "operation": "none",
               "object": "tickets",
-              "purpose": "her concert",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -317390,7 +317529,6 @@
               "operation": "none",
               "object": "list of things",
               "repetition": "again",
-              "purpose": "to make sure she hadn't forgotten anything",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -317957,7 +318095,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to take some book for her exam",
               "tense": "past",
               "aspect": "perfect",
               "voice": "active",
@@ -317971,7 +318108,6 @@
               "intention": "none",
               "operation": "none",
               "object": "some book",
-              "purpose": "her exam",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -318354,7 +318490,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to ask for advice how to choose a computer",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -322395,7 +322530,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to say good-bye to Charles",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -325884,8 +326018,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -326002,8 +326135,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -335753,7 +335885,6 @@
               "object": "none",
               "manner": "with her usual decisiveness",
               "time": "as soon as she had finished her breakfast",
-              "purpose": "to send a wire",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -339609,7 +339740,6 @@
               "operation": "none",
               "object": "pipe",
               "location": "by her bed",
-              "purpose": "unknown",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -362565,8 +362695,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -362819,8 +362948,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -365810,7 +365938,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to speak to you",
               "time": "yesterday",
               "tense": "past",
               "aspect": "simple",
@@ -365961,7 +366088,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to speak to me",
               "time": "the day before",
               "tense": "past",
               "aspect": "perfect",
@@ -371443,7 +371569,6 @@
               "intention": "none",
               "operation": "none",
               "object": "time",
-              "purpose": "to call",
               "time": "before",
               "tense": "past",
               "aspect": "perfect",
@@ -376960,7 +377085,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to answer the phone",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -380267,7 +380391,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to listen to a Mozart quintet",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -382183,7 +382306,6 @@
               "operation": "none",
               "object": "none",
               "complement": "too tired",
-              "purpose": "to make even a pretense of sociability",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -382211,7 +382333,6 @@
               "intention": "none",
               "operation": "none",
               "object": "anything about the dinner",
-              "purpose": "to hold Irene's interest",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -384055,7 +384176,6 @@
               "operation": "none",
               "object": "none",
               "manner": "in a low voice",
-              "purpose": "so that nobody would understand what she was talking about",
               "tense": "past",
               "aspect": "continuous",
               "voice": "active",
@@ -386683,8 +386803,7 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "complement": "ready",
-              "purpose": "competition",
+              "complement": "ready for the competition",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -387059,7 +387178,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to see Laura",
               "tense": "past",
               "aspect": "continuous",
               "voice": "active",
@@ -387176,7 +387294,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to see Laura",
               "tense": "past",
               "aspect": "continuous",
               "voice": "active",
@@ -389083,7 +389200,6 @@
               "operation": "none",
               "object": "none",
               "destination": "East",
-              "purpose": "to visit a cousin",
               "tense": "past",
               "aspect": "continuous",
               "voice": "active",
@@ -389232,7 +389348,6 @@
               "operation": "none",
               "object": "none",
               "destination": "station",
-              "purpose": "to see me off",
               "tense": "past",
               "aspect": "perfect",
               "voice": "active",
@@ -389500,7 +389615,6 @@
               "operation": "none",
               "object": "his car",
               "destination": "Cleveland",
-              "purpose": "to sell his car there",
               "tense": "past",
               "aspect": "continuous",
               "voice": "active",
@@ -389615,7 +389729,6 @@
               "operation": "none",
               "object": "none",
               "duration": "so long",
-              "purpose": "to buy the car",
               "tense": "past",
               "aspect": "perfect_continuous",
               "voice": "active",
@@ -389975,8 +390088,7 @@
               "action": "stop",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "gas",
+              "object": "gas",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -391190,7 +391302,6 @@
               "object": "none",
               "modality": "would",
               "target": "anything",
-              "purpose": "to prevent Sophie from marrying Larry",
               "tense": "future",
               "aspect": "simple",
               "voice": "active",
@@ -392211,7 +392322,6 @@
               "operation": "none",
               "object": "strength",
               "modality": "would",
-              "purpose": "to resist",
               "frequency": "ever",
               "condition": "if she got a chance",
               "tense": "future",
@@ -394868,7 +394978,6 @@
               "intention": "none",
               "operation": "none",
               "object": "Jimmy",
-              "purpose": "his crimes",
               "duration": "all that time",
               "tense": "past",
               "aspect": "perfect_continuous",
@@ -410865,7 +410974,6 @@
               "intention": "none",
               "operation": "none",
               "object": "unknown",
-              "purpose": "to improve the situation",
               "tense": "present",
               "aspect": "continuous",
               "voice": "passive",
@@ -411705,7 +411813,6 @@
               "operation": "none",
               "object": "unknown",
               "recipient": "addressee",
-              "purpose": "birthday present",
               "tense": "past",
               "aspect": "simple",
               "voice": "passive",
@@ -412294,13 +412401,13 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "unknown",
               "focus": "all",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
               "polarity": "positive",
-              "status": "questioned"
+              "status": "questioned",
+              "complement": "unknown"
             }
           ],
           "source": {
@@ -414041,7 +414148,6 @@
               "operation": "none",
               "object": "money",
               "quantity": "any",
-              "purpose": "it",
               "modality": "would",
               "tense": "future",
               "aspect": "simple",
@@ -415540,10 +415646,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "walk",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "walk",
               "time": "now",
               "condition": "but for the {item.word}",
               "tense": "present",
@@ -415601,10 +415706,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "walk",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "walk",
               "time": "yesterday",
               "condition": "but for the {item.word}",
               "tense": "past",
@@ -422663,8 +422767,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "modality": "can",
               "tense": "present",
               "aspect": "simple",
@@ -423428,10 +423531,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "holiday",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "holiday",
               "ability": "be able to",
               "tense": "present",
               "aspect": "simple",
@@ -426120,7 +426222,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "skating",
               "tense": "future",
               "aspect": "simple",
               "voice": "active",
@@ -426659,7 +426760,6 @@
               "object": "none",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "skating",
               "condition": "but for the frost",
               "tense": "present",
               "aspect": "simple",
@@ -429421,10 +429521,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "swim",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "swim",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -431234,7 +431333,6 @@
               "object": "money",
               "mood": "subjunctive",
               "quantity": "so much",
-              "purpose": "flowers",
               "tense": "past",
               "aspect": "perfect",
               "voice": "active",
@@ -433959,9 +434057,8 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "holiday",
               "mood": "subjunctive",
-              "purpose": "holiday",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -438209,7 +438306,6 @@
               "operation": "none",
               "object": "addressee",
               "mood": "subjunctive",
-              "purpose": "dinner",
               "time": "last week",
               "tense": "past",
               "aspect": "perfect",
@@ -438302,7 +438398,6 @@
               "operation": "none",
               "object": "user",
               "mood": "subjunctive",
-              "purpose": "dinner",
               "time": "last week",
               "tense": "past",
               "aspect": "perfect",
@@ -441760,7 +441855,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "riding",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -442164,7 +442258,6 @@
               "intention": "none",
               "operation": "none",
               "object": "time",
-              "purpose": "to wash the floor",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -442792,8 +442885,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "modality": "can",
               "tense": "present",
               "aspect": "simple",
@@ -443869,10 +443961,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "walk",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "walk",
               "condition": "but for the rain",
               "tense": "present",
               "aspect": "simple",
@@ -447503,7 +447594,6 @@
               "object": "all the rules",
               "mood": "subjunctive",
               "modality": "would",
-              "purpose": "exam",
               "tense": "future",
               "aspect": "simple",
               "voice": "active",
@@ -447869,7 +447959,6 @@
               "operation": "none",
               "object": "none",
               "mood": "subjunctive",
-              "purpose": "skiing",
               "modality": "could",
               "condition": "but for the strong frost",
               "tense": "present",
@@ -447877,6 +447966,21 @@
               "voice": "active",
               "polarity": "positive",
               "status": "counterfactual"
+            },
+            {
+              "actor": "we",
+              "predicate": "skiing",
+              "action": "ski",
+              "intention": "none",
+              "operation": "none",
+              "object": "none",
+              "verb_form": "gerund",
+              "tense": "nonfinite",
+              "aspect": "simple",
+              "voice": "active",
+              "polarity": "positive",
+              "status": "counterfactual",
+              "condition": "but for the strong frost"
             }
           ],
           "source": {
@@ -447890,12 +447994,24 @@
                 28,
                 36
               ]
+            ],
+            [
+              [
+                37,
+                43
+              ]
             ]
           ],
           "fragment_spans": [
             [
               [
                 0,
+                36
+              ]
+            ],
+            [
+              [
+                37,
                 43
               ]
             ]
@@ -447905,6 +448021,12 @@
               [
                 34,
                 36
+              ]
+            ],
+            [
+              [
+                37,
+                43
               ]
             ]
           ]
@@ -450244,7 +450366,6 @@
               "intention": "none",
               "operation": "none",
               "object": "another place",
-              "purpose": "to park your car",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -453041,7 +453162,6 @@
               "object": "something",
               "modality": "be able to",
               "modal_meaning": "ability",
-              "purpose": "supper",
               "tense": "future",
               "aspect": "simple",
               "voice": "active",
@@ -453096,7 +453216,6 @@
               "object": "something",
               "modality": "can",
               "modal_meaning": "circumstantial possibility",
-              "purpose": "supper",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -458671,7 +458790,6 @@
               "object": "none",
               "modality": "must",
               "modal_meaning": "prohibition",
-              "purpose": "to speak with strangers",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -460741,7 +460859,6 @@
               "object": "children",
               "modality": "be to",
               "modal_meaning": "obligation",
-              "purpose": "walk",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -466087,10 +466204,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "holiday",
               "modality": "be likely to",
               "modal_meaning": "probability",
-              "purpose": "holiday",
               "time": "one of these days",
               "tense": "future",
               "aspect": "simple",
@@ -470118,7 +470234,6 @@
               "intention": "none",
               "operation": "none",
               "object": "anything",
-              "purpose": "supper",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -470390,7 +470505,6 @@
               "modality": "might",
               "modal_meaning": "reproach",
               "attitude": "reproach",
-              "purpose": "supper",
               "tense": "past",
               "aspect": "perfect",
               "voice": "active",
@@ -483335,11 +483449,10 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "holiday",
               "modality": "should",
               "modal_meaning": "advice",
               "outcome": "not completed",
-              "purpose": "holiday",
               "tense": "past",
               "aspect": "perfect",
               "voice": "active",
@@ -486787,7 +486900,6 @@
               "object": "none",
               "modality": "have to",
               "modal_meaning": "obligation",
-              "purpose": "to shake hands",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -492033,7 +492145,6 @@
               "modality": "must",
               "modal_meaning": "inference",
               "duration": "all this time",
-              "purpose": "to achieve success",
               "tense": "present",
               "aspect": "perfect_continuous",
               "voice": "active",
@@ -534255,7 +534366,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to read {item.article} {item.word}",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -534270,7 +534380,6 @@
               "operation": "none",
               "object": "{item.word}",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -536119,7 +536228,6 @@
               "object": "none",
               "frequency": "often",
               "context": "on his way to the office",
-              "purpose": "to talk to this man or that",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -536134,7 +536242,6 @@
               "operation": "none",
               "object": "none",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "recipient": "this man or that",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -536864,7 +536971,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to show a stranger the way to the nearest bank",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -536879,7 +536985,6 @@
               "operation": "none",
               "object": "way to the nearest bank",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "recipient": "stranger",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -537419,7 +537524,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to pick up the toy the child had dropped",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -537434,7 +537538,6 @@
               "operation": "none",
               "object": "toy",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -537794,7 +537897,6 @@
               "object": "train",
               "verb_form": "gerund",
               "syntactic_function": "object",
-              "purpose": "to go to work and back",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -537809,7 +537911,6 @@
               "operation": "none",
               "object": "none",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "destination": "work and back",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -540041,7 +540142,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to read the {item.word}",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -540056,7 +540156,6 @@
               "operation": "none",
               "object": "{item.word}",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -545428,9 +545527,8 @@
               "action": "turn",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "help",
               "target": "him",
-              "purpose": "help",
               "reason": "they hadn't taken a decision",
               "tense": "past",
               "aspect": "simple",
@@ -545518,9 +545616,8 @@
               "action": "turn",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "help",
               "target": "him",
-              "purpose": "help",
               "reason": "not having taken a decision",
               "tense": "past",
               "aspect": "simple",
@@ -554490,8 +554587,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "time": "this year",
               "tense": "future",
               "aspect": "simple",
@@ -554614,10 +554710,9 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
+              "object": "holiday",
               "verb_form": "infinitive",
               "syntactic_function": "object",
-              "purpose": "holiday",
               "time": "this year",
               "tense": "nonfinite",
               "aspect": "simple",
@@ -556955,7 +557050,6 @@
               "object": "eggs",
               "modality": "must",
               "modal_meaning": "obligation",
-              "purpose": "to make an omelette",
               "tense": "present",
               "aspect": "simple",
               "voice": "active",
@@ -556970,7 +557064,6 @@
               "operation": "none",
               "object": "omelette",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -561781,8 +561874,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "holiday",
+              "object": "holiday",
               "frequency": "three times a year",
               "modality": "used to",
               "time": "when I was younger",
@@ -562147,7 +562239,6 @@
               "intention": "none",
               "operation": "none",
               "object": "none",
-              "purpose": "to shake hands",
               "tense": "past",
               "aspect": "simple",
               "voice": "active",
@@ -562162,7 +562253,6 @@
               "operation": "none",
               "object": "none",
               "verb_form": "infinitive",
-              "syntactic_function": "purpose",
               "tense": "nonfinite",
               "aspect": "simple",
               "voice": "active",
@@ -569622,8 +569712,7 @@
               "action": "go",
               "intention": "none",
               "operation": "none",
-              "object": "none",
-              "purpose": "walk",
+              "object": "walk",
               "completion": "already",
               "tense": "present",
               "aspect": "perfect",
@@ -576007,7 +576096,6 @@
               "intention": "none",
               "operation": "none",
               "object": "time",
-              "purpose": "it",
               "time": "on Friday",
               "tense": "future",
               "aspect": "simple",

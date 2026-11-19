@@ -464,6 +464,8 @@ def validate_annotation_example(example: AnnotationExample) -> None:
             if not isinstance(predicate, str) or not predicate or not re.search(boundary+re.escape(predicate)+r'(?!\w)', text, re.I):
                 raise ValueError(f'{example.template_id}: predicate {predicate!r} absent in {text!r}')
             roles = event.get('roles', {})
+            if 'purpose' in roles or event.get('relation') == 'purpose':
+                raise ValueError(f'{example.template_id}: purpose is no longer supported')
             for role in ('subject', 'actor', 'action', 'object'):
                 if not isinstance(roles.get(role), str) or not roles[role].strip():
                     raise ValueError(f'{example.template_id}: missing role {role}')
@@ -495,7 +497,11 @@ class AnnotationLibrary:
         nouns = read_json(self.directory / 'nouns.json')
         verbs = read_json(self.directory / 'verbs.json')
         catalogue = read_json(self.directory / 'templates.json')
-        self.lexicons = {'noun': nouns['nouns'], 'person': nouns['people'], 'verb': verbs['verbs']}
+        self.lexicons = {
+            'noun': nouns['nouns'],
+            'person': nouns['people'],
+            'verb': verbs['verbs']
+            }
         for kind, entries in self.lexicons.items():
             if not isinstance(entries, dict) or not entries:
                 raise ValueError(f'Empty lexicon: {kind}')

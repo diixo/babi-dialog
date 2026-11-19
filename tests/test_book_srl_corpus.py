@@ -88,6 +88,8 @@ class CorpusTests(unittest.TestCase):
             lambda data: data['sentences'][0].update(facts=[]),
             lambda data: data['sentences'][0].pop('fragment_spans'),
             lambda data: data['sentences'][0].update(verb_spans=[]),
+            lambda data: data['sentences'][0]['facts'][0].update(purpose='as a present'),
+            lambda data: data['sentences'][0]['facts'][0].update(syntactic_function='purpose'),
             lambda data: data['sentences'][0].update(unit=85),
             lambda data: data['sentences'].append(deepcopy(data['sentences'][0])),
         ]

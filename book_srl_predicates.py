@@ -105,6 +105,10 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
     if not isinstance(annotations, dict):
         raise ValueError(_prefix(label) + 'Missing fact spans')
     validate_predicates(text, facts, annotations.get('predicate_spans'), label)
+    for fact in facts:
+        if 'purpose' in fact or fact.get('syntactic_function') == 'purpose':
+            raise ValueError(_prefix(label) + 'purpose is no longer supported; '
+                             'preserve the object and annotate any separate action')
     words = [(match.start(), match.end()) for match in WORD.finditer(text)]
     for field in ('fragment_spans', 'verb_spans'):
         spans = annotations.get(field)
