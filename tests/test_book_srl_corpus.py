@@ -91,6 +91,9 @@ class CorpusTests(unittest.TestCase):
             lambda data: data['sentences'][0].update(verb_spans=[]),
             lambda data: data['sentences'][0]['facts'][0].update(purpose='as a present'),
             lambda data: data['sentences'][0]['facts'][0].update(syntactic_function='purpose'),
+            lambda data: data['sentences'][0]['facts'][0].pop('type'),
+            lambda data: data['sentences'][0]['facts'][0].update(type='assertion'),
+            lambda data: data['sentences'][0]['facts'][0].update(status='questioned'),
             lambda data: data['sentences'][0].update(unit=85),
             lambda data: data['sentences'].append(deepcopy(data['sentences'][0])),
         ]
@@ -151,7 +154,7 @@ class CorpusTests(unittest.TestCase):
             data['sentences'].append(dict(id='manual-english-example', unit=1,
                 text='Mary reads.', predicate_spans=[[[5,10]]],
                 fragment_spans=[[[0,10]]], verb_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
-                    intention='none', operation='none', object='none')]))
+                    intention='none', operation='none', object='none', type='non_question')]))
             path.write_text(json.dumps(data), encoding='utf-8')
             questions=book.read_json(directory/'questions.json')
             questions['questions'].append(dict(sentence_id='manual-english-example',text='Mary reads.',
@@ -175,7 +178,7 @@ class UnifiedBuildTests(unittest.TestCase):
                     fragment_spans=[[[0,len(text)-1]]],
                     verb_spans=[[[len(name)+1,len(text)-1]]],
                     facts=[dict(actor=name, predicate='reads', action='read',
-                                intention='none', operation='none', object='none')])
+                                intention='none', operation='none', object='none', type='non_question')])
 
     @staticmethod
     def write_json(path, value):

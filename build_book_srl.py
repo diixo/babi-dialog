@@ -16,14 +16,14 @@ from pathlib import Path
 import re
 from typing import Callable, Iterator
 
-from book_srl_corpus import CorpusLibrary, read_json
+from book_srl_corpus import CorpusLibrary, UTTERANCE_TYPES, read_json
 from book_srl_predicates import (SPAN_FIELDS, expand_predicates, predicate_from_spans,
                                  validate_fact_spans, substitute)
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_LIBRARY = ROOT / 'data' / 'book_srl'
 DEFAULT_OUT = ROOT / 'products-book-srl'
-CORE_FIELDS = ('actor', 'predicate', 'action', 'intention', 'operation', 'object')
+CORE_FIELDS = ('actor', 'predicate', 'action', 'intention', 'operation', 'object', 'type')
 OPERATIONS = {'none', 'add', 'remove', 'replace', 'keep', 'clear', 'complete'}
 AUXILIARY_ACTIONS = {
     'am': 'be', 'is': 'be', 'are': 'be', 'was': 'be', 'were': 'be',
@@ -35,7 +35,7 @@ AUXILIARY_ACTIONS = {
     'would': 'unknown', "'d": 'unknown', 'shall': 'unknown',
     'should': 'unknown', 'must': 'unknown', 'may': 'unknown', 'might': 'unknown',
 }
-CONTEXT_FIELDS = {'intention', 'operation', 'polarity', 'status',
+CONTEXT_FIELDS = {'intention', 'operation', 'polarity', 'type',
                   'verb_form', 'form', 'participle_form', 'form_voice', 'degree',
                   'syntactic_function', 'modality', 'modal_meaning', 'negation_scope'}
 # An unknown answer can be licensed by a question word outside its fragment.
@@ -68,6 +68,8 @@ def validate(text, facts):
                 raise ValueError(f'Invalid fact value: {field}={value!r}')
         if fact['operation'] not in OPERATIONS:
             raise ValueError(f'Invalid operation: {fact["operation"]!r}')
+        if fact['type'] not in UTTERANCE_TYPES:
+            raise ValueError(f'Invalid utterance type: {fact["type"]!r}')
 
 
 def render(text, facts, annotations):
@@ -89,7 +91,7 @@ def render(text, facts, annotations):
         verb = predicate_from_spans(text, annotations['verb_spans'][index])
         fields = ['actor', 'predicate', 'verb', 'action', 'intention', 'operation', 'object']
         fields += [field for field in fact if field not in fields
-                   and field not in ('tense', 'aspect', 'voice', 'beneficiary')]
+                   and field not in ('tense', 'aspect', 'voice', 'beneficiary', 'status')]
         embedded = annotations.get('embedded_roles', {}).get(str(index), {})
         for field in fields:
             if field in embedded:
@@ -101,7 +103,11 @@ def render(text, facts, annotations):
             # complete input. Labels alone cannot establish local evidence.
             local = (not text[:start].strip(' \t.,;:!?\"')
                      and not text[end:].strip(' \t.,;:!?\"'))
-            if value == 'unknown':
+            if field == 'type':
+                # The containing utterance, its punctuation and quote scope
+                # can extend beyond this fragment. Type is explicitly stored.
+                local = False
+            elif value == 'unknown':
                 cues = QUESTION_CUES.get(field)
                 local = not cues or not any(
                     not start <= match.start() < match.end() <= end
@@ -446,7 +452,7 @@ ANNOTATION_VALUES = {
     'voice': {'active', 'passive'},
     'polarity': {'positive', 'negative'},
     'form': {'finite', 'infinitive', 'gerund', 'participle'},
-    'status': {'asserted', 'habitual', 'intended', 'questioned', 'hypothetical',
+    'status': {'asserted', 'habitual', 'intended', 'hypothetical',
                'reported', 'inferred', 'required', 'possible', 'counterfactual'},
 }
 
@@ -494,6 +500,8 @@ def validate_annotation_example(example: AnnotationExample) -> None:
                 if not isinstance(roles.get(role), str) or not roles[role].strip():
                     raise ValueError(f'{example.template_id}: missing role {role}')
             for field in ANNOTATION_FIELDS:
+                if field == 'status' and field not in event:
+                    continue
                 if event.get(field) not in ANNOTATION_VALUES[field]:
                     raise ValueError(f'{example.template_id}: invalid {field}: {event.get(field)!r}')
             for ref in event.get('context', []):
@@ -697,7 +705,8 @@ def render_annotation(example: AnnotationExample) -> str:
             for role, value in event['roles'].items():
                 qa(f'{role} of {scope}?', value, refs)
             for field in ANNOTATION_FIELDS:
-                qa(f'{field} of {scope}?', event[field], refs)
+                if field in event:
+                    qa(f'{field} of {scope}?', event[field], refs)
             local_predicates.append(pred)
     qa('sentence count?', len(example.sentences), sentence_lines)
     qa('predicate count?', len(predicate_lines), predicate_lines or sentence_lines)

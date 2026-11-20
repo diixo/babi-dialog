@@ -39,6 +39,19 @@ class BookSRLTests(unittest.TestCase):
         perfect = self.example(45, 'John has just written the book.')
         self.assertEqual(perfect.sentences[0]['predicates'][0]['aspect'], 'perfect')
 
+    def test_annotation_status_is_optional_but_deprecated_values_are_rejected(self):
+        example = next(e for unit in self.library.units for e in self.library.generate(unit)
+                       if len(e.sentences) == 1 and len(e.sentences[0]['predicates']) == 1
+                       and 'status' not in e.sentences[0]['predicates'][0])
+        rendered = book.render_annotation(example)
+        self.assertNotIn('status of predicate', rendered)
+        self.assertGreater(book.validate_story(rendered), 0)
+        for field, value in [('status', 'questioned'), ('status', None), ('tense', None)]:
+            sentences = deepcopy(example.sentences)
+            sentences[0]['predicates'][0][field] = value
+            with self.subTest(field=field, value=value), self.assertRaisesRegex(ValueError, 'invalid '+field):
+                book.validate_annotation_example(replace(example, sentences=sentences))
+
     def test_verb_noun_compatibility_excludes_invalid_products(self):
         template = {'id': 'compatibility', 'slots': {
             'v': ['verb:read', 'verb:eat'], 'n': ['noun:book', 'noun:rice']},

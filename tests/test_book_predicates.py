@@ -224,7 +224,8 @@ class FragmentRenderTests(unittest.TestCase):
     @staticmethod
     def fact(actor,predicate,action,**roles):
         return dict(actor=actor,predicate=predicate,action=action,intention='none',
-                    operation='none',object=roles.pop('object','none'),tense='past',**roles)
+                    operation='none',object=roles.pop('object','none'),tense='past',
+                    type=roles.pop('type','non_question'),**roles)
 
     def test_multi_sentence_utterance_has_one_story_and_cross_fragment_evidence(self):
         text='Mary opened the door. John closed it.'
@@ -287,6 +288,19 @@ class FragmentRenderTests(unittest.TestCase):
         annotations['verb_spans'][1]=annotations['verb_spans'][0]
         facts[1]['predicate']='wants'
         with self.assertRaisesRegex(ValueError,'separate fragment'):
+            book.render(text,facts,annotations)
+
+    def test_utterance_type_is_required_and_has_only_two_values(self):
+        text='Mary reads.'
+        annotations=dict(predicate_spans=[[[5,10]]],verb_spans=[[[5,10]]],
+                         fragment_spans=[[[0,10]]])
+        for kind in ('assertion','conditional','unknown','none'):
+            facts=[self.fact('Mary','reads','read',type=kind)]
+            with self.subTest(kind=kind),self.assertRaisesRegex(ValueError,'utterance type'):
+                book.render(text,facts,annotations)
+        facts=[self.fact('Mary','reads','read')]
+        facts[0].pop('type')
+        with self.assertRaisesRegex(ValueError,'Missing fact fields'):
             book.render(text,facts,annotations)
 
     def test_frame_spans_reject_misalignment_or_fabricated_verb_evidence(self):
@@ -477,8 +491,8 @@ class CorpusPredicateTests(unittest.TestCase):
                  'Has been collected', 'collect', 'passive')]:
             with self.subTest(text=text):
                 fact = self.examples[text][0]
-                self.assertEqual((fact['predicate'], fact['action'], fact['voice'], fact['status']),
-                                 (predicate, action, voice, 'questioned'))
+                self.assertEqual((fact['predicate'], fact['action'], fact['voice'], fact.get('status')),
+                                 (predicate, action, voice, None))
 
     def test_separated_phrasal_particle_excludes_intervening_object(self):
         record = self.corpus.by_id['u51-e2-02']
@@ -621,6 +635,66 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertEqual(third['object'],('unknown',[1,third['line']]))
         self.assertEqual(third['occasion'],('her birthday',[third['line']]))
         self.assertEqual(record,before)
+
+    def test_utterance_type_describes_form_instead_of_event_status(self):
+        for identifier,expected in [
+            ('u37-t01',['non_question']),
+            ('u66-t09',['question']),
+            ('u40-e3-03a',['non_question','non_question']),
+            ('u36-e6-b14',['question','question','question']),
+            ('u31-t16',['question']),
+            ('u18-ex1-a10a',['question']),
+            ('u35-e1-a07',['question','question']),
+        ]:
+            record=self.corpus.by_id[identifier]
+            with self.subTest(identifier=identifier):
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+                self.assertEqual([g['type'][0] for g in groups],expected)
+                self.assertEqual([f['type'] for f in record['facts']],expected)
+                for group in groups:
+                    self.assertEqual(group['type'][1],[1,group['line']])
+                    self.assertNotIn('status',group)
+        self.assertEqual(self.corpus.by_id['u66-t09']['facts'][0]['status'],'required')
+        self.assertEqual(self.corpus.by_id['u36-e6-b14']['facts'][2]['status'],'hypothetical')
+
+    def test_direct_indirect_and_mixed_utterances_keep_separate_types(self):
+        for identifier,expected in [
+            ('u56-t02d',['non_question','question']),
+            ('u56-t02',['non_question','non_question']),
+            ('u57-e1-d04d',['non_question','question','non_question']),
+            ('u57-e1-g18d',['non_question','question','non_question']),
+            ('u25-e1-b07a',['non_question','non_question','question']),
+            ('u16-theory-29',['non_question','question']),
+            ('u41-e2-12c',['non_question','question']),
+        ]:
+            record=self.corpus.by_id[identifier]
+            with self.subTest(identifier=identifier):
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+                self.assertEqual([g['type'][0] for g in groups],expected)
+
+    def test_removed_question_status_does_not_change_type_or_other_statuses(self):
+        direct=self.corpus.by_id['u56-t02d']['facts'][1]
+        indirect=self.corpus.by_id['u56-t02']['facts'][1]
+        self.assertNotIn('status',direct)
+        self.assertNotIn('status',indirect)
+        self.assertEqual((direct['type'],indirect['type']),('question','non_question'))
+        request=self.corpus.by_id['u66-t09']['facts'][0]
+        hypothetical=self.corpus.by_id['u36-e6-b14']['facts'][2]
+        self.assertEqual((request['type'],request['status']),('question','required'))
+        self.assertEqual((hypothetical['type'],hypothetical['status']),('question','hypothetical'))
+
+    def test_condition_is_independent_of_question_type_and_embedded_if(self):
+        for identifier,condition in [('u37-e3-08a','if you buy this one'),
+                                      ('u65-e6-40','if you had more time')]:
+            record=self.corpus.by_id[identifier]
+            groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+            with self.subTest(identifier=identifier):
+                self.assertTrue(all(g['type'][0]=='question' for g in groups))
+                self.assertIn(condition,[g['condition'][0] for g in groups if 'condition' in g])
+        record=self.corpus.by_id['u34-e3-09']
+        groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+        self.assertTrue(all(g['type'][0]=='non_question' for g in groups))
+        self.assertTrue(all('condition' not in g for g in groups))
 
     def test_event_projection_handles_contractions_phrasal_verbs_and_ellipsis(self):
         for identifier,index,role,targets in [
@@ -798,8 +872,10 @@ class CorpusPredicateTests(unittest.TestCase):
         requested,refused=groups[1],groups[3]
         self.assertEqual(requested['fragment'][0],'to pay the fine')
         self.assertEqual(refused['fragment'][0],'to pay')
-        self.assertEqual(requested['status'],('required',[1,requested['line']]))
-        self.assertEqual(refused['status'],('unwanted',[1,refused['line']]))
+        self.assertEqual(requested['type'],('non_question',[1,requested['line']]))
+        self.assertEqual(refused['type'],('non_question',[1,refused['line']]))
+        self.assertEqual(record['facts'][1]['status'],'required')
+        self.assertEqual(record['facts'][3]['status'],'unwanted')
         self.assertEqual(requested['object'],('fine',[requested['line']]))
         self.assertEqual(refused['object'],('fine',[1,refused['line']]))
         text=record['text']
@@ -855,7 +931,7 @@ class CorpusPredicateTests(unittest.TestCase):
     def test_ellipsis_and_inherited_negation_keep_context_evidence(self):
         for identifier,index,field,value in [('u26-e3-06',2,'action','treat'),
                                             ('u79-e3-07',1,'polarity','negative'),
-                                            ('u79-e3-07',1,'status','required')]:
+                                            ('u79-e3-07',1,'type','non_question')]:
             with self.subTest(identifier=identifier,field=field):
                 record=self.corpus.by_id[identifier]
                 groups=self.fragment_groups(book.render(record['text'],record['facts'],

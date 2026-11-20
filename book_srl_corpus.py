@@ -6,6 +6,7 @@ import re
 from book_srl_predicates import SPAN_FIELDS, validate_fact_spans
 
 CORPUS_NAME = 'sentences.json'
+UTTERANCE_TYPES = {'question', 'non_question'}
 
 
 def read_json(path: Path) -> dict:
@@ -60,6 +61,8 @@ class CorpusLibrary:
                 if any(not isinstance(v, str) or not v.strip() or re.search(r'[\u0400-\u04ff]', v)
                        for v in fact.values()):
                     raise ValueError(f'{identifier}: facts must use English labels')
+                if fact.get('type') not in UTTERANCE_TYPES:
+                    raise ValueError(f'{identifier}: each fact needs type question or non_question')
                 if fact.get('clause_type') in ('ellipsis', 'vocative'):
                     raise ValueError(f'{identifier}: fragments do not belong in sentences.json')
             self.by_id[identifier] = record

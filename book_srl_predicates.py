@@ -106,6 +106,8 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
         raise ValueError(_prefix(label) + 'Missing fact spans')
     validate_predicates(text, facts, annotations.get('predicate_spans'), label)
     for fact in facts:
+        if fact.get('status') == 'questioned':
+            raise ValueError(_prefix(label) + 'Omit status questioned; keep the explicit utterance type')
         if 'purpose' in fact or fact.get('syntactic_function') == 'purpose':
             raise ValueError(_prefix(label) + 'purpose is no longer supported; '
                              'preserve the object and annotate any separate action')

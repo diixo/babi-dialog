@@ -1664,8 +1664,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2609,8 +2608,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2646,8 +2644,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "negative",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2683,8 +2680,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2728,8 +2724,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2767,8 +2762,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "negative",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2811,8 +2805,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2843,8 +2836,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2887,8 +2879,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2921,8 +2912,7 @@
                   "aspect": "perfect",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -2958,8 +2948,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 },
                 {
                   "text": "lives",
@@ -2975,7 +2964,6 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "finite",
-                  "status": "questioned",
                   "parent": 1,
                   "relation": "embedded_question"
                 }
@@ -3009,8 +2997,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 },
                 {
                   "text": "is",
@@ -3026,7 +3013,6 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "finite",
-                  "status": "questioned",
                   "parent": 1,
                   "relation": "embedded_question"
                 }
@@ -3064,8 +3050,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 },
                 {
                   "text": "lives",
@@ -3081,7 +3066,6 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "finite",
-                  "status": "questioned",
                   "parent": 1,
                   "relation": "embedded_question"
                 }
@@ -3113,8 +3097,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 },
                 {
                   "text": "wrote",
@@ -3129,7 +3112,6 @@
                   "voice": "active",
                   "polarity": "positive",
                   "form": "finite",
-                  "status": "questioned",
                   "parent": 1,
                   "relation": "embedded_question"
                 }
@@ -3495,8 +3477,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -3645,8 +3626,7 @@
                   "aspect": "continuous",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -3903,8 +3883,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -4174,8 +4153,7 @@
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -4330,8 +4308,7 @@
                   "aspect": "perfect",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
@@ -4874,8 +4851,7 @@
                   "aspect": "continuous",
                   "voice": "active",
                   "polarity": "positive",
-                  "form": "finite",
-                  "status": "questioned"
+                  "form": "finite"
                 }
               ]
             }
