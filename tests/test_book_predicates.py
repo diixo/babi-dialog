@@ -277,7 +277,7 @@ class FragmentRenderTests(unittest.TestCase):
         for links in [[], {'2':{'object':[1]}}, {'00':{'object':[1]}},
                       {'0':{}}, {'0':{'object':[]}}, {'0':{'object':[0]}},
                       {'0':{'object':[2]}}, {'0':{'object':[True]}},
-                      {'0':{'object':[1,1]}}, {'0':{'actor':[1]}},
+                      {'0':{'object':[1,1]}}, {'0':{'predicate':[1]}},
                       {'0':{'content':[1]}}, {'1':{'object':[0]}}]:
             broken=deepcopy(annotations)
             broken['embedded_roles']=links
@@ -760,7 +760,7 @@ class CorpusPredicateTests(unittest.TestCase):
         first,second=self.fragment_groups(book.render(text,self.examples[text],self.annotations[text]))
         self.assertEqual(first['fragment'][0],'How much time does it take you')
         self.assertEqual(second['fragment'][0],'to prepare everything necessary')
-        self.assertEqual(first['actor'],('preparing everything necessary',[1,first['line']]))
+        self.assertNotIn('actor',first)
         self.assertEqual(second['actor'],('addressee',[1,second['line']]))
         self.assertEqual(first['verb'],('take',[first['line']]))
         self.assertEqual(second['verb'],('prepare',[second['line']]))
@@ -782,6 +782,11 @@ class CorpusPredicateTests(unittest.TestCase):
                     continue
                 checked+=1
                 with self.subTest(text=text):
+                    groups=self.fragment_groups(book.render(text,facts,spans))
+                    self.assertNotIn('actor',groups[index])
+                    self.assertEqual(spans['embedded_roles'][str(index)]['actor'],children)
+                    for child in children:
+                        self.assertEqual(groups[child]['actor'][0],facts[child]['actor'])
                     previous_end=spans['fragment_spans'][index][0][1]
                     for child in children:
                         start,end=spans['fragment_spans'][child][0]
@@ -803,6 +808,35 @@ class CorpusPredicateTests(unittest.TestCase):
             with self.subTest(text=text):
                 groups=self.fragment_groups(book.render(text,self.examples[text],self.annotations[text]))
                 self.assertEqual([g['fragment'][0] for g in groups],expected)
+
+    def test_take_time_event_actor_uses_reviewed_links_and_preserves_other_actors(self):
+        record=self.corpus.by_id['u36-e1-01']
+        groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+        self.assertEqual(record['embedded_roles'],{'0':{'actor':[1]}})
+        self.assertNotIn('actor',groups[0])
+        self.assertEqual(groups[0]['experiencer'][0],'addressee')
+        self.assertEqual(groups[1]['actor'],('addressee',[1,groups[1]['line']]))
+        self.assertEqual(groups[1]['object'][0],'all these flowers')
+        # The builder follows the stored link rather than guessing from take/time.
+        unlinked=deepcopy(record)
+        unlinked.pop('embedded_roles')
+        unprojected=self.fragment_groups(book.render(record['text'],record['facts'],unlinked))
+        self.assertEqual(unprojected[0]['actor'][0],record['facts'][0]['actor'])
+        # The same projection applies when the travel verb is elliptical.
+        record=self.corpus.by_id['u32-t29']
+        groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+        self.assertNotIn('actor',groups[0])
+        self.assertEqual(groups[1]['action'][0],'travel')
+        self.assertEqual(groups[1]['actor'][0],'unknown')
+        # Nominal/referential subjects and ordinary taking actions remain intact.
+        for identifier,index,actor in [('u27-e4-b05',1,'way'),
+                                        ('u36-e3-01-task',0,'it'),
+                                        ('u36-e3-01',1,'it'),
+                                        ('u54-e1-04',0,'Ann')]:
+            record=self.corpus.by_id[identifier]
+            with self.subTest(identifier=identifier):
+                groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
+                self.assertEqual(groups[index]['actor'][0],actor)
 
     def test_audited_clause_boundaries_preserve_complete_local_phrases(self):
         cases=[

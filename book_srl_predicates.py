@@ -175,7 +175,7 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
             raise ValueError(_prefix(label) + 'Invalid embedded_roles source')
         index = int(source)
         for role, targets in roles.items():
-            if (role not in ('content', 'object') or facts[index].get(role, 'none') in ('none', 'unknown')
+            if (role not in ('actor', 'content', 'object') or facts[index].get(role, 'none') in ('none', 'unknown')
                     or not isinstance(targets, list) or not targets
                     or any(type(target) is not int or not 0 <= target < len(facts)
                            or target == index for target in targets)
