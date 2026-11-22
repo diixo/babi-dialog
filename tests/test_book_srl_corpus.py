@@ -123,7 +123,7 @@ class CorpusTests(unittest.TestCase):
             original = (directory / 'fact_templates.json').read_bytes()
             with patch.object(Path, 'open', json_only):
                 with redirect_stdout(io.StringIO()):
-                    book.main(['--library', str(directory), '--out', str(directory / 'out')])
+                    book.main(['--library', str(directory), '--out', str(directory / 'out'), '--no-annotate'])
                 actual = book.build(book.Library(directory), directory / 'out')
             self.assertEqual(actual, expected)
             self.assertEqual(original, (directory / 'fact_templates.json').read_bytes())
@@ -161,7 +161,7 @@ class CorpusTests(unittest.TestCase):
                 questions=[dict(question='Who reads?',answer='Mary.')]))
             (directory/'questions.json').write_text(json.dumps(questions),encoding='utf-8')
             with redirect_stdout(io.StringIO()):
-                book.main(['--library', str(directory), '--out', str(directory / 'out')])
+                book.main(['--library', str(directory), '--out', str(directory / 'out'), '--no-annotate'])
             library = book.Library(directory)
             examples = {text:facts for _,text,facts,_ in library.generate(1)}
             self.assertEqual(examples['Mary reads.'][0]['actor'], 'mary')
@@ -249,7 +249,7 @@ class UnifiedBuildTests(unittest.TestCase):
             self.write_json(directory/'sentences.json',source)
             self.write_json(directory/'fact_templates.json',catalogue)
             self.write_reading_questions(directory)
-            result,output=self.run_cli(directory)
+            result,output=self.run_cli(directory,'--no-annotate')
             self.assertEqual(result,0)
             library=book.Library(directory)
             self.assertEqual(library.coverage['sentences'],85)
@@ -276,12 +276,12 @@ class UnifiedBuildTests(unittest.TestCase):
             self.fixture(directory)
             (directory/'fact_templates.json').unlink()
             self.write_reading_questions(directory)
-            self.assertEqual(self.run_cli(directory)[0],0)
+            self.assertEqual(self.run_cli(directory,'--no-annotate')[0],0)
             library=book.Library(directory)
             self.assertEqual(library.units[1]['templates'][0]['slots'],{})
             self.assertEqual(book.build(library)['examples'],84)
 
-    def test_annotation_flag_builds_both_complete_datasets_in_one_command(self):
+    def test_default_builds_both_complete_datasets_in_one_command(self):
         with tempfile.TemporaryDirectory() as folder:
             directory=Path(folder)
             for name in ('sentences.json','fact_templates.json','slot_values.json','questions.json',
@@ -292,7 +292,7 @@ class UnifiedBuildTests(unittest.TestCase):
             out=directory/'out'
             with patch.object(book,'DEFAULT_LIBRARY',directory), patch.object(book,'DEFAULT_OUT',out):
                 with redirect_stdout(io.StringIO()) as output:
-                    self.assertEqual(book.main(['--annotate']),0)
+                    self.assertEqual(book.main([]),0)
             self.assertEqual((catalogue.read_bytes(),catalogue.stat().st_mtime_ns),before)
             self.assertIn('84/84 book units',output.getvalue())
             self.assertEqual({p.name for p in out.iterdir()},
@@ -309,7 +309,7 @@ class UnifiedBuildTests(unittest.TestCase):
                                     for story in stories))
                 self.assertTrue(all('Assistant:' not in story for story in stories))
 
-    def test_annotation_flag_checks_both_libraries_before_writing_any_file(self):
+    def test_default_checks_both_libraries_before_writing_any_file(self):
         for problem in ('book facts','annotation placeholder','missing annotation file','incomplete annotation lessons'):
             with self.subTest(problem=problem), tempfile.TemporaryDirectory() as folder:
                 directory=Path(folder)
@@ -344,7 +344,7 @@ class UnifiedBuildTests(unittest.TestCase):
                         path.write_text(f'existing {target.name} {split}',encoding='utf-8')
                         snapshots[path.relative_to(out)]=path.read_bytes()
                 with redirect_stderr(io.StringIO()),self.assertRaises(SystemExit) as error:
-                    self.run_cli(directory,'--annotate')
+                    self.run_cli(directory)
                 self.assertEqual(error.exception.code,2)
                 self.assertEqual((catalogue.read_bytes(),catalogue.stat().st_mtime_ns),before)
                 self.assertEqual({p.relative_to(out):p.read_bytes() for p in out.rglob('*.txt')},snapshots)
@@ -356,6 +356,7 @@ class UnifiedBuildTests(unittest.TestCase):
         self.assertIn('--library',output.getvalue())
         self.assertIn('--out',output.getvalue())
         self.assertIn('--annotate',output.getvalue())
+        self.assertIn('--no-annotate',output.getvalue())
         for options in (['--units','1'],['--per-unit'],['--coverage'],['--validate-only'],
                         ['--mode','single'],['--list'],['--source','templates']):
             with self.subTest(options=options), tempfile.TemporaryDirectory() as folder:
@@ -394,7 +395,7 @@ class UnifiedBuildTests(unittest.TestCase):
                 out=directory/'out';out.mkdir()
                 for split in ('train','valid','test'):(out/f'{split}.txt').write_text('existing '+split,encoding='utf-8')
                 with redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as error:
-                    self.run_cli(directory)
+                    self.run_cli(directory,'--no-annotate')
                 self.assertEqual(error.exception.code,2)
                 self.assertEqual((directory/'fact_templates.json').read_bytes(),original)
                 for split in ('train','valid','test'):
@@ -403,11 +404,11 @@ class UnifiedBuildTests(unittest.TestCase):
     def test_unchanged_build_does_not_rewrite_catalogue(self):
         with tempfile.TemporaryDirectory() as folder:
             directory=Path(folder);self.fixture(directory)
-            self.run_cli(directory)
+            self.run_cli(directory,'--no-annotate')
             path=directory/'fact_templates.json'
             before=(path.read_bytes(),path.stat().st_mtime_ns)
             outputs={p.name:p.read_bytes() for p in (directory/'out').glob('*.txt')}
-            self.run_cli(directory)
+            self.run_cli(directory,'--no-annotate')
             self.assertEqual((path.read_bytes(),path.stat().st_mtime_ns),before)
             self.assertEqual({p.name:p.read_bytes() for p in (directory/'out').glob('*.txt')},outputs)
 

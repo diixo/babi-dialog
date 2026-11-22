@@ -790,8 +790,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--library', type=Path, default=DEFAULT_LIBRARY)
     parser.add_argument('--out', type=Path, default=DEFAULT_OUT)
-    parser.add_argument('--annotate', action='store_true',
-                        help='Also build the annotated synthetic templates in OUT/annotations')
+    parser.add_argument('--annotate', action=argparse.BooleanOptionalAction, default=True,
+                        help='Build the annotated synthetic templates in OUT/annotations')
     args = parser.parse_args(argv)
     try:
         library = synchronize_templates(args.library)
