@@ -13,6 +13,48 @@ from string import Formatter
 SPAN_FIELDS = ('predicate_spans', 'fragment_spans', 'verb_spans')
 WORD = re.compile(r"[^\W_]+(?:['\u2018\u2019\u02bc\u2010\u2011-][^\W_]+)*")
 
+# A retained auxiliary can stand for an action mentioned elsewhere. It must
+# remain literal in verb, e.g. "promised to call on him ... failed to do it".
+ELLIPTICAL_VERBS = frozenset((
+    'none', 'do', 'does', 'did', 'done', 'doing', "don't", "doesn't", "didn't",
+    'be', 'am', 'is', 'are', 'was', 'were', 'been', 'being', "'m", "'s", "'re",
+    'have', 'has', 'had', "'ve", "'d", 'can', "can't", 'cannot', 'could', "couldn't",
+    'may', 'might', 'must', "mustn't", 'will', "'ll", "won't", 'would', "wouldn't",
+    'shall', 'should', "shouldn't", 'need', "needn't",
+))
+MODAL_MARKERS = {
+    'have to': ('to',), 'need to': ('to',), 'be to': ('to',),
+    'be able to': ('able', 'to'), 'be going to': ('going', 'to'),
+    'used to': ('use(?:d)?', 'to'), 'had better': ('better',),
+    'would rather': ('rather',), 'be likely to': ('likely', 'to'),
+    'be unlikely to': ('unlikely', 'to'), 'be supposed to': ('supposed', 'to'),
+}
+
+
+def validate_verb_construction(fact: dict, verb: str, label: str = '') -> None:
+    """Check stored lexical tails and modal markers, without parsing a sentence.
+
+    This cannot decide whether a preposition belongs to an action. That choice
+    is manually authored. Once selected, its tail must survive in the surface
+    verb and hence in the predicate, including across template substitutions.
+    """
+    surface = verb.casefold().replace('\u2019', "'").replace('\u02bc', "'")
+    action = fact.get('action', '')
+    if ' ' in action and surface not in ELLIPTICAL_VERBS:
+        # Lexicalized participles keep their source hyphen: worn-out / wear out.
+        words = re.split(r'[\s\-\u2010\u2011]+', surface)
+        tail = action.casefold().split()[1:]
+        if len(words) <= len(tail) or words[-len(tail):] != tail:
+            raise ValueError(_prefix(label) + 'Surface verb loses part of its multiword action')
+    for field in ('modality', 'ability'):
+        modal = fact.get(field, '')
+        if '_' in modal:
+            raise ValueError(_prefix(label) + f'Use spaces in {field} construction names')
+        markers = MODAL_MARKERS.get(modal, ())
+        if any(not re.search(r'\b' + word + r'\b', fact['predicate'], re.I)
+               for word in markers):
+            raise ValueError(_prefix(label) + f'Predicate loses part of {modal!r}')
+
 
 def substitute(value, bindings: dict):
     """Resolve dictionary paths only; no eval, attribute access or format tricks."""
@@ -133,6 +175,7 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
                 if any(not any(a <= start < end <= b for a, b in predicate)
                        for start, end in selected):
                     raise ValueError(_prefix(field_label) + 'A verb must come from its predicate spans')
+                validate_verb_construction(facts[index], predicate_from_spans(text, selected), field_label)
     for index, predicate in enumerate(annotations['predicate_spans']):
         start, end = annotations['fragment_spans'][index][0]
         for a, b in predicate:

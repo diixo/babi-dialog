@@ -214,10 +214,11 @@ class BookSRLTests(unittest.TestCase):
                 self.assertEqual([g['fragment?'][0] for g in self.groups(self.example(unit, text))], expected)
 
     def test_repeated_fragments_in_combined_examples_keep_distinct_actors_and_references(self):
-        example = next(e for e in self.library.generate(72)
-                       if len(e.sentences) == 2 and all('to rest' in s['text'] for s in e.sentences))
+        left = self.example(77, 'Mary wants to read the book.')
+        right = self.example(77, 'John wants to read the book.')
+        example = replace(left, sentences=left.sentences + right.sentences)
         groups = self.groups(example)
-        self.assertEqual([groups[i]['fragment?'][0] for i in (1,3)], ['to rest','to rest'])
+        self.assertEqual([groups[i]['fragment?'][0] for i in (1,3)], ['to read the book','to read the book'])
         for sentence, group in zip(example.sentences, (groups[1],groups[3])):
             self.assertEqual(group['person?'],
                              (sentence['predicates'][1]['roles']['person'], [1,group['line']]))
@@ -266,9 +267,9 @@ class BookSRLTests(unittest.TestCase):
             self.assertEqual({p.name for p in a.iterdir()}, {'train.txt', 'valid.txt', 'test.txt'})
             self.assertEqual(set(stats['units']), set(range(1, 85)))
             self.assertTrue(all(stats['units'].values()))
-            self.assertEqual(stats['unique_examples'], 901)
-            self.assertEqual(stats['families'], 193)
-            self.assertEqual(stats['sentences'], 1333)
+            self.assertEqual(stats['unique_examples'], 933)
+            self.assertEqual(stats['families'], 197)
+            self.assertEqual(stats['sentences'], 1365)
             self.assertEqual(stats['unique_examples'], len(inputs))
 
     def test_generation_always_includes_single_and_multi_sentence_examples(self):

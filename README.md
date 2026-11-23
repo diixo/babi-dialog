@@ -1,4 +1,4 @@
-# babi-dialog
+# babi-srl
 
 ## SRL по учебнику
 
@@ -33,6 +33,14 @@ in the north-east of England.` — `actor: location`, `location: Newcastle`,
 Вопрос `Who wrote this letter?` получает `actor: person`, `person: unknown`.
 Типы и значения явно хранятся в JSON; генератор не определяет их по написанию слов.
 Схема одинакова для основного набора и `annotations`.
+
+Фразовые глаголы и выбранные предложные конструкции сохраняются в трёх полях:
+`is searching for` → `predicate: is searching for`, `verb: searching for`,
+`action: search for`. Модальность относится к основному действию:
+`has to rely on` → `verb: rely on`, `action: rely on`, `modality: have to`.
+Шаблоны меняют формы и разметку согласованно; каждый вариант проходит проверку.
+Обстоятельства остаются отдельными: `wait for an hour` имеет `action: wait`
+и `duration: an hour`.
 
 Для остальных участников, включая предметы, животных и действия, отдельные
 категории пока не введены: их значения остаются непосредственно в `actor`,

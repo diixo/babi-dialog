@@ -569,7 +569,11 @@
       "past": "translated",
       "participle": "translated",
       "gerund": "translating",
-      "objects": ["book", "letter", "story"]
+      "objects": [
+        "book",
+        "letter",
+        "story"
+      ]
     },
     "become": {
       "lemma": "become",
@@ -577,6 +581,44 @@
       "past": "became",
       "participle": "become",
       "gerund": "becoming",
+      "objects": []
+    },
+    "search_for": {
+      "lemma": "search for",
+      "present3": "searches for",
+      "past": "searched for",
+      "participle": "searched for",
+      "gerund": "searching for",
+      "objects": [
+        "book",
+        "letter"
+      ]
+    },
+    "look_for": {
+      "lemma": "look for",
+      "present3": "looks for",
+      "past": "looked for",
+      "participle": "looked for",
+      "gerund": "looking for",
+      "objects": [
+        "book",
+        "letter"
+      ]
+    },
+    "rely_on": {
+      "lemma": "rely on",
+      "present3": "relies on",
+      "past": "relied on",
+      "participle": "relied on",
+      "gerund": "relying on",
+      "objects": []
+    },
+    "depend_on": {
+      "lemma": "depend on",
+      "present3": "depends on",
+      "past": "depended on",
+      "participle": "depended on",
+      "gerund": "depending on",
       "objects": []
     }
   }

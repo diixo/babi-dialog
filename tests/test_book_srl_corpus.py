@@ -299,7 +299,7 @@ class UnifiedBuildTests(unittest.TestCase):
                              {'train.txt','valid.txt','test.txt','annotations','questions'})
             self.assertEqual({p.name for p in (out/'annotations').iterdir()},
                              {'train.txt','valid.txt','test.txt'})
-            for target,expected in ((out,12231),(out/'annotations',901)):
+            for target,expected in ((out,12231),(out/'annotations',933)):
                 stories=[]
                 for split in ('train','valid','test'):
                     content=(target/f'{split}.txt').read_text(encoding='utf-8')

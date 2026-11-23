@@ -6,7 +6,8 @@ import unittest
 import build_book_srl as book
 from build_book_srl import substitute
 from book_srl_corpus import CorpusLibrary
-from book_srl_predicates import expand_predicates, predicate_from_spans, validate_predicates, validate_fact_spans
+from book_srl_predicates import (expand_predicates, predicate_from_spans, validate_predicates,
+                                 validate_fact_spans, validate_verb_construction)
 
 
 def span(text, piece, start=0):
@@ -521,7 +522,7 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertEqual(self.corpus.by_id['u65-e3-example-task']['facts'][0]['action'], 'hit')
 
     def test_zero_ellipsis_and_retained_infinitive_marker_are_distinct(self):
-        self.assertEqual(self.predicates('u24-t06'), ['none', 'is', 'to look'])
+        self.assertEqual(self.predicates('u24-t06'), ['none', 'is', 'to look at'])
         self.assertEqual(self.predicates('u30-e8-task05'), ['is', 'none'])
         self.assertEqual(self.predicates('u26-e3-06'), ["doesn't treat", "'d like", 'to'])
         self.assertEqual(self.corpus.by_id['u26-e3-06']['facts'][2]['action'], 'treat')
@@ -739,7 +740,7 @@ class CorpusPredicateTests(unittest.TestCase):
     def test_question_words_outside_the_fragment_support_unknown_answers(self):
         for identifier,field in [('u35-e1-b02','duration'), ('u35-t03','reason'),
                                  ('u35-t04','when'), ('u35-t05','quantity'),
-                                 ('u35-e1-b09','where'), ('u32-e2-05','target'),
+                                 ('u35-e1-b09','where'), ('u32-e2-05','object'),
                                  ('u32-e7-a04','selection'), ('u35-e2-09','origin'),
                                  ('u36-e6-b07','companion'), ('u36-e6-b12','accompaniment')]:
             record=self.corpus.by_id[identifier]
@@ -989,6 +990,144 @@ class CorpusPredicateTests(unittest.TestCase):
                 book.build(library, out)
             self.assertEqual((out / 'train.txt').read_text(encoding='utf-8'), 'existing output')
             self.assertFalse((out / 'valid.txt').exists())
+
+
+class VerbConstructionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.records = CorpusLibrary(book.DEFAULT_LIBRARY).by_id
+        cls.library = book.AnnotationLibrary()
+
+    def forms(self, identifier, index=0):
+        record = self.records[identifier]
+        fact = record['facts'][index]
+        return (fact['predicate'], predicate_from_spans(record['text'], record['verb_spans'][index]),
+                fact['action'])
+
+    def test_prepositional_verbs_keep_their_arguments_in_questions_and_passives(self):
+        for identifier, expected, obj in [
+            ('u32-t09', ('is waiting for', 'waiting for', 'wait for'), 'unknown'),
+            ('u32-e2-05', ('to listen to', 'listen to', 'listen to'), 'unknown'),
+            ('u61-e1-b03', ('have been waited for', 'waited for', 'wait for'), 'user'),
+            ('u62-e1-a07', ('was looked at', 'looked at', 'look at'), 'she'),
+        ]:
+            index = 1 if identifier == 'u32-e2-05' else 0
+            with self.subTest(identifier=identifier):
+                self.assertEqual(self.forms(identifier, index), expected)
+                self.assertEqual(self.records[identifier]['facts'][index]['object'], obj)
+
+    def test_discontinuous_preposition_excludes_duration_place_and_manner(self):
+        for identifier, index, expected, role, value in [
+            ('u58-e2-d06', 0, ('listened to', 'listened to', 'listen to'), 'duration', 'a few moments'),
+            ('u32-e7-c09', 0, ('do wait for', 'wait for', 'wait for'), 'where', 'here'),
+            ('u53-e1-b08', 0, ('spoke to', 'spoke to', 'speak to'), 'manner', 'rudely'),
+            ('u50-e2-11a', 1, ('was listening to', 'listening to', 'listen to'), 'manner', 'carefully'),
+        ]:
+            with self.subTest(identifier=identifier):
+                self.assertEqual(self.forms(identifier, index), expected)
+                self.assertEqual(self.records[identifier]['facts'][index][role], value)
+
+    def test_particle_belongs_to_parent_fragment_before_embedded_action(self):
+        for identifier, expected in [
+            ('u75-t14', ['Why do you insist on', 'leaving']),
+            ('u75-t15', ['Why do you insist on', 'her leaving']),
+            ('u76-e10-d07', ['She insisted on', 'paying for the purchases']),
+        ]:
+            record = self.records[identifier]
+            with self.subTest(identifier=identifier):
+                self.assertEqual([predicate_from_spans(record['text'], s)
+                                  for s in record['fragment_spans']], expected)
+                self.assertEqual(record['facts'][0]['action'], 'insist on')
+                self.assertEqual(record['embedded_roles']['0']['content'], [1])
+                self.assertNotIn('content?\t', book.render(record['text'], record['facts'], record))
+
+    def test_modal_operators_keep_lexical_markers_but_not_in_surface_main_verb(self):
+        for identifier, expected in [
+            ('u69-t15', ('is likely to pass', 'pass', 'pass')),
+            ('u69-t16', ('is unlikely to come', 'come', 'come')),
+            ('u77-t15', ("'d rather go", 'go', 'go')),
+            ('u66-t15', ('might be able to do', 'do', 'do')),
+            ('u66-e4-06', ("hasn't been able to work", 'work', 'work')),
+            ('u69-e2-b03', ('must have been waiting for', 'waiting for', 'wait for')),
+            ('u72-t02', ('Need go', 'go', 'go')),
+        ]:
+            with self.subTest(identifier=identifier):
+                self.assertEqual(self.forms(identifier), expected)
+        for predicate in ('used to work', 'Did use to work', "didn't use to work"):
+            validate_verb_construction(dict(predicate=predicate, action='work', modality='used to'), 'work')
+
+    def test_circumstances_and_lexical_need_are_not_mistaken_for_operators(self):
+        for identifier, action, role, value in [
+            ('u69-t05', 'wait', 'duration', 'an hour'),
+            ('u79-t04', 'come', 'when', 'in time'),
+            ('u32-e3-a07', 'need', 'object', 'sugar'),
+        ]:
+            fact = self.records[identifier]['facts'][1 if identifier == 'u79-t04' else 0]
+            with self.subTest(identifier=identifier):
+                self.assertEqual((fact['action'], fact[role]), (action, value))
+        # The passive patient's existing object is not displaced by a second argument.
+        fact = self.records['u61-e2-b06']['facts'][0]
+        self.assertEqual((fact['action'], fact['object'], fact['target']),
+                         ('devote to', 'this book', 'unknown'))
+
+    def test_synthetic_candidates_change_surface_forms_and_actions_together(self):
+        examples = {e.text: e for unit in (32, 40, 68, 72)
+                    for e in self.library.generate(unit)}
+        for text, expected, modality in [
+            ('Mary is searching for the book.', ('is searching for', 'searching for', 'search for'), None),
+            ('John is looking for the letter.', ('is looking for', 'looking for', 'look for'), None),
+            ('Mary relies on Anna.', ('relies on', 'relies on', 'rely on'), None),
+            ('Who does John depend on?', ('does depend on', 'depend on', 'depend on'), None),
+            ('Mary has to rely on Anna.', ('has to rely on', 'rely on', 'rely on'), 'have to'),
+            ('John does not have to depend on Anna.', ('does not have to depend on', 'depend on', 'depend on'), 'have to'),
+            ('Mary must not rely on Anna.', ('must not rely on', 'rely on', 'rely on'), 'must'),
+            ('Mary needs to rest.', ('needs to rest', 'rest', 'rest'), 'need to'),
+        ]:
+            sentence = examples[text].sentences[0]
+            fact, = book.annotation_facts(sentence)
+            with self.subTest(text=text):
+                self.assertEqual((fact['predicate'], predicate_from_spans(text, sentence['verb_spans'][0]),
+                                  fact['action']), expected)
+                self.assertEqual(fact.get('modality'), modality)
+                self.assertEqual(book.render_annotation(examples[text]).count('fragment?\t'), 1)
+        self.assertNotIn('Mary is searching for the rice.', examples)
+        no_obligation = book.annotation_facts(examples['John does not have to depend on Anna.'].sentences[0])[0]
+        prohibition = book.annotation_facts(examples['Mary must not rely on Anna.'].sentences[0])[0]
+        self.assertEqual(no_obligation['negation_scope'], 'modality')
+        self.assertEqual(prohibition['negation_scope'], 'predicate')
+
+    def test_validation_rejects_dropped_particle_even_when_spans_match_predicate(self):
+        record = deepcopy(self.records['u32-t09'])
+        for field in ('predicate_spans', 'verb_spans'):
+            record[field][0][-1][1] -= len(' for')
+        record['facts'][0]['predicate'] = 'is waiting'
+        with self.assertRaisesRegex(ValueError, 'multiword action'):
+            validate_fact_spans(record['text'], record['facts'], record)
+
+    def test_validation_rejects_dropped_modal_marker(self):
+        record = deepcopy(self.records['u69-t15'])
+        record['predicate_spans'][0] = [span(record['text'], 'is'), span(record['text'], 'to pass')]
+        record['facts'][0]['predicate'] = 'is to pass'
+        with self.assertRaisesRegex(ValueError, 'be likely to'):
+            validate_fact_spans(record['text'], record['facts'], record)
+
+    def test_bad_candidate_cannot_drop_preposition_or_overwrite_annotation_output(self):
+        library = deepcopy(self.library)
+        library.lexicons['verb']['rely_on']['present3'] = 'relies'
+        with tempfile.TemporaryDirectory() as folder:
+            out = Path(folder)
+            (out / 'train.txt').write_text('existing dataset', encoding='utf-8')
+            with self.assertRaisesRegex(ValueError, 'multiword action'):
+                book.build_annotations(library, out)
+            self.assertEqual((out / 'train.txt').read_text(encoding='utf-8'), 'existing dataset')
+            self.assertFalse((out / 'valid.txt').exists())
+
+    def test_ellipsis_and_hyphenated_participle_preserve_the_literal_surface(self):
+        self.assertEqual(self.forms('u82-e2-c07', 4), ('to do', 'do', 'call on'))
+        self.assertEqual(self.forms('u80-e2-07', 2), ('worn-out', 'worn-out', 'wear out'))
+        for identifier in ('u82-e2-c07', 'u80-e2-07'):
+            record = self.records[identifier]
+            validate_fact_spans(record['text'], record['facts'], record)
 
 
 if __name__ == '__main__':

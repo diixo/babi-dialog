@@ -2480,13 +2480,12 @@
               "features": {},
               "predicates": [
                 {
-                  "text": "belongs",
+                  "text": "belongs to",
                   "roles": {
                     "subject": "bag",
                     "actor": "bag",
-                    "action": "belong",
-                    "object": "none",
-                    "possessor": "{p.entity}"
+                    "action": "belong to",
+                    "object": "{p.entity}"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -2509,7 +2508,7 @@
                 [
                   [
                     9,
-                    16
+                    19
                   ]
                 ]
               ],
@@ -2517,7 +2516,7 @@
                 [
                   [
                     9,
-                    16
+                    19
                   ]
                 ]
               ]
@@ -4841,6 +4840,135 @@
               ]
             }
           ]
+        },
+        {
+          "id": "u32_prepositional_relation",
+          "source": "unit-32",
+          "rule": "Keep the selected preposition in predicate, surface verb and normalized action.",
+          "slots": {
+            "p": [
+              "person:mary",
+              "person:john"
+            ],
+            "v": [
+              "verb:rely_on",
+              "verb:depend_on"
+            ]
+          },
+          "sentences": [
+            {
+              "text": "{p.name} {v.present3} Anna.",
+              "predicates": [
+                {
+                  "text": "{v.present3}",
+                  "roles": {
+                    "subject": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
+                    "action": "{v.lemma}",
+                    "object": "Anna"
+                  },
+                  "tense": "present",
+                  "aspect": "simple",
+                  "voice": "active",
+                  "polarity": "positive",
+                  "form": "finite",
+                  "status": "asserted",
+                  "type": "non_question"
+                }
+              ],
+              "predicate_spans": [
+                [
+                  [
+                    9,
+                    21
+                  ]
+                ]
+              ],
+              "verb_spans": [
+                [
+                  [
+                    9,
+                    21
+                  ]
+                ]
+              ],
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    26
+                  ]
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u32_prepositional_question",
+          "source": "unit-32",
+          "rule": "The stranded preposition belongs to the lexical verb; the person asked about is the object.",
+          "slots": {
+            "p": [
+              "person:mary",
+              "person:john"
+            ],
+            "v": [
+              "verb:rely_on",
+              "verb:depend_on"
+            ]
+          },
+          "sentences": [
+            {
+              "text": "Who does {p.name} {v.lemma}?",
+              "predicates": [
+                {
+                  "text": "does {v.lemma}",
+                  "roles": {
+                    "subject": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
+                    "action": "{v.lemma}",
+                    "object": "unknown"
+                  },
+                  "tense": "present",
+                  "aspect": "simple",
+                  "voice": "active",
+                  "polarity": "positive",
+                  "form": "finite",
+                  "type": "question"
+                }
+              ],
+              "predicate_spans": [
+                [
+                  [
+                    4,
+                    8
+                  ],
+                  [
+                    18,
+                    27
+                  ]
+                ]
+              ],
+              "verb_spans": [
+                [
+                  [
+                    18,
+                    27
+                  ]
+                ]
+              ],
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    27
+                  ]
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6243,6 +6371,79 @@
             ]
           ],
           "combine": true
+        },
+        {
+          "id": "u40_search_for",
+          "source": "unit-40",
+          "rule": "A continuous lexical verb keeps its preposition; the auxiliary stays only in predicate.",
+          "slots": {
+            "p": [
+              "person:mary",
+              "person:john"
+            ],
+            "v": [
+              "verb:search_for",
+              "verb:look_for"
+            ],
+            "n": [
+              "noun:book",
+              "noun:letter"
+            ]
+          },
+          "sentences": [
+            {
+              "text": "{p.name} is {v.gerund} the {n.singular}.",
+              "predicates": [
+                {
+                  "text": "is {v.gerund}",
+                  "roles": {
+                    "subject": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
+                    "action": "{v.lemma}",
+                    "object": "{n.singular}"
+                  },
+                  "tense": "present",
+                  "aspect": "continuous",
+                  "voice": "active",
+                  "polarity": "positive",
+                  "form": "finite",
+                  "status": "asserted",
+                  "type": "non_question"
+                }
+              ],
+              "predicate_spans": [
+                [
+                  [
+                    9,
+                    22
+                  ]
+                ]
+              ],
+              "verb_spans": [
+                [
+                  [
+                    12,
+                    22
+                  ]
+                ]
+              ],
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    39
+                  ]
+                ]
+              ]
+            }
+          ],
+          "compatible": [
+            [
+              "v",
+              "n"
+            ]
+          ]
         }
       ]
     },
@@ -6693,7 +6894,7 @@
                     "action": "visit",
                     "object": "London",
                     "when": "next week",
-                    "modality": "going_to"
+                    "modality": "be going to"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -11248,7 +11449,7 @@
                     "action": "open",
                     "object": "window",
                     "when": "yesterday",
-                    "modality": "be_able_to",
+                    "modality": "be able to",
                     "modal_meaning": "ability"
                   },
                   "tense": "past",
@@ -11514,7 +11715,7 @@
                     "action": "finish",
                     "object": "report",
                     "when": "today",
-                    "modality": "have_to"
+                    "modality": "have to"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -11577,7 +11778,7 @@
                     "action": "finish",
                     "object": "report",
                     "when": "today",
-                    "modality": "be_to"
+                    "modality": "be to"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -11703,7 +11904,7 @@
                     "action": "work",
                     "object": "none",
                     "when": "tomorrow",
-                    "modality": "have_to",
+                    "modality": "have to",
                     "modal_meaning": "no_obligation",
                     "negation_scope": "obligation"
                   },
@@ -11743,6 +11944,105 @@
             }
           ],
           "combine": true
+        },
+        {
+          "id": "u68_modal_prepositional",
+          "source": "unit-68",
+          "rule": "Modal operators and a prepositional verb form one event; verb excludes the modal operator.",
+          "slots": {
+            "p": [
+              "person:mary",
+              "person:john"
+            ],
+            "v": [
+              "verb:rely_on",
+              "verb:depend_on"
+            ],
+            "m": [
+              {
+                "id": "obligation",
+                "word": "has to",
+                "lemma": "have to",
+                "polarity": "positive",
+                "status": "required",
+                "scope": "none"
+              },
+              {
+                "id": "no_obligation",
+                "word": "does not have to",
+                "lemma": "have to",
+                "polarity": "negative",
+                "status": "possible",
+                "scope": "modality"
+              },
+              {
+                "id": "possibility",
+                "word": "may",
+                "lemma": "may",
+                "polarity": "positive",
+                "status": "possible",
+                "scope": "none"
+              },
+              {
+                "id": "prohibition",
+                "word": "must not",
+                "lemma": "must",
+                "polarity": "negative",
+                "status": "required",
+                "scope": "predicate"
+              }
+            ]
+          },
+          "sentences": [
+            {
+              "text": "{p.name} {m.word} {v.lemma} Anna.",
+              "predicates": [
+                {
+                  "text": "{m.word} {v.lemma}",
+                  "roles": {
+                    "subject": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
+                    "action": "{v.lemma}",
+                    "object": "Anna",
+                    "modality": "{m.lemma}",
+                    "negation_scope": "{m.scope}"
+                  },
+                  "tense": "present",
+                  "aspect": "simple",
+                  "voice": "active",
+                  "polarity": "{m.polarity}",
+                  "form": "finite",
+                  "status": "{m.status}",
+                  "type": "non_question"
+                }
+              ],
+              "predicate_spans": [
+                [
+                  [
+                    9,
+                    27
+                  ]
+                ]
+              ],
+              "verb_spans": [
+                [
+                  [
+                    18,
+                    27
+                  ]
+                ]
+              ],
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    32
+                  ]
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -12237,7 +12537,7 @@
                     "action": "buy",
                     "object": "bread",
                     "when": "today",
-                    "modality": "need",
+                    "modality": "need not",
                     "modal_meaning": "no_necessity",
                     "negation_scope": "necessity"
                   },
@@ -12301,7 +12601,7 @@
                     "person": "{p.entity}",
                     "action": "buy",
                     "object": "bread",
-                    "modality": "need",
+                    "modality": "need not",
                     "modal_meaning": "unnecessary_completed_action",
                     "negation_scope": "necessity"
                   },
@@ -12345,7 +12645,7 @@
         {
           "id": "u72_need",
           "source": "unit-72",
-          "rule": "Need как смысловой глагол принимает to-инфинитив.",
+          "rule": "Need to expresses necessity of the main action, with one fragment and modality need to.",
           "slots": {
             "p": [
               "person:mary",
@@ -12355,69 +12655,30 @@
           "sentences": [
             {
               "text": "{p.name} needs to rest.",
-              "features": {},
               "predicates": [
                 {
-                  "text": "needs",
+                  "text": "needs to rest",
                   "roles": {
                     "subject": "{p.entity}",
                     "actor": "person",
                     "person": "{p.entity}",
-                    "action": "need",
-                    "object": "to rest"
+                    "action": "rest",
+                    "object": "none",
+                    "modality": "need to"
                   },
                   "tense": "present",
                   "aspect": "simple",
                   "voice": "active",
                   "polarity": "positive",
                   "form": "finite",
-                  "status": "asserted",
-                  "type": "non_question"
-                },
-                {
-                  "text": "to rest",
-                  "roles": {
-                    "subject": "{p.entity}",
-                    "actor": "person",
-                    "person": "{p.entity}",
-                    "action": "rest",
-                    "object": "none"
-                  },
-                  "tense": "nonfinite",
-                  "aspect": "simple",
-                  "voice": "active",
-                  "polarity": "positive",
-                  "form": "infinitive",
                   "status": "required",
-                  "parent": 1,
-                  "relation": "complement",
                   "type": "non_question"
                 }
-              ],
-              "fragment_spans": [
-                [
-                  [
-                    0,
-                    14
-                  ]
-                ],
-                [
-                  [
-                    15,
-                    22
-                  ]
-                ]
               ],
               "predicate_spans": [
                 [
                   [
                     9,
-                    14
-                  ]
-                ],
-                [
-                  [
-                    15,
                     22
                   ]
                 ]
@@ -12425,24 +12686,19 @@
               "verb_spans": [
                 [
                   [
-                    9,
-                    14
-                  ]
-                ],
-                [
-                  [
                     18,
                     22
                   ]
                 ]
               ],
-              "embedded_roles": {
-                "0": {
-                  "object": [
-                    1
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    22
                   ]
-                }
-              }
+                ]
+              ]
             }
           ],
           "combine": true
