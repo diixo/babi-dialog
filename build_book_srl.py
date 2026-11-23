@@ -476,6 +476,21 @@ class AnnotationExample:
         return self.template_id
 
 
+def annotation_facts(sentence):
+    """Project stored predicate roles onto the same facts used by the book renderer."""
+    facts = []
+    for event in sentence['predicates']:
+        fact = dict(actor=event['roles']['actor'], predicate=event['text'],
+                    action=event['roles']['action'], intention='none', operation='none',
+                    object=event['roles']['object'])
+        fact.update((role, value) for role, value in event['roles'].items() if role != 'subject')
+        fact.update((field, event[field]) for field in ANNOTATION_FIELDS
+                    if field != 'form' and field in event)
+        fact['type'] = event['type']
+        facts.append(fact)
+    return facts
+
+
 def validate_annotation_example(example: AnnotationExample) -> None:
     if not example.sentences:
         raise ValueError(f'{example.template_id}: no sentences')
@@ -486,13 +501,14 @@ def validate_annotation_example(example: AnnotationExample) -> None:
         if text[-1] not in '.?!':
             raise ValueError(f'{example.template_id}: sentence has no final punctuation')
         predicates = sentence.get('predicates', [])
-        if not predicates and sentence.get('features',{}).get('clause_type') not in ('ellipsis','vocative'):
+        if not predicates:
             raise ValueError(f'{example.template_id}: sentence {number} has no predicates')
         for index, event in enumerate(predicates, 1):
             predicate = event.get('text', '')
-            boundary = r'(?<!\w)' if isinstance(predicate, str) and predicate[:1].isalnum() else ''
-            if not isinstance(predicate, str) or not predicate or not re.search(boundary+re.escape(predicate)+r'(?!\w)', text, re.I):
-                raise ValueError(f'{example.template_id}: predicate {predicate!r} absent in {text!r}')
+            if not isinstance(predicate, str) or not predicate:
+                raise ValueError(f'{example.template_id}: invalid predicate {predicate!r}')
+            if event.get('type') not in UTTERANCE_TYPES:
+                raise ValueError(f'{example.template_id}: invalid utterance type')
             roles = event.get('roles', {})
             if 'purpose' in roles or event.get('relation') == 'purpose':
                 raise ValueError(f'{example.template_id}: purpose is no longer supported')
@@ -520,6 +536,9 @@ def validate_annotation_example(example: AnnotationExample) -> None:
                     raise ValueError(f'{example.template_id}: invalid annotation {label!r}: {answer!r}')
                 if not re.fullmatch(r'[a-z][a-z0-9_]*', label):
                     raise ValueError(f'{example.template_id}: invalid label {label!r}')
+        facts = annotation_facts(sentence)
+        validate(text, facts)
+        validate_fact_spans(text, facts, sentence, f'{example.template_id}: sentence {number}')
 
 
 class AnnotationLibrary:
@@ -643,7 +662,13 @@ class AnnotationLibrary:
                 raise ValueError(f'{template["id"]}: combine requires single-sentence templates')
             instances = []
             for key, bindings in self.bindings_for(template):
-                sentences = tuple(substitute(template['sentences'], bindings))
+                sentences = []
+                for sentence in template['sentences']:
+                    expanded = substitute(sentence, bindings)
+                    _, annotations = Library.expand_spans(dict(sentence, id=template['id']), bindings)
+                    expanded.update(annotations)
+                    sentences.append(expanded)
+                sentences = tuple(sentences)
                 example = AnnotationExample(unit, origin, template['id'], template['rule'], key, sentences)
                 validate_annotation_example(example)
                 instances.append(example)
@@ -678,39 +703,27 @@ class AnnotationLibrary:
 
 def render_annotation(example: AnnotationExample) -> str:
     validate_annotation_example(example)
-    rows = [example.text]
-    def qa(label, answer, refs):
-        refs = sorted(set(refs))
-        if not refs or not all(1 <= n <= len(rows) for n in refs):
-            raise ValueError('Invalid annotation references')
-        rows.append(f'{label}\t{answer}\t'+ ' '.join(map(str, refs)))
-        return len(rows)
-    sentence_lines = []
-    predicate_lines = []
-    for si, sentence in enumerate(example.sentences, 1):
-        line = qa(f'sentence {si}?', sentence['text'], [1])
-        sentence_lines.append(line)
-        for feature, value in sentence.get('features', {}).items():
-            qa(f'{feature} of sentence {si}?', value, [line])
-        local_predicates = []
-        for pi, event in enumerate(sentence['predicates'], 1):
-            scope = f'predicate {pi} of sentence {si}'
-            pred = qa(scope+'?', event['text'], [line])
-            predicate_lines.append(pred)
-            refs = [line, pred] + [sentence_lines[n-1] for n in event.get('context', [])]
-            if 'parent' in event:
-                refs.append(local_predicates[event['parent']-1])
-                qa(f'parent of {scope}?', f'predicate {event["parent"]} of sentence {si}', refs)
-                qa(f'relation of {scope}?', event['relation'], refs)
-            for role, value in event['roles'].items():
-                qa(f'{role} of {scope}?', value, refs)
-            for field in ANNOTATION_FIELDS:
-                if field in event:
-                    qa(f'{field} of {scope}?', event[field], refs)
-            local_predicates.append(pred)
-    qa('sentence count?', len(example.sentences), sentence_lines)
-    qa('predicate count?', len(predicate_lines), predicate_lines or sentence_lines)
-    result = '\n'.join(f'{n} {line}' for n, line in enumerate(rows, 1))+'\n\n'
+    facts = []
+    annotations = {field: [] for field in SPAN_FIELDS}
+    embedded = {}
+    offset = 0
+    for sentence in example.sentences:
+        sentence_facts = annotation_facts(sentence)
+        # Source metadata retains predicate order for parent links. Training
+        # fragments follow their positions in the text, including participles.
+        order = sorted(range(len(sentence_facts)), key=lambda i: sentence['fragment_spans'][i][0][0])
+        indices = {old: len(facts) + new for new, old in enumerate(order)}
+        for index in order:
+            facts.append(sentence_facts[index])
+            for field in SPAN_FIELDS:
+                annotations[field].append([[a + offset, b + offset] for a, b in sentence[field][index]])
+        for source, roles in sentence.get('embedded_roles', {}).items():
+            embedded[str(indices[int(source)])] = {
+                role: [indices[target] for target in targets] for role, targets in roles.items()}
+        offset += len(sentence['text']) + 1
+    if embedded:
+        annotations['embedded_roles'] = embedded
+    result = render(example.text, facts, annotations)
     validate_story(result)
     return result
 

@@ -98,10 +98,10 @@ class NaturalQuestionBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             directory=Path(folder)
             fixture.fixture(directory)
-            _,output=fixture.run_cli(directory)
+            _,output=fixture.run_cli(directory,'--no-annotate')
             first={p.relative_to(directory/'out'):p.read_bytes()
                    for p in (directory/'out').rglob('*.txt')}
-            fixture.run_cli(directory)
+            fixture.run_cli(directory,'--no-annotate')
             self.assertEqual(first,{p.relative_to(directory/'out'):p.read_bytes()
                                     for p in (directory/'out').rglob('*.txt')})
             membership={}
@@ -121,14 +121,14 @@ class NaturalQuestionBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             directory=Path(folder)
             fixture.fixture(directory)
-            fixture.run_cli(directory)
+            fixture.run_cli(directory,'--no-annotate')
             before={p.relative_to(directory/'out'):p.read_bytes()
                     for p in (directory/'out').rglob('*.txt')}
             data=book.read_json(directory/'questions.json')
             data['questions'][0]['questions']=[]
             fixture.write_json(directory/'questions.json',data)
             with redirect_stderr(io.StringIO()),self.assertRaises(SystemExit):
-                fixture.run_cli(directory)
+                fixture.run_cli(directory,'--no-annotate')
             self.assertEqual(before,{p.relative_to(directory/'out'):p.read_bytes()
                                      for p in (directory/'out').rglob('*.txt')})
 

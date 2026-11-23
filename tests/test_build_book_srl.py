@@ -15,6 +15,17 @@ class BookSRLTests(unittest.TestCase):
     def example(self, unit, text):
         return next(e for e in self.library.generate(unit) if e.text == text)
 
+    def groups(self, example):
+        groups = []
+        for row in book.render_annotation(example).strip().splitlines()[1:]:
+            number, _, qa = row.partition(' ')
+            question, answer, evidence = qa.split('\t')
+            if question == 'fragment?':
+                groups.append({'line': int(number)})
+            self.assertNotIn(question, groups[-1])
+            groups[-1][question] = (answer, list(map(int, evidence.split())))
+        return groups
+
     def test_every_lesson_has_annotated_generator_and_valid_examples(self):
         generators = self.library.generators()
         self.assertEqual(set(generators), set(range(1, 85)))
@@ -28,6 +39,30 @@ class BookSRLTests(unittest.TestCase):
                     self.assertEqual(example.unit, unit)
                     self.assertIn(f'unit-{example.source_unit}', self.library.anchors)
                     self.assertGreater(book.validate_story(book.render_annotation(example)), 0)
+                    groups = self.groups(example)
+                    self.assertEqual(len(groups), sum(len(s['predicates']) for s in example.sentences))
+                    cursor = 0
+                    for group in groups:
+                        fragment, refs = group['fragment?']
+                        self.assertIn(fragment, example.text)
+                        cursor = example.text.index(fragment, cursor) + len(fragment)
+                        self.assertEqual(refs, [1])
+                        self.assertIn(group['type?'][0], book.UTTERANCE_TYPES)
+                        self.assertEqual(group['type?'][1], [1, group['line']])
+                        self.assertTrue({'predicate?', 'verb?', 'action?'} <= group.keys())
+                        for question, value in group.items():
+                            if question == 'line':
+                                continue
+                            answer, refs = value
+                            self.assertRegex(question, r'^[a-z][a-z ]*\?$')
+                            self.assertNotIn(question, {'sentence?', 'sentence count?', 'predicate count?',
+                                'subject?', 'tense?', 'aspect?', 'voice?', 'beneficiary?', 'status?',
+                                'form?', 'parent?', 'relation?', 'article?', 'question type?'})
+                            if question != 'fragment?':
+                                self.assertIn(group['line'], refs)
+                                self.assertTrue(set(refs) <= {1, group['line']})
+                            if answer == 'none':
+                                self.assertIn(question, {'predicate?', 'verb?'})
 
     def test_irregular_forms_and_article_agreement(self):
         self.example(1, 'Mary bought an apple. The apple is on the table.')
@@ -44,7 +79,7 @@ class BookSRLTests(unittest.TestCase):
                        if len(e.sentences) == 1 and len(e.sentences[0]['predicates']) == 1
                        and 'status' not in e.sentences[0]['predicates'][0])
         rendered = book.render_annotation(example)
-        self.assertNotIn('status of predicate', rendered)
+        self.assertNotIn('status?', rendered)
         self.assertGreater(book.validate_story(rendered), 0)
         for field, value in [('status', 'questioned'), ('status', None), ('tense', None)]:
             sentences = deepcopy(example.sentences)
@@ -99,18 +134,16 @@ class BookSRLTests(unittest.TestCase):
         unnecessary = self.example(72, 'Mary need not have bought bread.')
         self.assertEqual(unnecessary.sentences[0]['predicates'][0]['status'], 'asserted')
 
-    def test_multi_sentence_anaphora_has_prior_sentence_evidence(self):
+    def test_multi_sentence_anaphora_has_full_input_and_fragment_evidence(self):
         example = self.example(16, 'Mary owns a car. She likes her car.')
         event = example.sentences[1]['predicates'][0]
         self.assertEqual((event['roles']['subject'], event['roles']['actor']), ('she', 'mary'))
         self.assertEqual(event['context'], [1])
-        rows = book.render_annotation(example).strip().splitlines()
-        prior = next(int(row.split(' ', 1)[0]) for row in rows if ' sentence 1?\t' in row)
-        current = next(int(row.split(' ', 1)[0]) for row in rows if ' sentence 2?\t' in row)
-        actor_rows = [row for row in rows if ' actor of predicate ' in row]
-        refs = list(map(int, actor_rows[1].split('\t')[2].split()))
-        self.assertIn(prior, refs)
-        self.assertIn(current, refs)
+        first, second = self.groups(example)
+        self.assertEqual(first['fragment?'][0], 'Mary owns a car')
+        self.assertEqual(second['fragment?'][0], 'She likes her car')
+        self.assertEqual(first['actor?'], ('mary', [first['line']]))
+        self.assertEqual(second['actor?'], ('mary', [1, second['line']]))
 
     def test_ellipsis_recovers_predicate_from_context(self):
         example = self.example(84, 'Mary does not read novels. Neither do I.')
@@ -121,6 +154,11 @@ class BookSRLTests(unittest.TestCase):
         self.assertEqual(event['roles']['object'], 'novels')
         self.assertEqual(event['polarity'], 'negative')
         self.assertEqual(event['context'], [1])
+        second = self.groups(example)[1]
+        self.assertEqual(second['predicate?'], ('do', [second['line']]))
+        self.assertEqual(second['verb?'], ('do', [second['line']]))
+        self.assertEqual(second['action?'], ('read', [1, second['line']]))
+        self.assertEqual(second['object?'], ('novels', [1, second['line']]))
 
     def test_distinct_predicates_keep_their_own_times_and_actors(self):
         example = self.example(51, 'Mary was reading a book when John arrived.')
@@ -128,12 +166,74 @@ class BookSRLTests(unittest.TestCase):
         self.assertEqual((first['roles']['actor'], first['aspect']), ('mary', 'continuous'))
         self.assertEqual((second['roles']['actor'], second['aspect']), ('john', 'simple'))
         self.assertEqual(second['relation'], 'during')
-        story = book.render_annotation(example)
-        self.assertIn('actor of predicate 1 of sentence 1?\tmary\t', story)
-        self.assertIn('actor of predicate 2 of sentence 1?\tjohn\t', story)
-        self.assertIn('parent of predicate 2 of sentence 1?\tpredicate 1 of sentence 1\t', story)
-        questions = [row.partition(' ')[2].split('\t')[0] for row in story.strip().splitlines()[1:]]
-        self.assertEqual(len(questions), len(set(questions)))
+        first, second = self.groups(example)
+        self.assertEqual(first['fragment?'][0], 'Mary was reading a book')
+        self.assertEqual(second['fragment?'][0], 'when John arrived')
+        self.assertEqual(first['actor?'], ('mary', [first['line']]))
+        self.assertEqual(second['actor?'], ('john', [second['line']]))
+        self.assertEqual(first['time?'], ('when John arrived', [1, first['line']]))
+
+    def test_surface_verbs_and_full_predicates_match_book_format(self):
+        cases = [
+            (30, "Doesn't Mary read books?", 0, "Doesn't read", 'read', 'read'),
+            (45, 'Mary has just written the book.', 0, 'has written', 'written', 'write'),
+            (48, 'Mary has written three letters today. She has been writing letters all morning.',
+             1, 'has been writing', 'writing', 'write'),
+            (60, 'The car was repaired by Mary.', 0, 'was repaired', 'repaired', 'repair'),
+            (61, 'The child was looked after by Mary.', 0, 'was looked after', 'looked after', 'look after'),
+            (76, 'Mary looks forward to meeting John.', 0, 'looks forward to', 'looks forward to', 'look forward to'),
+            (77, 'Mary decided not to leave.', 1, 'not to leave', 'leave', 'leave'),
+        ]
+        for unit, text, index, predicate, verb, action in cases:
+            with self.subTest(text=text):
+                group = self.groups(self.example(unit, text))[index]
+                self.assertEqual(tuple(group[key][0] for key in ('predicate?', 'verb?', 'action?')),
+                                 (predicate, verb, action))
+
+    def test_embedded_events_are_separate_and_indirect_reports_are_not_questions(self):
+        for unit, text, fragments, kind in [
+                (35, 'Where do you think Mary lives?', ['Where do you think', 'Mary lives'], 'question'),
+                (57, 'Mary asked where John lived.', ['Mary asked', 'where John lived'], 'non_question'),
+                (78, 'Mary wants John to read the book.', ['Mary wants', 'John to read the book'], 'non_question')]:
+            with self.subTest(text=text):
+                groups = self.groups(self.example(unit, text))
+                self.assertEqual([g['fragment?'][0] for g in groups], fragments)
+                self.assertNotIn('object?', groups[0])
+                self.assertEqual([g['type?'][0] for g in groups], [kind, kind])
+        groups = self.groups(self.example(35, 'Where do you think Mary lives?'))
+        self.assertEqual(groups[1]['location?'], ('unknown', [1, groups[1]['line']]))
+        groups = self.groups(self.example(63, 'If Mary had time, she would read this book.'))
+        self.assertEqual(groups[1]['condition?'], ('If Mary had time', [1, groups[1]['line']]))
+
+    def test_participial_and_gerund_fragments_follow_source_order(self):
+        for unit, text, expected in [
+                (75, 'Reading books is useful.', ['Reading books', 'is useful']),
+                (80, 'The boy reading the book is John.', ['The boy reading the book', 'is John']),
+                (80, 'Having finished the report, Mary went home.', ['Having finished the report', 'Mary went home'])]:
+            with self.subTest(text=text):
+                self.assertEqual([g['fragment?'][0] for g in self.groups(self.example(unit, text))], expected)
+
+    def test_repeated_fragments_in_combined_examples_keep_distinct_actors_and_references(self):
+        example = next(e for e in self.library.generate(72)
+                       if len(e.sentences) == 2 and all('to rest' in s['text'] for s in e.sentences))
+        groups = self.groups(example)
+        self.assertEqual([groups[i]['fragment?'][0] for i in (1,3)], ['to rest','to rest'])
+        for sentence, group in zip(example.sentences, (groups[1],groups[3])):
+            self.assertEqual(group['actor?'],
+                             (sentence['predicates'][1]['roles']['actor'], [1,group['line']]))
+        self.assertNotEqual(groups[1]['actor?'][0], groups[3]['actor?'][0])
+
+    def test_missing_or_invalid_spans_and_type_are_rejected(self):
+        example = self.example(77, 'Mary wants to read the book.')
+        for mutation in [lambda s: s.pop('fragment_spans'),
+                         lambda s: s['verb_spans'].__setitem__(0, [[0,4]]),
+                         lambda s: s['fragment_spans'].__setitem__(0, [[0,1]]),
+                         lambda s: s['predicates'][0].pop('type'),
+                         lambda s: s.update(embedded_roles={'0':{'object':[0]}})]:
+            sentences = deepcopy(example.sentences)
+            mutation(sentences[0])
+            with self.assertRaises(ValueError):
+                book.validate_annotation_example(replace(example, sentences=sentences))
 
     def test_review_inherits_templates_and_origins(self):
         original = {e.text: e for e in self.library.generate(1)}
