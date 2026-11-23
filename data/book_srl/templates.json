@@ -31,7 +31,8 @@
                   "text": "bought",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "{n.singular}"
                   },
@@ -82,7 +83,7 @@
                     "actor": "{n.singular}",
                     "action": "be",
                     "object": "none",
-                    "location": "on the table"
+                    "where": "on the table"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -144,7 +145,8 @@
                   "text": "is",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "be",
                     "object": "none",
                     "complement": "a teacher"
@@ -218,7 +220,8 @@
                   "text": "opened",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "open",
                     "object": "{n.singular}"
                   },
@@ -416,7 +419,8 @@
                   "text": "drank",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "drink",
                     "object": "{n.singular}"
                   },
@@ -541,7 +545,8 @@
                   "text": "plays",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "play",
                     "object": "piano"
                   },
@@ -598,7 +603,8 @@
                   "text": "should help",
                   "roles": {
                     "subject": "the rich",
-                    "actor": "the rich",
+                    "actor": "person",
+                    "person": "the rich",
                     "action": "help",
                     "object": "the poor",
                     "modality": "should"
@@ -686,7 +692,8 @@
                   "text": "visited",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "visit",
                     "object": "{place.entity}"
                   },
@@ -743,10 +750,11 @@
                   "text": "flows",
                   "roles": {
                     "subject": "Thames",
-                    "actor": "Thames",
+                    "actor": "location",
+                    "location": "Thames",
                     "action": "flow",
                     "object": "none",
-                    "location": "through London"
+                    "where": "through London"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -811,10 +819,11 @@
                   "text": "studies",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "study",
                     "object": "English",
-                    "time": "on Mondays"
+                    "when": "on Mondays"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -874,10 +883,11 @@
                   "text": "reads",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "The Times",
-                    "time": "every morning"
+                    "when": "every morning"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -1001,7 +1011,8 @@
                   "text": "bought",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "rice",
                     "quantity": "a kilo"
@@ -1071,10 +1082,11 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "breakfast",
-                    "time": "in the morning"
+                    "when": "in the morning"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -1134,10 +1146,11 @@
                   "text": "visits",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "visit",
                     "object": "London",
-                    "time": "in summer"
+                    "when": "in summer"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -1203,11 +1216,12 @@
                   "text": "goes",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "go",
                     "object": "none",
                     "destination": "school",
-                    "time": "every day"
+                    "when": "every day"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -1267,7 +1281,8 @@
                   "text": "went",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "go",
                     "object": "none",
                     "destination": "school"
@@ -1284,7 +1299,8 @@
                   "text": "to meet",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "meet",
                     "object": "teacher"
                   },
@@ -1373,11 +1389,7 @@
             "n": [
               "noun:book",
               "noun:box",
-              "noun:city",
               "noun:knife",
-              "noun:child",
-              "noun:man",
-              "noun:woman",
               "noun:tooth",
               "noun:foot",
               "noun:mouse",
@@ -1398,7 +1410,7 @@
                     "actor": "{n.plural}",
                     "action": "be",
                     "object": "none",
-                    "location": "here"
+                    "where": "here"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -1460,7 +1472,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.plural}",
                     "quantity": "two"
@@ -1501,6 +1514,134 @@
             }
           ],
           "combine": true
+        },
+        {
+          "id": "u11_plural_people",
+          "source": "unit-11",
+          "rule": "Множественное число и согласование, включая исключения.",
+          "slots": {
+            "n": [
+              "noun:child",
+              "noun:man",
+              "noun:woman"
+            ]
+          },
+          "sentences": [
+            {
+              "text": "The {n.plural} are here.",
+              "features": {
+                "number": "plural"
+              },
+              "predicates": [
+                {
+                  "text": "are",
+                  "roles": {
+                    "subject": "{n.plural}",
+                    "actor": "person",
+                    "person": "{n.plural}",
+                    "action": "be",
+                    "object": "none",
+                    "where": "here"
+                  },
+                  "tense": "present",
+                  "aspect": "simple",
+                  "voice": "active",
+                  "polarity": "positive",
+                  "form": "finite",
+                  "status": "asserted",
+                  "type": "non_question"
+                }
+              ],
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    23
+                  ]
+                ]
+              ],
+              "predicate_spans": [
+                [
+                  [
+                    15,
+                    18
+                  ]
+                ]
+              ],
+              "verb_spans": [
+                [
+                  [
+                    15,
+                    18
+                  ]
+                ]
+              ]
+            }
+          ],
+          "family": "u11_plural_agreement"
+        },
+        {
+          "id": "u11_plural_places",
+          "source": "unit-11",
+          "rule": "Множественное число и согласование, включая исключения.",
+          "slots": {
+            "n": [
+              "noun:city"
+            ]
+          },
+          "sentences": [
+            {
+              "text": "The {n.plural} are here.",
+              "features": {
+                "number": "plural"
+              },
+              "predicates": [
+                {
+                  "text": "are",
+                  "roles": {
+                    "subject": "{n.plural}",
+                    "actor": "location",
+                    "location": "{n.plural}",
+                    "action": "be",
+                    "object": "none",
+                    "where": "here"
+                  },
+                  "tense": "present",
+                  "aspect": "simple",
+                  "voice": "active",
+                  "polarity": "positive",
+                  "form": "finite",
+                  "status": "asserted",
+                  "type": "non_question"
+                }
+              ],
+              "fragment_spans": [
+                [
+                  [
+                    0,
+                    23
+                  ]
+                ]
+              ],
+              "predicate_spans": [
+                [
+                  [
+                    15,
+                    18
+                  ]
+                ]
+              ],
+              "verb_spans": [
+                [
+                  [
+                    15,
+                    18
+                  ]
+                ]
+              ]
+            }
+          ],
+          "family": "u11_plural_agreement"
         }
       ]
     },
@@ -1590,7 +1731,8 @@
                   "text": "needs",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "need",
                     "object": "advice",
                     "quantity": "a piece"
@@ -1663,7 +1805,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.plural}",
                     "quantity": "many"
@@ -1730,7 +1873,8 @@
                   "text": "does not have",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.singular}",
                     "quantity": "much"
@@ -1797,7 +1941,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.plural}",
                     "quantity": "few"
@@ -1864,7 +2009,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.plural}",
                     "quantity": "a few"
@@ -1931,7 +2077,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.singular}",
                     "quantity": "little"
@@ -1998,7 +2145,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.singular}",
                     "quantity": "a little"
@@ -2145,7 +2293,7 @@
                     "actor": "books",
                     "action": "be",
                     "object": "none",
-                    "location": "here",
+                    "where": "here",
                     "possessor": "{x.owner}"
                   },
                   "tense": "present",
@@ -2224,7 +2372,8 @@
                   "text": "owns",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "own",
                     "object": "{n.singular}"
                   },
@@ -2270,7 +2419,8 @@
                   "text": "likes",
                   "roles": {
                     "subject": "{p.pronoun}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "like",
                     "object": "{n.singular}",
                     "possessor": "{p.entity}"
@@ -2452,10 +2602,11 @@
                   "text": "saw",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "see",
                     "object": "{p.entity}",
-                    "location": "in the mirror"
+                    "where": "in the mirror"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -2513,7 +2664,8 @@
                   "text": "repaired",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "repair",
                     "object": "car",
                     "manner": "alone"
@@ -2584,7 +2736,8 @@
                   "text": "bought",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "{n.plural}",
                     "quantity": "some"
@@ -2649,7 +2802,8 @@
                   "text": "Does have",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.singular}",
                     "quantity": "any"
@@ -2713,7 +2867,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "money",
                     "quantity": "no"
@@ -2796,10 +2951,11 @@
                   "text": "is",
                   "roles": {
                     "subject": "{x.entity}",
-                    "actor": "{x.entity}",
+                    "actor": "person",
+                    "person": "{x.entity}",
                     "action": "be",
                     "object": "none",
-                    "location": "in the room"
+                    "where": "in the room"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -2856,7 +3012,8 @@
                   "text": "bought",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "something interesting"
                   },
@@ -2926,7 +3083,8 @@
                   "text": "needs",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "need",
                     "object": "{n.singular}",
                     "quantity": "another"
@@ -2987,7 +3145,8 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "bags",
                     "quantity": "two"
@@ -3151,7 +3310,8 @@
                   "text": "speak",
                   "roles": {
                     "subject": "Mary and John",
-                    "actor": "mary and john",
+                    "actor": "person",
+                    "person": "Mary and John",
                     "action": "speak",
                     "object": "English",
                     "coordination": "both_and"
@@ -3208,7 +3368,8 @@
                   "text": "speaks",
                   "roles": {
                     "subject": "neither Mary nor John",
-                    "actor": "mary and john",
+                    "actor": "person",
+                    "person": "Mary and John",
                     "action": "speak",
                     "object": "French",
                     "coordination": "neither_nor"
@@ -3265,7 +3426,8 @@
                   "text": "will open",
                   "roles": {
                     "subject": "either Mary or John",
-                    "actor": "mary or john",
+                    "actor": "person",
+                    "person": "Mary or John",
                     "action": "open",
                     "object": "window",
                     "coordination": "either_or"
@@ -3344,7 +3506,8 @@
                   "text": "speaks",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "speak",
                     "object": "none",
                     "manner": "slowly"
@@ -3405,7 +3568,8 @@
                   "text": "looks",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "look",
                     "object": "none",
                     "complement": "happy"
@@ -3474,7 +3638,8 @@
                   "text": "is",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "be",
                     "object": "none",
                     "complement": "taller",
@@ -3658,7 +3823,8 @@
                   "text": "are getting",
                   "roles": {
                     "subject": "days",
-                    "actor": "days",
+                    "actor": "time",
+                    "time": "days",
                     "action": "get",
                     "object": "none",
                     "complement": "longer and longer",
@@ -3715,8 +3881,9 @@
                 {
                   "text": "reads",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "none",
                     "degree": "correlative"
@@ -3733,7 +3900,8 @@
                   "text": "knows",
                   "roles": {
                     "subject": "she",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "know",
                     "object": "none",
                     "degree": "correlative"
@@ -3821,7 +3989,8 @@
                   "text": "works",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
                     "manner": "more carefully",
@@ -3886,7 +4055,8 @@
                   "text": "speaks",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "speak",
                     "object": "English",
                     "manner": "better",
@@ -3966,11 +4136,12 @@
                   "text": "read",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "book",
-                    "location": "at home",
-                    "time": "yesterday"
+                    "where": "at home",
+                    "when": "yesterday"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -4028,7 +4199,8 @@
                   "text": "writes",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "write",
                     "object": "letters",
                     "frequency": "often"
@@ -4099,7 +4271,8 @@
                   "text": "has got",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "{n.singular}"
                   },
@@ -4159,10 +4332,11 @@
                   "text": "has",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "shower",
-                    "time": "every morning"
+                    "when": "every morning"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -4228,7 +4402,8 @@
                   "text": "Does read",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "books"
                   },
@@ -4293,7 +4468,8 @@
                   "text": "Doesn't read",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "books"
                   },
@@ -4358,7 +4534,8 @@
                   "text": "Does read",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "books or newspapers"
                   },
@@ -4430,10 +4607,11 @@
                   "text": "works",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
-                    "location": "here"
+                    "where": "here"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -4493,10 +4671,11 @@
                   "text": "doesn't work",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
-                    "location": "here"
+                    "where": "here"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -4561,10 +4740,11 @@
                   "text": "did buy",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "unknown",
-                    "time": "yesterday"
+                    "when": "yesterday"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -4615,14 +4795,15 @@
             {
               "text": "Who wrote this letter?",
               "features": {
-                "question_target": "actor"
+                "question_target": "person"
               },
               "predicates": [
                 {
                   "text": "wrote",
                   "roles": {
                     "subject": "who",
-                    "actor": "unknown",
+                    "actor": "person",
+                    "person": "unknown",
                     "action": "write",
                     "object": "this letter"
                   },
@@ -4688,11 +4869,12 @@
                   "text": "did write",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "write",
                     "object": "letter",
                     "recipient": "unknown",
-                    "time": "in the morning"
+                    "when": "in the morning"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -4749,11 +4931,12 @@
                 {
                   "text": "has lived",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "live",
                     "object": "none",
-                    "location": "here",
+                    "where": "here",
                     "duration": "unknown"
                   },
                   "tense": "present",
@@ -4817,7 +5000,8 @@
                   "text": "Do know",
                   "roles": {
                     "subject": "you",
-                    "actor": "addressee",
+                    "actor": "person",
+                    "person": "addressee",
                     "action": "know",
                     "object": "where Mary lives"
                   },
@@ -4831,11 +5015,12 @@
                 {
                   "text": "lives",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "live",
                     "object": "none",
-                    "location": "unknown"
+                    "where": "unknown"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -4919,7 +5104,8 @@
                   "text": "Can tell",
                   "roles": {
                     "subject": "you",
-                    "actor": "addressee",
+                    "actor": "person",
+                    "person": "addressee",
                     "action": "tell",
                     "object": "whether John is at home",
                     "recipient": "user",
@@ -4935,11 +5121,12 @@
                 {
                   "text": "is",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "be",
                     "object": "none",
-                    "location": "at home"
+                    "where": "at home"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5029,7 +5216,8 @@
                   "text": "do think",
                   "roles": {
                     "subject": "you",
-                    "actor": "addressee",
+                    "actor": "person",
+                    "person": "addressee",
                     "action": "think",
                     "object": "where Mary lives"
                   },
@@ -5043,11 +5231,12 @@
                 {
                   "text": "lives",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "live",
                     "object": "none",
-                    "location": "unknown"
+                    "where": "unknown"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5124,14 +5313,15 @@
             {
               "text": "Who do you think wrote this book?",
               "features": {
-                "question_target": "actor"
+                "question_target": "person"
               },
               "predicates": [
                 {
                   "text": "do think",
                   "roles": {
                     "subject": "you",
-                    "actor": "addressee",
+                    "actor": "person",
+                    "person": "addressee",
                     "action": "think",
                     "object": "who wrote this book"
                   },
@@ -5146,7 +5336,8 @@
                   "text": "wrote",
                   "roles": {
                     "subject": "who",
-                    "actor": "unknown",
+                    "actor": "person",
+                    "person": "unknown",
                     "action": "write",
                     "object": "this book"
                   },
@@ -5259,7 +5450,7 @@
                     "actor": "none",
                     "action": "be",
                     "object": "{n.singular}",
-                    "location": "on the table"
+                    "where": "on the table"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5322,7 +5513,7 @@
                     "action": "be",
                     "object": "{n.plural}",
                     "quantity": "two",
-                    "location": "in the room"
+                    "where": "in the room"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5438,8 +5629,9 @@
                 {
                   "text": "runs",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "run",
                     "object": "none",
                     "manner": "quickly"
@@ -5501,7 +5693,8 @@
                   "text": "is",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "be",
                     "object": "none",
                     "complement": "so happy"
@@ -5564,7 +5757,8 @@
                   "text": "is",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "be",
                     "object": "none",
                     "complement": "such a good friend"
@@ -5635,10 +5829,11 @@
                   "text": "{v.present3}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "books",
-                    "time": "every week"
+                    "when": "every week"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5700,10 +5895,11 @@
                   "text": "does not {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "books",
-                    "time": "every week"
+                    "when": "every week"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5765,10 +5961,11 @@
                   "text": "Does {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "books",
-                    "time": "every week"
+                    "when": "every week"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -5843,10 +6040,11 @@
                   "text": "is {v.gerund}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "now"
+                    "when": "now"
                   },
                   "tense": "present",
                   "aspect": "continuous",
@@ -5918,10 +6116,11 @@
                   "text": "is not {v.gerund}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "now"
+                    "when": "now"
                   },
                   "tense": "present",
                   "aspect": "continuous",
@@ -5993,10 +6192,11 @@
                   "text": "Is {v.gerund}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "now"
+                    "when": "now"
                   },
                   "tense": "present",
                   "aspect": "continuous",
@@ -6069,7 +6269,8 @@
                   "text": "drinks",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "drink",
                     "object": "tea",
                     "frequency": "usually"
@@ -6116,10 +6317,11 @@
                   "text": "is drinking",
                   "roles": {
                     "subject": "{p.pronoun}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "drink",
                     "object": "coffee",
-                    "time": "today"
+                    "when": "today"
                   },
                   "tense": "present",
                   "aspect": "continuous",
@@ -6179,10 +6381,11 @@
                   "text": "knows",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "know",
                     "object": "answer",
-                    "time": "now"
+                    "when": "now"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -6254,10 +6457,11 @@
                   "text": "will {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "tomorrow"
+                    "when": "tomorrow"
                   },
                   "tense": "future",
                   "aspect": "simple",
@@ -6329,10 +6533,11 @@
                   "text": "will not {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "tomorrow"
+                    "when": "tomorrow"
                   },
                   "tense": "future",
                   "aspect": "simple",
@@ -6404,10 +6609,11 @@
                   "text": "Will {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "tomorrow"
+                    "when": "tomorrow"
                   },
                   "tense": "future",
                   "aspect": "simple",
@@ -6482,10 +6688,11 @@
                   "text": "is going to visit",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "visit",
                     "object": "London",
-                    "time": "next week",
+                    "when": "next week",
                     "modality": "going_to"
                   },
                   "tense": "present",
@@ -6546,10 +6753,11 @@
                   "text": "is meeting",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "meet",
-                    "object": "anna",
-                    "time": "tomorrow"
+                    "object": "Anna",
+                    "when": "tomorrow"
                   },
                   "tense": "present",
                   "aspect": "continuous",
@@ -6607,7 +6815,7 @@
                     "actor": "train",
                     "action": "leave",
                     "object": "none",
-                    "time": "at six tomorrow"
+                    "when": "at six tomorrow"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -6678,10 +6886,11 @@
                   "text": "{v.past}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "last week"
+                    "when": "last week"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -6753,10 +6962,11 @@
                   "text": "did not {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "last week"
+                    "when": "last week"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -6828,10 +7038,11 @@
                   "text": "Did {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "last week"
+                    "when": "last week"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -6912,10 +7123,11 @@
                   "text": "has {v.participle}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "none"
+                    "when": "none"
                   },
                   "tense": "present",
                   "aspect": "perfect",
@@ -6991,10 +7203,11 @@
                   "text": "has not {v.participle}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "none"
+                    "when": "none"
                   },
                   "tense": "present",
                   "aspect": "perfect",
@@ -7066,10 +7279,11 @@
                   "text": "Has {v.participle}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "none"
+                    "when": "none"
                   },
                   "tense": "present",
                   "aspect": "perfect",
@@ -7142,9 +7356,10 @@
                   "text": "has known",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "know",
-                    "object": "anna",
+                    "object": "Anna",
                     "start": "2020"
                   },
                   "tense": "present",
@@ -7203,7 +7418,8 @@
                   "text": "has had",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "have",
                     "object": "this car",
                     "duration": "five years"
@@ -7270,7 +7486,8 @@
                   "text": "has been learning",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "learn",
                     "object": "English",
                     "duration": "two years"
@@ -7331,7 +7548,8 @@
                   "text": "has been working",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
                     "start": "nine o'clock"
@@ -7398,11 +7616,12 @@
                   "text": "has written",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "write",
                     "object": "letters",
                     "quantity": "three",
-                    "time": "today"
+                    "when": "today"
                   },
                   "tense": "present",
                   "aspect": "perfect",
@@ -7446,7 +7665,8 @@
                   "text": "has been writing",
                   "roles": {
                     "subject": "{p.pronoun}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "write",
                     "object": "letters",
                     "duration": "all morning"
@@ -7509,7 +7729,8 @@
                   "text": "has wanted",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "want",
                     "object": "this book",
                     "duration": "months"
@@ -7576,7 +7797,8 @@
                   "text": "has visited",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "visit",
                     "object": "Paris",
                     "frequency": "twice"
@@ -7623,10 +7845,11 @@
                   "text": "visited",
                   "roles": {
                     "subject": "{p.pronoun}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "visit",
                     "object": "London",
-                    "time": "yesterday"
+                    "when": "yesterday"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -7686,10 +7909,11 @@
                   "text": "has been working",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
-                    "location": "here",
+                    "where": "here",
                     "duration": "a year"
                   },
                   "tense": "present",
@@ -7734,12 +7958,13 @@
                   "text": "worked",
                   "roles": {
                     "subject": "{p.pronoun}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
-                    "location": "in London",
+                    "where": "in London",
                     "duration": "two years",
-                    "time": "before that"
+                    "when": "before that"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -7813,10 +8038,11 @@
                   "text": "was {v.gerund}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "at six yesterday"
+                    "when": "at six yesterday"
                   },
                   "tense": "past",
                   "aspect": "continuous",
@@ -7888,10 +8114,11 @@
                   "text": "was not {v.gerund}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "at six yesterday"
+                    "when": "at six yesterday"
                   },
                   "tense": "past",
                   "aspect": "continuous",
@@ -7963,10 +8190,11 @@
                   "text": "Was {v.gerund}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}",
-                    "time": "at six yesterday"
+                    "when": "at six yesterday"
                   },
                   "tense": "past",
                   "aspect": "continuous",
@@ -8033,11 +8261,12 @@
                 {
                   "text": "was reading",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "book",
-                    "time": "when John arrived"
+                    "when": "when John arrived"
                   },
                   "tense": "past",
                   "aspect": "continuous",
@@ -8050,8 +8279,9 @@
                 {
                   "text": "arrived",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "arrive",
                     "object": "none"
                   },
@@ -8124,8 +8354,9 @@
                 {
                   "text": "opened",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "open",
                     "object": "window"
                   },
@@ -8140,11 +8371,12 @@
                 {
                   "text": "looked",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "look",
                     "object": "none",
-                    "location": "outside"
+                    "where": "outside"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -8221,11 +8453,12 @@
                 {
                   "text": "had finished",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "finish",
                     "object": "report",
-                    "time": "before John arrived"
+                    "when": "before John arrived"
                   },
                   "tense": "past",
                   "aspect": "perfect",
@@ -8238,8 +8471,9 @@
                 {
                   "text": "arrived",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "arrive",
                     "object": "none"
                   },
@@ -8318,7 +8552,8 @@
                   "text": "had not finished",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "finish",
                     "object": "report",
                     "deadline": "noon"
@@ -8379,11 +8614,12 @@
                 {
                   "text": "arrived",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "arrive",
                     "object": "none",
-                    "time": "at six"
+                    "when": "at six"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -8426,11 +8662,12 @@
                 {
                   "text": "was cooking",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "cook",
                     "object": "dinner",
-                    "time": "at six"
+                    "when": "at six"
                   },
                   "tense": "past",
                   "aspect": "continuous",
@@ -8477,10 +8714,11 @@
                   "text": "had written",
                   "roles": {
                     "subject": "she",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "write",
                     "object": "report",
-                    "time": "before six"
+                    "when": "before six"
                   },
                   "tense": "past",
                   "aspect": "perfect",
@@ -8539,8 +8777,9 @@
                 {
                   "text": "was reading",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "letter"
                   },
@@ -8555,8 +8794,9 @@
                 {
                   "text": "had written",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "write",
                     "object": "letter"
                   },
@@ -8635,12 +8875,13 @@
                 {
                   "text": "had been waiting",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "wait",
                     "object": "none",
                     "duration": "an hour",
-                    "time": "when John arrived"
+                    "when": "when John arrived"
                   },
                   "tense": "past",
                   "aspect": "perfect_continuous",
@@ -8653,8 +8894,9 @@
                 {
                   "text": "arrived",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "arrive",
                     "object": "none"
                   },
@@ -8733,7 +8975,8 @@
                   "text": "had been working",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
                     "duration": "three hours",
@@ -8818,8 +9061,9 @@
                 {
                   "text": "says",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "say",
                     "object": "John works in London"
                   },
@@ -8834,11 +9078,12 @@
                 {
                   "text": "works",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "work",
                     "object": "none",
-                    "location": "in London"
+                    "where": "in London"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -8916,11 +9161,12 @@
                 {
                   "text": "tells",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "tell",
                     "object": "John to open the window",
-                    "recipient": "john"
+                    "recipient": "John"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -8933,8 +9179,9 @@
                 {
                   "text": "to open",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "open",
                     "object": "window"
                   },
@@ -9020,8 +9267,9 @@
                 {
                   "text": "said",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "say",
                     "object": "John worked in London"
                   },
@@ -9036,11 +9284,12 @@
                 {
                   "text": "worked",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "work",
                     "object": "none",
-                    "location": "in London"
+                    "where": "in London"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -9118,8 +9367,9 @@
                 {
                   "text": "asked",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "ask",
                     "object": "where John lived"
                   },
@@ -9134,11 +9384,12 @@
                 {
                   "text": "lived",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "live",
                     "object": "none",
-                    "location": "unknown"
+                    "where": "unknown"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -9222,8 +9473,9 @@
                 {
                   "text": "said",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "say",
                     "object": "John had written the letter"
                   },
@@ -9238,8 +9490,9 @@
                 {
                   "text": "had written",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "write",
                     "object": "letter"
                   },
@@ -9321,8 +9574,9 @@
                 {
                   "text": "said",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "say",
                     "object": "John would arrive the next day"
                   },
@@ -9337,11 +9591,12 @@
                 {
                   "text": "would arrive",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "arrive",
                     "object": "none",
-                    "time": "the next day",
+                    "when": "the next day",
                     "modality": "would"
                   },
                   "tense": "future",
@@ -9421,7 +9676,8 @@
                   "text": "said",
                   "roles": {
                     "subject": "teacher",
-                    "actor": "teacher",
+                    "actor": "person",
+                    "person": "teacher",
                     "action": "say",
                     "object": "the earth moves round the sun"
                   },
@@ -9440,7 +9696,7 @@
                     "actor": "earth",
                     "action": "move",
                     "object": "none",
-                    "location": "round the sun"
+                    "where": "round the sun"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -9548,7 +9804,8 @@
                   "text": "is {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -9621,7 +9878,8 @@
                   "text": "was {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -9694,7 +9952,8 @@
                   "text": "will be {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -9767,7 +10026,8 @@
                   "text": "is being {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -9840,7 +10100,8 @@
                   "text": "was being {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -9913,7 +10174,8 @@
                   "text": "has been {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -9986,7 +10248,8 @@
                   "text": "had been {v.participle}",
                   "roles": {
                     "subject": "{n.singular}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -10049,7 +10312,7 @@
                     "actor": "unknown",
                     "action": "write",
                     "object": "letter",
-                    "time": "yesterday"
+                    "when": "yesterday"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -10106,11 +10369,12 @@
                 {
                   "text": "was given",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "john",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "John",
                     "action": "give",
                     "object": "book",
-                    "recipient": "mary"
+                    "recipient": "Mary"
                   },
                   "tense": "past",
                   "aspect": "simple",
@@ -10162,7 +10426,8 @@
                   "text": "was looked after",
                   "roles": {
                     "subject": "child",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "look after",
                     "object": "child"
                   },
@@ -10215,7 +10480,7 @@
                 {
                   "text": "is said",
                   "roles": {
-                    "subject": "john",
+                    "subject": "John",
                     "actor": "unknown",
                     "action": "say",
                     "object": "John lives in London"
@@ -10231,11 +10496,12 @@
                 {
                   "text": "to live",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "live",
                     "object": "none",
-                    "location": "in London"
+                    "where": "in London"
                   },
                   "tense": "nonfinite",
                   "aspect": "simple",
@@ -10331,8 +10597,9 @@
                 {
                   "text": "had",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "have",
                     "object": "time"
                   },
@@ -10348,7 +10615,8 @@
                   "text": "would read",
                   "roles": {
                     "subject": "she",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "this book",
                     "modality": "would",
@@ -10426,8 +10694,9 @@
                 {
                   "text": "had known",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "know",
                     "object": "answer"
                   },
@@ -10443,10 +10712,11 @@
                   "text": "would have told",
                   "roles": {
                     "subject": "she",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "tell",
                     "object": "answer",
-                    "recipient": "john",
+                    "recipient": "John",
                     "modality": "would",
                     "condition": "If Mary had known the answer"
                   },
@@ -10521,8 +10791,9 @@
                 {
                   "text": "had studied",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "study",
                     "object": "none",
                     "manner": "harder"
@@ -10539,10 +10810,11 @@
                   "text": "would know",
                   "roles": {
                     "subject": "she",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "know",
                     "object": "answer",
-                    "time": "now",
+                    "when": "now",
                     "modality": "would",
                     "condition": "If Mary had studied harder"
                   },
@@ -10624,7 +10896,8 @@
                   "text": "wish",
                   "roles": {
                     "subject": "I",
-                    "actor": "user",
+                    "actor": "person",
+                    "person": "user",
                     "action": "wish",
                     "object": "I knew the answer"
                   },
@@ -10640,7 +10913,8 @@
                   "text": "knew",
                   "roles": {
                     "subject": "I",
-                    "actor": "user",
+                    "actor": "person",
+                    "person": "user",
                     "action": "know",
                     "object": "answer"
                   },
@@ -10723,7 +10997,8 @@
                   "text": "wish",
                   "roles": {
                     "subject": "I",
-                    "actor": "user",
+                    "actor": "person",
+                    "person": "user",
                     "action": "wish",
                     "object": "I had read that book"
                   },
@@ -10739,7 +11014,8 @@
                   "text": "had read",
                   "roles": {
                     "subject": "I",
-                    "actor": "user",
+                    "actor": "person",
+                    "person": "user",
                     "action": "read",
                     "object": "that book"
                   },
@@ -10840,7 +11116,8 @@
                   "text": "can swim",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "swim",
                     "object": "none",
                     "modality": "can",
@@ -10902,10 +11179,11 @@
                   "text": "could swim",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "swim",
                     "object": "none",
-                    "time": "at the age of five",
+                    "when": "at the age of five",
                     "modality": "could",
                     "modal_meaning": "ability"
                   },
@@ -10965,10 +11243,11 @@
                   "text": "was able to open",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "open",
                     "object": "window",
-                    "time": "yesterday",
+                    "when": "yesterday",
                     "modality": "be_able_to",
                     "modal_meaning": "ability"
                   },
@@ -11034,10 +11313,11 @@
                   "text": "cannot be sleeping",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "sleep",
                     "object": "none",
-                    "time": "now",
+                    "when": "now",
                     "modality": "can",
                     "modal_meaning": "impossibility"
                   },
@@ -11097,7 +11377,8 @@
                   "text": "cannot have written",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "write",
                     "object": "this letter",
                     "modality": "can",
@@ -11165,10 +11446,11 @@
                   "text": "must finish",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "finish",
                     "object": "report",
-                    "time": "today",
+                    "when": "today",
                     "modality": "must"
                   },
                   "tense": "present",
@@ -11227,10 +11509,11 @@
                   "text": "has to finish",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "finish",
                     "object": "report",
-                    "time": "today",
+                    "when": "today",
                     "modality": "have_to"
                   },
                   "tense": "present",
@@ -11289,10 +11572,11 @@
                   "text": "is to finish",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "finish",
                     "object": "report",
-                    "time": "today",
+                    "when": "today",
                     "modality": "be_to"
                   },
                   "tense": "present",
@@ -11351,7 +11635,8 @@
                   "text": "must not open",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "open",
                     "object": "this box",
                     "modality": "must",
@@ -11413,10 +11698,11 @@
                   "text": "does not have to work",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
-                    "time": "tomorrow",
+                    "when": "tomorrow",
                     "modality": "have_to",
                     "modal_meaning": "no_obligation",
                     "negation_scope": "obligation"
@@ -11483,10 +11769,11 @@
                   "text": "must be reading",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "none",
-                    "time": "now",
+                    "when": "now",
                     "modality": "must",
                     "modal_meaning": "deduction"
                   },
@@ -11546,7 +11833,8 @@
                   "text": "must have lost",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "lose",
                     "object": "book",
                     "modality": "must",
@@ -11614,10 +11902,11 @@
                   "text": "may leave",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "leave",
                     "object": "none",
-                    "time": "now",
+                    "when": "now",
                     "modality": "may",
                     "modal_meaning": "permission"
                   },
@@ -11677,10 +11966,11 @@
                   "text": "might visit",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "visit",
                     "object": "London",
-                    "time": "tomorrow",
+                    "when": "tomorrow",
                     "modality": "might",
                     "modal_meaning": "possibility"
                   },
@@ -11746,10 +12036,11 @@
                   "text": "may be working",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "work",
                     "object": "none",
-                    "location": "at home",
+                    "where": "at home",
                     "modality": "may",
                     "modal_meaning": "possibility"
                   },
@@ -11809,7 +12100,8 @@
                   "text": "might have forgotten",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "forget",
                     "object": "meeting",
                     "modality": "might",
@@ -11871,7 +12163,8 @@
                   "text": "may not have received",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "receive",
                     "object": "letter",
                     "modality": "may",
@@ -11939,10 +12232,11 @@
                   "text": "need not buy",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "bread",
-                    "time": "today",
+                    "when": "today",
                     "modality": "need",
                     "modal_meaning": "no_necessity",
                     "negation_scope": "necessity"
@@ -12003,7 +12297,8 @@
                   "text": "need not have bought",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "bread",
                     "modality": "need",
@@ -12066,7 +12361,8 @@
                   "text": "needs",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "need",
                     "object": "to rest"
                   },
@@ -12082,7 +12378,8 @@
                   "text": "to rest",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "rest",
                     "object": "none"
                   },
@@ -12175,7 +12472,8 @@
                   "text": "should read",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "this book",
                     "modality": "should",
@@ -12237,10 +12535,11 @@
                   "text": "should have written",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "write",
                     "object": "report",
-                    "time": "yesterday",
+                    "when": "yesterday",
                     "modality": "should",
                     "modal_meaning": "past_advice"
                   },
@@ -12300,7 +12599,8 @@
                   "text": "should not have opened",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "open",
                     "object": "letter",
                     "modality": "should",
@@ -12474,7 +12774,8 @@
                   "text": "enjoys",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "enjoy",
                     "object": "reading novels"
                   },
@@ -12490,7 +12791,8 @@
                   "text": "reading",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "novels"
                   },
@@ -12570,8 +12872,9 @@
                 {
                   "text": "admitted",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "admit",
                     "object": "having written the letter"
                   },
@@ -12586,8 +12889,9 @@
                 {
                   "text": "having written",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "write",
                     "object": "letter"
                   },
@@ -12679,7 +12983,8 @@
                   "text": "is",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "be",
                     "object": "learning English",
                     "complement": "interested"
@@ -12696,7 +13001,8 @@
                   "text": "learning",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "learn",
                     "object": "English"
                   },
@@ -12776,8 +13082,9 @@
                 {
                   "text": "looks forward to",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "look forward to",
                     "object": "meeting John"
                   },
@@ -12792,10 +13099,11 @@
                 {
                   "text": "meeting",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "meet",
-                    "object": "john"
+                    "object": "John"
                   },
                   "tense": "nonfinite",
                   "aspect": "simple",
@@ -12873,8 +13181,9 @@
                 {
                   "text": "dislikes",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "dislike",
                     "object": "being interrupted"
                   },
@@ -12889,10 +13198,10 @@
                 {
                   "text": "being interrupted",
                   "roles": {
-                    "subject": "mary",
+                    "subject": "Mary",
                     "actor": "unknown",
                     "action": "interrupt",
-                    "object": "mary"
+                    "object": "Mary"
                   },
                   "tense": "nonfinite",
                   "aspect": "simple",
@@ -12990,7 +13299,8 @@
                   "text": "wants",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "want",
                     "object": "to {v.lemma} the {n.singular}"
                   },
@@ -13006,7 +13316,8 @@
                   "text": "to {v.lemma}",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "{v.lemma}",
                     "object": "{n.singular}"
                   },
@@ -13099,7 +13410,8 @@
                   "text": "went",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "go",
                     "object": "none",
                     "destination": "shop"
@@ -13116,7 +13428,8 @@
                   "text": "to buy",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "buy",
                     "object": "bread"
                   },
@@ -13187,8 +13500,9 @@
                 {
                   "text": "decided",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "decide",
                     "object": "not to leave"
                   },
@@ -13203,8 +13517,9 @@
                 {
                   "text": "not to leave",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "leave",
                     "object": "none"
                   },
@@ -13290,8 +13605,9 @@
                 {
                   "text": "wants",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "want",
                     "object": "John to read the book"
                   },
@@ -13306,8 +13622,9 @@
                 {
                   "text": "to read",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "read",
                     "object": "book"
                   },
@@ -13404,8 +13721,9 @@
                 {
                   "text": "to read",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "read",
                     "object": "report"
                   },
@@ -13478,8 +13796,9 @@
                 {
                   "text": "let",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "let",
                     "object": "John open the window"
                   },
@@ -13494,8 +13813,9 @@
                 {
                   "text": "open",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "open",
                     "object": "window"
                   },
@@ -13581,8 +13901,9 @@
                 {
                   "text": "stopped",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "stop",
                     "object": "reading the book"
                   },
@@ -13597,8 +13918,9 @@
                 {
                   "text": "reading",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "book"
                   },
@@ -13678,8 +14000,9 @@
                 {
                   "text": "stopped",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "stop",
                     "object": "none"
                   },
@@ -13694,8 +14017,9 @@
                 {
                   "text": "to read",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "notice"
                   },
@@ -13766,8 +14090,9 @@
                 {
                   "text": "remembers",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "remember",
                     "object": "meeting John"
                   },
@@ -13782,10 +14107,11 @@
                 {
                   "text": "meeting",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "meet",
-                    "object": "john"
+                    "object": "John"
                   },
                   "tense": "nonfinite",
                   "aspect": "simple",
@@ -13863,8 +14189,9 @@
                 {
                   "text": "remembered",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "remember",
                     "object": "to send the letter"
                   },
@@ -13879,8 +14206,9 @@
                 {
                   "text": "to send",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "send",
                     "object": "letter"
                   },
@@ -13967,7 +14295,8 @@
                   "text": "is",
                   "roles": {
                     "subject": "boy",
-                    "actor": "john",
+                    "actor": "person",
+                    "person": "John",
                     "action": "be",
                     "object": "none",
                     "complement": "John"
@@ -13984,7 +14313,8 @@
                   "text": "reading",
                   "roles": {
                     "subject": "boy",
-                    "actor": "john",
+                    "actor": "person",
+                    "person": "John",
                     "action": "read",
                     "object": "book"
                   },
@@ -14061,7 +14391,7 @@
                     "actor": "letter",
                     "action": "be",
                     "object": "none",
-                    "location": "on the table"
+                    "where": "on the table"
                   },
                   "tense": "present",
                   "aspect": "simple",
@@ -14075,7 +14405,8 @@
                   "text": "written",
                   "roles": {
                     "subject": "letter",
-                    "actor": "mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "write",
                     "object": "letter"
                   },
@@ -14148,8 +14479,9 @@
                 {
                   "text": "went",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "go",
                     "object": "none",
                     "destination": "home"
@@ -14165,8 +14497,9 @@
                 {
                   "text": "Having finished",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "finish",
                     "object": "report"
                   },
@@ -14245,8 +14578,9 @@
                 {
                   "text": "saw",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "see",
                     "object": "John crossing the street"
                   },
@@ -14261,8 +14595,9 @@
                 {
                   "text": "crossing",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "cross",
                     "object": "street"
                   },
@@ -14342,8 +14677,9 @@
                 {
                   "text": "saw",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "see",
                     "object": "John cross the street"
                   },
@@ -14358,8 +14694,9 @@
                 {
                   "text": "cross",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "cross",
                     "object": "street"
                   },
@@ -14439,8 +14776,9 @@
                 {
                   "text": "had",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "have",
                     "object": "her car repaired"
                   },
@@ -14459,7 +14797,7 @@
                     "actor": "unknown",
                     "action": "repair",
                     "object": "car",
-                    "possessor": "mary"
+                    "possessor": "Mary"
                   },
                   "tense": "nonfinite",
                   "aspect": "simple",
@@ -14563,7 +14901,8 @@
                   "text": "is reading",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "read",
                     "object": "report",
                     "phase": "still"
@@ -14628,7 +14967,8 @@
                   "text": "has not finished",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "finish",
                     "object": "report",
                     "phase": "yet"
@@ -14689,7 +15029,8 @@
                   "text": "has finished",
                   "roles": {
                     "subject": "{p.entity}",
-                    "actor": "{p.entity}",
+                    "actor": "person",
+                    "person": "{p.entity}",
                     "action": "finish",
                     "object": "report",
                     "phase": "already"
@@ -14748,11 +15089,12 @@
                 {
                   "text": "is not working",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "work",
                     "object": "none",
-                    "location": "here",
+                    "where": "here",
                     "phase": "no_longer"
                   },
                   "tense": "present",
@@ -14810,8 +15152,9 @@
                 {
                   "text": "likes",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "like",
                     "object": "coffee"
                   },
@@ -14858,8 +15201,9 @@
                 {
                   "text": "likes",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "like",
                     "object": "coffee",
                     "addition": "too"
@@ -14916,8 +15260,9 @@
                 {
                   "text": "speaks",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "speak",
                     "object": "English"
                   },
@@ -14964,8 +15309,9 @@
                 {
                   "text": "speaks",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "speak",
                     "object": "English",
                     "addition": "also"
@@ -15022,8 +15368,9 @@
                 {
                   "text": "does not like",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "like",
                     "object": "coffee"
                   },
@@ -15070,8 +15417,9 @@
                 {
                   "text": "does not like",
                   "roles": {
-                    "subject": "john",
-                    "actor": "john",
+                    "subject": "John",
+                    "actor": "person",
+                    "person": "John",
                     "action": "like",
                     "object": "coffee",
                     "addition": "either"
@@ -15128,8 +15476,9 @@
                 {
                   "text": "reads",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "novels"
                   },
@@ -15177,7 +15526,8 @@
                   "text": "do",
                   "roles": {
                     "subject": "I",
-                    "actor": "user",
+                    "actor": "person",
+                    "person": "user",
                     "action": "read",
                     "object": "novels",
                     "addition": "so"
@@ -15234,8 +15584,9 @@
                 {
                   "text": "does not read",
                   "roles": {
-                    "subject": "mary",
-                    "actor": "mary",
+                    "subject": "Mary",
+                    "actor": "person",
+                    "person": "Mary",
                     "action": "read",
                     "object": "novels"
                   },
@@ -15283,7 +15634,8 @@
                   "text": "do",
                   "roles": {
                     "subject": "I",
-                    "actor": "user",
+                    "actor": "person",
+                    "person": "user",
                     "action": "read",
                     "object": "novels",
                     "addition": "neither"

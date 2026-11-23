@@ -2,6 +2,9 @@
 
 ## SRL по учебнику
 
+Подробные правила разметки, фрагментации и пограничные случаи описаны в
+[Annotation-rules.md](Annotation-rules.md).
+
 `build_book_srl.py` читает английские предложения и их SRL из
 [sentences.json](data/book_srl/sentences.json), автоматически синхронизирует
 каталог шаблонов, проверяет варианты и собирает датасет за один запуск.
@@ -11,6 +14,31 @@ Markdown и PDF книги для сборки не нужны.
 и дополнительными ролями. Вопросы идут без индексов и относятся к текущему
 фрагменту. Первая строка содержит номер `1` и исходный текст без префикса `User:`.
 Реплик ассистента и управления диалогом нет.
+
+Для четырёх размеченных категорий `actor` содержит тип участника,
+а поле с именем этого типа — его значение:
+
+| Тип `actor` | Поле со значением | Пример |
+| --- | --- | --- |
+| `person` | `person` | `Mary`, `he`, `children` |
+| `organization` | `organization` | `commission`, `Lloyds` |
+| `location` | `location` | `Newcastle`, `library` |
+| `time` | `time` | `spring`, `your birthday` |
+
+Имена сохраняют заглавные буквы. Обстоятельства времени и места записываются
+в `when` и `where`. Например, `Spring comes after autumn.` получает
+`actor: time`, `time: spring`, `when: after autumn`; у `Newcastle is a large city
+in the north-east of England.` — `actor: location`, `location: Newcastle`,
+`where: in the north-east of England`. Эти значения не заменяют друг друга.
+Вопрос `Who wrote this letter?` получает `actor: person`, `person: unknown`.
+Типы и значения явно хранятся в JSON; генератор не определяет их по написанию слов.
+Схема одинакова для основного набора и `annotations`.
+
+Для остальных участников, включая предметы, животных и действия, отдельные
+категории пока не введены: их значения остаются непосредственно в `actor`,
+например `actor: book` и `actor: cat`. `none` и неуточнённый `unknown` тоже
+сохраняются. Типизированный участник должен иметь ровно одно соответствующее
+поле со значением; сборка проверяет это до записи датасета.
 
 ```shell
 python build_book_srl.py
@@ -110,7 +138,8 @@ Markdown-разметки и незавершённых фрагментов в 
 
 ```text
 {actor_frame.word_subject}{actor_frame.word_auxiliary} {verb.word} an interesting {noun_1.word}.
-actor: {actor_frame.actor}
+actor: person
+person: {actor_frame.actor}
 predicate: {actor_frame.word_auxiliary} {verb.word}
 action: {verb.lemma}
 object: interesting {noun_1.word}
@@ -141,11 +170,11 @@ object: interesting {noun_1.word}
 в `My bag is black, hers is brown.` — `her bag`, а в `Can I use yours?` — `yours`.
 
 В уроке 17 возвратное местоимение связывает участника с ним самим:
-`I hurt myself.` → `actor: user`, `action: hurt`, `object: user`, `reflexive: yes`.
-В `He made himself a cup of tea.` совпадают `actor` и `beneficiary`,
-в `Jane looked at herself in the mirror.` — `actor` и `target`.
+`I hurt myself.` → `actor: person`, `person: user`, `action: hurt`, `object: user`, `reflexive: yes`.
+В `He made himself a cup of tea.` совпадают `person` и `beneficiary`,
+в `Jane looked at herself in the mirror.` — `person` и `target`.
 Формы `I/myself`, `he/himself`, `we/ourselves` меняются одной связанной подстановкой.
-Усилительное `You yourself told us the story.` получает `emphasis: actor`
+Усилительное `You yourself told us the story.` получает `emphasis: person`
 и `reflexive: no`; объектом остаётся `story`. Предложение с `by himself`
 сохраняет значение самостоятельности (`manner: without help`).
 
@@ -178,8 +207,8 @@ object: interesting {noun_1.word}
 Вопросительный «хвостик» сохраняет полярность основной части; просьбы
 `Close the window, will you?` остаются `required`, а предложения с `Let's` —
 `intended`. Подстановки учитывают особую форму `I am …, aren't I?`.
-В специальных вопросах `unknown` стоит в запрашиваемой роли: `actor`,
-`object`, `recipient`, `possessor`, `location`, `duration` и других.
+В специальных вопросах `unknown` стоит в запрашиваемой роли: `person`, `actor`,
+`object`, `recipient`, `possessor`, `where`, `when`, `duration` и других.
 `What is he?`, `What is he like?` и `What does he look like?` различаются
 полем `attribute`: профессия, характер и внешность.
 Вложенный вопрос размечается отдельно от `know`, `remember`, `wonder` или
@@ -220,7 +249,7 @@ time the cat has torn my curtains!` отрицание относится к «�
 и не переносят `yesterday/last night` в шаблоны Present Perfect.
 
 В уроках 46–50 длительность с `for` записывается в `duration`, точка отсчёта
-с `since` — в `time`. Событие после `since` сохраняет Past Simple и собственную
+с `since` — в `when`. Событие после `since` сохраняет Past Simple и собственную
 полярность, даже если основная часть отрицательна. Present Perfect Continuous
 получает `aspect: perfect_continuous`: процесс не означает завершённого результата.
 Вопросы `how many` сохраняют количество, а `how long` — длительность.
@@ -253,7 +282,7 @@ Past Perfect Continuous — `aspect: perfect_continuous`. В `had dinner`
 временных придаточных. Future-in-the-Past получает `tense: future`, `modality: would`.
 
 В уроке 60 пассив сохраняет смысловые роли: `The letter was written by a boy
-with a pencil.` → `actor: boy`, `action: write`, `object: letter`,
+with a pencil.` → `actor: person`, `person: boy`, `action: write`, `object: letter`,
 `instrument: pencil`, `voice: passive`. Без указанного исполнителя `actor`
 остаётся `unknown`, даже если исполнитель назван в соседнем активном варианте.
 Подстановки связывают объект, причастие и формы `is/are`, `was/were`, `has/have`.
@@ -261,7 +290,7 @@ with a pencil.` → `actor: boy`, `action: write`, `object: letter`,
 В уроках 61–62 получатель в пассиве остаётся `recipient`: `I was given really
 good advice.` → `actor: unknown`, `object: really good advice`, `recipient: user`.
 Предложный пассив сохраняет `topic` или `target`: `He is being waited for by
-everybody.` → `actor: everybody`, `target: he`. Длительность сама по себе не
+everybody.` → `actor: person`, `person: everybody`, `target: he`. Длительность сама по себе не
 делает пассивную форму `perfect_continuous`; сохраняется аспект из предложения.
 
 В уроках 63–65 нереальные условия и результаты получают `mood: subjunctive`,
@@ -305,7 +334,7 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 в `I remember being asked for help.` исполнитель неизвестен, `recipient: user`.
 В `My shoes need repairing.` форма активная (`form_voice: active`), значение
 пассивное; ремонт требуется, но не объявляется выполненным. Владелец герундия
-задаёт его исполнителя: `I don't mind his opening the window.` → `actor: he`.
+задаёт его исполнителя: `I don't mind his opening the window.` → `actor: person`, `person: he`.
 Подстановки меняют владельца и исполнителя вместе, сохраняя говорящего отдельно.
 
 В уроке 76 герундий после `deny` получает `denied`, после `give up` — `ceased`.
@@ -364,18 +393,22 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 ```text
 1 She's writing an interesting article.
 2 fragment?	She's writing an interesting article	1
-3 actor?	she	2
-4 predicate?	's writing	2
-5 verb?	writing	2
-6 action?	write	2
-7 object?	interesting article	2
-8 polarity?	positive	2
-9 type?	non_question	1 2
+3 actor?	person	2
+4 person?	she	2
+5 predicate?	's writing	2
+6 verb?	writing	2
+7 action?	write	2
+8 object?	interesting article	2
+9 polarity?	positive	2
+10 type?	non_question	1 2
 ```
 
 Каждый факт начинает новый блок `fragment?`; вопросы `actor?`, `predicate?`,
 `verb?`, `action?` повторяются без индексов. Ответы ссылаются на строку текущего
 фрагмента, а сведения за его пределами — дополнительно на исходную строку `1`.
+У типизированного участника после `actor?` идёт вопрос к его значению:
+`person?`, `organization?`, `location?` или `time?`. Тип и значение используют
+одинаковые ссылки на текст, включая вынесенное вопросительное слово и анафору.
 Например, в `he is taller` сравнение с `Paul` требует полного исходного предложения.
 Содержание соседнего действия не повторяется длинным ответом `actor?`, `content?`
 или `object?`, если в JSON есть явная связь `embedded_roles` с его отдельным фактом.
@@ -385,7 +418,7 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 используются только внутри JSON. Генератор не угадывает связи по словам.
 В `How long does it take you to water all these flowers?` действие `watering`
 связано с отдельным фактом `water`, поэтому в блоке `take` нет `actor?`.
-Формальное `it` не обозначает исполнителя; `actor: addressee` относится к `water`.
+Формальное `it` не обозначает исполнителя; `actor: person`, `person: addressee` относятся к `water`.
 Обычные объекты, включая `clothes made of leather`, сохраняются. Если ожидаемая
 ситуация отличается от описанного события и не имеет собственного факта,
 её содержание тоже сохраняется. При вынесенном `What/Who/Where/How/...` ответ
@@ -408,7 +441,8 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 `predicate?` и `verb?`: `none` явно обозначает отсутствие глагола в тексте.
 Неизвестное значение сохраняется как `unknown`. `I` обозначается как
 `user`, `you` — `addressee`.
-Пассив сохраняет семантического исполнителя, а не выдаёт подлежащее за actor.
+Пассив сохраняет семантического исполнителя: `The car was repaired by Mary.`
+получает `actor: person`, `person: Mary`, `object: car`.
 У отдельного `Have you seen them?` объектом остаётся `them`: сведения из
 предыдущей story не подставляются. Связи внутри того же предложения сохраняются.
 
@@ -491,8 +525,8 @@ I would have phoned ...` — прошедшее с `aspect: perfect`. В сме�
 `non_question`. Дополнительная выгрузка `annotations` использует те же правила вывода.
 `tense`, `aspect`, `voice`, `beneficiary` и `status` хранятся в исходной разметке, но не выводятся
 в обучающие вопросы основного датасета. Глагольная форма сохраняется в `predicate`
-и `verb`. Дополнительные поля включают `recipient`, `location`,
-`time`, `duration`, `modality` и другие роли исходной разметки.
+и `verb`. Дополнительные поля включают `recipient`, `where`,
+`when`, `duration`, `modality` и другие роли исходной разметки.
 
 Случайного выбора и добора до заданного размера нет: сборщик перебирает
 все разрешённые комбинации. SHA-256 стабильного семейства распределяет примеры

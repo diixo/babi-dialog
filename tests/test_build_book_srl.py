@@ -99,23 +99,23 @@ class BookSRLTests(unittest.TestCase):
         example = self.example(60, 'The car was repaired by Mary.')
         event = example.sentences[0]['predicates'][0]
         self.assertEqual(event['roles'], {
-            'subject': 'car', 'actor': 'mary', 'action': 'repair', 'object': 'car'})
+            'subject': 'car', 'actor': 'person', 'person': 'Mary', 'action': 'repair', 'object': 'car'})
         self.assertEqual(event['voice'], 'passive')
         omitted = self.example(60, 'The letter was written yesterday.')
         self.assertEqual(omitted.sentences[0]['predicates'][0]['roles']['actor'], 'unknown')
         recipient = self.example(61, 'Mary was given a book by John.')
         roles = recipient.sentences[0]['predicates'][0]['roles']
-        self.assertEqual((roles['subject'], roles['actor'], roles['recipient']), ('mary','john','mary'))
+        self.assertEqual((roles['subject'], roles['person'], roles['recipient']), ('Mary','John','Mary'))
 
     def test_want_keeps_intended_action_separate_from_main_predicate(self):
         example = self.example(77, 'Mary wants to read the book.')
         first, second = example.sentences[0]['predicates']
         self.assertEqual(first['roles']['action'], 'want')
-        self.assertEqual((second['roles']['action'], second['roles']['actor']), ('read', 'mary'))
+        self.assertEqual((second['roles']['action'], second['roles']['person']), ('read', 'Mary'))
         self.assertEqual((second['form'], second['status']), ('infinitive', 'intended'))
         self.assertEqual((second['parent'], second['relation']), (1, 'complement'))
         controlled = self.example(78, 'Mary wants John to read the book.')
-        self.assertEqual(controlled.sentences[0]['predicates'][1]['roles']['actor'], 'john')
+        self.assertEqual(controlled.sentences[0]['predicates'][1]['roles']['person'], 'John')
 
     def test_reported_and_counterfactual_actions_are_not_asserted(self):
         reported = self.example(58, 'Mary said that John had written the letter.')
@@ -137,20 +137,20 @@ class BookSRLTests(unittest.TestCase):
     def test_multi_sentence_anaphora_has_full_input_and_fragment_evidence(self):
         example = self.example(16, 'Mary owns a car. She likes her car.')
         event = example.sentences[1]['predicates'][0]
-        self.assertEqual((event['roles']['subject'], event['roles']['actor']), ('she', 'mary'))
+        self.assertEqual((event['roles']['subject'], event['roles']['person']), ('she', 'Mary'))
         self.assertEqual(event['context'], [1])
         first, second = self.groups(example)
         self.assertEqual(first['fragment?'][0], 'Mary owns a car')
         self.assertEqual(second['fragment?'][0], 'She likes her car')
-        self.assertEqual(first['actor?'], ('mary', [first['line']]))
-        self.assertEqual(second['actor?'], ('mary', [1, second['line']]))
+        self.assertEqual(first['person?'], ('Mary', [first['line']]))
+        self.assertEqual(second['person?'], ('Mary', [1, second['line']]))
 
     def test_ellipsis_recovers_predicate_from_context(self):
         example = self.example(84, 'Mary does not read novels. Neither do I.')
         event = example.sentences[1]['predicates'][0]
         self.assertEqual(event['text'], 'do')
         self.assertEqual(event['roles']['action'], 'read')
-        self.assertEqual(event['roles']['actor'], 'user')
+        self.assertEqual(event['roles']['person'], 'user')
         self.assertEqual(event['roles']['object'], 'novels')
         self.assertEqual(event['polarity'], 'negative')
         self.assertEqual(event['context'], [1])
@@ -163,15 +163,15 @@ class BookSRLTests(unittest.TestCase):
     def test_distinct_predicates_keep_their_own_times_and_actors(self):
         example = self.example(51, 'Mary was reading a book when John arrived.')
         first, second = example.sentences[0]['predicates']
-        self.assertEqual((first['roles']['actor'], first['aspect']), ('mary', 'continuous'))
-        self.assertEqual((second['roles']['actor'], second['aspect']), ('john', 'simple'))
+        self.assertEqual((first['roles']['person'], first['aspect']), ('Mary', 'continuous'))
+        self.assertEqual((second['roles']['person'], second['aspect']), ('John', 'simple'))
         self.assertEqual(second['relation'], 'during')
         first, second = self.groups(example)
         self.assertEqual(first['fragment?'][0], 'Mary was reading a book')
         self.assertEqual(second['fragment?'][0], 'when John arrived')
-        self.assertEqual(first['actor?'], ('mary', [first['line']]))
-        self.assertEqual(second['actor?'], ('john', [second['line']]))
-        self.assertEqual(first['time?'], ('when John arrived', [1, first['line']]))
+        self.assertEqual(first['person?'], ('Mary', [first['line']]))
+        self.assertEqual(second['person?'], ('John', [second['line']]))
+        self.assertEqual(first['when?'], ('when John arrived', [1, first['line']]))
 
     def test_surface_verbs_and_full_predicates_match_book_format(self):
         cases = [
@@ -201,7 +201,7 @@ class BookSRLTests(unittest.TestCase):
                 self.assertNotIn('object?', groups[0])
                 self.assertEqual([g['type?'][0] for g in groups], [kind, kind])
         groups = self.groups(self.example(35, 'Where do you think Mary lives?'))
-        self.assertEqual(groups[1]['location?'], ('unknown', [1, groups[1]['line']]))
+        self.assertEqual(groups[1]['where?'], ('unknown', [1, groups[1]['line']]))
         groups = self.groups(self.example(63, 'If Mary had time, she would read this book.'))
         self.assertEqual(groups[1]['condition?'], ('If Mary had time', [1, groups[1]['line']]))
 
@@ -219,9 +219,9 @@ class BookSRLTests(unittest.TestCase):
         groups = self.groups(example)
         self.assertEqual([groups[i]['fragment?'][0] for i in (1,3)], ['to rest','to rest'])
         for sentence, group in zip(example.sentences, (groups[1],groups[3])):
-            self.assertEqual(group['actor?'],
-                             (sentence['predicates'][1]['roles']['actor'], [1,group['line']]))
-        self.assertNotEqual(groups[1]['actor?'][0], groups[3]['actor?'][0])
+            self.assertEqual(group['person?'],
+                             (sentence['predicates'][1]['roles']['person'], [1,group['line']]))
+        self.assertNotEqual(groups[1]['person?'][0], groups[3]['person?'][0])
 
     def test_missing_or_invalid_spans_and_type_are_rejected(self):
         example = self.example(77, 'Mary wants to read the book.')
@@ -294,7 +294,7 @@ class BookSRLTests(unittest.TestCase):
         broken = deepcopy(self.library)
         duplicate = deepcopy(broken.units[1]['templates'][1])
         duplicate['id'] = 'conflicting_teacher'
-        duplicate['sentences'][0]['predicates'][0]['roles']['actor'] = 'wrong'
+        duplicate['sentences'][0]['predicates'][0]['roles']['person'] = 'wrong'
         broken.units[1]['templates'].append(duplicate)
         with self.assertRaisesRegex(ValueError, 'Conflicting annotations'):
             book.build_annotations(broken)

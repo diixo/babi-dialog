@@ -305,7 +305,7 @@
   "people": {
     "mary": {
       "name": "Mary",
-      "entity": "mary",
+      "entity": "Mary",
       "subject": "Mary",
       "pronoun": "she",
       "pronoun_cap": "She",
@@ -316,7 +316,7 @@
     },
     "john": {
       "name": "John",
-      "entity": "john",
+      "entity": "John",
       "subject": "John",
       "pronoun": "he",
       "pronoun_cap": "He",
@@ -327,7 +327,7 @@
     },
     "anna": {
       "name": "Anna",
-      "entity": "anna",
+      "entity": "Anna",
       "subject": "Anna",
       "pronoun": "she",
       "pronoun_cap": "She",
@@ -338,7 +338,7 @@
     },
     "tom": {
       "name": "Tom",
-      "entity": "tom",
+      "entity": "Tom",
       "subject": "Tom",
       "pronoun": "he",
       "pronoun_cap": "He",

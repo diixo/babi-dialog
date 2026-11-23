@@ -137,7 +137,7 @@ class CorpusTests(unittest.TestCase):
                 (directory / name).write_bytes((book.DEFAULT_LIBRARY / name).read_bytes())
             path = directory / CORPUS_NAME
             data = json.loads(path.read_text(encoding='utf-8'))
-            data['sentences'][0]['facts'][0]['actor'] = 'someone else'
+            data['sentences'][0]['facts'][0]['person'] = 'someone else'
             path.write_text(json.dumps(data), encoding='utf-8')
             original = (directory / 'fact_templates.json').read_bytes()
             with self.assertRaisesRegex(ValueError, 'manual facts'):
@@ -153,7 +153,7 @@ class CorpusTests(unittest.TestCase):
             data = json.loads(path.read_text(encoding='utf-8'))
             data['sentences'].append(dict(id='manual-english-example', unit=1,
                 text='Mary reads.', predicate_spans=[[[5,10]]],
-                fragment_spans=[[[0,10]]], verb_spans=[[[5,10]]], facts=[dict(actor='mary', predicate='reads', action='read',
+                fragment_spans=[[[0,10]]], verb_spans=[[[5,10]]], facts=[dict(actor='person', person='Mary', predicate='reads', action='read',
                     intention='none', operation='none', object='none', type='non_question')]))
             path.write_text(json.dumps(data), encoding='utf-8')
             questions=book.read_json(directory/'questions.json')
@@ -164,7 +164,7 @@ class CorpusTests(unittest.TestCase):
                 book.main(['--library', str(directory), '--out', str(directory / 'out'), '--no-annotate'])
             library = book.Library(directory)
             examples = {text:facts for _,text,facts,_ in library.generate(1)}
-            self.assertEqual(examples['Mary reads.'][0]['actor'], 'mary')
+            self.assertEqual(examples['Mary reads.'][0]['person'], 'Mary')
             template = next(t for t in library.units[1]['templates'] if t['id']=='manual-english-example')
             self.assertEqual(template['slots'], {})
 
@@ -177,7 +177,7 @@ class UnifiedBuildTests(unittest.TestCase):
                     predicate_spans=[[[len(name)+1, len(text)-1]]],
                     fragment_spans=[[[0,len(text)-1]]],
                     verb_spans=[[[len(name)+1,len(text)-1]]],
-                    facts=[dict(actor=name, predicate='reads', action='read',
+                    facts=[dict(actor='person', person=name, predicate='reads', action='read',
                                 intention='none', operation='none', object='none', type='non_question')])
 
     @staticmethod
@@ -192,7 +192,7 @@ class UnifiedBuildTests(unittest.TestCase):
         text='{person.word} reads.'
         template=dict(id=record['id'], family='reading-family', text=text,
                       slots={'person':'people'}, original={'person':'mary'}, constraints=[],
-                      facts=[dict(record['facts'][0], actor='{person.word}')],
+                      facts=[dict(record['facts'][0], person='{person.word}')],
                       predicate_spans=[[[text.index('reads'), len(text)-1]]],
                       fragment_spans=[[[0,len(text)-1]]],
                       verb_spans=[[[text.index('reads'),len(text)-1]]],
@@ -317,7 +317,7 @@ class UnifiedBuildTests(unittest.TestCase):
                 # A valid source addition would require a catalogue update on success.
                 source['sentences'].append(self.record('new','Dan'))
                 if problem=='book facts':
-                    source['sentences'][0]['facts'][0]['actor']='incorrect'
+                    source['sentences'][0]['facts'][0]['person']='incorrect'
                 self.write_json(directory/'sentences.json',source)
                 if problem!='book facts':
                     self.write_reading_questions(directory)
@@ -374,13 +374,13 @@ class UnifiedBuildTests(unittest.TestCase):
             with self.subTest(problem=problem), tempfile.TemporaryDirectory() as folder:
                 directory=Path(folder)
                 source,catalogue,vocabulary=self.fixture(directory)
-                if problem=='manual facts':source['sentences'][-1]['facts'][0]['actor']='someone else'
+                if problem=='manual facts':source['sentences'][-1]['facts'][0]['person']='someone else'
                 elif problem=='duplicate':catalogue['lessons'][0]['templates'].append(deepcopy(catalogue['lessons'][0]['templates'][0]))
                 elif problem=='variant':
                     vocabulary['domains']['people']['values'][1]['word']=''
                 elif problem=='conflict':
                     record=self.record('conflicting','Nora')
-                    record['facts'][0]['actor']='someone else'
+                    record['facts'][0]['person']='someone else'
                     source['sentences'].append(record)
                 elif problem=='fragment evidence':
                     catalogue['lessons'][0]['templates'][0]['fragment_spans']=[[[0,1]]]

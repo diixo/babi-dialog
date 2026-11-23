@@ -14,6 +14,12 @@ def span(text, piece, start=0):
     return [begin, begin + len(piece)]
 
 
+def participant(fact):
+    actor = fact['actor']
+    kind = actor[0] if isinstance(actor, tuple) else actor
+    return fact[kind] if kind in {'person', 'time', 'location', 'organization'} else actor
+
+
 class PredicateSpanTests(unittest.TestCase):
     def test_copulas_with_identical_spelling_have_distinct_anchors(self):
         text = 'Yes, he is, but he is taller and seems much stronger than Paul.'
@@ -239,8 +245,8 @@ class FragmentRenderTests(unittest.TestCase):
         self.assertEqual(rendered.splitlines()[0],'1 '+text)
         self.assertNotIn('User:',rendered)
         self.assertEqual(len(rendered.strip().split('\n\n')),1)
-        self.assertEqual(groups[0]['actor'],('Mary',[groups[0]['line']]))
-        self.assertEqual(groups[1]['actor'],('John',[groups[1]['line']]))
+        self.assertEqual(participant(groups[0]),('Mary',[groups[0]['line']]))
+        self.assertEqual(participant(groups[1]),('John',[groups[1]['line']]))
         self.assertEqual(groups[1]['object'],('door',[1,groups[1]['line']]))
         self.assertNotIn('tense?',rendered)
 
@@ -322,8 +328,8 @@ class FragmentRenderTests(unittest.TestCase):
 
     def test_shared_copula_outside_argument_fragment_uses_full_source_evidence(self):
         text='There is a book and two pens on the table.'
-        facts=[self.fact('book','is','be',location='table'),
-               self.fact('pens','is','be',quantity='two',location='table')]
+        facts=[self.fact('book','is','be',where='table'),
+               self.fact('pens','is','be',quantity='two',where='table')]
         shared=span(text,'is')
         annotations=dict(predicate_spans=[[shared],[shared]],verb_spans=[[shared],[shared]],
                          fragment_spans=[[span(text,'There is a book')],
@@ -334,7 +340,7 @@ class FragmentRenderTests(unittest.TestCase):
             self.assertEqual(first[field][0],value)
             self.assertIn(first['line'],first[field][1])
             self.assertEqual(second[field],(value,[1,second['line']]))
-        self.assertEqual(second['actor'],('pens',[second['line']]))
+        self.assertEqual(participant(second),('pens',[second['line']]))
 
     def test_fragment_cannot_drop_its_phrasal_verb_particle(self):
         text='Mary turned it off.'
@@ -566,7 +572,7 @@ class CorpusPredicateTests(unittest.TestCase):
                 ("She's reading an interesting book.", 'she', "'s reading", 'read')]:
             with self.subTest(text=text):
                 fact = self.examples[text][0]
-                self.assertEqual((fact['actor'], fact['predicate'], fact['action']),
+                self.assertEqual((participant(fact), fact['predicate'], fact['action']),
                                  (actor, predicate, action))
 
     def test_optional_alternative_auxiliary_does_not_leave_doubled_spaces(self):
@@ -577,7 +583,7 @@ class CorpusPredicateTests(unittest.TestCase):
             text = subject + ' want to move to another city?'
             with self.subTest(text=text):
                 facts = self.examples[text]
-                self.assertEqual((facts[0]['actor'], facts[0]['predicate']), (actor, predicate))
+                self.assertEqual((participant(facts[0]), facts[0]['predicate']), (actor, predicate))
                 self.assertEqual(facts[1]['predicate'], 'to move')
                 self.assertNotIn('  ', text)
                 self.assertNotIn('  ', facts[0]['predicate'])
@@ -609,7 +615,7 @@ class CorpusPredicateTests(unittest.TestCase):
                          ['be','be','seem'])
         self.assertEqual(first['complement'],('unknown',[first['line']]))
         self.assertEqual(second['comparison'],('Paul',[1,second['line']]))
-        self.assertEqual(third['actor'],('he',[1,third['line']]))
+        self.assertEqual(participant(third),('he',[1,third['line']]))
         self.assertEqual(third['comparison'],('Paul',[third['line']]))
         self.assertEqual(third['intensity'],('much',[third['line']]))
         for group in (first,second,third):
@@ -631,7 +637,7 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertNotIn('content',first)
         self.assertNotIn('object',first)
         self.assertNotIn('object',second)
-        self.assertEqual(third['actor'],('she',[1,third['line']]))
+        self.assertEqual(participant(third),('she',[1,third['line']]))
         self.assertEqual(third['object'],('unknown',[1,third['line']]))
         self.assertEqual(third['occasion'],('her birthday',[third['line']]))
         self.assertEqual(record,before)
@@ -732,8 +738,8 @@ class CorpusPredicateTests(unittest.TestCase):
 
     def test_question_words_outside_the_fragment_support_unknown_answers(self):
         for identifier,field in [('u35-e1-b02','duration'), ('u35-t03','reason'),
-                                 ('u35-t04','time'), ('u35-t05','quantity'),
-                                 ('u35-e1-b09','location'), ('u32-e2-05','target'),
+                                 ('u35-t04','when'), ('u35-t05','quantity'),
+                                 ('u35-e1-b09','where'), ('u32-e2-05','target'),
                                  ('u32-e7-a04','selection'), ('u35-e2-09','origin'),
                                  ('u36-e6-b07','companion'), ('u36-e6-b12','accompaniment')]:
             record=self.corpus.by_id[identifier]
@@ -761,7 +767,7 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertEqual(first['fragment'][0],'How much time does it take you')
         self.assertEqual(second['fragment'][0],'to prepare everything necessary')
         self.assertNotIn('actor',first)
-        self.assertEqual(second['actor'],('addressee',[1,second['line']]))
+        self.assertEqual(participant(second),('addressee',[1,second['line']]))
         self.assertEqual(first['verb'],('take',[first['line']]))
         self.assertEqual(second['verb'],('prepare',[second['line']]))
         self.assertEqual(second['object'],('everything necessary',[second['line']]))
@@ -786,7 +792,7 @@ class CorpusPredicateTests(unittest.TestCase):
                     self.assertNotIn('actor',groups[index])
                     self.assertEqual(spans['embedded_roles'][str(index)]['actor'],children)
                     for child in children:
-                        self.assertEqual(groups[child]['actor'][0],facts[child]['actor'])
+                        self.assertEqual(participant(groups[child])[0],participant(facts[child]))
                     previous_end=spans['fragment_spans'][index][0][1]
                     for child in children:
                         start,end=spans['fragment_spans'][child][0]
@@ -815,19 +821,19 @@ class CorpusPredicateTests(unittest.TestCase):
         self.assertEqual(record['embedded_roles'],{'0':{'actor':[1]}})
         self.assertNotIn('actor',groups[0])
         self.assertEqual(groups[0]['experiencer'][0],'addressee')
-        self.assertEqual(groups[1]['actor'],('addressee',[1,groups[1]['line']]))
+        self.assertEqual(participant(groups[1]),('addressee',[1,groups[1]['line']]))
         self.assertEqual(groups[1]['object'][0],'all these flowers')
         # The builder follows the stored link rather than guessing from take/time.
         unlinked=deepcopy(record)
         unlinked.pop('embedded_roles')
         unprojected=self.fragment_groups(book.render(record['text'],record['facts'],unlinked))
-        self.assertEqual(unprojected[0]['actor'][0],record['facts'][0]['actor'])
+        self.assertEqual(participant(unprojected[0])[0],participant(record['facts'][0]))
         # The same projection applies when the travel verb is elliptical.
         record=self.corpus.by_id['u32-t29']
         groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
         self.assertNotIn('actor',groups[0])
         self.assertEqual(groups[1]['action'][0],'travel')
-        self.assertEqual(groups[1]['actor'][0],'unknown')
+        self.assertEqual(participant(groups[1])[0],'unknown')
         # Nominal/referential subjects and ordinary taking actions remain intact.
         for identifier,index,actor in [('u27-e4-b05',1,'way'),
                                         ('u36-e3-01-task',0,'it'),
@@ -836,7 +842,7 @@ class CorpusPredicateTests(unittest.TestCase):
             record=self.corpus.by_id[identifier]
             with self.subTest(identifier=identifier):
                 groups=self.fragment_groups(book.render(record['text'],record['facts'],record))
-                self.assertEqual(groups[index]['actor'][0],actor)
+                self.assertEqual(participant(groups[index])[0],actor)
 
     def test_audited_clause_boundaries_preserve_complete_local_phrases(self):
         cases=[

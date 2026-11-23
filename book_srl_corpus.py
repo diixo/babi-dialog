@@ -7,6 +7,23 @@ from book_srl_predicates import SPAN_FIELDS, validate_fact_spans
 
 CORPUS_NAME = 'sentences.json'
 UTTERANCE_TYPES = {'question', 'non_question'}
+ACTOR_TYPES = {'person', 'time', 'location', 'organization'}
+
+
+def actor_value(fact):
+    """Return the participant, following its explicitly annotated type if present."""
+    actor = fact['actor']
+    return fact[actor] if actor in ACTOR_TYPES else actor
+
+
+def validate_actor(fact):
+    actor = fact['actor']
+    expected = {actor} if actor in ACTOR_TYPES else set()
+    if ACTOR_TYPES & fact.keys() != expected:
+        raise ValueError('Actor type must match its value field; use when/where for circumstances')
+    if expected and (not isinstance(fact[actor], str) or not fact[actor].strip()
+                     or fact[actor] == 'none'):
+        raise ValueError(f'Missing {actor} participant value')
 
 
 def read_json(path: Path) -> dict:
@@ -61,6 +78,7 @@ class CorpusLibrary:
                 if any(not isinstance(v, str) or not v.strip() or re.search(r'[\u0400-\u04ff]', v)
                        for v in fact.values()):
                     raise ValueError(f'{identifier}: facts must use English labels')
+                validate_actor(fact)
                 if fact.get('type') not in UTTERANCE_TYPES:
                     raise ValueError(f'{identifier}: each fact needs type question or non_question')
                 if fact.get('clause_type') in ('ellipsis', 'vocative'):

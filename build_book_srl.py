@@ -16,7 +16,8 @@ from pathlib import Path
 import re
 from typing import Callable, Iterator
 
-from book_srl_corpus import CorpusLibrary, UTTERANCE_TYPES, read_json
+from book_srl_corpus import (ACTOR_TYPES, CorpusLibrary, UTTERANCE_TYPES,
+                             actor_value, read_json, validate_actor)
 from book_srl_predicates import (SPAN_FIELDS, expand_predicates, predicate_from_spans,
                                  validate_fact_spans, substitute)
 
@@ -40,10 +41,12 @@ CONTEXT_FIELDS = {'intention', 'operation', 'polarity', 'type',
                   'syntactic_function', 'modality', 'modal_meaning', 'negation_scope'}
 # An unknown answer can be licensed by a question word outside its fragment.
 QUESTION_CUES = {
-    'actor': r'who|whom|what|which', 'object': r'what|which|who|whom',
+    'actor': r'who|whom|what|which', 'person': r'who|whom|what|which',
+    'organization': r'who|what|which', 'object': r'what|which|who|whom',
     'recipient': r'who|whom', 'possessor': r'whose',
     'complement': r'what|which|who|how', 'location': r'where',
     'destination': r'where', 'source': r'where', 'time': r'when|what',
+    'when': r'when|what', 'where': r'where',
     'duration': r'how', 'frequency': r'how', 'quantity': r'how',
     'degree': r'how', 'manner': r'how', 'reason': r'why',
     'target': r'what|which|who|whom', 'selection': r'what|which',
@@ -57,7 +60,7 @@ def validate(text, facts):
     if not isinstance(facts, list) or not facts:
         raise ValueError(f'Missing facts for {text!r}')
     for fact in facts:
-        if any(field not in fact for field in CORE_FIELDS):
+        if not isinstance(fact, dict) or any(field not in fact for field in CORE_FIELDS):
             raise ValueError(f'Missing fact fields for {text!r}')
         if {'fragment', 'verb'} & fact.keys():
             raise ValueError('fragment and verb are derived from source spans, not fact fields')
@@ -66,6 +69,7 @@ def validate(text, facts):
                 raise ValueError(f'Invalid fact field: {field!r}')
             if not isinstance(value, str) or not value.strip() or any(c in value for c in '\t\r\n{}'):
                 raise ValueError(f'Invalid fact value: {field}={value!r}')
+        validate_actor(fact)
         if fact['operation'] not in OPERATIONS:
             raise ValueError(f'Invalid operation: {fact["operation"]!r}')
         if fact['type'] not in UTTERANCE_TYPES:
@@ -89,7 +93,10 @@ def render(text, facts, annotations):
         rows.append(f'fragment?\t{fragment}\t1')
         fragment_line = len(rows)
         verb = predicate_from_spans(text, annotations['verb_spans'][index])
-        fields = ['actor', 'predicate', 'verb', 'action', 'intention', 'operation', 'object']
+        fields = ['actor']
+        if fact['actor'] in ACTOR_TYPES:
+            fields.append(fact['actor'])
+        fields += ['predicate', 'verb', 'action', 'intention', 'operation', 'object']
         fields += [field for field in fact if field not in fields
                    and field not in ('tense', 'aspect', 'voice', 'beneficiary', 'status')]
         embedded = annotations.get('embedded_roles', {}).get(str(index), {})
@@ -103,12 +110,15 @@ def render(text, facts, annotations):
             # complete input. Labels alone cannot establish local evidence.
             local = (not text[:start].strip(' \t.,;:!?\"')
                      and not text[end:].strip(' \t.,;:!?\"'))
+            # The actor's type and value use the same participant evidence.
+            evidence_field = fact['actor'] if field == 'actor' and fact['actor'] in ACTOR_TYPES else field
+            evidence_value = actor_value(fact) if field == 'actor' else value
             if field == 'type':
                 # The containing utterance, its punctuation and quote scope
                 # can extend beyond this fragment. Type is explicitly stored.
                 local = False
-            elif value == 'unknown':
-                cues = QUESTION_CUES.get(field)
+            elif evidence_value == 'unknown':
+                cues = QUESTION_CUES.get(evidence_field)
                 local = not cues or not any(
                     not start <= match.start() < match.end() <= end
                     for match in re.finditer(r'\b(?:' + cues + r')\b', text, re.I))
@@ -127,7 +137,8 @@ def render(text, facts, annotations):
                     and contained(annotations['predicate_spans'][index], start, end)
                     and (auxiliary_action is None or auxiliary_action == value))
             elif field not in CONTEXT_FIELDS:
-                surface = {'user': 'I', 'addressee': 'you'}.get(value, value) if field == 'actor' else value
+                surface = ({'user': 'I', 'addressee': 'you'}.get(evidence_value, evidence_value)
+                           if evidence_field in ('actor', 'person') else evidence_value)
                 local = local or present(surface, fragment)
             refs = str(fragment_line) if local else f'1 {fragment_line}'
             rows.append(f'{field.replace("_", " ")}?\t{value}\t{refs}')
@@ -465,6 +476,7 @@ class AnnotationExample:
     rule: str
     binding_id: str
     sentences: tuple[dict, ...]
+    family_id: str = ''
 
     @property
     def text(self) -> str:
@@ -472,8 +484,8 @@ class AnnotationExample:
 
     @property
     def family(self) -> str:
-        # Reviews and multi-sentence variants keep their originating family.
-        return self.template_id
+        # Related templates, reviews and multi-sentence variants share a split.
+        return self.family_id or self.template_id
 
 
 def annotation_facts(sentence):
@@ -596,6 +608,9 @@ class AnnotationLibrary:
                     raise ValueError(f'{tid}: rule and valid source anchor are required')
                 if template['source'] != f'unit-{unit}':
                     raise ValueError(f'{tid}: source must match its unit')
+                if 'family' in template and (not isinstance(template['family'], str)
+                                              or not template['family'].strip()):
+                    raise ValueError(f'{tid}: invalid annotation family')
                 self.templates[tid] = (unit, template)
         if set(self.units) != set(range(1, 85)):
             raise ValueError('The catalogue must define a generator for every unit, 1–84')
@@ -669,7 +684,8 @@ class AnnotationLibrary:
                     expanded.update(annotations)
                     sentences.append(expanded)
                 sentences = tuple(sentences)
-                example = AnnotationExample(unit, origin, template['id'], template['rule'], key, sentences)
+                example = AnnotationExample(unit, origin, template['id'], template['rule'], key, sentences,
+                                            family_id=template.get('family', template['id']))
                 validate_annotation_example(example)
                 instances.append(example)
                 yield example
@@ -680,13 +696,13 @@ class AnnotationLibrary:
                     for right in instances:
                         if left.binding_id >= right.binding_id:
                             continue
-                        a = left.sentences[0]['predicates'][0]['roles']['actor']
-                        b = right.sentences[0]['predicates'][0]['roles']['actor']
+                        a = actor_value(left.sentences[0]['predicates'][0]['roles'])
+                        b = actor_value(right.sentences[0]['predicates'][0]['roles'])
                         if a == b or a in ('unknown', 'user') or b in ('unknown', 'user'):
                             continue
                         combined = AnnotationExample(unit, origin, template['id'], template['rule'],
                                            left.binding_id+'+'+right.binding_id,
-                                           left.sentences + right.sentences)
+                                           left.sentences + right.sentences, family_id=left.family)
                         validate_annotation_example(combined)
                         yield combined
 

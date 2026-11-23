@@ -9,6 +9,12 @@ import build_book_srl as book
 from book_srl_corpus import CorpusLibrary
 
 
+def participant(fact):
+    actor = fact['actor']
+    kind = actor[0] if isinstance(actor, tuple) else actor
+    return fact[kind] if kind in {'person', 'time', 'location', 'organization'} else actor
+
+
 class FactTemplateTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -57,7 +63,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_shared_bindings_change_grammar_and_facts_together(self):
         facts = self.examples["She's writing an interesting article."]
-        self.assertEqual((facts[0]['actor'], facts[0]['action'], facts[0]['object']),
+        self.assertEqual((participant(facts[0]), facts[0]['action'], facts[0]['object']),
                          ('she', 'write', 'interesting article'))
         self.assertEqual(facts[0]['aspect'], 'continuous')
         facts = self.examples['I want to give him an article as a present.']
@@ -65,7 +71,7 @@ class FactTemplateTests(unittest.TestCase):
                          ('give', 'give', 'add'))
         self.assertEqual(facts[0]['recipient'], 'him')
         self.assertNotIn('I want to give him a article as a present.', self.examples)
-        self.assertEqual(self.examples['He has a dog.'][0]['actor'], 'he')
+        self.assertEqual(participant(self.examples['He has a dog.'][0]), 'he')
         self.assertNotIn('He have a dog.', self.examples)
 
     def test_whole_frame_semantics_restrict_lexical_combinations(self):
@@ -118,15 +124,15 @@ class FactTemplateTests(unittest.TestCase):
         for text, action, status in cases:
             with self.subTest(text=text):
                 parent, child = self.examples[text]
-                self.assertEqual((child['actor'], child['action'], child['status']),
-                                 (parent['actor'], action, status))
+                self.assertEqual((participant(child), child['action'], child['status']),
+                                 (participant(parent), action, status))
                 self.assertEqual((child['tense'], child['polarity']), ('nonfinite', 'positive'))
                 first, second = self.annotations[text]['fragment_spans']
                 self.assertLessEqual(first[0][1], second[0][0])
                 self.assertIn(child['predicate'], text[second[0][0]:second[0][1]])
         text = "My mother didn't go shopping after work yesterday."
         self.assertEqual(self.examples[text][0]['polarity'], 'negative')
-        self.assertEqual(self.examples[text][1]['time'], 'after work yesterday')
+        self.assertEqual(self.examples[text][1]['when'], 'after work yesterday')
         self.assertEqual(self.examples[cases[1][0]][0]['object'], 'time')
 
     def test_preparation_properties_keep_their_complements(self):
@@ -231,7 +237,7 @@ class FactTemplateTests(unittest.TestCase):
             lib = deepcopy(self.library)
             duplicate = deepcopy(lib.units[1]['templates'][0])
             duplicate['family'] += '-conflict'
-            duplicate['facts'][0]['actor'] = 'wrong'
+            duplicate['facts'][0]['person'] = 'wrong'
             lib.units[1]['templates'].append(duplicate)
             with self.assertRaisesRegex(ValueError, 'Conflicting facts'):
                 book.build(lib, out)
@@ -256,7 +262,7 @@ class FactTemplateTests(unittest.TestCase):
                      'He has so a lot of friends!', 'We spent too much bread.']:
             self.assertNotIn(text, self.examples)
         self.assertEqual(self.examples['He drinks too much wine.'][0]['object'], 'wine')
-        self.assertEqual(self.examples['How much fish does the cat need?'][0]['actor'], 'cat')
+        self.assertEqual(participant(self.examples['How much fish does the cat need?'][0]), 'cat')
 
     def test_reported_conditional_and_purpose_actions_are_not_asserted_events(self):
         facts = self.examples['He says he has a lot of problems.']
@@ -266,7 +272,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual([(f['action'], f['status']) for f in facts],
                          [('help', 'conditional'), ('have', 'hypothetical')])
         facts = self.examples['We want him to stay with us in summer.']
-        self.assertEqual((facts[1]['actor'], facts[1]['action'], facts[1]['status']),
+        self.assertEqual((participant(facts[1]), facts[1]['action'], facts[1]['status']),
                          ('he', 'stay', 'intended'))
         self.assertEqual(facts[1]['companion'], 'us')
 
@@ -284,7 +290,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_pronoun_variants_preserve_case_agreement_and_owner(self):
         facts = self.examples['He took his umbrella and left.']
-        self.assertEqual([f['actor'] for f in facts], ['he', 'he'])
+        self.assertEqual([participant(f) for f in facts], ['he', 'he'])
         self.assertEqual((facts[0]['object'], facts[0]['possessor']), ('his umbrella', 'he'))
         self.assertEqual(self.examples['I saw her yesterday.'][0]['object'], 'her')
         self.assertEqual(self.examples['Can you help me?'][0]['object'], 'user')
@@ -293,9 +299,9 @@ class FactTemplateTests(unittest.TestCase):
             self.assertNotIn(text, self.examples)
 
     def test_possessive_references_use_only_the_current_sentence(self):
-        self.assertEqual(self.examples['My bag is black, hers is brown.'][1]['actor'], 'her bag')
+        self.assertEqual(participant(self.examples['My bag is black, hers is brown.'][1]), 'her bag')
         self.assertEqual(self.examples['These are not her keys but his.'][1]['complement'], 'his keys')
-        self.assertEqual(self.examples['Where is mine?'][0]['actor'], 'mine')
+        self.assertEqual(participant(self.examples['Where is mine?'][0]), 'mine')
         self.assertEqual(self.examples['Can I use yours?'][0]['object'], 'yours')
         self.assertEqual(self.examples['His car is very expensive.'][0]['possessor'], 'he')
         self.assertEqual(self.examples['Put them on the shelf.'][0]['object'], 'them')
@@ -310,10 +316,10 @@ class FactTemplateTests(unittest.TestCase):
     def test_commands_and_proposals_keep_the_existing_annotation_conventions(self):
         for text in ['Give the cat a little fish every day.', 'Take these skis.', 'Close your eyes.']:
             fact = self.examples[text][0]
-            self.assertEqual((fact['actor'], fact['status'], fact['operation']),
+            self.assertEqual((participant(fact), fact['status'], fact['operation']),
                              ('addressee', 'required', 'none'))
         fact = self.examples["Let's go home."][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['intention'], fact['operation']),
+        self.assertEqual((participant(fact), fact['action'], fact['intention'], fact['operation']),
                          ('we', 'go', 'go', 'add'))
         self.assertEqual(fact['status'], 'intended')
 
@@ -322,17 +328,17 @@ class FactTemplateTests(unittest.TestCase):
                            ('Jane looked at herself in the mirror.', 'target'),
                            ('They bought the books for themselves.', 'beneficiary')]:
             fact = self.examples[text][0]
-            self.assertEqual(fact[role], fact['actor'])
+            self.assertEqual(fact[role], participant(fact))
             self.assertEqual(fact['reflexive'], 'yes')
         fact = self.examples['She likes to talk about herself.'][1]
-        self.assertEqual((fact['actor'], fact['topic'], fact['reflexive']), ('she', 'she', 'yes'))
+        self.assertEqual((participant(fact), fact['topic'], fact['reflexive']), ('she', 'she', 'yes'))
         self.assertEqual(self.examples['Behave yourself!'][0]['object'], 'addressee')
         output = book.render('I hurt myself.', self.examples['I hurt myself.'], self.annotations['I hurt myself.'])
         self.assertRegex(output, r'reflexive\?\tyes\t(?:1 )?2\n')
 
     def test_reflexive_bindings_change_the_subject_and_self_form_together(self):
         facts = self.examples['We burnt ourselves.']
-        self.assertEqual((facts[0]['actor'], facts[0]['object'], facts[0]['action']), ('we', 'we', 'burn'))
+        self.assertEqual((participant(facts[0]), facts[0]['object'], facts[0]['action']), ('we', 'we', 'burn'))
         self.assertEqual(self.examples['She made herself a cup of tea.'][0]['beneficiary'], 'she')
         self.assertEqual(self.examples['Steve looked at himself in the mirror.'][0]['target'], 'Steve')
         self.assertEqual(self.examples['They can shave themselves.'][0]['object'], 'they')
@@ -342,7 +348,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_emphasis_and_by_oneself_are_not_reflexive_objects(self):
         fact = self.examples['You yourself told us the story.'][0]
-        self.assertEqual((fact['object'], fact['emphasis'], fact['reflexive']), ('story', 'actor', 'no'))
+        self.assertEqual((fact['object'], fact['emphasis'], fact['reflexive']), ('story', 'person', 'no'))
         fact = self.examples['We translated the article ourselves.'][0]
         self.assertEqual((fact['object'], fact['reflexive']), ('article', 'no'))
         fact = self.examples['The child always washes by himself.'][0]
@@ -357,7 +363,7 @@ class FactTemplateTests(unittest.TestCase):
                                       ('Everybody has arrived.', 'everybody', 'positive'),
                                       ('Nobody has arrived.', 'anybody', 'negative')]:
             fact = self.examples[text][0]
-            self.assertEqual((fact['actor'], fact['polarity']), (actor, polarity))
+            self.assertEqual((participant(fact), fact['polarity']), (actor, polarity))
         self.assertEqual(self.examples['Nothing is ready.'][0]['polarity'], 'negative')
         self.assertEqual(self.examples['There is nothing to eat.'][0]['polarity'], 'negative')
         self.assertEqual(self.examples['There is something to eat.'][0]['polarity'], 'positive')
@@ -378,7 +384,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_reciprocal_frames_require_groups_and_are_distinct_from_reflexives(self):
         fact = self.examples['Tom and Robert looked at each other.'][0]
-        self.assertEqual((fact['actor'], fact['target'], fact['reciprocal'], fact['reflexive']),
+        self.assertEqual((participant(fact), fact['target'], fact['reciprocal'], fact['reflexive']),
                          ('Tom and Robert', 'each other', 'yes', 'no'))
         facts = self.examples['They looked at each other and laughed.']
         self.assertEqual(facts[0]['reciprocal'], 'yes')
@@ -396,13 +402,13 @@ class FactTemplateTests(unittest.TestCase):
     def test_alternative_subjects_are_not_two_asserted_events(self):
         facts = self.examples['Either they or Jack knows it.']
         self.assertEqual(len(facts), 1)
-        self.assertEqual((facts[0]['actor'], facts[0]['coordination'], facts[0]['coordination_role']),
-                         ('they or Jack', 'or', 'actor'))
+        self.assertEqual((participant(facts[0]), facts[0]['coordination'], facts[0]['coordination_role']),
+                         ('they or Jack', 'or', 'person'))
         fact = self.examples['Neither Fred nor George can drive.'][0]
-        self.assertEqual((fact['actor'], fact['polarity'], fact['modality']),
+        self.assertEqual((participant(fact), fact['polarity'], fact['modality']),
                          ('Fred or George', 'negative', 'can'))
         fact = self.examples['Both James and Sam collect stamps.'][0]
-        self.assertEqual((fact['actor'], fact['coordination']), ('James and Sam', 'and'))
+        self.assertEqual((participant(fact), fact['coordination']), ('James and Sam', 'and'))
         fact = self.examples['I want neither tea nor coffee.'][0]
         self.assertEqual((fact['object'], fact['coordination_role'], fact['polarity']),
                          ('tea or coffee', 'object', 'negative'))
@@ -410,7 +416,7 @@ class FactTemplateTests(unittest.TestCase):
     def test_coordinated_subjects_keep_nearest_subject_agreement(self):
         self.assertIn('Either his wife or his parents know it.', self.examples)
         fact = self.examples['Neither his parents nor he is married.'][0]
-        self.assertEqual((fact['actor'], fact['polarity']), ('his parents or he', 'negative'))
+        self.assertEqual((participant(fact), fact['polarity']), ('his parents or he', 'negative'))
         for text in ['Either his wife or his parents knows it.', 'Either they or Jack know it.',
                      'Neither his parents nor he am married.', 'Both James and Sam has been to London.']:
             self.assertNotIn(text, self.examples)
@@ -418,13 +424,13 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_review_lesson_retains_reflexive_reciprocal_and_emphatic_distinctions(self):
         fact = self.examples["They'll pay for themselves."][0]
-        self.assertEqual((fact['actor'], fact['beneficiary'], fact['reflexive']), ('they', 'they', 'yes'))
+        self.assertEqual((participant(fact), fact['beneficiary'], fact['reflexive']), ('they', 'they', 'yes'))
         fact = self.examples["We've known one another for a long time."][0]
         self.assertEqual((fact['reciprocal'], fact['reflexive']), ('yes', 'no'))
         fact = self.examples['I painted the house myself.'][0]
-        self.assertEqual((fact['object'], fact['emphasis'], fact['reflexive']), ('house', 'actor', 'no'))
+        self.assertEqual((fact['object'], fact['emphasis'], fact['reflexive']), ('house', 'person', 'no'))
         fact = self.examples['The child is big enough to dress himself.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['reflexive']), ('child', 'child', 'yes'))
+        self.assertEqual((participant(fact), fact['object'], fact['reflexive']), ('child', 'child', 'yes'))
 
     def test_linking_adjectives_manner_and_hardly_keep_different_roles(self):
         fact = self.examples['The perfume smells sweet.'][0]
@@ -439,12 +445,12 @@ class FactTemplateTests(unittest.TestCase):
         self.assertNotIn('manner', fact)
         self.assertNotIn('The perfume smells sweetly.', self.examples)
         fact = self.examples['The excursion was badly organized.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice'], fact['manner']),
+        self.assertEqual((participant(fact), fact['object'], fact['voice'], fact['manner']),
                          ('unknown', 'excursion', 'passive', 'badly'))
 
     def test_comparisons_keep_target_degree_and_negation(self):
         fact = self.examples['Mark is younger than Sam.'][0]
-        self.assertEqual((fact['actor'], fact['comparison'], fact['degree']), ('Mark', 'Sam', 'comparative'))
+        self.assertEqual((participant(fact), fact['comparison'], fact['degree']), ('Mark', 'Sam', 'comparative'))
         fact = self.examples["This picture is not as colourful as that one."][0]
         self.assertEqual((fact['comparison'], fact['degree'], fact['polarity']),
                          ('that picture', 'equative', 'negative'))
@@ -467,17 +473,17 @@ class FactTemplateTests(unittest.TestCase):
         for text in ['For farther information speak to the secretary.', 'My husband is a year elder than me.',
                      'Tina is the eldest of the three brothers.', "I'll phone him latest week."]:
             self.assertNotIn(text, self.examples)
-        self.assertEqual(self.examples["I'll phone him next Monday."][0]['time'], 'next Monday')
-        self.assertEqual(self.examples['It was published last week.'][0]['time'], 'last week')
+        self.assertEqual(self.examples["I'll phone him next Monday."][0]['when'], 'next Monday')
+        self.assertEqual(self.examples['It was published last week.'][0]['when'], 'last week')
 
     def test_former_latter_resolution_requires_an_antecedent_in_the_same_sentence(self):
         facts = self.examples["I sent the information to Steve but the latter didn't answer."]
-        self.assertEqual((facts[0]['recipient'], facts[1]['actor']), ('Steve', 'Steve'))
+        self.assertEqual((facts[0]['recipient'], participant(facts[1])), ('Steve', 'Steve'))
         facts = self.examples['The teacher asked the student the question several times but the latter was silent.']
-        self.assertEqual(facts[1]['actor'], 'student')
+        self.assertEqual(participant(facts[1]), 'student')
         facts = self.examples['The former is a businessman and the latter is a dentist.']
-        self.assertEqual([f['actor'] for f in facts], ['the former', 'the latter'])
-        self.assertEqual(self.examples["But the latter didn't even react."][0]['actor'], 'the latter')
+        self.assertEqual([participant(f) for f in facts], ['the former', 'the latter'])
+        self.assertEqual(participant(self.examples["But the latter didn't even react."][0]), 'the latter')
 
     def test_comparison_rewrites_and_printed_variants_share_families(self):
         templates = {t['id']: t for t in self.templates}
@@ -491,7 +497,7 @@ class FactTemplateTests(unittest.TestCase):
                          ('more fluently', 'her friend', 'comparative', 'much'))
         self.assertNotIn('complement', fact)
         fact = self.examples["My room is much more beautifully decorated for the holiday than my parents' room."][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice']), ('unknown', 'my room', 'passive'))
+        self.assertEqual((participant(fact), fact['object'], fact['voice']), ('unknown', 'my room', 'passive'))
         self.assertEqual(fact['comparison'], "my parents' room")
         self.assertEqual(self.examples['He draws worst of all.'][0]['manner'], 'worst')
         for text in ['He draws the best of all.', 'Sarah speaks English much more fluent than her friend.',
@@ -503,19 +509,19 @@ class FactTemplateTests(unittest.TestCase):
         self.assertTrue(all(fact['status'] == 'conditional' for fact in facts))
         self.assertEqual(facts[1]['condition'], 'as he works harder')
         facts = self.examples["Though this flat is smaller than mine, it's more comfortable and besides it's surprisingly cheap."]
-        self.assertEqual([fact['actor'] for fact in facts], ['this flat'] * 3)
+        self.assertEqual([participant(fact) for fact in facts], ['this flat'] * 3)
         self.assertEqual(facts[0]['comparison'], 'my flat')
-        self.assertEqual(self.examples['The latter is married.'][0]['actor'], 'the latter')
+        self.assertEqual(participant(self.examples['The latter is married.'][0]), 'the latter')
         self.assertEqual(self.examples['Children like singing but often do it badly.'][1]['action'], 'sing')
 
     def test_word_order_examples_keep_manner_location_time_and_duration_separate(self):
         fact = self.examples['He slept soundly in his room all night long.'][0]
-        self.assertEqual((fact['manner'], fact['location'], fact['duration']),
+        self.assertEqual((fact['manner'], fact['where'], fact['duration']),
                          ('soundly', 'in his room', 'all night long'))
         fact = self.examples["They came home safely at seven o'clock."][0]
-        self.assertEqual((fact['destination'], fact['manner'], fact['time']),
+        self.assertEqual((fact['destination'], fact['manner'], fact['when']),
                          ('home', 'safely', "at seven o'clock"))
-        self.assertNotIn('location', fact)
+        self.assertNotIn('where', fact)
         self.assertEqual(self.examples['These flowers smell strong in the evening.'][0]['complement'], 'strong')
         self.assertEqual(self.examples['He answered very badly at the exam the day before yesterday.'][0]['manner'],
                          'very badly')
@@ -552,7 +558,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual(self.examples['Robert has a bicycle.'][0]['object'], 'bicycle')
         self.assertNotIn('status', self.examples['Does Mary have a camera?'][0])
         fact = self.examples["John and Jill haven't got a three-room flat."][0]
-        self.assertEqual((fact['actor'], fact['polarity']), ('John and Jill', 'negative'))
+        self.assertEqual((participant(fact), fact['polarity']), ('John and Jill', 'negative'))
         for text in ['John and Jill has got a three-room flat.', 'Does Mary has a camera?',
                      'Has John and Jill got a three-room flat?']:
             self.assertNotIn(text, self.examples)
@@ -561,7 +567,7 @@ class FactTemplateTests(unittest.TestCase):
         fact = self.examples["Doesn't Nick have breakfast at home?"][0]
         self.assertEqual((fact['action'], fact['polarity'], fact.get('status')), ('have', 'negative', None))
         fact = self.examples['Yes, he does.'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['polarity']), ('he', 'unknown', 'positive'))
+        self.assertEqual((participant(fact), fact['action'], fact['polarity']), ('he', 'unknown', 'positive'))
         self.assertEqual(self.examples["Hasn't she got any?"][0]['object'], 'any')
         self.assertEqual(self.examples['No, she learns German.'][0]['polarity'], 'positive')
         facts = self.examples['Would you like to visit him?']
@@ -577,9 +583,9 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_alternative_questions_keep_the_selected_role_in_one_questioned_fact(self):
         for text, role, value in [
-            ('Does he or his friend have a very interesting book?', 'actor', 'he or his friend'),
+            ('Does he or his friend have a very interesting book?', 'person', 'he or his friend'),
             ('Does Jane like apple or orange juice?', 'object', 'apple juice or orange juice'),
-            ('Are they in Spain or in France now?', 'location', 'in Spain or in France'),
+            ('Are they in Spain or in France now?', 'where', 'in Spain or in France'),
             ('Does John make few or many mistakes in his tests?', 'quantity', 'few or many'),
             ("Is it your or your sister's dress?", 'possessor', 'addressee or your sister'),
             ('Does your Dad go to work by car or by underground?', 'means', 'car or underground'),
@@ -590,7 +596,7 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual((fact[role], fact['coordination_role'], fact['coordination'], fact.get('status')),
                              (value, role, 'or', None))
         fact = self.examples['Does he or do his parents make breakfast?'][0]
-        self.assertEqual(fact['actor'], 'he or his parents')
+        self.assertEqual(participant(fact), 'he or his parents')
         self.assertNotIn('Do he or does his parents make breakfast?', self.examples)
 
     def test_new_task_rewrites_and_printed_alternatives_stay_in_the_same_family(self):
@@ -607,8 +613,8 @@ class FactTemplateTests(unittest.TestCase):
                                       ("They are late, aren't they?", 'they', 'positive'),
                                       ('George and Kate never quarrel, do they?', 'George and Kate', 'negative')]:
             fact = self.examples[text][0]
-            self.assertEqual((fact['actor'], fact['polarity'], fact.get('status')), (actor, polarity, None))
-        self.assertEqual(self.examples["Everybody thinks so, don't they?"][0]['actor'], 'everybody')
+            self.assertEqual((participant(fact), fact['polarity'], fact.get('status')), (actor, polarity, None))
+        self.assertEqual(participant(self.examples["Everybody thinks so, don't they?"][0]), 'everybody')
         for text in ["I am late, amn't I?", 'I am not late, are I?', "They is late, isn't they?",
                      "Everybody thinks so, doesn't he?"]:
             self.assertNotIn(text, self.examples)
@@ -620,21 +626,21 @@ class FactTemplateTests(unittest.TestCase):
             fact = self.examples[text][0]
             self.assertEqual((fact['action'], fact['polarity'], fact['status']), (action, polarity, 'required'))
         fact = self.examples["Let's have dinner now, shall we?"][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['intention'], fact['operation']),
+        self.assertEqual((participant(fact), fact['action'], fact['intention'], fact['operation']),
                          ('we', 'have', 'have', 'add'))
         self.assertEqual(fact['status'], 'intended')
 
     def test_wh_subject_object_possessor_and_passive_agent_are_distinct(self):
         subject = self.examples['Who likes your friend?'][0]
         obj = self.examples['Who does your friend like?'][0]
-        self.assertEqual((subject['actor'], subject['object']), ('unknown', 'your friend'))
-        self.assertEqual((obj['actor'], obj['object']), ('your friend', 'unknown'))
+        self.assertEqual((participant(subject), subject['object']), ('unknown', 'your friend'))
+        self.assertEqual((participant(obj), obj['object']), ('your friend', 'unknown'))
         fact = self.examples['Whose sister knows French?'][0]
-        self.assertEqual((fact['actor'], fact['possessor'], fact['object']), ('sister', 'unknown', 'French'))
+        self.assertEqual((participant(fact), fact['possessor'], fact['object']), ('sister', 'unknown', 'French'))
         fact = self.examples['Who is this novel written by?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice']), ('unknown', 'this novel', 'passive'))
+        self.assertEqual((participant(fact), fact['object'], fact['voice']), ('unknown', 'this novel', 'passive'))
         fact = self.examples['Who does the teacher want to answer this question?'][1]
-        self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['status']),
+        self.assertEqual((participant(fact), fact['action'], fact['object'], fact['status']),
                          ('unknown', 'answer', 'this question', 'hypothetical'))
         self.assertNotIn('Who know French?', self.examples)
 
@@ -703,19 +709,19 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_embedded_word_order_binds_subject_number_and_event_verb(self):
         facts = self.examples['Where do you think her husband is?']
-        self.assertEqual((facts[0]['action'], facts[1]['actor'], facts[1]['location']),
+        self.assertEqual((facts[0]['action'], participant(facts[1]), facts[1]['where']),
                          ('think', 'her husband', 'unknown'))
         facts = self.examples['Can you tell me when the train arrives?']
-        self.assertEqual((facts[1]['actor'], facts[1]['action'], facts[1]['time']),
+        self.assertEqual((participant(facts[1]), facts[1]['action'], facts[1]['when']),
                          ('train', 'arrive', 'unknown'))
         for text in ['Where do you think is her husband?', 'Where do you think her husband are?',
                      'Can you tell me when does the train arrive?', 'Can you tell me when the film arrives?',
                      'Do you know whether has Sam an elder sister?']:
             self.assertNotIn(text, self.examples)
         facts = self.examples['Who do you think knows the answer?']
-        self.assertEqual((facts[1]['actor'], facts[1]['object']), ('unknown', 'answer'))
+        self.assertEqual((participant(facts[1]), facts[1]['object']), ('unknown', 'answer'))
         facts = self.examples['Do you think Frank and Eve are in love with each other?']
-        self.assertEqual((facts[1]['actor'], facts[1]['reciprocal'], facts[1]['reflexive']),
+        self.assertEqual((participant(facts[1]), facts[1]['reciprocal'], facts[1]['reflexive']),
                          ('Frank and Eve', 'yes', 'no'))
 
     def test_new_direct_indirect_rewrites_and_printed_alternatives_share_families(self):
@@ -728,11 +734,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_review_questions_keep_roles_without_borrowing_reply_context(self):
         facts = self.examples['Who takes you to the airport?']
-        self.assertEqual((facts[0]['actor'], facts[0]['object'], facts[0]['destination']),
+        self.assertEqual((participant(facts[0]), facts[0]['object'], facts[0]['destination']),
                          ('unknown', 'addressee', 'airport'))
         self.assertNotIn('Who takes you to airport?', self.examples)
         facts = self.examples['I think Ron can.']
-        self.assertEqual((facts[1]['actor'], facts[1]['action'], facts[1]['status']),
+        self.assertEqual((participant(facts[1]), facts[1]['action'], facts[1]['status']),
                          ('Ron', 'unknown', 'reported'))
         self.assertEqual(self.examples["I think it's Tom's."][1]['complement'], "Tom's")
         self.assertEqual(self.examples['No, I see him for the first time.'][0]['polarity'], 'positive')
@@ -743,13 +749,13 @@ class FactTemplateTests(unittest.TestCase):
     def test_existential_there_and_known_subject_location_are_distinct(self):
         exists = self.examples['There is a book on the table.'][0]
         located = self.examples['The book is on the table.'][0]
-        self.assertEqual((exists['actor'], exists['action'], exists['object']), ('none', 'be', 'book'))
-        self.assertEqual((located['actor'], located['action'], located['object']), ('book', 'be', 'none'))
-        self.assertEqual(exists['location'], located['location'])
+        self.assertEqual((participant(exists), exists['action'], exists['object']), ('none', 'be', 'book'))
+        self.assertEqual((participant(located), located['action'], located['object']), ('book', 'be', 'none'))
+        self.assertEqual(exists['where'], located['where'])
         self.assertEqual(self.examples['Yes, there is.'][0]['object'], 'unknown')
-        self.assertEqual(self.examples['There are interesting stories in it.'][0]['location'], 'in it')
+        self.assertEqual(self.examples['There are interesting stories in it.'][0]['where'], 'in it')
         fact = self.examples['There will be a good film on TV tomorrow.'][0]
-        self.assertEqual((fact['tense'], fact['time']), ('future', 'tomorrow'))
+        self.assertEqual((fact['tense'], fact['when']), ('future', 'tomorrow'))
 
     def test_existential_be_retains_its_lemma_in_all_forms_and_variants(self):
         cases = [
@@ -808,7 +814,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual(fact['manner'], 'carefully')
         self.assertNotIn('complement', fact)
         fact = self.examples['Look how expensively the man is dressed!'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice'], fact['manner']),
+        self.assertEqual((participant(fact), fact['object'], fact['voice'], fact['manner']),
                          ('unknown', 'man', 'passive', 'expensively'))
 
     def test_exclamative_slots_preserve_articles_countability_and_adverb_forms(self):
@@ -822,32 +828,32 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_present_simple_number_and_regular_sequence_keep_each_action(self):
         self.assertEqual(self.examples['This student studies hard.'][0]['action'], 'study')
-        self.assertEqual(self.examples['My children speak English fluently.'][0]['actor'], 'my children')
+        self.assertEqual(participant(self.examples['My children speak English fluently.'][0]), 'my children')
         self.assertEqual(self.examples['Mr. Brown learns History.'][0]['action'], 'learn')
         for text in ['This student study hard.', 'My children studies hard.',
                      'My child studys hard.', 'Mr. Brown teachs History.']:
             self.assertNotIn(text, self.examples)
         facts = self.examples['Every day my father gets up at 7, does his morning exercises, takes a shower, has breakfast and goes to work.']
         self.assertEqual([f['action'] for f in facts], ['get up', 'do', 'take', 'have', 'go'])
-        self.assertTrue(all(f['actor'] == 'my father' and f['aspect'] == 'simple' for f in facts))
-        self.assertEqual(facts[0]['time'], 'at 7')
-        self.assertNotIn('time', facts[-1])
+        self.assertTrue(all(participant(f) == 'my father' and f['aspect'] == 'simple' for f in facts))
+        self.assertEqual(facts[0]['when'], 'at 7')
+        self.assertNotIn('when', facts[-1])
 
     def test_content_correction_does_not_silently_negate_the_source_statement(self):
         positive = self.examples['Dolphins live in forests.'][0]
         negative = self.examples["Dolphins don't live in forests."][0]
         self.assertEqual((positive['polarity'], negative['polarity']), ('positive', 'negative'))
         self.assertEqual((positive['action'], negative['action']), ('live', 'live'))
-        self.assertEqual(self.examples['It melts in spring.'][0]['actor'], 'it')
+        self.assertEqual(participant(self.examples['It melts in spring.'][0]), 'it')
         self.assertEqual(self.examples['No, I seldom quarrel with my friends.'][0]['polarity'], 'positive')
         self.assertEqual(self.examples['No, I never have nightmares.'][0]['polarity'], 'negative')
 
     def test_emphasis_and_body_part_possession_keep_self_forms_and_objects_separate(self):
         fact = self.examples['She usually makes breakfast herself.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['emphasis'], fact['reflexive']),
-                         ('she', 'breakfast', 'actor', 'no'))
+        self.assertEqual((participant(fact), fact['object'], fact['emphasis'], fact['reflexive']),
+                         ('she', 'breakfast', 'person', 'no'))
         fact = self.examples['We are washing our hands.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['possessor'], fact['reflexive']),
+        self.assertEqual((participant(fact), fact['object'], fact['possessor'], fact['reflexive']),
                          ('we', 'our hands', 'we', 'no'))
         for text in ['She usually make breakfast himself.', 'We are washing my hands.',
                      'He am washing his hands.']:
@@ -855,7 +861,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_continuous_templates_preserve_agreement_and_distinguish_plans_and_intentions(self):
         fact = self.examples['He is translating a letter.'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['aspect']),
+        self.assertEqual((participant(fact), fact['action'], fact['object'], fact['aspect']),
                          ('he', 'translate', 'letter', 'continuous'))
         self.assertNotIn('status', self.examples['Am I reading now?'][0])
         fact = self.examples['We are moving to a new flat at the weekend.'][0]
@@ -885,9 +891,9 @@ class FactTemplateTests(unittest.TestCase):
     def test_sensory_states_and_actions_have_different_roles_and_aspects(self):
         state = self.examples['The soup tastes delicious!'][0]
         action = self.examples['Why are you tasting the soup?'][0]
-        self.assertEqual((state['actor'], state['object'], state['complement'], state['aspect']),
+        self.assertEqual((participant(state), state['object'], state['complement'], state['aspect']),
                          ('soup', 'none', 'delicious', 'simple'))
-        self.assertEqual((action['actor'], action['object'], action['aspect'], action.get('status')),
+        self.assertEqual((participant(action), action['object'], action['aspect'], action.get('status')),
                          ('addressee', 'soup', 'continuous', None))
         self.assertNotIn('complement', action)
         self.assertEqual(self.examples['What are you thinking about?'][0]['topic'], 'unknown')
@@ -897,11 +903,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_new_relative_and_negative_clauses_keep_local_scope(self):
         facts = self.examples['The picture you are looking at belongs to the Tretyakov Gallery.']
-        self.assertEqual((facts[0]['actor'], facts[0]['owner'], facts[1]['target']),
+        self.assertEqual((participant(facts[0]), facts[0]['owner'], facts[1]['target']),
                          ('picture', 'Tretyakov Gallery', 'picture'))
         facts = self.examples['You never listen to what I say.']
         self.assertEqual([f['polarity'] for f in facts], ['negative', 'positive'])
-        self.assertEqual(facts[1]['actor'], 'user')
+        self.assertEqual(participant(facts[1]), 'user')
         fact = self.examples['He has a temperature and he is hardly breathing!'][1]
         self.assertEqual((fact['aspect'], fact['degree'], fact['polarity']),
                          ('continuous', 'hardly', 'positive'))
@@ -910,7 +916,7 @@ class FactTemplateTests(unittest.TestCase):
         fact = self.examples['The Berlin train arrives in Paris at 7 p. m. sharp.'][0]
         self.assertEqual((fact['tense'], fact['aspect'], fact['status']), ('present', 'simple', 'scheduled'))
         fact = self.examples['She is moving to a new flat next week.'][0]
-        self.assertEqual((fact['actor'], fact['aspect'], fact['status']), ('she', 'continuous', 'planned'))
+        self.assertEqual((participant(fact), fact['aspect'], fact['status']), ('she', 'continuous', 'planned'))
         fact = self.examples["I'm going to make a cake for tea."][0]
         self.assertEqual((fact['action'], fact['intention'], fact['operation']), ('make', 'make', 'add'))
         fact = self.examples["It's going to rain."][0]
@@ -936,7 +942,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((facts[0]['polarity'], facts[1].get('status'), facts[1]['tense']),
                          ('negative', None, 'future'))
         facts = self.examples['Everything will be ready before Frank comes.']
-        self.assertEqual((facts[0]['time'], facts[1]['tense'], facts[1]['status']),
+        self.assertEqual((facts[0]['when'], facts[1]['tense'], facts[1]['status']),
                          ('before Frank comes', 'present', 'hypothetical'))
         facts = self.examples['I will return you the book as soon as I finish it.']
         self.assertEqual((facts[0]['recipient'], facts[1]['object']), ('addressee', 'book'))
@@ -948,34 +954,34 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples["I'll arrive at about six o'clock, leave my things at the hotel, and then take a walk."]
         self.assertEqual([f['action'] for f in facts], ['arrive', 'leave', 'take'])
         self.assertTrue(all(f['tense'] == 'future' for f in facts))
-        self.assertEqual(facts[1]['location'], 'at the hotel')
-        self.assertNotIn('location', facts[2])
+        self.assertEqual(facts[1]['where'], 'at the hotel')
+        self.assertNotIn('where', facts[2])
         facts = self.examples['On Sunday morning she did the shopping, cleaned the flat and made dinner for the whole family.']
         self.assertEqual([f['action'] for f in facts], ['do', 'clean', 'make'])
-        self.assertTrue(all(f['time'] == 'on Sunday morning' and f['tense'] == 'past' for f in facts))
+        self.assertTrue(all(f['when'] == 'on Sunday morning' and f['tense'] == 'past' for f in facts))
         self.assertEqual(facts[2]['beneficiary'], 'whole family')
 
     def test_past_questions_keep_recipient_companion_and_actor_separate(self):
         fact = self.examples['Who did you write a letter to in the morning?'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['recipient']),
+        self.assertEqual((participant(fact), fact['action'], fact['object'], fact['recipient']),
                          ('addressee', 'write', 'letter', 'unknown'))
-        self.assertEqual(self.examples['Who broke that cup the other day?'][0]['actor'], 'unknown')
+        self.assertEqual(participant(self.examples['Who broke that cup the other day?'][0]), 'unknown')
         self.assertEqual(self.examples['Who did Nelly dance with at the party?'][0]['companion'], 'unknown')
         fact = self.examples['When was he born?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice']), ('unknown', 'he', 'passive'))
+        self.assertEqual((participant(fact), fact['object'], fact['voice']), ('unknown', 'he', 'passive'))
 
     def test_used_to_and_would_are_past_habits_not_new_plans(self):
         fact = self.examples['He used to be more friendly.'][0]
         self.assertEqual((fact['tense'], fact['status'], fact['modality']), ('past', 'habitual', 'used to'))
         fact = self.examples['We would write to each other every week.'][0]
-        self.assertEqual((fact['actor'], fact['recipient'], fact['reciprocal'], fact['reflexive']),
+        self.assertEqual((participant(fact), fact['recipient'], fact['reciprocal'], fact['reflexive']),
                          ('we', 'we', 'yes', 'no'))
         self.assertEqual((fact['intention'], fact['operation'], fact['status']), ('none', 'none', 'habitual'))
         self.assertNotIn('He would write to each other every week.', self.examples)
 
     def test_past_and_perfect_bindings_preserve_auxiliaries_and_irregular_forms(self):
         fact = self.examples['She has bought a computer.'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['aspect']), ('she', 'buy', 'perfect'))
+        self.assertEqual((participant(fact), fact['action'], fact['aspect']), ('she', 'buy', 'perfect'))
         self.assertNotIn('status', self.examples['Has she finished the picture?'][0])
         self.assertEqual(self.examples['They fell ill yesterday.'][0]['tense'], 'past')
         self.assertEqual(self.examples["She didn't fall ill yesterday."][0]['polarity'], 'negative')
@@ -990,9 +996,9 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((fact['destination'], fact['aspect'], fact.get('status')),
                          ('Historic Museum', 'perfect', None))
         fact = self.examples['They have been in Paris since Monday.'][0]
-        self.assertEqual((fact['location'], fact['time']), ('in Paris', 'since Monday'))
+        self.assertEqual((fact['where'], fact['when']), ('in Paris', 'since Monday'))
         self.assertNotIn('destination', fact)
-        self.assertEqual(self.examples["He's visited his grandparents this summer."][0]['actor'], 'he')
+        self.assertEqual(participant(self.examples["He's visited his grandparents this summer."][0]), 'he')
         for text in ['Have you ever been to Historic Museum?', 'Have you ever been to the Greece?',
                      "He's visited his grandparents yesterday.", 'My friend has caught cold last night.']:
             self.assertNotIn(text, self.examples)
@@ -1026,7 +1032,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((facts[0]['polarity'], facts[1]['polarity']), ('negative', 'positive'))
         self.assertEqual(facts[1]['status'], 'hypothetical')
         facts = self.examples['Yes, I am, and he wants me to sign a new contract.']
-        self.assertEqual((facts[0]['action'], facts[2]['actor'], facts[2]['status']),
+        self.assertEqual((facts[0]['action'], participant(facts[2]), facts[2]['status']),
                          ('unknown', 'user', 'intended'))
         self.assertEqual(facts[2]['operation'], 'none')
 
@@ -1043,10 +1049,10 @@ class FactTemplateTests(unittest.TestCase):
     def test_since_starting_points_and_for_durations_are_separate_bindings(self):
         point = self.examples["Mr. Brown hasn't been at work since last week."][0]
         duration = self.examples["Mr. Brown hasn't been at work for the last week."][0]
-        self.assertEqual(point['time'], 'since last week')
+        self.assertEqual(point['when'], 'since last week')
         self.assertNotIn('duration', point)
         self.assertEqual(duration['duration'], 'the last week')
-        self.assertNotIn('time', duration)
+        self.assertNotIn('when', duration)
         self.assertEqual(self.examples["I've known Ben for five years."][0]['duration'], 'five years')
         for text in ["I've known Ben since five years.", "Mr. Brown hasn't been at work for last week.",
                      "He hasn't called me since ages.", "I've known Ben for September."]:
@@ -1058,17 +1064,17 @@ class FactTemplateTests(unittest.TestCase):
                          [('present', 'perfect', 'negative'), ('past', 'simple', 'positive')])
         self.assertEqual(facts[1]['status'], 'asserted')
         facts = self.examples['George has been the best student since he entered the University.']
-        self.assertEqual(facts[1]['actor'], 'George')
+        self.assertEqual(participant(facts[1]), 'George')
         facts = self.examples["On Monday the weather got worse and my Grandpa hasn't been out ever since."]
-        self.assertEqual(facts[1]['time'], 'ever since the weather got worse')
+        self.assertEqual(facts[1]['when'], 'ever since the weather got worse')
 
     def test_state_verbs_stay_perfect_while_ongoing_activities_are_perfect_continuous(self):
         state = self.examples['How long has Mary known it?'][0]
         activity = self.examples['How long has Mary been reading it?'][0]
-        self.assertEqual((state['actor'], state['aspect'], state['duration']), ('Mary', 'perfect', 'unknown'))
-        self.assertEqual((activity['actor'], activity['aspect'], activity['duration']),
+        self.assertEqual((participant(state), state['aspect'], state['duration']), ('Mary', 'perfect', 'unknown'))
+        self.assertEqual((participant(activity), activity['aspect'], activity['duration']),
                          ('Mary', 'perfect_continuous', 'unknown'))
-        self.assertEqual(self.examples['Since when has Mary been working here?'][0]['time'], 'unknown')
+        self.assertEqual(self.examples['Since when has Mary been working here?'][0]['when'], 'unknown')
         self.assertNotIn('duration', self.examples['Since when has Mary been working here?'][0])
         for text in ['How long has Mary been knowing it?', 'How long have Mary known it?',
                      'Since when has Mary been living this flat?']:
@@ -1080,7 +1086,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((facts[1]['action'], facts[1]['status']), ('fix', 'hypothetical'))
         self.assertTrue(all(f['operation'] == 'none' for f in facts))
         fact = self.examples['She has been crying.'][0]
-        self.assertEqual(fact['actor'], 'she')
+        self.assertEqual(participant(fact), 'she')
         self.assertNotIn('reason', fact)
         fact = self.examples['Mary has been learning Chinese for several months.'][0]
         self.assertEqual((fact['action'], fact['object'], fact['duration']), ('learn', 'Chinese', 'several months'))
@@ -1107,9 +1113,9 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_new_pronoun_links_use_only_the_current_sentence(self):
         facts = self.examples["I've been waiting for Pete's call since 3 o'clock but he hasn't called so far."]
-        self.assertEqual((facts[0]['target'], facts[1]['actor']), ("Pete's call", 'Pete'))
+        self.assertEqual((facts[0]['target'], participant(facts[1])), ("Pete's call", 'Pete'))
         facts = self.examples["Nick has been saving money for a new player since he saw the advertisement, but he hasn't saved enough so far."]
-        self.assertEqual([f['actor'] for f in facts], ['Nick', 'Nick', 'Nick'])
+        self.assertEqual([participant(f) for f in facts], ['Nick', 'Nick', 'Nick'])
         self.assertEqual((facts[-1]['object'], facts[-1]['quantity']), ('money', 'enough'))
         self.assertEqual(self.examples['How long has she been cleaning it?'][0]['object'], 'it')
         self.assertEqual(self.examples['But I was.'][0]['action'], 'unknown')
@@ -1117,13 +1123,13 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_reciprocal_and_body_part_bindings_preserve_participants(self):
         fact = self.examples['The children have been shouting at each other all morning.'][0]
-        self.assertEqual((fact['actor'], fact['target'], fact['reciprocal'], fact['reflexive']),
+        self.assertEqual((participant(fact), fact['target'], fact['reciprocal'], fact['reflexive']),
                          ('children', 'children', 'yes', 'no'))
         facts = self.examples['Mary was constantly biting her nails, which is a most annoying habit!']
-        self.assertEqual((facts[0]['actor'], facts[0]['object'], facts[0]['possessor']),
+        self.assertEqual((participant(facts[0]), facts[0]['object'], facts[0]['possessor']),
                          ('Mary', 'her nails', 'Mary'))
         self.assertEqual((facts[0]['reflexive'], facts[0]['attitude']), ('no', 'annoyance'))
-        self.assertEqual(facts[1]['actor'], 'biting her nails')
+        self.assertEqual(participant(facts[1]), 'biting her nails')
         self.assertNotIn('Mary was constantly biting his nails, which is a most annoying habit!', self.examples)
 
     def test_past_duration_does_not_force_perfect_and_today_does_not_force_present(self):
@@ -1138,12 +1144,12 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_past_background_and_interrupting_event_keep_different_aspects(self):
         facts = self.examples['Nick was walking down the street when he saw Joan.']
-        self.assertEqual([f['actor'] for f in facts], ['Nick', 'Nick'])
+        self.assertEqual([participant(f) for f in facts], ['Nick', 'Nick'])
         self.assertEqual([(f['tense'], f['aspect']) for f in facts], [('past', 'continuous'), ('past', 'simple')])
         facts = self.examples["I wasn't doing anything special when he called."]
         self.assertEqual([f['polarity'] for f in facts], ['negative', 'positive'])
         fact = self.examples['At this time yesterday they were watching TV.'][0]
-        self.assertEqual((fact['actor'], fact['time'], fact['aspect']), ('they', 'at this time yesterday', 'continuous'))
+        self.assertEqual((participant(fact), fact['when'], fact['aspect']), ('they', 'at this time yesterday', 'continuous'))
         for text in ['At this time yesterday they was watching TV.',
                      "What was you doing at 6 o'clock yesterday?", 'I were walking my dog.']:
             self.assertNotIn(text, self.examples)
@@ -1165,13 +1171,13 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((fact['modality'], fact['status'], fact['operation']), ('could', 'possible', 'none'))
         facts = self.examples['I asked the nurse who was going upstairs to take the papers to Dr. Reed.']
         self.assertEqual([f['action'] for f in facts], ['ask', 'go', 'take'])
-        self.assertEqual((facts[2]['actor'], facts[2]['recipient'], facts[2]['status']), ('nurse', 'Dr. Reed', 'required'))
+        self.assertEqual((participant(facts[2]), facts[2]['recipient'], facts[2]['status']), ('nurse', 'Dr. Reed', 'required'))
 
     def test_quantifier_negation_and_prepositions_keep_semantic_roles(self):
         fact = self.examples['But perhaps not everybody will be able to come.'][0]
-        self.assertEqual((fact['actor'], fact['negation_scope'], fact['certainty']),
+        self.assertEqual((participant(fact), fact['negation_scope'], fact['certainty']),
                          ('everybody', 'not everybody', 'perhaps'))
-        self.assertEqual(self.examples['Nobody has heard from him ever since.'][0]['actor'], 'anybody')
+        self.assertEqual(participant(self.examples['Nobody has heard from him ever since.'][0]), 'anybody')
         fact = self.examples['How much did you pay for this picture?'][0]
         self.assertEqual((fact['object'], fact['amount']), ('money', 'unknown'))
         self.assertNotIn('purpose', fact)
@@ -1192,8 +1198,8 @@ class FactTemplateTests(unittest.TestCase):
     def test_new_past_background_bindings_and_participles_preserve_agreement(self):
         simple = self.examples["At 7 o'clock last night they returned home."][0]
         ongoing = self.examples["At 7 o'clock last night they were returning home."][0]
-        self.assertEqual((simple['actor'], simple['aspect']), ('they', 'simple'))
-        self.assertEqual((ongoing['actor'], ongoing['aspect']), ('they', 'continuous'))
+        self.assertEqual((participant(simple), simple['aspect']), ('they', 'simple'))
+        self.assertEqual((participant(ongoing), ongoing['aspect']), ('they', 'continuous'))
         facts = self.examples['We sat reading a magazine.']
         self.assertEqual([f['action'] for f in facts], ['sit', 'read'])
         self.assertEqual((facts[1]['tense'], facts[1]['form']), ('nonfinite', 'participle'))
@@ -1203,26 +1209,26 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples['She had dinner and took out the book she had bought on her way home.']
         self.assertEqual([(f['action'], f['aspect']) for f in facts],
                          [('have', 'simple'), ('take out', 'simple'), ('buy', 'perfect')])
-        self.assertTrue(all(f['actor'] == 'she' and f['tense'] == 'past' for f in facts))
+        self.assertTrue(all(participant(f) == 'she' and f['tense'] == 'past' for f in facts))
         fact = self.examples['I had had a headache since morning.'][0]
-        self.assertEqual((fact['action'], fact['aspect'], fact['time']), ('have', 'perfect', 'since morning'))
+        self.assertEqual((fact['action'], fact['aspect'], fact['when']), ('have', 'perfect', 'since morning'))
         facts = self.examples['By the time he was 30 he already had two professions and had changed several jobs.']
         self.assertEqual([f['aspect'] for f in facts], ['simple', 'simple', 'perfect'])
 
     def test_past_perfect_deadlines_are_not_durations(self):
         fact = self.examples["We had written the article by 4 o'clock."][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['tense'], fact['aspect']),
+        self.assertEqual((participant(fact), fact['object'], fact['tense'], fact['aspect']),
                          ('we', 'article', 'past', 'perfect'))
-        self.assertEqual(fact['time'], "by 4 o'clock")
+        self.assertEqual(fact['when'], "by 4 o'clock")
         self.assertNotIn('duration', fact)
         self.assertNotIn("We had written the article for 4 o'clock.", self.examples)
 
     def test_new_past_reciprocals_and_body_parts_keep_participants_bound(self):
         fact = self.examples['We had known each other for ages.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['reciprocal'], fact['reflexive']),
+        self.assertEqual((participant(fact), fact['object'], fact['reciprocal'], fact['reflexive']),
                          ('we', 'we', 'yes', 'no'))
         fact = self.examples['She hurt her leg when she fell off the ladder.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['possessor'], fact['reflexive']),
+        self.assertEqual((participant(fact), fact['object'], fact['possessor'], fact['reflexive']),
                          ('she', 'her leg', 'she', 'no'))
         fact = self.examples['He combed his hair and looked in the mirror.'][0]
         self.assertEqual((fact['object'], fact['possessor'], fact['reflexive']), ('his hair', 'he', 'no'))
@@ -1246,10 +1252,10 @@ class FactTemplateTests(unittest.TestCase):
                              ('By the time Joan came we had already discussed the news.', 'perfect'),
                              ("When Joan came we'd been discussing the news for half an hour already.", 'perfect_continuous')]:
             facts = self.examples[text]
-            self.assertEqual((facts[0]['actor'], facts[1]['aspect']), ('Joan', aspect))
+            self.assertEqual((participant(facts[0]), facts[1]['aspect']), ('Joan', aspect))
         facts = self.examples['What were you discussing when Maggie came?']
         self.assertEqual((facts[0]['object'], facts[0].get('status')), ('unknown', None))
-        self.assertEqual((facts[1]['actor'], facts[1]['status']), ('Maggie', 'asserted'))
+        self.assertEqual((participant(facts[1]), facts[1]['status']), ('Maggie', 'asserted'))
 
     def test_painting_process_result_and_passive_patient_stay_distinct(self):
         for text, aspect in [('They painted the flat for three hours.', 'simple'),
@@ -1261,14 +1267,14 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((fact['aspect'], fact['frequency']), ('perfect', 'twice'))
         self.assertNotIn('duration', fact)
         facts = self.examples['The flat they had been painting so long was burnt down at night.']
-        self.assertEqual((facts[0]['actor'], facts[0]['object'], facts[0]['voice']), ('unknown', 'flat', 'passive'))
-        self.assertEqual((facts[1]['actor'], facts[1]['object'], facts[1]['aspect']), ('they', 'flat', 'perfect_continuous'))
+        self.assertEqual((participant(facts[0]), facts[0]['object'], facts[0]['voice']), ('unknown', 'flat', 'passive'))
+        self.assertEqual((participant(facts[1]), facts[1]['object'], facts[1]['aspect']), ('they', 'flat', 'perfect_continuous'))
 
     def test_past_perfect_stative_since_and_process_duration_remain_separate(self):
         facts = self.examples['By the time the firemen arrived, the house had smelt of smoke for a long time.']
         self.assertEqual((facts[1]['action'], facts[1]['aspect'], facts[1]['duration']), ('smell', 'perfect', 'a long time'))
         facts = self.examples['At midday he felt tired as he had been working in the garden since early morning.']
-        self.assertEqual((facts[1]['aspect'], facts[1]['time']), ('perfect_continuous', 'since early morning'))
+        self.assertEqual((facts[1]['aspect'], facts[1]['when']), ('perfect_continuous', 'since early morning'))
         self.assertNotIn('duration', facts[1])
         facts = self.examples['I had been driving for five hours when the accident happened.']
         self.assertEqual((facts[0]['duration'], facts[1]['aspect']), ('five hours', 'simple'))
@@ -1287,7 +1293,7 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples['Kate planted a flower and put it on the window sill.']
         self.assertEqual([f['object'] for f in facts], ['flower', 'flower'])
         facts = self.examples['The next day it died as she had forgotten to water it.']
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[2]['object']), ('it', 'she', 'it'))
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[2]['object']), ('it', 'she', 'it'))
         self.assertEqual(self.examples['Frank met her at the station.'][0]['object'], 'her')
         self.assertEqual(self.examples['He was buying a new one.'][0]['object'], 'new one')
         self.assertEqual(self.examples['But I shall.'][0]['action'], 'unknown')
@@ -1298,11 +1304,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_reported_quotes_bind_speaker_and_explicit_addressee_locally(self):
         facts = self.examples['“You have never shown me your room, Betty,” he said.']
-        self.assertEqual((facts[0]['actor'], facts[0]['action']), ('he', 'say'))
-        self.assertEqual((facts[1]['actor'], facts[1]['object'], facts[1]['recipient']), ('Betty', "Betty's room", 'he'))
+        self.assertEqual((participant(facts[0]), facts[0]['action']), ('he', 'say'))
+        self.assertEqual((participant(facts[1]), facts[1]['object'], facts[1]['recipient']), ('Betty', "Betty's room", 'he'))
         self.assertEqual((facts[1]['status'], facts[1]['polarity']), ('reported', 'negative'))
         facts = self.examples['“You are very thin, darling,” she said.']
-        self.assertEqual((facts[1]['actor'], facts[1]['status']), ('unknown', 'reported'))
+        self.assertEqual((participant(facts[1]), facts[1]['status']), ('unknown', 'reported'))
 
     def test_review_past_desires_do_not_add_the_current_intention(self):
         fact = self.examples['I want to paint.'][0]
@@ -1316,11 +1322,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_review_condition_and_correlative_comparison_keep_scope(self):
         facts = self.examples["Tom thinks that even if he brings all of us home, his Mum won't get angry."]
-        self.assertEqual((facts[1]['actor'], facts[1]['status'], facts[1]['polarity']), ('Tom', 'hypothetical', 'positive'))
-        self.assertEqual((facts[2]['actor'], facts[2]['status'], facts[2]['polarity']), ("Tom's Mum", 'conditional', 'negative'))
+        self.assertEqual((participant(facts[1]), facts[1]['status'], facts[1]['polarity']), ('Tom', 'hypothetical', 'positive'))
+        self.assertEqual((participant(facts[2]), facts[2]['status'], facts[2]['polarity']), ("Tom's Mum", 'conditional', 'negative'))
         facts = self.examples["For my part I find the longer I know people the more they puzzle me: my oldest friends are those of whom I can say that I don't know the first thing about them."]
         self.assertEqual((facts[1]['status'], facts[2]['status']), ('conditional', 'conditional'))
-        self.assertEqual((facts[2]['actor'], facts[2]['condition']), ('people', 'as I know people longer'))
+        self.assertEqual((participant(facts[2]), facts[2]['condition']), ('people', 'as I know people longer'))
         self.assertEqual(facts[-1]['topic'], 'my oldest friends')
 
     def test_lessons_51_55_contrasts_and_rewrites_share_split_families(self):
@@ -1335,51 +1341,51 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_direct_speech_binds_speaker_recipient_and_local_possession(self):
         facts = self.examples['Alice says, “Tim, you must help me with the shopping today.”']
-        self.assertEqual((facts[0]['actor'], facts[0]['recipient']), ('Alice', 'Tim'))
-        self.assertEqual((facts[1]['actor'], facts[1]['object'], facts[1]['status']), ('Tim', 'Alice', 'required'))
+        self.assertEqual((participant(facts[0]), facts[0]['recipient']), ('Alice', 'Tim'))
+        self.assertEqual((participant(facts[1]), facts[1]['object'], facts[1]['status']), ('Tim', 'Alice', 'required'))
         facts = self.examples['Mary says that her Dad comes home very late.']
-        self.assertEqual((facts[0]['actor'], facts[1]['actor']), ('Mary', "Mary's Dad"))
+        self.assertEqual((participant(facts[0]), participant(facts[1])), ('Mary', "Mary's Dad"))
         facts = self.examples['He says, “My brother knows Spanish.”']
-        self.assertEqual(facts[1]['actor'], 'his brother')
+        self.assertEqual(participant(facts[1]), 'his brother')
         self.assertEqual(facts[1]['status'], 'reported')
 
     def test_quoted_you_does_not_borrow_the_indirect_answers_addressee(self):
         direct = self.examples['She asks, “Have you brought the book?”'][1]
         indirect = self.examples['She asks if I have brought the book.'][1]
-        self.assertEqual((direct['actor'], indirect['actor']), ('unknown', 'user'))
+        self.assertEqual((participant(direct), participant(indirect)), ('unknown', 'user'))
         self.assertEqual((direct.get('status'), indirect.get('status')), (None, None))
         facts = self.examples['I ask my sister, “Did you get bad marks at school?”']
-        self.assertEqual(facts[1]['actor'], 'my sister')
+        self.assertEqual(participant(facts[1]), 'my sister')
         self.assertEqual(self.examples['“So am I,” the man said.'][1]['action'], 'unknown')
 
     def test_reported_commands_keep_negative_scope_and_bound_recipient(self):
         facts = self.examples['Mother told Lucy to clean her room.']
-        self.assertEqual((facts[0]['recipient'], facts[1]['actor'], facts[1]['object']), ('Lucy', 'Lucy', "Lucy's room"))
+        self.assertEqual((facts[0]['recipient'], participant(facts[1]), facts[1]['object']), ('Lucy', 'Lucy', "Lucy's room"))
         self.assertEqual((facts[0]['tense'], facts[1]['tense'], facts[1]['status']), ('past', 'nonfinite', 'required'))
         facts = self.examples["The shop assistant says, “Don't touch this button.”"]
         self.assertEqual([f['polarity'] for f in facts], ['positive', 'negative'])
-        self.assertEqual((facts[1]['actor'], facts[1]['object']), ('unknown', 'this button'))
+        self.assertEqual((participant(facts[1]), facts[1]['object']), ('unknown', 'this button'))
         self.assertTrue(all(f['operation'] == 'none' for f in facts))
 
     def test_indirect_questions_keep_the_missing_semantic_role(self):
         fact = self.examples['Helen wonders where they hid the money.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['location']), ('they', 'money', 'unknown'))
+        self.assertEqual((participant(fact), fact['object'], fact['where']), ('they', 'money', 'unknown'))
         fact = self.examples['The teacher asks the pupils which of them can translate this sentence.'][1]
-        self.assertEqual((fact['actor'], fact['actor_group'], fact.get('status')), ('unknown', 'pupils', None))
+        self.assertEqual((participant(fact), fact['actor_group'], fact.get('status')), ('unknown', 'pupils', None))
         fact = self.examples['My Mum always wonders who I went to the cinema with.'][1]
-        self.assertEqual((fact['actor'], fact['companion']), ('user', 'unknown'))
+        self.assertEqual((participant(fact), fact['companion']), ('user', 'unknown'))
         fact = self.examples['Susan asks when your brother was born.'][1]
-        self.assertEqual((fact['object'], fact['time'], fact['voice']), ('your brother', 'unknown', 'passive'))
+        self.assertEqual((fact['object'], fact['when'], fact['voice']), ('your brother', 'unknown', 'passive'))
 
     def test_backshift_changes_tense_aspect_and_deictic_time_together(self):
         direct = self.examples['Mary said, “I saw Max yesterday.”'][1]
         indirect = self.examples['Mary said that she had seen Max the day before.'][1]
-        self.assertEqual((direct['actor'], direct['aspect'], direct['time']), ('Mary', 'simple', 'yesterday'))
-        self.assertEqual((indirect['actor'], indirect['aspect'], indirect['time']), ('Mary', 'perfect', 'the day before'))
+        self.assertEqual((participant(direct), direct['aspect'], direct['when']), ('Mary', 'simple', 'yesterday'))
+        self.assertEqual((participant(indirect), indirect['aspect'], indirect['when']), ('Mary', 'perfect', 'the day before'))
         facts = self.examples['They said that they were working that night.']
-        self.assertEqual((facts[1]['actor'], facts[1]['aspect'], facts[1]['status']), ('they', 'continuous', 'planned'))
+        self.assertEqual((participant(facts[1]), facts[1]['aspect'], facts[1]['status']), ('they', 'continuous', 'planned'))
         fact = self.examples['They said that they had been working at it that week.'][1]
-        self.assertEqual((fact['tense'], fact['aspect'], fact['time']), ('past', 'perfect_continuous', 'that week'))
+        self.assertEqual((fact['tense'], fact['aspect'], fact['when']), ('past', 'perfect_continuous', 'that week'))
         self.assertNotIn('They said that they was working that night.', self.examples)
 
     def test_reported_future_is_not_habitual_would_or_a_current_intention(self):
@@ -1411,30 +1417,30 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_review_same_sentence_ellipsis_resolves_without_crossing_stories(self):
         facts = self.examples['I wondered if Helen and Pete had been travelling so much and they said they had.']
-        self.assertEqual((facts[-1]['actor'], facts[-1]['action'], facts[-1]['aspect']),
+        self.assertEqual((participant(facts[-1]), facts[-1]['action'], facts[-1]['aspect']),
                          ('Helen and Pete', 'travel', 'perfect_continuous'))
         facts = self.examples['The boys told Jimmy not to cry and promised to help him.']
-        self.assertEqual((facts[1]['actor'], facts[-1]['object']), ('Jimmy', 'Jimmy'))
+        self.assertEqual((participant(facts[1]), facts[-1]['object']), ('Jimmy', 'Jimmy'))
         self.assertEqual((facts[1]['status'], facts[-1]['status']), ('required', 'promised'))
         self.assertEqual(self.examples['Yes, they were, thank you.'][0]['action'], 'unknown')
         self.assertEqual(self.examples["It's already being dried."][0]['object'], 'it')
 
     def test_passive_actor_patient_and_instrument_have_separate_roles(self):
         fact = self.examples['The letter was written by a boy with a pen.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['instrument'], fact['voice']), ('boy', 'letter', 'pen', 'passive'))
+        self.assertEqual((participant(fact), fact['object'], fact['instrument'], fact['voice']), ('boy', 'letter', 'pen', 'passive'))
         active = self.examples['The commission discussed my plan yesterday.'][0]
         passive = self.examples['My plan was discussed yesterday by the commission.'][0]
-        self.assertEqual((active['actor'], active['object']), (passive['actor'], passive['object']))
+        self.assertEqual((participant(active), active['object']), (participant(passive), passive['object']))
         self.assertEqual((active['voice'], passive['voice']), ('active', 'passive'))
 
     def test_agentless_passives_do_not_inherit_actors_from_active_exercises(self):
         fact = self.examples['A patient was being examined when I came.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['aspect']), ('unknown', 'patient', 'continuous'))
-        self.assertEqual(self.examples['This criminal was caught a year ago.'][0]['actor'], 'unknown')
+        self.assertEqual((participant(fact), fact['object'], fact['aspect']), ('unknown', 'patient', 'continuous'))
+        self.assertEqual(participant(self.examples['This criminal was caught a year ago.'][0]), 'unknown')
         fact = self.examples["My brother's car is still being repaired."][0]
-        self.assertEqual((fact['actor'], fact['object']), ('unknown', "my brother's car"))
+        self.assertEqual((participant(fact), fact['object']), ('unknown', "my brother's car"))
         facts = self.examples['Something is broken every time the dishes are washed by my daughter.']
-        self.assertEqual([f['actor'] for f in facts], ['unknown', 'my daughter'])
+        self.assertEqual([participant(f) for f in facts], ['unknown', 'my daughter'])
 
     def test_passive_bindings_preserve_agreement_and_compatible_work(self):
         for text, tense, aspect in [('The curtains were washed on Monday.', 'past', 'simple'),
@@ -1452,7 +1458,7 @@ class FactTemplateTests(unittest.TestCase):
         fact = self.examples['No way out has been found yet.'][0]
         self.assertEqual((fact['object'], fact['polarity'], fact['aspect']), ('way out', 'negative', 'perfect'))
         fact = self.examples['Whose report is being discussed now?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['possessor'], fact.get('status')), ('unknown', 'report', 'unknown', None))
+        self.assertEqual((participant(fact), fact['object'], fact['possessor'], fact.get('status')), ('unknown', 'report', 'unknown', None))
         facts = self.examples['How many times has the mincer been used since it was bought?']
         self.assertEqual((facts[0]['frequency'], facts[0].get('status'), facts[1].get('status')), ('unknown', None, 'asserted'))
         facts = self.examples["The children weren't made to help her in the garden."]
@@ -1473,32 +1479,32 @@ class FactTemplateTests(unittest.TestCase):
         first = self.examples['I was given really good advice.'][0]
         second = self.examples['Really good advice was given to me.'][0]
         self.assertEqual(first, second)
-        self.assertEqual((first['actor'], first['object'], first['recipient']),
+        self.assertEqual((participant(first), first['object'], first['recipient']),
                          ('unknown', 'really good advice', 'user'))
         active = self.examples['They gave me really good advice.'][0]
-        self.assertEqual((active['actor'], active['recipient']), ('they', 'user'))
+        self.assertEqual((participant(active), active['recipient']), ('they', 'user'))
         first = self.examples["Even a birthday card wasn't sent to me by her!"][0]
         second = self.examples["I wasn't even sent a birthday card by her!"][0]
         self.assertEqual(first, second)
-        self.assertEqual((first['actor'], first['object'], first['recipient'], first['polarity']),
+        self.assertEqual((participant(first), first['object'], first['recipient'], first['polarity']),
                          ('she', 'birthday card', 'user', 'negative'))
 
     def test_prepositional_passives_retain_topic_target_and_questioned_agent(self):
         fact = self.examples['Their holidays are being talked about.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['topic']), ('unknown', 'none', 'their holidays'))
+        self.assertEqual((participant(fact), fact['object'], fact['topic']), ('unknown', 'none', 'their holidays'))
         fact = self.examples['He is being waited for by everybody.'][0]
-        self.assertEqual((fact['actor'], fact['target'], fact['voice']), ('everybody', 'he', 'passive'))
+        self.assertEqual((participant(fact), fact['target'], fact['voice']), ('everybody', 'he', 'passive'))
         fact = self.examples['Who was this doctor recommended to you by?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['recipient'], fact.get('status')),
+        self.assertEqual((participant(fact), fact['object'], fact['recipient'], fact.get('status')),
                          ('unknown', 'this doctor', 'addressee', None))
         fact = self.examples['The message was written with a pen.'][0]
-        self.assertEqual((fact['actor'], fact['instrument']), ('unknown', 'pen'))
+        self.assertEqual((participant(fact), fact['instrument']), ('unknown', 'pen'))
 
     def test_passive_review_preserves_aspect_and_does_not_invent_context(self):
         fact = self.examples['The question has been discussed for two hours already.'][0]
         self.assertEqual((fact['aspect'], fact['duration'], fact['voice']), ('perfect', 'two hours', 'passive'))
         fact = self.examples['I have been waited for for a quarter of an hour already.'][0]
-        self.assertEqual((fact['actor'], fact['target'], fact['aspect']), ('unknown', 'user', 'perfect'))
+        self.assertEqual((participant(fact), fact['target'], fact['aspect']), ('unknown', 'user', 'perfect'))
         facts = self.examples['I have been kept waiting for half an hour!']
         self.assertEqual((facts[0]['action'], facts[0]['object'], facts[1]['action']), ('keep', 'user', 'wait'))
         self.assertEqual(self.examples['It is being tuned now.'][0]['object'], 'it')
@@ -1506,9 +1512,9 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_new_passive_bindings_agree_with_recipient_and_patient_number(self):
         fact = self.examples['They were given really good advice.'][0]
-        self.assertEqual((fact['actor'], fact['recipient']), ('unknown', 'they'))
+        self.assertEqual((participant(fact), fact['recipient']), ('unknown', 'they'))
         fact = self.examples['She has been waited for for a quarter of an hour already.'][0]
-        self.assertEqual((fact['actor'], fact['target']), ('unknown', 'she'))
+        self.assertEqual((participant(fact), fact['target']), ('unknown', 'she'))
         fact = self.examples['Your trousers are being ironed.'][0]
         self.assertEqual((fact['object'], fact['action']), ('your trousers', 'iron'))
         for text in ['They was given really good advice.', 'She have been waited for for a quarter of an hour already.',
@@ -1518,7 +1524,7 @@ class FactTemplateTests(unittest.TestCase):
     def test_passive_indirect_when_question_is_distinct_from_a_time_condition(self):
         facts = self.examples["You'll be told when your car will be sold."]
         self.assertEqual((facts[0]['recipient'], facts[1]['object']), ('addressee', 'your car'))
-        self.assertEqual((facts[1]['time'], facts[1]['tense'], facts[1].get('status')), ('unknown', 'future', None))
+        self.assertEqual((facts[1]['when'], facts[1]['tense'], facts[1].get('status')), ('unknown', 'future', None))
         facts = self.examples["I'll take a picture of you when you are given the prize."]
         self.assertEqual((facts[1]['recipient'], facts[1]['tense'], facts[1]['status']), ('addressee', 'present', 'hypothetical'))
         facts = self.examples["If the work isn't finished by evening, you'll be in trouble."]
@@ -1534,7 +1540,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual([f['tense'] for f in facts], ['past', 'past'])
         self.assertEqual([f['aspect'] for f in facts], ['perfect', 'perfect'])
         self.assertEqual(facts[1]['condition'], 'if I had known his number')
-        self.assertEqual(facts[1]['time'], 'long ago')
+        self.assertEqual(facts[1]['when'], 'long ago')
 
     def test_mixed_conditionals_preserve_time_of_each_clause(self):
         facts = self.examples["If you had prepared everything beforehand we wouldn't wait for you now."]
@@ -1543,20 +1549,20 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples['If I were rich I would have stopped at the Ritz.']
         self.assertEqual([(f['tense'], f['aspect']) for f in facts], [('present', 'simple'), ('past', 'perfect')])
         facts = self.examples["If you had bought a present last week, you wouldn't be nervous now."]
-        self.assertEqual([f['time'] for f in facts], ['last week', 'now'])
+        self.assertEqual([f['when'] for f in facts], ['last week', 'now'])
         facts = self.examples["If you hadn't missed the lecture you wouldn't be asking me about it now."]
         self.assertEqual((facts[1]['aspect'], facts[1]['topic']), ('continuous', 'lecture'))
 
     def test_conditional_advice_and_reported_unreality_do_not_add_intentions(self):
         facts = self.examples['If I were you I would learn English.']
-        self.assertEqual([f['actor'] for f in facts], ['user', 'user'])
+        self.assertEqual([participant(f) for f in facts], ['user', 'user'])
         self.assertEqual(facts[0]['complement'], 'addressee')
         self.assertTrue(all(f['operation'] == 'none' for f in facts))
         facts = self.examples["He said that if he ate less he wouldn't be so fat."]
         self.assertEqual((facts[0]['tense'], facts[0]['status']), ('past', 'asserted'))
         self.assertTrue(all(f['tense'] == 'present' and f['status'] == 'counterfactual' for f in facts[1:]))
         facts = self.examples['He said that if he knew this song he would sing it now.']
-        self.assertEqual((facts[-1]['object'], facts[-1]['time']), ('this song', 'now'))
+        self.assertEqual((facts[-1]['object'], facts[-1]['when']), ('this song', 'now'))
 
     def test_unreal_questions_keep_missing_roles_and_subjunctive_scope(self):
         facts = self.examples['Where would you have gone last summer if you had had a chance?']
@@ -1565,15 +1571,15 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((question.get('status'), question['mood']), (None, 'subjunctive'))
         facts = self.examples['What would you do if you were the headmaster?']
         question = next(f for f in facts if f['action'] == 'do')
-        self.assertEqual((question['object'], question['actor'], question.get('status')), ('unknown', 'addressee', None))
+        self.assertEqual((question['object'], participant(question), question.get('status')), ('unknown', 'addressee', None))
 
     def test_unreal_passives_preserve_patient_and_unstated_agent(self):
         facts = self.examples["If you had bought a ticket you wouldn't have been fined."]
-        self.assertEqual((facts[1]['actor'], facts[1]['object'], facts[1]['voice']), ('unknown', 'addressee', 'passive'))
+        self.assertEqual((participant(facts[1]), facts[1]['object'], facts[1]['voice']), ('unknown', 'addressee', 'passive'))
         self.assertEqual((facts[1]['status'], facts[1]['polarity']), ('counterfactual', 'negative'))
         facts = self.examples["I would have met him yesterday if I hadn't been held up at work."]
         held = next(f for f in facts if f['action'] == 'hold up')
-        self.assertEqual((held['actor'], held['object'], held['voice']), ('unknown', 'user', 'passive'))
+        self.assertEqual((participant(held), held['object'], held['voice']), ('unknown', 'user', 'passive'))
         self.assertEqual((held['tense'], held['aspect'], held['polarity']), ('past', 'perfect', 'negative'))
 
     def test_but_for_does_not_add_an_asserted_opposite_fact(self):
@@ -1625,7 +1631,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_conditional_body_parts_and_passive_reciprocity_keep_participants(self):
         fact = self.examples["If it hadn't been slippery he wouldn't have broken his arm."][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['possessor'], fact['reflexive']), ('he', 'his arm', 'he', 'no'))
+        self.assertEqual((participant(fact), fact['object'], fact['possessor'], fact['reflexive']), ('he', 'his arm', 'he', 'no'))
         facts = self.examples["I dyed my hair but now I don't like the colour."]
         self.assertEqual((facts[0]['object'], facts[0]['possessor'], facts[0]['reflexive']), ('my hair', 'user', 'no'))
         facts = self.examples["Though Mr. Smith had been described to me I couldn't recognize him until we were introduced to each other."]
@@ -1633,19 +1639,19 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_conditional_name_slots_bind_actor_possessor_and_condition_together(self):
         facts = self.examples["If Adam weren't nervous he wouldn't have shouted at his child."]
-        self.assertEqual([f['actor'] for f in facts], ['Adam', 'Adam'])
+        self.assertEqual([participant(f) for f in facts], ['Adam', 'Adam'])
         self.assertEqual((facts[1]['target'], facts[1]['condition']), ("Adam's child", "if Adam weren't nervous"))
         facts = self.examples['If Jane had cleaned her coat she would be able to put it on.']
-        self.assertEqual([f['actor'] for f in facts], ['Jane', 'Jane'])
+        self.assertEqual([participant(f) for f in facts], ['Jane', 'Jane'])
         self.assertEqual([f['object'] for f in facts], ["Jane's coat", "Jane's coat"])
         self.assertEqual(facts[1]['condition'], 'if Jane had cleaned her coat')
 
     def test_wish_slots_bind_agreement_possession_content_and_skill(self):
         facts = self.examples['They wish they had a house of their own.']
-        self.assertEqual([f['actor'] for f in facts], ['they', 'they'])
+        self.assertEqual([participant(f) for f in facts], ['they', 'they'])
         self.assertEqual((facts[0]['content'], facts[1]['object']), ('they had a house of their own', 'house of their own'))
         facts = self.examples['She wishes she were a model.']
-        self.assertEqual([f['actor'] for f in facts], ['she', 'she'])
+        self.assertEqual([participant(f) for f in facts], ['she', 'she'])
         fact = self.examples['I wish I could swim.'][1]
         self.assertEqual((fact['action'], fact['modality'], fact['status']), ('swim', 'could', 'counterfactual'))
         facts = self.examples['He wishes he spoke French better.']
@@ -1671,7 +1677,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((fact['tense'], fact['status'], fact['modal_meaning']), ('present', 'required', 'request'))
         self.assertEqual(fact['politeness'], 'polite')
         fact = self.examples['Could I ask you a question?'][0]
-        self.assertEqual((fact['actor'], fact['recipient'], fact['modal_meaning']), ('user', 'addressee', 'permission'))
+        self.assertEqual((participant(fact), fact['recipient'], fact['modal_meaning']), ('user', 'addressee', 'permission'))
         fact = self.examples['Could you skate when you were six?'][0]
         self.assertEqual((fact['tense'], fact.get('status')), ('past', None))
 
@@ -1717,7 +1723,7 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual((fact['tense'], fact['aspect']), (tense, aspect))
             self.assertIn(fact.get('status'), (None, 'inferred'))
         fact = self.examples["It can't have rained half an hour ago."][0]
-        self.assertEqual((fact['actor'], fact['time']), ('none', 'half an hour ago'))
+        self.assertEqual((participant(fact), fact['when']), ('none', 'half an hour ago'))
         fact = self.examples['Can he have been playing the piano since morning?'][0]
         self.assertEqual(fact['since'], 'morning')
         self.assertNotIn('duration', fact)
@@ -1750,7 +1756,7 @@ class FactTemplateTests(unittest.TestCase):
         fact = self.examples['We were to meet at five.'][0]
         self.assertEqual((fact['tense'], fact['modality'], fact['status']), ('past', 'be to', 'planned'))
         fact = self.examples['The medicine is to be taken after meals.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice'], fact['status']), ('unknown', 'medicine', 'passive', 'required'))
+        self.assertEqual((participant(fact), fact['object'], fact['voice'], fact['status']), ('unknown', 'medicine', 'passive', 'required'))
         facts = self.examples['The guide was to meet the group and take them to the hotel yesterday.']
         self.assertEqual([f['object'] for f in facts], ['group', 'group'])
         self.assertTrue(all(f['status'] == 'planned' for f in facts))
@@ -1766,11 +1772,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_reported_modal_commands_bind_all_actions_to_the_named_recipient(self):
         facts = self.examples['“You are to look after the children properly, feed them and take them for a walk,” Mrs. Swift said to the baby-sitter.']
-        self.assertEqual((facts[0]['actor'], facts[0]['recipient']), ('Mrs. Swift', 'baby-sitter'))
+        self.assertEqual((participant(facts[0]), facts[0]['recipient']), ('Mrs. Swift', 'baby-sitter'))
         self.assertEqual([f['action'] for f in facts[1:]], ['look after', 'feed', 'take'])
-        self.assertTrue(all(f['actor'] == 'baby-sitter' and f['object'] == 'children' and f['status'] == 'required' for f in facts[1:]))
+        self.assertTrue(all(participant(f) == 'baby-sitter' and f['object'] == 'children' and f['status'] == 'required' for f in facts[1:]))
         facts = self.examples['“When am I to return the book?” Steve asked the librarian.']
-        self.assertEqual((facts[1]['actor'], facts[1]['time'], facts[1].get('status')), ('Steve', 'unknown', None))
+        self.assertEqual((participant(facts[1]), facts[1]['when'], facts[1].get('status')), ('Steve', 'unknown', None))
         facts = self.examples['He said that I must come at once.']
         self.assertEqual((facts[0]['tense'], facts[1]['tense']), ('past', 'present'))
 
@@ -1781,7 +1787,7 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual((fact['tense'], fact['status'], fact['polarity'], fact['modality']),
                              ('future', 'possible', 'positive', modality))
         facts = self.examples['Now he is to be in California and in a week in Colorado.']
-        self.assertEqual([f['location'] for f in facts], ['in California', 'in Colorado'])
+        self.assertEqual([f['where'] for f in facts], ['in California', 'in Colorado'])
         self.assertTrue(all(f['status'] == 'planned' for f in facts))
 
     def test_may_permission_is_distinct_from_possibility_and_reproach(self):
@@ -1796,11 +1802,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_may_prohibitions_keep_passive_roles_and_unless_scope(self):
         fact = self.examples['Alcoholic drinks may not be sold to people under 18.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['recipient']), ('unknown', 'alcoholic drinks', 'people under 18'))
+        self.assertEqual((participant(fact), fact['object'], fact['recipient']), ('unknown', 'alcoholic drinks', 'people under 18'))
         self.assertEqual((fact['voice'], fact['status'], fact['polarity']), ('passive', 'required', 'negative'))
         facts = self.examples['Children under 7 may not enter unless they are with an adult.']
         self.assertEqual(facts[0]['condition'], 'unless they are with an adult')
-        self.assertEqual((facts[1]['actor'], facts[1]['companion'], facts[1]['status']), ('children under 7', 'adult', 'hypothetical'))
+        self.assertEqual((participant(facts[1]), facts[1]['companion'], facts[1]['status']), ('children under 7', 'adult', 'hypothetical'))
         self.assertEqual(self.examples['Yes, you may.'][0]['action'], 'unknown')
         self.assertEqual(self.examples["No, you can't."][0]['action'], 'unknown')
 
@@ -1814,7 +1820,7 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual((fact['intention'], fact['operation']), ('none', 'none'))
 
     def test_modal_task_context_is_not_carried_into_standalone_answers(self):
-        self.assertEqual(self.examples['She must have looked ill.'][0]['actor'], 'she')
+        self.assertEqual(participant(self.examples['She must have looked ill.'][0]), 'she')
         self.assertEqual(self.examples['John must have proposed to her.'][0]['recipient'], 'her')
         self.assertEqual(self.examples['Can you have read it yet?'][0]['object'], 'it')
         self.assertEqual(self.examples['You must publish it.'][0]['object'], 'it')
@@ -1825,10 +1831,10 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_modal_slots_keep_ability_and_necessity_auxiliaries_and_articles_bound(self):
         fact = self.examples["They weren't able to start the car."][0]
-        self.assertEqual((fact['actor'], fact['polarity']), ('they', 'negative'))
+        self.assertEqual((participant(fact), fact['polarity']), ('they', 'negative'))
         fact = self.examples["He hasn't been able to sleep well lately."][0]
-        self.assertEqual((fact['actor'], fact['aspect']), ('he', 'perfect'))
-        self.assertEqual(self.examples['He has to stay at home every evening.'][0]['actor'], 'he')
+        self.assertEqual((participant(fact), fact['aspect']), ('he', 'perfect'))
+        self.assertEqual(participant(self.examples['He has to stay at home every evening.'][0]), 'he')
         self.assertEqual(self.examples['The pills are to be taken after meals.'][0]['object'], 'pills')
         facts = self.examples['I was late because I had to type a letter.']
         self.assertEqual((facts[0]['reason'], facts[1]['object']), ('I had to type a letter', 'letter'))
@@ -1840,11 +1846,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_modal_slots_bind_ongoing_verbs_possessors_and_duration_types(self):
         fact = self.examples['Can they be working now?'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['aspect'], fact.get('status')), ('they', 'work', 'continuous', None))
+        self.assertEqual((participant(fact), fact['action'], fact['aspect'], fact.get('status')), ('they', 'work', 'continuous', None))
         fact = self.examples['She is likely to pass her exam.'][0]
-        self.assertEqual((fact['actor'], fact['object']), ('she', 'her exam'))
+        self.assertEqual((participant(fact), fact['object']), ('she', 'her exam'))
         fact = self.examples['Can Robert have been riding his bicycle since yesterday?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['since']), ('Robert', "Robert's bicycle", 'yesterday'))
+        self.assertEqual((participant(fact), fact['object'], fact['since']), ('Robert', "Robert's bicycle", 'yesterday'))
         fact = self.examples['We must have been waiting for a bus for three hours.'][0]
         self.assertEqual((fact['target'], fact['duration']), ('bus', 'three hours'))
         self.assertNotIn('Can Robert have been riding his bicycle since three hours?', self.examples)
@@ -1889,7 +1895,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((facts[0]['status'], facts[0]['aspect'], facts[0]['negation_scope']),
                          ('not required', 'simple', 'modality'))
         self.assertNotIn('outcome', facts[0])
-        self.assertEqual((facts[1]['actor'], facts[1]['action'], facts[1]['recipient']), ('they', 'send', 'user'))
+        self.assertEqual((participant(facts[1]), facts[1]['action'], facts[1]['recipient']), ('they', 'send', 'user'))
 
     def test_lexical_need_and_modal_need_are_separate(self):
         fact = self.examples["I don't need this pen now."][0]
@@ -1907,7 +1913,7 @@ class FactTemplateTests(unittest.TestCase):
                                      ('He has them.', 'object', 'them')]:
             self.assertEqual(self.examples[text][0][role], expected)
         fact = self.examples["The child needn't put on his hat."][0]
-        self.assertEqual((fact['actor'], fact['object']), ('child', "child's hat"))
+        self.assertEqual((participant(fact), fact['object']), ('child', "child's hat"))
 
     def test_past_advice_records_actual_outcome_without_reversing_polarity(self):
         fact = self.examples['You should have put on something warm.'][0]
@@ -1926,7 +1932,7 @@ class FactTemplateTests(unittest.TestCase):
             self.assertNotIn('outcome', fact)
         self.assertEqual(self.examples["Why didn't you?"][0]['action'], 'unknown')
         facts = self.examples["You shouldn't have kept them waiting."]
-        self.assertEqual((facts[0]['outcome'], facts[1]['actor'], facts[1]['status']), ('completed', 'they', 'reported'))
+        self.assertEqual((facts[0]['outcome'], participant(facts[1]), facts[1]['status']), ('completed', 'they', 'reported'))
 
     def test_modal_review_keeps_english_source_and_desired_ability(self):
         fact = self.examples['You must obey the police.'][0]
@@ -1939,10 +1945,10 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_modal_review_preserves_passive_agents_and_stative_perfect(self):
         fact = self.examples['He must have been hurt by your words.'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['voice']),
+        self.assertEqual((participant(fact), fact['action'], fact['object'], fact['voice']),
                          ('your words', 'hurt', 'he', 'passive'))
         fact = self.examples['Can he have been involved in this robbery?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact.get('status')), ('unknown', 'he', None))
+        self.assertEqual((participant(fact), fact['object'], fact.get('status')), ('unknown', 'he', None))
         fact = self.examples['Can they have been in love all this time?'][0]
         self.assertEqual((fact['tense'], fact['aspect']), ('present', 'perfect'))
         self.assertEqual(self.examples['She must have had little practice.'][0]['polarity'], 'positive')
@@ -1950,8 +1956,8 @@ class FactTemplateTests(unittest.TestCase):
     def test_gerund_simple_active_and_passive_are_not_continuous(self):
         active = self.examples['She likes interviewing people.'][1]
         passive = self.examples['She likes being interviewed.'][1]
-        self.assertEqual((active['actor'], active['object'], active['voice']), ('she', 'people', 'active'))
-        self.assertEqual((passive['actor'], passive['object'], passive['voice']), ('unknown', 'she', 'passive'))
+        self.assertEqual((participant(active), active['object'], active['voice']), ('she', 'people', 'active'))
+        self.assertEqual((participant(passive), passive['object'], passive['voice']), ('unknown', 'she', 'passive'))
         for fact in [active, passive]:
             self.assertEqual((fact['verb_form'], fact['tense'], fact['aspect'], fact['status']),
                              ('gerund', 'nonfinite', 'simple', 'preferred'))
@@ -1959,8 +1965,8 @@ class FactTemplateTests(unittest.TestCase):
     def test_perfect_gerund_marks_anteriority_and_passive_recipient(self):
         active = self.examples['He regretted having told them the truth.'][1]
         passive = self.examples['He regretted having been told the truth.'][1]
-        self.assertEqual((active['actor'], active['recipient']), ('he', 'them'))
-        self.assertEqual((passive['actor'], passive['recipient'], passive['voice']), ('unknown', 'he', 'passive'))
+        self.assertEqual((participant(active), active['recipient']), ('he', 'them'))
+        self.assertEqual((participant(passive), passive['recipient'], passive['voice']), ('unknown', 'he', 'passive'))
         for fact in [active, passive]:
             self.assertEqual((fact['aspect'], fact['tense'], fact['temporal_relation']),
                              ('perfect', 'nonfinite', 'before main verb'))
@@ -1969,9 +1975,9 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_active_gerund_after_need_has_passive_meaning(self):
         facts = self.examples['My shoes need repairing.']
-        self.assertEqual((facts[0]['actor'], facts[0]['action']), ('my shoes', 'need'))
+        self.assertEqual((participant(facts[0]), facts[0]['action']), ('my shoes', 'need'))
         fact = facts[1]
-        self.assertEqual((fact['actor'], fact['action'], fact['object']), ('unknown', 'repair', 'my shoes'))
+        self.assertEqual((participant(fact), fact['action'], fact['object']), ('unknown', 'repair', 'my shoes'))
         self.assertEqual((fact['voice'], fact['form_voice'], fact['status']), ('passive', 'active', 'required'))
         self.assertNotIn('outcome', fact)
 
@@ -1980,10 +1986,10 @@ class FactTemplateTests(unittest.TestCase):
                             ("I don't mind his opening the window.", 'he'),
                             ("I don't mind him opening the window.", 'he')]:
             facts = self.examples[text]
-            self.assertEqual((facts[0]['actor'], facts[0]['polarity']), ('user', 'negative'))
-            self.assertEqual((facts[1]['actor'], facts[1]['polarity'], facts[1]['status']), (actor, 'positive', 'permitted'))
-        self.assertEqual(self.examples['Why do you insist on leaving?'][1]['actor'], 'addressee')
-        self.assertEqual(self.examples['Why do you insist on her leaving?'][1]['actor'], 'she')
+            self.assertEqual((participant(facts[0]), facts[0]['polarity']), ('user', 'negative'))
+            self.assertEqual((participant(facts[1]), facts[1]['polarity'], facts[1]['status']), (actor, 'positive', 'permitted'))
+        self.assertEqual(participant(self.examples['Why do you insist on leaving?'][1]), 'addressee')
+        self.assertEqual(participant(self.examples['Why do you insist on her leaving?'][1]), 'she')
 
     def test_gerunds_preserve_subject_adverbial_attribute_and_predicative_roles(self):
         for text, action, function, actor in [
@@ -1992,7 +1998,7 @@ class FactTemplateTests(unittest.TestCase):
                 ('I had the pleasure of reading the book by this author.', 'read', 'attribute', 'user'),
                 ('His hobby is reading adventure books.', 'read', 'predicative', 'he')]:
             fact = next(f for f in self.examples[text] if f['action'] == action)
-            self.assertEqual((fact['syntactic_function'], fact['actor'], fact['tense']), (function, actor, 'nonfinite'))
+            self.assertEqual((fact['syntactic_function'], participant(fact), fact['tense']), (function, actor, 'nonfinite'))
 
     def test_gerund_subject_transformation_does_not_invent_a_speaker(self):
         original = self.examples["It's boring to clean the flat."]
@@ -2002,47 +2008,47 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((original[0]['predicate'], transformed[0]['predicate']), ("'s", 'is'))
         self.assertEqual((original[1]['verb_form'], transformed[1]['verb_form']), ('infinitive', 'gerund'))
         for fact in [original[1], transformed[1]]:
-            self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['status']),
+            self.assertEqual((participant(fact), fact['action'], fact['object'], fact['status']),
                              ('unknown', 'clean', 'flat', 'hypothetical'))
-        self.assertEqual(self.examples['Speaking before a large audience made him nervous.'][1]['actor'], 'he')
+        self.assertEqual(participant(self.examples['Speaking before a large audience made him nervous.'][1]), 'he')
 
     def test_passive_gerunds_keep_recipients_and_unknown_actors(self):
         for text, obj, recipient in [('I remember being asked for help.', 'help', 'user'),
                                      ('He was tired of being asked questions.', 'questions', 'he'),
                                      ("I'm looking forward to being shown the place.", 'place', 'user')]:
             fact = self.examples[text][1]
-            self.assertEqual((fact['actor'], fact['object'], fact['recipient'], fact['voice']),
+            self.assertEqual((participant(fact), fact['object'], fact['recipient'], fact['voice']),
                              ('unknown', obj, recipient, 'passive'))
         fact = self.examples['The manager objects to the work being done now.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['status']), ('unknown', 'work', 'unwanted'))
+        self.assertEqual((participant(fact), fact['object'], fact['status']), ('unknown', 'work', 'unwanted'))
         fact = self.examples['I avoid being visited by strangers.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['status']), ('strangers', 'user', 'unwanted'))
+        self.assertEqual((participant(fact), fact['object'], fact['status']), ('strangers', 'user', 'unwanted'))
 
     def test_gerund_passive_changes_control_of_nested_infinitive(self):
         active = self.examples['He objected to forcing me to do it.']
         passive = self.examples['He objected to being forced to do it.']
-        self.assertEqual((active[1]['actor'], active[1]['object'], active[2]['actor']), ('he', 'user', 'user'))
-        self.assertEqual((passive[1]['actor'], passive[1]['object'], passive[2]['actor']), ('unknown', 'he', 'he'))
+        self.assertEqual((participant(active[1]), active[1]['object'], participant(active[2])), ('he', 'user', 'user'))
+        self.assertEqual((participant(passive[1]), passive[1]['object'], participant(passive[2])), ('unknown', 'he', 'he'))
         for facts in [active, passive]:
             self.assertEqual((facts[1]['status'], facts[2]['status']), ('unwanted', 'required'))
-        self.assertEqual(self.examples['Do you mind telling us how to do it?'][2]['actor'], 'we')
-        self.assertEqual(self.examples['Do you mind being told how to do it?'][2]['actor'], 'addressee')
+        self.assertEqual(participant(self.examples['Do you mind telling us how to do it?'][2]), 'we')
+        self.assertEqual(participant(self.examples['Do you mind being told how to do it?'][2]), 'addressee')
 
     def test_gerund_requests_keep_explicit_actor_and_requested_action(self):
         for text, actor in [('Do you mind my turning on the TV-set?', 'user'),
                             ('Do you mind switching off the light?', 'addressee'),
                             ('Do you mind her talking to him?', 'she')]:
             facts = self.examples[text]
-            self.assertEqual((facts[0]['actor'], facts[0].get('status')), ('addressee', None))
-            self.assertEqual(facts[1]['actor'], actor)
+            self.assertEqual((participant(facts[0]), facts[0].get('status')), ('addressee', None))
+            self.assertEqual(participant(facts[1]), actor)
         self.assertEqual(self.examples['Do you mind switching off the light?'][1]['status'], 'required')
         self.assertEqual(self.examples['Do you mind?'][0]['action'], 'mind')
 
     def test_new_modal_slots_bind_articles_lemmas_and_duration_types(self):
         fact = self.examples['They may not be writing an article.'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['object']), ('they', 'write', 'article'))
+        self.assertEqual((participant(fact), fact['action'], fact['object']), ('they', 'write', 'article'))
         fact = self.examples['We may have been sleeping.'][0]
-        self.assertEqual((fact['actor'], fact['action'], fact['aspect']), ('we', 'sleep', 'perfect_continuous'))
+        self.assertEqual((participant(fact), fact['action'], fact['aspect']), ('we', 'sleep', 'perfect_continuous'))
         self.assertNotIn('They may not be writing a article.', self.examples)
         self.assertIn('He must have been taking a shower for three hours.', self.examples)
         self.assertIn('It may have been raining since yesterday there.', self.examples)
@@ -2050,14 +2056,14 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_gerund_slots_bind_agreement_ownership_and_passive_roles(self):
         facts = self.examples['They like being interviewed.']
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[1]['object']), ('they', 'unknown', 'they'))
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[1]['object']), ('they', 'unknown', 'they'))
         facts = self.examples["I don't mind their opening the door."]
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[1]['object']), ('user', 'they', 'door'))
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[1]['object']), ('user', 'they', 'door'))
         fact = self.examples['I regretted having been told the truth.'][1]
-        self.assertEqual((fact['actor'], fact['recipient']), ('unknown', 'user'))
+        self.assertEqual((participant(fact), fact['recipient']), ('unknown', 'user'))
         self.assertNotIn('They likes being interviewed.', self.examples)
         self.assertEqual(self.examples['Thinking is useful.'][1]['action'], 'think')
-        self.assertEqual(self.examples['On arriving in Oxford he went to the hotel.'][1]['time'], 'on arriving in Oxford')
+        self.assertEqual(self.examples['On arriving in Oxford he went to the hotel.'][1]['when'], 'on arriving in Oxford')
 
     def test_lessons_71_75_task_answers_and_gerund_contrasts_share_families(self):
         templates = {t['id']: t for t in self.templates}
@@ -2074,7 +2080,7 @@ class FactTemplateTests(unittest.TestCase):
                                     ('The man denies stealing anything.', 'man', 'steal')]:
             facts = self.examples[text]
             self.assertEqual((facts[0]['action'], facts[0]['polarity']), ('deny', 'positive'))
-            self.assertEqual((facts[1]['actor'], facts[1]['action'], facts[1]['status']), (actor, action, 'denied'))
+            self.assertEqual((participant(facts[1]), facts[1]['action'], facts[1]['status']), (actor, action, 'denied'))
             self.assertEqual(facts[1]['tense'], 'nonfinite')
 
     def test_cannot_help_gerund_means_involuntary_action_not_absence(self):
@@ -2083,28 +2089,28 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((facts[1]['action'], facts[1]['polarity'], facts[1]['status'], facts[1]['control']),
                          ('laugh', 'positive', 'reported', 'involuntary'))
         fact = self.examples["The letter was so disrespectful that she couldn't help tearing it."][-1]
-        self.assertEqual((fact['actor'], fact['object']), ('she', 'letter'))
+        self.assertEqual((participant(fact), fact['object']), ('she', 'letter'))
 
     def test_gerund_need_worth_and_elliptical_objects_keep_semantic_roles(self):
         fact = self.examples['The floor needs washing.'][1]
-        self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['voice'], fact['form_voice']),
+        self.assertEqual((participant(fact), fact['action'], fact['object'], fact['voice'], fact['form_voice']),
                          ('unknown', 'wash', 'floor', 'passive', 'active'))
         self.assertEqual(fact['status'], 'required')
         fact = self.examples['The exhibition is worth visiting.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['status']), ('unknown', 'exhibition', 'advised'))
+        self.assertEqual((participant(fact), fact['object'], fact['status']), ('unknown', 'exhibition', 'advised'))
         self.assertEqual(self.examples['It needs repairing.'][1]['object'], 'it')
         self.assertEqual(self.examples['They need drying.'][1]['object'], 'they')
 
     def test_before_after_and_without_gerunds_keep_temporal_and_negative_scope(self):
         facts = self.examples['Read the instruction before opening the box.']
-        self.assertEqual((facts[0]['status'], facts[1]['actor'], facts[1]['temporal_relation']),
+        self.assertEqual((facts[0]['status'], participant(facts[1]), facts[1]['temporal_relation']),
                          ('required', 'addressee', 'after main verb'))
         self.assertEqual(facts[1]['status'], 'hypothetical')
         facts = self.examples['After doing his morning exercises he took a shower.']
         self.assertEqual((facts[0]['temporal_relation'], facts[0]['status']), ('before main verb', 'reported'))
         facts = self.examples['He sat down without asking permission.']
         self.assertEqual((facts[0]['polarity'], facts[1]['polarity']), ('positive', 'negative'))
-        self.assertEqual((facts[1]['actor'], facts[1]['syntactic_function']), ('he', 'adverbial'))
+        self.assertEqual((participant(facts[1]), facts[1]['syntactic_function']), ('he', 'adverbial'))
 
     def test_continuation_cessation_and_questioned_cessation_are_separate(self):
         fact = self.examples['She kept laughing.'][1]
@@ -2117,12 +2123,12 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_gerund_owners_and_prepositional_passive_do_not_become_matrix_subject(self):
         facts = self.examples['Why do you insist on her returning?']
-        self.assertEqual([f['actor'] for f in facts], ['addressee', 'she'])
+        self.assertEqual([participant(f) for f in facts], ['addressee', 'she'])
         facts = self.examples["I'm afraid of her doing it in any case."]
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[1]['status']), ('user', 'she', 'feared'))
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[1]['status']), ('user', 'she', 'feared'))
         fact = self.examples['I object to being spoken to like this.'][1]
-        self.assertEqual((fact['actor'], fact['recipient'], fact['voice']), ('unknown', 'user', 'passive'))
-        self.assertEqual(self.examples["I'm not used to being told what to do."][2]['actor'], 'user')
+        self.assertEqual((participant(fact), fact['recipient'], fact['voice']), ('unknown', 'user', 'passive'))
+        self.assertEqual(participant(self.examples["I'm not used to being told what to do."][2]), 'user')
 
     def test_infinitive_perfect_and_continuous_preserve_relative_time(self):
         fact = self.examples['He pretended to be reading a newspaper.'][1]
@@ -2138,28 +2144,28 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_infinitive_passive_does_not_assign_the_raiser_as_agent(self):
         fact = self.examples['The letters seem to have been signed.'][1]
-        self.assertEqual((fact['actor'], fact['action'], fact['object'], fact['voice']), ('unknown', 'sign', 'letters', 'passive'))
+        self.assertEqual((participant(fact), fact['action'], fact['object'], fact['voice']), ('unknown', 'sign', 'letters', 'passive'))
         fact = self.examples['He is happy to have been invited to the party.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['aspect']), ('unknown', 'he', 'perfect'))
+        self.assertEqual((participant(fact), fact['object'], fact['aspect']), ('unknown', 'he', 'perfect'))
         fact = self.examples['He wanted to be asked about it.'][1]
-        self.assertEqual((fact['actor'], fact['recipient'], fact['status']), ('unknown', 'he', 'intended'))
+        self.assertEqual((participant(fact), fact['recipient'], fact['status']), ('unknown', 'he', 'intended'))
 
     def test_make_and_allow_passives_keep_embedded_subject_and_marker(self):
         active = self.examples['They made me say it.']
         passive = self.examples['I was made to say it.']
-        self.assertEqual((active[0]['actor'], active[1]['actor'], active[1]['marker']), ('they', 'user', 'bare'))
-        self.assertEqual((passive[0]['actor'], passive[0]['object'], passive[1]['actor']), ('unknown', 'user', 'user'))
+        self.assertEqual((participant(active[0]), participant(active[1]), active[1]['marker']), ('they', 'user', 'bare'))
+        self.assertEqual((participant(passive[0]), passive[0]['object'], participant(passive[1])), ('unknown', 'user', 'user'))
         self.assertNotIn('marker', passive[1])
         facts = self.examples['I was allowed to visit the sick man.']
-        self.assertEqual((facts[1]['actor'], facts[1]['status']), ('user', 'permitted'))
+        self.assertEqual((participant(facts[1]), facts[1]['status']), ('user', 'permitted'))
         facts = self.examples["I can't make the child go to bed."]
-        self.assertEqual((facts[1]['actor'], facts[1]['status']), ('child', 'hypothetical'))
+        self.assertEqual((participant(facts[1]), facts[1]['status']), ('child', 'hypothetical'))
 
     def test_infinitive_negation_and_advice_have_their_own_scope(self):
         facts = self.examples['They claim not to understand anything.']
         self.assertEqual((facts[0]['polarity'], facts[1]['polarity']), ('positive', 'negative'))
         facts = self.examples['Jack decided not to answer the letter.']
-        self.assertEqual((facts[1]['actor'], facts[1]['polarity'], facts[1]['status']), ('Jack', 'negative', 'intended'))
+        self.assertEqual((participant(facts[1]), facts[1]['polarity'], facts[1]['status']), ('Jack', 'negative', 'intended'))
         fact = self.examples["You'd better spend the evening at home."][0]
         self.assertEqual((fact['tense'], fact['modality'], fact['status']), ('present', 'had better', 'advised'))
         fact = self.examples['The doctor forbade him to smoke.'][1]
@@ -2167,16 +2173,16 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_for_infinitive_identifies_actor_independently_of_possessor(self):
         facts = self.examples['He has a lot of books for you to read.']
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[1]['object']), ('he', 'addressee', 'books'))
-        self.assertEqual(self.examples['He has a lot of books to read.'][1]['actor'], 'he')
-        self.assertEqual(self.examples['There are a lot of books to read.'][1]['actor'], 'unknown')
-        self.assertEqual(self.examples['There are other facts to prove this theory.'][1]['actor'], 'other facts')
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[1]['object']), ('he', 'addressee', 'books'))
+        self.assertEqual(participant(self.examples['He has a lot of books to read.'][1]), 'he')
+        self.assertEqual(participant(self.examples['There are a lot of books to read.'][1]), 'unknown')
+        self.assertEqual(participant(self.examples['There are other facts to prove this theory.'][1]), 'other facts')
 
     def test_degree_infinitives_preserve_unachievable_action_and_object(self):
         fact = self.examples['The article is too difficult for him to translate.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['status']), ('he', 'article', 'impossible'))
+        self.assertEqual((participant(fact), fact['object'], fact['status']), ('he', 'article', 'impossible'))
         fact = self.examples['The house is not large enough for such a big family to live in.'][1]
-        self.assertEqual((fact['actor'], fact['location'], fact['status']), ('such a big family', 'in the house', 'impossible'))
+        self.assertEqual((participant(fact), fact['where'], fact['status']), ('such a big family', 'in the house', 'impossible'))
         facts = self.examples['The car is not cheap enough for me to buy.']
         self.assertEqual((facts[0]['polarity'], facts[1]['polarity']), ('negative', 'positive'))
         self.assertEqual(self.examples['These books are easy enough for the child to read.'][1]['status'], 'possible')
@@ -2184,7 +2190,7 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_ordinal_infinitive_describes_reported_event_and_bound_possessor(self):
         facts = self.examples['Frank was the first to tell his father the pleasant news.']
-        self.assertEqual((facts[0]['complement'], facts[1]['actor'], facts[1]['recipient']),
+        self.assertEqual((facts[0]['complement'], participant(facts[1]), facts[1]['recipient']),
                          ('first', 'Frank', "Frank's father"))
         self.assertEqual((facts[1]['order'], facts[1]['status']), ('first', 'reported'))
         fact = self.examples['He was the second to get to the finishing line.'][1]
@@ -2193,14 +2199,14 @@ class FactTemplateTests(unittest.TestCase):
     def test_causative_have_is_distinct_from_doing_and_modal_perfect(self):
         direct = self.examples['I must cut my hair.']
         self.assertEqual(len(direct), 1)
-        self.assertEqual((direct[0]['actor'], direct[0]['action']), ('user', 'cut'))
+        self.assertEqual((participant(direct[0]), direct[0]['action']), ('user', 'cut'))
         facts = self.examples['I must have my hair cut.']
-        self.assertEqual((facts[0]['actor'], facts[0]['action'], facts[0]['causative']), ('user', 'have', 'yes'))
+        self.assertEqual((participant(facts[0]), facts[0]['action'], facts[0]['causative']), ('user', 'have', 'yes'))
         self.assertEqual((facts[0]['tense'], facts[0]['aspect'], facts[0]['modal_meaning']), ('present', 'simple', 'obligation'))
-        self.assertEqual((facts[1]['actor'], facts[1]['object'], facts[1]['causer'], facts[1]['status']),
+        self.assertEqual((participant(facts[1]), facts[1]['object'], facts[1]['causer'], facts[1]['status']),
                          ('unknown', 'my hair', 'user', 'required'))
         facts = self.examples['I want to have my hair cut.']
-        self.assertEqual((facts[0]['operation'], facts[1]['actor'], facts[1]['operation']), ('add', 'unknown', 'none'))
+        self.assertEqual((facts[0]['operation'], participant(facts[1]), facts[1]['operation']), ('add', 'unknown', 'none'))
 
     def test_causative_questions_do_not_assert_service_completion(self):
         facts = self.examples['Have you had your hair cut?']
@@ -2208,7 +2214,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((facts[0]['aspect'], facts[1]['aspect'], facts[1]['tense']), ('perfect', 'simple', 'nonfinite'))
         self.assertEqual(facts[1]['participle_form'], 'past')
         facts = self.examples['When did the Smiths have their house redecorated?']
-        self.assertEqual((facts[0]['time'], facts[1]['object'], facts[1]['causer']), ('unknown', "Smiths' house", 'Smiths'))
+        self.assertEqual((facts[0]['when'], facts[1]['object'], facts[1]['causer']), ('unknown', "Smiths' house", 'Smiths'))
         self.assertEqual(self.examples['She has had a new dress made.'][1]['status'], 'reported')
 
     def test_stop_gerund_and_purpose_infinitive_preserve_different_actions(self):
@@ -2257,14 +2263,14 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual(self.examples['He is too busy to read.'][1]['status'], 'impossible')
         generic = self.examples["The lecturer doesn't allow missing classes."][1]
         specific = self.examples["The teacher doesn't allow the children to miss classes."][1]
-        self.assertEqual((generic['actor'], generic['verb_form'], generic['status'], generic['polarity']),
+        self.assertEqual((participant(generic), generic['verb_form'], generic['status'], generic['polarity']),
                          ('unknown', 'gerund', 'required', 'negative'))
-        self.assertEqual((specific['actor'], specific['verb_form'], specific['status'], specific['polarity']),
+        self.assertEqual((participant(specific), specific['verb_form'], specific['status'], specific['polarity']),
                          ('children', 'infinitive', 'required', 'negative'))
 
     def test_participles_keep_nonfinite_form_and_relative_time(self):
         fact = self.examples['The boy playing in the garden is my son\'s friend.'][0]
-        self.assertEqual((fact['actor'], fact['verb_form'], fact['participle_form'], fact['tense'], fact['aspect']),
+        self.assertEqual((participant(fact), fact['verb_form'], fact['participle_form'], fact['tense'], fact['aspect']),
                          ('boy', 'participle', 'present', 'nonfinite', 'simple'))
         self.assertEqual(fact['temporal_relation'], 'simultaneous with main verb')
         fact = self.examples['Having finished the article he went to bed.'][0]
@@ -2274,35 +2280,35 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_passive_participles_preserve_author_recipient_and_target(self):
         fact = self.examples['He was looking at the pictures drawn by the child.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice'], fact['participle_form']), ('child', 'pictures', 'passive', 'past'))
+        self.assertEqual((participant(fact), fact['object'], fact['voice'], fact['participle_form']), ('child', 'pictures', 'passive', 'past'))
         facts = self.examples['Having been taught good manners he was admired by everybody.']
-        self.assertEqual((facts[0]['actor'], facts[0]['object'], facts[0]['recipient'], facts[0]['aspect']),
+        self.assertEqual((participant(facts[0]), facts[0]['object'], facts[0]['recipient'], facts[0]['aspect']),
                          ('unknown', 'good manners', 'he', 'perfect'))
-        self.assertEqual((facts[1]['actor'], facts[1]['object']), ('everybody', 'he'))
+        self.assertEqual((participant(facts[1]), facts[1]['object']), ('everybody', 'he'))
         fact = self.examples['Being looked at she felt confused.'][0]
-        self.assertEqual((fact['actor'], fact['target'], fact['participle_form']), ('unknown', 'she', 'present'))
+        self.assertEqual((participant(fact), fact['target'], fact['participle_form']), ('unknown', 'she', 'present'))
 
     def test_passive_participle_negative_does_not_make_nested_request_actual(self):
         facts = self.examples['Not having been asked to come in he felt hurt.']
         self.assertEqual((facts[0]['voice'], facts[0]['aspect'], facts[0]['polarity']), ('passive', 'perfect', 'negative'))
-        self.assertEqual((facts[1]['actor'], facts[1]['status']), ('he', 'hypothetical'))
+        self.assertEqual((participant(facts[1]), facts[1]['status']), ('he', 'hypothetical'))
         facts = self.examples["Not having been told the truth he didn't know how to act."]
         self.assertEqual((facts[0]['recipient'], facts[1]['polarity'], facts[2].get('status')), ('he', 'negative', None))
 
     def test_past_participle_does_not_imply_perfect_aspect_or_passive_voice(self):
         fact = self.examples['He likes to wear worn-out clothes.'][-1]
-        self.assertEqual((fact['actor'], fact['action'], fact['participle_form'], fact['voice'], fact['aspect']),
+        self.assertEqual((participant(fact), fact['action'], fact['participle_form'], fact['voice'], fact['aspect']),
                          ('clothes', 'wear out', 'past', 'active', 'simple'))
         fact = self.examples['The clothes sold here are expensive.'][0]
         self.assertEqual((fact['voice'], fact['aspect'], fact['temporal_relation']), ('passive', 'simple', 'simultaneous with main verb'))
         fact = self.examples['At last I found the missing page.'][1]
-        self.assertEqual((fact['actor'], fact['action'], fact['complement']), ('page', 'be', 'missing'))
+        self.assertEqual((participant(fact), fact['action'], fact['complement']), ('page', 'be', 'missing'))
 
     def test_nonfinite_slots_bind_agreement_lemmas_and_owned_causative_objects(self):
         facts = self.examples['They seem to be sleeping now.']
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[1]['action']), ('they', 'they', 'sleep'))
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[1]['action']), ('they', 'they', 'sleep'))
         facts = self.examples['She must have her clock fixed.']
-        self.assertEqual((facts[0]['object'], facts[1]['actor'], facts[1]['action'], facts[1]['causer']),
+        self.assertEqual((facts[0]['object'], participant(facts[1]), facts[1]['action'], facts[1]['causer']),
                          ('her clock', 'unknown', 'fix', 'she'))
         facts = self.examples['He stopped to read a note.']
         self.assertEqual((facts[0]['object'], facts[1]['object']), ('none', 'note'))
@@ -2313,13 +2319,13 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_nonfinite_slots_preserve_passive_actors_and_gerund_owners(self):
         fact = self.examples['He was looking at the pictures drawn by the girl.'][1]
-        self.assertEqual((fact['actor'], fact['object']), ('girl', 'pictures'))
+        self.assertEqual((participant(fact), fact['object']), ('girl', 'pictures'))
         fact = self.examples['Being reconstructed the hotel was empty.'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact['voice']), ('unknown', 'hotel', 'passive'))
+        self.assertEqual((participant(fact), fact['object'], fact['voice']), ('unknown', 'hotel', 'passive'))
         facts = self.examples["I don't mind their phoning me."]
-        self.assertEqual((facts[0]['actor'], facts[1]['actor'], facts[1]['object']), ('user', 'they', 'user'))
+        self.assertEqual((participant(facts[0]), participant(facts[1]), facts[1]['object']), ('user', 'they', 'user'))
         facts = self.examples['Do you mind their joining you?']
-        self.assertEqual((facts[1]['actor'], facts[1]['object']), ('they', 'addressee'))
+        self.assertEqual((participant(facts[1]), facts[1]['object']), ('they', 'addressee'))
         self.assertNotIn('Do you mind your joining you?', self.examples)
 
     def test_lessons_76_80_transformations_and_variants_share_families(self):
@@ -2344,7 +2350,7 @@ class FactTemplateTests(unittest.TestCase):
         whole = self.examples['I saw him buy a newspaper.']
         process = self.examples['I saw him buying a newspaper.']
         for facts in (whole, process):
-            self.assertEqual([(f['actor'], f['action']) for f in facts],
+            self.assertEqual([(participant(f), f['action']) for f in facts],
                              [('user', 'see'), ('he', 'buy')])
             self.assertEqual((facts[1]['tense'], facts[1]['aspect'], facts[1]['status']),
                              ('nonfinite', 'simple', 'reported'))
@@ -2355,25 +2361,25 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_complex_object_keeps_desired_actor_and_negative_complement(self):
         facts = self.examples['I want you to close the window.']
-        self.assertEqual([(f['actor'], f['action'], f['operation']) for f in facts],
+        self.assertEqual([(participant(f), f['action'], f['operation']) for f in facts],
                          [('user', 'want', 'none'), ('addressee', 'close', 'none')])
         self.assertEqual(facts[1]['status'], 'intended')
         facts = self.examples['He expects us not to be late.']
         self.assertEqual((facts[0]['polarity'], facts[1]['polarity'], facts[1]['status']),
                          ('positive', 'negative', 'expected'))
-        self.assertEqual(facts[1]['actor'], 'we')
+        self.assertEqual(participant(facts[1]), 'we')
         self.assertEqual(self.examples['Make him go there.'][1]['status'], 'required')
         self.assertEqual(self.examples['Let me pass.'][1]['status'], 'permitted')
 
     def test_hearsay_and_realization_do_not_become_direct_perception(self):
         facts = self.examples['I hear you speak English.']
         self.assertEqual(facts[0]['evidence'], 'hearsay')
-        self.assertEqual((facts[1]['actor'], facts[1]['tense'], facts[1]['status']),
+        self.assertEqual((participant(facts[1]), facts[1]['tense'], facts[1]['status']),
                          ('addressee', 'present', 'reported'))
         self.assertNotIn('event_view', facts[1])
         self.assertNotIn('verb_form', facts[1])
         heard = self.examples['I heard them speaking English.'][1]
-        self.assertEqual((heard['actor'], heard['tense'], heard['event_view']),
+        self.assertEqual((participant(heard), heard['tense'], heard['event_view']),
                          ('they', 'nonfinite', 'process'))
         facts = self.examples["I saw that he didn't understand anything."]
         self.assertEqual(facts[0]['sense'], 'realize')
@@ -2390,38 +2396,38 @@ class FactTemplateTests(unittest.TestCase):
     def test_last_lessons_do_not_resolve_pronouns_from_neighbouring_stories(self):
         for text, index, role, value in [
             ('I want you to open it.', 1, 'object', 'it'),
-            ("I'd like him to do the shopping.", 1, 'actor', 'he'),
+            ("I'd like him to do the shopping.", 1, 'person', 'he'),
             ('Make him learn them.', 1, 'object', 'them'),
             ('I saw him buy it.', 1, 'object', 'it'),
             ('The mother watched him.', 0, 'object', 'him'),
             ("Don't forget to do it.", 1, 'object', 'it'),
             ('We are still painting it.', 0, 'object', 'it'),
             ('Neither were mine.', 0, 'actor', 'mine'),
-            ('Neither have his friends.', 0, 'actor', 'his friends'),
+            ('Neither have his friends.', 0, 'person', 'his friends'),
             ('So is that one.', 0, 'actor', 'that one')]:
             with self.subTest(text=text):
                 self.assertEqual(self.examples[text][index][role], value)
 
     def test_coordinated_perception_preserves_both_actions_and_local_references(self):
         facts = self.examples['I heard him open the door and come into the room.']
-        self.assertEqual([(f['actor'], f['action']) for f in facts],
+        self.assertEqual([(participant(f), f['action']) for f in facts],
                          [('user', 'hear'), ('he', 'open'), ('he', 'come into')])
         facts = self.examples['I noticed her pick up something and put it into her pocket.']
-        self.assertEqual([(f['actor'], f['object']) for f in facts[1:]],
+        self.assertEqual([(participant(f), f['object']) for f in facts[1:]],
                          [('she', 'something'), ('she', 'something')])
         self.assertEqual(facts[2]['destination'], 'her pocket')
         facts = self.examples['I noticed him walking towards me and stopped to shake hands.']
-        self.assertEqual([(f['actor'], f['action']) for f in facts],
+        self.assertEqual([(participant(f), f['action']) for f in facts],
                          [('user', 'notice'), ('he', 'walk'), ('user', 'stop'), ('user', 'shake hands')])
         self.assertEqual(facts[3]['status'], 'intended')
 
     def test_observed_attempt_does_not_imply_successful_teaching(self):
         facts = self.examples['I watched Mike trying to teach the child to skate.']
-        self.assertEqual([(f['actor'], f['action'], f['status']) for f in facts],
+        self.assertEqual([(participant(f), f['action'], f['status']) for f in facts],
                          [('user', 'watch', 'asserted'), ('Mike', 'try', 'reported'),
                           ('Mike', 'teach', 'hypothetical'), ('child', 'skate', 'hypothetical')])
         facts = self.examples['I like children and I like to watch them playing.']
-        self.assertEqual((facts[-1]['actor'], facts[-1]['status']), ('children', 'hypothetical'))
+        self.assertEqual((participant(facts[-1]), facts[-1]['status']), ('children', 'hypothetical'))
 
     def test_nonfinite_negation_scope_and_arrangements_keep_events_unasserted(self):
         facts = self.examples["He doesn't seem to have recovered after the illness."]
@@ -2431,17 +2437,17 @@ class FactTemplateTests(unittest.TestCase):
         facts = self.examples["I didn't expect him to forget about your birthday."]
         self.assertEqual((facts[0]['polarity'], facts[1]['status']), ('negative', 'hypothetical'))
         facts = self.examples["I've arranged for you to meet the president."]
-        self.assertEqual((facts[1]['actor'], facts[1]['status']), ('addressee', 'planned'))
+        self.assertEqual((participant(facts[1]), facts[1]['status']), ('addressee', 'planned'))
         facts = self.examples["You can't make an omelette without breaking eggs."]
         self.assertEqual((facts[1]['polarity'], facts[1]['status']), ('negative', 'hypothetical'))
 
     def test_prohibitions_keep_the_specific_or_generic_actor(self):
         for text in ["They don't let us park cars here.", "They don't allow us to park cars here."]:
             fact = self.examples[text][1]
-            self.assertEqual((fact['actor'], fact['action'], fact['polarity'], fact['status']),
+            self.assertEqual((participant(fact), fact['action'], fact['polarity'], fact['status']),
                              ('we', 'park', 'negative', 'required'))
         fact = self.examples["They don't allow talking loudly here."][1]
-        self.assertEqual((fact['actor'], fact['verb_form'], fact['polarity']),
+        self.assertEqual((participant(fact), fact['verb_form'], fact['polarity']),
                          ('unknown', 'gerund', 'negative'))
 
     def test_forgetting_and_failure_differ_from_successful_managing(self):
@@ -2457,14 +2463,14 @@ class FactTemplateTests(unittest.TestCase):
         for text, form, view in [('I heard her leave.', 'infinitive', 'whole'),
                                  ('I heard her leaving.', 'participle', 'process')]:
             facts = self.examples[text]
-            self.assertEqual((facts[0]['actor'], facts[0]['object'], facts[1]['actor']),
+            self.assertEqual((participant(facts[0]), facts[0]['object'], participant(facts[1])),
                              ('user', 'her', 'she'))
             self.assertEqual((facts[1]['action'], facts[1]['verb_form'], facts[1]['event_view']),
                              ('leave', form, view))
         facts = self.examples['I watched Robert trying to teach the child to skate.']
-        self.assertEqual([f['actor'] for f in facts], ['user', 'Robert', 'Robert', 'child'])
+        self.assertEqual([participant(f) for f in facts], ['user', 'Robert', 'Robert', 'child'])
         fact = self.examples['I insist on his refusing their idea.'][1]
-        self.assertEqual((fact['actor'], fact['object'], fact['status']), ('he', 'their idea', 'required'))
+        self.assertEqual((participant(fact), fact['object'], fact['status']), ('he', 'their idea', 'required'))
         self.assertNotIn('I heard she leave.', self.examples)
 
     def test_still_negation_distinguishes_continued_absence_from_cessation(self):
@@ -2475,7 +2481,7 @@ class FactTemplateTests(unittest.TestCase):
         self.assertEqual((cessation['polarity'], cessation['continuation'], cessation['negation_scope']),
                          ('negative', 'still', 'continuation'))
         facts = self.examples["It hasn't stopped snowing yet."]
-        self.assertEqual((facts[0]['polarity'], facts[1]['actor'], facts[1]['continuation']),
+        self.assertEqual((facts[0]['polarity'], participant(facts[1]), facts[1]['continuation']),
                          ('negative', 'none', 'yes'))
 
     def test_already_and_yet_do_not_override_aspect_or_question_status(self):
@@ -2500,11 +2506,11 @@ class FactTemplateTests(unittest.TestCase):
 
     def test_temporal_subject_slots_bind_auxiliaries_and_possessives(self):
         fact = self.examples["They haven't washed their faces yet."][0]
-        self.assertEqual((fact['actor'], fact['object']), ('they', 'their faces'))
+        self.assertEqual((participant(fact), fact['object']), ('they', 'their faces'))
         fact = self.examples['Am I still riding my bicycle?'][0]
-        self.assertEqual((fact['actor'], fact['object'], fact.get('status')), ('user', 'my bicycle', None))
-        self.assertEqual(self.examples['I am not still waiting.'][0]['actor'], 'user')
-        self.assertEqual(self.examples['They already know about it.'][0]['actor'], 'they')
+        self.assertEqual((participant(fact), fact['object'], fact.get('status')), ('user', 'my bicycle', None))
+        self.assertEqual(participant(self.examples['I am not still waiting.'][0]), 'user')
+        self.assertEqual(participant(self.examples['They already know about it.'][0]), 'they')
         for text in ["I isn't still waiting.", 'They already knows about it.', 'Are he here yet?',
                      "She haven't washed her face yet."]:
             self.assertNotIn(text, self.examples)
@@ -2526,7 +2532,7 @@ class FactTemplateTests(unittest.TestCase):
                                                 ('Neither have his friends.', 'have', 'his friends', 'negative'),
                                                 ('Neither can I.', 'can', 'user', 'negative')]:
             fact = self.examples[text][0]
-            self.assertEqual((fact['auxiliary'], fact['actor'], fact['polarity']), (auxiliary, actor, polarity))
+            self.assertEqual((fact['auxiliary'], participant(fact), fact['polarity']), (auxiliary, actor, polarity))
             for field in ('action', 'object', 'aspect', 'voice'):
                 self.assertEqual(fact[field], 'unknown')
         self.assertEqual(self.examples['Neither can I.'][0]['modal_meaning'], 'unknown')
@@ -2537,13 +2543,13 @@ class FactTemplateTests(unittest.TestCase):
                                        ('So have I.', 'user', 'have'),
                                        ('So was he.', 'he', 'was')]:
             fact = self.examples[text][0]
-            self.assertEqual((fact['actor'], fact['auxiliary'], fact['action']), (actor, auxiliary, 'unknown'))
+            self.assertEqual((participant(fact), fact['auxiliary'], fact['action']), (actor, auxiliary, 'unknown'))
         self.assertNotIn('Neither am they.', self.examples)
         self.assertNotIn('So does we.', self.examples)
 
     def test_last_lesson_lexical_slots_preserve_meaning_and_determiners(self):
         facts = self.examples['Margaret can also drive a bus.']
-        self.assertEqual((facts[0]['actor'], facts[0]['action'], facts[0]['object']), ('Margaret', 'drive', 'bus'))
+        self.assertEqual((participant(facts[0]), facts[0]['action'], facts[0]['object']), ('Margaret', 'drive', 'bus'))
         self.assertNotIn('Margaret can also drive a bicycle.', self.examples)
         self.assertEqual(self.examples['I also planted some flowers last year.'][0]['quantity'], 'some')
         self.assertEqual(self.examples["I didn't plant any flowers last year either."][0]['quantity'], 'any')
