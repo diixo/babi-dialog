@@ -621,7 +621,8 @@ class FactTemplateTests(unittest.TestCase):
         for text in ['He has a car.', 'He has got a car.', 'They have got a car.',
                      'She has a house of her own.', 'She has got a house of her own.']:
             fact = self.examples[text][0]
-            self.assertEqual((fact['action'], fact['tense'], fact['aspect']), ('have', 'present', 'simple'))
+            action = 'have got' if ' got ' in text else 'have'
+            self.assertEqual((fact['action'], fact['tense'], fact['aspect']), (action, 'present', 'simple'))
         facts = self.examples["I couldn't answer the telephone as I was having a shower."]
         self.assertEqual((facts[1]['action'], facts[1]['object'], facts[1]['tense'], facts[1]['aspect']),
                          ('have', 'shower', 'past', 'continuous'))
@@ -2380,7 +2381,7 @@ class FactTemplateTests(unittest.TestCase):
         fact = self.examples['The clothes sold here are expensive.'][0]
         self.assertEqual((fact['voice'], fact['aspect'], fact['temporal_relation']), ('passive', 'simple', 'simultaneous with main verb'))
         fact = self.examples['At last I found the missing page.'][1]
-        self.assertEqual((participant(fact), fact['action'], fact['complement']), ('page', 'be', 'missing'))
+        self.assertEqual((participant(fact), fact['action'], fact['complement']), ('page', 'miss', 'missing'))
 
     def test_nonfinite_slots_bind_agreement_lemmas_and_owned_causative_objects(self):
         facts = self.examples['They seem to be sleeping now.']

@@ -294,6 +294,7 @@ class FragmentRenderTests(unittest.TestCase):
         annotations['predicate_spans'][1]=annotations['predicate_spans'][0]
         annotations['verb_spans'][1]=annotations['verb_spans'][0]
         facts[1]['predicate']='wants'
+        facts[1]['action']='want'
         with self.assertRaisesRegex(ValueError,'separate fragment'):
             book.render(text,facts,annotations)
 
@@ -992,6 +993,77 @@ class CorpusPredicateTests(unittest.TestCase):
             self.assertFalse((out / 'valid.txt').exists())
 
 
+class VerbFormTests(unittest.TestCase):
+    def test_lexical_head_across_verbal_families(self):
+        cases = [
+            ('Mary is happy.', ['is'], ['is'], 'be'),
+            ('Mary was happy.', ['was'], ['was'], 'be'),
+            ('Mary has a book.', ['has'], ['has'], 'have'),
+            ('Mary does the work.', ['does'], ['does'], 'do'),
+            ('Mary is reading.', ['is reading'], ['reading'], 'read'),
+            ('Mary has read the book.', ['has read'], ['read'], 'read'),
+            ('Mary has been reading.', ['has been reading'], ['reading'], 'read'),
+            ('Mary will have been reading.', ['will have been reading'], ['reading'], 'read'),
+            ('The letter was written.', ['was written'], ['written'], 'write'),
+            ('The letter is being written.', ['is being written'], ['written'], 'write'),
+            ('The letter has been written.', ['has been written'], ['written'], 'write'),
+            ('The letter may have been written.', ['may have been written'], ['written'], 'write'),
+            ('Has Mary written it?', ['Has', 'written'], ['written'], 'write'),
+            ('Does Mary have a book?', ['Does', 'have'], ['have'], 'have'),
+            ("Mary hasn't written it.", ["hasn't written"], ['written'], 'write'),
+            ("She's happy.", ["'s"], ["'s"], 'be'),
+            ("She's reading.", ["'s reading"], ['reading'], 'read'),
+            ("She's read it.", ["'s read"], ['read'], 'read'),
+            ("She'd read it before.", ["'d read"], ['read'], 'read'),
+            ("She'd read it if she had time.", ["'d read"], ['read'], 'read'),
+            ("She's got a book.", ["'s got"], ["'s got"], 'have got'),
+            ('Has Mary got a book?', ['Has', 'got'], ['Has', 'got'], 'have got'),
+            ('Mary has to read it.', ['has to read'], ['read'], 'read'),
+            ('Mary used to read.', ['used to read'], ['read'], 'read'),
+            ('Mary had better read it.', ['had better read'], ['read'], 'read'),
+            ('Mary should have read it.', ['should have read'], ['read'], 'read'),
+            ('Mary is going to read.', ['is going to read'], ['read'], 'read'),
+            ('Mary wants to have read it.', ['to have read'], ['read'], 'read'),
+            ('Having been told, Mary left.', ['Having been told'], ['told'], 'tell'),
+            ('Mary has drunk to our health.', ['has drunk to'], ['drunk to'], 'drink to'),
+            ('Did Mary turn it off?', ['Did', 'turn', 'off'], ['turn', 'off'], 'turn off'),
+            ('The child was looked after.', ['was looked after'], ['looked after'], 'look after'),
+            ('The coat needs dry cleaning.', ['dry cleaning'], ['dry cleaning'], 'dry-clean'),
+        ]
+        for text, predicate, verb, action in cases:
+            with self.subTest(text=text):
+                fact = dict(predicate=' '.join(predicate), action=action)
+                annotations = dict(predicate_spans=[[span(text, p) for p in predicate]],
+                                   verb_spans=[[span(text, v) for v in verb]],
+                                   fragment_spans=[[[0, len(text)]]])
+                validate_fact_spans(text, [fact], annotations)
+
+    def test_auxiliary_cannot_be_selected_in_place_of_present_main_verb(self):
+        for text, predicate, wrong, action in [
+            ('Mary is reading.', 'is reading', 'is', 'read'),
+            ('Mary has read it.', 'has read', 'has', 'read'),
+            ('Mary has been reading.', 'has been reading', 'been', 'read'),
+            ('The letter was written.', 'was written', 'was', 'write'),
+            ('Mary must leave.', 'must leave', 'must', 'leave'),
+        ]:
+            annotations = dict(predicate_spans=[[span(text, predicate)]],
+                               verb_spans=[[span(text, wrong)]],
+                               fragment_spans=[[[0, len(text)]]])
+            with self.subTest(text=text), self.assertRaisesRegex(ValueError, 'outside verb'):
+                validate_fact_spans(text, [dict(predicate=predicate, action=action)], annotations)
+
+    def test_action_must_match_inflection_not_a_semantic_paraphrase(self):
+        for verb, action in [('reading', 'be'), ('written', 'read'), ('went', 'come'),
+                             ('like', 'want'), ('help', 'avoid'), ('missing', 'be'),
+                             ('cleaning', 'dry-clean'), ('goed', 'go'), ('haves', 'have')]:
+            with self.subTest(verb=verb, action=action), self.assertRaisesRegex(ValueError, 'match action'):
+                validate_verb_construction(dict(predicate=verb, action=action), verb)
+        for verb, action in [('apologised', 'apologize'), ('traveling', 'travel'),
+                             ('travelling', 'travel'), ('eavesdropping', 'eavesdrop'),
+                             ('spelt', 'spell'), ('swam and swam', 'swim')]:
+            validate_verb_construction(dict(predicate=verb, action=action), verb)
+
+
 class VerbConstructionTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -1003,6 +1075,41 @@ class VerbConstructionTests(unittest.TestCase):
         fact = record['facts'][index]
         return (fact['predicate'], predicate_from_spans(record['text'], record['verb_spans'][index]),
                 fact['action'])
+
+    def test_reviewed_source_forms_exclude_nouns_and_preserve_lexical_heads(self):
+        for identifier, index, expected in [
+            ('u15-ex4-b04a', 0, ('are', 'are', 'be')),
+            ('u30-e9-c01', 0, ('Is', 'Is', 'be')),
+            ('u30-e1-10', 0, ('Has got', 'Has got', 'have got')),
+            ('u59-e3-b03', 1, ('is', 'is', 'be')),
+            ('u26-e3-06', 1, ("'d like", 'like', 'like')),
+            ('u59-e3-c01', 0, ("couldn't help", 'help', 'help')),
+            ('u59-e2-b07', 0, ('stuck out', 'stuck out', 'stick out')),
+            ('u76-e4-03', 1, ('dry cleaning', 'dry cleaning', 'dry-clean')),
+            ('u80-e1-08', 1, ('missing', 'missing', 'miss')),
+        ]:
+            with self.subTest(identifier=identifier):
+                self.assertEqual(self.forms(identifier, index), expected)
+
+    def test_have_got_candidates_keep_the_whole_lexical_construction(self):
+        library = book.Library()
+        examples = {text: (facts, spans) for _, text, facts, spans in library.generate(29)}
+        for text, expected in [
+            ('He has a car.', ('has', 'has', 'have')),
+            ('He has got a car.', ('has got', 'has got', 'have got')),
+            ('Does he have a car?', ('Does have', 'have', 'have')),
+            ('Has he got a car?', ('Has got', 'Has got', 'have got')),
+            ("She doesn't have a house of her own.", ("doesn't have", 'have', 'have')),
+            ("She hasn't got a house of her own.", ("hasn't got", "hasn't got", 'have got')),
+        ]:
+            facts, spans = examples[text]
+            with self.subTest(text=text):
+                self.assertEqual((facts[0]['predicate'], predicate_from_spans(text, spans['verb_spans'][0]),
+                                  facts[0]['action']), expected)
+        example = next(e for e in self.library.generate(29) if e.text == 'Mary has got a car.')
+        story = book.render_annotation(example)
+        self.assertIn('verb?\thas got\t', story)
+        self.assertIn('action?\thave got\t', story)
 
     def test_prepositional_verbs_keep_their_arguments_in_questions_and_passives(self):
         for identifier, expected, obj in [

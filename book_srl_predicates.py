@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import re
 
+from functools import lru_cache
 from string import Formatter
 
 SPAN_FIELDS = ('predicate_spans', 'fragment_spans', 'verb_spans')
@@ -21,6 +22,7 @@ ELLIPTICAL_VERBS = frozenset((
     'have', 'has', 'had', "'ve", "'d", 'can', "can't", 'cannot', 'could', "couldn't",
     'may', 'might', 'must', "mustn't", 'will', "'ll", "won't", 'would', "wouldn't",
     'shall', 'should', "shouldn't", 'need', "needn't",
+    "isn't", "aren't", "wasn't", "weren't", "haven't", "hasn't", "hadn't", "shan't",
 ))
 MODAL_MARKERS = {
     'have to': ('to',), 'need to': ('to',), 'be to': ('to',),
@@ -30,6 +32,121 @@ MODAL_MARKERS = {
     'be unlikely to': ('unlikely', 'to'), 'be supposed to': ('supposed', 'to'),
 }
 
+# These are spelling checks against an explicitly annotated lemma, not a
+# lemmatizer: no action or source span is inferred or changed at build time.
+IRREGULAR_FORMS = {
+    'be': 'am is are was were been being', 'bear': 'bore born borne',
+    'beat': 'beat beaten', 'become': 'became become', 'begin': 'began begun',
+    'bend': 'bent', 'bet': 'bet betted', 'bite': 'bit bitten', 'bleed': 'bled',
+    'blow': 'blew blown', 'break': 'broke broken', 'breed': 'bred',
+    'bring': 'brought', 'build': 'built', 'burn': 'burned burnt',
+    'burst': 'burst', 'buy': 'bought', 'cast': 'cast', 'catch': 'caught',
+    'choose': 'chose chosen', 'come': 'came come', 'cost': 'cost', 'cut': 'cut',
+    'deal': 'dealt', 'dig': 'dug', 'do': 'does did done', 'draw': 'drew drawn',
+    'dream': 'dreamed dreamt', 'drink': 'drank drunk', 'drive': 'drove driven',
+    'eat': 'ate eaten', 'fall': 'fell fallen', 'feed': 'fed', 'feel': 'felt',
+    'fight': 'fought', 'find': 'found', 'fit': 'fit fitted', 'fly': 'flew flown',
+    'forbid': 'forbade forbidden', 'forget': 'forgot forgotten',
+    'forgive': 'forgave forgiven', 'freeze': 'froze frozen',
+    'get': 'got gotten', 'give': 'gave given', 'go': 'goes went gone',
+    'grow': 'grew grown', 'hang': 'hung hanged', 'have': 'has had',
+    'hear': 'heard', 'hide': 'hid hidden', 'hit': 'hit', 'hold': 'held',
+    'hurt': 'hurt', 'keep': 'kept', 'kneel': 'knelt kneeled',
+    'knit': 'knit knitted', 'know': 'knew known', 'lay': 'laid', 'lead': 'led',
+    'lean': 'leaned leant', 'learn': 'learned learnt', 'leave': 'left',
+    'lend': 'lent', 'let': 'let', 'lie': 'lay lain lied', 'light': 'lit lighted',
+    'lose': 'lost', 'make': 'made', 'mean': 'meant', 'meet': 'met',
+    'misunderstand': 'misunderstood', 'overhear': 'overheard', 'pay': 'paid',
+    'prove': 'proved proven', 'put': 'put', 'quit': 'quit quitted',
+    'read': 'read', 'proofread': 'proofread', 'ride': 'rode ridden',
+    'ring': 'rang rung', 'rise': 'rose risen', 'run': 'ran run', 'say': 'said',
+    'see': 'saw seen', 'sell': 'sold', 'send': 'sent', 'set': 'set',
+    'sew': 'sewed sewn', 'shake': 'shook shaken', 'shave': 'shaved shaven',
+    'shine': 'shone shined', 'shoot': 'shot', 'show': 'showed shown',
+    'shrink': 'shrank shrunk', 'shut': 'shut', 'sing': 'sang sung', 'sink': 'sank sunk',
+    'sit': 'sat', 'sleep': 'slept', 'smell': 'smelled smelt', 'speak': 'spoke spoken',
+    'spell': 'spelled spelt', 'spend': 'spent', 'spill': 'spilled spilt',
+    'spoil': 'spoiled spoilt', 'spread': 'spread', 'stand': 'stood',
+    'steal': 'stole stolen', 'stick': 'stuck', 'sting': 'stung', 'strike': 'struck',
+    'swear': 'swore sworn', 'sweep': 'swept', 'swim': 'swam swum', 'swing': 'swung',
+    'take': 'took taken', 'teach': 'taught', 'tear': 'tore torn', 'tell': 'told',
+    'think': 'thought', 'throw': 'threw thrown', 'understand': 'understood',
+    'wake': 'woke woken waked', 'wear': 'wore worn', 'win': 'won',
+    'wind': 'wound', 'write': 'wrote written',
+}
+DOUBLED_ENDINGS = frozenset(('admit begin commit control eavesdrop equip forget occur omit '
+                           'permit prefer refer regret submit transfer').split())
+BRITISH_DOUBLE_L = frozenset(('cancel dial label model quarrel travel').split())
+CONTRACTED_HEADS = {"'m": ('be',), "'re": ('be',), "'s": ('be', 'have'),
+                    "'ve": ('have',), "'d": ('have', 'would'), "'ll": ('will',)}
+PREDICATE_OPERATORS = frozenset((
+    "am is are was were be been being have has had having do does did "
+    "can cannot could may might must will would shall should need needs dare "
+    "get gets got gotten getting going used use able likely unlikely supposed "
+    "better rather to not never and or 'm 're 's 've 'd 'll"
+).split())
+
+
+def _surface_words(value: str) -> str:
+    return value.casefold().translate(str.maketrans({'‘': "'", '’': "'", 'ʼ': "'", '‐': '-', '‑': '-'}))
+
+
+@lru_cache(maxsize=None)
+def _head_forms(lemma: str) -> frozenset[str]:
+    """Permitted spellings of a supplied lexical head (including UK/US forms)."""
+    if lemma == 'be':
+        return frozenset(('be ' + IRREGULAR_FORMS['be']).split())
+    consonant_y = bool(re.search(r'[^aeiou]y$', lemma))
+    third = (lemma[:-1] + 'ies' if consonant_y else
+             lemma + 'es' if re.search(r'(?:s|sh|ch|x|z|o)$', lemma) else lemma + 's')
+    if lemma == 'have':
+        third = 'has'
+    if lemma.endswith('ie'):
+        ing = lemma[:-2] + 'ying'
+    elif lemma.endswith('e') and not lemma.endswith(('ee', 'oe', 'ye')):
+        ing = lemma[:-1] + 'ing'
+    else:
+        ing = lemma + 'ing'
+    doubled = lemma in DOUBLED_ENDINGS or (bool(re.search(r'[^aeiou][aeiou][^aeiouwxy]$', lemma))
+                                          and len(re.findall('[aeiou]', lemma)) == 1)
+    if doubled:
+        ing = lemma + lemma[-1] + 'ing'
+    forms = {lemma, third, ing}
+    if lemma in IRREGULAR_FORMS:
+        forms.update(IRREGULAR_FORMS[lemma].split())
+    else:
+        forms.add(lemma[:-1] + 'ied' if consonant_y else
+                  lemma + 'd' if lemma.endswith('e') else
+                  lemma + lemma[-1] + 'ed' if doubled else lemma + 'ed')
+    if lemma in BRITISH_DOUBLE_L:
+        forms.update((lemma + 'led', lemma + 'ling'))
+    return frozenset(forms)
+
+
+def _head_matches(surface: str, lemma: str) -> bool:
+    if surface.endswith("n't"):
+        surface = surface[:-3]
+    if lemma in CONTRACTED_HEADS.get(surface, ()):
+        return True
+    # A stored American lemma can annotate the British source spelling.
+    if lemma.endswith('ize') and surface.startswith(lemma[:-3] + 'is'):
+        surface = lemma[:-3] + 'iz' + surface[len(lemma) - 1:]
+    return surface in _head_forms(lemma)
+
+
+def _lexical_form_matches(surface: str, action: str) -> bool:
+    if action == 'dry-clean':
+        return surface.startswith(('dry ', 'dry-')) and _head_matches(surface[4:], 'clean')
+    words = surface.split() if '-' in action else re.split(r'[\s-]+', surface)
+    lemma, *tail = action.split()
+    if tail:
+        if words[-len(tail):] != tail:
+            return False
+        words = words[:-len(tail)]
+    # Explicit coordination/repetition can contain several forms of one head.
+    heads = [word for word in words if word not in ('and', 'or')]
+    return bool(heads) and all(_head_matches(word, lemma) for word in heads)
+
 
 def validate_verb_construction(fact: dict, verb: str, label: str = '') -> None:
     """Check stored lexical tails and modal markers, without parsing a sentence.
@@ -38,7 +155,7 @@ def validate_verb_construction(fact: dict, verb: str, label: str = '') -> None:
     is manually authored. Once selected, its tail must survive in the surface
     verb and hence in the predicate, including across template substitutions.
     """
-    surface = verb.casefold().replace('\u2019', "'").replace('\u02bc', "'")
+    surface = _surface_words(verb)
     action = fact.get('action', '')
     if ' ' in action and surface not in ELLIPTICAL_VERBS:
         # Lexicalized participles keep their source hyphen: worn-out / wear out.
@@ -46,6 +163,8 @@ def validate_verb_construction(fact: dict, verb: str, label: str = '') -> None:
         tail = action.casefold().split()[1:]
         if len(words) <= len(tail) or words[-len(tail):] != tail:
             raise ValueError(_prefix(label) + 'Surface verb loses part of its multiword action')
+    if surface not in ELLIPTICAL_VERBS and not _lexical_form_matches(surface, action):
+        raise ValueError(_prefix(label) + f'Surface verb {verb!r} does not match action {action!r}')
     for field in ('modality', 'ability'):
         modal = fact.get(field, '')
         if '_' in modal:
@@ -176,6 +295,17 @@ def validate_fact_spans(text: str, facts: list, annotations: dict, label: str = 
                        for start, end in selected):
                     raise ValueError(_prefix(field_label) + 'A verb must come from its predicate spans')
                 validate_verb_construction(facts[index], predicate_from_spans(text, selected), field_label)
+                # The lexical head cannot be replaced by an auxiliary while
+                # the actual main verb remains elsewhere in the predicate.
+                remainder = ' '.join(''.join(
+                    text[pos] if not any(c <= pos < d for c, d in selected) else ' '
+                    for pos in range(a, b)) for a, b in predicate)
+                for token in _surface_words(remainder).split():
+                    bare = token[:-3] if token.endswith("n't") else token
+                    bare = {'ca': 'can', 'wo': 'will', 'sha': 'shall'}.get(bare, bare)
+                    if bare not in PREDICATE_OPERATORS:
+                        raise ValueError(_prefix(field_label)
+                                         + f'Predicate leaves lexical material outside verb: {token!r}')
     for index, predicate in enumerate(annotations['predicate_spans']):
         start, end = annotations['fragment_spans'][index][0]
         for a, b in predicate:

@@ -4272,7 +4272,7 @@
                     "subject": "{p.entity}",
                     "actor": "person",
                     "person": "{p.entity}",
-                    "action": "have",
+                    "action": "have got",
                     "object": "{n.singular}"
                   },
                   "tense": "present",
@@ -4303,7 +4303,7 @@
               "verb_spans": [
                 [
                   [
-                    13,
+                    9,
                     16
                   ]
                 ]

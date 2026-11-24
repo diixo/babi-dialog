@@ -321,6 +321,27 @@ person?   Mary
 
 `predicate` и `verb` подтверждаются точными координатами. `action` берётся из ручной разметки или согласованной подстановки, а не вычисляется лемматизатором во время сборки.
 
+Правило действует для всех глаголов и всех вариантов шаблонов. `action` сохраняет начальную форму выбранного глагола или лексической конструкции, а не заменяет её смысловым синонимом: `would like` → `like`, `couldn't help` → `help`, `stuck out` → `stick out`. Значение идиомы не превращает её поверхностный глагол в `want`, `avoid` или `be`. Отдельное исключение — явно размеченный эллипсис, описанный в § 5.6.
+
+| Текст | `predicate` | `verb` | `action` |
+| --- | --- | --- | --- |
+| `Mary has a book.` | `has` | `has` | `have` |
+| `Mary has read a book.` | `has read` | `read` | `read` |
+| `Mary has been reading.` | `has been reading` | `reading` | `read` |
+| `Mary does the work.` | `does` | `does` | `do` |
+| `Did Mary write it?` | `Did write` | `write` | `write` |
+| `The letter is being written.` | `is being written` | `written` | `write` |
+| `The letter may have been written.` | `may have been written` | `written` | `write` |
+| `Having been told, Mary left.` — первый факт | `Having been told` | `told` | `tell` |
+| `Mary has drunk to our health.` | `has drunk to` | `drunk to` | `drink to` |
+| `It needs dry cleaning.` — второй факт | `dry cleaning` | `dry cleaning` | `dry-clean` |
+
+Вспомогательные `be`, `have`, `do`, модальные операторы и инфинитивное `to` входят в `predicate`, но не подменяют основной глагол в `verb`. Пассив и перфект также не меняют его начальную форму. При повторе `spoke and spoke` обе сохранённые формы относятся к `action: speak`.
+
+Обладание через `have got` размечается как цельная лексическая конструкция: `has got` → `verb: has got`, `action: have got`; `Has Mary got a car?` → `predicate: Has got`, `verb: Has got`, `action: have got`. Сокращённые и отрицательные формы сохраняются: `'s got`, `'ve got`, `hasn't got`. Это не правило для любого `got`: в `got sent back` основной глагол — `sent back`, действие — `send back`. Подстановки `has` / `has got` меняют одновременно `action` и границы `verb`, в том числе при вопросительном порядке слов.
+
+Общий валидатор проверяет соответствие формы указанной лемме, сохранность частиц и отсутствие пропущенного основного глагола внутри `predicate`. Он учитывает неправильные формы, сокращения, повтор и британские/американские варианты написания. Он проверяет готовую разметку, не создаёт её и не доказывает правильность всех смысловых ролей. Новая нерегулярная форма требует явного дополнения таблицы проверяемых форм в `book_srl_predicates.py`.
+
 ### 5.2. Связки и формы be
 
 `is`, `are`, `was`, `'s` и другие формы сохраняются в `predicate` и `verb`, когда они являются основной глагольной формой факта. В `action` используется `be`.

@@ -47,6 +47,11 @@ in the north-east of England.` — `actor: location`, `location: Newcastle`,
 `action: search for`. Модальность относится к основному действию:
 `has to rely on` → `verb: rely on`, `action: rely on`, `modality: have to`.
 Шаблоны меняют формы и разметку согласованно; каждый вариант проходит проверку.
+Это относится ко всем глагольным формам: `has read` → `verb: read`, `action: read`,
+`was written` → `verb: written`, `action: write`, а смысловое `has` → `action: have`.
+Проверяются также соответствие формы лемме и сохранность основного глагола;
+`action` не заменяется смысловым синонимом. Правила и исключения для эллипсиса
+описаны в [Annotation-rules.md](Annotation-rules.md#verbs).
 Обстоятельства остаются отдельными: `wait for an hour` имеет `action: wait`
 и `duration: an hour`.
 
@@ -214,8 +219,9 @@ object: interesting {noun_1.word}
 В упражнениях на исправление ошибок используются исправленные предложения.
 
 Уроки 26–30 продолжают сравнения наречий и разделяют способ действия, место,
-направление, время и длительность. `have got` при владении получает `action: have`
+направление, время и длительность. `have got` при владении получает `action: have got`
 и `aspect: simple`; в `was having a shower` сохраняется `aspect: continuous`.
+Форма обладания целиком сохраняется в `verb`: `has got`, `'s got`, `hasn't got`.
 Замена `have` на `have got` разрешена только в проверенных шаблонах владения.
 Прямые вопросы получают `type: question`; отрицательный вопрос сохраняет собственную
 полярность, а отдельное `Yes, he does.` — неизвестное действие.

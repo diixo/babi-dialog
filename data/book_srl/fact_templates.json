@@ -19283,6 +19283,10 @@
           "verb_spans": [
             [
               [
+                0,
+                4
+              ],
+              [
                 22,
                 37
               ]
@@ -73129,7 +73133,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "map of the world",
@@ -73167,6 +73171,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -73504,7 +73512,7 @@
           "facts": [
             {
               "actor": "your brother's clothes",
-              "predicate": "are 's",
+              "predicate": "are",
               "action": "be",
               "intention": "none",
               "operation": "none",
@@ -73528,10 +73536,6 @@
               [
                 4,
                 7
-              ],
-              [
-                20,
-                22
               ]
             ]
           ],
@@ -90800,7 +90804,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "money",
@@ -90839,6 +90843,10 @@
           ],
           "verb_spans": [
             [
+              [
+                15,
+                19
+              ],
               [
                 24,
                 27
@@ -113940,7 +113948,7 @@
               "actor": "person",
               "person": "user",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "news",
@@ -113978,7 +113986,7 @@
           "verb_spans": [
             [
               [
-                10,
+                2,
                 13
               ]
             ]
@@ -128540,7 +128548,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "spare time",
@@ -128577,7 +128585,7 @@
           "verb_spans": [
             [
               [
-                11,
+                3,
                 14
               ]
             ]
@@ -146261,7 +146269,7 @@
               "actor": "person",
               "person": "user",
               "predicate": "'d like",
-              "action": "want",
+              "action": "like",
               "intention": "none",
               "operation": "none",
               "object": "none",
@@ -157289,7 +157297,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "spare time",
@@ -157326,7 +157334,7 @@
           "verb_spans": [
             [
               [
-                8,
+                3,
                 11
               ]
             ]
@@ -157344,7 +157352,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "spare time",
@@ -157385,6 +157393,10 @@
           ],
           "verb_spans": [
             [
+              [
+                3,
+                7
+              ],
               [
                 15,
                 18
@@ -160672,7 +160684,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "{possession.word}",
-              "action": "have",
+              "action": "{possession.lemma}",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -160717,7 +160729,7 @@
         {
           "id": "u29-t02",
           "family": "u29-t02",
-          "text": "{possession.question} he {possession.question_tail} a car?",
+          "text": "{possession.question_auxiliary}{possession.question_lexical} he {possession.question_tail} a car?",
           "slots": {
             "possession": "u29_possession_singular"
           },
@@ -160730,7 +160742,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "{possession.question} {possession.question_tail}",
-              "action": "have",
+              "action": "{possession.lemma}",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -160750,11 +160762,11 @@
             [
               [
                 0,
-                21
+                60
               ],
               [
-                25,
-                51
+                64,
+                90
               ]
             ]
           ],
@@ -160762,15 +160774,19 @@
             [
               [
                 0,
-                57
+                96
               ]
             ]
           ],
           "verb_spans": [
             [
               [
-                25,
-                51
+                31,
+                60
+              ],
+              [
+                64,
+                90
               ]
             ]
           ]
@@ -160895,7 +160911,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -160931,7 +160947,7 @@
           "verb_spans": [
             [
               [
-                10,
+                5,
                 13
               ]
             ]
@@ -160949,7 +160965,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -160987,6 +161003,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 10,
                 13
@@ -161226,7 +161246,7 @@
               "actor": "person",
               "person": "she",
               "predicate": "{possession.word}",
-              "action": "have",
+              "action": "{possession.lemma}",
               "intention": "none",
               "operation": "none",
               "object": "house of her own",
@@ -161284,7 +161304,7 @@
               "actor": "person",
               "person": "she",
               "predicate": "{possession.negative}",
-              "action": "have",
+              "action": "{possession.lemma}",
               "intention": "none",
               "operation": "none",
               "object": "house of her own",
@@ -161338,7 +161358,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "three-room flat",
@@ -161374,7 +161394,7 @@
           "verb_spans": [
             [
               [
-                6,
+                2,
                 9
               ]
             ]
@@ -161937,7 +161957,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "'s got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "children",
@@ -161974,7 +161994,7 @@
           "verb_spans": [
             [
               [
-                5,
+                2,
                 8
               ]
             ]
@@ -161992,7 +162012,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "children",
@@ -162032,6 +162052,10 @@
           "verb_spans": [
             [
               [
+                0,
+                3
+              ],
+              [
                 7,
                 10
               ]
@@ -162050,7 +162074,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "children",
@@ -162087,7 +162111,7 @@
           "verb_spans": [
             [
               [
-                10,
+                3,
                 13
               ]
             ]
@@ -162463,7 +162487,7 @@
               "actor": "person",
               "person": "Mary",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "brothers",
@@ -162500,7 +162524,7 @@
           "verb_spans": [
             [
               [
-                9,
+                5,
                 12
               ]
             ]
@@ -162518,7 +162542,7 @@
               "actor": "person",
               "person": "Mary",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "brothers",
@@ -162558,6 +162582,10 @@
           "verb_spans": [
             [
               [
+                0,
+                3
+              ],
+              [
                 9,
                 12
               ]
@@ -162576,7 +162604,7 @@
               "actor": "person",
               "person": "Mary",
               "predicate": "hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "brothers",
@@ -162613,7 +162641,7 @@
           "verb_spans": [
             [
               [
-                12,
+                5,
                 15
               ]
             ]
@@ -162803,7 +162831,7 @@
               "actor": "person",
               "person": "{people.word}",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "three-room flat",
@@ -162841,7 +162869,7 @@
           "verb_spans": [
             [
               [
-                19,
+                14,
                 22
               ]
             ]
@@ -162863,7 +162891,7 @@
               "actor": "person",
               "person": "{people.word}",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "three-room flat",
@@ -162904,6 +162932,10 @@
           "verb_spans": [
             [
               [
+                0,
+                4
+              ],
+              [
                 19,
                 22
               ]
@@ -162926,7 +162958,7 @@
               "actor": "person",
               "person": "{people.word}",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "three-room flat",
@@ -162964,7 +162996,7 @@
           "verb_spans": [
             [
               [
-                22,
+                14,
                 25
               ]
             ]
@@ -162982,7 +163014,7 @@
               "actor": "person",
               "person": "little Ben",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "bicycle",
@@ -163018,7 +163050,7 @@
           "verb_spans": [
             [
               [
-                15,
+                11,
                 18
               ]
             ]
@@ -163036,7 +163068,7 @@
               "actor": "person",
               "person": "little Ben",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "bicycle",
@@ -163075,6 +163107,10 @@
           "verb_spans": [
             [
               [
+                0,
+                3
+              ],
+              [
                 15,
                 18
               ]
@@ -163093,7 +163129,7 @@
               "actor": "person",
               "person": "little Ben",
               "predicate": "hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "bicycle",
@@ -163129,7 +163165,7 @@
           "verb_spans": [
             [
               [
-                18,
+                11,
                 21
               ]
             ]
@@ -163497,7 +163533,7 @@
               "actor": "person",
               "person": "child",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "coloured pencils",
@@ -163533,7 +163569,7 @@
           "verb_spans": [
             [
               [
-                14,
+                10,
                 17
               ]
             ]
@@ -163551,7 +163587,7 @@
               "actor": "person",
               "person": "child",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "coloured pencils",
@@ -163590,6 +163626,10 @@
           "verb_spans": [
             [
               [
+                0,
+                3
+              ],
+              [
                 14,
                 17
               ]
@@ -163608,7 +163648,7 @@
               "actor": "person",
               "person": "child",
               "predicate": "hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "coloured pencils",
@@ -163644,7 +163684,7 @@
           "verb_spans": [
             [
               [
-                17,
+                10,
                 20
               ]
             ]
@@ -164599,7 +164639,7 @@
               "actor": "person",
               "person": "user",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "present",
@@ -164655,7 +164695,7 @@
             ],
             [
               [
-                21,
+                13,
                 24
               ]
             ]
@@ -165617,7 +165657,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "camera",
@@ -165655,6 +165695,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -165816,7 +165860,7 @@
               "actor": "person",
               "person": "Tom",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "large family",
@@ -165854,6 +165898,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                3
+              ],
               [
                 8,
                 11
@@ -165986,7 +166034,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "a brother and two sisters",
@@ -166024,7 +166072,7 @@
           "verb_spans": [
             [
               [
-                12,
+                8,
                 15
               ]
             ]
@@ -166292,7 +166340,7 @@
               "actor": "person",
               "person": "Mr. Brown",
               "predicate": "hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "time",
@@ -166374,7 +166422,7 @@
             ],
             [
               [
-                34,
+                27,
                 37
               ]
             ],
@@ -166773,7 +166821,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "room of your own",
@@ -166812,6 +166860,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -167351,7 +167403,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "brother or sister",
@@ -167391,6 +167443,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -168726,7 +168782,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "{possession.word}",
-              "action": "have",
+              "action": "{possession.lemma}",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -168771,7 +168827,7 @@
         {
           "id": "u30-t07b",
           "family": "u30-t07",
-          "text": "{possession.question} he {possession.question_tail} a car?",
+          "text": "{possession.question_auxiliary}{possession.question_lexical} he {possession.question_tail} a car?",
           "slots": {
             "possession": "u29_possession_singular"
           },
@@ -168784,7 +168840,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "{possession.question} {possession.question_tail}",
-              "action": "have",
+              "action": "{possession.lemma}",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -168804,11 +168860,11 @@
             [
               [
                 0,
-                21
+                60
               ],
               [
-                25,
-                51
+                64,
+                90
               ]
             ]
           ],
@@ -168816,15 +168872,19 @@
             [
               [
                 0,
-                57
+                96
               ]
             ]
           ],
           "verb_spans": [
             [
               [
-                25,
-                51
+                31,
+                60
+              ],
+              [
+                64,
+                90
               ]
             ]
           ]
@@ -168841,7 +168901,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -168877,7 +168937,7 @@
           "verb_spans": [
             [
               [
-                10,
+                5,
                 13
               ]
             ]
@@ -168895,7 +168955,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -168933,6 +168993,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 10,
                 13
@@ -171190,7 +171254,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "pen",
@@ -171228,6 +171292,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -171592,7 +171660,7 @@
               "actor": "person",
               "person": "she",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "black shoes or blue shoes",
@@ -171633,6 +171701,10 @@
           "verb_spans": [
             [
               [
+                0,
+                3
+              ],
+              [
                 8,
                 11
               ]
@@ -171651,7 +171723,7 @@
               "actor": "person",
               "person": "she",
               "predicate": "'s got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "blue shoes",
@@ -171687,7 +171759,7 @@
           "verb_spans": [
             [
               [
-                6,
+                3,
                 9
               ]
             ]
@@ -172909,7 +172981,7 @@
               "actor": "person",
               "person": "Irene's husband",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "expensive car",
@@ -172945,7 +173017,7 @@
           "verb_spans": [
             [
               [
-                20,
+                16,
                 23
               ]
             ]
@@ -172962,8 +173034,8 @@
             {
               "actor": "person",
               "person": "Irene's husband",
-              "predicate": "Has 's got",
-              "action": "have",
+              "predicate": "Has got",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "expensive car",
@@ -172986,10 +173058,6 @@
                 3
               ],
               [
-                9,
-                11
-              ],
-              [
                 20,
                 23
               ]
@@ -173005,6 +173073,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                3
+              ],
               [
                 20,
                 23
@@ -173446,7 +173518,7 @@
               "actor": "person",
               "person": "{person.word}",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "camera",
@@ -173484,6 +173556,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                3
+              ],
               [
                 18,
                 21
@@ -174055,7 +174131,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "nieces",
@@ -174094,6 +174170,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -174856,7 +174936,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "idea",
@@ -174923,6 +175003,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -175977,7 +176061,7 @@
               "actor": "person",
               "person": "she",
               "predicate": "Hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "any",
@@ -176015,6 +176099,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                6
+              ],
               [
                 11,
                 14
@@ -176942,7 +177030,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "cousin",
@@ -176980,6 +177068,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                7
+              ],
               [
                 12,
                 15
@@ -177243,7 +177335,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "this book",
@@ -177281,6 +177373,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -178688,7 +178784,7 @@
               "actor": "person",
               "person": "user",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "children",
@@ -178748,7 +178844,7 @@
           "verb_spans": [
             [
               [
-                5,
+                1,
                 8
               ]
             ],
@@ -178767,7 +178863,7 @@
               "actor": "person",
               "person": "addressee or your friend",
               "predicate": "Have or has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "children",
@@ -178812,6 +178908,14 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
+              [
+                9,
+                15
+              ],
               [
                 28,
                 31
@@ -180051,7 +180155,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "Hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -180089,6 +180193,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                6
+              ],
               [
                 10,
                 13
@@ -181598,7 +181706,7 @@
           "facts": [
             {
               "actor": "it",
-              "predicate": "Is 's",
+              "predicate": "Is",
               "action": "be",
               "intention": "none",
               "operation": "none",
@@ -181624,10 +181732,6 @@
               [
                 0,
                 2
-              ],
-              [
-                25,
-                27
               ]
             ]
           ],
@@ -181660,7 +181764,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "questions",
@@ -181699,6 +181803,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                4
+              ],
               [
                 9,
                 12
@@ -182986,7 +183094,7 @@
               "actor": "person",
               "person": "Nick",
               "predicate": "hasn't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -183021,7 +183129,7 @@
           "verb_spans": [
             [
               [
-                12,
+                5,
                 15
               ]
             ]
@@ -183973,7 +184081,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "work",
@@ -184036,7 +184144,7 @@
           "verb_spans": [
             [
               [
-                8,
+                4,
                 11
               ]
             ],
@@ -185678,7 +185786,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "key",
@@ -185713,7 +185821,7 @@
           "verb_spans": [
             [
               [
-                11,
+                3,
                 14
               ]
             ]
@@ -185951,7 +186059,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "large TV set",
@@ -185986,7 +186094,7 @@
           "verb_spans": [
             [
               [
-                8,
+                4,
                 11
               ]
             ]
@@ -189838,7 +189946,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "unknown",
@@ -189877,6 +189985,10 @@
           ],
           "verb_spans": [
             [
+              [
+                5,
+                9
+              ],
               [
                 14,
                 17
@@ -195026,7 +195138,7 @@
               "actor": "person",
               "person": "user",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "strawberry jam",
@@ -195063,7 +195175,7 @@
           "verb_spans": [
             [
               [
-                5,
+                1,
                 8
               ]
             ]
@@ -195081,7 +195193,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "jam",
@@ -195120,6 +195232,10 @@
           ],
           "verb_spans": [
             [
+              [
+                17,
+                21
+              ],
               [
                 26,
                 29
@@ -202058,7 +202174,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "work",
@@ -202098,6 +202214,10 @@
           ],
           "verb_spans": [
             [
+              [
+                14,
+                18
+              ],
               [
                 23,
                 26
@@ -203047,7 +203167,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "questions",
@@ -203086,6 +203206,10 @@
           ],
           "verb_spans": [
             [
+              [
+                15,
+                19
+              ],
               [
                 24,
                 27
@@ -205704,7 +205828,7 @@
               "actor": "person",
               "person": "Tom",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "friends",
@@ -205741,7 +205865,7 @@
           "verb_spans": [
             [
               [
-                8,
+                4,
                 11
               ]
             ]
@@ -205759,7 +205883,7 @@
               "actor": "person",
               "person": "unknown",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "friends",
@@ -205795,7 +205919,7 @@
           "verb_spans": [
             [
               [
-                8,
+                4,
                 11
               ]
             ]
@@ -207594,7 +207718,7 @@
               "actor": "person",
               "person": "Nick's cousin",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "interesting job",
@@ -207630,7 +207754,7 @@
           "verb_spans": [
             [
               [
-                18,
+                14,
                 21
               ]
             ]
@@ -207648,7 +207772,7 @@
               "actor": "person",
               "person": "Nick's cousin",
               "predicate": "has 's got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "job",
@@ -207691,6 +207815,14 @@
           ],
           "verb_spans": [
             [
+              [
+                17,
+                20
+              ],
+              [
+                25,
+                27
+              ],
               [
                 35,
                 38
@@ -211398,7 +211530,7 @@
               "actor": "person",
               "person": "Nick",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -211436,6 +211568,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                3
+              ],
               [
                 9,
                 12
@@ -212132,7 +212268,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "country-house",
@@ -212171,6 +212307,10 @@
           "verb_spans": [
             [
               [
+                0,
+                4
+              ],
+              [
                 10,
                 13
               ]
@@ -212208,7 +212348,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "country-house",
@@ -212265,7 +212405,7 @@
             ],
             [
               [
-                34,
+                29,
                 37
               ]
             ]
@@ -214475,7 +214615,7 @@
               "actor": "person",
               "person": "Kate",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "Nick's address",
@@ -214514,6 +214654,10 @@
           "verb_spans": [
             [
               [
+                0,
+                3
+              ],
+              [
                 9,
                 12
               ]
@@ -214551,7 +214695,7 @@
               "actor": "person",
               "person": "Kate",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "Nick's address",
@@ -214608,7 +214752,7 @@
             ],
             [
               [
-                33,
+                29,
                 36
               ]
             ]
@@ -217289,7 +217433,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "books",
@@ -217329,6 +217473,10 @@
           "verb_spans": [
             [
               [
+                15,
+                19
+              ],
+              [
                 25,
                 28
               ]
@@ -217362,7 +217510,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "books",
@@ -217420,7 +217568,7 @@
             ],
             [
               [
-                38,
+                33,
                 41
               ]
             ]
@@ -218904,7 +219052,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "Have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "experience",
@@ -218944,6 +219092,10 @@
           "verb_spans": [
             [
               [
+                0,
+                4
+              ],
+              [
                 10,
                 13
               ]
@@ -218977,7 +219129,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "experience",
@@ -219035,7 +219187,7 @@
             ],
             [
               [
-                23,
+                18,
                 26
               ]
             ]
@@ -220760,7 +220912,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "have got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "time",
@@ -220800,6 +220952,10 @@
           "verb_spans": [
             [
               [
+                14,
+                18
+              ],
+              [
                 22,
                 25
               ]
@@ -220833,7 +220989,7 @@
               "actor": "person",
               "person": "we",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "time",
@@ -220891,7 +221047,7 @@
             ],
             [
               [
-                33,
+                29,
                 36
               ]
             ]
@@ -222398,7 +222554,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "car",
@@ -222455,7 +222611,7 @@
             ],
             [
               [
-                20,
+                16,
                 23
               ]
             ]
@@ -229039,7 +229195,7 @@
               "actor": "person",
               "person": "he",
               "predicate": "Has got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "money",
@@ -229078,6 +229234,10 @@
           ],
           "verb_spans": [
             [
+              [
+                0,
+                3
+              ],
               [
                 7,
                 10
@@ -231716,7 +231876,7 @@
               "actor": "person",
               "person": "they",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "children",
@@ -231753,7 +231913,7 @@
           "verb_spans": [
             [
               [
-                13,
+                5,
                 16
               ]
             ]
@@ -411776,8 +411936,8 @@
           "facts": [
             {
               "actor": "it",
-              "predicate": "stuck out a mile",
-              "action": "be",
+              "predicate": "stuck out",
+              "action": "stick out",
               "intention": "none",
               "operation": "none",
               "object": "none",
@@ -411800,7 +411960,7 @@
             [
               [
                 3,
-                19
+                12
               ]
             ]
           ],
@@ -415641,7 +415801,7 @@
             {
               "actor": "person",
               "person": "friend in need",
-              "predicate": "need is",
+              "predicate": "is",
               "action": "be",
               "intention": "none",
               "operation": "none",
@@ -415685,7 +415845,7 @@
             ],
             [
               [
-                31,
+                36,
                 38
               ]
             ],
@@ -416231,7 +416391,7 @@
               "actor": "person",
               "person": "Mrs. Winkship and her niece Martha",
               "predicate": "couldn't help",
-              "action": "avoid",
+              "action": "help",
               "intention": "none",
               "operation": "none",
               "object": "none",
@@ -464132,7 +464292,7 @@
               "actor": "person",
               "person": "user",
               "predicate": "haven't got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "camera",
@@ -464168,7 +464328,7 @@
           "verb_spans": [
             [
               [
-                10,
+                2,
                 13
               ]
             ]
@@ -506877,7 +507037,7 @@
               "actor": "person",
               "person": "addressee",
               "predicate": "'ve got",
-              "action": "have",
+              "action": "have got",
               "intention": "none",
               "operation": "none",
               "object": "time",
@@ -506918,6 +507078,10 @@
           ],
           "verb_spans": [
             [
+              [
+                3,
+                6
+              ],
               [
                 13,
                 16
@@ -536405,7 +536569,7 @@
             ],
             [
               [
-                13,
+                9,
                 21
               ]
             ]
@@ -572245,7 +572409,7 @@
             {
               "actor": "page",
               "predicate": "missing",
-              "action": "be",
+              "action": "miss",
               "intention": "none",
               "operation": "none",
               "object": "none",
@@ -695313,7 +695477,7 @@
         {
           "actor": "person",
           "predicate": "'s got",
-          "action": "have",
+          "action": "have got",
           "intention": "none",
           "operation": "none",
           "object": "bad cold",
@@ -695449,7 +695613,7 @@
         ],
         [
           [
-            117,
+            114,
             120
           ]
         ],

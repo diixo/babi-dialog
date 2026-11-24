@@ -11223,7 +11223,7 @@
           "id": "got",
           "word": "got",
           "title": "Got",
-          "lemma": "have",
+          "lemma": "have got",
           "evidence": [
             {
               "passage": "u03-c98d93a8de85524d-1",
@@ -35539,7 +35539,10 @@
           "positive_prefix": "",
           "positive_verb": "has",
           "negative_prefix": "doesn't ",
-          "negative_verb": "have"
+          "negative_verb": "have",
+          "lemma": "have",
+          "question_auxiliary": "Does",
+          "question_lexical": ""
         },
         {
           "id": "got",
@@ -35556,10 +35559,13 @@
               "end": 11
             }
           ],
-          "positive_prefix": "has ",
-          "positive_verb": "got",
-          "negative_prefix": "hasn't ",
-          "negative_verb": "got"
+          "positive_prefix": "",
+          "positive_verb": "has got",
+          "negative_prefix": "",
+          "negative_verb": "hasn't got",
+          "lemma": "have got",
+          "question_auxiliary": "",
+          "question_lexical": "Has"
         }
       ]
     },
