@@ -13,10 +13,10 @@ def build(library, out=DEFAULT_OUT):
             raise ValueError(f'Unit {unit} has no prepared templates')
         if unit not in library.coverage['completed_units']:
             raise ValueError(f'Unit {unit} is still incomplete')
-        for _, text, facts, _ in library.generate(unit):
-            validate(text, facts)
-            key = ' '.join(text.casefold().split())
-            sentences.setdefault(key, text)
+    for _, text, facts, _ in library.generate_all():
+        validate(text, facts)
+        key = ' '.join(text.casefold().split())
+        sentences.setdefault(key, text)
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     (out / 'sentences.txt').write_text('\n'.join(sentences.values())+'\n',

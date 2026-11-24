@@ -9,6 +9,7 @@ import unittest
 from unittest.mock import patch
 
 import build_book_srl as book
+import build_book_sentences as plain
 from book_srl_corpus import CorpusLibrary, CORPUS_NAME
 
 
@@ -105,6 +106,68 @@ class CorpusTests(unittest.TestCase):
                 path.write_text(json.dumps(data), encoding='utf-8')
                 with self.assertRaises(ValueError):
                     CorpusLibrary(Path(folder))
+
+    def test_additional_source_rows_preserve_all_sentences_and_manual_events(self):
+        records = self.library.additional_records
+        self.assertEqual(len(records), 982)
+        self.assertEqual(len(self.library.additional_by_id), len(records))
+        self.assertFalse(set(self.library.by_id) & set(self.library.additional_by_id))
+        self.assertEqual(sum(len(r['sentences']) for r in records), 1921)
+        self.assertEqual(sum(len(r['facts']) for r in records), 2756)
+        self.assertEqual(len({(r['source']['file'], r['source']['line']) for r in records}),
+                         len(records))
+        self.assertNotIn('extra-7-0252', self.library.additional_by_id)
+        for record in records:
+            with self.subTest(sample=record['id']):
+                self.assertNotIn('unit', record)
+                self.assertNotEqual(record['text'], 'Examples')
+                self.assertEqual(' '.join(record['sentences']), record['text'])
+                self.assertTrue(record['facts'])
+                for field in ('predicate_spans', 'fragment_spans', 'verb_spans'):
+                    self.assertEqual(len(record[field]), len(record['facts']))
+        record = self.library.additional_by_id['extra-7-0565']
+        self.assertEqual(len(record['sentences']), 6)
+        self.assertEqual([fact['action'] for fact in record['facts']],
+                         ['open', 'run out', 'run out', 'make', 'run out',
+                          'hurry', 'run out', 'run out', 'be'])
+        story = book.render(record['text'], record['facts'], record)
+        self.assertEqual(story.splitlines()[0], '1 ' + record['text'])
+        self.assertEqual(story.count(' fragment?\t'), 9)
+
+    def test_additional_schema_and_manual_evidence_are_validated_on_load(self):
+        original = dict(schema_version=1, completed_units=[1],
+                        sentences=[deepcopy(self.library.records[0])],
+                        additional=[deepcopy(self.library.additional_records[0])])
+        cases = [
+            ('missing facts', lambda r: r.pop('facts')),
+            ('empty facts', lambda r: r.update(facts=[])),
+            ('unknown field', lambda r: r.update(unreviewed='raw text')),
+            ('lost sentence', lambda r: r.update(sentences=['Only half of the source.'])),
+            ('source line', lambda r: r['source'].update(line=0)),
+            ('source file', lambda r: r['source'].update(file='')),
+            ('missing spans', lambda r: r.pop('fragment_spans')),
+            ('invalid span', lambda r: r['predicate_spans'][0].__setitem__(0, [0, 1])),
+            ('invalid participant', lambda r: r['facts'][0].update(actor='person', person='none')),
+        ]
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / CORPUS_NAME
+            for label, change in cases:
+                with self.subTest(problem=label):
+                    data = deepcopy(original)
+                    change(data['additional'][0])
+                    path.write_text(json.dumps(data), encoding='utf-8')
+                    with self.assertRaises(ValueError):
+                        CorpusLibrary(Path(folder))
+            for label, identifier in [('additional duplicate', original['additional'][0]['id']),
+                                      ('book ID collision', original['sentences'][0]['id'])]:
+                with self.subTest(problem=label):
+                    data = deepcopy(original)
+                    extra = deepcopy(data['additional'][0])
+                    extra['id'] = identifier
+                    data['additional'].append(extra)
+                    path.write_text(json.dumps(data), encoding='utf-8')
+                    with self.assertRaises(ValueError):
+                        CorpusLibrary(Path(folder))
 
     def test_preparation_and_build_read_json_only_and_preserve_generated_results(self):
         expected = book.build(book.Library())
@@ -290,8 +353,13 @@ class UnifiedBuildTests(unittest.TestCase):
             catalogue=directory/'fact_templates.json'
             before=(catalogue.read_bytes(),catalogue.stat().st_mtime_ns)
             out=directory/'out'
+            real_open = Path.open
+            def library_json_only(path, mode='r', *args, **kwargs):
+                if 'r' in mode and (path.parent != directory or path.suffix != '.json'):
+                    raise AssertionError(f'Input outside the JSON library: {path}')
+                return real_open(path, mode, *args, **kwargs)
             with patch.object(book,'DEFAULT_LIBRARY',directory), patch.object(book,'DEFAULT_OUT',out):
-                with redirect_stdout(io.StringIO()) as output:
+                with patch.object(Path, 'open', library_json_only), redirect_stdout(io.StringIO()) as output:
                     self.assertEqual(book.main([]),0)
             self.assertEqual((catalogue.read_bytes(),catalogue.stat().st_mtime_ns),before)
             self.assertIn('84/84 book units',output.getvalue())
@@ -299,15 +367,39 @@ class UnifiedBuildTests(unittest.TestCase):
                              {'train.txt','valid.txt','test.txt','annotations','questions'})
             self.assertEqual({p.name for p in (out/'annotations').iterdir()},
                              {'train.txt','valid.txt','test.txt'})
-            for target,expected in ((out,12231),(out/'annotations',933)):
+            library = book.Library(directory)
+            annotations = book.AnnotationLibrary(directory)
+            key = lambda text: ' '.join(text.casefold().split())
+            book_texts = {key(text) for unit in range(1, 85)
+                          for _, text, _, _ in library.generate(unit)}
+            annotation_texts = {key(example.text) for unit in range(1, 85)
+                                for example in annotations.generate(unit)}
+            additional_texts = {key(text) for _, _, text, _, _ in library.additional_variants()}
+            self.assertEqual(len(book_texts), 12231)
+            self.assertEqual(len(annotation_texts), 933)
+            self.assertGreaterEqual(len(additional_texts), 982)
+            for target, expected in ((out, book_texts | additional_texts),
+                                     (out/'annotations', annotation_texts | additional_texts)):
                 stories=[]
                 for split in ('train','valid','test'):
                     content=(target/f'{split}.txt').read_text(encoding='utf-8')
                     stories.extend(content.strip().split('\n\n'))
-                self.assertEqual(len(stories),expected)
+                actual = {key(story.splitlines()[0][2:]) for story in stories}
+                self.assertEqual(actual, expected)
+                self.assertEqual(len(stories), len(expected))
                 self.assertTrue(all(story.startswith('1 ') and not story.startswith('1 User: ')
                                     for story in stories))
                 self.assertTrue(all('Assistant:' not in story for story in stories))
+                source = CorpusLibrary(directory).additional_by_id['extra-7-0565']
+                self.assertIn(book.render(source['text'], source['facts'], source).strip(), stories)
+            self.assertEqual({path.name for path in directory.iterdir() if path.is_file()},
+                             {'sentences.json', 'fact_templates.json', 'slot_values.json',
+                              'questions.json', 'nouns.json', 'verbs.json', 'templates.json'})
+            count = plain.build(library, directory/'plain')
+            lines = (directory/'plain'/'sentences.txt').read_text(encoding='utf-8').splitlines()
+            self.assertEqual(count, len(expected_plain := book_texts | additional_texts))
+            self.assertEqual({key(line) for line in lines}, expected_plain)
+            self.assertIn(source['text'], lines)
 
     def test_default_checks_both_libraries_before_writing_any_file(self):
         for problem in ('book facts','annotation placeholder','missing annotation file','incomplete annotation lessons'):

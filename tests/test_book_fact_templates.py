@@ -45,19 +45,97 @@ class FactTemplateTests(unittest.TestCase):
             self.assertEqual(self.examples[source['text']], source['facts'])
         self.assertFalse(expected)
 
+    def test_additional_templates_reconstruct_every_reviewed_source_row(self):
+        templates = {template['id']: template for template in self.library.additional}
+        self.assertEqual(set(templates), set(self.corpus.additional_by_id))
+        self.assertEqual(len(templates), 982)
+        originals = {}
+        for template, bindings, text, facts, annotations in self.library.additional_variants():
+            selected = {name: row['id'] for name, row in bindings.items()}
+            if selected == template['original']:
+                self.assertNotIn(template['id'], originals)
+                originals[template['id']] = (text, facts, annotations)
+        self.assertEqual(set(originals), set(templates))
+        for identifier, source in self.corpus.additional_by_id.items():
+            with self.subTest(sample=identifier):
+                text, facts, annotations = originals[identifier]
+                self.assertEqual(text, source['text'])
+                self.assertEqual(facts, source['facts'])
+                for field in ('predicate_spans', 'fragment_spans', 'verb_spans'):
+                    self.assertEqual(annotations[field], source[field])
+                self.assertEqual(annotations.get('embedded_roles', {}),
+                                 source.get('embedded_roles', {}))
+
+    def test_additional_candidates_change_text_roles_and_verb_forms_together(self):
+        variants = {identifier: [] for identifier in ('extra-7-0559', 'extra-7-0617')}
+        for template, _, text, facts, annotations in self.library.additional_variants():
+            if template['id'] in variants:
+                variants[template['id']].append((text, facts, annotations))
+        self.assertEqual({text for text, _, _ in variants['extra-7-0559']},
+                         {'He rolled out the carpet.', 'He rolled out the map.'})
+        for text, facts, annotations in variants['extra-7-0559']:
+            with self.subTest(text=text):
+                expected = 'carpet' if 'carpet' in text else 'map'
+                self.assertEqual((facts[0]['action'], facts[0]['object']), ('roll out', expected))
+                self.assertIn('verb?\trolled out\t', book.render(text, facts, annotations))
+        self.assertEqual(len(variants['extra-7-0617']), 2)
+        for text, facts, annotations in variants['extra-7-0617']:
+            with self.subTest(text=text):
+                preposition = 'with' if 'speaking with' in text else 'to'
+                self.assertEqual(facts[0]['predicate'], 'is speaking ' + preposition)
+                self.assertEqual(facts[0]['action'], 'speak ' + preposition)
+                self.assertEqual(facts[0]['object'], 'her friend')
+                self.assertTrue(text.endswith('Who do you want to speak to?'))
+                self.assertIn('verb?\tspeaking ' + preposition + '\t',
+                              book.render(text, facts, annotations))
+
+    def test_all_printed_additional_alternatives_are_available_as_candidates(self):
+        expected = {'extra-6-0062': 3, 'extra-6-0077': 2, 'extra-6-0078': 2,
+                    'extra-6-0167': 2, 'extra-7-0027': 2, 'extra-7-0377': 2,
+                    'extra-7-0559': 2, 'extra-7-0617': 2, 'extra-7-0685': 2,
+                    'extra-7-0712': 2, 'extra-7-0771': 2}
+        actual = {identifier: set() for identifier in expected}
+        for template, _, text, _, _ in self.library.additional_variants():
+            if template['id'] in actual:
+                actual[template['id']].add(text)
+        self.assertEqual({identifier: len(texts) for identifier, texts in actual.items()}, expected)
+
+    def test_additional_templates_reject_stale_facts_and_invalid_source_spans(self):
+        cases = [
+            ('manual facts', lambda t: t['facts'][0].update(object='unreviewed object')),
+            ('predicate span', lambda t: t['predicate_spans'][0].__setitem__(0, [0, 1])),
+            ('fragment span', lambda t: t['fragment_spans'][0].__setitem__(0, [0, 1])),
+            ('binding', lambda t: t['original'].update(missing='choice')),
+        ]
+        for label, change in cases:
+            with self.subTest(problem=label):
+                catalogue = deepcopy(self.library.catalogue)
+                template = next(t for t in catalogue['additional'] if t['id'] == 'extra-7-0559')
+                change(template)
+                with self.assertRaises(ValueError):
+                    book.Library(catalogue=catalogue, corpus=self.corpus)
+
     def test_lexical_choices_keep_their_stored_source_evidence(self):
         for domain in self.library.domains.values():
             self.assertTrue(domain['rule'])
             for row in domain['values']:
                 self.assertTrue(row['evidence'], row)
                 for evidence in row['evidence']:
-                    self.assertIn(evidence['unit'], range(1, 85))
-                    if isinstance(evidence.get('sentence'), str):
-                        source = self.corpus.by_id[evidence['sentence']]
-                        self.assertEqual(source['unit'], evidence['unit'])
-                        self.assertEqual(source['text'][evidence['start']:evidence['end']], evidence['text'])
+                    if 'sample' in evidence:
+                        source = self.corpus.additional_by_id[evidence['sample']]
+                        self.assertEqual(evidence['file'], source['source']['file'])
+                        self.assertEqual(evidence['line'], source['source']['line'])
+                        source_text = source.get('source_text', source['text'])
+                        self.assertEqual(source_text[evidence['start']:evidence['end']], evidence['text'])
+                        self.assertNotIn('unit', evidence)
                     else:
-                        self.assertGreater(evidence['line'], 0)
+                        self.assertIn(evidence['unit'], range(1, 85))
+                        if isinstance(evidence.get('sentence'), str):
+                            source = self.corpus.by_id[evidence['sentence']]
+                            self.assertEqual(source['unit'], evidence['unit'])
+                            self.assertEqual(source['text'][evidence['start']:evidence['end']], evidence['text'])
+                        else:
+                            self.assertGreater(evidence['line'], 0)
                     self.assertEqual(evidence['end']-evidence['start'], len(evidence['text']))
                     self.assertEqual(evidence['text'].casefold(), row['word'].casefold())
 

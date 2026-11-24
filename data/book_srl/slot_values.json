@@ -45430,6 +45430,383 @@
           ]
         }
       ]
+    },
+    "source_choice_extra_6_0062": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "in",
+          "evidence": [
+            {
+              "sample": "extra-6-0062",
+              "file": "new 6.txt",
+              "line": 62,
+              "text": "in",
+              "start": 13,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "by",
+          "evidence": [
+            {
+              "sample": "extra-6-0062",
+              "file": "new 6.txt",
+              "line": 62,
+              "text": "by",
+              "start": 16,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "id": "choice_2",
+          "word": "over",
+          "evidence": [
+            {
+              "sample": "extra-6-0062",
+              "file": "new 6.txt",
+              "line": 62,
+              "text": "over",
+              "start": 19,
+              "end": 23
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_6_0077": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "across",
+          "evidence": [
+            {
+              "sample": "extra-6-0077",
+              "file": "new 6.txt",
+              "line": 77,
+              "text": "across",
+              "start": 24,
+              "end": 30
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "over",
+          "evidence": [
+            {
+              "sample": "extra-6-0077",
+              "file": "new 6.txt",
+              "line": 77,
+              "text": "over",
+              "start": 31,
+              "end": 35
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_6_0078": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "along",
+          "evidence": [
+            {
+              "sample": "extra-6-0078",
+              "file": "new 6.txt",
+              "line": 78,
+              "text": "along",
+              "start": 61,
+              "end": 66
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "on",
+          "evidence": [
+            {
+              "sample": "extra-6-0078",
+              "file": "new 6.txt",
+              "line": 78,
+              "text": "on",
+              "start": 67,
+              "end": 69
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_6_0167": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "over",
+          "evidence": [
+            {
+              "sample": "extra-6-0167",
+              "file": "new 6.txt",
+              "line": 167,
+              "text": "over",
+              "start": 10,
+              "end": 14
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "through",
+          "evidence": [
+            {
+              "sample": "extra-6-0167",
+              "file": "new 6.txt",
+              "line": 167,
+              "text": "through",
+              "start": 15,
+              "end": 22
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0027": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "it",
+          "evidence": [
+            {
+              "sample": "extra-7-0027",
+              "file": "new 7.txt",
+              "line": 27,
+              "text": "it",
+              "start": 54,
+              "end": 56
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "trouble",
+          "evidence": [
+            {
+              "sample": "extra-7-0027",
+              "file": "new 7.txt",
+              "line": 27,
+              "text": "trouble",
+              "start": 77,
+              "end": 84
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0377": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "report",
+          "evidence": [
+            {
+              "sample": "extra-7-0377",
+              "file": "new 7.txt",
+              "line": 377,
+              "text": "report",
+              "start": 47,
+              "end": 53
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "work",
+          "evidence": [
+            {
+              "sample": "extra-7-0377",
+              "file": "new 7.txt",
+              "line": 377,
+              "text": "work",
+              "start": 64,
+              "end": 68
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0559": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "carpet",
+          "evidence": [
+            {
+              "sample": "extra-7-0559",
+              "file": "new 7.txt",
+              "line": 559,
+              "text": "carpet",
+              "start": 18,
+              "end": 24
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "map",
+          "evidence": [
+            {
+              "sample": "extra-7-0559",
+              "file": "new 7.txt",
+              "line": 559,
+              "text": "map",
+              "start": 31,
+              "end": 34
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0617": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "with",
+          "evidence": [
+            {
+              "sample": "extra-7-0617",
+              "file": "new 7.txt",
+              "line": 617,
+              "text": "with",
+              "start": 16,
+              "end": 20
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "to",
+          "evidence": [
+            {
+              "sample": "extra-7-0617",
+              "file": "new 7.txt",
+              "line": 617,
+              "text": "to",
+              "start": 23,
+              "end": 25
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0685": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "with",
+          "evidence": [
+            {
+              "sample": "extra-7-0685",
+              "file": "new 7.txt",
+              "line": 685,
+              "text": "with",
+              "start": 15,
+              "end": 19
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "to",
+          "evidence": [
+            {
+              "sample": "extra-7-0685",
+              "file": "new 7.txt",
+              "line": 685,
+              "text": "to",
+              "start": 22,
+              "end": 24
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0712": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "other people",
+          "evidence": [
+            {
+              "sample": "extra-7-0712",
+              "file": "new 7.txt",
+              "line": 712,
+              "text": "other people",
+              "start": 89,
+              "end": 101
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "other people's wishes",
+          "evidence": [
+            {
+              "sample": "extra-7-0712",
+              "file": "new 7.txt",
+              "line": 712,
+              "text": "other people's wishes",
+              "start": 107,
+              "end": 128
+            }
+          ]
+        }
+      ]
+    },
+    "source_choice_extra_7_0771": {
+      "rule": "Explicit alternatives supplied for this source row; keep the same sense and grammatical frame.",
+      "values": [
+        {
+          "id": "choice_0",
+          "word": "on",
+          "evidence": [
+            {
+              "sample": "extra-7-0771",
+              "file": "new 7.txt",
+              "line": 771,
+              "text": "on",
+              "start": 94,
+              "end": 96
+            }
+          ]
+        },
+        {
+          "id": "choice_1",
+          "word": "at",
+          "evidence": [
+            {
+              "sample": "extra-7-0771",
+              "file": "new 7.txt",
+              "line": 771,
+              "text": "at",
+              "start": 115,
+              "end": 117
+            }
+          ]
+        }
+      ]
     }
   }
 }

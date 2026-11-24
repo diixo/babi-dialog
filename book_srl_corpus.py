@@ -88,3 +88,52 @@ class CorpusLibrary:
             self.by_unit[unit].append(record)
         if any(not self.by_unit[unit] for unit in self.completed_units):
             raise ValueError('A completed lesson must contain sentences')
+        # External examples live in the same corpus, without pretending to be
+        # lessons from the book. A complete source row is one training sample.
+        self.additional_records = data.get('additional', [])
+        if not isinstance(self.additional_records, list):
+            raise ValueError('additional must be a list of reviewed samples')
+        self.additional_by_id = {}
+        for record in self.additional_records:
+            required = {'id', 'text', 'sentences', 'source', 'facts', *SPAN_FIELDS}
+            optional = {'embedded_roles', 'source_text', 'alternatives'}
+            if (not isinstance(record, dict) or not required <= record.keys()
+                    or record.keys() - required - optional):
+                raise ValueError('Each additional sample needs text, sentences, source, facts and spans')
+            identifier = record['id']
+            if (not isinstance(identifier, str) or not identifier
+                    or identifier in self.by_id or identifier in self.additional_by_id):
+                raise ValueError(f'Duplicate or invalid additional sample ID: {identifier!r}')
+            text, sentences = record['text'], record['sentences']
+            if (not isinstance(text, str) or not text.strip()
+                    or re.search(r'[\u0400-\u04ff\r\n\t{}]', text)
+                    or not isinstance(sentences, list) or not sentences
+                    or any(not isinstance(s, str) or not re.search('[A-Za-z]', s) for s in sentences)
+                    or ' '.join(sentences) != text):
+                raise ValueError(f'{identifier}: sentences must reconstruct one English source row')
+            source = record.get('source', {})
+            if (not isinstance(source, dict) or set(source) != {'file', 'line'}
+                    or not isinstance(source.get('file'), str) or not source['file']
+                    or type(source.get('line')) is not int or source['line'] < 1):
+                raise ValueError(f'{identifier}: missing source file/line metadata')
+            if not isinstance(record.get('facts'), list) or not record['facts']:
+                raise ValueError(f'{identifier}: missing manual facts')
+            for fact in record['facts']:
+                if (not isinstance(fact, dict)
+                        or not {'actor', 'predicate', 'action', 'intention', 'operation', 'object'} <= fact.keys()
+                        or any(not isinstance(v, str) or not v.strip()
+                               or re.search(r'[\u0400-\u04ff]', v) for v in fact.values())):
+                    raise ValueError(f'{identifier}: incomplete manual facts')
+                validate_actor(fact)
+                if fact.get('type') not in UTTERANCE_TYPES:
+                    raise ValueError(f'{identifier}: missing utterance type')
+            validate_fact_spans(text, record['facts'], record, identifier)
+            cursor = 0
+            for sentence in sentences:
+                end = cursor + len(sentence)
+                if not any(re.search('[A-Za-z]', text[max(cursor,a):min(end,b)])
+                           for selected in record['fragment_spans'] for a,b in selected
+                           if max(cursor,a) < min(end,b)):
+                    raise ValueError(f'{identifier}: a sentence has no annotated fragment')
+                cursor = end + 1
+            self.additional_by_id[identifier] = record

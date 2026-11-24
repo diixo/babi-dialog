@@ -10,7 +10,7 @@ import argparse
 from copy import deepcopy
 from dataclasses import dataclass
 import hashlib
-from itertools import product
+from itertools import chain, product
 import json
 from pathlib import Path
 import re
@@ -164,9 +164,12 @@ class Library:
         self.units = {lesson['unit']: lesson for lesson in catalogue['lessons']}
         if len(catalogue['lessons']) != 84 or set(self.units) != set(range(1,85)):
             raise ValueError('The catalogue must account for all 84 lessons')
+        self.additional = catalogue.get('additional', [])
         seen = set()
-        for lesson in self.units.values():
-            for template in lesson['templates']:
+        groups = [(unit, lesson['templates']) for unit, lesson in self.units.items()]
+        groups.append((None, self.additional))
+        for unit, templates in groups:
+            for template in templates:
                 if template['id'] in seen:
                     raise ValueError(f'Duplicate template: {template["id"]}')
                 seen.add(template['id'])
@@ -193,11 +196,19 @@ class Library:
                 validate_fact_spans(text, facts, annotations, template['id'])
                 if text != template['source']['text']:
                     raise ValueError(f'{template["id"]}: original sentence cannot be reconstructed')
-                if template['source']['unit'] != lesson['unit']:
-                    raise ValueError(f'{template["id"]}: source lesson mismatch')
-                source = corpus.by_id.get(template['source']['sentence'])
-                if source is None or source['id'] != template['id'] or source['unit'] != lesson['unit']:
-                    raise ValueError(f'{template["id"]}: unknown source sentence')
+                if unit is None:
+                    source = corpus.additional_by_id.get(template['source'].get('sample'))
+                    if source is None or source['id'] != template['id']:
+                        raise ValueError(f'{template["id"]}: unknown additional source row')
+                    if (template['sentence_count'] != len(source['sentences'])
+                            or any(template['source'].get(k) != v for k,v in source['source'].items())):
+                        raise ValueError(f'{template["id"]}: source row metadata differs')
+                else:
+                    if template['source']['unit'] != unit:
+                        raise ValueError(f'{template["id"]}: source lesson mismatch')
+                    source = corpus.by_id.get(template['source']['sentence'])
+                    if source is None or source['id'] != template['id'] or source['unit'] != unit:
+                        raise ValueError(f'{template["id"]}: unknown source sentence')
                 if text != source['text'] or facts != source['facts']:
                     raise ValueError(f'{template["id"]}: template differs from the English sentence or its manual facts')
                 for field in SPAN_FIELDS:
@@ -205,7 +216,7 @@ class Library:
                         raise ValueError(f'{template["id"]}: template differs from the manual {field}')
                 if annotations.get('embedded_roles', {}) != source.get('embedded_roles', {}):
                     raise ValueError(f'{template["id"]}: template differs from the manual embedded_roles')
-        if seen != set(corpus.by_id):
+        if seen != set(corpus.by_id) | set(corpus.additional_by_id):
             raise ValueError('Every English sentence must have a template; run build_book_srl.py to synchronize it')
 
     def template_domains(self, template):
@@ -236,7 +247,13 @@ class Library:
         return text, annotations
 
     def variants(self, unit):
-        for template in self.units[unit]['templates']:
+        yield from self._variants(self.units[unit]['templates'])
+
+    def additional_variants(self):
+        yield from self._variants(self.additional)
+
+    def _variants(self, templates):
+        for template in templates:
             domains = self.template_domains(template)
             names = list(domains)
             for values in product(*(domains[name] for name in names)):
@@ -251,6 +268,11 @@ class Library:
     def generate(self, unit):
         for template, _, text, facts, annotations in self.variants(unit):
             yield template['family'], text, facts, annotations
+
+    def generate_all(self):
+        yield from chain.from_iterable(self.generate(unit) for unit in sorted(self.units))
+        for template, _, text, facts, spans in self.additional_variants():
+            yield template['family'], text, facts, spans
 
 
 def question_binding_key(bindings):
@@ -365,23 +387,35 @@ def synchronize_templates(directory=DEFAULT_LIBRARY):
             if template['id'] in templates:
                 raise ValueError(f'Duplicate template: {template["id"]}')
             templates[template['id']] = template
+    for template in old.get('additional', []):
+        if template['id'] in templates:
+            raise ValueError(f'Duplicate template: {template["id"]}')
+        templates[template['id']] = template
+
+    def prepare(record, unit=None):
+        template = deepcopy(templates.get(record['id']))
+        if template is None:
+            family = record['id'] if unit is not None else 'zz-'+record['id']
+            template = dict(id=record['id'], family=family, text=record['text'],
+                slots={}, original={}, constraints=[], facts=deepcopy(record['facts']),
+                **{field: deepcopy(record[field]) for field in SPAN_FIELDS})
+            if 'embedded_roles' in record:
+                template['embedded_roles'] = deepcopy(record['embedded_roles'])
+        if unit is None:
+            template['source'] = dict(sample=record['id'], text=record['text'], **record['source'])
+            template['sentence_count'] = len(record['sentences'])
+        else:
+            template['source'] = dict(sentence=record['id'], unit=unit, text=record['text'])
+        return template
+
     lessons = []
     for unit, records in corpus.by_unit.items():
-        prepared = []
-        for record in records:
-            template = deepcopy(templates.get(record['id']))
-            if template is None:
-                template = dict(id=record['id'], family=record['id'], text=record['text'],
-                    slots={}, original={}, constraints=[], facts=deepcopy(record['facts']),
-                    **{field: deepcopy(record[field]) for field in SPAN_FIELDS})
-                if 'embedded_roles' in record:
-                    template['embedded_roles'] = deepcopy(record['embedded_roles'])
-            template['source'] = dict(sentence=record['id'], unit=unit, text=record['text'])
-            prepared.append(template)
-        lessons.append(dict(unit=unit, templates=prepared))
+        lessons.append(dict(unit=unit, templates=[prepare(record, unit) for record in records]))
     catalogue = dict(schema_version=1, coverage=dict(sentences=len(corpus.records),
         completed_units=corpus.completed_units,
         pending_units=[u for u in range(1,85) if u not in corpus.completed_units]), lessons=lessons)
+    if corpus.additional_records:
+        catalogue['additional'] = [prepare(record) for record in corpus.additional_records]
     return Library(directory, catalogue=catalogue, corpus=corpus)
 
 
@@ -401,19 +435,18 @@ def build(library, out=None, questions=None):
             family = parents[family]
         return family
 
-    for unit in units:
-        for family, text, facts, annotations in library.generate(unit):
-            story = render(text, facts, annotations)
-            key = ' '.join(text.casefold().split())
-            root(family)
-            if key in examples:
-                previous_family, previous_story, _, previous_facts = examples[key]
-                if previous_story != story or previous_facts != facts:
-                    raise ValueError(f'Conflicting facts for {text!r}: {previous_family}, {family}')
-                first, second = sorted((root(previous_family), root(family)))
-                parents[second] = first
-            else:
-                examples[key] = (family, story, validate_story(story), facts)
+    for family, text, facts, annotations in library.generate_all():
+        story = render(text, facts, annotations)
+        key = ' '.join(text.casefold().split())
+        root(family)
+        if key in examples:
+            previous_family, previous_story, _, previous_facts = examples[key]
+            if previous_story != story or previous_facts != facts:
+                raise ValueError(f'Conflicting facts for {text!r}: {previous_family}, {family}')
+            first, second = sorted((root(previous_family), root(family)))
+            parents[second] = first
+        else:
+            examples[key] = (family, story, validate_story(story), facts)
     splits = {name: [] for name in ('train','valid','test')}
     qa = {name: 0 for name in splits}
     fragments = {name: {'single_fragment': 0, 'multi_fragment': 0} for name in splits}
@@ -442,6 +475,7 @@ def build(library, out=None, questions=None):
             for name, stories in question_splits.items():
                 (question_out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
     stats = {'units': units, 'templates': sum(len(library.units[u]['templates']) for u in units),
+            'additional_templates': len(library.additional),
             'examples': len(examples),
             'single_fragment': sum(count['single_fragment'] for count in fragments.values()),
             'multi_fragment': sum(count['multi_fragment'] for count in fragments.values()),
@@ -768,8 +802,8 @@ def split_for(family: str) -> str:
     return 'valid' if bucket < 10 else 'test' if bucket < 20 else 'train'
 
 
-def build_annotations(library, out=None):
-    """Expand the manually annotated synthetic templates for all 84 lessons."""
+def build_annotations(library, out=None, *, additional=()):
+    """Build the synthetic lesson templates and reviewed additional samples."""
     if set(library.units) != set(range(1, 85)):
         raise ValueError('Annotation templates must cover all 84 lessons')
     examples, parents = {}, {}
@@ -782,27 +816,33 @@ def build_annotations(library, out=None):
             family = parents[family]
         return family
 
+    def add(family, label, text, story, sentence_count):
+        key = ' '.join(text.casefold().split())
+        root(family)
+        if key in examples:
+            previous_family, previous_label, old_story, _ = examples[key]
+            if old_story != story:
+                raise ValueError(f'Conflicting annotations for {text!r}: {previous_label}, {label}')
+            first, second = sorted((root(previous_family), root(family)))
+            parents[second] = first
+        else:
+            examples[key] = family, label, story, sentence_count
+
     for unit in range(1, 85):
         by_unit[unit] = set()
         for example in library.generate(unit):
             story = render_annotation(example)
-            key = ' '.join(example.text.casefold().split())
-            root(example.family)
-            if key in examples:
-                previous, old_story = examples[key]
-                if old_story != story:
-                    raise ValueError(f'Conflicting annotations for {example.text!r}: '
-                                     f'{previous.template_id}, {example.template_id}')
-                first, second = sorted((root(previous.family), root(example.family)))
-                parents[second] = first
-            else:
-                examples[key] = (example, story)
+            add(example.family, example.template_id, example.text, story, len(example.sentences))
             by_unit[unit].add(story)
         if not by_unit[unit]:
             raise ValueError(f'Unit {unit} has no annotation examples')
+    additional_ids = set()
+    for template, _, text, facts, spans in additional:
+        additional_ids.add(template['id'])
+        add(template['family'], template['id'], text, render(text, facts, spans), template['sentence_count'])
     datasets = {name: [] for name in ('train', 'valid', 'test')}
-    for example, story in examples.values():
-        datasets[split_for(root(example.family))].append(story)
+    for family, _, story, _ in examples.values():
+        datasets[split_for(root(family))].append(story)
     stats = {name: {'stories': len(stories), 'qa': sum(validate_story(s) for s in stories)}
              for name, stories in datasets.items()}
     if out is not None:
@@ -811,8 +851,9 @@ def build_annotations(library, out=None):
         for name, stories in datasets.items():
             (out / f'{name}.txt').write_text(''.join(stories), encoding='utf-8', newline='\n')
     return {'splits': stats, 'units': {u: len(stories) for u, stories in by_unit.items()},
-            'sentences': sum(len(e.sentences) for e, _ in examples.values()),
-            'unique_examples': len(examples), 'families': len({root(e.family) for e, _ in examples.values()})}
+            'additional_templates': len(additional_ids),
+            'sentences': sum(count for _, _, _, count in examples.values()),
+            'unique_examples': len(examples), 'families': len({root(family) for family, _, _, _ in examples.values()})}
 
 
 def main(argv=None):
@@ -834,7 +875,7 @@ def main(argv=None):
                   + annotation_coverage)
         # Check the optional dataset too before either output can be overwritten.
         if annotation_library is not None:
-            build_annotations(annotation_library)
+            build_annotations(annotation_library, additional=library.additional_variants())
         # build checks every lesson and variant before writing the dataset.
         stats = build(library, args.out, questions=question_library)
         path = args.library / 'fact_templates.json'
@@ -845,7 +886,9 @@ def main(argv=None):
             print(f'{args.out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA; '
                   f'{count["single_fragment"]} single-fragment, {count["multi_fragment"]} multi-fragment')
         print(f'{len(stats["units"])}/84 book units; '
-              f'{stats["templates"]} source sentence templates; {stats["examples"]} unique generated sentences')
+              f'{stats["templates"]} source sentence templates; {stats["examples"]} unique generated examples')
+        if stats['additional_templates']:
+            print(f'{stats["additional_templates"]} additional source-row templates; multi-sentence rows stay together')
         print(f'Fragments: {stats["single_fragment"]} single-fragment '
               f'({stats["single_fragment"] / stats["examples"]:.2%}), '
               f'{stats["multi_fragment"]} multi-fragment '
@@ -857,7 +900,7 @@ def main(argv=None):
                   f'{count["stories"]} stories, {count["qa"]} natural questions')
         if annotation_library is not None:
             annotation_out = args.out / 'annotations'
-            annotation_stats = build_annotations(annotation_library, annotation_out)
+            annotation_stats = build_annotations(annotation_library, annotation_out, additional=library.additional_variants())
             for name, count in annotation_stats['splits'].items():
                 print(f'{annotation_out / (name+".txt")}: {count["stories"]} stories, {count["qa"]} QA')
             print(f'{len(annotation_stats["units"])}/84 annotation units; '
