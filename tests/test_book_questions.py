@@ -37,6 +37,19 @@ class NaturalQuestionTests(unittest.TestCase):
                          'An interesting article.')
         self.assertNotIn('What are you reading?',self.answers("She's writing an interesting article."))
 
+    def test_new_passive_candidates_remain_patients_in_human_questions(self):
+        pairs = self.answers('The dietary supplements are to be taken after meals.')
+        self.assertEqual(pairs['When are the dietary supplements to be taken?'], 'After meals.')
+        self.assertNotIn('What are the dietary supplements to do?', pairs)
+        self.assertNotIn('When did the dietary supplements take meals?', pairs)
+
+    def test_authored_names_preserve_negation_and_cross_clause_reference(self):
+        pairs = self.answers("Emily hadn't seen anything like that before.")
+        self.assertEqual(pairs['Had Emily seen anything like that before?'], 'No.')
+        pairs = self.answers('Daniel was having a rest after he had been working so hard all day.')
+        self.assertEqual(pairs['Who was having a rest?'], 'Daniel.')
+        self.assertEqual(pairs['How long had Daniel been working?'], 'All day.')
+
     def test_negation_intention_and_reported_questions_preserve_their_meaning(self):
         self.assertEqual(self.answers('Mark is not very practical.')['Is Mark very practical?'],'No.')
         pairs=self.answers('I want to give him a book as a present.')

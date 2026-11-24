@@ -71,20 +71,21 @@ class FactTemplateTests(unittest.TestCase):
         for template, _, text, facts, annotations in self.library.additional_variants():
             if template['id'] in variants:
                 variants[template['id']].append((text, facts, annotations))
-        self.assertEqual({text for text, _, _ in variants['extra-7-0559']},
-                         {'He rolled out the carpet.', 'He rolled out the map.'})
+        self.assertEqual(len(variants['extra-7-0559']), 10)
+        self.assertTrue({'He rolled out the carpet.', 'He rolled out the map.'}
+                        <= {text for text, _, _ in variants['extra-7-0559']})
         for text, facts, annotations in variants['extra-7-0559']:
             with self.subTest(text=text):
-                expected = 'carpet' if 'carpet' in text else 'map'
+                expected = text.removeprefix('He rolled out the ').removesuffix('.')
                 self.assertEqual((facts[0]['action'], facts[0]['object']), ('roll out', expected))
                 self.assertIn('verb?\trolled out\t', book.render(text, facts, annotations))
-        self.assertEqual(len(variants['extra-7-0617']), 2)
+        self.assertGreaterEqual(len(variants['extra-7-0617']), 2)
         for text, facts, annotations in variants['extra-7-0617']:
             with self.subTest(text=text):
                 preposition = 'with' if 'speaking with' in text else 'to'
                 self.assertEqual(facts[0]['predicate'], 'is speaking ' + preposition)
                 self.assertEqual(facts[0]['action'], 'speak ' + preposition)
-                self.assertEqual(facts[0]['object'], 'her friend')
+                self.assertIn(facts[0]['object'], text.split('.')[0])
                 self.assertTrue(text.endswith('Who do you want to speak to?'))
                 self.assertIn('verb?\tspeaking ' + preposition + '\t',
                               book.render(text, facts, annotations))
@@ -95,10 +96,11 @@ class FactTemplateTests(unittest.TestCase):
                     'extra-7-0559': 2, 'extra-7-0617': 2, 'extra-7-0685': 2,
                     'extra-7-0712': 2, 'extra-7-0771': 2}
         actual = {identifier: set() for identifier in expected}
-        for template, _, text, _, _ in self.library.additional_variants():
+        for template, bindings, _, _, _ in self.library.additional_variants():
             if template['id'] in actual:
-                actual[template['id']].add(text)
-        self.assertEqual({identifier: len(texts) for identifier, texts in actual.items()}, expected)
+                actual[template['id']].add(bindings['choice']['id'])
+        for identifier, count in expected.items():
+            self.assertTrue({f'choice_{i}' for i in range(count)} <= actual[identifier], identifier)
 
     def test_additional_templates_reject_stale_facts_and_invalid_source_spans(self):
         cases = [
@@ -119,6 +121,11 @@ class FactTemplateTests(unittest.TestCase):
         for domain in self.library.domains.values():
             self.assertTrue(domain['rule'])
             for row in domain['values']:
+                if row.get('origin') == 'manual':
+                    self.assertTrue(row['word'].strip())
+                    self.assertNotIn('evidence', row, 'Authored candidates must not invent source quotations')
+                    self.assertLessEqual(len(domain['values']), 10)
+                    continue
                 self.assertTrue(row['evidence'], row)
                 for evidence in row['evidence']:
                     if 'sample' in evidence:
@@ -138,6 +145,39 @@ class FactTemplateTests(unittest.TestCase):
                             self.assertGreater(evidence['line'], 0)
                     self.assertEqual(evidence['end']-evidence['start'], len(evidence['text']))
                     self.assertEqual(evidence['text'].casefold(), row['word'].casefold())
+
+    def test_new_book_choices_change_one_reviewed_slot_at_a_time(self):
+        expanded_units = set()
+        for unit in range(1, 85):
+            for template, bindings, _, _, _ in self.library.variants(unit):
+                changed = [name for name, row in bindings.items()
+                           if row['id'] != template['original'][name]]
+                if any(bindings[name].get('origin') == 'manual' for name in changed):
+                    self.assertEqual(len(changed), 1, template['id'])
+                    expanded_units.add(unit)
+        self.assertEqual(expanded_units, set(range(1, 85)))
+
+    def test_authored_additional_choices_preserve_lexical_frames_and_actions(self):
+        selected = {'extra-6-0066', 'extra-6-0075', 'extra-6-0079', 'extra-7-0030', 'extra-7-0199'}
+        variants = {key: [] for key in selected}
+        for template, _, text, facts, _ in self.library.additional_variants():
+            if template['id'] in selected:
+                variants[template['id']].append((text, facts))
+        self.assertIn('We ended up renting a cartoon instead of going to the theatre.',
+                      {text for text, _ in variants['extra-6-0066']})
+        for text, _ in variants['extra-6-0079']:
+            self.assertIn('wheelchair', text)
+            self.assertNotIn('scooter', text)
+        for text, _ in variants['extra-7-0030']:
+            self.assertRegex(text, r'in an [aeiou]')
+        for text, _ in variants['extra-7-0199']:
+            self.assertNotIn('take a cushion', text)
+            self.assertNotIn('take a bench', text)
+        text, facts = next((text, facts) for text, facts in variants['extra-6-0075']
+                           if 'where he works' in text)
+        self.assertEqual(facts[1]['predicate'], 'works')
+        self.assertEqual(facts[1]['action'], 'work')
+        self.assertEqual(facts[1]['where'], 'unknown')
 
     def test_shared_bindings_change_grammar_and_facts_together(self):
         facts = self.examples["She's writing an interesting article."]
