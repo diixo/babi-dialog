@@ -74,12 +74,6 @@ class BookSRLTests(unittest.TestCase):
         perfect = self.example(45, 'John has just written the book.')
         self.assertEqual(perfect.sentences[0]['predicates'][0]['aspect'], 'perfect')
 
-    def test_new_named_people_keep_pronouns_bound_across_sentences(self):
-        for name, pronoun, possessive in [('Daniel', 'He', 'his'), ('Emily', 'She', 'her')]:
-            example = self.example(16, f'{name} owns a car. {pronoun} likes {possessive} car.')
-            for sentence in example.sentences:
-                self.assertEqual(sentence['predicates'][0]['roles']['person'], name)
-
     def test_annotation_status_is_optional_but_deprecated_values_are_rejected(self):
         example = next(e for unit in self.library.units for e in self.library.generate(unit)
                        if len(e.sentences) == 1 and len(e.sentences[0]['predicates']) == 1
@@ -273,9 +267,9 @@ class BookSRLTests(unittest.TestCase):
             self.assertEqual({p.name for p in a.iterdir()}, {'train.txt', 'valid.txt', 'test.txt'})
             self.assertEqual(set(stats['units']), set(range(1, 85)))
             self.assertTrue(all(stats['units'].values()))
-            self.assertEqual(stats['unique_examples'], 20337)
+            self.assertEqual(stats['unique_examples'], 933)
             self.assertEqual(stats['families'], 197)
-            self.assertEqual(stats['sentences'], 38509)
+            self.assertEqual(stats['sentences'], 1365)
             self.assertEqual(stats['unique_examples'], len(inputs))
 
     def test_generation_always_includes_single_and_multi_sentence_examples(self):

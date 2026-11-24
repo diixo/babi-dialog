@@ -375,8 +375,8 @@ class UnifiedBuildTests(unittest.TestCase):
             annotation_texts = {key(example.text) for unit in range(1, 85)
                                 for example in annotations.generate(unit)}
             additional_texts = {key(text) for _, _, text, _, _ in library.additional_variants()}
-            self.assertEqual(len(book_texts), 17016)
-            self.assertEqual(len(annotation_texts), 20337)
+            self.assertEqual(len(book_texts), 12231)
+            self.assertEqual(len(annotation_texts), 933)
             self.assertGreaterEqual(len(additional_texts), 982)
             for target, expected in ((out, book_texts | additional_texts),
                                      (out/'annotations', annotation_texts | additional_texts)):

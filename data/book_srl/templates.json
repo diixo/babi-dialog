@@ -12,15 +12,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -139,15 +131,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -217,15 +201,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -425,15 +401,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:tea",
@@ -563,15 +531,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -698,15 +658,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "place": [
               {
@@ -853,15 +805,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -925,15 +869,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1061,15 +997,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1139,15 +1067,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1212,15 +1132,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1290,15 +1202,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1363,15 +1267,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1559,15 +1455,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -1831,15 +1719,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -1907,15 +1787,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -1983,15 +1855,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:money",
@@ -2059,15 +1923,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -2135,15 +1991,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -2211,15 +2059,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:money",
@@ -2287,15 +2127,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:money",
@@ -2369,15 +2201,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -2532,15 +2356,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -2655,15 +2471,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -2779,15 +2587,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -2851,15 +2651,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -2927,15 +2719,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -3001,15 +2785,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:money",
@@ -3078,15 +2854,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -3231,15 +2999,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -3306,15 +3066,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:book",
@@ -3380,15 +3132,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -3749,15 +3493,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -3819,15 +3555,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -3895,15 +3623,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4254,15 +3974,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4328,15 +4040,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4419,15 +4123,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4490,15 +4186,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4566,15 +4254,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -4639,15 +4319,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4715,15 +4387,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4789,15 +4453,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4863,15 +4519,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -4943,15 +4591,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -5015,15 +4655,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -5093,15 +4725,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -5224,15 +4848,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:rely_on",
@@ -5295,15 +4911,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:rely_on",
@@ -5375,15 +4983,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -6207,15 +5807,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -6279,15 +5871,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -6357,15 +5941,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -6431,15 +6007,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -6505,15 +6073,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -6588,15 +6148,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -6672,15 +6224,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -6756,15 +6300,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -6843,15 +6379,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:search_for",
@@ -6930,15 +6458,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -7050,15 +6570,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -7126,15 +6638,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7210,15 +6714,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7294,15 +6790,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7387,15 +6875,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -7460,15 +6940,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -7595,15 +7067,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7679,15 +7143,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7763,15 +7219,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7856,15 +7304,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -7944,15 +7384,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -8028,15 +7460,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -8121,15 +7545,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8191,15 +7607,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8267,15 +7675,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8337,15 +7737,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8413,15 +7805,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8534,15 +7918,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8610,15 +7986,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8730,15 +8098,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -8859,15 +8219,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -8943,15 +8295,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -9027,15 +8371,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -9405,15 +8741,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -9836,15 +9164,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -10665,15 +9985,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -10747,15 +10059,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -10829,15 +10133,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -10911,15 +10207,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -10993,15 +10281,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -11075,15 +10355,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -11157,15 +10429,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "n": [
               "noun:car",
@@ -12041,15 +11305,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12112,15 +11368,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12184,15 +11432,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12262,15 +11502,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12334,15 +11566,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12411,15 +11635,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12482,15 +11698,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12553,15 +11761,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12624,15 +11824,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12695,15 +11887,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12768,15 +11952,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:rely_on",
@@ -12881,15 +12057,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -12953,15 +12121,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13030,15 +12190,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13102,15 +12254,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13180,15 +12324,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13252,15 +12388,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13323,15 +12451,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13400,15 +12520,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13473,15 +12585,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13545,15 +12649,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13620,15 +12716,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13691,15 +12779,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13763,15 +12843,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -13946,15 +13018,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -14163,15 +13227,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -14479,15 +13535,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ],
             "v": [
               "verb:read",
@@ -14606,15 +13654,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -16105,15 +15145,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -16179,15 +15211,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
@@ -16249,15 +15273,7 @@
           "slots": {
             "p": [
               "person:mary",
-              "person:john",
-              "person:daniel",
-              "person:michael",
-              "person:robert",
-              "person:david",
-              "person:peter",
-              "person:emily",
-              "person:sarah",
-              "person:laura"
+              "person:john"
             ]
           },
           "sentences": [
